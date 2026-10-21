@@ -18,7 +18,7 @@ export default function Privacy() {
       <h2>Cookies and local storage</h2>
       <p>We store your consent choice, an experiment assignment, your My Jerseys list and, if you log in, your account session in your browser&apos;s local storage. If analytics services are enabled, they may set their own cookies after you consent.</p>
       <h2>Retailer sites</h2>
-      <p>Shopping links take you to retailers whose own privacy policies apply. Affiliate networks may record that you arrived from this site.</p>
+      <p>Shopping links take you to retailers whose own privacy policies apply. We use Impact&apos;s affiliate tracking tag, which may set cookies so a retailer can credit a purchase to this site. Affiliate networks may record that you arrived from this site.</p>
       <h2>Your choices</h2>
       <p>You can decline analytics in the consent banner or clear your browser storage at any time. Contact <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a> with questions.</p>
     </InfoPage>

@@ -60,11 +60,10 @@ Edit `stats.json` (or write a research file and run `apply_research.py`). Always
 
 ## Analytics (needs your IDs)
 
-`src/components/Tags.tsx` loads Google Analytics 4 (`NEXT_PUBLIC_GA_MEASUREMENT_ID`) and Microsoft Clarity (`NEXT_PUBLIC_CLARITY_ID`) on every page; with consent required, GA starts in Consent Mode with analytics cookies denied and Clarity gets its consent signal only after the visitor clicks Allow. `src/components/Analytics.tsx` sends site events to GA4 through `gtag` and, if `NEXT_PUBLIC_ANALYTICS_ENDPOINT` is set, to that URL with `sendBeacon`. Nothing is sent until the visitor accepts the consent banner when `NEXT_PUBLIC_REQUIRE_CONSENT=true`.
+`src/components/Tags.tsx` loads Google Analytics 4 (`NEXT_PUBLIC_GA_MEASUREMENT_ID`), Microsoft Clarity (`NEXT_PUBLIC_CLARITY_ID`) and the Impact.com Universal Tracking Tag (`NEXT_PUBLIC_IMPACT_UTT_URL`, which rewrites retailer links into tracked affiliate links) on every page; with consent required, GA starts in Consent Mode with analytics cookies denied and Clarity gets its consent signal only after the visitor clicks Allow. `src/components/Analytics.tsx` sends site events to GA4 through `gtag` and, if `NEXT_PUBLIC_ANALYTICS_ENDPOINT` is set, to that URL with `sendBeacon`. Nothing is sent until the visitor accepts the consent banner when `NEXT_PUBLIC_REQUIRE_CONSENT=true`.
 
 Events: `page_view` (path, page type), `impression` (player cards: league, player, rank, placement), `affiliate_click` (offer, kind, merchant, league, player, rank, placement, page, CTA variant), `search`, `consent`. These support CTR by league, player, rank, retailer and placement. The `cta_wording` experiment assigns each visitor variant A ("Shop X Jerseys") or B ("Find X Jerseys") and records it with every click.
 
-No GA tag is included in the code. Add your GTM container or GA4 snippet in `src/app/layout.tsx` once you have an ID, and update the privacy policy.
 
 ## SEO
 
