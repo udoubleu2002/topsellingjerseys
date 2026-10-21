@@ -716,3 +716,8 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
   .bs-list li .have-row { grid-column: 2; }
   .bs-rank { font-size: 20px; }
 }
+
+/* Phones: list rows and ranking cards drop the stat lines so names and shop buttons fit; player pages keep them. */
+@media (max-width: 640px) {
+  .lrow-stats, .is-compact { display: none !important; }
+}

@@ -13,11 +13,11 @@ export function Highlights({ player }: { player: Player }) {
 
 export function StatsPanel({ line, compact = false }: { line?: StatLine; compact?: boolean }) {
   if (!line || line.statistics.length === 0) {
-    return <p className="stat-meta">{line?.note ?? "Current-season statistics are not available yet."}</p>;
+    return <p className={`stat-meta${compact ? " is-compact" : ""}`}>{line?.note ?? "Current-season statistics are not available yet."}</p>;
   }
   const comp = line.competition === "postseason" ? "postseason" : "regular season";
   return (
-    <div>
+    <div className={compact ? "stats-wrap is-compact" : "stats-wrap"}>
       <dl className="stats" aria-label={`${line.season} ${comp} statistics`}>
         {line.statistics.map((s) => (
           <div className="stat" key={s.label}>
