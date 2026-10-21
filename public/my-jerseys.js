@@ -11,21 +11,29 @@
   function load() {
     try {
       var d = JSON.parse(localStorage.getItem(KEY) || "null");
-      if (d && Array.isArray(d.items)) return { name: String(d.name || ""), items: d.items.filter(function (i) { return i && LEAGUES.indexOf(i.l) > -1 && i.n; }) };
+      var ok = function (i) { return i && LEAGUES.indexOf(i.l) > -1 && i.n; };
+      if (d && Array.isArray(d.items)) return { name: String(d.name || ""), items: d.items.filter(ok), wish: Array.isArray(d.wish) ? d.wish.filter(ok) : [] };
     } catch (e) {}
-    return { name: "", items: [] };
+    return { name: "", items: [], wish: [] };
   }
   function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} badges(); }
 
+  function find(list, l, n) { for (var k = 0; k < list.length; k++) if (list[k].l === l && list[k].n === n) return k; return -1; }
+  function toggle(b, on, onText, offText) {
+    var label = on ? onText : offText;
+    var t = b.querySelector(".have-text") || b;
+    if (t.textContent !== label) t.textContent = label;
+    if (b.getAttribute("aria-pressed") !== String(on)) b.setAttribute("aria-pressed", String(on));
+  }
+
   function badges() {
-    var items = load().items, n = items.length;
+    var st = load(), items = st.items, n = items.length;
+    document.querySelectorAll("[data-mj-wish]").forEach(function (b) {
+      toggle(b, find(st.wish, b.dataset.league, b.dataset.name) > -1, "★ On my wishlist", "+ Add to wishlist");
+    });
     // "+ I have this jersey" buttons show whether that player is already in the list.
     document.querySelectorAll("[data-mj-have]").forEach(function (b) {
-      var owned = items.some(function (i) { return i.l === b.dataset.league && i.n === b.dataset.name; });
-      var label = owned ? "✓ In My Jerseys" : "+ I have this jersey";
-      var t = b.querySelector(".have-text") || b;
-      if (t.textContent !== label) t.textContent = label;
-      if (b.getAttribute("aria-pressed") !== String(owned)) b.setAttribute("aria-pressed", String(owned));
+      toggle(b, find(items, b.dataset.league, b.dataset.name) > -1, "✓ In My Jerseys", "+ I have this jersey");
     });
     document.querySelectorAll("[data-mj-count]").forEach(function (b) {
       var t = n > 99 ? "99+" : String(n);
@@ -87,17 +95,19 @@
     var shareUrl = "";
     nameIn.value = state.name;
 
-    function add(n) {
-      state.items.push({ l: league, n: n });
+    function add(n, toWish) {
+      if (toWish) { if (find(state.wish, league, n) < 0) state.wish.push({ l: league, n: n }); }
+      else state.items.push({ l: league, n: n });
       save(state);
       render();
-      status.textContent = "Added " + n + " (" + NAMES[league] + ").";
+      status.textContent = "Added " + n + " (" + NAMES[league] + ")" + (toWish ? " to your wishlist." : ".");
       search.value = "";
       results.innerHTML = "";
       search.focus();
     }
 
     function render() {
+      renderWish();
       countH.textContent = headline(state.name, state.items.length);
       groups.innerHTML = "";
       share.hidden = state.items.length === 0;
@@ -138,6 +148,56 @@
       });
     }
 
+    function wishAdd(n) {
+      var w = el("button", "mj-wish-add", "+ Wishlist");
+      w.type = "button";
+      w.setAttribute("aria-label", "Add " + n + " to your wishlist");
+      w.addEventListener("click", function () { add(n, true); });
+      return w;
+    }
+
+    // Wishlist: jerseys the visitor wants. "Got it" moves one into My Jerseys.
+    function renderWish() {
+      var box = app.querySelector("#mj-wish");
+      if (!box) return;
+      var head = app.querySelector("#mj-wish-count");
+      head.textContent = "My wishlist: " + state.wish.length;
+      box.innerHTML = "";
+      if (!state.wish.length) { box.appendChild(el("p", "mj-empty", "Nothing on your wishlist yet. Tap + Add to wishlist next to any player, or + Wishlist in the search above.")); return; }
+      LEAGUES.forEach(function (l) {
+        var mine = state.wish.filter(function (i) { return i.l === l; });
+        if (!mine.length) return;
+        var sec = el("section", "mj-group");
+        sec.style.setProperty("--lg", getComputedStyle(app.querySelector('.mj-tab[data-league="' + l + '"]')).getPropertyValue("--lg"));
+        var h = el("h3", null, NAMES[l] + " ");
+        h.appendChild(el("span", null, String(mine.length)));
+        sec.appendChild(h);
+        var ul = el("ul");
+        mine.forEach(function (it) {
+          var li = el("li", null, it.n);
+          var got = el("button", "mj-got", "Got it");
+          got.type = "button";
+          got.setAttribute("aria-label", "Move " + it.n + " to My Jerseys");
+          got.addEventListener("click", function () {
+            state.wish.splice(state.wish.indexOf(it), 1);
+            state.items.push({ l: it.l, n: it.n });
+            save(state);
+            render();
+            status.textContent = "Moved " + it.n + " to My Jerseys.";
+          });
+          var x = el("button", "mj-remove", "×");
+          x.type = "button";
+          x.setAttribute("aria-label", "Remove " + it.n + " from your wishlist");
+          x.addEventListener("click", function () { state.wish.splice(state.wish.indexOf(it), 1); save(state); render(); });
+          li.appendChild(got);
+          li.appendChild(x);
+          ul.appendChild(li);
+        });
+        sec.appendChild(ul);
+        box.appendChild(sec);
+      });
+    }
+
     var searchSeq = 0;
     function runSearch() {
       var q = norm(search.value.trim());
@@ -163,6 +223,7 @@
           b.appendChild(el("span", "mj-add-plus", "Add"));
           b.addEventListener("click", function () { add(p.n); });
           li.appendChild(b);
+          li.appendChild(wishAdd(p.n));
           results.appendChild(li);
         });
         var typed = search.value.trim().replace(/\s+/g, " ").slice(0, 48);
@@ -175,6 +236,7 @@
           b.appendChild(el("span", "mj-add-plus", "Add"));
           b.addEventListener("click", function () { add(typed); });
           li.appendChild(b);
+          li.appendChild(wishAdd(typed));
           results.appendChild(li);
         }
         status.textContent = shown.length ? "" : "No match in our " + NAMES[league] + " list. You can still add the name as typed.";
@@ -279,12 +341,25 @@
   new MutationObserver(function () { scan(); }).observe(document.body, { childList: true, subtree: true });
   window.addEventListener("storage", badges);
   document.addEventListener("click", function (e) {
+    var w = e.target.closest && e.target.closest("[data-mj-wish]");
+    if (w) {
+      var ws = load(), wl = w.dataset.league, wn = w.dataset.name, wat = find(ws.wish, wl, wn);
+      if (wat > -1) ws.wish.splice(wat, 1); else ws.wish.push({ l: wl, n: wn });
+      save(ws);
+      try { if (window.gtag) window.gtag("event", wat > -1 ? "wishlist_removed" : "wishlist_added", { league: wl, player: wn, placement: "wish_button" }); } catch (err) {}
+      return;
+    }
     var b = e.target.closest && e.target.closest("[data-mj-have]");
     if (!b) return;
     var s = load(), l = b.dataset.league, n = b.dataset.name;
-    var at = -1;
-    s.items.forEach(function (i, k) { if (i.l === l && i.n === n) at = k; });
-    if (at > -1) s.items.splice(at, 1); else s.items.push({ l: l, n: n });
+    var at = find(s.items, l, n);
+    if (at > -1) s.items.splice(at, 1);
+    else {
+      s.items.push({ l: l, n: n });
+      // Owning a jersey takes it off the wishlist.
+      var wi = find(s.wish, l, n);
+      if (wi > -1) s.wish.splice(wi, 1);
+    }
     save(s);
     document.querySelectorAll("[data-mj-count]").forEach(function (c) { c.classList.remove("bump"); void c.offsetWidth; c.classList.add("bump"); });
     try { if (window.gtag) window.gtag("event", at > -1 ? "jersey_removed" : "jersey_added", { league: l, player: n, placement: "have_button" }); } catch (err) {}

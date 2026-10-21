@@ -24,7 +24,7 @@ export default function MyJerseysPage() {
           <div className="wrap">
             <p className="kicker">Your collection</p>
             <h1>My <em>Jerseys</em></h1>
-            <p className="lede">Add every jersey you own, from any player in the NFL, NBA, MLB, NHL or MLS. Then share your count with one link.</p>
+            <p className="lede">Add every jersey you own and every one on your wishlist, from any player in the NFL, NBA, WNBA, MLB, NHL or MLS. Then share your count with one link.</p>
           </div>
         </section>
         {/* The builder's markup is handed to React as HTML so public/my-jerseys.js can change it without hydration errors. */}
@@ -59,6 +59,10 @@ function appHtml(leagues: League[]) {
       <button type="button" class="mj-sec" id="mj-copy">Copy link</button>
       <button type="button" class="mj-clear" id="mj-clear">Clear all</button>
     </div>
+  </div>
+  <div class="mj-card mj-wish-card">
+    <div class="mj-card-head"><span class="mj-wish-icon" aria-hidden="true">★</span><h2 id="mj-wish-count">My wishlist: 0</h2></div>
+    <div id="mj-wish" class="mj-groups"><p class="mj-empty">Nothing on your wishlist yet.</p></div>
   </div>
   <p class="mj-note">Your list is saved in this browser only. Share links carry the list itself, so nothing is stored on our servers.</p>
 </aside>`;

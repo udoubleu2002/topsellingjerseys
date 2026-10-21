@@ -27,16 +27,15 @@ export default function Image() {
         <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 14, display: "flex", background: "#e8442c" }} />
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "58px 40px 58px 72px", width: 560, position: "relative" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-            <div style={{ width: 46, height: 46, background: "#e8442c", borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 36 }}>1</div>
             <div style={{ fontSize: 28, letterSpacing: 2, textTransform: "uppercase", display: "flex" }}>Top Selling Jerseys</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <div style={{ fontSize: 28, letterSpacing: 4, color: "#f3b940", textTransform: "uppercase", display: "flex" }}>Official sales lists</div>
+            <div style={{ fontSize: 28, letterSpacing: 4, color: "#f3b940", textTransform: "uppercase", display: "flex" }}>Latest sales lists</div>
             <div style={{ fontSize: 112, lineHeight: 0.9, textTransform: "uppercase", marginTop: 10, display: "flex", flexDirection: "column" }}>
               <span>Who&apos;s</span>
               <span style={{ fontFamily: "BarlowItalic", color: "#e8442c" }}>No. 1?</span>
             </div>
-            <div style={{ fontFamily: "Public", fontSize: 27, color: "#c5ccd9", marginTop: 20, lineHeight: 1.3, display: "flex" }}>The best-selling jerseys in five leagues, with stats and shop links.</div>
+            <div style={{ fontFamily: "Public", fontSize: 27, color: "#c5ccd9", marginTop: 20, lineHeight: 1.3, display: "flex" }}>The best-selling jerseys in six leagues, with stats and shop links.</div>
           </div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: 14, flex: 1, paddingRight: 64, position: "relative" }}>

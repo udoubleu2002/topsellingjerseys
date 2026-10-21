@@ -671,3 +671,19 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
   .top1-more { display: none; }
 
 }
+
+/* Wishlist buttons and card. */
+.have-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.have-row .have-btn { margin-top: 0; }
+.have-row.have-sm { margin-top: 6px; }
+.have-row.have-sm .have-btn { padding: 4px 9px; min-height: 26px; font-size: 12px; }
+.wish-btn[aria-pressed="true"] { border-color: #ff8fb1; background: rgba(255, 110, 160, .14); color: #ff9dbd; }
+.wish-btn:hover { border-color: #ff8fb1; }
+.mj-results li { display: flex; gap: 6px; align-items: stretch; }
+.mj-results li > .mj-add { flex: 1; min-width: 0; }
+.mj-wish-add { flex: none; padding: 0 12px; border: 1px dashed var(--line-2); border-radius: 8px; background: transparent; color: var(--ink-2); font: 600 13px/1 inherit; cursor: pointer; }
+.mj-wish-add:hover { border-color: #ff8fb1; color: #ff9dbd; }
+.mj-wish-card { margin-top: 16px; }
+.mj-wish-icon { width: 40px; height: 40px; display: grid; place-items: center; font-size: 30px; color: #ff8fb1; flex: none; }
+.mj-got { min-height: 28px; padding: 0 10px; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font: 700 12px/1 inherit; cursor: pointer; }
+.mj-got:hover { background: var(--gold); color: #111; }

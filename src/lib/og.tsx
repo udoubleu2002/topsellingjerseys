@@ -14,7 +14,6 @@ export function renderOg({ kicker, title, sub, tile, rank }: { kicker: string; t
         <div style={{ position: "absolute", right: -160, top: -160, width: 700, height: 700, display: "flex", borderRadius: 700, backgroundImage: "radial-gradient(circle, rgba(232,68,44,0.35), rgba(232,68,44,0) 65%)" }} />
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "64px 72px", flex: 1, position: "relative" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <div style={{ width: 52, height: 52, background: "#b23a2a", borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 40, fontWeight: 800 }}>1</div>
             <div style={{ fontSize: 34, fontWeight: 800, letterSpacing: 2, textTransform: "uppercase" }}>Top Selling Jerseys</div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", maxWidth: tile ? 720 : 1000 }}>
