@@ -737,7 +737,7 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
   .lrow-rank { grid-area: rank; align-self: start; padding-top: 2px; font-size: 26px; }
   .lrow-tile { grid-area: tile; justify-self: end; width: 40px; height: 40px; font-size: 18px; }
   .lrow-name { grid-area: name; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; align-self: end; }
-  .lrow-team { grid-area: team; font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; align-self: start; }
+  .lrow-team { grid-area: team; font-size: 12.5px; line-height: 1.3; align-self: start; }
   .lrow .have-row { grid-area: acts; margin-top: 6px; flex-wrap: nowrap; gap: 6px; align-self: center; }
   .lrow .have-row .have-btn { padding: 0 10px; min-height: 30px; font-size: 12px; white-space: nowrap; }
   .lrow .have-text { display: none; }
