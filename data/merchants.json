@@ -1,0 +1,10 @@
+[
+  {
+    "id": "fanatics",
+    "name": "Fanatics",
+    "homepage": "https://www.fanatics.com/",
+    "searchUrlTemplate": "https://www.fanatics.com/?query={query}",
+    "affiliateEnv": "AFFILIATE_PARAMS_FANATICS",
+    "notes": "Official retail partner of all five leagues. Affiliate program via Impact; add approved tracking parameters in the environment."
+  }
+]

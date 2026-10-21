@@ -1,0 +1,1002 @@
+{
+ "collected": "2026-10-21",
+ "players": {
+  "josh-allen": {
+   "birthday": "1996-05-21",
+   "bsrc": "https://en.wikipedia.org/wiki/Josh_Allen_(quarterback)",
+   "b": [
+    [
+     "Went 23-of-33 for 255 yards and 2 TDs in a 33-30 Week 6 win at Las Vegas",
+     "https://sports.yahoo.com/articles/bills-week-6-stock-report-212728613.html"
+    ],
+    [
+     "His Week 6 TD pass tied Jim Kelly for the most in Bills history, counting the postseason",
+     "https://sports.yahoo.com/articles/bills-week-6-stock-report-212728613.html"
+    ],
+    [
+     "2024 NFL MVP",
+     "https://en.wikipedia.org/wiki/Josh_Allen_(quarterback)"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Pass Yds",
+       "1,504"
+      ],
+      [
+       "Pass TD",
+       "9"
+      ],
+      [
+       "INT",
+       "4"
+      ],
+      [
+       "Rush Yds",
+       "240"
+      ],
+      [
+       "Rush TD",
+       "8"
+      ]
+     ],
+     "source": "https://www.pff.com/nfl/players/josh-allen/46601"
+    }
+   ]
+  },
+  "drake-maye": {
+   "birthday": "2002-08-30",
+   "bsrc": "https://en.wikipedia.org/wiki/Drake_Maye",
+   "b": [
+    [
+     "Threw for 235 yards and 3 TDs, no INTs, in a 26-19 Week 6 win over the Jets",
+     "https://www.cbsnews.com/boston/news/new-england-patriots-new-york-jets-week-6-recap/"
+    ],
+    [
+     "Third straight game with 3+ TD passes, tying a Tom Brady Patriots record",
+     "https://musketfire.com/drake-maye-records-another-tom-brady-feat-with-patriots-week-6-performance-01m58g70hz20"
+    ],
+    [
+     "No. 3 overall pick in the 2024 NFL Draft",
+     "https://en.wikipedia.org/wiki/Drake_Maye"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Cmp/Att",
+       "135/215"
+      ],
+      [
+       "Pass Yds",
+       "1,698"
+      ],
+      [
+       "Pass TD",
+       "14"
+      ],
+      [
+       "INT",
+       "7"
+      ],
+      [
+       "Rush Yds",
+       "209"
+      ]
+     ],
+     "note": "Season totals add the verified Week 6 game line to the verified through-Week 5 line; no single published season total was found."
+    }
+   ]
+  },
+  "saquon-barkley": {
+   "birthday": "1997-02-09",
+   "bsrc": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+   "b": [
+    [
+     "Has 182 rushing yards on 36 carries in four games; missed Weeks 5 and 6 with a hamstring strain",
+     "https://www.espn.com/nfl/player/_/id/3929630/saquon-barkley"
+    ],
+    [
+     "Without him, Philadelphia ran for 35 yards on 13 carries in a 25-14 Week 6 loss to Carolina",
+     "https://philadelphiaeagles.com/news/panthers-vs-eagles-game-recap-2026-nfl-week-6-crucial-catch-tanner-mckee-bryce-young"
+    ],
+    [
+     "Ran for 2,005 yards in 2024 and was named Offensive Player of the Year",
+     "https://en.wikipedia.org/wiki/Saquon_Barkley"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rush Att",
+       "36"
+      ],
+      [
+       "Rush Yds",
+       "182"
+      ],
+      [
+       "Rush TD",
+       "0"
+      ]
+     ],
+     "note": "Four games played."
+    }
+   ]
+  },
+  "jaxon-smith-njigba": {
+   "birthday": "2002-02-14",
+   "bsrc": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+   "b": [
+    [
+     "Caught 12 passes for 134 yards in a 17-14 overtime loss at Denver in Week 6",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-15/jsn-continues-to-roll-in-week-6-loss-to-broncos"
+    ],
+    [
+     "Leads the NFL in receiving yards and has topped 100 yards in five of six games",
+     "https://sports.yahoo.com/articles/jaxon-smith-njigba-dominating-nfl-033717958.html"
+    ],
+    [
+     "Led the NFL in receiving yards in 2025",
+     "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rec",
+       "49"
+      ],
+      [
+       "Rec Yds",
+       "717"
+      ],
+      [
+       "Rec TD",
+       "7"
+      ]
+     ],
+     "source": "https://sports.yahoo.com/articles/jaxon-smith-njigba-dominating-nfl-033717958.html"
+    }
+   ]
+  },
+  "jayden-daniels": {
+   "birthday": "2000-12-18",
+   "bsrc": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+   "b": [
+    [
+     "Went 29-of-40 for 300 yards and 2 TDs in a 23-17 Monday night loss at San Francisco",
+     "https://www.foxsports.com/nfl/week-6-washington-commanders-vs-san-francisco-49ers-oct-19-2026-game-boxscore-11236"
+    ],
+    [
+     "Missed two games after dislocating his left elbow in Week 2; avoided surgery and injured reserve",
+     "https://www.cbssports.com/nfl/news/jayden-daniels-injury-update-commanders-qb-elbow-2026/"
+    ],
+    [
+     "2024 Offensive Rookie of the Year",
+     "https://en.wikipedia.org/wiki/Jayden_Daniels"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Pass Yds",
+       "759"
+      ],
+      [
+       "Pass TD",
+       "5"
+      ],
+      [
+       "INT",
+       "0"
+      ],
+      [
+       "Rush Yds",
+       "213"
+      ]
+     ],
+     "note": "Four games played.",
+     "source": "https://www.rotowire.com/football/player/jayden-daniels-17692"
+    }
+   ]
+  },
+  "patrick-mahomes": {
+   "birthday": "1995-09-17",
+   "bsrc": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+   "b": [
+    [
+     "Threw for 272 yards in a 22-6 Week 6 win over the Chargers, his first game of 2026 without a TD pass",
+     "https://www.rotowire.com/football/headlines/patrick-mahomes-news-no-touchdowns-in-week-6-643196"
+    ],
+    [
+     "Kansas City is unbeaten through five games",
+     "https://www.chiefs.com/team/players-roster/patrick-mahomes/"
+    ],
+    [
+     "Three-time Super Bowl champion and three-time Super Bowl MVP",
+     "https://en.wikipedia.org/wiki/Patrick_Mahomes"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Pass Yds",
+       "1,309"
+      ],
+      [
+       "Pass TD",
+       "9"
+      ],
+      [
+       "INT",
+       "3"
+      ]
+     ],
+     "note": "Five games played; the Chiefs had an earlier bye.",
+     "source": "https://www.chiefs.com/team/players-roster/patrick-mahomes/"
+    }
+   ]
+  },
+  "jalen-hurts": {
+   "birthday": "1998-08-07",
+   "bsrc": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+   "b": [
+    [
+     "Threw for 933 yards, 8 TDs and 3 INTs in five starts as Philadelphia went 2-3",
+     "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-2026-season-blood-clots"
+    ],
+    [
+     "Placed on injured reserve Oct. 17 with blood clots and expected to miss the rest of 2026",
+     "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers"
+    ],
+    [
+     "Super Bowl LIX MVP",
+     "https://en.wikipedia.org/wiki/Jalen_Hurts"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Cmp/Att",
+       "89/154"
+      ],
+      [
+       "Pass Yds",
+       "933"
+      ],
+      [
+       "Pass TD",
+       "8"
+      ],
+      [
+       "INT",
+       "3"
+      ]
+     ],
+     "note": "Five games played before injured reserve."
+    }
+   ],
+   "status": "Injured"
+  },
+  "caleb-williams": {
+   "birthday": "2001-11-18",
+   "bsrc": "https://en.wikipedia.org/wiki/Caleb_Williams",
+   "b": [
+    [
+     "Returned from a hamstring injury in Week 6 to go 30-of-36 for 305 yards and a TD in a 31-23 win at Atlanta",
+     "https://www.chicagobears.com/news/by-the-numbers-bears-week-6-victory-over-falcons"
+    ],
+    [
+     "His 83.3% completion rate in Week 6 is the best by a Bears QB with 30 or more attempts",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/caleb-rips-falcons-in-return-from-injury"
+    ],
+    [
+     "Madden NFL 27 cover athlete, the first Bears player on the game's cover",
+     "https://www.shacknews.com/article/149428/madden-nfl-27-caleb-williams-cover"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Pass Yds",
+       "712"
+      ],
+      [
+       "Pass TD",
+       "3"
+      ],
+      [
+       "INT",
+       "1"
+      ]
+     ],
+     "note": "Three games played (Weeks 1, 2 and 6).",
+     "source": "https://www.espn.com/nfl/player/_/id/4431611/caleb-williams"
+    }
+   ]
+  },
+  "jordan-love": {
+   "birthday": "1998-11-02",
+   "bsrc": "https://en.wikipedia.org/wiki/Jordan_Love",
+   "b": [
+    [
+     "Threw for 276 yards and a TD and ran for another in a 23-13 Week 6 win over Dallas",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-19/jordan-love-packers-streaking-down-cowboys"
+    ],
+    [
+     "Came off a 367-yard game against the Bears in Week 5",
+     "https://www.nfl.com/news/2026-nfl-season-week-6-what-we-learned-from-sunday-s-games"
+    ],
+    [
+     "Signed a four-year, $220 million extension in 2024",
+     "https://en.wikipedia.org/wiki/Jordan_Love"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Pass Yds",
+       "1,684"
+      ],
+      [
+       "Pass TD",
+       "11"
+      ],
+      [
+       "INT",
+       "4"
+      ]
+     ],
+     "source": "https://www.fantasypros.com/nfl/players/jordan-love.php"
+    }
+   ]
+  },
+  "micah-parsons": {
+   "birthday": "1999-05-26",
+   "bsrc": "https://en.wikipedia.org/wiki/Micah_Parsons",
+   "b": [
+    [
+     "Has not played in 2026; still on the PUP list after reconstructive knee surgery",
+     "https://www.packers.com/news/micah-parsons-getting-closer-but-not-practicing-yet-for-packers-oct-12-2026"
+    ],
+    [
+     "Tore his ACL on Dec. 14, 2025; Nov. 8 against New England is reported as his earliest realistic return",
+     "https://www.thebiglead.com/packers-micah-parsons-practice-decision-week-7/"
+    ],
+    [
+     "2021 Defensive Rookie of the Year",
+     "https://en.wikipedia.org/wiki/Micah_Parsons"
+    ]
+   ],
+   "lines": [],
+   "status": "Injured"
+  },
+  "bo-nix": {
+   "birthday": "2000-02-25",
+   "bsrc": "https://en.wikipedia.org/wiki/Bo_Nix",
+   "b": [
+    [
+     "Went 17-of-27 for 107 yards in a 17-14 overtime win over Seattle in Week 6",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-16/bo-nix-plays-horribly-broncos-beat-seahawks"
+    ],
+    [
+     "Denver is 4-2 but ranks 31st in yards per game; Sean Payton says Nix remains the starter",
+     "https://www.cbssports.com/nfl/news/broncos-super-bowl-bo-nix-stats-2026/"
+    ],
+    [
+     "Threw 29 TD passes as a rookie in 2024",
+     "https://en.wikipedia.org/wiki/Bo_Nix"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Cmp/Att",
+       "114/189"
+      ],
+      [
+       "Pass Yds",
+       "1,049"
+      ],
+      [
+       "Pass TD",
+       "6"
+      ],
+      [
+       "INT",
+       "3"
+      ]
+     ]
+    }
+   ]
+  },
+  "christian-mccaffrey": {
+   "birthday": "1996-06-07",
+   "bsrc": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+   "b": [
+    [
+     "Ran for 64 yards and 2 TDs and caught 9 passes for 53 yards in the Week 6 win over Washington",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/cmc-scores-twice-loses-fumble-in-week-6-win"
+    ],
+    [
+     "Has scored in four straight games for the 6-0 49ers",
+     "https://www.fantasypros.com/nfl/news/614913/christian-mccaffrey-scores-two-tds-week-6.php"
+    ],
+    [
+     "2023 NFL Offensive Player of the Year",
+     "https://en.wikipedia.org/wiki/Christian_McCaffrey"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rush Att",
+       "77"
+      ],
+      [
+       "Rush Yds",
+       "350"
+      ],
+      [
+       "Rush TD",
+       "7"
+      ],
+      [
+       "Rec",
+       "28"
+      ],
+      [
+       "Rec Yds",
+       "190"
+      ]
+     ],
+     "source": "https://fantasydata.com/nfl/christian-mccaffrey-fantasy/18877"
+    }
+   ]
+  },
+  "justin-jefferson": {
+   "birthday": "1999-06-16",
+   "bsrc": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+   "b": [
+    [
+     "Has 19 catches for 258 yards and 3 TDs in four games, including 6-79-1 against the Saints in Week 5",
+     "https://thevikingage.com/minnesota-vikings-justin-jefferson-not-waste-gift-indianapolis-colts-handed-him"
+    ],
+    [
+     "Missed the Week 4 game against Miami with a left ankle sprain",
+     "https://www.nfl.com/news/vikings-wr-justin-jefferson-ankle-out-dolphins"
+    ],
+    [
+     "2022 Offensive Player of the Year with 1,809 receiving yards",
+     "https://en.wikipedia.org/wiki/Justin_Jefferson"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rec",
+       "19"
+      ],
+      [
+       "Rec Yds",
+       "258"
+      ],
+      [
+       "Rec TD",
+       "3"
+      ]
+     ],
+     "note": "Four games played."
+    }
+   ]
+  },
+  "aidan-hutchinson": {
+   "birthday": "2000-08-09",
+   "bsrc": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+   "b": [
+    [
+     "Has 4.0 sacks and 15 tackles in five games",
+     "https://www.rotowire.com/football/player/aidan-hutchinson-15832"
+    ],
+    [
+     "Set a Lions record with a sack in six straight games, counting back into 2025",
+     "https://sports.yahoo.com/articles/aidan-hutchinson-sets-lions-franchise-170500814.html"
+    ],
+    [
+     "No. 2 overall pick in the 2022 NFL Draft",
+     "https://en.wikipedia.org/wiki/Aidan_Hutchinson"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Tackles",
+       "15"
+      ],
+      [
+       "Sacks",
+       "4.0"
+      ]
+     ],
+     "note": "Five games played; the Lions had a Week 6 bye."
+    }
+   ]
+  },
+  "t-j-watt": {
+   "birthday": "1994-10-11",
+   "bsrc": "https://en.wikipedia.org/wiki/T._J._Watt",
+   "b": [
+    [
+     "Has 4.5 sacks, a forced fumble and an interception through six games",
+     "https://www.steelers.com/team/players-roster/t-j-watt/"
+    ],
+    [
+     "Opened 2026 with 2.0 sacks in a Week 1 win at Atlanta",
+     "https://www.espn.com/nfl/player/_/id/3045282/tj-watt"
+    ],
+    [
+     "2021 Defensive Player of the Year after tying the single-season sack record with 22.5",
+     "https://en.wikipedia.org/wiki/T._J._Watt"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Sacks",
+       "4.5"
+      ],
+      [
+       "INT",
+       "1"
+      ],
+      [
+       "FF",
+       "1"
+      ]
+     ],
+     "source": "https://www.steelers.com/team/players-roster/t-j-watt/"
+    }
+   ]
+  },
+  "jahmyr-gibbs": {
+   "birthday": "2002-03-20",
+   "bsrc": "https://en.wikipedia.org/wiki/Jahmyr_Gibbs",
+   "b": [
+    [
+     "Has 504 rushing yards and 7 rushing TDs in five games",
+     "https://www.nfl.com/players/jahmyr-gibbs/stats/career"
+    ],
+    [
+     "Ran for 151 yards and 2 TDs in a 45-21 Week 5 win over Arizona",
+     "https://www.rotowire.com/football/player/jahmyr-gibbs-16808"
+    ],
+    [
+     "Led the NFL with 20 scrimmage touchdowns in 2024",
+     "https://en.wikipedia.org/wiki/Jahmyr_Gibbs"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rush Att",
+       "105"
+      ],
+      [
+       "Rush Yds",
+       "504"
+      ],
+      [
+       "Rush TD",
+       "7"
+      ],
+      [
+       "Rec",
+       "27"
+      ],
+      [
+       "Rec Yds",
+       "243"
+      ]
+     ],
+     "note": "Five games played; the Lions had a Week 6 bye."
+    }
+   ]
+  },
+  "amon-ra-st-brown": {
+   "birthday": "1999-10-24",
+   "bsrc": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+   "b": [
+    [
+     "Has 37 catches for 372 yards and 5 TDs in five games",
+     "https://www.detroitlions.com/team/players-roster/amon-ra-st-brown/"
+    ],
+    [
+     "Set an NFL catch record in Week 5 at Arizona, passing a Justin Jefferson mark",
+     "https://www.newsweek.com/sports/nfl/lions-amon-ra-st-brown-makes-nfl-history-at-justin-jeffersons-expense-12553728"
+    ],
+    [
+     "First-team All-Pro in 2024",
+     "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rec",
+       "37"
+      ],
+      [
+       "Rec Yds",
+       "372"
+      ],
+      [
+       "Rec TD",
+       "5"
+      ]
+     ],
+     "note": "Five games played; the Lions had a Week 6 bye."
+    }
+   ]
+  },
+  "brock-purdy": {
+   "birthday": "1999-12-27",
+   "bsrc": "https://en.wikipedia.org/wiki/Brock_Purdy",
+   "b": [
+    [
+     "Went 21-of-29 for 264 yards and a TD as the 49ers beat Washington 23-17 to go 6-0",
+     "https://www.cbsnews.com/sanfrancisco/news/49ers-commanders-mnf-week-6-2026-brock-purdy-defense-hold-on/"
+    ],
+    [
+     "Became the highest-rated passer in NFL history by career passer rating",
+     "https://www.skysports.com/nfl/news/13601181/san-francisco-49ers-beat-washington-commanders-to-stay-unbeaten-as-brock-purdy-becomes-highest-rated-passer-in-nfl-history"
+    ],
+    [
+     "Went from the last pick of the 2022 draft to franchise quarterback",
+     "https://en.wikipedia.org/wiki/Brock_Purdy"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Cmp/Att",
+       "119/171"
+      ],
+      [
+       "Pass Yds",
+       "1,460"
+      ],
+      [
+       "Pass TD",
+       "14"
+      ],
+      [
+       "INT",
+       "2"
+      ],
+      [
+       "Rush Yds",
+       "156"
+      ]
+     ],
+     "note": "Season totals add the verified Week 6 game line to the verified through-Week 5 line; no single published season total was found."
+    }
+   ]
+  },
+  "lamar-jackson": {
+   "birthday": "1997-01-07",
+   "bsrc": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+   "b": [
+    [
+     "Has 967 yards, 6 TDs and 1 INT in four games and leads the NFL in passer rating",
+     "https://www.si.com/betting/lamar-jackson-injury-update-bengals-vs-ravens-odds-suggest-star-has-a-chance-to-play-in-week-7"
+    ],
+    [
+     "Missed Weeks 5 and 6 with a left ankle sprain",
+     "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-6-injury-report-updates-on-lamar-jackson-david-montgomery-treveyon-henderson-and-more"
+    ],
+    [
+     "Two-time NFL MVP (2019, 2023)",
+     "https://en.wikipedia.org/wiki/Lamar_Jackson"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Pass Yds",
+       "967"
+      ],
+      [
+       "Pass TD",
+       "6"
+      ],
+      [
+       "INT",
+       "1"
+      ],
+      [
+       "Rush Yds",
+       "144"
+      ]
+     ],
+     "note": "Four games played."
+    }
+   ]
+  },
+  "c-j-stroud": {
+   "birthday": "2001-10-03",
+   "bsrc": "https://en.wikipedia.org/wiki/C._J._Stroud",
+   "b": [
+    [
+     "Threw for 312 yards and 3 TDs in a 34-31 Week 6 win over Jacksonville in London",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/stroud-throws-for-312-3-as-texans-win-slugfest"
+    ],
+    [
+     "Opened 2026 with 216 straight attempts without an interception",
+     "https://www.fantasypros.com/nfl/news/614504/cj-stroud-tosses-three-touchdowns-week-6-win.php"
+    ],
+    [
+     "2023 NFL Offensive Rookie of the Year",
+     "https://en.wikipedia.org/wiki/C._J._Stroud"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Cmp/Att",
+       "143/219"
+      ],
+      [
+       "Pass Yds",
+       "1,714"
+      ],
+      [
+       "Pass TD",
+       "9"
+      ],
+      [
+       "INT",
+       "1"
+      ]
+     ]
+    }
+   ]
+  },
+  "ceedee-lamb": {
+   "birthday": "1999-04-08",
+   "bsrc": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+   "b": [
+    [
+     "Has 48 catches for 577 yards and 4 TDs through six games",
+     "https://www.fantasypros.com/nfl/news/614691/ceedee-lamb-goes-70-yards-week-6.php"
+    ],
+    [
+     "Career-high 17 catches for 189 yards and the go-ahead TD against Houston in Week 4",
+     "https://www.dallascowboys.com/news/ceedee-lamb-powers-cowboys-to-win-over-texans-with-emotional-career-best-day"
+    ],
+    [
+     "Led the NFL with 135 receptions in 2023",
+     "https://en.wikipedia.org/wiki/CeeDee_Lamb"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rec",
+       "48"
+      ],
+      [
+       "Rec Yds",
+       "577"
+      ],
+      [
+       "Rec TD",
+       "4"
+      ]
+     ]
+    }
+   ]
+  },
+  "cooper-dejean": {
+   "birthday": "2003-02-09",
+   "bsrc": "https://en.wikipedia.org/wiki/Cooper_DeJean",
+   "b": [
+    [
+     "Intercepted Matthew Stafford for his first 2026 pick in a Week 4 loss to the Rams",
+     "https://www.cbssports.com/fantasy/football/news/eagles-cooper-dejean-snags-interception-in-loss/"
+    ],
+    [
+     "Moved to strong safety in the Eagles' base defense for 2026",
+     "https://www.rotowire.com/football/player/cooper-dejean-17705"
+    ],
+    [
+     "Returned an interception for a TD in Super Bowl LIX on his 22nd birthday",
+     "https://en.wikipedia.org/wiki/Cooper_DeJean"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "INT",
+       "1"
+      ]
+     ],
+     "note": "Tackle totals conflict across sources and are not shown."
+    }
+   ]
+  },
+  "george-kittle": {
+   "birthday": "1993-10-09",
+   "bsrc": "https://en.wikipedia.org/wiki/George_Kittle",
+   "b": [
+    [
+     "Caught 5 passes for 69 yards and a TD on a season-high 8 targets in the Week 6 win over Washington",
+     "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/george-kittle-scores-early-goes-5-69-1-in-week-6"
+    ],
+    [
+     "His Week 6 score was the 30th Purdy-to-Kittle TD connection",
+     "https://www.draftsharks.com/fantasy-football-news/83589/george-kittle-delivers-another-te1-week-on-season-high-8-targets"
+    ],
+    [
+     "Set a then-record for tight ends with 1,377 receiving yards in 2018",
+     "https://en.wikipedia.org/wiki/George_Kittle"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rec",
+       "26"
+      ],
+      [
+       "Rec Yds",
+       "337"
+      ],
+      [
+       "Rec TD",
+       "5"
+      ]
+     ]
+    }
+   ]
+  },
+  "puka-nacua": {
+   "birthday": "2001-05-29",
+   "bsrc": "https://en.wikipedia.org/wiki/Puka_Nacua",
+   "b": [
+    [
+     "Caught 6 of 7 targets for 80 yards in an 18-16 Week 6 loss to Arizona",
+     "https://www.cbssports.com/fantasy/football/news/rams-puka-nacua-tallies-80-yards-in-week-6/"
+    ],
+    [
+     "Career-best 17 catches for 138 yards in Week 5 after missing two games with a groin injury",
+     "https://www.rotowire.com/football/player/puka-nacua-16790"
+    ],
+    [
+     "Set NFL rookie records with 105 catches and 1,486 yards in 2023",
+     "https://en.wikipedia.org/wiki/Puka_Nacua"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Rec",
+       "37"
+      ],
+      [
+       "Rec Yds",
+       "417"
+      ],
+      [
+       "Rec TD",
+       "1"
+      ]
+     ],
+     "note": "Four games played.",
+     "source": "https://www.rotowire.com/football/player/puka-nacua-16790"
+    }
+   ]
+  },
+  "fred-warner": {
+   "birthday": "1996-11-19",
+   "bsrc": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+   "b": [
+    [
+     "Has 58 tackles through six games, including 8 in the Week 6 win over Washington",
+     "https://lawlessrepublic.com/byu-players-in-the-nfl-week-6-fred-warner-puka-nacua-shine-tyler-allgeier"
+    ],
+    [
+     "Reached 1,005 career tackles, the first player in 49ers history with 1,000",
+     "https://www.49ers.com/news/49ers-are-victorious-in-week-6-mnf-showdown-vs-commanders-takeaways-from-wasvssf"
+    ],
+    [
+     "Multiple-time first-team All-Pro linebacker",
+     "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2026",
+     "through": "2026-10-19",
+     "stats": [
+      [
+       "Tackles",
+       "58"
+      ]
+     ],
+     "note": "Adds 8 Week 6 tackles to the verified 50 through Week 5."
+    }
+   ]
+  }
+ }
+}

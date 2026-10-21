@@ -1,0 +1,737 @@
+{
+ "collected": "2026-10-21",
+ "players": {
+  "stephen-curry": {
+   "birthday": "1988-03-14",
+   "bsrc": "https://www.basketball-reference.com/players/c/curryst01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 26.6 points in 43 games, shooting 39.3% from 3 and 92.3% at the line",
+     "https://www.landofbasketball.com/nba_players_season_stats/2026/stephen_curry_full.htm"
+    ],
+    [
+     "Took back the No. 1 spot on the NBA's season-end jersey list after Luka Don\u010di\u0107 led it in 2024-25",
+     "https://www.gamereactor.eu/stephen-curry-luka-doncic-and-jalen-brunson-are-the-most-popular-nba-players-by-jersey-sales-1705363/"
+    ],
+    [
+     "Started for the West in the 2026 NBA All-Star Game",
+     "https://picks-s1.cbssports.com/nba/news/2026-nba-all-star-game-rosters-starters-announcement/"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "43"
+      ],
+      [
+       "PPG",
+       "26.6"
+      ],
+      [
+       "RPG",
+       "3.6"
+      ],
+      [
+       "APG",
+       "4.7"
+      ],
+      [
+       "FG%",
+       "46.8"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/stephen_curry_full.htm"
+    }
+   ]
+  },
+  "luka-doncic": {
+   "birthday": "1999-02-28",
+   "bsrc": "https://www.basketball-reference.com/players/d/doncilu01.html",
+   "b": [
+    [
+     "In 2025-26, won his second scoring title at 33.5 points per game",
+     "https://www.nba.com/news/10-players-to-watch-for-scoring-title-2026-27"
+    ],
+    [
+     "Led the NBA with 44 games of 30-plus points and 16 of 40-plus in 2025-26",
+     "https://www.nba.com/news/10-players-to-watch-for-scoring-title-2026-27"
+    ],
+    [
+     "Named All-NBA First Team for 2025-26",
+     "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "64"
+      ],
+      [
+       "PPG",
+       "33.5"
+      ],
+      [
+       "RPG",
+       "7.7"
+      ],
+      [
+       "APG",
+       "8.3"
+      ],
+      [
+       "SPG",
+       "1.6"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/luka_doncic_full.htm"
+    }
+   ]
+  },
+  "jalen-brunson": {
+   "birthday": "1996-08-31",
+   "bsrc": "https://www.basketball-reference.com/players/b/brunsja01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 26.0 points and 6.8 assists over 74 games",
+     "https://basketball.realgm.com/player/wd/Summary/52545"
+    ],
+    [
+     "Named 2026 Finals MVP as the Knicks won their first title since 1973",
+     "https://fox7austin.com/sports/knicks-win-2026-nba-championship-brunson-spurs-game-5"
+    ],
+    [
+     "Named All-NBA Second Team for 2025-26",
+     "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "74"
+      ],
+      [
+       "PPG",
+       "26.0"
+      ],
+      [
+       "RPG",
+       "3.3"
+      ],
+      [
+       "APG",
+       "6.8"
+      ]
+     ],
+     "source": "https://basketball.realgm.com/player/wd/Summary/52545"
+    }
+   ]
+  },
+  "victor-wembanyama": {
+   "birthday": "2004-01-04",
+   "bsrc": "https://www.basketball-reference.com/players/w/wembavi01.html",
+   "b": [
+    [
+     "In 2025-26, led the NBA with 197 blocks (3.1 per game) in 64 games",
+     "https://fantasy-api.cbssports.com/nba/news/victor-wembanyama-unanimous-nba-defensive-player-of-the-year-2026/"
+    ],
+    [
+     "Led San Antonio past Oklahoma City in Game 7 of the 2026 West finals",
+     "https://www.nba.com/news/4-takeaways-spurs-thunder-game-7"
+    ],
+    [
+     "First unanimous Defensive Player of the Year and the youngest winner at 22",
+     "https://www.nbcchicago.com/nba/spurs-victor-wembanyama-wins-defensive-player-of-the-year/"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "64"
+      ],
+      [
+       "BPG",
+       "3.1"
+      ],
+      [
+       "SPG",
+       "1.0"
+      ]
+     ],
+     "source": "https://fantasy-api.cbssports.com/nba/news/victor-wembanyama-unanimous-nba-defensive-player-of-the-year-2026/"
+    }
+   ]
+  },
+  "lebron-james": {
+   "birthday": "1984-12-30",
+   "bsrc": "https://www.basketball-reference.com/players/j/jamesle01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 20.9 points, 7.2 assists and 6.1 rebounds in 60 games for the Lakers",
+     "https://www.landofbasketball.com/nba_players_season_stats/2026/lebron_james_full.htm"
+    ],
+    [
+     "Signed with Philadelphia in July 2026 and kept No. 23",
+     "https://thestar.com.my/sport/basketball/2026/07/28/nba-lebron-james-to-wear-no-23-as-76ers-officially-announce-his-signing"
+    ],
+    [
+     "Opened a record 24th NBA season on Oct. 20 at Madison Square Garden",
+     "https://bvmsports.com/2026/10/20/lebron-james-opens-record-24th-season-vs-knicks-in-new-york/"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "60"
+      ],
+      [
+       "PPG",
+       "20.9"
+      ],
+      [
+       "RPG",
+       "6.1"
+      ],
+      [
+       "APG",
+       "7.2"
+      ],
+      [
+       "FG%",
+       "51.5"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lebron_james_full.htm",
+     "team": "los-angeles-lakers"
+    }
+   ]
+  },
+  "anthony-edwards": {
+   "birthday": "2001-08-05",
+   "bsrc": "https://www.basketball-reference.com/players/e/edwaran01.html",
+   "b": [
+    [
+     "In 2025-26, scored 28.8 points per game over 61 games",
+     "https://www.landofbasketball.com/nba_players_season_stats/2026/anthony_edwards_full.htm"
+    ],
+    [
+     "Minnesota traded for LaMelo Ball in July 2026 to pair with him in the backcourt",
+     "https://www.nba.com/news/wolves-hope-lamelo-balls-arrival-will-elevate-their-entire-team"
+    ],
+    [
+     "Named 2026 All-Star Game MVP in his fourth straight All-Star appearance",
+     "https://en.wikipedia.org/wiki/2026_NBA_All-Star_Game"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "61"
+      ],
+      [
+       "PPG",
+       "28.8"
+      ],
+      [
+       "RPG",
+       "5.0"
+      ],
+      [
+       "APG",
+       "3.7"
+      ],
+      [
+       "FG%",
+       "48.9"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/anthony_edwards_full.htm"
+    }
+   ]
+  },
+  "jayson-tatum": {
+   "birthday": "1998-03-03",
+   "bsrc": "https://www.basketball-reference.com/players/t/tatumja01.html",
+   "b": [
+    [
+     "Opened 2026-27 with 13 points and 11 assists in a 121-113 loss at Detroit",
+     "https://bettorsinsider.com/nba/2026/10/20/jayson-tatum-shoots-6-for-23-as-celtics-blow-22-point-lead-in-opening-night-loss-to-pistons/"
+    ],
+    [
+     "Returned in March 2026 from a torn Achilles and averaged a double-double in 16 games",
+     "https://roundtable.io/sports/nba/celtics/news/jayson-tatum-shows-real-vulnerability-in-dan-patrick-interview"
+    ],
+    [
+     "Won the 2024 NBA championship with Boston",
+     "https://www.basketball-reference.com/players/t/tatumja01.html"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "16"
+      ],
+      [
+       "PPG",
+       "21.8"
+      ],
+      [
+       "RPG",
+       "10.0"
+      ],
+      [
+       "FG%",
+       "41.1"
+      ]
+     ],
+     "source": "https://roundtable.io/sports/nba/celtics/news/jayson-tatum-shows-real-vulnerability-in-dan-patrick-interview"
+    },
+    {
+     "season": "2026-27",
+     "through": "2026-10-20",
+     "stats": [
+      [
+       "GP",
+       "1"
+      ],
+      [
+       "PTS",
+       "13"
+      ],
+      [
+       "AST",
+       "11"
+      ],
+      [
+       "FG",
+       "6-23"
+      ]
+     ],
+     "source": "https://bettorsinsider.com/nba/2026/10/20/jayson-tatum-shoots-6-for-23-as-celtics-blow-22-point-lead-in-opening-night-loss-to-pistons/",
+     "note": "Opening night only; one game played."
+    }
+   ]
+  },
+  "shai-gilgeous-alexander": {
+   "birthday": "1998-07-12",
+   "bsrc": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+   "b": [
+    [
+     "In 2025-26, became the first guard to average 30-plus points (31.1) on 55%-plus shooting",
+     "https://pr.nba.com/shai-gilgeous-alexander-2025-26-kia-nba-most-valuable-player/"
+    ],
+    [
+     "Pushed his streak of 20-point games to 140, passing Wilt Chamberlain's 126",
+     "https://www.flashscore.com/news/basketball-nba-okc-thunder-s-shai-gilgeous-alexander-named-nba-mvp-for-second-straight-year/COqkyqMt/"
+    ],
+    [
+     "Back-to-back MVP (2025, 2026) and 2025-26 Clutch Player of the Year",
+     "https://www.nbcnewyork.com/nba/thunder-shai-gilgeous-alexander-nba-clutch-player-year/6492913/"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "68"
+      ],
+      [
+       "PPG",
+       "31.1"
+      ],
+      [
+       "RPG",
+       "4.3"
+      ],
+      [
+       "APG",
+       "6.6"
+      ],
+      [
+       "FG%",
+       "55.3"
+      ]
+     ],
+     "source": "https://pr.nba.com/shai-gilgeous-alexander-2025-26-kia-nba-most-valuable-player/"
+    }
+   ]
+  },
+  "cooper-flagg": {
+   "birthday": "2006-12-21",
+   "bsrc": "https://www.basketball-reference.com/players/f/flaggco01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 21.0 points, 6.7 rebounds and 4.5 assists as a rookie",
+     "https://www.nbcchicago.com/nba/rookie-of-the-year-cooper-flagg/"
+    ],
+    [
+     "The only rookie on the 2025-26 jersey list, climbing from 11th at midseason to 9th",
+     "https://pr.nba.com/stephen-curry-knicks-sales-2025-26-season/"
+    ],
+    [
+     "Won 2025-26 Rookie of the Year with 56 first-place votes",
+     "https://www.nbcchicago.com/nba/rookie-of-the-year-cooper-flagg/"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "PPG",
+       "21.0"
+      ],
+      [
+       "RPG",
+       "6.7"
+      ],
+      [
+       "APG",
+       "4.5"
+      ]
+     ],
+     "source": "https://www.nbcchicago.com/nba/rookie-of-the-year-cooper-flagg/"
+    }
+   ]
+  },
+  "nikola-jokic": {
+   "birthday": "1995-02-19",
+   "bsrc": "https://www.basketball-reference.com/players/j/jokicni01.html",
+   "b": [
+    [
+     "In 2025-26, averaged a triple-double: 27.7 points, 12.9 rebounds and 10.7 assists",
+     "https://www.landofbasketball.com/nba_players_season_stats/2026/nikola_jokic_full.htm"
+    ],
+    [
+     "Finished second in 2025-26 MVP voting and was a unanimous All-NBA First Team pick",
+     "https://denversports.com/nba/denver-nuggets/nikola-jokic-2nd-mvp-vote-25-26"
+    ],
+    [
+     "Three-time MVP and 2023 NBA champion and Finals MVP",
+     "https://www.basketball-reference.com/players/j/jokicni01.html"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "65"
+      ],
+      [
+       "PPG",
+       "27.7"
+      ],
+      [
+       "RPG",
+       "12.9"
+      ],
+      [
+       "APG",
+       "10.7"
+      ],
+      [
+       "SPG",
+       "1.4"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/nikola_jokic_full.htm"
+    }
+   ]
+  },
+  "kevin-durant": {
+   "birthday": "1988-09-29",
+   "bsrc": "https://www.basketball-reference.com/players/d/duranke01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 26.0 points on 52.0% shooting over 78 games at age 37",
+     "https://www.statmuse.com/nba/ask/durant-2026"
+    ],
+    [
+     "His two-year Houston extension starts in 2026-27 and runs through 2027-28",
+     "https://www.click2houston.com/sports/2025/10/19/kevin-durant-agrees-to-2-year-extension-with-rockets-through-2027-28-season-ap-source-says/"
+    ],
+    [
+     "Named All-NBA Second Team in his first season with Houston",
+     "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "78"
+      ],
+      [
+       "PPG",
+       "26.0"
+      ],
+      [
+       "RPG",
+       "5.5"
+      ],
+      [
+       "APG",
+       "4.8"
+      ],
+      [
+       "FG%",
+       "52.0"
+      ]
+     ],
+     "source": "https://www.statmuse.com/nba/ask/durant-2026"
+    }
+   ]
+  },
+  "tyrese-maxey": {
+   "birthday": "2000-11-04",
+   "bsrc": "https://www.basketball-reference.com/players/m/maxeyty01.html",
+   "b": [
+    [
+     "In 2025-26, scored a career-high 28.3 points per game over 70 games",
+     "https://www.rotowire.com/basketball/player/tyrese-maxey-5158"
+    ],
+    [
+     "Starts alongside new arrivals LeBron James and Jaylen Brown in Philadelphia",
+     "https://www.thescore.com/nba/news/3629835/le-bron-set-to-open-24-th-season-in-n-y-when-76-ers-visit-knicks"
+    ],
+    [
+     "Earned his first All-NBA selection (Third Team) for 2025-26",
+     "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "70"
+      ],
+      [
+       "PPG",
+       "28.3"
+      ],
+      [
+       "RPG",
+       "4.1"
+      ],
+      [
+       "APG",
+       "6.6"
+      ]
+     ],
+     "source": "https://www.rotowire.com/basketball/player/tyrese-maxey-5158"
+    }
+   ]
+  },
+  "devin-booker": {
+   "birthday": "1996-10-30",
+   "bsrc": "https://www.basketball-reference.com/players/b/bookede01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 26.1 points and 6.0 assists over 64 games",
+     "https://www.landofbasketball.com/nba_players_season_stats/2026/devin_booker_full.htm"
+    ],
+    [
+     "Made his fifth All-Star team in 2026",
+     "https://www.azfamily.com/2026/02/02/phoenix-suns-guard-devin-booker-tapped-fifth-career-all-star-game/"
+    ],
+    [
+     "Scored 70 points in a 2017 game against Boston",
+     "https://www.basketball-reference.com/players/b/bookede01.html"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "64"
+      ],
+      [
+       "PPG",
+       "26.1"
+      ],
+      [
+       "RPG",
+       "3.9"
+      ],
+      [
+       "APG",
+       "6.0"
+      ],
+      [
+       "FG%",
+       "45.6"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/devin_booker_full.htm"
+    }
+   ]
+  },
+  "cade-cunningham": {
+   "birthday": "2001-09-25",
+   "bsrc": "https://www.basketball-reference.com/players/c/cunnica01.html",
+   "b": [
+    [
+     "Opened 2026-27 with 22 points and 8 assists as Detroit rallied past Boston 121-113",
+     "https://fadeawayworld.net/nba/detroit-pistons/5-things-we-learned-after-pistons-overcome-22-point-deficit-to-defeat-celtics-in-season-opener"
+    ],
+    [
+     "Led Detroit to a 60-22 record and the East's No. 1 seed in 2025-26",
+     "https://en.wikipedia.org/wiki/2025%E2%80%9326_Detroit_Pistons_season"
+    ],
+    [
+     "Named All-NBA First Team for 2025-26",
+     "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "64"
+      ],
+      [
+       "PPG",
+       "23.9"
+      ],
+      [
+       "RPG",
+       "5.5"
+      ],
+      [
+       "APG",
+       "9.9"
+      ],
+      [
+       "FG%",
+       "46.1"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/cade_cunningham_full.htm"
+    },
+    {
+     "season": "2026-27",
+     "through": "2026-10-20",
+     "stats": [
+      [
+       "GP",
+       "1"
+      ],
+      [
+       "PTS",
+       "22"
+      ],
+      [
+       "REB",
+       "4"
+      ],
+      [
+       "AST",
+       "8"
+      ],
+      [
+       "FG",
+       "8-18"
+      ]
+     ],
+     "source": "https://fadeawayworld.net/nba/detroit-pistons/5-things-we-learned-after-pistons-overcome-22-point-deficit-to-defeat-celtics-in-season-opener",
+     "note": "Opening night only; one game played."
+    }
+   ]
+  },
+  "lamelo-ball": {
+   "birthday": "2001-08-22",
+   "bsrc": "https://www.basketball-reference.com/players/b/ballla01.html",
+   "b": [
+    [
+     "In 2025-26, averaged 20.1 points and 7.1 assists in 72 games for Charlotte",
+     "https://www.landofbasketball.com/nba_players_season_stats/2026/lamelo_ball_full.htm"
+    ],
+    [
+     "Joined Minnesota in a July 2026 four-team trade",
+     "https://en.wikipedia.org/wiki/2026%E2%80%9327_Minnesota_Timberwolves_season"
+    ],
+    [
+     "2021 NBA Rookie of the Year and 2022 All-Star",
+     "https://www.basketball-reference.com/players/b/ballla01.html"
+    ]
+   ],
+   "lines": [
+    {
+     "season": "2025-26",
+     "through": "2026-04-12",
+     "stats": [
+      [
+       "GP",
+       "72"
+      ],
+      [
+       "PPG",
+       "20.1"
+      ],
+      [
+       "RPG",
+       "4.8"
+      ],
+      [
+       "APG",
+       "7.1"
+      ],
+      [
+       "FG%",
+       "40.7"
+      ]
+     ],
+     "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lamelo_ball_full.htm",
+     "team": "charlotte-hornets"
+    }
+   ],
+   "number": "1"
+  }
+ }
+}

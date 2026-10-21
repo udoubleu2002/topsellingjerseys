@@ -1,0 +1,230 @@
+{
+ "collected": "2026-10-21",
+ "players": [
+  {
+   "name": "Stephen Curry",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/stephen_curry_full.htm",
+   "stats": {
+    "GP": "43",
+    "PPG": "26.6",
+    "RPG": "3.6",
+    "APG": "4.7",
+    "SPG": "1.1",
+    "BPG": "0.4",
+    "3PG": "4.4",
+    "FG%": "46.8",
+    "FT%": "92.3"
+   }
+  },
+  {
+   "name": "Luka Dončić",
+   "source": "https://basketball.realgm.com/player/Luka-Doncic/NBA/54148",
+   "stats": {
+    "GP": "64",
+    "PPG": "33.5",
+    "RPG": "7.7",
+    "APG": "8.3",
+    "SPG": "1.6",
+    "BPG": "0.5",
+    "3PG": "4.0",
+    "FG%": "47.6",
+    "FT%": "78.0"
+   }
+  },
+  {
+   "name": "Jalen Brunson",
+   "source": "https://basketball.realgm.com/player/Jalen-Brunson/NBA/52545",
+   "stats": {
+    "GP": "74",
+    "PPG": "26.0",
+    "RPG": "3.3",
+    "APG": "6.8",
+    "SPG": "0.8",
+    "BPG": "0.1",
+    "3PG": "2.6",
+    "FG%": "46.7",
+    "FT%": "84.1"
+   }
+  },
+  {
+   "name": "Victor Wembanyama",
+   "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+   "stats": {
+    "GP": "64",
+    "PPG": "25.0",
+    "RPG": "11.5",
+    "APG": "3.1",
+    "SPG": "1.0",
+    "BPG": "3.1",
+    "3PG": "1.9",
+    "FG%": "51.2",
+    "FT%": "82.7"
+   }
+  },
+  {
+   "name": "LeBron James",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lebron_james_full.htm",
+   "stats": {
+    "GP": "60",
+    "PPG": "20.9",
+    "RPG": "6.1",
+    "APG": "7.2",
+    "SPG": "1.2",
+    "BPG": "0.6",
+    "3PG": "1.3",
+    "FG%": "51.5",
+    "FT%": "73.7"
+   }
+  },
+  {
+   "name": "Anthony Edwards",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/anthony_edwards_full.htm",
+   "stats": {
+    "GP": "61",
+    "PPG": "28.8",
+    "RPG": "5.0",
+    "APG": "3.7",
+    "SPG": "1.4",
+    "BPG": "0.8",
+    "3PG": "3.4",
+    "FG%": "48.9",
+    "FT%": "79.6"
+   }
+  },
+  {
+   "name": "Jayson Tatum",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/jayson_tatum_full.htm",
+   "stats": {
+    "GP": "16",
+    "PPG": "21.8",
+    "RPG": "10.0",
+    "APG": "5.3",
+    "SPG": "1.4",
+    "BPG": "0.2",
+    "3PG": "2.9",
+    "FG%": "41.1",
+    "FT%": "82.3"
+   }
+  },
+  {
+   "name": "Shai Gilgeous-Alexander",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/shai_gilgeous_alexander.htm",
+   "stats": {
+    "GP": "68",
+    "PPG": "31.1",
+    "RPG": "4.3",
+    "APG": "6.6",
+    "SPG": "1.4",
+    "BPG": "0.8",
+    "3PG": "1.7",
+    "FG%": "55.3",
+    "FT%": "87.9"
+   }
+  },
+  {
+   "name": "Cooper Flagg",
+   "source": "https://basketball.realgm.com/player/wd/Summary/196882",
+   "stats": {
+    "GP": "70",
+    "PPG": "21.0",
+    "RPG": "6.7",
+    "APG": "4.5",
+    "SPG": "1.2",
+    "BPG": "0.9",
+    "3PG": "1.0",
+    "FG%": "46.8",
+    "FT%": "82.7"
+   }
+  },
+  {
+   "name": "Nikola Jokić",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/nikola_jokic_full.htm",
+   "stats": {
+    "GP": "65",
+    "PPG": "27.7",
+    "RPG": "12.9",
+    "APG": "10.7",
+    "SPG": "1.4",
+    "BPG": "0.8",
+    "3PG": "1.7",
+    "FG%": "56.9",
+    "FT%": "83.1"
+   }
+  },
+  {
+   "name": "Kevin Durant",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/kevin_durant_full.htm",
+   "stats": {
+    "GP": "78",
+    "PPG": "26.0",
+    "RPG": "5.5",
+    "APG": "4.8",
+    "SPG": "0.8",
+    "BPG": "0.9",
+    "3PG": "2.4",
+    "FG%": "52.0",
+    "FT%": "87.4"
+   }
+  },
+  {
+   "name": "Tyrese Maxey",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/tyrese_maxey_full.htm",
+   "stats": {
+    "GP": "70",
+    "PPG": "28.3",
+    "RPG": "4.1",
+    "APG": "6.6",
+    "SPG": "1.9",
+    "BPG": "0.8",
+    "3PG": "3.1",
+    "FG%": "46.2",
+    "FT%": "89.2"
+   }
+  },
+  {
+   "name": "Devin Booker",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/devin_booker_full.htm",
+   "stats": {
+    "GP": "64",
+    "PPG": "26.1",
+    "RPG": "3.9",
+    "APG": "6.0",
+    "SPG": "0.8",
+    "BPG": "0.3",
+    "3PG": "1.9",
+    "FG%": "45.6",
+    "FT%": "87.3"
+   }
+  },
+  {
+   "name": "Cade Cunningham",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/cade_cunningham_full.htm",
+   "stats": {
+    "GP": "64",
+    "PPG": "23.9",
+    "RPG": "5.5",
+    "APG": "9.9",
+    "SPG": "1.4",
+    "BPG": "0.8",
+    "3PG": "2.0",
+    "FG%": "46.1",
+    "FT%": "81.2"
+   }
+  },
+  {
+   "name": "LaMelo Ball",
+   "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lamelo_ball_full.htm",
+   "stats": {
+    "GP": "72",
+    "PPG": "20.1",
+    "RPG": "4.8",
+    "APG": "7.1",
+    "SPG": "1.2",
+    "BPG": "0.2",
+    "3PG": "3.8",
+    "FG%": "40.7",
+    "FT%": "89.9"
+   }
+  }
+ ]
+}

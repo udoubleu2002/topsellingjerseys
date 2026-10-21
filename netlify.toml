@@ -1,0 +1,8 @@
+# Netlify builds this Next.js app with its Next.js runtime (added automatically when it detects Next.js).
+# Deploy from Git or with `npx netlify-cli deploy --build --prod`; drag-and-drop of this folder will not build it.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"

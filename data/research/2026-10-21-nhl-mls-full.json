@@ -1,0 +1,688 @@
+{
+ "players": [
+  {
+   "name": "Alex Ovechkin",
+   "league": "nhl",
+   "through": "2026-10-18",
+   "source": "https://www.espn.com/nhl/player/gamelog/_/id/3101/alex-ovechkin",
+   "stats": [
+    [
+     "GP",
+     "8"
+    ],
+    [
+     "G",
+     "1"
+    ],
+    [
+     "A",
+     "3"
+    ],
+    [
+     "PTS",
+     "4"
+    ],
+    [
+     "+/-",
+     "+3"
+    ],
+    [
+     "PPP",
+     "0"
+    ],
+    [
+     "SOG",
+     "11"
+    ],
+    [
+     "TOI",
+     "13:56"
+    ]
+   ],
+   "notes": "ESPN game log and breakawaystats.com agree on all values (0 PPG, 0 PPA). The 13:56 TOI is low for him, but both sources give that figure. WSH hosted LA on 10-20; no result was indexed, so that game is not included."
+  },
+  {
+   "name": "Auston Matthews",
+   "league": "nhl",
+   "through": "2026-10-19",
+   "source": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
+   "stats": [
+    [
+     "GP",
+     "10"
+    ],
+    [
+     "G",
+     "7"
+    ],
+    [
+     "A",
+     "9"
+    ],
+    [
+     "PTS",
+     "16"
+    ],
+    [
+     "+/-",
+     "+2"
+    ],
+    [
+     "PPP",
+     "6"
+    ],
+    [
+     "SOG",
+     "30"
+    ],
+    [
+     "TOI",
+     "21:44"
+    ]
+   ],
+   "notes": "ESPN team stats and Rotowire agree (PPP is 3 PPG and 3 PPA). Includes the 3-1 win over SJ on 10-19 (1 G, 2 A, 3 SOG). Older ESPN game-log, Fox and Officepools snapshots are stale."
+  },
+  {
+   "name": "Cale Makar",
+   "league": "nhl",
+   "through": "2026-10-19",
+   "source": "https://www.espn.com/nhl/player/_/id/4233563/cale-makar",
+   "stats": [
+    [
+     "GP",
+     "8"
+    ],
+    [
+     "G",
+     "3"
+    ],
+    [
+     "A",
+     "6"
+    ],
+    [
+     "PTS",
+     "9"
+    ],
+    [
+     "+/-",
+     "+3"
+    ],
+    [
+     "SOG",
+     "21"
+    ]
+   ],
+   "notes": "COL has played 9 games (5-3-1). Makar missed one game vs DAL for the birth of his twins. ESPN's 8-game totals are consistent with the 7-game snapshot (+5, 17 SOG) plus the 10-19 loss at PHI (0 pts, -2, 4 SOG, 23:38). PPP and season TOI were not verifiable: Rotowire's 21:28 TOI and 1 PPP are from about a 4-game snapshot, so they are omitted."
+  },
+  {
+   "name": "Connor Bedard",
+   "league": "nhl",
+   "through": "2026-10-17",
+   "source": "https://www.espn.com/nhl/player/_/id/5149125/connor-bedard",
+   "stats": [
+    [
+     "GP",
+     "3"
+    ],
+    [
+     "G",
+     "1"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "PTS",
+     "3"
+    ],
+    [
+     "+/-",
+     "0"
+    ],
+    [
+     "PPP",
+     "2"
+    ],
+    [
+     "SOG",
+     "8"
+    ],
+    [
+     "TOI",
+     "20:18"
+    ]
+   ],
+   "notes": "Updates our 2-GP line. He also played the 4-0 home loss to DAL on 10-17 and went scoreless. ESPN and Hockey-Reference both show 3 GP. PPP: the 10-13 assist was on Kantserov's PP goal and the 10-15 goal was a PP goal (1 PPG + 1 PPA per ESPN/HR). Pucksandstats still shows 2 GP (stale)."
+  },
+  {
+   "name": "Connor McDavid",
+   "league": "nhl",
+   "through": "2026-10-17",
+   "source": "https://www.hockey-reference.com/players/m/mcdavco01.html",
+   "stats": [
+    [
+     "GP",
+     "8"
+    ],
+    [
+     "G",
+     "6"
+    ],
+    [
+     "A",
+     "17"
+    ],
+    [
+     "PTS",
+     "23"
+    ],
+    [
+     "+/-",
+     "+19"
+    ],
+    [
+     "SOG",
+     "18"
+    ]
+   ],
+   "notes": "His last game was 10-17 at UTA (2 G, 3 A), not 10-18. EDM did not play 10-19, and 10-20 vs MIN (team game 9) had no indexed result. Hockey-Reference, HockeyDB and Rotowire (18 SOG) show 8 GP. ESPN's game log shows 7 GP with the same totals, so its game count looks wrong. PPP and TOI omitted: ESPN's 5 PPP (0 PPG, 5 PPA) and 23:23 TOI come from its inconsistent 7-game log."
+  },
+  {
+   "name": "David Pastrnak",
+   "league": "nhl",
+   "through": "2026-10-17",
+   "source": "https://www.cbssports.com/nhl/teams/bos/boston-bruins/stats/",
+   "stats": [
+    [
+     "GP",
+     "9"
+    ],
+    [
+     "G",
+     "4"
+    ],
+    [
+     "A",
+     "8"
+    ],
+    [
+     "PTS",
+     "12"
+    ],
+    [
+     "+/-",
+     "+3"
+    ],
+    [
+     "PPP",
+     "5"
+    ],
+    [
+     "SOG",
+     "34"
+    ]
+   ],
+   "notes": "His last game was 10-17 vs LA (G + A). BOS was next at DAL on 10-20, no result indexed. CBS team stats and the ESPN season summary agree (PPP is 3 PPG and 2 PPA). ESPN's game-log totals row (+1, 27 SOG, 19:26 TOI) covers only 7 GP and is stale. 9-game TOI not verified."
+  },
+  {
+   "name": "Jack Hughes",
+   "league": "nhl",
+   "through": "2026-10-18",
+   "source": "https://www.hockey-reference.com/players/h/hugheja03.html",
+   "stats": [
+    [
+     "GP",
+     "8"
+    ],
+    [
+     "G",
+     "2"
+    ],
+    [
+     "A",
+     "7"
+    ],
+    [
+     "PTS",
+     "9"
+    ],
+    [
+     "+/-",
+     "0"
+    ],
+    [
+     "PPP",
+     "4"
+    ],
+    [
+     "SOG",
+     "32"
+    ],
+    [
+     "TOI",
+     "21:09"
+    ]
+   ],
+   "notes": "ESPN and Hockey-Reference agree on 8 GP, 2-7-9, 0 rating and 32 SOG. PPP is 4 PPA per ESPN (Rotowire also shows 4 PPP). TOI is ESPN's (Rotowire says 21:30). The exact date of game 8 was not confirmed; it came after 10-15 vs NYR, and 10-18 is carried over from our record. Rotowire has a stale 6 A / +1. Note: a CBS recap credits 'Hughes' with a multigoal game on 10-15; that was Luke Hughes, not Jack."
+  },
+  {
+   "name": "Macklin Celebrini",
+   "league": "nhl",
+   "through": "2026-10-19",
+   "source": "https://www.hockey-reference.com/players/c/celebma01.html",
+   "stats": [
+    [
+     "GP",
+     "7"
+    ],
+    [
+     "G",
+     "3"
+    ],
+    [
+     "A",
+     "8"
+    ],
+    [
+     "PTS",
+     "11"
+    ],
+    [
+     "+/-",
+     "+1"
+    ],
+    [
+     "PPP",
+     "6"
+    ],
+    [
+     "SOG",
+     "31"
+    ],
+    [
+     "TOI",
+     "22:43"
+    ]
+   ],
+   "notes": "Adds the 3-1 loss at TOR on 10-19 (no points; the CBS box shows 4 SOG). Hockey-Reference, the ESPN game log and Kalshi show 7 GP and 31 SOG. PPP (1 PPG + 5 PPA) and TOI come from Hockey-Reference; Rotowire's stale snapshot has 4 PPP and 22:02. It is not certain the +1 reflects the 10-19 game."
+  },
+  {
+   "name": "Nathan MacKinnon",
+   "league": "nhl",
+   "through": "2026-10-19",
+   "source": "https://www.espn.com/nhl/player/_/id/3041969/nathan-mackinnon",
+   "stats": [
+    [
+     "GP",
+     "9"
+    ],
+    [
+     "G",
+     "6"
+    ],
+    [
+     "A",
+     "10"
+    ],
+    [
+     "PTS",
+     "16"
+    ],
+    [
+     "+/-",
+     "+2"
+    ],
+    [
+     "PPP",
+     "2"
+    ],
+    [
+     "SOG",
+     "39"
+    ],
+    [
+     "TOI",
+     "21:16"
+    ]
+   ],
+   "notes": "GP, +/- and TOI are from the ESPN player page (9 GP). SOG is 38 from the CBS splits through 10-16 plus 1 SOG in the 10-19 loss at PHI (0 pts, -2, 24:20), which is consistent with ESPN's +2. PPP (2 PPG, 0 PPA) is from CBS through 10-16; he had no points on 10-19. ESPN's game log (7 GP, 5-7-12) is stale. Our prior 'thru 10-17' was really through his 10-16 game vs PIT."
+  },
+  {
+   "name": "Sidney Crosby",
+   "league": "nhl",
+   "through": "2026-10-17",
+   "source": "https://www.espn.com/nhl/player/gamelog/_/id/3114/sidney-crosby",
+   "stats": [
+    [
+     "GP",
+     "9"
+    ],
+    [
+     "G",
+     "3"
+    ],
+    [
+     "A",
+     "3"
+    ],
+    [
+     "PTS",
+     "6"
+    ],
+    [
+     "+/-",
+     "-6"
+    ],
+    [
+     "PPP",
+     "1"
+    ],
+    [
+     "SOG",
+     "21"
+    ],
+    [
+     "TOI",
+     "19:35"
+    ]
+   ],
+   "notes": "ESPN game log, Rotowire and Hockey.com agree; Rotowire has TOI 19:36. The 1 PPP is a PP goal on 10-17 at VGK (career goal 657). No PIT game on 10-19 or 10-20 was found."
+  },
+  {
+   "name": "Lionel Messi",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.intermiamicf.com/news/match-recap-inter-miami-cf-collects-third-straight-victory-in-3-1-road-win-over-atlanta-united-fc",
+   "stats": [
+    [
+     "GP",
+     "27"
+    ],
+    [
+     "GS",
+     "26"
+    ],
+    [
+     "MIN",
+     "2,360"
+    ],
+    [
+     "G",
+     "25"
+    ],
+    [
+     "A",
+     "15"
+    ],
+    [
+     "Shots",
+     "169"
+    ],
+    [
+     "SOT",
+     "70"
+    ]
+   ],
+   "notes": "NOT FINAL: the 2026 regular season ends on Decision Day, 2026-11-07, and Miami's next match is 10-24 vs RBNY. A 15 is the MLS official count, which includes secondary assists; his 15th was a secondary assist in the 3-1 win at ATL on 10-17. ESPN shows 14 A and FotMob 12. GP, GS and MIN are from FotMob; ESPN also shows 27 apps / 26 starts. Shots and SOT are from ESPN; FootyStats has a stale 113/47."
+  },
+  {
+   "name": "Luis Suárez",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.intermiamicf.com/news/luis-suarez-becomes-second-player-in-club-history-to-reach-100-goal-contributions",
+   "stats": [
+    [
+     "GP",
+     "26"
+    ],
+    [
+     "G",
+     "15"
+    ],
+    [
+     "A",
+     "12"
+    ],
+    [
+     "Shots",
+     "65"
+    ],
+    [
+     "SOT",
+     "32"
+    ]
+   ],
+   "notes": "Not final. The club's 10-18 release gives 15 G and 12 A in 26 MLS apps. ESPN shows 15 G / 10 A, FotMob 7 A, FootyStats 5 A; the assist definitions differ. Shots and SOT are from gambling.com and may be stale, since its 16 G / 36 apps may cover a different span (low confidence; drop them if strictness matters). FBref shows 26 apps and 1,909 min, but its goal count (13) conflicts, so MIN is omitted. GS unconfirmed."
+  },
+  {
+   "name": "Rodrigo De Paul",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.espn.com/soccer/player/_/id/174466/rodrigo-de-paul",
+   "stats": [
+    [
+     "GP",
+     "25"
+    ],
+    [
+     "GS",
+     "25"
+    ],
+    [
+     "G",
+     "5"
+    ],
+    [
+     "A",
+     "14"
+    ],
+    [
+     "Shots",
+     "33"
+    ],
+    [
+     "SOT",
+     "14"
+    ]
+   ],
+   "notes": "Not final. He started at ATL on 10-17 with no goal or assist. The figures are from ESPN (25 starts, 5 G, 14 A, 33 shots, 14 SOT). Assist sources conflict: FotMob has 9 A, 24 apps and 2,148 min (a snapshot after 10-14), and an earlier MLS profile had 11 A. It is not certain ESPN's snapshot includes 10-17. MIN not verified for the current GP."
+  },
+  {
+   "name": "Son Heung-min",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.lafc.com/news/preview-nycfc-vs-lafc-2026-mls-season-october-17",
+   "stats": [
+    [
+     "GP",
+     "28"
+    ],
+    [
+     "MIN",
+     "2,276"
+    ],
+    [
+     "G",
+     "7"
+    ],
+    [
+     "A",
+     "15"
+    ]
+   ],
+   "notes": "Not final; LAFC's next match is 10-25 vs LA Galaxy. G and A are the MLS/LAFC official counts after the 3-1 win vs Austin on 10-14 (1 G, 2 A), and he had no goal or assist in the 1-1 at NYCFC on 10-17 (he played the full match). His 15 A ties Carlos Vela's club single-season record. GP and MIN are from FBref, whose log runs through 10-17; FBref shows 12 A and ESPN 28 apps / 7 G / 14 A. GS, shots and SOT not verified."
+  },
+  {
+   "name": "Marco Reus",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.espn.com/soccer/player/_/id/122356/marco-reus",
+   "stats": [
+    [
+     "GP",
+     "29"
+    ],
+    [
+     "GS",
+     "22"
+    ],
+    [
+     "MIN",
+     "1,994"
+    ],
+    [
+     "G",
+     "8"
+    ],
+    [
+     "A",
+     "10"
+    ],
+    [
+     "Shots",
+     "47"
+    ],
+    [
+     "SOT",
+     "23"
+    ]
+   ],
+   "notes": "Not final. The ESPN player page runs through the 2-2 draw vs San Diego on 10-17: 22 starts, 8 G, 10 A, 47 shots, 23 SOT. GP and MIN are from FBref (29 matches, 1,994 min, 8 G, 9 A), but FBref's through-date is not confirmed. Gambling.com shows 30 apps, 2,150 min, 9 G, 7 A, 45 shots, 23 SOT."
+  },
+  {
+   "name": "Miguel Almirón",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.fotmob.com/players/442277/miguel-almiron",
+   "stats": [
+    [
+     "GP",
+     "23"
+    ],
+    [
+     "GS",
+     "22"
+    ],
+    [
+     "MIN",
+     "1,946"
+    ],
+    [
+     "G",
+     "6"
+    ],
+    [
+     "A",
+     "5"
+    ],
+    [
+     "Shots",
+     "61"
+    ],
+    [
+     "SOT",
+     "22"
+    ]
+   ],
+   "notes": "Not final. He started (as captain) in the 1-3 home loss to Miami on 10-17: 0 G, 0 A, 3 shots (1 on target), subbed 82'. GP, GS, MIN, G and A are from FotMob. Shots and SOT are from ESPN, whose 6 A conflicts. FBref has a stale 22 GP / 1,859 min / 4 A. It is not 100% certain FotMob's 23 includes 10-17."
+  },
+  {
+   "name": "Jordan Morris",
+   "league": "mls",
+   "through": "2026-10-10",
+   "source": "https://www.espn.com/soccer/player/_/id/210252/jordan-morris",
+   "stats": [
+    [
+     "GP",
+     "20"
+    ],
+    [
+     "GS",
+     "13"
+    ],
+    [
+     "G",
+     "2"
+    ],
+    [
+     "A",
+     "4"
+    ],
+    [
+     "Shots",
+     "27"
+    ]
+   ],
+   "notes": "Not final. ESPN's line runs through the 3-0 win at NE on 10-10. Since then he came on as a sub (59') in the 0-1 at DAL on 10-14 and played in the 1-1 vs MTL on 10-17. Reports credit him with no goal or assist in either match (Gomez's equalizer shows no assist), so G 2 / A 4 still stand, but no cumulative source confirms the new GP, GS or shots (likely 22 GP). Gambling.com shows 23 apps / 1,322 min / 33 shots, which may cover other competitions."
+  },
+  {
+   "name": "Hirving Lozano",
+   "league": "mls",
+   "through": "2026-10-17",
+   "source": "https://www.fotmob.com/players/521210/hirving-lozano",
+   "stats": [
+    [
+     "GP",
+     "8"
+    ],
+    [
+     "GS",
+     "6"
+    ],
+    [
+     "MIN",
+     "564"
+    ],
+    [
+     "G",
+     "1"
+    ],
+    [
+     "A",
+     "1"
+    ]
+   ],
+   "notes": "LA Galaxy only, on loan from SDFC since 2026-08-07. FotMob, FBref and Vavel agree. FotMob lists a thigh injury from 10-14 with return expected mid-November, so the line likely stands through 10-17 (single-source injury report). San Diego 2026 line before the loan NOT verifiable: no source gave a clean 2026 SDFC split (FBref and FotMob attribute the 8 apps to the Galaxy), so it is omitted. Soccerway shows a conflicting 5 apps / 1 G / 2 A."
+  },
+  {
+   "name": "Wilfried Zaha",
+   "league": "mls",
+   "through": "2026-05-23",
+   "source": "https://statsnext.com/mls/players/wilfried-zaha-009a448e",
+   "stats": [
+    [
+     "GP",
+     "13"
+    ],
+    [
+     "GS",
+     "13"
+    ],
+    [
+     "MIN",
+     "1,169"
+    ],
+    [
+     "G",
+     "3"
+    ],
+    [
+     "A",
+     "1"
+    ]
+   ],
+   "notes": "Final 2026 Charlotte line: his loan from Galatasaray ended June 30, and his last match was in May. MIN is from StatsNext (FotMob 1,162). A 1 is from FotMob/StatsNext; ESPN shows 4 A. Free-agent status not confirmed: reports describe the loan expiring and a return to Galatasaray, and BeSoccer has an ambiguous 'Released' entry dated 2026-07-01."
+  },
+  {
+   "name": "Darlington Nagbe",
+   "league": "mls",
+   "through": "",
+   "source": "",
+   "stats": [],
+   "notes": "Retired; skipped as instructed."
+  }
+ ],
+ "notes": "KEY CORRECTION: the MLS 2026 regular season is NOT over. Decision Day is Saturday 2026-11-07 (official MLS schedule), with playoffs Nov 18 to Dec 18, so every active-player MLS line is in progress through Matchday 31 (10-17). No NHL games from 10-20 (WSH-LA, EDM-MIN, BOS-DAL) had indexed results, so NHL lines run through each player's last game on 10-17, 10-18 or 10-19 as noted. Several of our prior through-dates were the check date rather than the game date (McDavid and Pastrnak 10-17, MacKinnon really 10-16 before this update). WebFetch failed (DNS ENOTFOUND), so all values come from search-result text from ESPN, Hockey-Reference, CBS, Rotowire, FotMob, FBref and club sites. Where sources conflict I preferred official league/club or ESPN figures and noted the alternatives. MLS assist counts differ structurally: the MLS official count includes secondary assists, while ESPN and FotMob are lower. Fields that couldn't be verified are omitted. About 55 searches used."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "nfl-YYYY-MM-DD-nflpa-midseason",
+  "league": "nfl",
+  "series": "nflpa-midseason",
+  "title": "NFLPA Midseason Top 50 NFL Player Sales List",
+  "publisher": "NFL Players Association (NFLPA)",
+  "sourceUrl": "https://nflpa.com/",
+  "publishedDate": "YYYY-MM-DD",
+  "periodStart": "YYYY-03-01",
+  "periodEnd": "YYYY-08-31",
+  "periodLabel": "March 1 to August 31",
+  "scope": "Describe exactly what the source measures.",
+  "methodology": null,
+  "limitations": [],
+  "entries": [
+    { "rank": 1, "player": "Player Name", "team": "Team Name" }
+  ]
+}

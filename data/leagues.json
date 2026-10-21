@@ -1,0 +1,42 @@
+[
+  {
+    "id": "nfl",
+    "name": "NFL",
+    "fullName": "National Football League",
+    "sport": "Football",
+    "accent": "#2f62d0",
+    "slug": "top-selling-nfl-jerseys"
+  },
+  {
+    "id": "nba",
+    "name": "NBA",
+    "fullName": "National Basketball Association",
+    "sport": "Basketball",
+    "accent": "#d6203a",
+    "slug": "top-selling-nba-jerseys"
+  },
+  {
+    "id": "mlb",
+    "name": "MLB",
+    "fullName": "Major League Baseball",
+    "sport": "Baseball",
+    "accent": "#16804f",
+    "slug": "top-selling-mlb-jerseys"
+  },
+  {
+    "id": "nhl",
+    "name": "NHL",
+    "fullName": "National Hockey League",
+    "sport": "Hockey",
+    "accent": "#5d84b8",
+    "slug": "top-selling-nhl-jerseys"
+  },
+  {
+    "id": "mls",
+    "name": "MLS",
+    "fullName": "Major League Soccer",
+    "sport": "Soccer",
+    "accent": "#7a52d6",
+    "slug": "top-selling-mls-jerseys"
+  }
+]

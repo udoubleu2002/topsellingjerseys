@@ -1,0 +1,29 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  trailingSlash: true,
+  poweredByHeader: false,
+  images: { unoptimized: true },
+  // Request-time routes (/out/, /j/ and their share images) read data/*.json and the share-image fonts from disk,
+  // so serverless hosts such as Netlify must ship those files with the functions.
+  outputFileTracingIncludes: { "/**/*": ["./data/**/*", "./assets/fonts/**/*"] },
+  async headers() {
+    return [{
+      source: "/:path*",
+      headers: [
+        { key: "X-Content-Type-Options", value: "nosniff" },
+        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        { key: "X-Frame-Options", value: "SAMEORIGIN" },
+        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+      ],
+    }];
+  },
+  async redirects() {
+    // Permanent redirects for URLs used by the first version of the site.
+    const leagues = ["nfl", "nba", "mlb", "nhl", "mls"];
+    return leagues.flatMap((l) => [
+      { source: `/${l}`, destination: `/top-selling-${l}-jerseys/`, permanent: true },
+      { source: `/${l}/:player`, destination: `/players/:player/`, permanent: true },
+    ]);
+  },
+};
+export default nextConfig;

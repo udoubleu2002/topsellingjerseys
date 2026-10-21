@@ -1,0 +1,3850 @@
+[
+  {
+    "playerId": "connor-bedard",
+    "league": "nhl",
+    "teamId": "chicago-blackhawks",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "PTS",
+        "value": "3"
+      },
+      {
+        "label": "+/-",
+        "value": "0"
+      },
+      {
+        "label": "PPP",
+        "value": "2"
+      },
+      {
+        "label": "SOG",
+        "value": "8"
+      },
+      {
+        "label": "TOI",
+        "value": "20:18"
+      }
+    ],
+    "note": "Missed Chicago's first six games after shoulder surgery.",
+    "source": "https://www.espn.com/nhl/player/_/id/5149125/connor-bedard",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "connor-bedard",
+    "league": "nhl",
+    "teamId": "chicago-blackhawks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "69"
+      },
+      {
+        "label": "G",
+        "value": "30"
+      },
+      {
+        "label": "A",
+        "value": "45"
+      },
+      {
+        "label": "PTS",
+        "value": "75"
+      }
+    ],
+    "note": null,
+    "source": "https://chicago.suntimes.com/blackhawks/2026/10/16/blackhawks-connor-bedard-first-games-back",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "alex-ovechkin",
+    "league": "nhl",
+    "teamId": "washington-capitals",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "PTS",
+        "value": "4"
+      },
+      {
+        "label": "+/-",
+        "value": "+3"
+      },
+      {
+        "label": "PPP",
+        "value": "0"
+      },
+      {
+        "label": "SOG",
+        "value": "11"
+      },
+      {
+        "label": "TOI",
+        "value": "13:56"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/gamelog/_/id/3101/alex-ovechkin",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "alex-ovechkin",
+    "league": "nhl",
+    "teamId": "washington-capitals",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "G",
+        "value": "32"
+      },
+      {
+        "label": "A",
+        "value": "32"
+      },
+      {
+        "label": "PTS",
+        "value": "64"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/gamelog/_/id/3101/alex-ovechkin",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "sidney-crosby",
+    "league": "nhl",
+    "teamId": "pittsburgh-penguins",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "9"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "PTS",
+        "value": "6"
+      },
+      {
+        "label": "+/-",
+        "value": "-6"
+      },
+      {
+        "label": "PPP",
+        "value": "1"
+      },
+      {
+        "label": "SOG",
+        "value": "21"
+      },
+      {
+        "label": "TOI",
+        "value": "19:35"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/gamelog/_/id/3114/sidney-crosby",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "sidney-crosby",
+    "league": "nhl",
+    "teamId": "pittsburgh-penguins",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "68"
+      },
+      {
+        "label": "G",
+        "value": "29"
+      },
+      {
+        "label": "A",
+        "value": "45"
+      },
+      {
+        "label": "PTS",
+        "value": "74"
+      }
+    ],
+    "note": null,
+    "source": "https://www.rotowire.com/hockey/player/sidney-crosby-2086",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jack-hughes",
+    "league": "nhl",
+    "teamId": "new-jersey-devils",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "7"
+      },
+      {
+        "label": "PTS",
+        "value": "9"
+      },
+      {
+        "label": "+/-",
+        "value": "0"
+      },
+      {
+        "label": "PPP",
+        "value": "4"
+      },
+      {
+        "label": "SOG",
+        "value": "32"
+      },
+      {
+        "label": "TOI",
+        "value": "21:09"
+      }
+    ],
+    "note": null,
+    "source": "https://www.hockey-reference.com/players/h/hugheja03.html",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jack-hughes",
+    "league": "nhl",
+    "teamId": "new-jersey-devils",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "61"
+      },
+      {
+        "label": "G",
+        "value": "27"
+      },
+      {
+        "label": "A",
+        "value": "50"
+      },
+      {
+        "label": "PTS",
+        "value": "77"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/_/id/4565222/jack-hughes",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "connor-mcdavid",
+    "league": "nhl",
+    "teamId": "edmonton-oilers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "6"
+      },
+      {
+        "label": "A",
+        "value": "17"
+      },
+      {
+        "label": "PTS",
+        "value": "23"
+      },
+      {
+        "label": "+/-",
+        "value": "+19"
+      },
+      {
+        "label": "SOG",
+        "value": "18"
+      }
+    ],
+    "note": null,
+    "source": "https://www.hockey-reference.com/players/m/mcdavco01.html",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "connor-mcdavid",
+    "league": "nhl",
+    "teamId": "edmonton-oilers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "G",
+        "value": "48"
+      },
+      {
+        "label": "A",
+        "value": "90"
+      },
+      {
+        "label": "PTS",
+        "value": "138"
+      }
+    ],
+    "note": null,
+    "source": "https://thehockeynews.com/nhl/edmonton-oilers/latest-news/mcdavid-records-five-point-night-as-oilers-roll-past-utah-6-2",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "nathan-mackinnon",
+    "league": "nhl",
+    "teamId": "colorado-avalanche",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "9"
+      },
+      {
+        "label": "G",
+        "value": "6"
+      },
+      {
+        "label": "A",
+        "value": "10"
+      },
+      {
+        "label": "PTS",
+        "value": "16"
+      },
+      {
+        "label": "+/-",
+        "value": "+2"
+      },
+      {
+        "label": "PPP",
+        "value": "2"
+      },
+      {
+        "label": "SOG",
+        "value": "39"
+      },
+      {
+        "label": "TOI",
+        "value": "21:16"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/_/id/3041969/nathan-mackinnon",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "nathan-mackinnon",
+    "league": "nhl",
+    "teamId": "colorado-avalanche",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "80"
+      },
+      {
+        "label": "G",
+        "value": "53"
+      },
+      {
+        "label": "A",
+        "value": "74"
+      },
+      {
+        "label": "PTS",
+        "value": "127"
+      }
+    ],
+    "note": null,
+    "source": "https://www.yardbarker.com/nhl/articles/nathan_mackinnons_4_point_night_powers_avalanche_past_penguins/s1_17050_44438184",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "cale-makar",
+    "league": "nhl",
+    "teamId": "colorado-avalanche",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "6"
+      },
+      {
+        "label": "PTS",
+        "value": "9"
+      },
+      {
+        "label": "+/-",
+        "value": "+3"
+      },
+      {
+        "label": "SOG",
+        "value": "21"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/_/id/4233563/cale-makar",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "cale-makar",
+    "league": "nhl",
+    "teamId": "colorado-avalanche",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "75"
+      },
+      {
+        "label": "G",
+        "value": "20"
+      },
+      {
+        "label": "A",
+        "value": "59"
+      },
+      {
+        "label": "PTS",
+        "value": "79"
+      }
+    ],
+    "note": null,
+    "source": "https://www.milehighhockey.com/general/67061/preview-colorado-needs-a-hot-start-in-new-jersey",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "david-pastrnak",
+    "league": "nhl",
+    "teamId": "boston-bruins",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "9"
+      },
+      {
+        "label": "G",
+        "value": "4"
+      },
+      {
+        "label": "A",
+        "value": "8"
+      },
+      {
+        "label": "PTS",
+        "value": "12"
+      },
+      {
+        "label": "+/-",
+        "value": "+3"
+      },
+      {
+        "label": "PPP",
+        "value": "5"
+      },
+      {
+        "label": "SOG",
+        "value": "34"
+      }
+    ],
+    "note": null,
+    "source": "https://www.cbssports.com/nhl/teams/bos/boston-bruins/stats/",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "david-pastrnak",
+    "league": "nhl",
+    "teamId": "boston-bruins",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "77"
+      },
+      {
+        "label": "G",
+        "value": "29"
+      },
+      {
+        "label": "A",
+        "value": "71"
+      },
+      {
+        "label": "PTS",
+        "value": "100"
+      }
+    ],
+    "note": null,
+    "source": "https://nhl.com/bruins/news/need-to-know-bruins-at-stars-x7872",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "auston-matthews",
+    "league": "nhl",
+    "teamId": "toronto-maple-leafs",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "10"
+      },
+      {
+        "label": "G",
+        "value": "7"
+      },
+      {
+        "label": "A",
+        "value": "9"
+      },
+      {
+        "label": "PTS",
+        "value": "16"
+      },
+      {
+        "label": "+/-",
+        "value": "+2"
+      },
+      {
+        "label": "PPP",
+        "value": "6"
+      },
+      {
+        "label": "SOG",
+        "value": "30"
+      },
+      {
+        "label": "TOI",
+        "value": "21:44"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "auston-matthews",
+    "league": "nhl",
+    "teamId": "toronto-maple-leafs",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "60"
+      },
+      {
+        "label": "G",
+        "value": "27"
+      },
+      {
+        "label": "A",
+        "value": "26"
+      },
+      {
+        "label": "PTS",
+        "value": "53"
+      }
+    ],
+    "note": null,
+    "source": "https://www.foxsports.com/nhl/auston-matthews-player",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "macklin-celebrini",
+    "league": "nhl",
+    "teamId": "san-jose-sharks",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "8"
+      },
+      {
+        "label": "PTS",
+        "value": "11"
+      },
+      {
+        "label": "+/-",
+        "value": "+1"
+      },
+      {
+        "label": "PPP",
+        "value": "6"
+      },
+      {
+        "label": "SOG",
+        "value": "31"
+      },
+      {
+        "label": "TOI",
+        "value": "22:43"
+      }
+    ],
+    "note": null,
+    "source": "https://www.hockey-reference.com/players/c/celebma01.html",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "macklin-celebrini",
+    "league": "nhl",
+    "teamId": "san-jose-sharks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "G",
+        "value": "45"
+      },
+      {
+        "label": "A",
+        "value": "70"
+      },
+      {
+        "label": "PTS",
+        "value": "115"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nhl/player/_/id/5206628/macklin-celebrini",
+    "throughDate": "2026-04-16",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "lionel-messi",
+    "league": "mls",
+    "teamId": "inter-miami-cf",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "GS",
+        "value": "26"
+      },
+      {
+        "label": "MIN",
+        "value": "2,360"
+      },
+      {
+        "label": "G",
+        "value": "25"
+      },
+      {
+        "label": "A",
+        "value": "15"
+      },
+      {
+        "label": "Shots",
+        "value": "169"
+      },
+      {
+        "label": "SOT",
+        "value": "70"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Assists are MLS official counts, which include secondary assists.",
+    "source": "https://www.intermiamicf.com/news/match-recap-inter-miami-cf-collects-third-straight-victory-in-3-1-road-win-over-atlanta-united-fc",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "son-heung-min",
+    "league": "mls",
+    "teamId": "lafc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "MIN",
+        "value": "2,276"
+      },
+      {
+        "label": "G",
+        "value": "7"
+      },
+      {
+        "label": "A",
+        "value": "15"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Assists are MLS official counts, which include secondary assists.",
+    "source": "https://www.lafc.com/news/preview-nycfc-vs-lafc-2026-mls-season-october-17",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "hirving-lozano",
+    "league": "mls",
+    "teamId": "la-galaxy",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "8"
+      },
+      {
+        "label": "GS",
+        "value": "6"
+      },
+      {
+        "label": "MIN",
+        "value": "564"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      }
+    ],
+    "note": "Galaxy games only; on loan from San Diego FC. Season in progress; the regular season ends Nov. 7.",
+    "source": "https://www.fotmob.com/players/521210/hirving-lozano",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "luis-suarez",
+    "league": "mls",
+    "teamId": "inter-miami-cf",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "26"
+      },
+      {
+        "label": "G",
+        "value": "15"
+      },
+      {
+        "label": "A",
+        "value": "12"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Assists are MLS official counts, which include secondary assists.",
+    "source": "https://www.intermiamicf.com/news/luis-suarez-becomes-second-player-in-club-history-to-reach-100-goal-contributions",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "miguel-almiron",
+    "league": "mls",
+    "teamId": "atlanta-united",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "23"
+      },
+      {
+        "label": "GS",
+        "value": "22"
+      },
+      {
+        "label": "MIN",
+        "value": "1,946"
+      },
+      {
+        "label": "G",
+        "value": "6"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "61"
+      },
+      {
+        "label": "SOT",
+        "value": "22"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7.",
+    "source": "https://www.fotmob.com/players/442277/miguel-almiron",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jordan-morris",
+    "league": "mls",
+    "teamId": "seattle-sounders-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "20"
+      },
+      {
+        "label": "GS",
+        "value": "13"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "27"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7.",
+    "source": "https://www.espn.com/soccer/player/_/id/210252/jordan-morris",
+    "throughDate": "2026-10-10",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "rodrigo-de-paul",
+    "league": "mls",
+    "teamId": "inter-miami-cf",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "25"
+      },
+      {
+        "label": "GS",
+        "value": "25"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "33"
+      },
+      {
+        "label": "SOT",
+        "value": "14"
+      }
+    ],
+    "note": "Assist totals differ between data providers, so they are not shown. Season in progress; the regular season ends Nov. 7.",
+    "source": "https://www.espn.com/soccer/player/_/id/174466/rodrigo-de-paul",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "wilfried-zaha",
+    "league": "mls",
+    "teamId": "charlotte-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "13"
+      },
+      {
+        "label": "GS",
+        "value": "13"
+      },
+      {
+        "label": "MIN",
+        "value": "1,169"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      }
+    ],
+    "note": "Final Charlotte FC totals before his loan ended.",
+    "source": "https://statsnext.com/mls/players/wilfried-zaha-009a448e",
+    "throughDate": "2026-05-23",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "marco-reus",
+    "league": "mls",
+    "teamId": "la-galaxy",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "29"
+      },
+      {
+        "label": "GS",
+        "value": "22"
+      },
+      {
+        "label": "MIN",
+        "value": "1,994"
+      },
+      {
+        "label": "G",
+        "value": "8"
+      },
+      {
+        "label": "Shots",
+        "value": "47"
+      },
+      {
+        "label": "SOT",
+        "value": "23"
+      }
+    ],
+    "note": "Assist totals differ between data providers, so they are not shown. Season in progress; the regular season ends Nov. 7.",
+    "source": "https://www.espn.com/soccer/player/_/id/122356/marco-reus",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "shohei-ohtani",
+    "league": "mlb",
+    "teamId": "los-angeles-dodgers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "139"
+      },
+      {
+        "label": "AVG",
+        "value": ".275"
+      },
+      {
+        "label": "HR",
+        "value": "30"
+      },
+      {
+        "label": "RBI",
+        "value": "81"
+      },
+      {
+        "label": "R",
+        "value": "89"
+      },
+      {
+        "label": "SB",
+        "value": "11"
+      },
+      {
+        "label": "OBP",
+        "value": ".377"
+      },
+      {
+        "label": "SLG",
+        "value": ".512"
+      },
+      {
+        "label": "OPS",
+        "value": ".889"
+      },
+      {
+        "label": "GS",
+        "value": "14"
+      },
+      {
+        "label": "W-L",
+        "value": "8-2"
+      },
+      {
+        "label": "ERA",
+        "value": "1.79"
+      },
+      {
+        "label": "IP",
+        "value": "85.2"
+      },
+      {
+        "label": "SO",
+        "value": "95"
+      },
+      {
+        "label": "WHIP",
+        "value": "0.95"
+      }
+    ],
+    "note": "Pitching: 8-2 in 14 starts, 85.2 innings.",
+    "source": "https://baseballsavant.mlb.com/savant-player/shohei-ohtani-660271",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "aaron-judge",
+    "league": "mlb",
+    "teamId": "new-york-yankees",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "66"
+      },
+      {
+        "label": "AVG",
+        "value": ".241"
+      },
+      {
+        "label": "HR",
+        "value": "18"
+      },
+      {
+        "label": "RBI",
+        "value": "41"
+      },
+      {
+        "label": "R",
+        "value": "45"
+      },
+      {
+        "label": "H",
+        "value": "57"
+      },
+      {
+        "label": "SB",
+        "value": "5"
+      },
+      {
+        "label": "OBP",
+        "value": ".360"
+      },
+      {
+        "label": "SLG",
+        "value": ".511"
+      },
+      {
+        "label": "OPS",
+        "value": ".871"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/mlb/player/aaron-judge-30442",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "pete-crow-armstrong",
+    "league": "mlb",
+    "teamId": "chicago-cubs",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "162"
+      },
+      {
+        "label": "AVG",
+        "value": ".280"
+      },
+      {
+        "label": "HR",
+        "value": "45"
+      },
+      {
+        "label": "RBI",
+        "value": "107"
+      },
+      {
+        "label": "R",
+        "value": "119"
+      },
+      {
+        "label": "H",
+        "value": "175"
+      },
+      {
+        "label": "SB",
+        "value": "41"
+      },
+      {
+        "label": "OBP",
+        "value": ".372"
+      },
+      {
+        "label": "SLG",
+        "value": ".570"
+      },
+      {
+        "label": "OPS",
+        "value": ".942"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/pete-crow-armstrong-691718",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "ronald-acuna-jr",
+    "league": "mlb",
+    "teamId": "atlanta-braves",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "107"
+      },
+      {
+        "label": "AVG",
+        "value": ".255"
+      },
+      {
+        "label": "HR",
+        "value": "20"
+      },
+      {
+        "label": "RBI",
+        "value": "55"
+      },
+      {
+        "label": "R",
+        "value": "61"
+      },
+      {
+        "label": "H",
+        "value": "104"
+      },
+      {
+        "label": "SB",
+        "value": "21"
+      },
+      {
+        "label": "OBP",
+        "value": ".345"
+      },
+      {
+        "label": "SLG",
+        "value": ".451"
+      },
+      {
+        "label": "OPS",
+        "value": ".796"
+      }
+    ],
+    "note": null,
+    "source": "https://baseballsavant.mlb.com/savant-player/ronald-acuna-jr-660670",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "fernando-tatis-jr",
+    "league": "mlb",
+    "teamId": "san-diego-padres",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "159"
+      },
+      {
+        "label": "AVG",
+        "value": ".289"
+      },
+      {
+        "label": "HR",
+        "value": "25"
+      },
+      {
+        "label": "RBI",
+        "value": "83"
+      },
+      {
+        "label": "R",
+        "value": "96"
+      },
+      {
+        "label": "H",
+        "value": "181"
+      },
+      {
+        "label": "SB",
+        "value": "38"
+      },
+      {
+        "label": "OBP",
+        "value": ".358"
+      },
+      {
+        "label": "SLG",
+        "value": ".470"
+      },
+      {
+        "label": "OPS",
+        "value": ".828"
+      }
+    ],
+    "note": null,
+    "source": "https://baseballsavant.mlb.com/savant-player/fernando-tatis-jr-665487",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "freddie-freeman",
+    "league": "mlb",
+    "teamId": "los-angeles-dodgers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "153"
+      },
+      {
+        "label": "AVG",
+        "value": ".288"
+      },
+      {
+        "label": "HR",
+        "value": "16"
+      },
+      {
+        "label": "RBI",
+        "value": "70"
+      },
+      {
+        "label": "R",
+        "value": "74"
+      },
+      {
+        "label": "H",
+        "value": "167"
+      },
+      {
+        "label": "SB",
+        "value": "7"
+      },
+      {
+        "label": "OBP",
+        "value": ".362"
+      },
+      {
+        "label": "SLG",
+        "value": ".430"
+      },
+      {
+        "label": "OPS",
+        "value": ".792"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/freddie-freeman-518692",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "bryce-harper",
+    "league": "mlb",
+    "teamId": "philadelphia-phillies",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "162"
+      },
+      {
+        "label": "AVG",
+        "value": ".269"
+      },
+      {
+        "label": "HR",
+        "value": "29"
+      },
+      {
+        "label": "RBI",
+        "value": "87"
+      },
+      {
+        "label": "R",
+        "value": "93"
+      },
+      {
+        "label": "H",
+        "value": "155"
+      },
+      {
+        "label": "SB",
+        "value": "7"
+      },
+      {
+        "label": "OBP",
+        "value": ".380"
+      },
+      {
+        "label": "SLG",
+        "value": ".485"
+      },
+      {
+        "label": "OPS",
+        "value": ".865"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/bryce-harper-547180",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "mookie-betts",
+    "league": "mlb",
+    "teamId": "los-angeles-dodgers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "123"
+      },
+      {
+        "label": "AVG",
+        "value": ".257"
+      },
+      {
+        "label": "HR",
+        "value": "23"
+      },
+      {
+        "label": "RBI",
+        "value": "69"
+      },
+      {
+        "label": "R",
+        "value": "71"
+      },
+      {
+        "label": "H",
+        "value": "123"
+      },
+      {
+        "label": "SB",
+        "value": "2"
+      },
+      {
+        "label": "OBP",
+        "value": ".326"
+      },
+      {
+        "label": "SLG",
+        "value": ".454"
+      },
+      {
+        "label": "OPS",
+        "value": ".780"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/dodgers/player/mookie-betts-605141",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "yoshinobu-yamamoto",
+    "league": "mlb",
+    "teamId": "los-angeles-dodgers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "28"
+      },
+      {
+        "label": "W-L",
+        "value": "14-9"
+      },
+      {
+        "label": "ERA",
+        "value": "2.53"
+      },
+      {
+        "label": "IP",
+        "value": "185.0"
+      },
+      {
+        "label": "SO",
+        "value": "182"
+      },
+      {
+        "label": "BB",
+        "value": "42"
+      },
+      {
+        "label": "WHIP",
+        "value": "0.87"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/players/y/yamamyo01.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "juan-soto",
+    "league": "mlb",
+    "teamId": "new-york-mets",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "111"
+      },
+      {
+        "label": "AVG",
+        "value": ".275"
+      },
+      {
+        "label": "HR",
+        "value": "27"
+      },
+      {
+        "label": "RBI",
+        "value": "68"
+      },
+      {
+        "label": "R",
+        "value": "63"
+      },
+      {
+        "label": "H",
+        "value": "110"
+      },
+      {
+        "label": "SB",
+        "value": "9"
+      },
+      {
+        "label": "OBP",
+        "value": ".393"
+      },
+      {
+        "label": "SLG",
+        "value": ".515"
+      },
+      {
+        "label": "OPS",
+        "value": ".908"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/juan-soto-665742",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "corey-seager",
+    "league": "mlb",
+    "teamId": "texas-rangers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "102"
+      },
+      {
+        "label": "AVG",
+        "value": ".227"
+      },
+      {
+        "label": "HR",
+        "value": "20"
+      },
+      {
+        "label": "RBI",
+        "value": "51"
+      },
+      {
+        "label": "R",
+        "value": "57"
+      },
+      {
+        "label": "H",
+        "value": "87"
+      },
+      {
+        "label": "SB",
+        "value": "2"
+      },
+      {
+        "label": "OBP",
+        "value": ".312"
+      },
+      {
+        "label": "SLG",
+        "value": ".424"
+      },
+      {
+        "label": "OPS",
+        "value": ".736"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/corey-seager-608369",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "vladimir-guerrero-jr",
+    "league": "mlb",
+    "teamId": "toronto-blue-jays",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "144"
+      },
+      {
+        "label": "AVG",
+        "value": ".260"
+      },
+      {
+        "label": "HR",
+        "value": "9"
+      },
+      {
+        "label": "RBI",
+        "value": "57"
+      },
+      {
+        "label": "R",
+        "value": "72"
+      },
+      {
+        "label": "H",
+        "value": "141"
+      },
+      {
+        "label": "SB",
+        "value": "7"
+      },
+      {
+        "label": "OBP",
+        "value": ".332"
+      },
+      {
+        "label": "SLG",
+        "value": ".356"
+      },
+      {
+        "label": "OPS",
+        "value": ".688"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/bluejays/player/vladimir-guerrero-jr-665489",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "adley-rutschman",
+    "league": "mlb",
+    "teamId": "boston-red-sox",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "99"
+      },
+      {
+        "label": "AVG",
+        "value": ".242"
+      },
+      {
+        "label": "HR",
+        "value": "13"
+      },
+      {
+        "label": "RBI",
+        "value": "60"
+      },
+      {
+        "label": "R",
+        "value": "44"
+      },
+      {
+        "label": "H",
+        "value": "88"
+      },
+      {
+        "label": "SB",
+        "value": "0"
+      },
+      {
+        "label": "OBP",
+        "value": ".315"
+      },
+      {
+        "label": "SLG",
+        "value": ".426"
+      },
+      {
+        "label": "OPS",
+        "value": ".741"
+      }
+    ],
+    "note": "Combined Orioles and Red Sox totals.",
+    "source": "https://www.fantasypros.com/mlb/stats/adley-rutschman.php",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "kyle-schwarber",
+    "league": "mlb",
+    "teamId": "philadelphia-phillies",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "156"
+      },
+      {
+        "label": "AVG",
+        "value": ".232"
+      },
+      {
+        "label": "HR",
+        "value": "45"
+      },
+      {
+        "label": "RBI",
+        "value": "97"
+      },
+      {
+        "label": "R",
+        "value": "95"
+      },
+      {
+        "label": "H",
+        "value": "135"
+      },
+      {
+        "label": "SB",
+        "value": "3"
+      },
+      {
+        "label": "OBP",
+        "value": ".354"
+      },
+      {
+        "label": "SLG",
+        "value": ".503"
+      },
+      {
+        "label": "OPS",
+        "value": ".857"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/kyle-schwarber-656941",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "paul-skenes",
+    "league": "mlb",
+    "teamId": "pittsburgh-pirates",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "32"
+      },
+      {
+        "label": "W-L",
+        "value": "10-11"
+      },
+      {
+        "label": "ERA",
+        "value": "3.82"
+      },
+      {
+        "label": "IP",
+        "value": "174.1"
+      },
+      {
+        "label": "SO",
+        "value": "200"
+      },
+      {
+        "label": "BB",
+        "value": "49"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.12"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/players/s/skenepa01.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "cal-raleigh",
+    "league": "mlb",
+    "teamId": "seattle-mariners",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "126"
+      },
+      {
+        "label": "AVG",
+        "value": ".182"
+      },
+      {
+        "label": "HR",
+        "value": "23"
+      },
+      {
+        "label": "RBI",
+        "value": "69"
+      },
+      {
+        "label": "R",
+        "value": "49"
+      },
+      {
+        "label": "H",
+        "value": "82"
+      },
+      {
+        "label": "SB",
+        "value": "2"
+      },
+      {
+        "label": "OBP",
+        "value": ".296"
+      },
+      {
+        "label": "SLG",
+        "value": ".368"
+      },
+      {
+        "label": "OPS",
+        "value": ".664"
+      }
+    ],
+    "note": null,
+    "source": "https://baseballsavant.mlb.com/savant-player/cal-raleigh-663728",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "elly-de-la-cruz",
+    "league": "mlb",
+    "teamId": "cincinnati-reds",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "143"
+      },
+      {
+        "label": "AVG",
+        "value": ".283"
+      },
+      {
+        "label": "HR",
+        "value": "30"
+      },
+      {
+        "label": "RBI",
+        "value": "79"
+      },
+      {
+        "label": "R",
+        "value": "99"
+      },
+      {
+        "label": "H",
+        "value": "158"
+      },
+      {
+        "label": "SB",
+        "value": "30"
+      },
+      {
+        "label": "OBP",
+        "value": ".365"
+      },
+      {
+        "label": "SLG",
+        "value": ".515"
+      },
+      {
+        "label": "OPS",
+        "value": ".880"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/players/d/delacel01.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jackson-merrill",
+    "league": "mlb",
+    "teamId": "san-diego-padres",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "158"
+      },
+      {
+        "label": "AVG",
+        "value": ".254"
+      },
+      {
+        "label": "HR",
+        "value": "26"
+      },
+      {
+        "label": "RBI",
+        "value": "87"
+      },
+      {
+        "label": "R",
+        "value": "86"
+      },
+      {
+        "label": "H",
+        "value": "156"
+      },
+      {
+        "label": "SB",
+        "value": "27"
+      },
+      {
+        "label": "OBP",
+        "value": ".303"
+      },
+      {
+        "label": "SLG",
+        "value": ".440"
+      },
+      {
+        "label": "OPS",
+        "value": ".743"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/jackson-merrill-701538",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "nolan-arenado",
+    "league": "mlb",
+    "teamId": "arizona-diamondbacks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "152"
+      },
+      {
+        "label": "AVG",
+        "value": ".255"
+      },
+      {
+        "label": "HR",
+        "value": "30"
+      },
+      {
+        "label": "RBI",
+        "value": "86"
+      },
+      {
+        "label": "R",
+        "value": "80"
+      },
+      {
+        "label": "H",
+        "value": "136"
+      },
+      {
+        "label": "SB",
+        "value": "4"
+      },
+      {
+        "label": "OBP",
+        "value": ".331"
+      },
+      {
+        "label": "SLG",
+        "value": ".475"
+      },
+      {
+        "label": "OPS",
+        "value": ".806"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/player/nolan-arenado-571448",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "munetaka-murakami",
+    "league": "mlb",
+    "teamId": "chicago-white-sox",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "127"
+      },
+      {
+        "label": "AVG",
+        "value": ".207"
+      },
+      {
+        "label": "HR",
+        "value": "35"
+      },
+      {
+        "label": "RBI",
+        "value": "77"
+      },
+      {
+        "label": "R",
+        "value": "82"
+      },
+      {
+        "label": "H",
+        "value": "94"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".347"
+      },
+      {
+        "label": "SLG",
+        "value": ".478"
+      },
+      {
+        "label": "OPS",
+        "value": ".825"
+      }
+    ],
+    "note": null,
+    "source": "https://www.mlb.com/whitesox/player/munetaka-murakami-808959",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "josh-allen",
+    "league": "nfl",
+    "teamId": "buffalo-bills",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "114/171"
+      },
+      {
+        "label": "Cmp%",
+        "value": "66.7"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "1,504"
+      },
+      {
+        "label": "Pass TD",
+        "value": "9"
+      },
+      {
+        "label": "INT",
+        "value": "4"
+      },
+      {
+        "label": "Rating",
+        "value": "102.1"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "240"
+      },
+      {
+        "label": "Rush TD",
+        "value": "8"
+      }
+    ],
+    "note": "Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.espn.com/nfl/game/_/gameId/401873005/bills-raiders",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "drake-maye",
+    "league": "nfl",
+    "teamId": "new-england-patriots",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "Cmp/Att",
+        "value": "18/32"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "235"
+      },
+      {
+        "label": "Pass TD",
+        "value": "3"
+      },
+      {
+        "label": "INT",
+        "value": "0"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "24"
+      }
+    ],
+    "note": "Week 6 game against the Jets only. Published season totals disagree, so they are not shown.",
+    "source": "https://www.cbsnews.com/boston/news/new-england-patriots-new-york-jets-week-6-recap/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "saquon-barkley",
+    "league": "nfl",
+    "teamId": "philadelphia-eagles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Rush Att",
+        "value": "36"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "182"
+      },
+      {
+        "label": "YPC",
+        "value": "5.1"
+      },
+      {
+        "label": "Rush TD",
+        "value": "0"
+      },
+      {
+        "label": "Rec",
+        "value": "4"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "8"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": "Missed Weeks 5 and 6 with a hamstring strain.",
+    "source": "https://www.rotoballer.com/?p=1968007",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jaxon-smith-njigba",
+    "league": "nfl",
+    "teamId": "seattle-seahawks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "66"
+      },
+      {
+        "label": "Rec",
+        "value": "49"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "717"
+      },
+      {
+        "label": "YPR",
+        "value": "14.6"
+      },
+      {
+        "label": "Rec TD",
+        "value": "7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.rotoballer.com/?p=1967416",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jayden-daniels",
+    "league": "nfl",
+    "teamId": "washington-commanders",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "75/116"
+      },
+      {
+        "label": "Cmp%",
+        "value": "64.7"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "759"
+      },
+      {
+        "label": "Pass TD",
+        "value": "5"
+      },
+      {
+        "label": "INT",
+        "value": "0"
+      },
+      {
+        "label": "Rating",
+        "value": "97.6"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "213"
+      },
+      {
+        "label": "Rush TD",
+        "value": "2"
+      }
+    ],
+    "note": "Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.espn.com/nfl/player/_/id/4426348/jayden-daniels",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "patrick-mahomes",
+    "league": "nfl",
+    "teamId": "kansas-city-chiefs",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "105/158"
+      },
+      {
+        "label": "Cmp%",
+        "value": "66.5"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "1,309"
+      },
+      {
+        "label": "Pass TD",
+        "value": "9"
+      },
+      {
+        "label": "INT",
+        "value": "3"
+      },
+      {
+        "label": "Rating",
+        "value": "103.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nfl/player/gamelog/_/id/3139477/patrick-mahomes",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jalen-hurts",
+    "league": "nfl",
+    "teamId": "philadelphia-eagles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "89/154"
+      },
+      {
+        "label": "Cmp%",
+        "value": "57.8"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "933"
+      },
+      {
+        "label": "Pass TD",
+        "value": "8"
+      },
+      {
+        "label": "INT",
+        "value": "3"
+      },
+      {
+        "label": "Rating",
+        "value": "84.7"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "107"
+      },
+      {
+        "label": "Rush TD",
+        "value": "1"
+      }
+    ],
+    "note": "On injured reserve. Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.rotoballer.com/?p=1969073",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "caleb-williams",
+    "league": "nfl",
+    "teamId": "chicago-bears",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "66/91"
+      },
+      {
+        "label": "Cmp%",
+        "value": "72.5"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "712"
+      },
+      {
+        "label": "Pass TD",
+        "value": "3"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "Rating",
+        "value": "101.5"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "110"
+      },
+      {
+        "label": "Rush TD",
+        "value": "2"
+      }
+    ],
+    "note": "Missed Weeks 3 to 5 (hamstring). Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.espn.com/nfl/player/gamelog/_/id/4431611/caleb-williams",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jordan-love",
+    "league": "nfl",
+    "teamId": "green-bay-packers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "135/226"
+      },
+      {
+        "label": "Cmp%",
+        "value": "59.7"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "1,684"
+      },
+      {
+        "label": "Pass TD",
+        "value": "11"
+      },
+      {
+        "label": "INT",
+        "value": "4"
+      },
+      {
+        "label": "Rating",
+        "value": "91.8"
+      }
+    ],
+    "note": "Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.espn.com/nfl/recap?gameId=401873007",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "bo-nix",
+    "league": "nfl",
+    "teamId": "denver-broncos",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "114/189"
+      },
+      {
+        "label": "Cmp%",
+        "value": "60.3"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "1,049"
+      },
+      {
+        "label": "Pass TD",
+        "value": "6"
+      },
+      {
+        "label": "INT",
+        "value": "3"
+      },
+      {
+        "label": "Rating",
+        "value": "79.4"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "37"
+      },
+      {
+        "label": "Rush TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nfl/player/gamelog/_/id/4426338/bo-nix",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "christian-mccaffrey",
+    "league": "nfl",
+    "teamId": "san-francisco-49ers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Rush Att",
+        "value": "77"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "350"
+      },
+      {
+        "label": "YPC",
+        "value": "4.5"
+      },
+      {
+        "label": "Rush TD",
+        "value": "7"
+      },
+      {
+        "label": "Rec",
+        "value": "28"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "190"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://fantasydata.com/nfl/christian-mccaffrey-fantasy/18877",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "justin-jefferson",
+    "league": "nfl",
+    "teamId": "minnesota-vikings",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Targets",
+        "value": "24"
+      },
+      {
+        "label": "Rec",
+        "value": "19"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "258"
+      },
+      {
+        "label": "YPR",
+        "value": "13.6"
+      },
+      {
+        "label": "Rec TD",
+        "value": "3"
+      }
+    ],
+    "note": "Missed Week 4 (ankle); Week 6 bye.",
+    "source": "https://www.rotoballer.com/?p=1964023",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "aidan-hutchinson",
+    "league": "nfl",
+    "teamId": "detroit-lions",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Tackles",
+        "value": "15"
+      },
+      {
+        "label": "Sacks",
+        "value": "4.0"
+      },
+      {
+        "label": "INT",
+        "value": "0"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      }
+    ],
+    "note": "Week 6 bye.",
+    "source": "https://www.nfl.com/players/aidan-hutchinson/stats/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "t-j-watt",
+    "league": "nfl",
+    "teamId": "pittsburgh-steelers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "Sacks",
+        "value": "4.5"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.nfl.com/players/t-j-watt/stats/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jahmyr-gibbs",
+    "league": "nfl",
+    "teamId": "detroit-lions",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Rush Att",
+        "value": "105"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "504"
+      },
+      {
+        "label": "YPC",
+        "value": "4.8"
+      },
+      {
+        "label": "Rush TD",
+        "value": "7"
+      },
+      {
+        "label": "Rec",
+        "value": "27"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "243"
+      },
+      {
+        "label": "Rec TD",
+        "value": "2"
+      }
+    ],
+    "note": "Week 6 bye.",
+    "source": "https://statsniper.com/leagues/nfl/player/jahmyr_gibbs_DET/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "amon-ra-st-brown",
+    "league": "nfl",
+    "teamId": "detroit-lions",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Targets",
+        "value": "57"
+      },
+      {
+        "label": "Rec",
+        "value": "37"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "372"
+      },
+      {
+        "label": "YPR",
+        "value": "10.1"
+      },
+      {
+        "label": "Rec TD",
+        "value": "5"
+      }
+    ],
+    "note": "Week 6 bye.",
+    "source": "https://www.thefantasyfootballers.com/news/642087/amon-ra-st-brown-six-catches-in-week-5-win/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "brock-purdy",
+    "league": "nfl",
+    "teamId": "san-francisco-49ers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "119/171"
+      },
+      {
+        "label": "Cmp%",
+        "value": "69.6"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "1,460"
+      },
+      {
+        "label": "Pass TD",
+        "value": "14"
+      },
+      {
+        "label": "INT",
+        "value": "2"
+      },
+      {
+        "label": "Rating",
+        "value": "118.1"
+      }
+    ],
+    "note": "Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.espn.com/nfl/recap?gameId=401873008",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "lamar-jackson",
+    "league": "nfl",
+    "teamId": "baltimore-ravens",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "68/96"
+      },
+      {
+        "label": "Cmp%",
+        "value": "70.8"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "967"
+      },
+      {
+        "label": "Pass TD",
+        "value": "6"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "Rating",
+        "value": "119.6"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "144"
+      },
+      {
+        "label": "Rush TD",
+        "value": "1"
+      }
+    ],
+    "note": "Missed Weeks 5 and 6 (ankle). Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.gambling.com/betbuilderai/nfl/team/baltimore-ravens/lamar-jackson",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "c-j-stroud",
+    "league": "nfl",
+    "teamId": "houston-texans",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Cmp/Att",
+        "value": "143/219"
+      },
+      {
+        "label": "Cmp%",
+        "value": "65.3"
+      },
+      {
+        "label": "Pass Yds",
+        "value": "1,714"
+      },
+      {
+        "label": "Pass TD",
+        "value": "9"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "Rating",
+        "value": "100.9"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "76"
+      },
+      {
+        "label": "Rush TD",
+        "value": "1"
+      }
+    ],
+    "note": "Cmp% and passer rating are calculated from the verified totals.",
+    "source": "https://www.espn.com/nfl/player/gamelog/_/id/4432577/cj-stroud",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "ceedee-lamb",
+    "league": "nfl",
+    "teamId": "dallas-cowboys",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "69"
+      },
+      {
+        "label": "Rec",
+        "value": "48"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "577"
+      },
+      {
+        "label": "YPR",
+        "value": "12.0"
+      },
+      {
+        "label": "Rec TD",
+        "value": "4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.espn.com/nfl/player/gamelog/_/id/4241389/ceedee-lamb",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "cooper-dejean",
+    "league": "nfl",
+    "teamId": "philadelphia-eagles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "INT",
+        "value": "1"
+      }
+    ],
+    "note": "Tackle totals conflict across sources and are not shown.",
+    "source": "https://www.cbssports.com/fantasy/football/news/eagles-cooper-dejean-snags-interception-in-loss/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "george-kittle",
+    "league": "nfl",
+    "teamId": "san-francisco-49ers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "36"
+      },
+      {
+        "label": "Rec",
+        "value": "26"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "337"
+      },
+      {
+        "label": "YPR",
+        "value": "13.0"
+      },
+      {
+        "label": "Rec TD",
+        "value": "5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/george-kittle-scores-early-goes-5-69-1-in-week-6",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "puka-nacua",
+    "league": "nfl",
+    "teamId": "los-angeles-rams",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Targets",
+        "value": "52"
+      },
+      {
+        "label": "Rec",
+        "value": "37"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "417"
+      },
+      {
+        "label": "YPR",
+        "value": "11.3"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": "Missed Weeks 2 and 3 (groin).",
+    "source": "https://www.cbssports.com/fantasy/football/news/rams-puka-nacua-tallies-80-yards-in-week-6/",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "fred-warner",
+    "league": "nfl",
+    "teamId": "san-francisco-49ers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "Tackles",
+        "value": "58"
+      }
+    ],
+    "note": "Adds 8 Week 6 tackles to the verified 50 through Week 5.",
+    "source": "https://lawlessrepublic.com/byu-players-in-the-nfl-week-6-fred-warner-puka-nacua-shine-tyler-allgeier",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "stephen-curry",
+    "league": "nba",
+    "teamId": "golden-state-warriors",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "43"
+      },
+      {
+        "label": "PPG",
+        "value": "26.6"
+      },
+      {
+        "label": "RPG",
+        "value": "3.6"
+      },
+      {
+        "label": "APG",
+        "value": "4.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.1"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "4.4"
+      },
+      {
+        "label": "FG%",
+        "value": "46.8"
+      },
+      {
+        "label": "FT%",
+        "value": "92.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/stephen_curry_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "luka-doncic",
+    "league": "nba",
+    "teamId": "los-angeles-lakers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "64"
+      },
+      {
+        "label": "PPG",
+        "value": "33.5"
+      },
+      {
+        "label": "RPG",
+        "value": "7.7"
+      },
+      {
+        "label": "APG",
+        "value": "8.3"
+      },
+      {
+        "label": "SPG",
+        "value": "1.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "4.0"
+      },
+      {
+        "label": "FG%",
+        "value": "47.6"
+      },
+      {
+        "label": "FT%",
+        "value": "78.0"
+      }
+    ],
+    "note": null,
+    "source": "https://basketball.realgm.com/player/Luka-Doncic/NBA/54148",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jalen-brunson",
+    "league": "nba",
+    "teamId": "new-york-knicks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "74"
+      },
+      {
+        "label": "PPG",
+        "value": "26.0"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "6.8"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "3PG",
+        "value": "2.6"
+      },
+      {
+        "label": "FG%",
+        "value": "46.7"
+      },
+      {
+        "label": "FT%",
+        "value": "84.1"
+      }
+    ],
+    "note": null,
+    "source": "https://basketball.realgm.com/player/Jalen-Brunson/NBA/52545",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "victor-wembanyama",
+    "league": "nba",
+    "teamId": "san-antonio-spurs",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "64"
+      },
+      {
+        "label": "PPG",
+        "value": "25.0"
+      },
+      {
+        "label": "RPG",
+        "value": "11.5"
+      },
+      {
+        "label": "APG",
+        "value": "3.1"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "3.1"
+      },
+      {
+        "label": "3PG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "51.2"
+      },
+      {
+        "label": "FT%",
+        "value": "82.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "lebron-james",
+    "league": "nba",
+    "teamId": "los-angeles-lakers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "60"
+      },
+      {
+        "label": "PPG",
+        "value": "20.9"
+      },
+      {
+        "label": "RPG",
+        "value": "6.1"
+      },
+      {
+        "label": "APG",
+        "value": "7.2"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.6"
+      },
+      {
+        "label": "3PG",
+        "value": "1.3"
+      },
+      {
+        "label": "FG%",
+        "value": "51.5"
+      },
+      {
+        "label": "FT%",
+        "value": "73.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lebron_james_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "anthony-edwards",
+    "league": "nba",
+    "teamId": "minnesota-timberwolves",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "61"
+      },
+      {
+        "label": "PPG",
+        "value": "28.8"
+      },
+      {
+        "label": "RPG",
+        "value": "5.0"
+      },
+      {
+        "label": "APG",
+        "value": "3.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.8"
+      },
+      {
+        "label": "3PG",
+        "value": "3.4"
+      },
+      {
+        "label": "FG%",
+        "value": "48.9"
+      },
+      {
+        "label": "FT%",
+        "value": "79.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/anthony_edwards_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "jayson-tatum",
+    "league": "nba",
+    "teamId": "boston-celtics",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "16"
+      },
+      {
+        "label": "PPG",
+        "value": "21.8"
+      },
+      {
+        "label": "RPG",
+        "value": "10.0"
+      },
+      {
+        "label": "APG",
+        "value": "5.3"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "2.9"
+      },
+      {
+        "label": "FG%",
+        "value": "41.1"
+      },
+      {
+        "label": "FT%",
+        "value": "82.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/jayson_tatum_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "shai-gilgeous-alexander",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "68"
+      },
+      {
+        "label": "PPG",
+        "value": "31.1"
+      },
+      {
+        "label": "RPG",
+        "value": "4.3"
+      },
+      {
+        "label": "APG",
+        "value": "6.6"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.8"
+      },
+      {
+        "label": "3PG",
+        "value": "1.7"
+      },
+      {
+        "label": "FG%",
+        "value": "55.3"
+      },
+      {
+        "label": "FT%",
+        "value": "87.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/shai_gilgeous_alexander.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "cooper-flagg",
+    "league": "nba",
+    "teamId": "dallas-mavericks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "70"
+      },
+      {
+        "label": "PPG",
+        "value": "21.0"
+      },
+      {
+        "label": "RPG",
+        "value": "6.7"
+      },
+      {
+        "label": "APG",
+        "value": "4.5"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.9"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "46.8"
+      },
+      {
+        "label": "FT%",
+        "value": "82.7"
+      }
+    ],
+    "note": null,
+    "source": "https://basketball.realgm.com/player/wd/Summary/196882",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "nikola-jokic",
+    "league": "nba",
+    "teamId": "denver-nuggets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "65"
+      },
+      {
+        "label": "PPG",
+        "value": "27.7"
+      },
+      {
+        "label": "RPG",
+        "value": "12.9"
+      },
+      {
+        "label": "APG",
+        "value": "10.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.8"
+      },
+      {
+        "label": "3PG",
+        "value": "1.7"
+      },
+      {
+        "label": "FG%",
+        "value": "56.9"
+      },
+      {
+        "label": "FT%",
+        "value": "83.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/nikola_jokic_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "kevin-durant",
+    "league": "nba",
+    "teamId": "houston-rockets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "78"
+      },
+      {
+        "label": "PPG",
+        "value": "26.0"
+      },
+      {
+        "label": "RPG",
+        "value": "5.5"
+      },
+      {
+        "label": "APG",
+        "value": "4.8"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.9"
+      },
+      {
+        "label": "3PG",
+        "value": "2.4"
+      },
+      {
+        "label": "FG%",
+        "value": "52.0"
+      },
+      {
+        "label": "FT%",
+        "value": "87.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/kevin_durant_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "tyrese-maxey",
+    "league": "nba",
+    "teamId": "philadelphia-76ers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "70"
+      },
+      {
+        "label": "PPG",
+        "value": "28.3"
+      },
+      {
+        "label": "RPG",
+        "value": "4.1"
+      },
+      {
+        "label": "APG",
+        "value": "6.6"
+      },
+      {
+        "label": "SPG",
+        "value": "1.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.8"
+      },
+      {
+        "label": "3PG",
+        "value": "3.1"
+      },
+      {
+        "label": "FG%",
+        "value": "46.2"
+      },
+      {
+        "label": "FT%",
+        "value": "89.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/tyrese_maxey_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "devin-booker",
+    "league": "nba",
+    "teamId": "phoenix-suns",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "64"
+      },
+      {
+        "label": "PPG",
+        "value": "26.1"
+      },
+      {
+        "label": "RPG",
+        "value": "3.9"
+      },
+      {
+        "label": "APG",
+        "value": "6.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "45.6"
+      },
+      {
+        "label": "FT%",
+        "value": "87.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/devin_booker_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "cade-cunningham",
+    "league": "nba",
+    "teamId": "detroit-pistons",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "64"
+      },
+      {
+        "label": "PPG",
+        "value": "23.9"
+      },
+      {
+        "label": "RPG",
+        "value": "5.5"
+      },
+      {
+        "label": "APG",
+        "value": "9.9"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.8"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "46.1"
+      },
+      {
+        "label": "FT%",
+        "value": "81.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/cade_cunningham_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "lamelo-ball",
+    "league": "nba",
+    "teamId": "charlotte-hornets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "72"
+      },
+      {
+        "label": "PPG",
+        "value": "20.1"
+      },
+      {
+        "label": "RPG",
+        "value": "4.8"
+      },
+      {
+        "label": "APG",
+        "value": "7.1"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "3.8"
+      },
+      {
+        "label": "FG%",
+        "value": "40.7"
+      },
+      {
+        "label": "FT%",
+        "value": "89.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lamelo_ball_full.htm",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  }
+]

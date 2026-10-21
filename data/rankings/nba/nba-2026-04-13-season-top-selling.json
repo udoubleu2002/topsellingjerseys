@@ -1,0 +1,97 @@
+{
+  "id": "nba-2026-04-13-season-top-selling",
+  "series": "nba-season",
+  "title": "Top-Selling NBA Jerseys, 2025-26 Regular Season",
+  "publisher": "NBA and NBPA (via NBA.com)",
+  "periodStart": "2025-10-01",
+  "periodEnd": "2026-04-12",
+  "scope": "Jersey sales on NBAStore.com, Fanatics.com and Fanatics partner sites during the 2025-26 regular season.",
+  "methodology": "Based on online sales through the NBA Store and Fanatics network. Unit counts are not published.",
+  "limitations": [
+    "Online sales through the NBA Store and Fanatics network only; in-arena and other retail sales are not included."
+  ],
+  "league": "nba",
+  "sourceUrl": "https://www.nba.com/news/top-selling-jerseys-2025-26-nba-season",
+  "publishedDate": "2026-04-13",
+  "periodLabel": "2025-26 NBA regular season",
+  "retrievedDate": "2026-10-20",
+  "lastVerified": "2026-10-21",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "stephen-curry",
+      "teamIdAtReport": "golden-state-warriors"
+    },
+    {
+      "rank": 2,
+      "playerId": "luka-doncic",
+      "teamIdAtReport": "los-angeles-lakers"
+    },
+    {
+      "rank": 3,
+      "playerId": "jalen-brunson",
+      "teamIdAtReport": "new-york-knicks"
+    },
+    {
+      "rank": 4,
+      "playerId": "victor-wembanyama",
+      "teamIdAtReport": "san-antonio-spurs"
+    },
+    {
+      "rank": 5,
+      "playerId": "lebron-james",
+      "teamIdAtReport": "los-angeles-lakers"
+    },
+    {
+      "rank": 6,
+      "playerId": "anthony-edwards",
+      "teamIdAtReport": "minnesota-timberwolves"
+    },
+    {
+      "rank": 7,
+      "playerId": "jayson-tatum",
+      "teamIdAtReport": "boston-celtics"
+    },
+    {
+      "rank": 8,
+      "playerId": "shai-gilgeous-alexander",
+      "teamIdAtReport": "oklahoma-city-thunder"
+    },
+    {
+      "rank": 9,
+      "playerId": "cooper-flagg",
+      "teamIdAtReport": "dallas-mavericks"
+    },
+    {
+      "rank": 10,
+      "playerId": "nikola-jokic",
+      "teamIdAtReport": "denver-nuggets"
+    },
+    {
+      "rank": 11,
+      "playerId": "kevin-durant",
+      "teamIdAtReport": "houston-rockets"
+    },
+    {
+      "rank": 12,
+      "playerId": "tyrese-maxey",
+      "teamIdAtReport": "philadelphia-76ers"
+    },
+    {
+      "rank": 13,
+      "playerId": "devin-booker",
+      "teamIdAtReport": "phoenix-suns"
+    },
+    {
+      "rank": 14,
+      "playerId": "cade-cunningham",
+      "teamIdAtReport": "detroit-pistons"
+    },
+    {
+      "rank": 15,
+      "playerId": "lamelo-ball",
+      "teamIdAtReport": "charlotte-hornets"
+    }
+  ]
+}

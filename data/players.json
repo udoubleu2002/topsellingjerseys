@@ -1,0 +1,2985 @@
+[
+  {
+    "id": "aaron-judge",
+    "slug": "aaron-judge",
+    "name": "Aaron Judge",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "new-york-yankees",
+    "lastTeamId": "new-york-yankees",
+    "status": "Active",
+    "position": "RF",
+    "number": "99",
+    "birthday": "1992-04-26",
+    "birthdaySource": "https://www.espn.com/mlb/player/bio/_/id/33192/aaron-judge",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Posted an .871 OPS with 18 homers in 66 games in an injury-shortened 2026",
+        "source": "https://baseballsavant.mlb.com/savant-player/aaron-judge-592450"
+      },
+      {
+        "text": "Returned from a rib stress fracture and homered in the Sept. 14 win that clinched a postseason berth",
+        "source": "https://www.espn.com/mlb/story/_/id/49945881/aaron-judge-hits-first-home-run-yankees-clinch-record-61st-postseason-berth"
+      },
+      {
+        "text": "Set the AL single-season record with 62 homers in 2022; three-time AL MVP",
+        "source": "https://en.wikipedia.org/wiki/Aaron_Judge"
+      }
+    ],
+    "sources": [
+      "https://baseballsavant.mlb.com/savant-player/aaron-judge-592450",
+      "https://en.wikipedia.org/wiki/Aaron_Judge",
+      "https://www.espn.com/mlb/player/bio/_/id/33192/aaron-judge",
+      "https://www.espn.com/mlb/story/_/id/49945881/aaron-judge-hits-first-home-run-yankees-clinch-record-61st-postseason-berth"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "adley-rutschman",
+    "slug": "adley-rutschman",
+    "name": "Adley Rutschman",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "boston-red-sox",
+    "lastTeamId": "boston-red-sox",
+    "status": "Active",
+    "position": "C",
+    "number": "31",
+    "birthday": "1998-02-06",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Adley_Rutschman",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit 26 doubles and 13 homers with 60 RBI in 99 games across Baltimore and Boston",
+        "source": "https://www.fantasypros.com/mlb/stats/adley-rutschman.php"
+      },
+      {
+        "text": "Traded from the Orioles to the Red Sox at the 2026 deadline; hit five homers in 32 games for Boston",
+        "source": "https://www.espn.com/mlb/story/_/id/49522617/sources-orioles-trade-all-star-catcher-rutschman-red-sox"
+      },
+      {
+        "text": "No. 1 overall pick in 2019; named to his third All-Star Game in 2026",
+        "source": "https://www.mlb.com/orioles/news/adley-rutschman-third-all-star-selection"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adley_Rutschman",
+      "https://www.espn.com/mlb/story/_/id/49522617/sources-orioles-trade-all-star-catcher-rutschman-red-sox",
+      "https://www.fantasypros.com/mlb/stats/adley-rutschman.php",
+      "https://www.mlb.com/orioles/news/adley-rutschman-third-all-star-selection"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "aidan-hutchinson",
+    "slug": "aidan-hutchinson",
+    "name": "Aidan Hutchinson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "detroit-lions",
+    "lastTeamId": "detroit-lions",
+    "status": "Active",
+    "position": "DE",
+    "number": "97",
+    "birthday": "2000-08-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4.0 sacks and 15 tackles in five games",
+        "source": "https://www.rotowire.com/football/player/aidan-hutchinson-15832"
+      },
+      {
+        "text": "Set a Lions record with a sack in six straight games, counting back into 2025",
+        "source": "https://sports.yahoo.com/articles/aidan-hutchinson-sets-lions-franchise-170500814.html"
+      },
+      {
+        "text": "No. 2 overall pick in the 2022 NFL Draft",
+        "source": "https://en.wikipedia.org/wiki/Aidan_Hutchinson"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aidan_Hutchinson",
+      "https://sports.yahoo.com/articles/aidan-hutchinson-sets-lions-franchise-170500814.html",
+      "https://www.rotowire.com/football/player/aidan-hutchinson-15832"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "alex-ovechkin",
+    "slug": "alex-ovechkin",
+    "name": "Alex Ovechkin",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "washington-capitals",
+    "lastTeamId": "washington-capitals",
+    "status": "Active",
+    "position": "LW",
+    "number": "8",
+    "birthday": "1985-09-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Alex_Ovechkin",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 4 points through his first eight games of 2026-27",
+        "source": "https://www.espn.com/nhl/player/gamelog/_/id/3101/alex-ovechkin"
+      },
+      {
+        "text": "Playing his announced final NHL season; scored career goal No. 930 on Oct. 11 vs. Seattle",
+        "source": "https://capitalsoutsider.com/alex-ovechkin-nhl-goals-countdown/"
+      },
+      {
+        "text": "The NHL's all-time goals leader since passing Wayne Gretzky's 894 in April 2025",
+        "source": "https://en.wikipedia.org/wiki/Alex_Ovechkin"
+      }
+    ],
+    "sources": [
+      "https://capitalsoutsider.com/alex-ovechkin-nhl-goals-countdown/",
+      "https://en.wikipedia.org/wiki/Alex_Ovechkin",
+      "https://www.espn.com/nhl/player/gamelog/_/id/3101/alex-ovechkin"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "amon-ra-st-brown",
+    "slug": "amon-ra-st-brown",
+    "name": "Amon-Ra St. Brown",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "detroit-lions",
+    "lastTeamId": "detroit-lions",
+    "status": "Active",
+    "position": "WR",
+    "number": "14",
+    "birthday": "1999-10-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 37 catches for 372 yards and 5 TDs in five games",
+        "source": "https://www.detroitlions.com/team/players-roster/amon-ra-st-brown/"
+      },
+      {
+        "text": "Set an NFL catch record in Week 5 at Arizona, passing a Justin Jefferson mark",
+        "source": "https://www.newsweek.com/sports/nfl/lions-amon-ra-st-brown-makes-nfl-history-at-justin-jeffersons-expense-12553728"
+      },
+      {
+        "text": "First-team All-Pro in 2024",
+        "source": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+      "https://www.detroitlions.com/team/players-roster/amon-ra-st-brown/",
+      "https://www.newsweek.com/sports/nfl/lions-amon-ra-st-brown-makes-nfl-history-at-justin-jeffersons-expense-12553728"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "anthony-edwards",
+    "slug": "anthony-edwards",
+    "name": "Anthony Edwards",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "minnesota-timberwolves",
+    "lastTeamId": "minnesota-timberwolves",
+    "status": "Active",
+    "position": "SG",
+    "number": "5",
+    "birthday": "2001-08-05",
+    "birthdaySource": "https://www.basketball-reference.com/players/e/edwaran01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, scored 28.8 points per game over 61 games",
+        "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/anthony_edwards_full.htm"
+      },
+      {
+        "text": "Minnesota traded for LaMelo Ball in July 2026 to pair with him in the backcourt",
+        "source": "https://www.nba.com/news/wolves-hope-lamelo-balls-arrival-will-elevate-their-entire-team"
+      },
+      {
+        "text": "Named 2026 All-Star Game MVP in his fourth straight All-Star appearance",
+        "source": "https://en.wikipedia.org/wiki/2026_NBA_All-Star_Game"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_NBA_All-Star_Game",
+      "https://www.basketball-reference.com/players/e/edwaran01.html",
+      "https://www.landofbasketball.com/nba_players_season_stats/2026/anthony_edwards_full.htm",
+      "https://www.nba.com/news/wolves-hope-lamelo-balls-arrival-will-elevate-their-entire-team"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "auston-matthews",
+    "slug": "auston-matthews",
+    "name": "Auston Matthews",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "toronto-maple-leafs",
+    "lastTeamId": "toronto-maple-leafs",
+    "status": "Active",
+    "position": "C",
+    "number": "34",
+    "birthday": "1997-09-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Auston_Matthews",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 16 points (7 G, 9 A) in 10 games, including goals in three straight",
+        "source": "https://www.foxsports.com/nhl/auston-matthews-player"
+      },
+      {
+        "text": "Back to full speed after an MCL injury ended his 2025-26 season in March",
+        "source": "https://www.nhl.com/news/maple-leafs-auston-matthews-to-miss-rest-of-2025-26-nhl-season"
+      },
+      {
+        "text": "Scored 69 goals in 2023-24; won the Hart Trophy and Ted Lindsay Award in 2022",
+        "source": "https://en.wikipedia.org/wiki/Auston_Matthews"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Auston_Matthews",
+      "https://www.foxsports.com/nhl/auston-matthews-player",
+      "https://www.nhl.com/news/maple-leafs-auston-matthews-to-miss-rest-of-2025-26-nhl-season"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "bo-nix",
+    "slug": "bo-nix",
+    "name": "Bo Nix",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "denver-broncos",
+    "lastTeamId": "denver-broncos",
+    "status": "Active",
+    "position": "QB",
+    "number": "10",
+    "birthday": "2000-02-25",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Bo_Nix",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 17-of-27 for 107 yards in a 17-14 overtime win over Seattle in Week 6",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-16/bo-nix-plays-horribly-broncos-beat-seahawks"
+      },
+      {
+        "text": "Denver is 4-2 but ranks 31st in yards per game; Sean Payton says Nix remains the starter",
+        "source": "https://www.cbssports.com/nfl/news/broncos-super-bowl-bo-nix-stats-2026/"
+      },
+      {
+        "text": "Threw 29 TD passes as a rookie in 2024",
+        "source": "https://en.wikipedia.org/wiki/Bo_Nix"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bo_Nix",
+      "https://www.cbssports.com/nfl/news/broncos-super-bowl-bo-nix-stats-2026/",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-16/bo-nix-plays-horribly-broncos-beat-seahawks"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "brock-purdy",
+    "slug": "brock-purdy",
+    "name": "Brock Purdy",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
+    "status": "Active",
+    "position": "QB",
+    "number": "13",
+    "birthday": "1999-12-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Brock_Purdy",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 21-of-29 for 264 yards and a TD as the 49ers beat Washington 23-17 to go 6-0",
+        "source": "https://www.cbsnews.com/sanfrancisco/news/49ers-commanders-mnf-week-6-2026-brock-purdy-defense-hold-on/"
+      },
+      {
+        "text": "Became the highest-rated passer in NFL history by career passer rating",
+        "source": "https://www.skysports.com/nfl/news/13601181/san-francisco-49ers-beat-washington-commanders-to-stay-unbeaten-as-brock-purdy-becomes-highest-rated-passer-in-nfl-history"
+      },
+      {
+        "text": "Went from the last pick of the 2022 draft to franchise quarterback",
+        "source": "https://en.wikipedia.org/wiki/Brock_Purdy"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brock_Purdy",
+      "https://www.cbsnews.com/sanfrancisco/news/49ers-commanders-mnf-week-6-2026-brock-purdy-defense-hold-on/",
+      "https://www.skysports.com/nfl/news/13601181/san-francisco-49ers-beat-washington-commanders-to-stay-unbeaten-as-brock-purdy-becomes-highest-rated-passer-in-nfl-history"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "bryce-harper",
+    "slug": "bryce-harper",
+    "name": "Bryce Harper",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "philadelphia-phillies",
+    "lastTeamId": "philadelphia-phillies",
+    "status": "Active",
+    "position": "1B",
+    "number": "3",
+    "birthday": "1992-10-16",
+    "birthdaySource": "https://www.britannica.com/facts/Bryce-Harper",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Posted a .380 on-base percentage with 29 homers and 87 RBI",
+        "source": "https://www.mlb.com/player/bryce-harper-547180"
+      },
+      {
+        "text": "Played all 162 games for the first time in his 15-year career",
+        "source": "https://sports.yahoo.com/articles/seven-mlb-players-played-162-111500397.html"
+      },
+      {
+        "text": "Two-time NL MVP (2015, 2021) and 2022 NLCS MVP",
+        "source": "https://en.wikipedia.org/wiki/Bryce_Harper"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bryce_Harper",
+      "https://sports.yahoo.com/articles/seven-mlb-players-played-162-111500397.html",
+      "https://www.britannica.com/facts/Bryce-Harper",
+      "https://www.mlb.com/player/bryce-harper-547180"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "c-j-stroud",
+    "slug": "c-j-stroud",
+    "name": "C.J. Stroud",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "houston-texans",
+    "lastTeamId": "houston-texans",
+    "status": "Active",
+    "position": "QB",
+    "number": "7",
+    "birthday": "2001-10-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/C._J._Stroud",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 312 yards and 3 TDs in a 34-31 Week 6 win over Jacksonville in London",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/stroud-throws-for-312-3-as-texans-win-slugfest"
+      },
+      {
+        "text": "Opened 2026 with 216 straight attempts without an interception",
+        "source": "https://www.fantasypros.com/nfl/news/614504/cj-stroud-tosses-three-touchdowns-week-6-win.php"
+      },
+      {
+        "text": "2023 NFL Offensive Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/C._J._Stroud"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/C._J._Stroud",
+      "https://www.fantasypros.com/nfl/news/614504/cj-stroud-tosses-three-touchdowns-week-6-win.php",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/stroud-throws-for-312-3-as-texans-win-slugfest"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "cade-cunningham",
+    "slug": "cade-cunningham",
+    "name": "Cade Cunningham",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "detroit-pistons",
+    "lastTeamId": "detroit-pistons",
+    "status": "Active",
+    "position": "PG",
+    "number": "2",
+    "birthday": "2001-09-25",
+    "birthdaySource": "https://www.basketball-reference.com/players/c/cunnica01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Opened 2026-27 with 22 points and 8 assists as Detroit rallied past Boston 121-113",
+        "source": "https://fadeawayworld.net/nba/detroit-pistons/5-things-we-learned-after-pistons-overcome-22-point-deficit-to-defeat-celtics-in-season-opener"
+      },
+      {
+        "text": "Led Detroit to a 60-22 record and the East's No. 1 seed in 2025-26",
+        "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Detroit_Pistons_season"
+      },
+      {
+        "text": "Named All-NBA First Team for 2025-26",
+        "source": "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2025%E2%80%9326_Detroit_Pistons_season",
+      "https://fadeawayworld.net/nba/detroit-pistons/5-things-we-learned-after-pistons-overcome-22-point-deficit-to-defeat-celtics-in-season-opener",
+      "https://www.basketball-reference.com/players/c/cunnica01.html",
+      "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "cal-raleigh",
+    "slug": "cal-raleigh",
+    "name": "Cal Raleigh",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "seattle-mariners",
+    "lastTeamId": "seattle-mariners",
+    "status": "Active",
+    "position": "C",
+    "number": "29",
+    "birthday": "1996-11-26",
+    "birthdaySource": "https://www.fangraphs.com/players/cal-raleigh/21534/stats?position=C",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Slugged 23 homers with 69 RBI despite a .182 average",
+        "source": "https://www.mlb.com/mariners/player/cal-raleigh-663728"
+      },
+      {
+        "text": "Missed 29 games with an oblique strain before returning June 16",
+        "source": "https://www.si.com/mlb/mariners/onsi/cal-raleigh-s-vanishing-power-exposed-the-mariners-biggest-offensive-flaw"
+      },
+      {
+        "text": "Hit 60 homers in 2025, the single-season record for a catcher, and won the 2025 Home Run Derby",
+        "source": "https://en.wikipedia.org/wiki/Cal_Raleigh"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cal_Raleigh",
+      "https://www.fangraphs.com/players/cal-raleigh/21534/stats?position=C",
+      "https://www.mlb.com/mariners/player/cal-raleigh-663728",
+      "https://www.si.com/mlb/mariners/onsi/cal-raleigh-s-vanishing-power-exposed-the-mariners-biggest-offensive-flaw"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "cale-makar",
+    "slug": "cale-makar",
+    "name": "Cale Makar",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "colorado-avalanche",
+    "lastTeamId": "colorado-avalanche",
+    "status": "Active",
+    "position": "D",
+    "number": "8",
+    "birthday": "1998-10-30",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cale_Makar",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 9 points (3 G, 6 A) in eight games in 2026-27",
+        "source": "https://www.milehighhockey.com/general/67061/preview-colorado-needs-a-hot-start-in-new-jersey"
+      },
+      {
+        "text": "Posted 79 points and a +32 rating in 75 games in 2025-26 as Colorado's top defenseman",
+        "source": "https://en.wikipedia.org/wiki/Cale_Makar"
+      },
+      {
+        "text": "Won the Stanley Cup, Conn Smythe and Norris Trophy all in 2022; two-time Norris winner",
+        "source": "https://en.wikipedia.org/wiki/Cale_Makar"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cale_Makar",
+      "https://www.milehighhockey.com/general/67061/preview-colorado-needs-a-hot-start-in-new-jersey"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "caleb-williams",
+    "slug": "caleb-williams",
+    "name": "Caleb Williams",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "chicago-bears",
+    "lastTeamId": "chicago-bears",
+    "status": "Active",
+    "position": "QB",
+    "number": "18",
+    "birthday": "2001-11-18",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Caleb_Williams",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Returned from a hamstring injury in Week 6 to go 30-of-36 for 305 yards and a TD in a 31-23 win at Atlanta",
+        "source": "https://www.chicagobears.com/news/by-the-numbers-bears-week-6-victory-over-falcons"
+      },
+      {
+        "text": "His 83.3% completion rate in Week 6 is the best by a Bears QB with 30 or more attempts",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/caleb-rips-falcons-in-return-from-injury"
+      },
+      {
+        "text": "Madden NFL 27 cover athlete, the first Bears player on the game's cover",
+        "source": "https://www.shacknews.com/article/149428/madden-nfl-27-caleb-williams-cover"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Caleb_Williams",
+      "https://www.chicagobears.com/news/by-the-numbers-bears-week-6-victory-over-falcons",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-18/caleb-rips-falcons-in-return-from-injury",
+      "https://www.shacknews.com/article/149428/madden-nfl-27-caleb-williams-cover"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "ceedee-lamb",
+    "slug": "ceedee-lamb",
+    "name": "CeeDee Lamb",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "dallas-cowboys",
+    "lastTeamId": "dallas-cowboys",
+    "status": "Active",
+    "position": "WR",
+    "number": "88",
+    "birthday": "1999-04-08",
+    "birthdaySource": "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 48 catches for 577 yards and 4 TDs through six games",
+        "source": "https://www.fantasypros.com/nfl/news/614691/ceedee-lamb-goes-70-yards-week-6.php"
+      },
+      {
+        "text": "Career-high 17 catches for 189 yards and the go-ahead TD against Houston in Week 4",
+        "source": "https://www.dallascowboys.com/news/ceedee-lamb-powers-cowboys-to-win-over-texans-with-emotional-career-best-day"
+      },
+      {
+        "text": "Led the NFL with 135 receptions in 2023",
+        "source": "https://en.wikipedia.org/wiki/CeeDee_Lamb"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/CeeDee_Lamb",
+      "https://www.dallascowboys.com/news/ceedee-lamb-powers-cowboys-to-win-over-texans-with-emotional-career-best-day",
+      "https://www.fantasypros.com/nfl/news/614691/ceedee-lamb-goes-70-yards-week-6.php"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "christian-mccaffrey",
+    "slug": "christian-mccaffrey",
+    "name": "Christian McCaffrey",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
+    "status": "Active",
+    "position": "RB",
+    "number": "23",
+    "birthday": "1996-06-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Ran for 64 yards and 2 TDs and caught 9 passes for 53 yards in the Week 6 win over Washington",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/cmc-scores-twice-loses-fumble-in-week-6-win"
+      },
+      {
+        "text": "Has scored in four straight games for the 6-0 49ers",
+        "source": "https://www.fantasypros.com/nfl/news/614913/christian-mccaffrey-scores-two-tds-week-6.php"
+      },
+      {
+        "text": "2023 NFL Offensive Player of the Year",
+        "source": "https://en.wikipedia.org/wiki/Christian_McCaffrey"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+      "https://www.fantasypros.com/nfl/news/614913/christian-mccaffrey-scores-two-tds-week-6.php",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/cmc-scores-twice-loses-fumble-in-week-6-win"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "connor-bedard",
+    "slug": "connor-bedard",
+    "name": "Connor Bedard",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "chicago-blackhawks",
+    "lastTeamId": "chicago-blackhawks",
+    "status": "Active",
+    "position": "C",
+    "number": "98",
+    "birthday": "2005-07-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Connor_Bedard",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Returned from July shoulder surgery on Oct. 13 with 3 points (1 G, 2 A) in his first two games, both wins",
+        "source": "https://chicago.suntimes.com/blackhawks/2026/10/16/blackhawks-connor-bedard-first-games-back"
+      },
+      {
+        "text": "Named the 37th captain in Blackhawks history ahead of the 2026-27 season",
+        "source": "https://www.nhl.com/blackhawks/news/release-blackhawks-announce-connor-bedard-as-37th-captain-in-franchise-history"
+      },
+      {
+        "text": "No. 1 overall pick in 2023 and winner of the 2024 Calder Trophy as the NHL's top rookie",
+        "source": "https://en.wikipedia.org/wiki/Connor_Bedard"
+      }
+    ],
+    "sources": [
+      "https://chicago.suntimes.com/blackhawks/2026/10/16/blackhawks-connor-bedard-first-games-back",
+      "https://en.wikipedia.org/wiki/Connor_Bedard",
+      "https://www.nhl.com/blackhawks/news/release-blackhawks-announce-connor-bedard-as-37th-captain-in-franchise-history"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "connor-mcdavid",
+    "slug": "connor-mcdavid",
+    "name": "Connor McDavid",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "edmonton-oilers",
+    "lastTeamId": "edmonton-oilers",
+    "status": "Active",
+    "position": "C",
+    "number": "97",
+    "birthday": "1997-01-13",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Connor_McDavid",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads the NHL with 23 points (6 G, 17 A) in eight games, with a point in every game",
+        "source": "https://thehockeynews.com/nhl/edmonton-oilers/latest-news/mcdavid-records-five-point-night-as-oilers-roll-past-utah-6-2"
+      },
+      {
+        "text": "Eighth player in NHL history with 23 or more points through a season's first eight games",
+        "source": "https://www.yardbarker.com/nhl/articles/top_5_connor_mcdavid_already_has_23_points_in_eight_games/s1_17387_44442695"
+      },
+      {
+        "text": "Won his sixth Art Ross Trophy in 2025-26 with 138 points; three-time Hart Trophy winner",
+        "source": "https://www.nhl.com/oilers/news/release-mcdavid-wins-art-ross-trophy-as-league-s-top-scorer"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Connor_McDavid",
+      "https://thehockeynews.com/nhl/edmonton-oilers/latest-news/mcdavid-records-five-point-night-as-oilers-roll-past-utah-6-2",
+      "https://www.nhl.com/oilers/news/release-mcdavid-wins-art-ross-trophy-as-league-s-top-scorer",
+      "https://www.yardbarker.com/nhl/articles/top_5_connor_mcdavid_already_has_23_points_in_eight_games/s1_17387_44442695"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "cooper-dejean",
+    "slug": "cooper-dejean",
+    "name": "Cooper DeJean",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "philadelphia-eagles",
+    "lastTeamId": "philadelphia-eagles",
+    "status": "Active",
+    "position": "DB",
+    "number": "33",
+    "birthday": "2003-02-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cooper_DeJean",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Intercepted Matthew Stafford for his first 2026 pick in a Week 4 loss to the Rams",
+        "source": "https://www.cbssports.com/fantasy/football/news/eagles-cooper-dejean-snags-interception-in-loss/"
+      },
+      {
+        "text": "Moved to strong safety in the Eagles' base defense for 2026",
+        "source": "https://www.rotowire.com/football/player/cooper-dejean-17705"
+      },
+      {
+        "text": "Returned an interception for a TD in Super Bowl LIX on his 22nd birthday",
+        "source": "https://en.wikipedia.org/wiki/Cooper_DeJean"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cooper_DeJean",
+      "https://www.cbssports.com/fantasy/football/news/eagles-cooper-dejean-snags-interception-in-loss/",
+      "https://www.rotowire.com/football/player/cooper-dejean-17705"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "cooper-flagg",
+    "slug": "cooper-flagg",
+    "name": "Cooper Flagg",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "dallas-mavericks",
+    "lastTeamId": "dallas-mavericks",
+    "status": "Active",
+    "position": "F",
+    "number": "32",
+    "birthday": "2006-12-21",
+    "birthdaySource": "https://www.basketball-reference.com/players/f/flaggco01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 21.0 points, 6.7 rebounds and 4.5 assists as a rookie",
+        "source": "https://www.nbcchicago.com/nba/rookie-of-the-year-cooper-flagg/"
+      },
+      {
+        "text": "The only rookie on the 2025-26 jersey list, climbing from 11th at midseason to 9th",
+        "source": "https://pr.nba.com/stephen-curry-knicks-sales-2025-26-season/"
+      },
+      {
+        "text": "Won 2025-26 Rookie of the Year with 56 first-place votes",
+        "source": "https://www.nbcchicago.com/nba/rookie-of-the-year-cooper-flagg/"
+      }
+    ],
+    "sources": [
+      "https://pr.nba.com/stephen-curry-knicks-sales-2025-26-season/",
+      "https://www.basketball-reference.com/players/f/flaggco01.html",
+      "https://www.nbcchicago.com/nba/rookie-of-the-year-cooper-flagg/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "corey-seager",
+    "slug": "corey-seager",
+    "name": "Corey Seager",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "texas-rangers",
+    "lastTeamId": "texas-rangers",
+    "status": "Active",
+    "position": "SS",
+    "number": "5",
+    "birthday": "1994-04-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Corey_Seager",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit 20 homers with 51 RBI in 102 games in an injury-limited season",
+        "source": "https://www.cbssports.com/mlb/players/2041873/corey-seager/"
+      },
+      {
+        "text": "Homered in his final at-bat for a fifth straight 20-homer season, with 10 after the break",
+        "source": "https://www.rotowire.com/baseball/headlines/corey-seager-news-reaches-20-homers-1027515"
+      },
+      {
+        "text": "Two-time World Series MVP (2020, 2023) and 2016 NL Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/Corey_Seager"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Corey_Seager",
+      "https://www.cbssports.com/mlb/players/2041873/corey-seager/",
+      "https://www.rotowire.com/baseball/headlines/corey-seager-news-reaches-20-homers-1027515"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "darlington-nagbe",
+    "slug": "darlington-nagbe",
+    "name": "Darlington Nagbe",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": null,
+    "lastTeamId": "columbus-crew",
+    "status": "Retired",
+    "position": "Midfielder",
+    "number": "6",
+    "birthday": "1990-07-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Darlington_Nagbe",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Retired after Columbus's 2025 playoff run, so he has no 2026 statistics",
+        "source": "https://www.columbuscrew.com/news/columbus-crew-captain-and-midfielder-darlington-nagbe-announces-retirement-following-2025-postseason"
+      },
+      {
+        "text": "Retired with 444 MLS regular-season appearances, fifth in league history",
+        "source": "https://global.espn.com/football/story/_/id/46520732/usa-darlington-nagbe-columbus-crew-mls-retire"
+      },
+      {
+        "text": "Four-time MLS Cup champion with Portland (2015), Atlanta (2018) and Columbus (2020, 2023)",
+        "source": "https://www.tsn.ca/soccer/mls/article/columbus-mf-nagbe-to-retire-at-age-35-after-15-mls-seasons"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Darlington_Nagbe",
+      "https://global.espn.com/football/story/_/id/46520732/usa-darlington-nagbe-columbus-crew-mls-retire",
+      "https://www.columbuscrew.com/news/columbus-crew-captain-and-midfielder-darlington-nagbe-announces-retirement-following-2025-postseason",
+      "https://www.tsn.ca/soccer/mls/article/columbus-mf-nagbe-to-retire-at-age-35-after-15-mls-seasons"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "david-pastrnak",
+    "slug": "david-pastrnak",
+    "name": "David Pastrnak",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "boston-bruins",
+    "lastTeamId": "boston-bruins",
+    "status": "Active",
+    "position": "RW",
+    "number": "88",
+    "birthday": "1996-05-25",
+    "birthdaySource": "https://en.wikipedia.org/wiki/David_Pastr%C5%88%C3%A1k",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads Boston with 12 points (4 G, 8 A) in nine games and has a five-game point streak",
+        "source": "https://nhl.com/bruins/news/need-to-know-bruins-at-stars-x7872"
+      },
+      {
+        "text": "Named the Bruins' 28th captain; passed Brad Marchand for fourth in team goals (423) on Oct. 16",
+        "source": "https://www.nhl.com/news/david-pastrnak-blossoming-in-first-season-as-boston-bruins-captain"
+      },
+      {
+        "text": "Reached 100 points for a fourth straight season in 2025-26",
+        "source": "https://www.nhl.com/bruins/news/season-rewind-david-pastrnak-delivers-dominance"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Pastr%C5%88%C3%A1k",
+      "https://nhl.com/bruins/news/need-to-know-bruins-at-stars-x7872",
+      "https://www.nhl.com/bruins/news/season-rewind-david-pastrnak-delivers-dominance",
+      "https://www.nhl.com/news/david-pastrnak-blossoming-in-first-season-as-boston-bruins-captain"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "devin-booker",
+    "slug": "devin-booker",
+    "name": "Devin Booker",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "phoenix-suns",
+    "lastTeamId": "phoenix-suns",
+    "status": "Active",
+    "position": "SG",
+    "number": "1",
+    "birthday": "1996-10-30",
+    "birthdaySource": "https://www.basketball-reference.com/players/b/bookede01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 26.1 points and 6.0 assists over 64 games",
+        "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/devin_booker_full.htm"
+      },
+      {
+        "text": "Made his fifth All-Star team in 2026",
+        "source": "https://www.azfamily.com/2026/02/02/phoenix-suns-guard-devin-booker-tapped-fifth-career-all-star-game/"
+      },
+      {
+        "text": "Scored 70 points in a 2017 game against Boston",
+        "source": "https://www.basketball-reference.com/players/b/bookede01.html"
+      }
+    ],
+    "sources": [
+      "https://www.azfamily.com/2026/02/02/phoenix-suns-guard-devin-booker-tapped-fifth-career-all-star-game/",
+      "https://www.basketball-reference.com/players/b/bookede01.html",
+      "https://www.landofbasketball.com/nba_players_season_stats/2026/devin_booker_full.htm"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "drake-maye",
+    "slug": "drake-maye",
+    "name": "Drake Maye",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-england-patriots",
+    "lastTeamId": "new-england-patriots",
+    "status": "Active",
+    "position": "QB",
+    "number": "10",
+    "birthday": "2002-08-30",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Drake_Maye",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 235 yards and 3 TDs, no INTs, in a 26-19 Week 6 win over the Jets",
+        "source": "https://www.cbsnews.com/boston/news/new-england-patriots-new-york-jets-week-6-recap/"
+      },
+      {
+        "text": "Third straight game with 3+ TD passes, tying a Tom Brady Patriots record",
+        "source": "https://musketfire.com/drake-maye-records-another-tom-brady-feat-with-patriots-week-6-performance-01m58g70hz20"
+      },
+      {
+        "text": "No. 3 overall pick in the 2024 NFL Draft",
+        "source": "https://en.wikipedia.org/wiki/Drake_Maye"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Drake_Maye",
+      "https://musketfire.com/drake-maye-records-another-tom-brady-feat-with-patriots-week-6-performance-01m58g70hz20",
+      "https://www.cbsnews.com/boston/news/new-england-patriots-new-york-jets-week-6-recap/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "elly-de-la-cruz",
+    "slug": "elly-de-la-cruz",
+    "name": "Elly De La Cruz",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "cincinnati-reds",
+    "lastTeamId": "cincinnati-reds",
+    "status": "Active",
+    "position": "SS",
+    "number": "44",
+    "birthday": "2002-01-11",
+    "birthdaySource": "https://www.espn.com/mlb/player/bio/_/id/4917694",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Joined the 30-30 club with 30 homers and 30 steals",
+        "source": "https://www.mlb.com/player/elly-de-la-cruz-682829"
+      },
+      {
+        "text": "Posted a career-best .880 OPS, fourth in the National League",
+        "source": "https://www.fangraphs.com/players/elly-de-la-cruz/26668/stats/batting"
+      },
+      {
+        "text": "Led the majors with 67 stolen bases in 2024",
+        "source": "https://en.wikipedia.org/wiki/Elly_De_La_Cruz"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elly_De_La_Cruz",
+      "https://www.espn.com/mlb/player/bio/_/id/4917694",
+      "https://www.fangraphs.com/players/elly-de-la-cruz/26668/stats/batting",
+      "https://www.mlb.com/player/elly-de-la-cruz-682829"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "fernando-tatis-jr",
+    "slug": "fernando-tatis-jr",
+    "name": "Fernando Tatis Jr.",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "san-diego-padres",
+    "lastTeamId": "san-diego-padres",
+    "status": "Active",
+    "position": "RF",
+    "number": "23",
+    "birthday": "1999-01-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Fernando_Tat%C3%ADs_Jr.",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Racked up 181 hits, 96 runs and 38 steals in 159 games atop the Padres lineup",
+        "source": "https://baseballsavant.mlb.com/savant-player/fernando-tatis-jr-665487"
+      },
+      {
+        "text": "Hit two homers in 24 at-bats as San Diego swept the Cubs before falling to Milwaukee (postseason)",
+        "source": "https://www.mlb.com/player/fernando-tatis-jr-665487"
+      },
+      {
+        "text": "Led the NL with 42 homers in 2021, then won a Platinum Glove in right field in 2023",
+        "source": "https://en.wikipedia.org/wiki/Fernando_Tat%C3%ADs_Jr."
+      }
+    ],
+    "sources": [
+      "https://baseballsavant.mlb.com/savant-player/fernando-tatis-jr-665487",
+      "https://en.wikipedia.org/wiki/Fernando_Tat%C3%ADs_Jr.",
+      "https://www.mlb.com/player/fernando-tatis-jr-665487"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "fred-warner",
+    "slug": "fred-warner",
+    "name": "Fred Warner",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
+    "status": "Active",
+    "position": "LB",
+    "number": "54",
+    "birthday": "1996-11-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 58 tackles through six games, including 8 in the Week 6 win over Washington",
+        "source": "https://lawlessrepublic.com/byu-players-in-the-nfl-week-6-fred-warner-puka-nacua-shine-tyler-allgeier"
+      },
+      {
+        "text": "Reached 1,005 career tackles, the first player in 49ers history with 1,000",
+        "source": "https://www.49ers.com/news/49ers-are-victorious-in-week-6-mnf-showdown-vs-commanders-takeaways-from-wasvssf"
+      },
+      {
+        "text": "Multiple-time first-team All-Pro linebacker",
+        "source": "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fred_Warner_(American_football)",
+      "https://lawlessrepublic.com/byu-players-in-the-nfl-week-6-fred-warner-puka-nacua-shine-tyler-allgeier",
+      "https://www.49ers.com/news/49ers-are-victorious-in-week-6-mnf-showdown-vs-commanders-takeaways-from-wasvssf"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "freddie-freeman",
+    "slug": "freddie-freeman",
+    "name": "Freddie Freeman",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-dodgers",
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Active",
+    "position": "1B",
+    "number": "5",
+    "birthday": "1989-09-12",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Freddie_Freeman",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .288 with a .362 on-base percentage, 16 homers and 70 RBI",
+        "source": "https://www.mlb.com/player/freddie-freeman-518692"
+      },
+      {
+        "text": "Played 153 games at age 36, 152 of them at first base",
+        "source": "https://www.fangraphs.com/players/freddie-freeman/5361/stats/batting"
+      },
+      {
+        "text": "2024 World Series MVP after the first walk-off grand slam in Series history; 2020 NL MVP",
+        "source": "https://en.wikipedia.org/wiki/Freddie_Freeman"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Freddie_Freeman",
+      "https://www.fangraphs.com/players/freddie-freeman/5361/stats/batting",
+      "https://www.mlb.com/player/freddie-freeman-518692"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "george-kittle",
+    "slug": "george-kittle",
+    "name": "George Kittle",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
+    "status": "Active",
+    "position": "TE",
+    "number": "85",
+    "birthday": "1993-10-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/George_Kittle",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Caught 5 passes for 69 yards and a TD on a season-high 8 targets in the Week 6 win over Washington",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/george-kittle-scores-early-goes-5-69-1-in-week-6"
+      },
+      {
+        "text": "His Week 6 score was the 30th Purdy-to-Kittle TD connection",
+        "source": "https://www.draftsharks.com/fantasy-football-news/83589/george-kittle-delivers-another-te1-week-on-season-high-8-targets"
+      },
+      {
+        "text": "Set a then-record for tight ends with 1,377 receiving yards in 2018",
+        "source": "https://en.wikipedia.org/wiki/George_Kittle"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/George_Kittle",
+      "https://www.draftsharks.com/fantasy-football-news/83589/george-kittle-delivers-another-te1-week-on-season-high-8-targets",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-20/george-kittle-scores-early-goes-5-69-1-in-week-6"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "hirving-lozano",
+    "slug": "hirving-lozano",
+    "name": "Hirving Lozano",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Winger",
+    "number": "11",
+    "birthday": "1995-07-30",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Hirving_Lozano",
+    "portrait": null,
+    "overview": "On loan to LA Galaxy from San Diego FC through December 2026.",
+    "highlights": [
+      {
+        "text": "Has 1 goal and 1 assist in 8 MLS games (6 starts) since joining the Galaxy on loan in August",
+        "source": "https://www.fotmob.com/players/521210/hirving-lozano"
+      },
+      {
+        "text": "Sidelined by a hamstring injury since the October international break",
+        "source": "https://www.rotowire.com/soccer/headlines/hirving-lozano-injury-could-return-for-el-trafico-539325"
+      },
+      {
+        "text": "Scored Mexico's famous winner against Germany at the 2018 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Hirving_Lozano"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hirving_Lozano",
+      "https://www.fotmob.com/players/521210/hirving-lozano",
+      "https://www.rotowire.com/soccer/headlines/hirving-lozano-injury-could-return-for-el-trafico-539325"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jack-hughes",
+    "slug": "jack-hughes",
+    "name": "Jack Hughes",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-jersey-devils",
+    "lastTeamId": "new-jersey-devils",
+    "status": "Active",
+    "position": "C",
+    "number": "86",
+    "birthday": "2001-05-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jack_Hughes_(ice_hockey)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 9 points (2 G, 7 A) in eight games in 2026-27, with four power-play assists",
+        "source": "https://www.espn.com/nhl/player/_/id/4565222/jack-hughes"
+      },
+      {
+        "text": "Scored the overtime winner and added two assists in a 5-4 win at Detroit on Oct. 13",
+        "source": "https://www.nhl.com/news/new-jersey-devils-detroit-red-wings-game-recap-october-13-2026"
+      },
+      {
+        "text": "No. 1 overall pick in 2019; set the Devils' single-season record with 99 points in 2022-23",
+        "source": "https://en.wikipedia.org/wiki/Jack_Hughes_(ice_hockey)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Hughes_(ice_hockey)",
+      "https://www.espn.com/nhl/player/_/id/4565222/jack-hughes",
+      "https://www.nhl.com/news/new-jersey-devils-detroit-red-wings-game-recap-october-13-2026"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jackson-merrill",
+    "slug": "jackson-merrill",
+    "name": "Jackson Merrill",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "san-diego-padres",
+    "lastTeamId": "san-diego-padres",
+    "status": "Active",
+    "position": "CF",
+    "number": "3",
+    "birthday": "2003-04-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jackson_Merrill",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit 26 homers and stole 27 bases in 158 games",
+        "source": "https://www.baseball-reference.com/players/m/merrija01.shtml"
+      },
+      {
+        "text": "Hit .304 with a .569 slugging percentage after the All-Star break during San Diego's playoff push",
+        "source": "https://eastvillagetimes.com/jackson-merrills-2026-season-wrapped-up/"
+      },
+      {
+        "text": "2024 All-Star and NL Rookie of the Year runner-up; signed a nine-year extension in 2025",
+        "source": "https://en.wikipedia.org/wiki/Jackson_Merrill"
+      }
+    ],
+    "sources": [
+      "https://eastvillagetimes.com/jackson-merrills-2026-season-wrapped-up/",
+      "https://en.wikipedia.org/wiki/Jackson_Merrill",
+      "https://www.baseball-reference.com/players/m/merrija01.shtml"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jahmyr-gibbs",
+    "slug": "jahmyr-gibbs",
+    "name": "Jahmyr Gibbs",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "detroit-lions",
+    "lastTeamId": "detroit-lions",
+    "status": "Active",
+    "position": "RB",
+    "number": "0",
+    "birthday": "2002-03-20",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jahmyr_Gibbs",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 504 rushing yards and 7 rushing TDs in five games",
+        "source": "https://www.nfl.com/players/jahmyr-gibbs/stats/career"
+      },
+      {
+        "text": "Ran for 151 yards and 2 TDs in a 45-21 Week 5 win over Arizona",
+        "source": "https://www.rotowire.com/football/player/jahmyr-gibbs-16808"
+      },
+      {
+        "text": "Led the NFL with 20 scrimmage touchdowns in 2024",
+        "source": "https://en.wikipedia.org/wiki/Jahmyr_Gibbs"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jahmyr_Gibbs",
+      "https://www.nfl.com/players/jahmyr-gibbs/stats/career",
+      "https://www.rotowire.com/football/player/jahmyr-gibbs-16808"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jalen-brunson",
+    "slug": "jalen-brunson",
+    "name": "Jalen Brunson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-york-knicks",
+    "lastTeamId": "new-york-knicks",
+    "status": "Active",
+    "position": "PG",
+    "number": "11",
+    "birthday": "1996-08-31",
+    "birthdaySource": "https://www.basketball-reference.com/players/b/brunsja01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 26.0 points and 6.8 assists over 74 games",
+        "source": "https://basketball.realgm.com/player/wd/Summary/52545"
+      },
+      {
+        "text": "Named 2026 Finals MVP as the Knicks won their first title since 1973",
+        "source": "https://fox7austin.com/sports/knicks-win-2026-nba-championship-brunson-spurs-game-5"
+      },
+      {
+        "text": "Named All-NBA Second Team for 2025-26",
+        "source": "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+      }
+    ],
+    "sources": [
+      "https://basketball.realgm.com/player/wd/Summary/52545",
+      "https://fox7austin.com/sports/knicks-win-2026-nba-championship-brunson-spurs-game-5",
+      "https://www.basketball-reference.com/players/b/brunsja01.html",
+      "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jalen-hurts",
+    "slug": "jalen-hurts",
+    "name": "Jalen Hurts",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "philadelphia-eagles",
+    "lastTeamId": "philadelphia-eagles",
+    "status": "Injured",
+    "position": "QB",
+    "number": "1",
+    "birthday": "1998-08-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jalen_Hurts",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 933 yards, 8 TDs and 3 INTs in five starts as Philadelphia went 2-3",
+        "source": "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-2026-season-blood-clots"
+      },
+      {
+        "text": "Placed on injured reserve Oct. 17 with blood clots and expected to miss the rest of 2026",
+        "source": "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers"
+      },
+      {
+        "text": "Super Bowl LIX MVP",
+        "source": "https://en.wikipedia.org/wiki/Jalen_Hurts"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jalen_Hurts",
+      "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-2026-season-blood-clots",
+      "https://www.philadelphiaeagles.com/news/eagles-place-jalen-hurts-on-injured-reserve-sign-jaydon-blue-to-the-active-roster-2026-nfl-week-6-panthers"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jaxon-smith-njigba",
+    "slug": "jaxon-smith-njigba",
+    "name": "Jaxon Smith-Njigba",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "seattle-seahawks",
+    "lastTeamId": "seattle-seahawks",
+    "status": "Active",
+    "position": "WR",
+    "number": "11",
+    "birthday": "2002-02-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Caught 12 passes for 134 yards in a 17-14 overtime loss at Denver in Week 6",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-15/jsn-continues-to-roll-in-week-6-loss-to-broncos"
+      },
+      {
+        "text": "Leads the NFL in receiving yards and has topped 100 yards in five of six games",
+        "source": "https://sports.yahoo.com/articles/jaxon-smith-njigba-dominating-nfl-033717958.html"
+      },
+      {
+        "text": "Led the NFL in receiving yards in 2025",
+        "source": "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jaxon_Smith-Njigba",
+      "https://sports.yahoo.com/articles/jaxon-smith-njigba-dominating-nfl-033717958.html",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-15/jsn-continues-to-roll-in-week-6-loss-to-broncos"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jayden-daniels",
+    "slug": "jayden-daniels",
+    "name": "Jayden Daniels",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "washington-commanders",
+    "lastTeamId": "washington-commanders",
+    "status": "Active",
+    "position": "QB",
+    "number": "5",
+    "birthday": "2000-12-18",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 29-of-40 for 300 yards and 2 TDs in a 23-17 Monday night loss at San Francisco",
+        "source": "https://www.foxsports.com/nfl/week-6-washington-commanders-vs-san-francisco-49ers-oct-19-2026-game-boxscore-11236"
+      },
+      {
+        "text": "Missed two games after dislocating his left elbow in Week 2; avoided surgery and injured reserve",
+        "source": "https://www.cbssports.com/nfl/news/jayden-daniels-injury-update-commanders-qb-elbow-2026/"
+      },
+      {
+        "text": "2024 Offensive Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/Jayden_Daniels"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "https://www.cbssports.com/nfl/news/jayden-daniels-injury-update-commanders-qb-elbow-2026/",
+      "https://www.foxsports.com/nfl/week-6-washington-commanders-vs-san-francisco-49ers-oct-19-2026-game-boxscore-11236"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jayson-tatum",
+    "slug": "jayson-tatum",
+    "name": "Jayson Tatum",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "boston-celtics",
+    "lastTeamId": "boston-celtics",
+    "status": "Active",
+    "position": "F",
+    "number": "0",
+    "birthday": "1998-03-03",
+    "birthdaySource": "https://www.basketball-reference.com/players/t/tatumja01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Opened 2026-27 with 13 points and 11 assists in a 121-113 loss at Detroit",
+        "source": "https://bettorsinsider.com/nba/2026/10/20/jayson-tatum-shoots-6-for-23-as-celtics-blow-22-point-lead-in-opening-night-loss-to-pistons/"
+      },
+      {
+        "text": "Returned in March 2026 from a torn Achilles and averaged a double-double in 16 games",
+        "source": "https://roundtable.io/sports/nba/celtics/news/jayson-tatum-shows-real-vulnerability-in-dan-patrick-interview"
+      },
+      {
+        "text": "Won the 2024 NBA championship with Boston",
+        "source": "https://www.basketball-reference.com/players/t/tatumja01.html"
+      }
+    ],
+    "sources": [
+      "https://bettorsinsider.com/nba/2026/10/20/jayson-tatum-shoots-6-for-23-as-celtics-blow-22-point-lead-in-opening-night-loss-to-pistons/",
+      "https://roundtable.io/sports/nba/celtics/news/jayson-tatum-shows-real-vulnerability-in-dan-patrick-interview",
+      "https://www.basketball-reference.com/players/t/tatumja01.html"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jordan-love",
+    "slug": "jordan-love",
+    "name": "Jordan Love",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "green-bay-packers",
+    "lastTeamId": "green-bay-packers",
+    "status": "Active",
+    "position": "QB",
+    "number": "10",
+    "birthday": "1998-11-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jordan_Love",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 276 yards and a TD and ran for another in a 23-13 Week 6 win over Dallas",
+        "source": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-19/jordan-love-packers-streaking-down-cowboys"
+      },
+      {
+        "text": "Came off a 367-yard game against the Bears in Week 5",
+        "source": "https://www.nfl.com/news/2026-nfl-season-week-6-what-we-learned-from-sunday-s-games"
+      },
+      {
+        "text": "Signed a four-year, $220 million extension in 2024",
+        "source": "https://en.wikipedia.org/wiki/Jordan_Love"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jordan_Love",
+      "https://www.nbcsports.com/fantasy/football/player-news/2026-10-19/jordan-love-packers-streaking-down-cowboys",
+      "https://www.nfl.com/news/2026-nfl-season-week-6-what-we-learned-from-sunday-s-games"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "jordan-morris",
+    "slug": "jordan-morris",
+    "name": "Jordan Morris",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "13",
+    "birthday": "1994-10-26",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jordan_Morris",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 4 assists in 20 appearances (13 starts) in 2026",
+        "source": "https://www.rotowire.com/soccer/headlines/jordan-morris-news-five-shots-against-montreal-540478"
+      },
+      {
+        "text": "Seattle's all-time leading scorer since breaking Raúl Ruidíaz's club record in 2025",
+        "source": "https://www.mlssoccer.com/news/jordan-morris-makes-history-as-seattle-sounders-crush-lafc"
+      },
+      {
+        "text": "2016 MLS Rookie of the Year and MLS Cup champion in 2016 and 2019",
+        "source": "https://en.wikipedia.org/wiki/Jordan_Morris"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jordan_Morris",
+      "https://www.mlssoccer.com/news/jordan-morris-makes-history-as-seattle-sounders-crush-lafc",
+      "https://www.rotowire.com/soccer/headlines/jordan-morris-news-five-shots-against-montreal-540478"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "josh-allen",
+    "slug": "josh-allen",
+    "name": "Josh Allen",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "buffalo-bills",
+    "lastTeamId": "buffalo-bills",
+    "status": "Active",
+    "position": "QB",
+    "number": "17",
+    "birthday": "1996-05-21",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Josh_Allen_(quarterback)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 23-of-33 for 255 yards and 2 TDs in a 33-30 Week 6 win at Las Vegas",
+        "source": "https://sports.yahoo.com/articles/bills-week-6-stock-report-212728613.html"
+      },
+      {
+        "text": "His Week 6 TD pass tied Jim Kelly for the most in Bills history, counting the postseason",
+        "source": "https://sports.yahoo.com/articles/bills-week-6-stock-report-212728613.html"
+      },
+      {
+        "text": "2024 NFL MVP",
+        "source": "https://en.wikipedia.org/wiki/Josh_Allen_(quarterback)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Josh_Allen_(quarterback)",
+      "https://sports.yahoo.com/articles/bills-week-6-stock-report-212728613.html"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "juan-soto",
+    "slug": "juan-soto",
+    "name": "Juan Soto",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "new-york-mets",
+    "lastTeamId": "new-york-mets",
+    "status": "Active",
+    "position": "LF",
+    "number": "22",
+    "birthday": "1998-10-25",
+    "birthdaySource": "https://www.espn.com/mlb/player/bio/_/id/36969",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Posted a .908 OPS with 27 homers and a .393 on-base percentage",
+        "source": "https://metsmerizedonline.com/2026-report-card-juan-soto-lf/"
+      },
+      {
+        "text": "Missed time with two calf strains, including a grade 2 strain in late July",
+        "source": "https://www.mlb.com/news/juan-soto-left-calf-strain"
+      },
+      {
+        "text": "Signed a record 15-year, $765 million deal with the Mets; won the 2019 World Series at 20",
+        "source": "https://en.wikipedia.org/wiki/Juan_Soto"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Juan_Soto",
+      "https://metsmerizedonline.com/2026-report-card-juan-soto-lf/",
+      "https://www.espn.com/mlb/player/bio/_/id/36969",
+      "https://www.mlb.com/news/juan-soto-left-calf-strain"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "justin-jefferson",
+    "slug": "justin-jefferson",
+    "name": "Justin Jefferson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "minnesota-vikings",
+    "lastTeamId": "minnesota-vikings",
+    "status": "Active",
+    "position": "WR",
+    "number": "18",
+    "birthday": "1999-06-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Justin_Jefferson",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 19 catches for 258 yards and 3 TDs in four games, including 6-79-1 against the Saints in Week 5",
+        "source": "https://thevikingage.com/minnesota-vikings-justin-jefferson-not-waste-gift-indianapolis-colts-handed-him"
+      },
+      {
+        "text": "Missed the Week 4 game against Miami with a left ankle sprain",
+        "source": "https://www.nfl.com/news/vikings-wr-justin-jefferson-ankle-out-dolphins"
+      },
+      {
+        "text": "2022 Offensive Player of the Year with 1,809 receiving yards",
+        "source": "https://en.wikipedia.org/wiki/Justin_Jefferson"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justin_Jefferson",
+      "https://thevikingage.com/minnesota-vikings-justin-jefferson-not-waste-gift-indianapolis-colts-handed-him",
+      "https://www.nfl.com/news/vikings-wr-justin-jefferson-ankle-out-dolphins"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "kevin-durant",
+    "slug": "kevin-durant",
+    "name": "Kevin Durant",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "houston-rockets",
+    "lastTeamId": "houston-rockets",
+    "status": "Active",
+    "position": "F",
+    "number": "7",
+    "birthday": "1988-09-29",
+    "birthdaySource": "https://www.basketball-reference.com/players/d/duranke01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 26.0 points on 52.0% shooting over 78 games at age 37",
+        "source": "https://www.statmuse.com/nba/ask/durant-2026"
+      },
+      {
+        "text": "His two-year Houston extension starts in 2026-27 and runs through 2027-28",
+        "source": "https://www.click2houston.com/sports/2025/10/19/kevin-durant-agrees-to-2-year-extension-with-rockets-through-2027-28-season-ap-source-says/"
+      },
+      {
+        "text": "Named All-NBA Second Team in his first season with Houston",
+        "source": "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+      }
+    ],
+    "sources": [
+      "https://www.basketball-reference.com/players/d/duranke01.html",
+      "https://www.click2houston.com/sports/2025/10/19/kevin-durant-agrees-to-2-year-extension-with-rockets-through-2027-28-season-ap-source-says/",
+      "https://www.nba.com/news/2025-26-all-nba-teams-announced",
+      "https://www.statmuse.com/nba/ask/durant-2026"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "kyle-schwarber",
+    "slug": "kyle-schwarber",
+    "name": "Kyle Schwarber",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "philadelphia-phillies",
+    "lastTeamId": "philadelphia-phillies",
+    "status": "Active",
+    "position": "DH",
+    "number": "12",
+    "birthday": "1993-03-05",
+    "birthdaySource": "https://www.espn.com/mlb/player/bio/_/id/33712",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Smashed 45 homers with 97 RBI in 156 games",
+        "source": "https://www.mlb.com/player/kyle-schwarber-656941"
+      },
+      {
+        "text": "Reached 30 homers by June 28, leading MLB at the time",
+        "source": "https://www.bleachernation.com/mlb/2026/06/29/schwarber-60-homers/"
+      },
+      {
+        "text": "Led the NL with 56 homers and 132 RBI in 2025, a season that included a four-homer game",
+        "source": "https://en.wikipedia.org/wiki/Kyle_Schwarber"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kyle_Schwarber",
+      "https://www.bleachernation.com/mlb/2026/06/29/schwarber-60-homers/",
+      "https://www.espn.com/mlb/player/bio/_/id/33712",
+      "https://www.mlb.com/player/kyle-schwarber-656941"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "lamar-jackson",
+    "slug": "lamar-jackson",
+    "name": "Lamar Jackson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "baltimore-ravens",
+    "lastTeamId": "baltimore-ravens",
+    "status": "Active",
+    "position": "QB",
+    "number": "8",
+    "birthday": "1997-01-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Lamar_Jackson",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 967 yards, 6 TDs and 1 INT in four games and leads the NFL in passer rating",
+        "source": "https://www.si.com/betting/lamar-jackson-injury-update-bengals-vs-ravens-odds-suggest-star-has-a-chance-to-play-in-week-7"
+      },
+      {
+        "text": "Missed Weeks 5 and 6 with a left ankle sprain",
+        "source": "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-6-injury-report-updates-on-lamar-jackson-david-montgomery-treveyon-henderson-and-more"
+      },
+      {
+        "text": "Two-time NFL MVP (2019, 2023)",
+        "source": "https://en.wikipedia.org/wiki/Lamar_Jackson"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lamar_Jackson",
+      "https://www.nbcsports.com/fantasy/football/news/2026-nfl-week-6-injury-report-updates-on-lamar-jackson-david-montgomery-treveyon-henderson-and-more",
+      "https://www.si.com/betting/lamar-jackson-injury-update-bengals-vs-ravens-odds-suggest-star-has-a-chance-to-play-in-week-7"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "lamelo-ball",
+    "slug": "lamelo-ball",
+    "name": "LaMelo Ball",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "minnesota-timberwolves",
+    "lastTeamId": "minnesota-timberwolves",
+    "status": "Active",
+    "position": "PG",
+    "number": "1",
+    "birthday": "2001-08-22",
+    "birthdaySource": "https://www.basketball-reference.com/players/b/ballla01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 20.1 points and 7.1 assists in 72 games for Charlotte",
+        "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lamelo_ball_full.htm"
+      },
+      {
+        "text": "Joined Minnesota in a July 2026 four-team trade",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Minnesota_Timberwolves_season"
+      },
+      {
+        "text": "2021 NBA Rookie of the Year and 2022 All-Star",
+        "source": "https://www.basketball-reference.com/players/b/ballla01.html"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026%E2%80%9327_Minnesota_Timberwolves_season",
+      "https://www.basketball-reference.com/players/b/ballla01.html",
+      "https://www.landofbasketball.com/nba_players_season_stats/2026/lamelo_ball_full.htm"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "lebron-james",
+    "slug": "lebron-james",
+    "name": "LeBron James",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "philadelphia-76ers",
+    "lastTeamId": "philadelphia-76ers",
+    "status": "Active",
+    "position": "F",
+    "number": "23",
+    "birthday": "1984-12-30",
+    "birthdaySource": "https://www.basketball-reference.com/players/j/jamesle01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 20.9 points, 7.2 assists and 6.1 rebounds in 60 games for the Lakers",
+        "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/lebron_james_full.htm"
+      },
+      {
+        "text": "Signed with Philadelphia in July 2026 and kept No. 23",
+        "source": "https://thestar.com.my/sport/basketball/2026/07/28/nba-lebron-james-to-wear-no-23-as-76ers-officially-announce-his-signing"
+      },
+      {
+        "text": "Opened a record 24th NBA season on Oct. 20 at Madison Square Garden",
+        "source": "https://bvmsports.com/2026/10/20/lebron-james-opens-record-24th-season-vs-knicks-in-new-york/"
+      }
+    ],
+    "sources": [
+      "https://bvmsports.com/2026/10/20/lebron-james-opens-record-24th-season-vs-knicks-in-new-york/",
+      "https://thestar.com.my/sport/basketball/2026/07/28/nba-lebron-james-to-wear-no-23-as-76ers-officially-announce-his-signing",
+      "https://www.basketball-reference.com/players/j/jamesle01.html",
+      "https://www.landofbasketball.com/nba_players_season_stats/2026/lebron_james_full.htm"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "lionel-messi",
+    "slug": "lionel-messi",
+    "name": "Lionel Messi",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1987-06-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Lionel_Messi",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads MLS with 25 goals, six clear in the Golden Boot race, after a brace at Atlanta on Oct. 17",
+        "source": "https://www.espn.com/soccer/story/_/id/50206341/lionel-messi-goals-inter-miami-atlanta-united-mls"
+      },
+      {
+        "text": "First player in MLS history with 15 assists in three straight seasons",
+        "source": "https://www.espn.com/soccer/story/_/id/50206341/lionel-messi-goals-inter-miami-atlanta-united-mls"
+      },
+      {
+        "text": "Record eight-time Ballon d'Or winner and 2022 World Cup champion with Argentina",
+        "source": "https://en.wikipedia.org/wiki/Lionel_Messi"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lionel_Messi",
+      "https://www.espn.com/soccer/story/_/id/50206341/lionel-messi-goals-inter-miami-atlanta-united-mls"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "luis-suarez",
+    "slug": "luis-suarez",
+    "name": "Luis Suárez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1987-01-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 15 goals and 12 assists in 26 MLS appearances in 2026",
+        "source": "https://www.intermiamicf.com/news/messi-suarez-and-berterame-named-to-mls-team-of-the-matchday"
+      },
+      {
+        "text": "Became the second Inter Miami player to reach 100 goal contributions on Oct. 17",
+        "source": "https://www.intermiamicf.com/news/luis-suarez-becomes-second-player-in-club-history-to-reach-100-goal-contributions"
+      },
+      {
+        "text": "Uruguay's all-time top scorer and a 2015 Champions League winner with Barcelona",
+        "source": "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez",
+      "https://www.intermiamicf.com/news/luis-suarez-becomes-second-player-in-club-history-to-reach-100-goal-contributions",
+      "https://www.intermiamicf.com/news/messi-suarez-and-berterame-named-to-mls-team-of-the-matchday"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "luka-doncic",
+    "slug": "luka-doncic",
+    "name": "Luka Dončić",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "los-angeles-lakers",
+    "lastTeamId": "los-angeles-lakers",
+    "status": "Active",
+    "position": "PG",
+    "number": "77",
+    "birthday": "1999-02-28",
+    "birthdaySource": "https://www.basketball-reference.com/players/d/doncilu01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, won his second scoring title at 33.5 points per game",
+        "source": "https://www.nba.com/news/10-players-to-watch-for-scoring-title-2026-27"
+      },
+      {
+        "text": "Led the NBA with 44 games of 30-plus points and 16 of 40-plus in 2025-26",
+        "source": "https://www.nba.com/news/10-players-to-watch-for-scoring-title-2026-27"
+      },
+      {
+        "text": "Named All-NBA First Team for 2025-26",
+        "source": "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+      }
+    ],
+    "sources": [
+      "https://www.basketball-reference.com/players/d/doncilu01.html",
+      "https://www.nba.com/news/10-players-to-watch-for-scoring-title-2026-27",
+      "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "macklin-celebrini",
+    "slug": "macklin-celebrini",
+    "name": "Macklin Celebrini",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "san-jose-sharks",
+    "lastTeamId": "san-jose-sharks",
+    "status": "Active",
+    "position": "C",
+    "number": "71",
+    "birthday": "2006-06-13",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Macklin_Celebrini",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 11 points (3 G, 8 A) in his first six games of 2026-27",
+        "source": "https://www.espn.com/nhl/player/_/id/5206628/macklin-celebrini"
+      },
+      {
+        "text": "Named the Sharks' 11th full-time captain, the youngest in franchise history",
+        "source": "https://www.espn.com/nhl/story/_/id/50028512/macklin-celebrini-20-becomes-youngest-ever-sharks-captain"
+      },
+      {
+        "text": "His 115 points in 2025-26 broke Joe Thornton's Sharks single-season record",
+        "source": "https://www.nhl.com/news/san-jose-sharks-winnipeg-jets-game-recap-april-16-2026"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Macklin_Celebrini",
+      "https://www.espn.com/nhl/player/_/id/5206628/macklin-celebrini",
+      "https://www.espn.com/nhl/story/_/id/50028512/macklin-celebrini-20-becomes-youngest-ever-sharks-captain",
+      "https://www.nhl.com/news/san-jose-sharks-winnipeg-jets-game-recap-april-16-2026"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "marco-reus",
+    "slug": "marco-reus",
+    "name": "Marco Reus",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "14",
+    "birthday": "1989-05-31",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Marco_Reus",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 8 MLS goals in 29 games for the Galaxy in 2026",
+        "source": "https://www.espn.com/soccer/player/_/id/122356/marco-reus"
+      },
+      {
+        "text": "Made the MLS Team of the Matchday after a goal and an assist against Portland",
+        "source": "https://www.lagalaxy.com/news/marco-reus-named-to-mls-team-of-the-matchday-for-matchday-30"
+      },
+      {
+        "text": "Won MLS Cup in his first Galaxy season (2024) after a long Borussia Dortmund career",
+        "source": "https://en.wikipedia.org/wiki/Marco_Reus"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marco_Reus",
+      "https://www.espn.com/soccer/player/_/id/122356/marco-reus",
+      "https://www.lagalaxy.com/news/marco-reus-named-to-mls-team-of-the-matchday-for-matchday-30"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "micah-parsons",
+    "slug": "micah-parsons",
+    "name": "Micah Parsons",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "green-bay-packers",
+    "lastTeamId": "green-bay-packers",
+    "status": "Injured",
+    "position": "EDGE",
+    "number": "1",
+    "birthday": "1999-05-26",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Micah_Parsons",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has not played in 2026; still on the PUP list after reconstructive knee surgery",
+        "source": "https://www.packers.com/news/micah-parsons-getting-closer-but-not-practicing-yet-for-packers-oct-12-2026"
+      },
+      {
+        "text": "Tore his ACL on Dec. 14, 2025; Nov. 8 against New England is reported as his earliest realistic return",
+        "source": "https://www.thebiglead.com/packers-micah-parsons-practice-decision-week-7/"
+      },
+      {
+        "text": "2021 Defensive Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/Micah_Parsons"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Micah_Parsons",
+      "https://www.packers.com/news/micah-parsons-getting-closer-but-not-practicing-yet-for-packers-oct-12-2026",
+      "https://www.thebiglead.com/packers-micah-parsons-practice-decision-week-7/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "miguel-almiron",
+    "slug": "miguel-almiron",
+    "name": "Miguel Almirón",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1994-02-10",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 6 goals and 5 assists in 23 MLS matches in 2026",
+        "source": "https://www.fotmob.com/players/442277/miguel-almiron"
+      },
+      {
+        "text": "Became Atlanta United's all-time assists leader in August 2026",
+        "source": "https://www.atlutd.com/news/miguel-almiron-assists-leader-club-record-august-23-2026"
+      },
+      {
+        "text": "2018 MLS Cup champion and 2017 MLS Newcomer of the Year with Atlanta",
+        "source": "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Miguel_Almir%C3%B3n",
+      "https://www.atlutd.com/news/miguel-almiron-assists-leader-club-record-august-23-2026",
+      "https://www.fotmob.com/players/442277/miguel-almiron"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "mookie-betts",
+    "slug": "mookie-betts",
+    "name": "Mookie Betts",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-dodgers",
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Active",
+    "position": "SS",
+    "number": "50",
+    "birthday": "1992-10-07",
+    "birthdaySource": "https://www.espn.com/mlb/player/bio/_/id/33039",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit 23 homers with 69 RBI in 123 games",
+        "source": "https://www.mlb.com/player/mookie-betts-605141"
+      },
+      {
+        "text": "The Dodgers' everyday shortstop in 2026 after moving from right field",
+        "source": "https://www.baseball-almanac.com/players/hittinglogs.php?p=bettsmo01&y=2026"
+      },
+      {
+        "text": "2018 AL MVP and four-time World Series champion (2018, 2020, 2024, 2025)",
+        "source": "https://en.wikipedia.org/wiki/Mookie_Betts"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mookie_Betts",
+      "https://www.baseball-almanac.com/players/hittinglogs.php?p=bettsmo01&y=2026",
+      "https://www.espn.com/mlb/player/bio/_/id/33039",
+      "https://www.mlb.com/player/mookie-betts-605141"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "munetaka-murakami",
+    "slug": "munetaka-murakami",
+    "name": "Munetaka Murakami",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "chicago-white-sox",
+    "lastTeamId": "chicago-white-sox",
+    "status": "Active",
+    "position": "1B",
+    "number": "5",
+    "birthday": "2000-02-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Munetaka_Murakami",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit 35 homers with 77 RBI in 127 games as a White Sox rookie",
+        "source": "https://sports.yahoo.com/articles/white-sox-star-munetaka-murakami-194433126.html"
+      },
+      {
+        "text": "Became the first Japanese-born player with a 30-homer rookie season on Sept. 5",
+        "source": "https://www.mlb.com/news/munetaka-murakami-reaches-30-homers-in-rookie-season"
+      },
+      {
+        "text": "2022 NPB Triple Crown winner with a Japanese-record 56 homers",
+        "source": "https://en.wikipedia.org/wiki/Munetaka_Murakami"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Munetaka_Murakami",
+      "https://sports.yahoo.com/articles/white-sox-star-munetaka-murakami-194433126.html",
+      "https://www.mlb.com/news/munetaka-murakami-reaches-30-homers-in-rookie-season"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "nathan-mackinnon",
+    "slug": "nathan-mackinnon",
+    "name": "Nathan MacKinnon",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "colorado-avalanche",
+    "lastTeamId": "colorado-avalanche",
+    "status": "Active",
+    "position": "C",
+    "number": "29",
+    "birthday": "1995-09-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Nathan_MacKinnon",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 16 points (6 G, 10 A) in eight games, capped by a four-point night against Pittsburgh",
+        "source": "https://www.yardbarker.com/nhl/articles/nathan_mackinnons_4_point_night_powers_avalanche_past_penguins/s1_17050_44438184"
+      },
+      {
+        "text": "Won his first Rocket Richard Trophy with a career-high 53 goals in 2025-26",
+        "source": "https://www.nhl.com/avalanche/news/mackinnon-captures-2025-26-rocket-richard-trophy"
+      },
+      {
+        "text": "2022 Stanley Cup champion and 2024 Hart Trophy winner",
+        "source": "https://en.wikipedia.org/wiki/Nathan_MacKinnon"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nathan_MacKinnon",
+      "https://www.nhl.com/avalanche/news/mackinnon-captures-2025-26-rocket-richard-trophy",
+      "https://www.yardbarker.com/nhl/articles/nathan_mackinnons_4_point_night_powers_avalanche_past_penguins/s1_17050_44438184"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "nikola-jokic",
+    "slug": "nikola-jokic",
+    "name": "Nikola Jokić",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "denver-nuggets",
+    "lastTeamId": "denver-nuggets",
+    "status": "Active",
+    "position": "C",
+    "number": "15",
+    "birthday": "1995-02-19",
+    "birthdaySource": "https://www.basketball-reference.com/players/j/jokicni01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged a triple-double: 27.7 points, 12.9 rebounds and 10.7 assists",
+        "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/nikola_jokic_full.htm"
+      },
+      {
+        "text": "Finished second in 2025-26 MVP voting and was a unanimous All-NBA First Team pick",
+        "source": "https://denversports.com/nba/denver-nuggets/nikola-jokic-2nd-mvp-vote-25-26"
+      },
+      {
+        "text": "Three-time MVP and 2023 NBA champion and Finals MVP",
+        "source": "https://www.basketball-reference.com/players/j/jokicni01.html"
+      }
+    ],
+    "sources": [
+      "https://denversports.com/nba/denver-nuggets/nikola-jokic-2nd-mvp-vote-25-26",
+      "https://www.basketball-reference.com/players/j/jokicni01.html",
+      "https://www.landofbasketball.com/nba_players_season_stats/2026/nikola_jokic_full.htm"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "nolan-arenado",
+    "slug": "nolan-arenado",
+    "name": "Nolan Arenado",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "arizona-diamondbacks",
+    "lastTeamId": "arizona-diamondbacks",
+    "status": "Active",
+    "position": "3B",
+    "number": "28",
+    "birthday": "1991-04-16",
+    "birthdaySource": "https://www.thescore.com/mlb/players/2381-nolan-arenado/info",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit 30 homers with 86 RBI in 152 games, his first 30-homer season since 2022",
+        "source": "https://www.mlb.com/player/nolan-arenado-571448"
+      },
+      {
+        "text": "Acquired by Arizona from St. Louis on Jan. 13, 2026, after waiving his no-trade clause",
+        "source": "https://www.mlb.com/news/nolan-arenado-cardinals-d-backs-trade"
+      },
+      {
+        "text": "Won 10 straight Gold Gloves at third base from 2013 to 2022",
+        "source": "https://en.wikipedia.org/wiki/Nolan_Arenado"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nolan_Arenado",
+      "https://www.mlb.com/news/nolan-arenado-cardinals-d-backs-trade",
+      "https://www.mlb.com/player/nolan-arenado-571448",
+      "https://www.thescore.com/mlb/players/2381-nolan-arenado/info"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "patrick-mahomes",
+    "slug": "patrick-mahomes",
+    "name": "Patrick Mahomes",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "kansas-city-chiefs",
+    "lastTeamId": "kansas-city-chiefs",
+    "status": "Active",
+    "position": "QB",
+    "number": "15",
+    "birthday": "1995-09-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 272 yards in a 22-6 Week 6 win over the Chargers, his first game of 2026 without a TD pass",
+        "source": "https://www.rotowire.com/football/headlines/patrick-mahomes-news-no-touchdowns-in-week-6-643196"
+      },
+      {
+        "text": "Kansas City is unbeaten through five games",
+        "source": "https://www.chiefs.com/team/players-roster/patrick-mahomes/"
+      },
+      {
+        "text": "Three-time Super Bowl champion and three-time Super Bowl MVP",
+        "source": "https://en.wikipedia.org/wiki/Patrick_Mahomes"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Patrick_Mahomes",
+      "https://www.chiefs.com/team/players-roster/patrick-mahomes/",
+      "https://www.rotowire.com/football/headlines/patrick-mahomes-news-no-touchdowns-in-week-6-643196"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "paul-skenes",
+    "slug": "paul-skenes",
+    "name": "Paul Skenes",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "pittsburgh-pirates",
+    "lastTeamId": "pittsburgh-pirates",
+    "status": "Active",
+    "position": "SP",
+    "number": "30",
+    "birthday": "2002-05-29",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Paul_Skenes",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Struck out 200 over 174.1 innings in 32 starts, his second straight 200-strikeout season",
+        "source": "https://www.mlb.com/pirates/player/paul-skenes-694973"
+      },
+      {
+        "text": "Kept a 1.12 WHIP despite a 10-11 record and 3.82 ERA for Pittsburgh",
+        "source": "https://baseballsavant.mlb.com/savant-player/paul-skenes-694973"
+      },
+      {
+        "text": "2025 NL Cy Young winner with a 1.97 ERA; 2024 NL Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/Paul_Skenes"
+      }
+    ],
+    "sources": [
+      "https://baseballsavant.mlb.com/savant-player/paul-skenes-694973",
+      "https://en.wikipedia.org/wiki/Paul_Skenes",
+      "https://www.mlb.com/pirates/player/paul-skenes-694973"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "pete-crow-armstrong",
+    "slug": "pete-crow-armstrong",
+    "name": "Pete Crow-Armstrong",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "chicago-cubs",
+    "lastTeamId": "chicago-cubs",
+    "status": "Active",
+    "position": "CF",
+    "number": "4",
+    "birthday": "2002-03-25",
+    "birthdaySource": "https://www.mlb.com/player/pete-crow-armstrong-691718",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Led MLB in homers (45), runs (119) and total bases (357) while playing all 162 games",
+        "source": "https://www.baseballamerica.com/stories/pete-crow-armstrong-baseball-americas-2026-mlb-player-of-the-year/"
+      },
+      {
+        "text": "Became the seventh member of the 40-40 club with 45 homers and 41 steals",
+        "source": "https://www.cbssports.com/mlb/news/pete-crow-armstrong-best-cubs-seasons-ever-playoffs/"
+      },
+      {
+        "text": "Named Baseball America's 2026 MLB Player of the Year, the first Cub to win it",
+        "source": "https://www.bleachernation.com/cubs/2026/10/06/baseball-americas-2026-player-of-the-year-oh-come-on-you-know-who/"
+      }
+    ],
+    "sources": [
+      "https://www.baseballamerica.com/stories/pete-crow-armstrong-baseball-americas-2026-mlb-player-of-the-year/",
+      "https://www.bleachernation.com/cubs/2026/10/06/baseball-americas-2026-player-of-the-year-oh-come-on-you-know-who/",
+      "https://www.cbssports.com/mlb/news/pete-crow-armstrong-best-cubs-seasons-ever-playoffs/",
+      "https://www.mlb.com/player/pete-crow-armstrong-691718"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "puka-nacua",
+    "slug": "puka-nacua",
+    "name": "Puka Nacua",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-rams",
+    "lastTeamId": "los-angeles-rams",
+    "status": "Active",
+    "position": "WR",
+    "number": "12",
+    "birthday": "2001-05-29",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Puka_Nacua",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Caught 6 of 7 targets for 80 yards in an 18-16 Week 6 loss to Arizona",
+        "source": "https://www.cbssports.com/fantasy/football/news/rams-puka-nacua-tallies-80-yards-in-week-6/"
+      },
+      {
+        "text": "Career-best 17 catches for 138 yards in Week 5 after missing two games with a groin injury",
+        "source": "https://www.rotowire.com/football/player/puka-nacua-16790"
+      },
+      {
+        "text": "Set NFL rookie records with 105 catches and 1,486 yards in 2023",
+        "source": "https://en.wikipedia.org/wiki/Puka_Nacua"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Puka_Nacua",
+      "https://www.cbssports.com/fantasy/football/news/rams-puka-nacua-tallies-80-yards-in-week-6/",
+      "https://www.rotowire.com/football/player/puka-nacua-16790"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "rodrigo-de-paul",
+    "slug": "rodrigo-de-paul",
+    "name": "Rodrigo De Paul",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "7",
+    "birthday": "1994-05-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5 goals in 25 MLS appearances for Inter Miami in 2026",
+        "source": "https://us.soccerway.com/player/de-paul-rodrigo/AZ6TTjDC/"
+      },
+      {
+        "text": "Scored off a Messi assist in Miami's 2-0 win over NYCFC in October",
+        "source": "https://athlonsports.com/soccer/atlanta-united-vs-inter-miami-lineups-is-lionel-messi-playing-tonight"
+      },
+      {
+        "text": "2022 World Cup winner and two-time Copa América champion (2021, 2024) with Argentina",
+        "source": "https://en.wikipedia.org/wiki/Rodrigo_De_Paul"
+      }
+    ],
+    "sources": [
+      "https://athlonsports.com/soccer/atlanta-united-vs-inter-miami-lineups-is-lionel-messi-playing-tonight",
+      "https://en.wikipedia.org/wiki/Rodrigo_De_Paul",
+      "https://us.soccerway.com/player/de-paul-rodrigo/AZ6TTjDC/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "ronald-acuna-jr",
+    "slug": "ronald-acuna-jr",
+    "name": "Ronald Acuña Jr.",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "atlanta-braves",
+    "lastTeamId": "atlanta-braves",
+    "status": "Active",
+    "position": "RF",
+    "number": "13",
+    "birthday": "1997-12-18",
+    "birthdaySource": "https://www.baseball-reference.com/bullpen/Ronald_Acu%C3%B1a_Jr.",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 20-20 with 20 homers and 21 steals in just 107 games",
+        "source": "https://www.mlb.com/player/ronald-acuna-jr-660670"
+      },
+      {
+        "text": "Helped Atlanta past Philadelphia in the Wild Card round before a 3-1 NLDS loss to the Dodgers (postseason)",
+        "source": "https://en.wikipedia.org/wiki/2026_Atlanta_Braves_season"
+      },
+      {
+        "text": "Unanimous 2023 NL MVP after MLB's first 40-70 season; 2018 NL Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr."
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Atlanta_Braves_season",
+      "https://en.wikipedia.org/wiki/Ronald_Acu%C3%B1a_Jr.",
+      "https://www.baseball-reference.com/bullpen/Ronald_Acu%C3%B1a_Jr.",
+      "https://www.mlb.com/player/ronald-acuna-jr-660670"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "saquon-barkley",
+    "slug": "saquon-barkley",
+    "name": "Saquon Barkley",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "philadelphia-eagles",
+    "lastTeamId": "philadelphia-eagles",
+    "status": "Active",
+    "position": "RB",
+    "number": "26",
+    "birthday": "1997-02-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Saquon_Barkley",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 182 rushing yards on 36 carries in four games; missed Weeks 5 and 6 with a hamstring strain",
+        "source": "https://www.espn.com/nfl/player/_/id/3929630/saquon-barkley"
+      },
+      {
+        "text": "Without him, Philadelphia ran for 35 yards on 13 carries in a 25-14 Week 6 loss to Carolina",
+        "source": "https://philadelphiaeagles.com/news/panthers-vs-eagles-game-recap-2026-nfl-week-6-crucial-catch-tanner-mckee-bryce-young"
+      },
+      {
+        "text": "Ran for 2,005 yards in 2024 and was named Offensive Player of the Year",
+        "source": "https://en.wikipedia.org/wiki/Saquon_Barkley"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Saquon_Barkley",
+      "https://philadelphiaeagles.com/news/panthers-vs-eagles-game-recap-2026-nfl-week-6-crucial-catch-tanner-mckee-bryce-young",
+      "https://www.espn.com/nfl/player/_/id/3929630/saquon-barkley"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "shai-gilgeous-alexander",
+    "slug": "shai-gilgeous-alexander",
+    "name": "Shai Gilgeous-Alexander",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "oklahoma-city-thunder",
+    "lastTeamId": "oklahoma-city-thunder",
+    "status": "Active",
+    "position": "PG",
+    "number": "2",
+    "birthday": "1998-07-12",
+    "birthdaySource": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, became the first guard to average 30-plus points (31.1) on 55%-plus shooting",
+        "source": "https://pr.nba.com/shai-gilgeous-alexander-2025-26-kia-nba-most-valuable-player/"
+      },
+      {
+        "text": "Pushed his streak of 20-point games to 140, passing Wilt Chamberlain's 126",
+        "source": "https://www.flashscore.com/news/basketball-nba-okc-thunder-s-shai-gilgeous-alexander-named-nba-mvp-for-second-straight-year/COqkyqMt/"
+      },
+      {
+        "text": "Back-to-back MVP (2025, 2026) and 2025-26 Clutch Player of the Year",
+        "source": "https://www.nbcnewyork.com/nba/thunder-shai-gilgeous-alexander-nba-clutch-player-year/6492913/"
+      }
+    ],
+    "sources": [
+      "https://pr.nba.com/shai-gilgeous-alexander-2025-26-kia-nba-most-valuable-player/",
+      "https://www.basketball-reference.com/players/g/gilgesh01.html",
+      "https://www.flashscore.com/news/basketball-nba-okc-thunder-s-shai-gilgeous-alexander-named-nba-mvp-for-second-straight-year/COqkyqMt/",
+      "https://www.nbcnewyork.com/nba/thunder-shai-gilgeous-alexander-nba-clutch-player-year/6492913/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "shohei-ohtani",
+    "slug": "shohei-ohtani",
+    "name": "Shohei Ohtani",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-dodgers",
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Active",
+    "position": "DH / SP",
+    "number": "17",
+    "birthday": "1994-07-05",
+    "birthdaySource": "https://www.espn.com/mlb/player/bio/_/id/39832",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .275 with 30 homers and an .889 OPS, and went 8-2 with a 1.79 ERA in 14 starts",
+        "source": "https://www.mlb.com/player/shohei-ohtani-660271"
+      },
+      {
+        "text": "Hit a three-run homer in NLCS Game 4 before Milwaukee swept the Dodgers (postseason)",
+        "source": "https://www.mlb.com/news/brewers-win-nlcs-2026"
+      },
+      {
+        "text": "Four-time MVP (2021, 2023, 2024, 2025) and creator of MLB's first 50-50 season in 2024",
+        "source": "https://en.wikipedia.org/wiki/Shohei_Ohtani"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shohei_Ohtani",
+      "https://www.espn.com/mlb/player/bio/_/id/39832",
+      "https://www.mlb.com/news/brewers-win-nlcs-2026",
+      "https://www.mlb.com/player/shohei-ohtani-660271"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "sidney-crosby",
+    "slug": "sidney-crosby",
+    "name": "Sidney Crosby",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "pittsburgh-penguins",
+    "lastTeamId": "pittsburgh-penguins",
+    "status": "Active",
+    "position": "C",
+    "number": "87",
+    "birthday": "1987-08-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Sidney_Crosby",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 6 points (3 G, 3 A) in nine games, including a power-play goal at Vegas on Oct. 17",
+        "source": "https://www.rotowire.com/hockey/player/sidney-crosby-2086"
+      },
+      {
+        "text": "Extended his record run of point-per-game seasons with 74 points in 68 games in 2025-26",
+        "source": "https://www.newsweek.com/sports/sidney-crosby-drops-a-cryptic-update-on-his-penguins-future-12417377"
+      },
+      {
+        "text": "Three-time Stanley Cup champion (2009, 2016, 2017) with two Conn Smythe Trophies",
+        "source": "https://en.wikipedia.org/wiki/Sidney_Crosby"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sidney_Crosby",
+      "https://www.newsweek.com/sports/sidney-crosby-drops-a-cryptic-update-on-his-penguins-future-12417377",
+      "https://www.rotowire.com/hockey/player/sidney-crosby-2086"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "son-heung-min",
+    "slug": "son-heung-min",
+    "name": "Son Heung-min",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "1992-07-08",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Son_Heung-min",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 7 goals and 15 assists in 2026, tied with Messi for the MLS assists lead",
+        "source": "https://www.koreatimes.co.kr/sports/20261015/son-heung-min-moves-back-into-mls-assists-lead-in-lafc-victory"
+      },
+      {
+        "text": "Made the MLS Team of the Matchday after a goal and two assists in a win over Austin",
+        "source": "https://www.starnewskorea.com/en/sports/2026/10/16/2026101615462890617"
+      },
+      {
+        "text": "Shared the 2021-22 Premier League Golden Boot and captained Spurs to the 2025 Europa League title",
+        "source": "https://en.wikipedia.org/wiki/Son_Heung-min"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Son_Heung-min",
+      "https://www.koreatimes.co.kr/sports/20261015/son-heung-min-moves-back-into-mls-assists-lead-in-lafc-victory",
+      "https://www.starnewskorea.com/en/sports/2026/10/16/2026101615462890617"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "stephen-curry",
+    "slug": "stephen-curry",
+    "name": "Stephen Curry",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "golden-state-warriors",
+    "lastTeamId": "golden-state-warriors",
+    "status": "Active",
+    "position": "PG",
+    "number": "30",
+    "birthday": "1988-03-14",
+    "birthdaySource": "https://www.basketball-reference.com/players/c/curryst01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, averaged 26.6 points in 43 games, shooting 39.3% from 3 and 92.3% at the line",
+        "source": "https://www.landofbasketball.com/nba_players_season_stats/2026/stephen_curry_full.htm"
+      },
+      {
+        "text": "Took back the No. 1 spot on the NBA's season-end jersey list after Luka Dončić led it in 2024-25",
+        "source": "https://www.gamereactor.eu/stephen-curry-luka-doncic-and-jalen-brunson-are-the-most-popular-nba-players-by-jersey-sales-1705363/"
+      },
+      {
+        "text": "Started for the West in the 2026 NBA All-Star Game",
+        "source": "https://picks-s1.cbssports.com/nba/news/2026-nba-all-star-game-rosters-starters-announcement/"
+      }
+    ],
+    "sources": [
+      "https://picks-s1.cbssports.com/nba/news/2026-nba-all-star-game-rosters-starters-announcement/",
+      "https://www.basketball-reference.com/players/c/curryst01.html",
+      "https://www.gamereactor.eu/stephen-curry-luka-doncic-and-jalen-brunson-are-the-most-popular-nba-players-by-jersey-sales-1705363/",
+      "https://www.landofbasketball.com/nba_players_season_stats/2026/stephen_curry_full.htm"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "t-j-watt",
+    "slug": "t-j-watt",
+    "name": "T.J. Watt",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "pittsburgh-steelers",
+    "lastTeamId": "pittsburgh-steelers",
+    "status": "Active",
+    "position": "OLB",
+    "number": "90",
+    "birthday": "1994-10-11",
+    "birthdaySource": "https://en.wikipedia.org/wiki/T._J._Watt",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4.5 sacks, a forced fumble and an interception through six games",
+        "source": "https://www.steelers.com/team/players-roster/t-j-watt/"
+      },
+      {
+        "text": "Opened 2026 with 2.0 sacks in a Week 1 win at Atlanta",
+        "source": "https://www.espn.com/nfl/player/_/id/3045282/tj-watt"
+      },
+      {
+        "text": "2021 Defensive Player of the Year after tying the single-season sack record with 22.5",
+        "source": "https://en.wikipedia.org/wiki/T._J._Watt"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/T._J._Watt",
+      "https://www.espn.com/nfl/player/_/id/3045282/tj-watt",
+      "https://www.steelers.com/team/players-roster/t-j-watt/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "tyrese-maxey",
+    "slug": "tyrese-maxey",
+    "name": "Tyrese Maxey",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "philadelphia-76ers",
+    "lastTeamId": "philadelphia-76ers",
+    "status": "Active",
+    "position": "G",
+    "number": "0",
+    "birthday": "2000-11-04",
+    "birthdaySource": "https://www.basketball-reference.com/players/m/maxeyty01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, scored a career-high 28.3 points per game over 70 games",
+        "source": "https://www.rotowire.com/basketball/player/tyrese-maxey-5158"
+      },
+      {
+        "text": "Starts alongside new arrivals LeBron James and Jaylen Brown in Philadelphia",
+        "source": "https://www.thescore.com/nba/news/3629835/le-bron-set-to-open-24-th-season-in-n-y-when-76-ers-visit-knicks"
+      },
+      {
+        "text": "Earned his first All-NBA selection (Third Team) for 2025-26",
+        "source": "https://www.nba.com/news/2025-26-all-nba-teams-announced"
+      }
+    ],
+    "sources": [
+      "https://www.basketball-reference.com/players/m/maxeyty01.html",
+      "https://www.nba.com/news/2025-26-all-nba-teams-announced",
+      "https://www.rotowire.com/basketball/player/tyrese-maxey-5158",
+      "https://www.thescore.com/nba/news/3629835/le-bron-set-to-open-24-th-season-in-n-y-when-76-ers-visit-knicks"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "victor-wembanyama",
+    "slug": "victor-wembanyama",
+    "name": "Victor Wembanyama",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "san-antonio-spurs",
+    "lastTeamId": "san-antonio-spurs",
+    "status": "Active",
+    "position": "C",
+    "number": "1",
+    "birthday": "2004-01-04",
+    "birthdaySource": "https://www.basketball-reference.com/players/w/wembavi01.html",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In 2025-26, led the NBA with 197 blocks (3.1 per game) in 64 games",
+        "source": "https://fantasy-api.cbssports.com/nba/news/victor-wembanyama-unanimous-nba-defensive-player-of-the-year-2026/"
+      },
+      {
+        "text": "Led San Antonio past Oklahoma City in Game 7 of the 2026 West finals",
+        "source": "https://www.nba.com/news/4-takeaways-spurs-thunder-game-7"
+      },
+      {
+        "text": "First unanimous Defensive Player of the Year and the youngest winner at 22",
+        "source": "https://www.nbcchicago.com/nba/spurs-victor-wembanyama-wins-defensive-player-of-the-year/"
+      }
+    ],
+    "sources": [
+      "https://fantasy-api.cbssports.com/nba/news/victor-wembanyama-unanimous-nba-defensive-player-of-the-year-2026/",
+      "https://www.basketball-reference.com/players/w/wembavi01.html",
+      "https://www.nba.com/news/4-takeaways-spurs-thunder-game-7",
+      "https://www.nbcchicago.com/nba/spurs-victor-wembanyama-wins-defensive-player-of-the-year/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "vladimir-guerrero-jr",
+    "slug": "vladimir-guerrero-jr",
+    "name": "Vladimir Guerrero Jr.",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "toronto-blue-jays",
+    "lastTeamId": "toronto-blue-jays",
+    "status": "Active",
+    "position": "1B",
+    "number": "27",
+    "birthday": "1999-03-16",
+    "birthdaySource": "https://www.baseball-reference.com/bullpen/Vladimir_Guerrero_Jr.",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .260 with 57 RBI over 144 games, though his power dipped to nine homers",
+        "source": "https://baseballsavant.mlb.com/savant-player/vladimir-guerrero-jr-665489"
+      },
+      {
+        "text": "2025 ALCS MVP who sent the Blue Jays to the World Series",
+        "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr."
+      },
+      {
+        "text": "Signed a 14-year, $500 million extension in 2025; tied for the MLB lead with 48 homers in 2021",
+        "source": "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr."
+      }
+    ],
+    "sources": [
+      "https://baseballsavant.mlb.com/savant-player/vladimir-guerrero-jr-665489",
+      "https://en.wikipedia.org/wiki/Vladimir_Guerrero_Jr.",
+      "https://www.baseball-reference.com/bullpen/Vladimir_Guerrero_Jr."
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "wilfried-zaha",
+    "slug": "wilfried-zaha",
+    "name": "Wilfried Zaha",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": null,
+    "lastTeamId": "charlotte-fc",
+    "status": "Free agent",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1992-11-10",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 3 goals in 13 MLS starts for Charlotte in 2026 before his loan ended on June 30",
+        "source": "https://statsnext.com/mls/players/wilfried-zaha-009a448e"
+      },
+      {
+        "text": "Listed as a free agent in September 2026 after his Galatasaray contract expired",
+        "source": "https://www.caughtoffside.com/2026/09/14/wilfried-zaha-offered-surprise-move-winger-european-return/"
+      },
+      {
+        "text": "Won the 2023-24 Süper Lig title with Galatasaray after a long Crystal Palace career",
+        "source": "https://en.wikipedia.org/wiki/Wilfried_Zaha"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wilfried_Zaha",
+      "https://statsnext.com/mls/players/wilfried-zaha-009a448e",
+      "https://www.caughtoffside.com/2026/09/14/wilfried-zaha-offered-surprise-move-winger-european-return/"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "yoshinobu-yamamoto",
+    "slug": "yoshinobu-yamamoto",
+    "name": "Yoshinobu Yamamoto",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-dodgers",
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Active",
+    "position": "SP",
+    "number": "18",
+    "birthday": "1998-08-17",
+    "birthdaySource": "https://www.mlb.com/player/yoshinobu-yamamoto-808967",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 14-9 with a 2.53 ERA and a 0.87 WHIP over 28 starts",
+        "source": "https://www.mlb.com/player/yoshinobu-yamamoto-808967"
+      },
+      {
+        "text": "Logged 185 innings with 182 strikeouts as the anchor of the Dodgers rotation",
+        "source": "https://www.statmuse.com/mlb/ask/yoshinobu-yamamoto-2026-stats"
+      },
+      {
+        "text": "2025 World Series MVP with three wins, including Game 7 on zero days' rest",
+        "source": "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yoshinobu_Yamamoto",
+      "https://www.mlb.com/player/yoshinobu-yamamoto-808967",
+      "https://www.statmuse.com/mlb/ask/yoshinobu-yamamoto-2026-stats"
+    ],
+    "lastVerified": "2026-10-21"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "nhl-2026-04-18-season-top-selling",
+  "series": "nhl-season",
+  "title": "NHL's Top 10 Selling Jerseys of the 2025-26 Season",
+  "publisher": "NHL (Shop.NHL.com / Fanatics), as reported by HockeyFeed",
+  "periodStart": "2025-10-07",
+  "periodEnd": "2026-04-16",
+  "scope": "Player jersey sales on Shop.NHL.com and the Fanatics network during the 2025-26 regular season.",
+  "methodology": "League-announced ranking based on online sales. Unit counts are not published.",
+  "limitations": [
+    "The original league announcement could not be retrieved directly; the ranking is taken from published coverage of it.",
+    "Publication date inferred from the league's social media announcement."
+  ],
+  "league": "nhl",
+  "sourceUrl": "https://www.hockeyfeed.com/nhl-news/nhl-reveals-the-top-10-selling-jerseys-of-2025-26-season",
+  "publishedDate": "2026-04-18",
+  "periodLabel": "2025-26 NHL regular season",
+  "retrievedDate": "2026-10-20",
+  "lastVerified": "2026-10-21",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "connor-bedard",
+      "teamIdAtReport": "chicago-blackhawks"
+    },
+    {
+      "rank": 2,
+      "playerId": "alex-ovechkin",
+      "teamIdAtReport": "washington-capitals"
+    },
+    {
+      "rank": 3,
+      "playerId": "sidney-crosby",
+      "teamIdAtReport": "pittsburgh-penguins"
+    },
+    {
+      "rank": 4,
+      "playerId": "jack-hughes",
+      "teamIdAtReport": "new-jersey-devils"
+    },
+    {
+      "rank": 5,
+      "playerId": "connor-mcdavid",
+      "teamIdAtReport": "edmonton-oilers"
+    },
+    {
+      "rank": 6,
+      "playerId": "nathan-mackinnon",
+      "teamIdAtReport": "colorado-avalanche"
+    },
+    {
+      "rank": 7,
+      "playerId": "cale-makar",
+      "teamIdAtReport": "colorado-avalanche"
+    },
+    {
+      "rank": 8,
+      "playerId": "david-pastrnak",
+      "teamIdAtReport": "boston-bruins"
+    },
+    {
+      "rank": 9,
+      "playerId": "auston-matthews",
+      "teamIdAtReport": "toronto-maple-leafs"
+    },
+    {
+      "rank": 10,
+      "playerId": "macklin-celebrini",
+      "teamIdAtReport": "san-jose-sharks"
+    }
+  ]
+}

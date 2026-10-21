@@ -1,0 +1,148 @@
+{
+  "id": "nfl-2026-06-09-nflpa-year-end",
+  "series": "nflpa-year-end",
+  "title": "NFLPA Year-End Top 50 NFL Player Sales List",
+  "publisher": "NFL Players Association (NFLPA)",
+  "periodStart": "2025-03-01",
+  "periodEnd": "2026-02-28",
+  "scope": "All licensed NFL player merchandise (jerseys, apparel and other products) sold through licensees, online and at retail.",
+  "methodology": "Compiled by NFL Players Inc. from licensee royalty reports. Unit counts are not published.",
+  "limitations": [
+    "The NFLPA list measures all licensed player merchandise, not jerseys alone.",
+    "The source report ranks 50 players. This site currently lists ranks 1-25; ranks 26-50 have not yet been verified for import."
+  ],
+  "league": "nfl",
+  "sourceUrl": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2026",
+  "publishedDate": "2026-06-09",
+  "periodLabel": "Licensed player merchandise led by jerseys, March 1, 2025 to February 28, 2026 (top 25 shown)",
+  "retrievedDate": "2026-10-20",
+  "lastVerified": "2026-10-21",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "josh-allen",
+      "teamIdAtReport": "buffalo-bills"
+    },
+    {
+      "rank": 2,
+      "playerId": "drake-maye",
+      "teamIdAtReport": "new-england-patriots"
+    },
+    {
+      "rank": 3,
+      "playerId": "saquon-barkley",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 4,
+      "playerId": "jaxon-smith-njigba",
+      "teamIdAtReport": "seattle-seahawks"
+    },
+    {
+      "rank": 5,
+      "playerId": "jayden-daniels",
+      "teamIdAtReport": "washington-commanders"
+    },
+    {
+      "rank": 6,
+      "playerId": "patrick-mahomes",
+      "teamIdAtReport": "kansas-city-chiefs"
+    },
+    {
+      "rank": 7,
+      "playerId": "jalen-hurts",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 8,
+      "playerId": "caleb-williams",
+      "teamIdAtReport": "chicago-bears"
+    },
+    {
+      "rank": 9,
+      "playerId": "jordan-love",
+      "teamIdAtReport": "green-bay-packers"
+    },
+    {
+      "rank": 10,
+      "playerId": "micah-parsons",
+      "teamIdAtReport": "green-bay-packers"
+    },
+    {
+      "rank": 11,
+      "playerId": "bo-nix",
+      "teamIdAtReport": "denver-broncos"
+    },
+    {
+      "rank": 12,
+      "playerId": "christian-mccaffrey",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 13,
+      "playerId": "justin-jefferson",
+      "teamIdAtReport": "minnesota-vikings"
+    },
+    {
+      "rank": 14,
+      "playerId": "aidan-hutchinson",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 15,
+      "playerId": "t-j-watt",
+      "teamIdAtReport": "pittsburgh-steelers"
+    },
+    {
+      "rank": 16,
+      "playerId": "jahmyr-gibbs",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 17,
+      "playerId": "amon-ra-st-brown",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 18,
+      "playerId": "brock-purdy",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 19,
+      "playerId": "lamar-jackson",
+      "teamIdAtReport": "baltimore-ravens"
+    },
+    {
+      "rank": 20,
+      "playerId": "c-j-stroud",
+      "teamIdAtReport": "houston-texans"
+    },
+    {
+      "rank": 21,
+      "playerId": "ceedee-lamb",
+      "teamIdAtReport": "dallas-cowboys"
+    },
+    {
+      "rank": 22,
+      "playerId": "cooper-dejean",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 23,
+      "playerId": "george-kittle",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 24,
+      "playerId": "puka-nacua",
+      "teamIdAtReport": "los-angeles-rams"
+    },
+    {
+      "rank": 25,
+      "playerId": "fred-warner",
+      "teamIdAtReport": "san-francisco-49ers"
+    }
+  ]
+}
