@@ -1,5 +1,5 @@
 import type { Player, Product, Promotion, Team } from "./schema";
-import { getMerchant, getPlayer, getTeam, loadStore } from "./data";
+import { getAnyTeam, getMerchant, getPlayer, getTeam, loadStore } from "./data";
 
 export interface Offer {
   id: string;
@@ -53,7 +53,7 @@ export function productOffer(p: Product): Offer | null {
 }
 
 /** A retailer search for a team's jerseys and gear. */
-export function teamOffer(team: Team, merchantId = "fanatics"): Offer | null {
+export function teamOffer(team: Pick<Team, "id" | "name">, merchantId = "fanatics"): Offer | null {
   const merchant = getMerchant(merchantId);
   if (!merchant) return null;
   const raw = merchant.searchUrlTemplate.replace("{query}", encodeURIComponent(`${team.name} jerseys`).replace(/%20/g, "+"));
@@ -80,7 +80,7 @@ export function resolveOffer(offerId: string): Offer | null {
   }
   const t = /^team-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
   if (t) {
-    const team = getTeam(t[2]);
+    const team = getAnyTeam(t[2]);
     return team ? teamOffer(team, t[1]) : null;
   }
   const m = /^search-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);

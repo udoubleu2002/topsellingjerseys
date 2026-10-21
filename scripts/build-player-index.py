@@ -4,7 +4,7 @@ Usage: python3 -I scripts/build-player-index.py SOURCE_DIR
 
 SOURCE_DIR holds the downloaded open datasets (none are committed):
   nfl/r{1936..2026}.csv   nflverse rosters      github.com/nflverse/nflverse-data/releases/download/rosters/roster_{year}.csv
-  data.py                 nba_api static list   raw.githubusercontent.com/swar/nba_api/master/src/nba_api/stats/library/data.py
+  data.py                 nba_api static list (NBA and WNBA)   raw.githubusercontent.com/swar/nba_api/master/src/nba_api/stats/library/data.py
   people-{0..f}.csv       Chadwick register     raw.githubusercontent.com/chadwickbureau/register/master/data/people-{x}.csv
   nhl/r{2010..2026}.csv   NHL rosters           github.com/sportsdataverse/sportsdataverse-data/releases/download/nhl_rosters/rosters_{year}.csv
   nhl/players.js          @nhl-api/players      npm package, lib/src/players.js (every NHL player through 2021-22)
@@ -40,12 +40,20 @@ def nfl():
     return [[p["name"], f"{span(p['first'], p['last'])} · {p['team']}"] for p in people.values() if p["last"] >= MIN_YEAR]
 
 
-def nba():
+def nba_api_list(start_marker, end_marker):
     text = open(os.path.join(SRC, "data.py"), encoding="utf-8").read()
-    start = text.index("players = [") + len("players = ")
-    end = text.index("\nwnba_players")
+    start = text.index(start_marker) + len(start_marker)
+    end = text.index(end_marker, start)
     rows = ast.literal_eval(text[start:end].strip())
     return [[r[3], "Active" if r[4] else ""] for r in rows]
+
+
+def nba():
+    return nba_api_list("\nplayers = ", "\nwnba_players")
+
+
+def wnba():
+    return nba_api_list("\nwnba_players = ", "\nteam_index_id")
 
 
 def mlb():
@@ -88,7 +96,7 @@ def site_players():
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    lists = {"nfl": nfl(), "nba": nba(), "mlb": mlb(), "nhl": nhl(), "mls": []}
+    lists = {"nfl": nfl(), "nba": nba(), "wnba": wnba(), "mlb": mlb(), "nhl": nhl(), "mls": []}
     for lg, names in site_players().items():
         have = {n.lower() for n, _ in lists[lg]}
         lists[lg] += [[n, ""] for n in names if n.lower() not in have]

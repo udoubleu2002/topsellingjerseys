@@ -1,0 +1,69 @@
+{
+ "collected": "2026-10-21",
+ "verdict": "club-only",
+ "summary": "No official or widely reported ranking of the best-selling Premier League player shirts was found for 2025-26 or 2026-27, from the Premier League, a club, a kit maker or Fanatics. The newest player-level lists are either global (Euromericas, calendar 2025, where Bruno Fernandes is the only Premier League player in the top 10), US-only and out of date (SOCCER.COM, Aug 2024 to Jan 2025, reported by Goal), or one top seller per club taken from club stores early in 2025-26 (Last Word On Football). The best numeric club data is Euromericas Sport Marketing's global 2025 club estimate, in which Manchester United (7th) and Chelsea (9th) are the only Premier League clubs.",
+ "ranking": null,
+ "clubRanking": {
+  "title": "Clubs with the most shirts sold in 2025 (global)",
+  "publisher": "Euromericas Sport Marketing (consultancy), reported by AS, Record, Lance, Futbolfinanzas, GiveMeSport and others",
+  "publishedDate": "2025-11/2025-12 (exact date of the original release not confirmed)",
+  "periodStart": "2025-01-01",
+  "periodEnd": "2025-11-30",
+  "periodLabel": "Calendar year 2025 (figures closed in November 2025)",
+  "scope": "All clubs worldwide; not limited to the Premier League. Only Manchester United and Chelsea are Premier League clubs in the top 10.",
+  "methodology": "Consultancy estimate of shirt units sold per club. The full methodology is not published in the coverage found.",
+  "limitations": [
+   "These are estimates, not audited sales figures",
+   "Ranks clubs worldwide, not Premier League players",
+   "The original Euromericas or AS release was not opened directly. Figures come from search excerpts of secondary reports, and the page fetch tool could not reach these domains",
+   "Nogomania's English list swaps Chelsea and Flamengo. The Spanish and Portuguese reports (Record, Lance) agree on the order below",
+   "Calendar 2025 spans parts of two seasons (2024-25 and 2025-26)"
+  ],
+  "sourceUrl": "https://www.record.com.mx/futbol/futbol-internacional/real-madrid-rompe-el-mercado-el-primer-club-en-superar-las-3-millones",
+  "entries": [
+   {"rank": 1, "club": "Real Madrid", "estimate": "3,133,000"},
+   {"rank": 2, "club": "Barcelona", "estimate": "2,940,000"},
+   {"rank": 3, "club": "Paris Saint-Germain", "estimate": "2,546,000"},
+   {"rank": 4, "club": "Bayern Munich", "estimate": "2,377,000"},
+   {"rank": 5, "club": "Inter Miami", "estimate": "2,166,000"},
+   {"rank": 6, "club": "Boca Juniors", "estimate": "1,933,000"},
+   {"rank": 7, "club": "Manchester United", "estimate": "1,855,000"},
+   {"rank": 8, "club": "Flamengo", "estimate": "1,677,000"},
+   {"rank": 9, "club": "Chelsea", "estimate": "1,422,000"},
+   {"rank": 10, "club": "Al Nassr", "estimate": "1,281,000"}
+  ]
+ },
+ "players": {},
+ "teams": [
+  {"id": "arsenal", "name": "Arsenal", "primary": "#EF0107", "accent": "#FFFFFF"},
+  {"id": "aston-villa", "name": "Aston Villa", "primary": "#670E36", "accent": "#95BFE5"},
+  {"id": "bournemouth", "name": "Bournemouth", "primary": "#DA291C", "accent": "#000000"},
+  {"id": "brentford", "name": "Brentford", "primary": "#E30613", "accent": "#FFFFFF"},
+  {"id": "brighton-and-hove-albion", "name": "Brighton", "primary": "#0057B8", "accent": "#FFFFFF"},
+  {"id": "chelsea", "name": "Chelsea", "primary": "#034694", "accent": "#DBA111"},
+  {"id": "coventry-city", "name": "Coventry", "primary": "#59CBE8", "accent": "#FFFFFF"},
+  {"id": "crystal-palace", "name": "Crystal Palace", "primary": "#1B458F", "accent": "#C4122E"},
+  {"id": "everton", "name": "Everton", "primary": "#003399", "accent": "#FFFFFF"},
+  {"id": "fulham", "name": "Fulham", "primary": "#000000", "accent": "#CC0000"},
+  {"id": "hull-city", "name": "Hull", "primary": "#F5A12D", "accent": "#000000"},
+  {"id": "ipswich-town", "name": "Ipswich", "primary": "#0044A9", "accent": "#FFFFFF"},
+  {"id": "leeds-united", "name": "Leeds", "primary": "#1D428A", "accent": "#FFCD00"},
+  {"id": "liverpool", "name": "Liverpool", "primary": "#C8102E", "accent": "#00B2A9"},
+  {"id": "manchester-city", "name": "Man City", "primary": "#6CABDD", "accent": "#1C2C5B"},
+  {"id": "manchester-united", "name": "Man Utd", "primary": "#DA291C", "accent": "#FBE122"},
+  {"id": "newcastle-united", "name": "Newcastle", "primary": "#241F20", "accent": "#FFFFFF"},
+  {"id": "nottingham-forest", "name": "Nott'm Forest", "primary": "#DD0000", "accent": "#FFFFFF"},
+  {"id": "sunderland", "name": "Sunderland", "primary": "#EB172B", "accent": "#FFFFFF"},
+  {"id": "tottenham-hotspur", "name": "Spurs", "primary": "#132257", "accent": "#FFFFFF"}
+ ],
+ "otherSources": [
+  {"title": "Chelsea's Cole Palmer, Inter Miami, Liverpool leading U.S. kit sales during 2024-25 season (Goal, SOCCER.COM data)", "url": "https://www.goal.com/en-us/lists/chelsea-fc-cole-palmer-inter-miami-liverpool-leading-u-s-kit-sales-during-2024-25-season/bltecec473832358523", "note": "This is the newest ranked list of Premier League player shirts found, but it covers US retailer SOCCER.COM only, from Aug 16, 2024 to Jan 2025. As reported in search excerpts, the top five Premier League players were: 1 Cole Palmer (Chelsea), 2 Erling Haaland (Man City), 3 Mohamed Salah (Liverpool), 4 Bukayo Saka (Arsenal), 5 Virgil van Dijk (Liverpool). It is out of date and US-only, so it was not used as the ranking. The page itself could not be fetched."},
+  {"title": "10 Footballers With Most Shirts Sold in 2025 (GiveMeSport, Euromericas data)", "url": "https://www.givemesport.com/footballers-most-shirts-sold-soccer/", "note": "Global player estimate for calendar 2025, led by Lamine Yamal with about 1.32m. The only current Premier League player in the top 10 is Bruno Fernandes (Man Utd), 8th with 878,000. Also reported by World Soccer Talk and SportBible."},
+  {"title": "Lamine Yamal on top... 2025 shirt sales report (World Soccer Talk)", "url": "https://worldsoccertalk.com/news/lamine-yamal-on-top-but-lionel-messi-beats-cristiano-ronaldo-in-2025-shirt-sales-report-robert-lewandowski-kylian-mbappe-vinicius-and-harry-kane-also-included/", "note": "Secondary report of the Euromericas player and club figures for 2025."},
+  {"title": "The Best-selling Shirt for Each Premier League Club This Season (Last Word On Football, 2025-09-24)", "url": "https://lastwordonsports.com/football/2025/09/24/the-best-selling-shirt-for-each-premier-league-club-this-season/", "note": "Names one top seller per club from club web stores early in 2025-26 (for example Salah at Liverpool, Palmer at Chelsea, Haaland at Man City, Son at Tottenham). It is not a cross-club ranking and has no unit counts."},
+  {"title": "Arsenal can't topple Liverpool at London Stansted despite title win (Stansted Airport, June 2026)", "url": "https://mediacentre.stanstedairport.com/arsenal-cant-topple-liverpool-at-london-stansted-despite-title-win/", "note": "Club shirt sales at one JD Sports store in the Stansted terminal, Aug 2025 to May 2026: 1 Liverpool, 2 Arsenal, 3 West Ham, 4 Tottenham, 5 Man Utd, 6 Newcastle, 7 Man City, 8 Chelsea, 9 Aston Villa, 10 Real Madrid. One store is too small a sample for a general ranking."},
+  {"title": "MAG airports shirt sales league 2025/26 (Manchester Airports Group media centre)", "url": "https://mediacentre.magairports.com/the-football-season-is-over-and-all-honours-decided--but-which-team-won-the-shirt-sales-league/", "note": "JD Sports sales at Manchester, Stansted and East Midlands airports. Liverpool topped all three in 2025/26, according to search excerpts. Ranks clubs only, from a small sample."},
+  {"title": "Liverpool Achieve Record-Breaking Sales With 2025-26 Home and Away Jerseys (Sports Illustrated)", "url": "https://www.si.com/soccer/liverpool-record-breaking-sales-2025-26-home-away-jerseys", "note": "Reports Florian Wirtz as Liverpool's top name-and-number print in the launch week. Covers one club over a short period."},
+  {"title": "Premier League teams 2026-27 (NBC)", "url": "https://www.nbcdfw.com/news/sports/soccer/premier-league-teams-2026-27/", "note": "Source for the 2026-27 club list. Promoted: Coventry City, Ipswich Town, Hull City. Relegated: West Ham, Burnley, Wolves. Team colours are standard club colours, not sourced facts."}
+ ]
+}

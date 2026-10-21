@@ -6,7 +6,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { getLeagues, getRankings, getCurrentRanking } from "@/lib/data";
 import { fmtShortDate, period } from "@/lib/format";
 
-export const metadata: Metadata = pageMeta({ title: "Jersey Sales Report Archive", description: "Every jersey sales report on Top Selling Jerseys for the NFL, NBA, MLB, NHL and MLS, current and archived, with publication dates and sales periods.", path: "/rankings/" });
+export const metadata: Metadata = pageMeta({ title: "Jersey Sales Report Archive", description: "Every jersey sales report on Top Selling Jerseys for the NFL, NBA, WNBA, MLB, NHL and MLS, current and archived, with publication dates and sales periods.", path: "/rankings/" });
 
 export default function Archive() {
   return (

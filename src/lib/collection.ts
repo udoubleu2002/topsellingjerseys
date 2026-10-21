@@ -5,7 +5,7 @@ import zlib from "node:zlib";
  * Code format (built by public/my-jerseys.js): "z" + base64url(deflate-raw(text)) or "p" + base64url(text), where
  * text is the owner's name on the first line, then one line per league: "nfl\tJosh Allen\tTom Brady".
  */
-export const COLLECTION_LEAGUES = ["nfl", "nba", "mlb", "nhl", "mls"] as const;
+export const COLLECTION_LEAGUES = ["nfl", "nba", "wnba", "mlb", "nhl", "mls"] as const;
 export type CollectionLeague = (typeof COLLECTION_LEAGUES)[number];
 export type Collection = { name: string; jerseys: Record<CollectionLeague, string[]>; count: number };
 

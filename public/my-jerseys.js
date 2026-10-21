@@ -3,8 +3,8 @@
    share links carry the whole list in the URL (see src/lib/collection.ts for the format). */
 (function () {
   var KEY = "tsj-my-jerseys";
-  var LEAGUES = ["nfl", "nba", "mlb", "nhl", "mls"];
-  var NAMES = { nfl: "NFL", nba: "NBA", mlb: "MLB", nhl: "NHL", mls: "MLS" };
+  var LEAGUES = ["nfl", "nba", "wnba", "mlb", "nhl", "mls"];
+  var NAMES = { nfl: "NFL", nba: "NBA", wnba: "WNBA", mlb: "MLB", nhl: "NHL", mls: "MLS" };
   var BASE = (document.currentScript && document.currentScript.src) || location.href;
   var cache = {};
 
@@ -18,7 +18,15 @@
   function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} badges(); }
 
   function badges() {
-    var n = load().items.length;
+    var items = load().items, n = items.length;
+    // "+ I have this jersey" buttons show whether that player is already in the list.
+    document.querySelectorAll("[data-mj-have]").forEach(function (b) {
+      var owned = items.some(function (i) { return i.l === b.dataset.league && i.n === b.dataset.name; });
+      var label = owned ? "✓ In My Jerseys" : "+ I have this jersey";
+      var t = b.querySelector(".have-text") || b;
+      if (t.textContent !== label) t.textContent = label;
+      if (b.getAttribute("aria-pressed") !== String(owned)) b.setAttribute("aria-pressed", String(owned));
+    });
     document.querySelectorAll("[data-mj-count]").forEach(function (b) {
       var t = n > 99 ? "99+" : String(n);
       // Only touch the DOM on a change, or the MutationObserver below would loop.
@@ -270,4 +278,15 @@
   // Pages change without a full reload on the live site, so re-check when the page content changes.
   new MutationObserver(function () { scan(); }).observe(document.body, { childList: true, subtree: true });
   window.addEventListener("storage", badges);
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest("[data-mj-have]");
+    if (!b) return;
+    var s = load(), l = b.dataset.league, n = b.dataset.name;
+    var at = -1;
+    s.items.forEach(function (i, k) { if (i.l === l && i.n === n) at = k; });
+    if (at > -1) s.items.splice(at, 1); else s.items.push({ l: l, n: n });
+    save(s);
+    document.querySelectorAll("[data-mj-count]").forEach(function (c) { c.classList.remove("bump"); void c.offsetWidth; c.classList.add("bump"); });
+    try { if (window.gtag) window.gtag("event", at > -1 ? "jersey_removed" : "jersey_added", { league: l, player: n, placement: "have_button" }); } catch (err) {}
+  });
 })();

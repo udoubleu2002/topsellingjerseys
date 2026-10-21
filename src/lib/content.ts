@@ -18,6 +18,15 @@ export const leagueCopy: Record<string, { intro: string; meta: string; faq: { q:
       { q: "When is the next NBA jersey list?", a: "The NBA has typically released a midseason list in January and a season-end list in April. This page updates when a new list is published." },
     ],
   },
+  wnba: {
+    intro:
+      "The WNBA has not published a top-selling jersey list since 2021. The newest ranked list comes from Fanatics, the league's main licensed retailer, covering player merchandise in the first half of the 2024 season. Below is that list in its published order, with each player's 2026 regular-season numbers.",
+    meta: "Top Selling WNBA Jerseys from the newest ranked sales list (Fanatics, 2024), in published order, with 2026 stats and links to shop each jersey.",
+    faq: [
+      { q: "Why is the WNBA list from 2024?", a: "It is the newest ranked WNBA sales list we could verify. The league's last official jersey list came out in 2021. We will add a newer list when the WNBA or a major retailer publishes one." },
+      { q: "Is this a jersey-only list?", a: "Not exactly. Fanatics reported top sellers across player merchandise, which includes jerseys and other player items." },
+    ],
+  },
   mlb: {
     intro:
       "Major League Baseball publishes its most popular player jerseys based on Nike MLB jersey sales through MLBShop.com and the Fanatics network. Below is the latest list in its published order, with each player's 2026 regular-season numbers.",

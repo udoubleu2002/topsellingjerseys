@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { site } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
-import { BrandMark, JerseyIcon } from "./Brand";
+import { JerseyIcon } from "./Brand";
 
 export function SiteHeader({ active }: { active?: string }) {
   const leagues = getLeagues();
@@ -9,7 +9,6 @@ export function SiteHeader({ active }: { active?: string }) {
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
-          <BrandMark />
           <span className="brand-name">{site.name}</span>
         </Link>
         <nav className="league-nav" aria-label="Leagues">

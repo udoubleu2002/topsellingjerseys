@@ -37,6 +37,21 @@ export function StaleNotice({ ranking }: { ranking: Ranking }) {
   );
 }
 
+/** The report's caveats, folded behind one small link so they do not crowd the top of the list. */
+export function ReportNotes({ ranking }: { ranking: Ranking }) {
+  const end = ranking.periodEnd ?? ranking.publishedDate;
+  const stale = daysBetween(end, site.lastReviewed) >= 120;
+  const n = ranking.limitations.length + (stale ? 1 : 0);
+  if (!n) return null;
+  return (
+    <details className="report-notes">
+      <summary>About this list ({n} {n === 1 ? "note" : "notes"})</summary>
+      <StaleNotice ranking={ranking} />
+      {ranking.limitations.map((l) => <p className="notice" key={l}>{l}</p>)}
+    </details>
+  );
+}
+
 export function AffiliateNote() {
   return (
     <p className="disclosure">

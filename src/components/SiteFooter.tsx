@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div>
           <h2>{site.name}</h2>
           <p style={{ maxWidth: "46ch" }}>
-            Published jersey sales rankings for the NFL, NBA, MLB, NHL and MLS, with player stats and links to shop. Every ranking
+            Published jersey sales rankings for the NFL, NBA, WNBA, MLB, NHL and MLS, with player stats and links to shop. Every ranking
             comes from an identified report, and each page shows its source and dates.
           </p>
         </div>

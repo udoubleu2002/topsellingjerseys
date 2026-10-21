@@ -618,5 +618,55 @@
       "secondary": "#00788C",
       "accent": "#A1A1A4"
     }
+  },
+  {
+    "id": "indiana-fever",
+    "name": "Indiana Fever",
+    "league": "wnba",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#041E42",
+      "accent": "#FFCD00"
+    }
+  },
+  {
+    "id": "chicago-sky",
+    "name": "Chicago Sky",
+    "league": "wnba",
+    "colors": {
+      "primary": "#418FDE",
+      "secondary": "#FFCD00",
+      "accent": "#B1B3B3"
+    }
+  },
+  {
+    "id": "new-york-liberty",
+    "name": "New York Liberty",
+    "league": "wnba",
+    "colors": {
+      "primary": "#6ECEB2",
+      "secondary": "#000000",
+      "accent": "#FF671F"
+    }
+  },
+  {
+    "id": "las-vegas-aces",
+    "name": "Las Vegas Aces",
+    "league": "wnba",
+    "colors": {
+      "primary": "#010101",
+      "secondary": "#A7A8A9",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "atlanta-dream",
+    "name": "Atlanta Dream",
+    "league": "wnba",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#418FDE",
+      "accent": "#0C2340"
+    }
   }
 ]

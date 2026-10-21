@@ -48,7 +48,7 @@ while (queue.length) {
     if (descs.has(info.desc)) fail(`${path}: duplicate description with ${descs.get(info.desc)}`);
     titles.set(info.title, path); descs.set(info.desc, path);
   }
-  if (path.startsWith("/top-selling-") && !/^Top Selling (NFL|NBA|MLB|NHL|MLS) Jerseys$/.test(info.h1[0])) fail(`${path}: H1 is "${info.h1[0]}"`);
+  if (path.startsWith("/top-selling-") && !/^Top Selling (NFL|NBA|WNBA|MLB|NHL|MLS) Jerseys$/.test(info.h1[0])) fail(`${path}: H1 is "${info.h1[0]}"`);
   for (const l of info.links) {
     if (!l.href.startsWith("/")) continue;
     const clean = l.href.split("#")[0].split("?")[0];
@@ -78,7 +78,7 @@ if ((await fetch(BASE + "/players/not-a-player/")).status !== 404) fail("unknown
 if ((await fetch(BASE + "/out/not-an-offer/", { redirect: "manual" })).status !== 404) fail("unknown offer should 404");
 
 // Responsive: no horizontal overflow on key templates.
-const sample = ["/", "/top-selling-nfl-jerseys/", "/top-selling-mls-jerseys/", "/players/josh-allen/", "/players/lionel-messi/", "/rankings/", "/rankings/nfl/nfl-2026-06-09-nflpa-year-end/", "/methodology/", "/search/?q=lakers"];
+const sample = ["/", "/top-selling-nfl-jerseys/", "/top-selling-mls-jerseys/", "/top-selling-wnba-jerseys/", "/players/caitlin-clark/", "/players/josh-allen/", "/players/lionel-messi/", "/rankings/", "/rankings/nfl/nfl-2026-06-09-nflpa-year-end/", "/methodology/", "/search/?q=lakers"];
 for (const w of [390, 768, 1280]) {
   await page.setViewportSize({ width: w, height: 900 });
   for (const p of sample) {

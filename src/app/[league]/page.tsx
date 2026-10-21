@@ -5,7 +5,7 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RankingCard } from "@/components/RankingCard";
-import { Freshness, SourceLine, StaleNotice, AffiliateNote } from "@/components/RankingHeader";
+import { Freshness, SourceLine, ReportNotes, AffiliateNote } from "@/components/RankingHeader";
 import { Faq } from "@/components/Faq";
 import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
@@ -73,8 +73,7 @@ export default async function LeaguePage({ params }: Props) {
             <>
               <Freshness ranking={ranking} statsThrough={commonStatsThrough(ranking)} />
               <SourceLine ranking={ranking} />
-              <StaleNotice ranking={ranking} />
-              {ranking.limitations.map((l) => <p className="notice" key={l}>{l}</p>)}
+              <ReportNotes ranking={ranking} />
               <AffiliateNote />
             </>
           ) : (

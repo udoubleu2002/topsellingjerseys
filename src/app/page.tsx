@@ -5,12 +5,12 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { LeagueList } from "@/components/LeagueList";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
-import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
+import { getLeagues, getCurrentRanking, getTeamDirectory, getPlayer, getTeam } from "@/lib/data";
 import { teamOffer, outPath } from "@/lib/affiliate";
 import { DealsBar } from "@/components/Deals";
 import { site, abs } from "@/lib/config";
 
-export const metadata: Metadata = pageMeta({ title: "Top Selling Jerseys: NFL, NBA, MLB, NHL & MLS Rankings", description: "The latest official top-selling jersey lists for the NFL, NBA, MLB, NHL and MLS, in published order, with player stats, sources and links to shop each jersey.", path: "/", shareTitle: "Top Selling Jerseys: Updated lists for NFL, NBA, MLB, NHL and MLS", shareText: "See the best-selling jerseys in the NFL, NBA, MLB, NHL and MLS, ranked from the official sales lists, with stats and links to shop." });
+export const metadata: Metadata = pageMeta({ title: "Top Selling Jerseys: NFL, NBA, WNBA, MLB, NHL & MLS Rankings", description: "The latest published top-selling jersey lists for the NFL, NBA, WNBA, MLB, NHL and MLS, in published order, with player stats, sources and links to shop each jersey.", path: "/", shareTitle: "Top Selling Jerseys: Updated lists for NFL, NBA, MLB, NHL and MLS", shareText: "See the best-selling jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, ranked from the published sales lists, with stats and links to shop." });
 
 export default function Home() {
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
@@ -26,17 +26,26 @@ export default function Home() {
     <>
       <SiteHeader />
       <main id="main" data-page-type="home">
-        <section className="hero hero-slim">
+        <section className="hero hero-top">
           <div className="wrap hero-in">
-            <div>
-              <p className="hero-kicker">Latest official sales lists · 5 leagues</p>
-              <h1>Top Selling <em>Jerseys</em></h1>
-              <p>The latest published jersey sales lists for the NFL, NBA, MLB, NHL and MLS, in the order each league reports them.</p>
+            <div className="hero-head">
+              <h1>Top selling jerseys in every league</h1>
+              <p>The No. 1 seller on each league&apos;s latest published list. Tap a league to see its full ranking.</p>
             </div>
-            <nav className="jump" aria-label="Jump to a league">
-              {leagues.map(({ league, ranking }) => (
-                <a key={league.id} href={`#${league.id}`} style={{ "--lg": league.accent } as React.CSSProperties}>{league.name} <span>Top {ranking!.entries.length}</span></a>
-              ))}
+            <nav className="top1" aria-label="No. 1 jersey in each league">
+              {leagues.map(({ league, ranking }) => {
+                const first = ranking!.entries[0];
+                const p = getPlayer(first.playerId)!;
+                const team = getTeam(p.teamId ?? p.lastTeamId);
+                return (
+                  <a key={league.id} href={`#${league.id}`} style={{ "--lg": league.accent } as React.CSSProperties}>
+                    <span className="top1-lg">{league.name} · No. 1</span>
+                    <span className="top1-name">{p.name}</span>
+                    <span className="top1-team">{team?.name ?? p.status}</span>
+                    <span className="top1-more">See top {ranking!.entries.length} →</span>
+                  </a>
+                );
+              })}
             </nav>
           </div>
         </section>
@@ -50,26 +59,26 @@ export default function Home() {
           <div className="section-head">
             <h2 id="teams-h">Shop by team</h2>
           </div>
-          <div className="team-stores">
-            {leagues.map(({ league, ranking }) => {
-              const teams = [...new Map(ranking!.entries.map((e) => getPlayer(e.playerId)!).map((p) => getTeam(p.teamId)).filter((t) => !!t).map((t) => [t!.id, t!])).values()];
-              return (
-                <div className="team-group" key={league.id}>
-                  <h3>{league.name}</h3>
+          <p className="teams-note">Every team in every league. Each link opens that team&apos;s jersey shop at the retailer.</p>
+          <div className="team-dir">
+            {getLeagues().map((league) => {
+              const teams = getTeamDirectory(league.id);
+              return teams.length > 0 && (
+                <details className="team-league" key={league.id} style={{ ["--lg" as string]: league.accent }}>
+                  <summary><span>{league.name}</span><span className="team-count">{teams.length} teams</span></summary>
                   <ul>
                     {teams.map((t) => {
                       const o = teamOffer(t);
                       return o && (
                         <li key={t.id}>
-                          <a href={outPath(o.id)} target="_blank" rel="sponsored nofollow noopener" className="team-chip" data-track="affiliate_click" data-offer={o.id} data-offer-kind="team" data-merchant={o.merchantId} data-league={league.id} data-placement="home_team_stores" data-page="home">
-                            <span className="team-dot" style={{ background: t.colors.primary, borderColor: t.colors.accent }} aria-hidden="true" />
+                          <a href={outPath(o.id)} target="_blank" rel="sponsored nofollow noopener" data-track="affiliate_click" data-offer={o.id} data-offer-kind="team" data-merchant={o.merchantId} data-league={league.id} data-placement="home_team_directory" data-page="home">
                             {t.name}
                           </a>
                         </li>
                       );
                     })}
                   </ul>
-                </div>
+                </details>
               );
             })}
           </div>

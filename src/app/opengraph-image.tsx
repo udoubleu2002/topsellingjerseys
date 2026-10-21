@@ -6,7 +6,7 @@ import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
 
 export const size = ogSize;
 export const contentType = "image/png";
-export const alt = "Top Selling Jerseys: the No. 1 selling jersey in the NFL, NBA, MLB, NHL and MLS";
+export const alt = "Top Selling Jerseys: the No. 1 selling jersey in the NFL, NBA, WNBA, MLB, NHL and MLS";
 
 const font = (f: string) => fs.readFileSync(path.join(process.cwd(), "assets/fonts", f));
 

@@ -7,10 +7,10 @@ import type { League } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
   title: "My Jerseys: Count and Share Your Jersey Collection",
-  description: "Add every jersey you own from the NFL, NBA, MLB, NHL and MLS, see your jersey count by sport, and share your collection with one link.",
+  description: "Add every jersey you own from the NFL, NBA, WNBA, MLB, NHL and MLS, see your jersey count by sport, and share your collection with one link.",
   path: "/my-jerseys/",
   shareTitle: "What's your jersey count?",
-  shareText: "Add every NFL, NBA, MLB, NHL and MLS jersey you own, then share your count with friends.",
+  shareText: "Add every NFL, NBA, WNBA, MLB, NHL and MLS jersey you own, then share your count with friends.",
 });
 
 /** Server-rendered shell; public/my-jerseys.js runs it, so it also works on the static preview. */

@@ -119,7 +119,7 @@ const mjImage = (mj.match(/<meta property="og:image" content="([^"]+)"/) || [])[
 jhtml = jhtml
   .replace(/<title>[^<]*<\/title>/, "<title>What&#x27;s your jersey count? | Top Selling Jerseys</title>")
   .replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*"/g, `$1What&#x27;s your jersey count?"`)
-  .replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*"/g, `$1See this jersey collection, then count and share your own from the NFL, NBA, MLB, NHL and MLS."`)
+  .replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*"/g, `$1See this jersey collection, then count and share your own from the NFL, NBA, WNBA, MLB, NHL and MLS."`)
   .replace(/<meta property="og:image:alt" content="[^"]*"\/>/, "")
   .replace(/(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*"/g, `$1${mjImage}"`)
   .replace(/<meta property="og:url"[^>]*>/, "")
@@ -141,7 +141,7 @@ fs.copyFileSync("public/my-jerseys.js", path.join(OUT, "my-jerseys.js"));
 fs.cpSync("public/player-index", path.join(OUT, "player-index"), { recursive: true });
 write("robots.txt", await (await fetch(BASE + "/robots.txt")).text());
 write("sitemap.xml", await (await fetch(BASE + "/sitemap.xml")).text());
-const leagues = ["nfl", "nba", "mlb", "nhl", "mls"];
+const leagues = ["nfl", "nba", "wnba", "mlb", "nhl", "mls"];
 write("_redirects", [
   ...leagues.flatMap((l) => [`/${l}  /top-selling-${l}-jerseys/  301`, `/${l}/*  /players/:splat  301`]),
   "/j/*  /j/index.html  200",

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { League, Ranking } from "@/lib/schema";
 import { getPlayer, getTeam, getProducts, getStatLine, teamLabel } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
+import { HaveJersey } from "./HaveJersey";
 import { ShopButton } from "./ShopButton";
 import { fmtShortDate, period } from "@/lib/format";
 
@@ -37,6 +38,7 @@ export function LeagueList({ league, ranking }: { league: League; ranking: Ranki
                 <Link className="lrow-name" href={`/players/${p.slug}/`}>{p.name}</Link>
                 <span className="lrow-team">{teamLabel(p)} · {p.position}</span>
                 {stats.length > 0 && <span className="lrow-stats">{stats.map((s) => `${s.value} ${s.label}`).join(" · ")}</span>}
+                <HaveJersey name={p.name} league={league.id} className="have-sm" />
               </span>
               {offer && (
                 <ShopButton offer={offer} variant="small" ctx={{ league: league.id, playerId: p.id, rank: e.rank, placement: "home_list", page: "home" }}>

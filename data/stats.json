@@ -3846,5 +3846,223 @@
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-21",
     "isDemo": false
+  },
+  {
+    "playerId": "caitlin-clark",
+    "league": "wnba",
+    "teamId": "indiana-fever",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "40"
+      },
+      {
+        "label": "PPG",
+        "value": "22.3"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "8.3"
+      },
+      {
+        "label": "SPG",
+        "value": "1.1"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "2.9"
+      },
+      {
+        "label": "FG%",
+        "value": "44.5"
+      },
+      {
+        "label": "FT%",
+        "value": "85.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/caitlin-clark-2026-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "angel-reese",
+    "league": "wnba",
+    "teamId": "atlanta-dream",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "43"
+      },
+      {
+        "label": "PPG",
+        "value": "16.4"
+      },
+      {
+        "label": "RPG",
+        "value": "12.1"
+      },
+      {
+        "label": "APG",
+        "value": "2.8"
+      },
+      {
+        "label": "SPG",
+        "value": "1.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "FG%",
+        "value": "45.1"
+      },
+      {
+        "label": "FT%",
+        "value": "72.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.basketball-reference.com/wnba/players/r/reesean01w.html",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "sabrina-ionescu",
+    "league": "wnba",
+    "teamId": "new-york-liberty",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "31"
+      },
+      {
+        "label": "PPG",
+        "value": "14.6"
+      },
+      {
+        "label": "RPG",
+        "value": "3.8"
+      },
+      {
+        "label": "APG",
+        "value": "4.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "3PG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "38.8"
+      },
+      {
+        "label": "FT%",
+        "value": "89.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/sabrina-ionescu-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "kate-martin",
+    "league": "wnba",
+    "teamId": "chicago-sky",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "19"
+      },
+      {
+        "label": "PPG",
+        "value": "2.6"
+      },
+      {
+        "label": "RPG",
+        "value": "1.0"
+      },
+      {
+        "label": "APG",
+        "value": "0.4"
+      }
+    ],
+    "note": "Combined 2026 line with the Los Angeles Sparks and Chicago Sky. Sources differ on games played (16 to 19).",
+    "source": "https://www.espn.com/wnba/player/gamelog/_/id/4398907/kate-martin",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "aja-wilson",
+    "league": "wnba",
+    "teamId": "las-vegas-aces",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "41"
+      },
+      {
+        "label": "PPG",
+        "value": "26.2"
+      },
+      {
+        "label": "RPG",
+        "value": "9.4"
+      },
+      {
+        "label": "APG",
+        "value": "3.2"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "52.7"
+      },
+      {
+        "label": "FT%",
+        "value": "86.4"
+      }
+    ],
+    "note": null,
+    "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-21",
+    "isDemo": false
   }
 ]

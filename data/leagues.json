@@ -16,6 +16,14 @@
     "slug": "top-selling-nba-jerseys"
   },
   {
+    "id": "wnba",
+    "name": "WNBA",
+    "fullName": "Women's National Basketball Association",
+    "sport": "Basketball",
+    "accent": "#ff7a1a",
+    "slug": "top-selling-wnba-jerseys"
+  },
+  {
     "id": "mlb",
     "name": "MLB",
     "fullName": "Major League Baseball",

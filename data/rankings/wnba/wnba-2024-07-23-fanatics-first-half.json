@@ -1,0 +1,50 @@
+{
+  "id": "wnba-2024-07-23-fanatics-first-half",
+  "series": "wnba-fanatics-season",
+  "title": "WNBA Top-Selling Players, First Half of 2024 (Fanatics)",
+  "publisher": "Fanatics (via Sports Business Journal)",
+  "periodStart": null,
+  "periodEnd": null,
+  "scope": "Player merchandise sales across the Fanatics network during the first half of the 2024 WNBA regular season.",
+  "methodology": "Fanatics sales data reported by Sports Business Journal and republished by Fanatics. Unit counts are not published.",
+  "limitations": [
+    "This is not an official WNBA list. The league has not published a top-selling jersey list since 2021, so this is the newest ranked list from a major licensed retailer.",
+    "The report describes player merchandise in general, not jerseys alone.",
+    "Teams shown are current. At the time of the report, Angel Reese played for the Chicago Sky and Kate Martin for the Las Vegas Aces.",
+    "Publication date is approximate (late July 2024)."
+  ],
+  "league": "wnba",
+  "sourceUrl": "https://www.fanaticsinc.com/news/sbj-wnba-garners-record-sales-across-fanatics-network",
+  "publishedDate": "2024-07-23",
+  "periodLabel": "First half of the 2024 WNBA season on the Fanatics network (the newest ranked WNBA list)",
+  "retrievedDate": "2026-10-21",
+  "lastVerified": "2026-10-21",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "caitlin-clark",
+      "teamIdAtReport": "indiana-fever"
+    },
+    {
+      "rank": 2,
+      "playerId": "angel-reese",
+      "teamIdAtReport": "chicago-sky"
+    },
+    {
+      "rank": 3,
+      "playerId": "sabrina-ionescu",
+      "teamIdAtReport": "new-york-liberty"
+    },
+    {
+      "rank": 4,
+      "playerId": "kate-martin",
+      "teamIdAtReport": "las-vegas-aces"
+    },
+    {
+      "rank": 5,
+      "playerId": "aja-wilson",
+      "teamIdAtReport": "las-vegas-aces"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { getPlayer, getTeam, getStatLine, getProducts, rankMovement, teamLabel a
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { ProductImage } from "./ProductImage";
 import { ShopButton } from "./ShopButton";
+import { HaveJersey } from "./HaveJersey";
 import { PriceTag } from "./PriceTag";
 import { TrustNote } from "./TrustNote";
 import { TeamLink } from "./TeamLink";
@@ -56,6 +57,7 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
           )}
           {products[0] && <PriceTag product={products[0]} />}
           <TrustNote merchant={offer?.merchantName} />
+          <HaveJersey name={player.name} league={ranking.league} />
           <Link className="btn-ghost" href={href}>Player profile</Link>
           {team && player.teamId && <TeamLink team={team} ctx={{ league: ranking.league, playerId: player.id, rank, placement: "ranking_card_team", page }} />}
         </div>

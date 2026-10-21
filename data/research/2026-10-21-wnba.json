@@ -1,0 +1,174 @@
+{
+  "collected": "2026-10-21",
+  "ranking": {
+    "title": "WNBA top-selling players/jerseys, first half of the 2024 season (Fanatics data, via Sports Business Journal)",
+    "publisher": "Fanatics (data) / Sports Business Journal (report, by Xavier Hunter); republished on fanaticsinc.com",
+    "sourceUrl": "https://www.fanaticsinc.com/news/sbj-wnba-garners-record-sales-across-fanatics-network",
+    "corroboratingUrls": [
+      "https://bleacherreport.com/articles/10129333-caitlin-clark-angel-reese-top-wnba-1st-half-merchandise-sales-500-surge-from-2023",
+      "https://www.on3.com/her/news/wnba-merchandise-sales-500-percent-since-start-2024-regular-season-fanatics-caitlin-clark-angel-reese/",
+      "https://www.thescore.com/wnba/news/3042802",
+      "https://www.si.com/fannation/nba/fastbreak/news/top-five-wnba-players-in-merchandise-sales-in-2024-caitlin-clark-angel-reese-kate-martin-aja-wilson-sabrina-ionescu-wnba-news"
+    ],
+    "publishedDate": "2024-07-23",
+    "publishedDateNote": "Date of the Bleacher Report piece carrying the SBJ/Fanatics figures; the fanaticsinc.com repost date could not be read (page fetch blocked).",
+    "period": {
+      "start": null,
+      "end": null,
+      "label": "2024 WNBA regular season through the first half (into the Olympic break), compared with the same period in 2023"
+    },
+    "scope": "Sales across the Fanatics network. Reports describe the top five as top-selling players in player-specific merchandise (such as jerseys and T-shirts); Bleacher Report/theScore describe them as the highest-selling jerseys. Overall WNBA merchandise was up more than 500% year over year, player-specific merchandise about 1,000%, league merchandise about 200%. Top teams: Fever, Sky, Liberty, Aces, Storm.",
+    "officialLeagueList": false,
+    "entries": [
+      {"rank": 1, "player": "Caitlin Clark", "team": "Indiana Fever"},
+      {"rank": 2, "player": "Angel Reese", "team": "Chicago Sky"},
+      {"rank": 3, "player": "Sabrina Ionescu", "team": "New York Liberty"},
+      {"rank": 4, "player": "Kate Martin", "team": "Las Vegas Aces"},
+      {"rank": 5, "player": "A'ja Wilson", "team": "Las Vegas Aces"}
+    ]
+  },
+  "previousRanking": {
+    "title": "Sabrina Ionescu and Seattle Storm lead WNBA jersey and merchandise sales ahead of 2021 WNBA Playoffs presented by Google",
+    "publisher": "WNBA (NBA Communications)",
+    "sourceUrl": "https://pr.nba.com/sabrina-ionescu-and-seattle-storm-lead-wnba-jersey-and-merchandise-sales-ahead-of-2021-wnba-playoffs-presented-by-google",
+    "publishedDate": "2021-09-23",
+    "period": {"start": null, "end": null, "label": "Since the start of the 2021 WNBA regular season"},
+    "scope": "Based on WNBAStore.com sales since the start of the 2021 regular season.",
+    "officialLeagueList": true,
+    "note": "This is the most recent OFFICIAL league-published top-10 jersey list found. No WNBA/WNBPA-published list for 2022-2026 was found. Order taken from search-result reproductions of the release (Yahoo/NBC Sports); release page itself could not be fetched.",
+    "entries": [
+      {"rank": 1, "player": "Sabrina Ionescu", "team": "New York Liberty"},
+      {"rank": 2, "player": "Sue Bird", "team": "Seattle Storm"},
+      {"rank": 3, "player": "Diana Taurasi", "team": "Phoenix Mercury"},
+      {"rank": 4, "player": "A'ja Wilson", "team": "Las Vegas Aces"},
+      {"rank": 5, "player": "Breanna Stewart", "team": "Seattle Storm"},
+      {"rank": 6, "player": "Candace Parker", "team": "Chicago Sky"},
+      {"rank": 7, "player": "Skylar Diggins-Smith", "team": "Phoenix Mercury"},
+      {"rank": 8, "player": "Elena Delle Donne", "team": "Washington Mystics"},
+      {"rank": 9, "player": "Maya Moore", "team": "Minnesota Lynx"},
+      {"rank": 10, "player": "Liz Cambage", "team": "Las Vegas Aces"}
+    ]
+  },
+  "players": [
+    {
+      "name": "Caitlin Clark",
+      "team": "Indiana Fever",
+      "position": "G",
+      "number": 22,
+      "birthday": "2002-01-22",
+      "birthdaySource": "https://krdo.com/news/2025/09/08/caitlin-clark-fast-facts/",
+      "status": "Active",
+      "stats": {
+        "season": "2026",
+        "GP": 40, "PPG": 22.3, "RPG": 4.0, "APG": 8.3, "SPG": 1.1, "BPG": 0.5, "3PG": 2.9,
+        "FG%": 44.5, "FT%": 85.2,
+        "source": "https://www.statmuse.com/wnba/ask/caitlin-clark-2026-season-stats",
+        "altSource": "https://www.basketball-reference.com/wnba/players/c/clarkca02w.html",
+        "throughDate": "2026-09-24"
+      },
+      "highlights": [
+        {"text": "Averaged a career-high 22.3 points per game in 2026 and was named AP Comeback Player of the Year after an injury-shortened 2025.", "source": "https://bleacherreport.com/articles/25503462-caitlin-clark-angel-reese-paige-bueckers-azzi-fudd-aja-wilson-headline-ap-all-wnba-teams"},
+        {"text": "Finished fourth in 2026 Kia WNBA MVP voting.", "source": "https://roundtable.io/sports/wnba/news/aja-wilson-makes-wnba-history-with-fifth-mvp-award"},
+        {"text": "Was named a starter for the 2026 WNBA All-Star Game in Chicago.", "source": "https://www.si.com/wnba/fever/how-to-watch-2026-wnba-all-star-game-fever-big-3-on-display-in-chicago-01kybf5ah7d1"}
+      ],
+      "notes": "Fever lost to Las Vegas in the 2026 playoffs. 3P% 36.1."
+    },
+    {
+      "name": "Angel Reese",
+      "team": "Atlanta Dream",
+      "position": "F",
+      "number": 5,
+      "birthday": "2002-05-06",
+      "birthdaySource": "https://www.fiba.basketball/en/players/255458",
+      "status": "Active",
+      "stats": {
+        "season": "2026",
+        "GP": 43, "PPG": 16.4, "RPG": 12.1, "APG": 2.8, "SPG": 1.8, "BPG": 0.7, "3PG": null,
+        "FG%": 45.1, "FT%": 72.1,
+        "source": "https://www.basketball-reference.com/wnba/players/r/reesean01w.html",
+        "altSource": "https://www.espn.com/wnba/player/gamelog/_/id/4433402/angel-reese",
+        "throughDate": "2026-09-24"
+      },
+      "highlights": [
+        {"text": "Traded from the Chicago Sky to the Atlanta Dream on April 6, 2026, for 2027 and 2028 first-round picks.", "source": "https://wtop.com/sports/2026/04/dream-acquire-2-time-wnba-all-star-angel-reese-from-sky-for-first-round-draft-picks-in-2027-and-2028/"},
+        {"text": "Led the WNBA in rebounding in 2026 at 12.1 per game.", "source": "https://athlonsports.com/wnba/atlanta-dream/atlanta-dream-send-clear-message-after-angel-reese-news"},
+        {"text": "Named 2026 Defensive Player of the Year and to the All-Defensive First Team.", "source": "https://bleacherreport.com/articles/25511810-angel-reese-aja-wilson-breanna-stewart-headline-2026-wnba-all-defensive-teams"}
+      ],
+      "notes": "3PG unverified: 3P% 19.3 on 1.3 attempts/game per Basketball-Reference (implies ~0.25 made/game, not stated). Dream are in the 2026 WNBA Finals vs Golden State (Game 3 scheduled 2026-10-21; series unresolved as of research)."
+    },
+    {
+      "name": "Sabrina Ionescu",
+      "team": "New York Liberty",
+      "position": "G",
+      "number": 20,
+      "birthday": "1997-12-06",
+      "birthdaySource": "https://fiba.basketball/en/players/203518",
+      "status": "Active",
+      "stats": {
+        "season": "2026",
+        "GP": 31, "PPG": 14.6, "RPG": 3.8, "APG": 4.7, "SPG": 0.7, "BPG": null, "3PG": 1.9,
+        "FG%": 38.8, "FT%": 89.6,
+        "source": "https://www.statmuse.com/wnba/ask/sabrina-ionescu-2026-regular-season-stats",
+        "throughDate": "2026-09-24"
+      },
+      "highlights": [
+        {"text": "Missed early-season games in 2026 with a back injury.", "source": "https://www.complex.com/bets/a/matt-burke/sabrina-ionescu-injury-update-return"},
+        {"text": "Scored 27 points in Game 1 of the Liberty's 2026 playoff series against Atlanta.", "source": "https://www.essentiallysports.com/wnba-basketball-news-doesnt-matter-sabrina-ionescu-voices-disappointment-despite-impressive-stats-in-libertys-loss-vs-dream/"}
+      ],
+      "notes": "BPG not found for 2026. GP 31 (of 44) per StatMuse; Fox Sports also lists 31 GP/30 GS. Number 20 is from general knowledge of her Liberty jersey, not re-verified this session. Sources conflict on exact games missed (EssentiallySports: 12)."
+    },
+    {
+      "name": "Kate Martin",
+      "team": "Chicago Sky",
+      "position": "G",
+      "number": 20,
+      "birthday": "2000-06-05",
+      "birthdaySource": "https://en.wikipedia.org/wiki/Kate_Martin",
+      "status": "Active (development contract)",
+      "stats": {
+        "season": "2026",
+        "GP": 19, "PPG": 2.6, "RPG": 1.0, "APG": 0.4, "SPG": null, "BPG": null, "3PG": null,
+        "FG%": null, "FT%": null,
+        "source": "https://www.espn.com/wnba/player/gamelog/_/id/4398907/kate-martin",
+        "altSource": "https://www.wnba.com/player/1642324",
+        "throughDate": "2026-09-24"
+      },
+      "highlights": [
+        {"text": "Waived by the Golden State Valkyries as they set their 2026 opening roster.", "source": "https://sfstandard.com/2026/05/07/kate-martin-valkyries-roster-iliana-rupert/"},
+        {"text": "Signed by the Chicago Sky to a development contract on Sept. 2, 2026, wearing No. 20.", "source": "https://sky.wnba.com/news/chicago-sky-sign-kate-martin-to-development-contract"}
+      ],
+      "notes": "2026 split between Los Angeles Sparks (development roster) and Chicago Sky; combined line. Sources conflict (ChiCitySports 17 GP/2.3 PPG; Fox Sports 16 GP/2.3 PPG). SPG/BPG/3PG/FG%/FT% not found. Contract status after season not verified."
+    },
+    {
+      "name": "A'ja Wilson",
+      "team": "Las Vegas Aces",
+      "position": "F/C",
+      "number": 22,
+      "birthday": "1996-08-08",
+      "birthdaySource": "https://fiba.basketball/en/players/202993",
+      "status": "Active",
+      "stats": {
+        "season": "2026",
+        "GP": 41, "PPG": 26.2, "RPG": 9.4, "APG": 3.2, "SPG": 1.4, "BPG": 1.9, "3PG": null,
+        "FG%": 52.7, "FT%": 86.4,
+        "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player",
+        "altSource": "https://basketball.realgm.com/player/Aja-Wilson/WNBA/3001159",
+        "throughDate": "2026-09-24"
+      },
+      "highlights": [
+        {"text": "Won a record fifth Kia WNBA MVP award in 2026, her third straight.", "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player"},
+        {"text": "Set career highs in 2026 with 38 three-pointers made (40.4%) and 279 free throws made.", "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player"},
+        {"text": "Named to the 2026 WNBA All-Defensive First Team.", "source": "https://bleacherreport.com/articles/25511810-angel-reese-aja-wilson-breanna-stewart-headline-2026-wnba-all-defensive-teams"}
+      ],
+      "notes": "3PG not stated per game; official totals are 38 3PM in 41 GP (derived ~0.9/game). FG%/FT% from RealGM 41-game split (FT 279/323 = 86.4% matches WNBA.com totals). Number 22 and F/C position from general knowledge, not re-verified this session (RealGM lists her as C). Aces lost to Golden State in the 2026 semifinals."
+    }
+  ],
+  "teams": [
+    {"name": "Indiana Fever", "primary": "#C8102E", "secondary": "#041E42", "accent": "#FFCD00", "source": "https://teamcolorcodes.com/indiana-fever-color-codes/"},
+    {"name": "Chicago Sky", "primary": "#418FDE", "secondary": "#FFCD00", "accent": "#B1B3B3", "source": "https://blog.rapidwristbands.com/wnba-fan-colors", "note": "teamcolorcodes.com lists only sky blue #418FDE; yellow and chrome gray from rapidwristbands fan-colors blog."},
+    {"name": "New York Liberty", "primary": "#6ECEB2", "secondary": "#000000", "accent": "#FF671F", "source": "https://teamcolorcodes.com/new-york-liberty-color-codes/", "note": "teamcolorcodes also lists blue #003DA5; rapidwristbands gives seafoam #6ECEB2, black, copper #C07D59 instead. Conflict unresolved."},
+    {"name": "Las Vegas Aces", "primary": "#010101", "secondary": "#A7A8A9", "accent": "#FFFFFF", "source": "https://blog.rapidwristbands.com/wnba-fan-colors", "note": "Team moved to black/silver in 2024 (ESPN). teamcolorcodes lists red, black, gold, silver but hex values not retrieved."},
+    {"name": "Atlanta Dream", "primary": "#C8102E", "secondary": "#418FDE", "accent": "#0C2340", "source": "https://teamcolorcodes.com/atlanta-dreams-color-codes/", "note": "Also lists light blue #CED9E5."}
+  ],
+  "notes": "No official 2026 (or 2025) WNBA/WNBPA/WNBA Store top-selling jersey list was found as of 2026-10-21. The newest ranked list from an approved publisher is the Fanatics first-half 2024 top five (via SBJ, republished by Fanatics Inc.); it is not a league press release and may cover player merchandise broadly rather than jerseys only. The newest official league jersey list found is the 2021 WNBAStore.com top 10 (pr.nba.com, 2021-09-23), included as previousRanking. Other non-official signals: Fanatics/Boardroom cross-league 'since 2024' list puts Clark No. 2 among all basketball jerseys behind Stephen Curry; a May 2026 Telegraph item citing the live Fanatics 'Top Sellers' sort (explicitly not an official league listing) showed Sophie Cunningham, Angel Reese, Azzi Fudd, Flau'jae Johnson, Paige Bueckers as top five; a 2025 Sportsnaut list ranked Clark, Bueckers, Martin, Reese, Wilson, Van Lith... (unofficial). WebFetch/curl were blocked (DNS/proxy 403), so all values come from web-search result text; throughDate 2026-09-24 is the scheduled last regular-season day per the WNBA 2026 schedule release (https://www.wnba.com/news/2026-schedule-release). Team colors are from third-party color sites, not official league brand guides."
+}

@@ -32,6 +32,7 @@ export interface Store {
   merchants: Merchant[];
   products: Product[];
   promotions: Promotion[];
+  directory: Record<string, { id: string; name: string }[]>;
 }
 
 export function loadStore(): Store {
@@ -52,6 +53,7 @@ export function loadStore(): Store {
     merchants: readJson("merchants.json", z.array(MerchantSchema)),
     products: readJson("products.json", z.array(ProductSchema)),
     promotions: fs.existsSync(path.join(DATA_DIR, "promotions.json")) ? readJson("promotions.json", z.array(PromotionSchema)) : [],
+    directory: readJson("team-directory.json", z.object({ leagues: z.record(z.array(z.object({ id: z.string(), name: z.string() }))) })).leagues,
   };
   return cache;
 }
@@ -60,6 +62,22 @@ export const getLeagues = () => loadStore().leagues;
 export const getLeague = (id: string) => getLeagues().find((l) => l.id === id);
 export const getLeagueBySlug = (slug: string) => getLeagues().find((l) => l.slug === slug);
 export const getTeam = (id: string | null | undefined) => (id ? loadStore().teams.find((t) => t.id === id) : undefined);
+
+/** Every team in a league (data/team-directory.json), with full team data where the site has it. */
+export function getTeamDirectory(leagueId: string): { id: string; name: string; league: string; team?: Team }[] {
+  return (loadStore().directory[leagueId] ?? []).map((d) => ({ ...d, league: leagueId, team: getTeam(d.id) }));
+}
+
+/** A team from teams.json, or a name-only team from the directory (enough for a retailer team search). */
+export function getAnyTeam(id: string): Pick<Team, "id" | "name" | "league"> | undefined {
+  const t = getTeam(id);
+  if (t) return t;
+  for (const [league, list] of Object.entries(loadStore().directory)) {
+    const d = list.find((x) => x.id === id);
+    if (d) return { ...d, league };
+  }
+  return undefined;
+}
 export const getPlayers = () => loadStore().players;
 export const getPlayer = (id: string) => getPlayers().find((p) => p.id === id);
 export const getPlayerBySlug = (slug: string) => getPlayers().find((p) => p.slug === slug);

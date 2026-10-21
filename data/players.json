@@ -2981,5 +2981,196 @@
       "https://www.statmuse.com/mlb/ask/yoshinobu-yamamoto-2026-stats"
     ],
     "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "caitlin-clark",
+    "slug": "caitlin-clark",
+    "name": "Caitlin Clark",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "indiana-fever",
+    "lastTeamId": "indiana-fever",
+    "status": "Active",
+    "position": "G",
+    "number": "22",
+    "birthday": "2002-01-22",
+    "birthdaySource": "https://krdo.com/news/2025/09/08/caitlin-clark-fast-facts/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged a career-high 22.3 points per game in 2026 and was named AP Comeback Player of the Year after an injury-shortened 2025",
+        "source": "https://bleacherreport.com/articles/25503462-caitlin-clark-angel-reese-paige-bueckers-azzi-fudd-aja-wilson-headline-ap-all-wnba-teams"
+      },
+      {
+        "text": "Finished fourth in 2026 Kia WNBA MVP voting",
+        "source": "https://roundtable.io/sports/wnba/news/aja-wilson-makes-wnba-history-with-fifth-mvp-award"
+      },
+      {
+        "text": "Was named a starter for the 2026 WNBA All-Star Game in Chicago",
+        "source": "https://www.si.com/wnba/fever/how-to-watch-2026-wnba-all-star-game-fever-big-3-on-display-in-chicago-01kybf5ah7d1"
+      }
+    ],
+    "sources": [
+      "https://krdo.com/news/2025/09/08/caitlin-clark-fast-facts/",
+      "https://bleacherreport.com/articles/25503462-caitlin-clark-angel-reese-paige-bueckers-azzi-fudd-aja-wilson-headline-ap-all-wnba-teams",
+      "https://roundtable.io/sports/wnba/news/aja-wilson-makes-wnba-history-with-fifth-mvp-award",
+      "https://www.si.com/wnba/fever/how-to-watch-2026-wnba-all-star-game-fever-big-3-on-display-in-chicago-01kybf5ah7d1",
+      "https://www.statmuse.com/wnba/ask/caitlin-clark-2026-season-stats"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "angel-reese",
+    "slug": "angel-reese",
+    "name": "Angel Reese",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "atlanta-dream",
+    "lastTeamId": "atlanta-dream",
+    "status": "Active",
+    "position": "F",
+    "number": "5",
+    "birthday": "2002-05-06",
+    "birthdaySource": "https://www.fiba.basketball/en/players/255458",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Traded from the Chicago Sky to the Atlanta Dream on April 6, 2026, for 2027 and 2028 first-round picks",
+        "source": "https://wtop.com/sports/2026/04/dream-acquire-2-time-wnba-all-star-angel-reese-from-sky-for-first-round-draft-picks-in-2027-and-2028/"
+      },
+      {
+        "text": "Led the WNBA in rebounding in 2026 at 12.1 per game",
+        "source": "https://athlonsports.com/wnba/atlanta-dream/atlanta-dream-send-clear-message-after-angel-reese-news"
+      },
+      {
+        "text": "Named 2026 Defensive Player of the Year and to the All-Defensive First Team",
+        "source": "https://bleacherreport.com/articles/25511810-angel-reese-aja-wilson-breanna-stewart-headline-2026-wnba-all-defensive-teams"
+      }
+    ],
+    "sources": [
+      "https://www.fiba.basketball/en/players/255458",
+      "https://wtop.com/sports/2026/04/dream-acquire-2-time-wnba-all-star-angel-reese-from-sky-for-first-round-draft-picks-in-2027-and-2028/",
+      "https://athlonsports.com/wnba/atlanta-dream/atlanta-dream-send-clear-message-after-angel-reese-news",
+      "https://bleacherreport.com/articles/25511810-angel-reese-aja-wilson-breanna-stewart-headline-2026-wnba-all-defensive-teams",
+      "https://www.basketball-reference.com/wnba/players/r/reesean01w.html"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "sabrina-ionescu",
+    "slug": "sabrina-ionescu",
+    "name": "Sabrina Ionescu",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "new-york-liberty",
+    "lastTeamId": "new-york-liberty",
+    "status": "Active",
+    "position": "G",
+    "number": "20",
+    "birthday": "1997-12-06",
+    "birthdaySource": "https://fiba.basketball/en/players/203518",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.6 points, 4.7 assists and 3.8 rebounds in 31 games in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/sabrina-ionescu-2026-regular-season-stats"
+      },
+      {
+        "text": "Missed early-season games in 2026 with a back injury",
+        "source": "https://www.complex.com/bets/a/matt-burke/sabrina-ionescu-injury-update-return"
+      },
+      {
+        "text": "Scored 27 points in Game 1 of the Liberty's 2026 playoff series against Atlanta",
+        "source": "https://www.essentiallysports.com/wnba-basketball-news-doesnt-matter-sabrina-ionescu-voices-disappointment-despite-impressive-stats-in-libertys-loss-vs-dream/"
+      }
+    ],
+    "sources": [
+      "https://fiba.basketball/en/players/203518",
+      "https://www.complex.com/bets/a/matt-burke/sabrina-ionescu-injury-update-return",
+      "https://www.essentiallysports.com/wnba-basketball-news-doesnt-matter-sabrina-ionescu-voices-disappointment-despite-impressive-stats-in-libertys-loss-vs-dream/",
+      "https://www.statmuse.com/wnba/ask/sabrina-ionescu-2026-regular-season-stats"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "kate-martin",
+    "slug": "kate-martin",
+    "name": "Kate Martin",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "chicago-sky",
+    "lastTeamId": "chicago-sky",
+    "status": "Active",
+    "position": "G",
+    "number": "20",
+    "birthday": "2000-06-05",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Kate_Martin",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Waived by the Golden State Valkyries as they set their 2026 opening roster",
+        "source": "https://sfstandard.com/2026/05/07/kate-martin-valkyries-roster-iliana-rupert/"
+      },
+      {
+        "text": "Signed by the Chicago Sky to a development contract on Sept. 2, 2026, wearing No. 20",
+        "source": "https://sky.wnba.com/news/chicago-sky-sign-kate-martin-to-development-contract"
+      },
+      {
+        "text": "Ranked No. 4 in WNBA player merchandise sales on Fanatics in the first half of her 2024 rookie season",
+        "source": "https://www.fanaticsinc.com/news/sbj-wnba-garners-record-sales-across-fanatics-network"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kate_Martin",
+      "https://sfstandard.com/2026/05/07/kate-martin-valkyries-roster-iliana-rupert/",
+      "https://sky.wnba.com/news/chicago-sky-sign-kate-martin-to-development-contract",
+      "https://www.espn.com/wnba/player/gamelog/_/id/4398907/kate-martin"
+    ],
+    "lastVerified": "2026-10-21"
+  },
+  {
+    "id": "aja-wilson",
+    "slug": "aja-wilson",
+    "name": "A'ja Wilson",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "las-vegas-aces",
+    "lastTeamId": "las-vegas-aces",
+    "status": "Active",
+    "position": "F/C",
+    "number": "22",
+    "birthday": "1996-08-08",
+    "birthdaySource": "https://fiba.basketball/en/players/202993",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won a record fifth Kia WNBA MVP award in 2026, her third straight",
+        "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player"
+      },
+      {
+        "text": "Set career highs in 2026 with 38 three-pointers made (40.4%) and 279 free throws made",
+        "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player"
+      },
+      {
+        "text": "Named to the 2026 WNBA All-Defensive First Team",
+        "source": "https://bleacherreport.com/articles/25511810-angel-reese-aja-wilson-breanna-stewart-headline-2026-wnba-all-defensive-teams"
+      }
+    ],
+    "sources": [
+      "https://fiba.basketball/en/players/202993",
+      "https://wnba.com/news/wilson-named-2026-most-valuable-player",
+      "https://bleacherreport.com/articles/25511810-angel-reese-aja-wilson-breanna-stewart-headline-2026-wnba-all-defensive-teams"
+    ],
+    "lastVerified": "2026-10-21"
   }
 ]

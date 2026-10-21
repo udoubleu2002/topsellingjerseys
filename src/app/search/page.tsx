@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SearchClient, type SearchItem } from "@/components/SearchClient";
 import { getPlayers, getLeague, getAppearances, loadStore, teamPlayers, teamLabel } from "@/lib/data";
 
-export const metadata: Metadata = pageMeta({ title: "Search Players and Teams", description: "Search every ranked player and team across the NFL, NBA, MLB, NHL and MLS top-selling jersey lists, and jump to their profiles and shop links.", path: "/search/", noindex: true });
+export const metadata: Metadata = pageMeta({ title: "Search Players and Teams", description: "Search every ranked player and team across the NFL, NBA, WNBA, MLB, NHL and MLS top-selling jersey lists, and jump to their profiles and shop links.", path: "/search/", noindex: true });
 
 export default function SearchPage() {
   const items: SearchItem[] = getPlayers().map((p) => {
