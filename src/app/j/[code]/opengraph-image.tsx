@@ -3,14 +3,14 @@ import path from "node:path";
 import { ImageResponse } from "next/og";
 import { ogSize } from "@/lib/og";
 import { getLeague } from "@/lib/data";
-import { decodeCollection, countHeadline, grouped, COLLECTION_LEAGUES, type CollectionLeague } from "@/lib/collection";
+import { decodeCollection, grouped, COLLECTION_LEAGUES, type CollectionLeague } from "@/lib/collection";
 
 export const size = ogSize;
 export const contentType = "image/png";
 export const alt = "A jersey collection from Top Selling Jerseys";
 
 const font = (f: string) => fs.readFileSync(path.join(process.cwd(), "assets/fonts", f));
-const ROWS = 9;
+const ROWS = 8;
 
 /** Link-preview card for a shared collection: the count, then every jersey by sport (overflow becomes "+N more"). */
 export default async function Image({ params }: { params: Promise<{ code: string }> }) {
@@ -25,21 +25,23 @@ export default async function Image({ params }: { params: Promise<{ code: string
     if (!next || need(next) <= 0) break;
     alloc[next]++;
   }
-  const head = c ? countHeadline(c).replace(/: \d+$/, ":") : "What's your jersey count?";
+  const who = c?.name || "This collection";
   return new ImageResponse(
     (
       <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: "#0b0f18", color: "#f4f6fa", position: "relative", fontFamily: "Barlow", padding: "44px 56px 40px" }}>
         <div style={{ position: "absolute", inset: 0, display: "flex", backgroundImage: "repeating-linear-gradient(115deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 3px, transparent 3px, transparent 20px)" }} />
         <div style={{ position: "absolute", right: -200, top: -260, width: 700, height: 700, display: "flex", borderRadius: 700, backgroundImage: "radial-gradient(circle, rgba(232,68,44,0.32), rgba(232,68,44,0) 65%)" }} />
-        <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 24, letterSpacing: 3, textTransform: "uppercase", color: "#c5ccd9" }}>
-          <svg width="38" height="38" viewBox="0 0 64 64"><path d="M23 9 13 13 4 23l8 9 5-4v28h30V28l5 4 8-9-9-10-10-4c-1.6 4.6-4.9 7-9 7s-7.4-2.4-9-7z" fill="#e8442c" /></svg>
-          Top Selling Jerseys
+        {/* "Joe has 16 jerseys", then the list, then the question that invites the reader to count theirs. */}
+        <div style={{ display: "flex", alignItems: "baseline", textTransform: "uppercase", lineHeight: 1 }}>
+          {c ? (
+            <>
+              <span style={{ fontSize: who.length > 16 ? 60 : 72 }}>{who} has</span>
+              <span style={{ fontFamily: "BarlowItalic", fontSize: 104, color: "#f3b940", margin: "0 18px" }}>{c.count}</span>
+              <span style={{ fontSize: who.length > 16 ? 60 : 72 }}>{c.count === 1 ? "jersey" : "jerseys"}</span>
+            </>
+          ) : <span style={{ fontSize: 76 }}>What&apos;s your jersey count?</span>}
         </div>
-        <div style={{ display: "flex", alignItems: "baseline", marginTop: 14, textTransform: "uppercase", lineHeight: 1 }}>
-          <span style={{ fontSize: head.length > 26 ? 64 : 76 }}>{head}</span>
-          {c && <span style={{ fontFamily: "BarlowItalic", fontSize: 112, color: "#f3b940", marginLeft: 22 }}>{c.count}</span>}
-        </div>
-        <div style={{ display: "flex", gap: 18, marginTop: 26, flex: 1 }}>
+        <div style={{ display: "flex", gap: 18, marginTop: 20, flex: 1, minHeight: 0 }}>
           {c ? leagues.map((l) => {
             const names = grouped(c.jerseys[l]);
             const cap = ROWS * alloc[l];
@@ -69,6 +71,15 @@ export default async function Image({ params }: { params: Promise<{ code: string
             );
           }) : <div style={{ display: "flex", fontFamily: "Public", fontSize: 32, color: "#c5ccd9" }}>Add every jersey you own and share your count.</div>}
         </div>
+        {c && (
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 18 }}>
+            <div style={{ display: "flex", fontSize: 46, textTransform: "uppercase", color: "#f4f6fa" }}><span>What&apos;s</span><span style={{ color: "#e8442c", margin: "0 12px" }}>your</span><span>jersey count?</span></div>
+            <span style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 22, letterSpacing: 3, textTransform: "uppercase", color: "#8d99b0" }}>
+              <svg width="30" height="30" viewBox="0 0 64 64"><path d="M23 9 13 13 4 23l8 9 5-4v28h30V28l5 4 8-9-9-10-10-4c-1.6 4.6-4.9 7-9 7s-7.4-2.4-9-7z" fill="#e8442c" /></svg>
+              Top Selling Jerseys
+            </span>
+          </div>
+        )}
       </div>
     ),
     {

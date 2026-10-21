@@ -25,10 +25,7 @@ export default function Image() {
         <div style={{ position: "absolute", inset: 0, display: "flex", backgroundImage: "repeating-linear-gradient(115deg, rgba(255,255,255,0.035) 0px, rgba(255,255,255,0.035) 3px, transparent 3px, transparent 20px)" }} />
         <div style={{ position: "absolute", left: -220, bottom: -260, width: 760, height: 760, display: "flex", borderRadius: 760, backgroundImage: "radial-gradient(circle, rgba(232,68,44,0.38), rgba(232,68,44,0) 65%)" }} />
         <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 14, display: "flex", background: "#e8442c" }} />
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "58px 40px 58px 72px", width: 560, position: "relative" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-            <div style={{ fontSize: 28, letterSpacing: 2, textTransform: "uppercase", display: "flex" }}>Top Selling Jerseys</div>
-          </div>
+        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: "58px 40px 58px 72px", width: 560, position: "relative" }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 28, letterSpacing: 4, color: "#f3b940", textTransform: "uppercase", display: "flex" }}>Latest sales lists</div>
             <div style={{ fontSize: 112, lineHeight: 0.9, textTransform: "uppercase", marginTop: 10, display: "flex", flexDirection: "column" }}>

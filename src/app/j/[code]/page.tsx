@@ -5,7 +5,7 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { JerseyIcon } from "@/components/Brand";
 import { getLeague } from "@/lib/data";
-import { decodeCollection, countHeadline, grouped, COLLECTION_LEAGUES } from "@/lib/collection";
+import { decodeCollection, hasHeadline, grouped, COLLECTION_LEAGUES } from "@/lib/collection";
 
 export const dynamic = "force-dynamic";
 
@@ -16,11 +16,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = decodeCollection(code);
   if (!c) return { title: "Jersey list not found", robots: { index: false } };
   const lines = COLLECTION_LEAGUES.filter((l) => c.jerseys[l].length).map((l) => `${getLeague(l)?.name ?? l.toUpperCase()}: ${grouped(c.jerseys[l]).join(", ")}`);
-  const meta = pageMeta({ title: countHeadline(c), description: lines.join(" · "), path: `/j/${code}/`, noindex: true });
+  const title = hasHeadline(c);
+  const meta = pageMeta({ title, description: `${lines.join(" · ")}. What's your jersey count?`, path: `/j/${code}/`, noindex: true });
   // The shared card is generated per collection by ./opengraph-image.tsx, in place of the site-wide default image.
-  const image = { url: `/j/${code}/opengraph-image/`, width: 1200, height: 630, alt: countHeadline(c) };
+  const image = { url: `/j/${code}/opengraph-image/`, width: 1200, height: 630, alt: title };
   // Link previews get every jersey, not the search-length snippet.
-  const full = lines.join(" · ").slice(0, 1000);
+  const full = `${lines.join(" · ").slice(0, 950)}. What's your jersey count?`;
   return { ...meta, openGraph: { ...meta.openGraph, description: full, images: [image] }, twitter: { ...meta.twitter, description: full, images: [image.url] } };
 }
 
@@ -35,7 +36,7 @@ export default async function SharedJerseys({ params }: Props) {
         <section className="mj-hero">
           <div className="wrap">
             <p className="kicker">Jersey collection</p>
-            <h1>{countHeadline(c).replace(/: \d+$/, ":")} <em>{c.count}</em></h1>
+            <h1>{c.name || "This collection"} has <em>{c.count}</em> {c.count === 1 ? "jersey" : "jerseys"}</h1>
           </div>
         </section>
         <div className="wrap mj-shared">

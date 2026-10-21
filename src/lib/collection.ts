@@ -41,6 +41,11 @@ export function countHeadline(c: Collection) {
   return `${who} jersey count is: ${c.count}`;
 }
 
+/** Shared-list headline: "Joe has 16 jerseys", or "This collection has 16 jerseys" when no name was given. */
+export function hasHeadline(c: Collection) {
+  return `${c.name || "This collection"} has ${c.count} ${c.count === 1 ? "jersey" : "jerseys"}`;
+}
+
 /** Groups repeats as "Josh Allen ×2" so a list of owned jerseys stays short. */
 export function grouped(names: string[]) {
   const m = new Map<string, number>();

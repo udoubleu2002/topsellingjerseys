@@ -48,6 +48,10 @@
     var who = name ? name + (/s$/i.test(name) ? "'" : "'s") : "Your";
     return who + " jersey count is: " + n;
   }
+  // Shared-list wording: "Joe has 16 jerseys" (matches src/lib/collection.ts hasHeadline).
+  function hasHeadline(name, n) {
+    return (name || "This collection") + " has " + n + (n === 1 ? " jersey" : " jerseys");
+  }
 
   // Share code: "z" + base64url(deflate-raw(text)) when the browser can compress, else "p" + base64url(text).
   function b64url(bytes) {
@@ -143,7 +147,7 @@
       });
       encode(state).then(function (code) {
         shareUrl = site + "/j/" + code + "/";
-        var msg = headline(state.name, state.items.length) + ". See them all: " + shareUrl;
+        var msg = hasHeadline(state.name, state.items.length) + ". What's your jersey count? " + shareUrl;
         textLink.href = "sms:?&body=" + encodeURIComponent(msg);
       });
     }
@@ -262,8 +266,8 @@
     nameIn.addEventListener("input", function () { state.name = nameIn.value.trim().slice(0, 24); save(state); render(); });
     app.querySelector("#mj-share-btn").addEventListener("click", function () {
       if (!shareUrl) return;
-      var title = headline(state.name, state.items.length);
-      if (navigator.share) navigator.share({ title: title, text: title, url: shareUrl }).catch(function () {});
+      var title = hasHeadline(state.name, state.items.length);
+      if (navigator.share) navigator.share({ title: title, text: title + ". What's your jersey count?", url: shareUrl }).catch(function () {});
       else copy();
     });
     function copy() {
@@ -319,9 +323,10 @@
         groups.appendChild(sec);
       });
       if (!total) throw new Error("empty");
-      var head = headline(name, total).replace(/^Your /, "My ");
-      h1.textContent = head.replace(/: \d+$/, ": ");
+      var head = hasHeadline(name, total);
+      h1.textContent = (name || "This collection") + " has ";
       h1.appendChild(el("em", null, String(total)));
+      h1.appendChild(document.createTextNode(total === 1 ? " jersey" : " jerseys"));
       document.title = head + " | Top Selling Jerseys";
     }).catch(function () {
       groups.innerHTML = "";
