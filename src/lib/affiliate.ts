@@ -12,10 +12,20 @@ export interface Offer {
   product?: Product;
 }
 
-/** Appends approved affiliate parameters from the environment. Never invents parameters. */
+/** The retailer every Shop button uses unless a product listing names another. */
+export const DEFAULT_MERCHANT = "lids";
+
+/**
+ * Applies approved affiliate tracking from the environment. Never invents parameters.
+ * AFFILIATE_DEEPLINK_<ID> is a network tracking link containing {url} (e.g. an Impact link ending ?u={url});
+ * otherwise the merchant's affiliateEnv holds plain query parameters to append.
+ */
 export function withAffiliate(rawUrl: string, merchantId: string): string {
   const merchant = getMerchant(merchantId);
-  const params = merchant ? process.env[merchant.affiliateEnv] : undefined;
+  if (!merchant) return rawUrl;
+  const deep = process.env[`AFFILIATE_DEEPLINK_${merchant.id.toUpperCase()}`];
+  if (deep && deep.includes("{url}")) return deep.replace("{url}", encodeURIComponent(rawUrl));
+  const params = process.env[merchant.affiliateEnv];
   if (!params) return rawUrl;
   const u = new URL(rawUrl);
   new URLSearchParams(params).forEach((v, k) => u.searchParams.set(k, v));
@@ -23,7 +33,7 @@ export function withAffiliate(rawUrl: string, merchantId: string): string {
 }
 
 /** A retailer search for the player's jerseys, used when no verified product listing exists. */
-export function searchOffer(player: Player, team: Team | undefined, merchantId = "fanatics"): Offer | null {
+export function searchOffer(player: Player, team: Team | undefined, merchantId = DEFAULT_MERCHANT): Offer | null {
   const merchant = getMerchant(merchantId);
   if (!merchant) return null;
   const q = [player.name, team?.name, "jersey"].filter(Boolean).join(" ");
@@ -53,7 +63,7 @@ export function productOffer(p: Product): Offer | null {
 }
 
 /** A retailer search for a team's jerseys and gear. */
-export function teamOffer(team: Pick<Team, "id" | "name">, merchantId = "fanatics"): Offer | null {
+export function teamOffer(team: Pick<Team, "id" | "name">, merchantId = DEFAULT_MERCHANT): Offer | null {
   const merchant = getMerchant(merchantId);
   if (!merchant) return null;
   const raw = merchant.searchUrlTemplate.replace("{query}", encodeURIComponent(`${team.name} jerseys`).replace(/%20/g, "+"));

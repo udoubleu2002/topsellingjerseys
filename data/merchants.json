@@ -1,10 +1,18 @@
 [
   {
+    "id": "lids",
+    "name": "Lids",
+    "homepage": "https://www.lids.com/",
+    "searchUrlTemplate": "https://www.lids.com/?query={query}",
+    "affiliateEnv": "AFFILIATE_PARAMS_LIDS",
+    "notes": "Primary shop link. Affiliate program via Impact. Put the approved tracking link template (with {url}) in AFFILIATE_DEEPLINK_LIDS, or plain tracking parameters in AFFILIATE_PARAMS_LIDS."
+  },
+  {
     "id": "fanatics",
     "name": "Fanatics",
     "homepage": "https://www.fanatics.com/",
     "searchUrlTemplate": "https://www.fanatics.com/?query={query}",
     "affiliateEnv": "AFFILIATE_PARAMS_FANATICS",
-    "notes": "Official retail partner of all five leagues. Affiliate program via Impact; add approved tracking parameters in the environment."
+    "notes": "Kept so older /out/search-fanatics-... links still resolve. Not the default shop."
   }
 ]

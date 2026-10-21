@@ -743,7 +743,8 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
   .lrow .have-row .have-btn { padding: 0 10px; min-height: 30px; font-size: 12px; white-space: nowrap; }
   .lrow .have-text { display: none; }
   .lrow .have-short { display: inline; }
-  .lrow > .btn-shop { grid-area: shop; justify-self: end; align-self: center; margin-top: 6px; min-height: 30px; padding-block: 0; display: inline-flex; align-items: center; }
+  .lrow > .btn-shop { grid-area: shop; justify-self: end; align-self: center; margin-top: 6px; height: 30px; min-height: 30px; padding: 0 12px; gap: 5px; border-radius: 999px; font-size: 13px; letter-spacing: .06em; box-shadow: none; display: inline-flex; align-items: center; }
+  .lrow > .btn-shop .cta-icon { width: 12px; height: 12px; }
 }
 
 /* Account card on My Jerseys. */

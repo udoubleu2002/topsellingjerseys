@@ -71,13 +71,21 @@ describe("affiliate links", () => {
     expect(u.searchParams.get("id")).toBe("123");
     expect(u.searchParams.get("query")).toBe("x");
   });
+  it("wraps the destination in a configured tracking link", () => {
+    process.env.AFFILIATE_DEEPLINK_LIDS = "https://track.example/c/1/2/3?u={url}";
+    try {
+      expect(withAffiliate("https://www.lids.com/?query=a+b", "lids")).toBe("https://track.example/c/1/2/3?u=" + encodeURIComponent("https://www.lids.com/?query=a+b"));
+    } finally { delete process.env.AFFILIATE_DEEPLINK_LIDS; }
+  });
   it("builds a labeled search offer and resolves it by id", () => {
     const p = getPlayer("josh-allen")!;
     const o = searchOffer(p, undefined)!;
     expect(o.kind).toBe("search");
     expect(o.label).toMatch(/^Search Josh Allen jerseys/);
-    expect(resolveOffer(o.id)?.href).toContain("fanatics.com");
-    expect(resolveOffer("search-fanatics-nobody")).toBeNull();
+    expect(o.merchantName).toBe("Lids");
+    expect(resolveOffer(o.id)?.href).toContain("lids.com");
+    expect(resolveOffer(`search-fanatics-${p.id}`)?.href).toContain("fanatics.com");
+    expect(resolveOffer("search-lids-nobody")).toBeNull();
     expect(resolveOffer("../../etc")).toBeNull();
   });
 });

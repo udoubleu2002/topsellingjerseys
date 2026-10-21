@@ -46,7 +46,7 @@ Edit `stats.json` (or write a research file and run `apply_research.py`). Always
 ## Affiliate links (needs your accounts)
 
 - Every shopping button points to `/out/<offerId>/`, a server route that 302-redirects to the retailer. Destinations and tracking can change without a rebuild, the route is `noindex`, blocked in robots.txt, and links carry `rel="sponsored nofollow noopener"`.
-- Affiliate parameters live **only** in server environment variables, never in the repo or in page HTML. For Fanatics, set `AFFILIATE_PARAMS_FANATICS` to the query string your network issues (for example the parameters from your Impact or CJ tracking link). Until it is set, links go to the retailer with no tracking.
+- Affiliate parameters live **only** in server environment variables, never in the repo or in page HTML. Shop buttons go to Lids. Set `AFFILIATE_DEEPLINK_LIDS` to your Impact tracking link with the destination replaced by `{url}`, or `AFFILIATE_PARAMS_LIDS` to plain tracking parameters. Older Fanatics links still resolve and use `AFFILIATE_PARAMS_FANATICS`. Until it is set, links go to the retailer with no tracking.
 - If your network requires a per-product tracking URL, put it in that product's `affiliateUrl`.
 - Without verified products, each player gets a clearly labeled Fanatics **search** for their jerseys. To show real products, add entries to `products.json` with the URL, image (with source), price/currency (or `null`), availability and `lastVerified`. Price and stock are displayed only when present. Run `npm run check:links -- --write` regularly to flag dead listings (flagged products are hidden).
 - To add another retailer, add it to `merchants.json` with its own env var name.
