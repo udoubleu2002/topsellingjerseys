@@ -559,8 +559,9 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
   .mj-add-plus { grid-row: 1 / span 2; grid-column: 2; }
 }
 @media (max-width: 480px) {
-  /* Brand wraps to two lines and My Jerseys shows as a jersey button, so the header fits a 360px phone. */
-  .brand-name { font-size: 18px; line-height: .95; max-width: 7em; }
+  /* Brand stays on one line (scaled to the screen) and My Jerseys shows as a jersey button, so the header fits a 360px phone. */
+  .brand { min-height: 44px; }
+  .brand-name { font-size: clamp(16px, 5.3vw, 22px); line-height: 1; letter-spacing: .01em; white-space: nowrap; max-width: none; }
   .mj-link { padding: 0 10px; gap: 6px; }
   .mj-link .jersey-icon { width: 22px; height: 22px; }
   .mj-link-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -744,3 +745,32 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
   .lrow .have-short { display: inline; }
   .lrow > .btn-shop { grid-area: shop; justify-self: end; align-self: center; margin-top: 6px; min-height: 30px; padding-block: 0; display: inline-flex; align-items: center; }
 }
+
+/* Account card on My Jerseys. */
+.mj-account { margin-top: 16px; display: grid; gap: 10px; }
+.mj-account-h { font: 800 22px/1.05 var(--f-head); text-transform: uppercase; }
+.mj-account .mj-note { margin: 0; }
+.mj-pitch { margin: 0; color: var(--ink); font-size: 15px; line-height: 1.45; }
+.mj-auth-tabs { display: flex; gap: 6px; margin: 4px 0 2px; }
+.mj-auth-tab { flex: 1; min-height: 38px; border: 1px solid var(--line-2); border-radius: 8px; background: transparent; color: var(--ink-2); font: 700 14px/1 inherit; cursor: pointer; }
+.mj-auth-tab[aria-selected="true"] { border-color: var(--gold); color: var(--gold); background: rgba(243, 185, 64, .1); }
+.mj-auth-form { display: grid; gap: 10px; }
+.mj-auth-form .btn-shop { justify-content: center; }
+.mj-fine { margin: 0; color: var(--muted); font-size: 12.5px; }
+
+/* Footer newsletter: one quiet line. */
+.foot-news { padding-block: 18px; border-top: 1px solid var(--line); }
+.nl-form { display: grid; gap: 8px; max-width: 640px; }
+.nl-form label { color: var(--ink-2); font-size: 14px; }
+.nl-form label strong { color: var(--ink); }
+.nl-row { display: flex; gap: 8px; }
+.nl-row input { flex: 1; min-width: 0; min-height: 40px; padding: 0 12px; border: 1px solid var(--line-2); border-radius: 6px; background: var(--surface); color: var(--ink); font: inherit; }
+.nl-row button { min-height: 40px; padding: 0 16px; border: 0; border-radius: 6px; background: var(--accent); color: #fff; font: 700 14px/1 inherit; cursor: pointer; }
+.nl-row button:disabled { opacity: .6; }
+.nl-status { margin: 0; font-size: 13px; color: var(--gold); min-height: 1em; }
+.nl-status:empty { display: none; }
+/* Account card sits right under the jersey count so the save prompt is seen early; the wishlist follows. */
+.mj-collection { display: flex; flex-direction: column; }
+.mj-collection > .mj-card:first-child { order: 1; }
+.mj-collection > .mj-account { order: 2; }
+.mj-collection > .mj-wish-card { order: 3; }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site } from "@/lib/config";
+import { site, backend, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
 import { JerseyIcon } from "./Brand";
 
@@ -39,10 +39,11 @@ export function SiteHeader({ active }: { active?: string }) {
               <input id="q-mobile" name="q" type="search" placeholder="Search players or teams" />
               <button type="submit">Search</button>
             </form>
+            {backendEnabled && <a href="#newsletter">Newsletter</a>}
           </nav>
         </details>
       </div>
-      <script src="/my-jerseys.js" defer data-keep />
+      <script src="/my-jerseys.js" defer data-keep {...(backendEnabled ? { "data-sb-url": backend.url, "data-sb-key": backend.anonKey } : {})} />
     </header>
   );
 }

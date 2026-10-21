@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site } from "@/lib/config";
+import { site, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
 
 export function SiteFooter() {
@@ -38,6 +38,18 @@ export function SiteFooter() {
           </ul>
         </div>
       </div>
+      {backendEnabled && (
+        <div className="wrap foot-news" id="newsletter">
+          <form className="nl-form" data-newsletter="" noValidate>
+            <label htmlFor="nl-email"><strong>Get the {site.name} newsletter.</strong> New sales lists and jersey news by email. Unsubscribe anytime.</label>
+            <div className="nl-row">
+              <input id="nl-email" name="email" type="email" required placeholder="you@example.com" autoComplete="email" maxLength={254} />
+              <button type="submit">Sign up</button>
+            </div>
+            <p className="nl-status" aria-live="polite" />
+          </form>
+        </div>
+      )}
       <div className="wrap foot-legal">
         <p>
           {site.name} is independent and is not affiliated with or endorsed by any league, team, players association or player.

@@ -92,4 +92,5 @@ fs.copyFileSync("public/icon.svg", path.join(OUT, "icon.svg"));
 // My Jerseys runs on plain JavaScript, so its script and player lists ship with the preview.
 fs.copyFileSync("public/my-jerseys.js", path.join(OUT, "my-jerseys.js"));
 fs.cpSync("public/player-index", path.join(OUT, "player-index"), { recursive: true });
+fs.cpSync("public/vendor", path.join(OUT, "vendor"), { recursive: true });
 console.log(`Exported ${count} pages to ${OUT}/ (${outCache.size} shopping links resolved)`);

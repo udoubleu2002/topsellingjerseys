@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
-import { site } from "@/lib/config";
+import { site, backendEnabled } from "@/lib/config";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getLeagues } from "@/lib/data";
 import type { League } from "@/lib/schema";
@@ -28,7 +28,7 @@ export default function MyJerseysPage() {
           </div>
         </section>
         {/* The builder's markup is handed to React as HTML so public/my-jerseys.js can change it without hydration errors. */}
-        <div className="wrap mj-app" id="mj-app" data-site={site.url} dangerouslySetInnerHTML={{ __html: appHtml(leagues) }} />
+        <div className="wrap mj-app" id="mj-app" data-site={site.url} dangerouslySetInnerHTML={{ __html: appHtml(leagues, backendEnabled) }} />
       </main>
     </>
   );
@@ -36,7 +36,7 @@ export default function MyJerseysPage() {
 
 const JERSEY_PATH = "M23 9 13 13 4 23l8 9 5-4v28h30V28l5 4 8-9-9-10-10-4c-1.6 4.6-4.9 7-9 7s-7.4-2.4-9-7z";
 
-function appHtml(leagues: League[]) {
+function appHtml(leagues: League[], accounts: boolean) {
   const tabs = leagues
     .map((l, i) => `<button type="button" role="tab" class="mj-tab" data-league="${l.id}" aria-selected="${i === 0}" style="--lg:${l.accent}">${l.name}</button>`)
     .join("");
@@ -64,6 +64,24 @@ function appHtml(leagues: League[]) {
     <div class="mj-card-head"><span class="mj-wish-icon" aria-hidden="true">★</span><h2 id="mj-wish-count">My wishlist: 0</h2></div>
     <div id="mj-wish" class="mj-groups"><p class="mj-empty">Nothing on your wishlist yet.</p></div>
   </div>
-  <p class="mj-note">Your list is saved in this browser only. Share links carry the list itself, so nothing is stored on our servers.</p>
+  <div class="mj-card mj-account" id="mj-account">
+    <h2 class="mj-account-h">Save your list for good</h2>
+    <p class="mj-note" id="mj-save-note">Your list is saved in this browser only. Share links carry the list itself, so nothing is stored on our servers. If you clear your browser or switch phones, the list is gone.</p>
+    ${accounts ? `<div id="mj-auth" hidden>
+      <p class="mj-pitch">Create a free account with a username and password to save your jerseys and wishlist permanently. Then open them on any phone or computer.</p>
+      <div class="mj-auth-tabs" role="tablist"><button type="button" role="tab" class="mj-auth-tab" data-mode="signup" aria-selected="true">Create account</button><button type="button" role="tab" class="mj-auth-tab" data-mode="login" aria-selected="false">Log in</button></div>
+      <form id="mj-auth-form" class="mj-auth-form" novalidate>
+        <label class="mj-field"><span>Username</span><input id="mj-user" name="username" type="text" minlength="3" maxlength="20" pattern="[A-Za-z0-9_]{3,20}" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="joejerseys" required></label>
+        <label class="mj-field"><span>Password</span><input id="mj-pass" name="password" type="password" minlength="8" autocomplete="new-password" placeholder="8 or more characters" required></label>
+        <button type="submit" class="btn-shop" id="mj-auth-submit"><span class="cta-text">Create account and save</span></button>
+        <p class="mj-status" id="mj-auth-status" aria-live="polite"></p>
+        <p class="mj-fine">Usernames are 3 to 20 letters, numbers or underscores. There is no password reset yet, so keep your password somewhere safe.</p>
+      </form>
+    </div>
+    <div id="mj-signed-in" hidden>
+      <p class="mj-pitch"><strong id="mj-who"></strong>, your jerseys and wishlist are saved to your account. <span id="mj-sync"></span></p>
+      <button type="button" class="mj-sec" id="mj-logout">Log out</button>
+    </div>` : `<p class="mj-pitch">Accounts that save your list permanently are coming soon.</p>`}
+  </div>
 </aside>`;
 }

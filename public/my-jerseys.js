@@ -1,11 +1,16 @@
 /* My Jerseys: header badge on every page, and the collection builder on /my-jerseys/.
    Plain JavaScript (no framework) so it also runs on the static preview. The list lives in localStorage;
-   share links carry the whole list in the URL (see src/lib/collection.ts for the format). */
+   share links carry the whole list in the URL (see src/lib/collection.ts for the format).
+   When the site is built with a Supabase project (data-sb-url / data-sb-key on this script tag), visitors can also
+   save the list to an account, and the footer newsletter form stores sign-ups. See supabase/schema.sql. */
 (function () {
   var KEY = "tsj-my-jerseys";
   var LEAGUES = ["nfl", "nba", "wnba", "mlb", "nhl", "mls"];
   var NAMES = { nfl: "NFL", nba: "NBA", wnba: "WNBA", mlb: "MLB", nhl: "NHL", mls: "MLS" };
-  var BASE = (document.currentScript && document.currentScript.src) || location.href;
+  var SCRIPT = document.currentScript;
+  var BASE = (SCRIPT && SCRIPT.src) || location.href;
+  var SB_URL = (SCRIPT && SCRIPT.dataset.sbUrl) || "", SB_KEY = (SCRIPT && SCRIPT.dataset.sbKey) || "";
+  var AUTH_KEY = "tsj-auth";
   var cache = {};
 
   function load() {
@@ -16,7 +21,177 @@
     } catch (e) {}
     return { name: "", items: [], wish: [] };
   }
-  function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} badges(); }
+  function save(s, fromServer) {
+    try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {}
+    badges();
+    if (!fromServer) pushSoon();
+  }
+
+  // ---------- Accounts (Supabase) ----------
+  var sbPromise = null, syncTimer = null;
+  function sb() {
+    if (!SB_URL || !SB_KEY) return Promise.reject(new Error("Accounts are not set up"));
+    if (!sbPromise) {
+      sbPromise = new Promise(function (resolve, reject) {
+        if (window.supabase) return resolve();
+        var tag = document.createElement("script");
+        tag.src = new URL("vendor/supabase-2.117.2.js", BASE).href;
+        tag.onload = resolve;
+        tag.onerror = reject;
+        document.head.appendChild(tag);
+      }).then(function () {
+        return window.supabase.createClient(SB_URL, SB_KEY, { auth: { storageKey: AUTH_KEY, persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
+      });
+      sbPromise.catch(function () { sbPromise = null; });
+    }
+    return sbPromise;
+  }
+  function hasSession() { try { return !!SB_URL && !!localStorage.getItem(AUTH_KEY); } catch (e) { return false; } }
+  function currentUser() {
+    return sb().then(function (c) { return c.auth.getSession().then(function (r) { return { c: c, user: r.data && r.data.session ? r.data.session.user : null }; }); });
+  }
+  function clean(list) { return Array.isArray(list) ? list.filter(function (i) { return i && LEAGUES.indexOf(i.l) > -1 && typeof i.n === "string" && i.n; }).map(function (i) { return { l: i.l, n: i.n.slice(0, 48) }; }) : []; }
+  // Adds b's entries to a, counting repeats, so merging two copies of the same list changes nothing.
+  function merge(a, b) {
+    var out = a.slice(), seen = {};
+    a.forEach(function (i) { var k = i.l + "\t" + i.n; seen[k] = (seen[k] || 0) + 1; });
+    b.forEach(function (i) { var k = i.l + "\t" + i.n; if (seen[k]) seen[k]--; else out.push(i); });
+    return out;
+  }
+  function syncStatus(t) { var el = document.getElementById("mj-sync"); if (el) el.textContent = t; }
+  function pushSoon() {
+    if (!hasSession()) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(push, 800);
+  }
+  function push() {
+    return currentUser().then(function (x) {
+      if (!x.user) return;
+      var st = load();
+      syncStatus("Saving…");
+      return x.c.from("jersey_lists").upsert({
+        user_id: x.user.id, username: (x.user.user_metadata && x.user.user_metadata.username) || "",
+        display_name: st.name, items: st.items, wish: st.wish, updated_at: new Date().toISOString(),
+      }).then(function (r) { syncStatus(r.error ? "Couldn't save just now. Your next change will try again." : "All changes saved."); });
+    }).catch(function () {});
+  }
+  /** Loads the saved list. On log-in it is merged with this browser's list; otherwise the account copy wins. */
+  function pull(mergeLocal) {
+    return currentUser().then(function (x) {
+      if (!x.user) return null;
+      return x.c.from("jersey_lists").select("display_name,items,wish").eq("user_id", x.user.id).maybeSingle().then(function (r) {
+        if (r.error) throw r.error;
+        var local = load(), row = r.data;
+        var next = !row ? local : {
+          name: row.display_name || local.name,
+          items: mergeLocal ? merge(clean(row.items), local.items) : clean(row.items),
+          wish: mergeLocal ? merge(clean(row.wish), local.wish) : clean(row.wish),
+        };
+        save(next, true);
+        document.dispatchEvent(new CustomEvent("tsj-list"));
+        if (!row || mergeLocal) return push().then(function () { return x.user; });
+        return x.user;
+      });
+    });
+  }
+  function authError(e) {
+    var m = String((e && e.message) || e || "");
+    if (/already registered|already exists|duplicate/i.test(m)) return "That username is taken. Try another one, or log in.";
+    if (/invalid login|invalid credentials/i.test(m)) return "That username and password don't match.";
+    if (/rate limit|too many/i.test(m)) return "Too many tries. Wait a minute and try again.";
+    if (/password/i.test(m)) return m;
+    return "Something went wrong. Please try again. (" + m.slice(0, 80) + ")";
+  }
+
+  function setupAccount(app) {
+    var box = app.querySelector("#mj-auth"), signedIn = app.querySelector("#mj-signed-in");
+    if (!box || !SB_URL) return;
+    var form = app.querySelector("#mj-auth-form"), user = app.querySelector("#mj-user"), pass = app.querySelector("#mj-pass");
+    var submit = app.querySelector("#mj-auth-submit .cta-text"), status = app.querySelector("#mj-auth-status");
+    var note = app.querySelector("#mj-save-note"), who = app.querySelector("#mj-who"), heading = app.querySelector(".mj-account-h");
+    var mode = "signup";
+    var localNote = note.textContent;
+    function show(u) {
+      box.hidden = !!u;
+      signedIn.hidden = !u;
+      if (u) {
+        who.textContent = (u.user_metadata && u.user_metadata.username) || "You";
+        heading.textContent = "Saved to your account";
+        note.textContent = "Your list is saved to your account and in this browser. Share links still carry the list itself.";
+      } else {
+        heading.textContent = "Save your list for good";
+        note.textContent = localNote;
+      }
+    }
+    app.querySelectorAll(".mj-auth-tab").forEach(function (t) {
+      t.addEventListener("click", function () {
+        mode = t.dataset.mode;
+        app.querySelectorAll(".mj-auth-tab").forEach(function (o) { o.setAttribute("aria-selected", String(o === t)); });
+        submit.textContent = mode === "signup" ? "Create account and save" : "Log in";
+        pass.setAttribute("autocomplete", mode === "signup" ? "new-password" : "current-password");
+        status.textContent = "";
+      });
+    });
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var u = user.value.trim().toLowerCase(), p = pass.value;
+      if (!/^[a-z0-9_]{3,20}$/.test(u)) { status.textContent = "Usernames are 3 to 20 letters, numbers or underscores."; user.focus(); return; }
+      if (p.length < 8) { status.textContent = "Passwords need at least 8 characters."; pass.focus(); return; }
+      status.textContent = mode === "signup" ? "Creating your account…" : "Logging in…";
+      var email = u + "@users.topsellingjerseys.net";
+      sb().then(function (c) {
+        return mode === "signup"
+          ? c.auth.signUp({ email: email, password: p, options: { data: { username: u } } }).then(function (r) {
+              if (r.error) throw r.error;
+              if (!r.data.session) throw new Error("Account created, but it needs email confirmation, which this site doesn't use. Ask the site owner to turn off Confirm email in Supabase.");
+            })
+          : c.auth.signInWithPassword({ email: email, password: p }).then(function (r) { if (r.error) throw r.error; });
+      }).then(function () { return pull(true); }).then(function (usr) {
+        pass.value = "";
+        status.textContent = "";
+        show(usr);
+        try { if (window.gtag) window.gtag("event", mode === "signup" ? "sign_up" : "login", { method: "username" }); } catch (err) {}
+      }).catch(function (err) { status.textContent = authError(err); });
+    });
+    app.querySelector("#mj-logout").addEventListener("click", function () {
+      sb().then(function (c) { return c.auth.signOut(); }).catch(function () {}).then(function () {
+        try { localStorage.removeItem(AUTH_KEY); } catch (e) {}
+        show(null);
+      });
+    });
+    // Show the right panel right away, then confirm with the saved session.
+    if (hasSession()) {
+      signedIn.hidden = false;
+      who.textContent = "…";
+      pull(false).then(function (u) { show(u); }).catch(function () { show(null); });
+    } else {
+      box.hidden = false;
+    }
+  }
+
+  // ---------- Newsletter ----------
+  document.addEventListener("submit", function (e) {
+    var form = e.target.closest && e.target.closest("form[data-newsletter]");
+    if (!form) return;
+    e.preventDefault();
+    var input = form.querySelector('input[type="email"]'), status = form.querySelector(".nl-status"), btn = form.querySelector("button");
+    var email = input.value.trim().toLowerCase();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || email.length > 254) { status.textContent = "Enter a valid email address."; input.focus(); return; }
+    if (!SB_URL) { status.textContent = "Sign-ups aren't open yet."; return; }
+    btn.disabled = true;
+    status.textContent = "Signing you up…";
+    fetch(SB_URL + "/rest/v1/newsletter_signups", {
+      method: "POST",
+      headers: { apikey: SB_KEY, "Content-Type": "application/json", Prefer: "return=minimal" },
+      body: JSON.stringify({ email: email, source: location.pathname.slice(0, 40) }),
+    }).then(function (r) {
+      if (r.ok || r.status === 409) {
+        form.querySelector(".nl-row").hidden = true;
+        status.textContent = r.status === 409 ? "You're already on the list. Thanks!" : "You're signed up. Thanks!";
+        try { if (window.gtag) window.gtag("event", "newsletter_signup", { page: location.pathname }); } catch (err) {}
+      } else throw new Error(r.status);
+    }).catch(function () { status.textContent = "That didn't go through. Please try again."; }).then(function () { btn.disabled = false; });
+  });
 
   function find(list, l, n) { for (var k = 0; k < list.length; k++) if (list[k].l === l && list[k].n === n) return k; return -1; }
   function toggle(b, on, onText, offText, onShort, offShort) {
@@ -93,6 +268,7 @@
 
   function init(app) {
     app.dataset.ready = "1";
+    setupAccount(app);
     var state = load();
     var league = "nfl";
     var nameIn = app.querySelector("#mj-name"), search = app.querySelector("#mj-search"), results = app.querySelector("#mj-results");
@@ -283,6 +459,8 @@
       if (confirm("Remove all " + state.items.length + " jerseys from your list?")) { state.items = []; save(state); render(); }
     });
 
+    // An account load can replace the list after the page opens.
+    document.addEventListener("tsj-list", function () { state = load(); nameIn.value = state.name; render(); });
     render();
     setLeague("nfl");
   }
@@ -345,6 +523,12 @@
     if (shared && shared.dataset.leagues && !shared.dataset.ready) initShared(shared);
   }
   scan();
+  // Signed-in visitors: refresh the list from their account once per visit, so the header count matches other devices.
+  if (hasSession() && !document.getElementById("mj-app")) {
+    try {
+      if (!sessionStorage.getItem("tsj-pulled")) { sessionStorage.setItem("tsj-pulled", "1"); pull(false).catch(function () {}); }
+    } catch (e) {}
+  }
   // Pages change without a full reload on the live site, so re-check when the page content changes.
   new MutationObserver(function () { scan(); }).observe(document.body, { childList: true, subtree: true });
   window.addEventListener("storage", badges);

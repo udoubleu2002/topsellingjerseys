@@ -139,6 +139,7 @@ for (const a of [...assets].filter((a) => a.endsWith(".css"))) {
 fs.copyFileSync("public/icon.svg", path.join(OUT, "icon.svg"));
 fs.copyFileSync("public/my-jerseys.js", path.join(OUT, "my-jerseys.js"));
 fs.cpSync("public/player-index", path.join(OUT, "player-index"), { recursive: true });
+fs.cpSync("public/vendor", path.join(OUT, "vendor"), { recursive: true });
 write("robots.txt", await (await fetch(BASE + "/robots.txt")).text());
 write("sitemap.xml", await (await fetch(BASE + "/sitemap.xml")).text());
 const leagues = ["nfl", "nba", "wnba", "mlb", "nhl", "mls"];

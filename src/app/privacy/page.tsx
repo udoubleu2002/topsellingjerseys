@@ -10,9 +10,13 @@ export default function Privacy() {
     <InfoPage title="Privacy Policy" path="/privacy/" lede="Last updated October 21, 2026.">
       <p className="notice">Template text. Have it reviewed by a lawyer before launch and update it to match the analytics and affiliate services you actually enable.</p>
       <h2>What we collect</h2>
-      <p>With your consent, we record anonymous usage events such as page views, which rankings are viewed and which shopping links are clicked. We do not ask for or store your name, email address or payment details.</p>
+      <p>With your consent, we record anonymous usage events such as page views, which rankings are viewed and which shopping links are clicked. We never ask for payment details.</p>
+      <h2>My Jerseys lists and accounts</h2>
+      <p>Your My Jerseys list and wishlist are saved in your browser. Share links carry the list itself, so sharing stores nothing on our servers. If you create an account, we store your username, a securely hashed password, the first name you entered, and your jersey list and wishlist so you can open them on any device. Contact us to delete your account.</p>
+      <h2>Newsletter</h2>
+      <p>If you sign up for the newsletter, we store your email address and the page you signed up on. We use it only to send the newsletter, and every email includes a way to unsubscribe.</p>
       <h2>Cookies and local storage</h2>
-      <p>We store your consent choice and an experiment assignment in your browser&apos;s local storage. If analytics services are enabled, they may set their own cookies after you consent.</p>
+      <p>We store your consent choice, an experiment assignment, your My Jerseys list and, if you log in, your account session in your browser&apos;s local storage. If analytics services are enabled, they may set their own cookies after you consent.</p>
       <h2>Retailer sites</h2>
       <p>Shopping links take you to retailers whose own privacy policies apply. Affiliate networks may record that you arrived from this site.</p>
       <h2>Your choices</h2>
