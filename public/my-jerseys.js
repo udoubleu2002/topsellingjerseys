@@ -19,21 +19,24 @@
   function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} badges(); }
 
   function find(list, l, n) { for (var k = 0; k < list.length; k++) if (list[k].l === l && list[k].n === n) return k; return -1; }
-  function toggle(b, on, onText, offText) {
+  function toggle(b, on, onText, offText, onShort, offShort) {
     var label = on ? onText : offText;
     var t = b.querySelector(".have-text") || b;
     if (t.textContent !== label) t.textContent = label;
+    // Short label used in the tight phone list rows.
+    var sh = b.querySelector(".have-short"), short = on ? onShort : offShort;
+    if (sh && short && sh.textContent !== short) sh.textContent = short;
     if (b.getAttribute("aria-pressed") !== String(on)) b.setAttribute("aria-pressed", String(on));
   }
 
   function badges() {
     var st = load(), items = st.items, n = items.length;
     document.querySelectorAll("[data-mj-wish]").forEach(function (b) {
-      toggle(b, find(st.wish, b.dataset.league, b.dataset.name) > -1, "★ On my wishlist", "+ Add to wishlist");
+      toggle(b, find(st.wish, b.dataset.league, b.dataset.name) > -1, "★ On my wishlist", "+ Add to wishlist", "★ Wishlisted", "+ Wishlist");
     });
     // "+ I have this jersey" buttons show whether that player is already in the list.
     document.querySelectorAll("[data-mj-have]").forEach(function (b) {
-      toggle(b, find(items, b.dataset.league, b.dataset.name) > -1, "✓ In My Jerseys", "+ I have this jersey");
+      toggle(b, find(items, b.dataset.league, b.dataset.name) > -1, "✓ In My Jerseys", "+ I have this jersey", "✓ I have it", "+ I have it");
     });
     document.querySelectorAll("[data-mj-count]").forEach(function (b) {
       var t = n > 99 ? "99+" : String(n);

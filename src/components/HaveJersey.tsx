@@ -8,9 +8,11 @@ export function HaveJersey({ name, league, className = "" }: { name: string; lea
     <span className={`have-row ${className}`.trim()}>
       <button type="button" className="have-btn" data-mj-have="" data-name={name} data-league={league} aria-pressed="false" suppressHydrationWarning>
         <span className="have-text" suppressHydrationWarning>+ I have this jersey</span>
+        <span className="have-short" suppressHydrationWarning>+ I have it</span>
       </button>
       <button type="button" className="have-btn wish-btn" data-mj-wish="" data-name={name} data-league={league} aria-pressed="false" suppressHydrationWarning>
         <span className="have-text" suppressHydrationWarning>+ Add to wishlist</span>
+        <span className="have-short" suppressHydrationWarning>+ Wishlist</span>
       </button>
     </span>
   );
