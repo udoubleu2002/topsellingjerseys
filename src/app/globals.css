@@ -690,3 +690,29 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 
 /* Header wordmark: the last word ("Jerseys") in the site red, italic, like the big headline style. */
 .brand-name em { font-style: italic; color: var(--accent); padding-right: .06em; }
+
+/* "Best selling" guide pages. */
+.bs-league { margin-top: 28px; border-left: 4px solid var(--lg); padding-left: 16px; }
+.bs-league h2 { margin-top: 0; }
+.bs-src { color: var(--muted); font-size: 13px; margin: 2px 0 10px; }
+.bs-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
+.bs-list li { display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); }
+.bs-list li .have-row { margin-top: 0; }
+.bs-rank { font: italic 800 24px/1 var(--f-head); color: var(--gold); text-align: center; }
+.bs-who { display: grid; gap: 2px; min-width: 0; }
+.bs-who a { font-weight: 700; }
+.bs-team { color: var(--muted); font-size: 13px; }
+.bs-more { font-weight: 600; }
+.bs-q { font: 700 17px/1.3 var(--f-body, inherit); margin: 16px 0 4px; color: var(--ink); }
+.bs-ones { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; margin-top: 8px; }
+.bs-one { border: 1px solid var(--line-2); border-top: 4px solid var(--lg); border-radius: 10px; background: var(--surface); padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+.bs-one h2 { margin: 0 !important; font: 800 26px/1 var(--f-head); text-transform: uppercase; }
+.bs-one h2 a { text-decoration: none; }
+.bs-one p { margin: 0; font-size: 14.5px; }
+.bs-one-lg { font: 700 12px/1 var(--f-num) !important; letter-spacing: .12em; text-transform: uppercase; color: var(--lg); filter: brightness(1.35); }
+.bs-one-links { display: flex; flex-wrap: wrap; gap: 14px; font-weight: 600; }
+@media (max-width: 640px) {
+  .bs-list li { grid-template-columns: 28px minmax(0, 1fr); }
+  .bs-list li .have-row { grid-column: 2; }
+  .bs-rank { font-size: 20px; }
+}

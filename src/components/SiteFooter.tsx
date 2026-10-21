@@ -19,6 +19,9 @@ export function SiteFooter() {
             {getLeagues().map((l) => (
               <li key={l.id}><Link href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link></li>
             ))}
+            <li><Link href="/best-selling-jerseys/">Best selling jerseys</Link></li>
+            <li><Link href="/best-selling-jersey/">Best selling jersey in every league</Link></li>
+            <li><Link href="/best-selling-sports-jerseys/">Best selling sports jerseys: sources</Link></li>
             <li><Link href="/rankings/">All reports and archive</Link></li>
           </ul>
         </div>
