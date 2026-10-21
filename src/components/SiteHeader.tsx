@@ -9,7 +9,7 @@ export function SiteHeader({ active }: { active?: string }) {
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
-          <span className="brand-name">{site.name}</span>
+          <span className="brand-name">{site.name.replace(/\s*\S+$/, "")} <em>{site.name.split(" ").pop()}</em></span>
         </Link>
         <nav className="league-nav" aria-label="Leagues">
           {leagues.map((l) => (

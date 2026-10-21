@@ -687,3 +687,6 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .mj-wish-icon { width: 40px; height: 40px; display: grid; place-items: center; font-size: 30px; color: #ff8fb1; flex: none; }
 .mj-got { min-height: 28px; padding: 0 10px; border-radius: 999px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font: 700 12px/1 inherit; cursor: pointer; }
 .mj-got:hover { background: var(--gold); color: #111; }
+
+/* Header wordmark: the last word ("Jerseys") in the site red, italic, like the big headline style. */
+.brand-name em { font-style: italic; color: var(--accent); padding-right: .06em; }
