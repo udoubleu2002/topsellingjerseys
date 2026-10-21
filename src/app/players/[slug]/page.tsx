@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const team = getTeam(p.teamId ?? p.lastTeamId);
   const title = top ? `${p.name} Jersey: No. ${top.rank} Top Selling ${league.name} Jersey` : `${p.name} Jersey`;
   const description = `Shop ${p.name} jerseys${team ? ` (${team.name}, ${p.position})` : ""}. Ranked No. ${top?.rank} on the ${league.name} jersey sales list, with ${getStatLine(p.id)?.season ?? "current"} stats and career highlights.`;
-  return pageMeta({ title, description, path: `/players/${p.slug}/`, noindex: !isIndexable(p), type: "profile" });
+  return pageMeta({ title, description, path: `/players/${p.slug}/`, noindex: !isIndexable(p), type: "profile", image: `/players/${p.slug}/opengraph-image/` });
 }
 
 export default async function PlayerPage({ params }: Props) {

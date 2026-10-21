@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: "The latest published top-selling jersey rankings for the NFL, NBA, MLB, NHL and MLS, with player stats, sources and links to shop.",
   openGraph: { siteName: site.name, type: "website", locale: "en_US" },
   twitter: { card: "summary_large_image" },
-  icons: { icon: "/icon.svg" },
+  icons: { icon: "/icon.svg", apple: "/apple-icon/" },
   verification: site.googleVerification ? { google: site.googleVerification } : undefined,
 };
 

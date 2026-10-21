@@ -210,10 +210,61 @@
     setLeague("nfl");
   }
 
+  // Static hosting: /j/{code}/ is one shared page, so draw the list from the code in the address.
+  function b64bytes(s) {
+    var bin = atob(s.replace(/-/g, "+").replace(/_/g, "/") + "===".slice((s.length + 3) % 4));
+    var out = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+    return out;
+  }
+  function decode(code) {
+    if (!/^[zp][A-Za-z0-9_-]+$/.test(code)) return Promise.reject(new Error("bad code"));
+    var bytes = b64bytes(code.slice(1));
+    if (code[0] === "p") return Promise.resolve(new TextDecoder().decode(bytes));
+    var stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"));
+    return new Response(stream).text();
+  }
+  function initShared(box) {
+    box.dataset.ready = "1";
+    var meta = {};
+    try { meta = JSON.parse(box.dataset.leagues || "{}"); } catch (e) {}
+    var m = location.pathname.match(/\/j\/([^/]+)/);
+    var groups = document.getElementById("mj-shared-groups"), h1 = document.getElementById("mj-shared-h1");
+    decode(m ? m[1] : "").then(function (text) {
+      var lines = text.split("\n"), name = (lines.shift() || "").slice(0, 24), total = 0;
+      groups.innerHTML = "";
+      lines.forEach(function (line) {
+        var parts = line.split("\t"), l = parts.shift();
+        if (LEAGUES.indexOf(l) < 0 || !parts.length) return;
+        var counts = {}, order = [];
+        parts.forEach(function (n) { n = n.trim().slice(0, 48); if (!n) return; total++; if (!counts[n]) order.push(n); counts[n] = (counts[n] || 0) + 1; });
+        var sec = el("section", "mj-group");
+        sec.style.setProperty("--lg", (meta[l] && meta[l].accent) || "#e8442c");
+        var h = el("h2", null, ((meta[l] && meta[l].name) || NAMES[l]) + " ");
+        h.appendChild(el("span", null, String(parts.length)));
+        sec.appendChild(h);
+        var ul = el("ul");
+        order.forEach(function (n) { ul.appendChild(el("li", null, counts[n] > 1 ? n + " ×" + counts[n] : n)); });
+        sec.appendChild(ul);
+        groups.appendChild(sec);
+      });
+      if (!total) throw new Error("empty");
+      var head = headline(name, total).replace(/^Your /, "My ");
+      h1.textContent = head.replace(/: \d+$/, ": ");
+      h1.appendChild(el("em", null, String(total)));
+      document.title = head + " | Top Selling Jerseys";
+    }).catch(function () {
+      groups.innerHTML = "";
+      groups.appendChild(el("p", "mj-empty", "This jersey list link looks incomplete. Ask for the link again, or count your own below."));
+    });
+  }
+
   function scan() {
     badges();
     var app = document.getElementById("mj-app");
     if (app && !app.dataset.ready) init(app);
+    var shared = document.getElementById("mj-shared");
+    if (shared && shared.dataset.leagues && !shared.dataset.ready) initShared(shared);
   }
   scan();
   // Pages change without a full reload on the live site, so re-check when the page content changes.
