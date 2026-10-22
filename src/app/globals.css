@@ -828,3 +828,18 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .empty { border-style: solid; }
 .lrow > .btn-shop { border-radius: 4px; }
 @media (max-width: 640px) { .p-name { font-size: 22px; } }
+
+/* Visitor forms (FanForms, ContactForm) */
+.fan-forms .fan-lede { color: var(--ink-2); margin: 0 0 12px; }
+.fan-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.fan-actions .btn-ghost[aria-expanded="true"] { border-color: var(--accent); }
+.fan-form { display: grid; gap: 12px; margin-top: 14px; max-width: 640px; font-size: 14px; }
+.fan-form label { display: grid; gap: 6px; color: var(--ink-2); font-weight: 600; }
+.fan-form input:not([type="checkbox"]), .fan-form select, .fan-form textarea { width: 100%; min-height: 40px; border-radius: 4px; border: 1px solid var(--line-2); background: var(--bg); color: var(--ink); padding: 8px 10px; font: 15px var(--f-body); }
+.fan-form input[type="file"] { padding: 6px; }
+.fan-form textarea { resize: vertical; }
+.fan-form .fan-check { display: flex; align-items: center; gap: 8px; font-weight: 400; }
+.fan-form button[type="submit"] { justify-self: start; border: 0; cursor: pointer; }
+.fan-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.fan-done { color: var(--ok); font-weight: 600; margin-top: 12px; }
+.fan-err { color: var(--warn); margin: 0; }

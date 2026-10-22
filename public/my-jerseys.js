@@ -443,8 +443,27 @@
       if (e.key === "Enter") { e.preventDefault(); var first = results.querySelector("button"); if (first) first.click(); }
     });
     nameIn.addEventListener("input", function () { state.name = nameIn.value.trim().slice(0, 24); save(state); render(); });
+    // Each share is logged to the editor desk through Netlify Forms (form "count-share", see public/__forms.html).
+    var lastLog = "";
+    function logShare(method) {
+      if (!shareUrl || !window.fetch) return;
+      var key = method + "|" + shareUrl;
+      if (key === lastLog) return; // one log per list and method
+      lastLog = key;
+      var leagues = {};
+      state.items.forEach(function (i) { leagues[i.l] = 1; });
+      var body = new URLSearchParams({
+        "form-name": "count-share", site: "topsellingjerseys.net", name: state.name, method: method,
+        count: String(state.items.length), states: String(Object.keys(leagues).length),
+        visited: state.items.map(function (i) { return i.n + " (" + (NAMES[i.l] || i.l) + ")"; }).join("; ").slice(0, 4500),
+        link: shareUrl.length <= 1500 ? shareUrl : ""
+      });
+      fetch("/__forms.html", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: body.toString(), keepalive: true }).catch(function () {});
+    }
+    textLink.addEventListener("click", function () { logShare("text"); });
     app.querySelector("#mj-share-btn").addEventListener("click", function () {
       if (!shareUrl) return;
+      logShare(navigator.share ? "native" : "copy");
       var title = hasHeadline(state.name, state.items.length);
       if (navigator.share) navigator.share({ title: title, text: title + ". What's your jersey count?", url: shareUrl }).catch(function () {});
       else copy();
@@ -454,7 +473,7 @@
       if (navigator.clipboard) navigator.clipboard.writeText(shareUrl).then(done, function () { prompt("Copy your link:", shareUrl); });
       else prompt("Copy your link:", shareUrl);
     }
-    app.querySelector("#mj-copy").addEventListener("click", function () { if (shareUrl) copy(); });
+    app.querySelector("#mj-copy").addEventListener("click", function () { if (shareUrl) { logShare("copy"); copy(); } });
     app.querySelector("#mj-clear").addEventListener("click", function () {
       if (confirm("Remove all " + state.items.length + " jerseys from your list?")) { state.items = []; save(state); render(); }
     });

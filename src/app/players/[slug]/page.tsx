@@ -12,6 +12,7 @@ import { PriceTag } from "@/components/PriceTag";
 import { TrustNote } from "@/components/TrustNote";
 import { TeamLink } from "@/components/TeamLink";
 import { HaveJersey } from "@/components/HaveJersey";
+import { FanForms } from "@/components/FanForms";
 import { PriceAlert } from "@/components/PriceAlert";
 import { StickyShop } from "@/components/StickyShop";
 import { DealsBar } from "@/components/Deals";
@@ -256,6 +257,8 @@ export default async function PlayerPage({ params }: Props) {
                 ))}
               </div>
             </section>
+
+            <FanForms player={player.name} page={`/players/${player.slug}/`} league={league.id} />
           </div>
 
           <aside className="side">

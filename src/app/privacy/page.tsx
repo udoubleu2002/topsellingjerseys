@@ -12,6 +12,8 @@ export default function Privacy() {
       <h2>What we collect</h2>
       <p>With your consent, we record anonymous usage events such as page views, which rankings are viewed and which shopping links are clicked. We never ask for payment details.</p>
       <p>Separately, when you click a shopping link we count the click (which link, where it was on the page, which page and when) so we know which links are useful. This count is kept without anything that identifies you; your IP address is used only briefly to stop abuse and is not stored with it.</p>
+      <h2>Forms you send us</h2>
+      <p>When you share a jersey story, suggest a fix or send a message, we receive what you typed, any photo you attach, and the page you sent it from. Your email address is used only to reply and is never shown. A story or photo appears on the site only if you tick the box allowing it. When you share your My Jerseys list, we record the list, its share link, your first name if you entered one, and how you shared it, so we can see which lists people share.</p>
       <h2>My Jerseys lists and accounts</h2>
       <p>Your My Jerseys list and wishlist are saved in your browser. Share links carry the list itself, so sharing stores nothing on our servers. If you create an account, we store your username, a securely hashed password, the first name you entered, and your jersey list and wishlist so you can open them on any device. Contact us to delete your account.</p>
       <h2>Newsletter</h2>
