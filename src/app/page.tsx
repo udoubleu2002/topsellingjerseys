@@ -71,7 +71,7 @@ export default function Home() {
                       const o = teamOffer(t);
                       return o && (
                         <li key={t.id}>
-                          <a href={outPath(o.id)} target="_blank" rel="sponsored nofollow noopener" data-track="affiliate_click" data-offer={o.id} data-offer-kind="team" data-merchant={o.merchantId} data-league={league.id} data-placement="home_team_directory" data-page="home">
+                          <a href={`${outPath(o.id)}?at=home_team_directory`} target="_blank" rel="sponsored nofollow noopener" data-track="affiliate_click" data-offer={o.id} data-offer-kind="team" data-merchant={o.merchantId} data-league={league.id} data-placement="home_team_directory" data-page="home">
                             {t.name}
                           </a>
                         </li>

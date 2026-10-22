@@ -8,7 +8,7 @@ export function ShopButton({ offer, ctx, children, variant = "primary" }: { offe
   return (
     <a
       className={variant === "primary" ? "btn-shop" : variant === "small" ? "btn-shop btn-sm" : "btn-ghost"}
-      href={outPath(offer.id)}
+      href={`${outPath(offer.id)}?at=${encodeURIComponent(ctx.placement)}`}
       target="_blank"
       rel="sponsored nofollow noopener"
       data-track="affiliate_click"

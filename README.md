@@ -65,6 +65,8 @@ Edit `stats.json` (or write a research file and run `apply_research.py`). Always
 Events: `page_view` (path, page type), `impression` (player cards: league, player, rank, placement), `affiliate_click` (offer, kind, merchant, league, player, rank, placement, page, CTA variant), `search`, `consent`. These support CTR by league, player, rank, retailer and placement. The `cta_wording` experiment assigns each visitor variant A ("Shop X Jerseys") or B ("Find X Jerseys") and records it with every click.
 
 
+**Editor desk click counts:** set `DESK_CLICK_URL` (the desk's address) and `DESK_CLICK_KEY` (the same value as `CLICK_INGEST_KEY` in the desk project). The `/out/` route then counts every shopping click on the desk's Ad clicks screen after redirecting: which offer, where on the page (the `?at=` placement on each Shop link), and which page. Bots are skipped and nothing that identifies the shopper is stored.
+
 ## SEO
 
 - One H1 per page; league H1s are exactly "Top Selling {League} Jerseys". Unique titles and descriptions (checked by `test:e2e`).
