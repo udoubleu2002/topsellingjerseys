@@ -60,7 +60,7 @@
   {
     "slug": "justin-herbert-jersey",
     "league": "nfl",
-    "status": "published",
+    "status": "draft",
     "player": "Justin Herbert",
     "teamId": "los-angeles-chargers",
     "position": "Quarterback",
@@ -541,7 +541,7 @@
   {
     "slug": "ladd-mcconkey-jersey",
     "league": "nfl",
-    "status": "published",
+    "status": "draft",
     "player": "Ladd McConkey",
     "teamId": "los-angeles-chargers",
     "position": "Wide receiver",
@@ -758,7 +758,7 @@
   {
     "slug": "deebo-samuel-jersey",
     "league": "nfl",
-    "status": "published",
+    "status": "draft",
     "player": "Deebo Samuel",
     "teamId": "san-francisco-49ers",
     "position": "Wide receiver",
@@ -997,7 +997,7 @@
   {
     "slug": "terry-mclaurin-jersey",
     "league": "nfl",
-    "status": "published",
+    "status": "draft",
     "player": "Terry McLaurin",
     "teamId": "washington-commanders",
     "position": "Wide receiver",
@@ -1047,7 +1047,7 @@
   {
     "slug": "brian-thomas-jr-jersey",
     "league": "nfl",
-    "status": "published",
+    "status": "draft",
     "player": "Brian Thomas Jr.",
     "teamId": "jacksonville-jaguars",
     "position": "Wide receiver",

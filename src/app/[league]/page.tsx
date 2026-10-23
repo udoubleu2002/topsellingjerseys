@@ -7,7 +7,6 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { RankingCard } from "@/components/RankingCard";
 import { Freshness, SourceLine, ReportNotes, AffiliateNote } from "@/components/RankingHeader";
 import { Faq } from "@/components/Faq";
-import { articlePath, getArticles } from "@/lib/articles";
 import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getLeagueBySlug, getCurrentRanking, getRankings, getPlayer, commonStatsThrough } from "@/lib/data";
@@ -39,7 +38,6 @@ export default async function LeaguePage({ params }: Props) {
   const pageId = `league_${league.id}`;
   const archive = getRankings(league.id).filter((r) => r.id !== ranking?.id);
   const others = getLeagues().filter((l) => l.id !== league.id);
-  const watch = getArticles(league.id);
 
   const leader = ranking ? getPlayer(ranking.entries[0].playerId) : undefined;
   const faq = [
@@ -110,19 +108,6 @@ export default async function LeaguePage({ params }: Props) {
             </div>
           )}
         </section>
-
-        {watch.length > 0 && (
-          <section className="wrap section" aria-labelledby="watch-h">
-            <div className="section-head">
-              <h2 id="watch-h">{league.name} jerseys to watch</h2>
-              <Link href="/jerseys/">All jerseys to watch →</Link>
-            </div>
-            <p className="soft">Players outside the top of this list whose jerseys could climb the next one.</p>
-            <ul className="article-list">
-              {watch.map((a) => <li key={a.slug}><Link href={articlePath(a)}><strong>{a.player}</strong><span>{a.position}</span></Link></li>)}
-            </ul>
-          </section>
-        )}
 
         <section className="wrap section" aria-labelledby="faq-h">
           <div className="section-head"><h2 id="faq-h">{league.name} jersey sales FAQ</h2></div>

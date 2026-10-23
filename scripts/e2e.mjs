@@ -19,7 +19,9 @@ const browser = await pw.chromium.launch(process.env.CHROMIUM ? { executablePath
 const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
 const page = await ctx.newPage();
 
-const queue = ["/"], seen = new Set(), titles = new Map(), descs = new Map();
+// Search landing pages are not linked from the main site, so the sitemap seeds them.
+const sitemapXml = await (await fetch(`${BASE}/sitemap.xml`)).text();
+const queue = ["/", ...[...sitemapXml.matchAll(/<loc>[^<]*?(\/jerseys\/[^<]*)<\/loc>/g)].map((m) => m[1])], seen = new Set(), titles = new Map(), descs = new Map();
 let outLinks = 0;
 while (queue.length) {
   const path = queue.shift();

@@ -80,6 +80,7 @@ export function checkArticles(articles: Article[], s: Store) {
   for (const p of s.players) pages.add(`/players/${p.slug}/`);
   for (const r of s.rankings) pages.add(`/rankings/${r.league}/${r.id}/`);
   for (const a of articles) if (a.status === "published") pages.add(articlePath(a));
+  const drafts = new Set(articles.filter((a) => a.status === "draft").map(articlePath));
   const teams = new Set([...s.teams.map((t) => t.id), ...Object.values(s.directory).flat().map((t) => t.id)]);
   const leagues = new Set(s.leagues.map((l) => l.id));
   const seen: Record<string, Set<string>> = { slug: new Set(), title: new Set(), description: new Set(), headline: new Set(), player: new Set() };
@@ -99,7 +100,12 @@ export function checkArticles(articles: Article[], s: Store) {
     if (!a.headline.includes(a.player)) errors.push(`${id}: the headline must include the player's full name`);
     const links = a.body.flatMap(linksIn);
     if (links.length === 0) errors.push(`${id}: needs one internal link`);
-    for (const l of links) if (!pages.has(l)) errors.push(`${id}: internal link ${l} does not match a page on the site`);
+    for (const l of links) {
+      if (pages.has(l)) continue;
+      // A draft may link to another draft; it becomes an error if only one of them is published.
+      if (a.status === "draft" && drafts.has(l)) warnings.push(`${id}: links to draft ${l}; publish both together`);
+      else errors.push(`${id}: internal link ${l} does not match a page on the site`);
+    }
     const pk = primaryByLeague.get(a.league) ?? new Set<string>();
     if (pk.has(a.primaryKeyword.toLowerCase())) errors.push(`${id}: primary keyword "${a.primaryKeyword}" is already used in this league`);
     pk.add(a.primaryKeyword.toLowerCase());
