@@ -8,6 +8,7 @@ import { RankingCard } from "@/components/RankingCard";
 import { Freshness, SourceLine, ReportNotes, AffiliateNote } from "@/components/RankingHeader";
 import { Faq } from "@/components/Faq";
 import { DealsBar } from "@/components/Deals";
+import { SideRail } from "@/components/SideRail";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getLeagueBySlug, getCurrentRanking, getRankings, getPlayer, commonStatsThrough } from "@/lib/data";
 import { leagueCopy } from "@/lib/content";
@@ -81,6 +82,8 @@ export default async function LeaguePage({ params }: Props) {
           )}
         </header>
 
+        <div className="wrap with-rail">
+        <div className="rail-main">
         {ranking && (
           <section className="wrap" aria-label={`Ranked players, ${ranking.periodLabel}`}>
             <ol className="ranking">
@@ -122,6 +125,9 @@ export default async function LeaguePage({ params }: Props) {
           </nav>
           <div style={{ marginTop: 20 }}><AffiliateNote /></div>
         </section>
+        </div>
+        <SideRail active={league.id} />
+        </div>
         {itemList && <JsonLd data={itemList} />}
       </main>
     </>
