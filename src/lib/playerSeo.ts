@@ -31,7 +31,7 @@ export function playerIntro({ player, league, team, latest, line }: Ctx): string
   const jersey = [player.number && `No. ${player.number}`, team?.name].filter(Boolean).join(" ");
   if (latest) parts.push(`${player.name}${jersey ? `'s ${jersey}` : ""} jersey is No. ${latest.rank} on the latest ${league.name} sales list from ${latest.ranking.publisher}, published ${fmtDate(latest.ranking.publishedDate)}.`);
   else if (team && !player.teamId) parts.push(`${player.name} is ${player.status.toLowerCase()}; last team: ${team.name}.`);
-  if (line) parts.push(`${line.season}${line.competition === "postseason" ? " postseason" : ""}: ${statSummary(line)}.`);
+  if (line) parts.push(`${line.season}${line.competition === "postseason" ? " postseason" : ""}: ${statSummary(line)}`);
   return parts.join(" ");
 }
 

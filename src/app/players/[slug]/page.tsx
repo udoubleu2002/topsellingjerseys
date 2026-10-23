@@ -153,6 +153,24 @@ export default async function PlayerPage({ params }: Props) {
               <PriceAlert playerId={player.id} playerName={player.name} />
               <AffiliateNote />
             </aside>
+            <div className="phero-extra">
+              <section aria-labelledby="st-h1">
+                <h2 id="st-h1" className="phero-h">{line ? `${line.season}${line.competition === "postseason" ? " postseason" : ""} stats` : "Stats"}</h2>
+                <StatsPanel line={line} />
+                {line?.source && <p className="shop-note">Source: <a href={line.source} target="_blank" rel="noopener nofollow">{new URL(line.source).hostname.replace(/^www\./, "")}</a>, checked {fmtShortDate(line.updatedAt)}</p>}
+              </section>
+              <section aria-labelledby="hl-h">
+                <h2 id="hl-h" className="phero-h">Highlights</h2>
+                <ul className="highlights">
+                  {player.highlights.map((h, i) => (
+                    <li key={i}>
+                      {h.text}
+                      {h.source && <> <a className="shop-note" href={h.source} target="_blank" rel="noopener nofollow">Source</a></>}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            </div>
           </div>
         </section>
 
@@ -172,23 +190,9 @@ export default async function PlayerPage({ params }: Props) {
               </section>
             )}
 
-            <section className="block" aria-labelledby="hl-h">
-              <h2 id="hl-h">Highlights</h2>
-              <ul className="highlights" style={{ marginTop: 0 }}>
-                {player.highlights.map((h, i) => (
-                  <li key={i}>
-                    {h.text}
-                    {h.source && <> <a className="shop-note" href={h.source} target="_blank" rel="noopener nofollow">Source</a></>}
-                  </li>
-                ))}
-              </ul>
-            </section>
-
-            <section className="block" aria-labelledby="st-h">
-              <h2 id="st-h">Stats</h2>
-              <StatsPanel line={line} />
-              {line?.source && <p className="shop-note">Source: <a href={line.source} target="_blank" rel="noopener nofollow">{new URL(line.source).hostname.replace(/^www\./, "")}</a>, checked {fmtShortDate(line.updatedAt)}</p>}
-              {allLines.length > 1 && (
+            {allLines.length > 1 && (
+              <section className="block" aria-labelledby="st-h">
+                <h2 id="st-h">Stat history</h2>
                 <div className="table-wrap">
                   <table className="table">
                     <caption className="sr-only">All stat lines on file</caption>
@@ -205,8 +209,8 @@ export default async function PlayerPage({ params }: Props) {
                     </tbody>
                   </table>
                 </div>
-              )}
-            </section>
+              </section>
+            )}
 
             <section className="block" aria-labelledby="shop-h">
               <h2 id="shop-h">Where to buy {player.name} jerseys</h2>
