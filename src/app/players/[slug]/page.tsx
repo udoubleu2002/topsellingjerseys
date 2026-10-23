@@ -240,6 +240,7 @@ export default async function PlayerPage({ params }: Props) {
                   )}
                 </div>
               )}
+              <AffiliateNote />
             </section>
 
             <section className="block" aria-labelledby="rh-h">
