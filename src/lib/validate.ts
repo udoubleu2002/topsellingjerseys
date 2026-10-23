@@ -1,6 +1,7 @@
 import type { Store } from "./data";
 import type { Ranking } from "./schema";
 import { type Article, articlePath, linksIn, wordCount } from "./articles";
+import { type Profile, profileWords } from "./profiles";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -116,4 +117,21 @@ export function checkArticles(articles: Article[], s: Store) {
     for (const r of a.reviewNotes) warnings.push(`${id}: review: ${r}`);
   }
   return { errors, warnings };
+}
+
+/** Player write-ups: 200-250 words, one per known player, and the player's full name in the opening paragraph. */
+export function checkProfiles(profiles: Profile[], s: Store) {
+  const errors: string[] = [];
+  const seen = new Set<string>();
+  for (const p of profiles) {
+    const id = `profile ${p.playerId}`;
+    const player = s.players.find((x) => x.id === p.playerId);
+    if (!player) { errors.push(`${id}: unknown player`); continue; }
+    if (seen.has(p.playerId)) errors.push(`${id}: duplicate`);
+    seen.add(p.playerId);
+    const n = profileWords(p);
+    if (n < 200 || n > 250) errors.push(`${id}: ${n} words; write-ups must be 200-250`);
+    if (!p.intro[0].includes(player.name)) errors.push(`${id}: the player's full name must appear in the opening paragraph`);
+  }
+  return { errors };
 }
