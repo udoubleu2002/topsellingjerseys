@@ -1,0 +1,69 @@
+import Link from "next/link";
+import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
+import { fmtShortDate } from "@/lib/format";
+
+/** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
+export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
+  const [w, h] = size.split("x");
+  return (
+    <div className={`ad-slot ad-${size} ${className}`} data-ad-slot={id} style={{ "--ad-w": `${w}px`, "--ad-r": `${w} / ${h}` } as React.CSSProperties}>
+      <span className="ad-label">Advertisement</span>
+      <span className="ad-size">{w} × {h}</span>
+    </div>
+  );
+}
+
+/** Sidebar: a second way into the lists (top 5 of every league at a glance) plus ad space. */
+export function SideRail({ active }: { active?: string }) {
+  const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
+  return (
+    <aside className="rail" aria-label="Browse the lists">
+      <section className="rail-box">
+        <h2 className="rail-h">Browse the lists</h2>
+        <div className="rail-lists">
+          {leagues.map(({ league, ranking }) => (
+            <details key={league.id} className="rail-league" open={active ? active === league.id : league.id === leagues[0].league.id} style={{ "--lg": league.accent } as React.CSSProperties}>
+              <summary>
+                <span className="rail-lg">{league.name}</span>
+                <span className="rail-lead">{getPlayer(ranking!.entries[0].playerId)?.name}</span>
+              </summary>
+              <ol>
+                {ranking!.entries.slice(0, 5).map((e) => {
+                  const p = getPlayer(e.playerId)!;
+                  return (
+                    <li key={p.id}>
+                      <span className="rail-rank">{e.rank}</span>
+                      <Link href={`/players/${p.slug}/`}>{p.name}</Link>
+                      <span className="rail-team">{getTeam(p.teamId ?? p.lastTeamId)?.name.split(" ").pop() ?? ""}</span>
+                    </li>
+                  );
+                })}
+              </ol>
+              <Link className="rail-more" href={`/${league.slug}/`}>All {ranking!.entries.length} {league.name} jerseys →</Link>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <AdSlot size="300x250" id="rail_top" />
+
+      <section className="rail-box">
+        <h2 className="rail-h">Latest reports</h2>
+        <ul className="rail-updates">
+          {leagues
+            .slice()
+            .sort((a, b) => b.ranking!.publishedDate.localeCompare(a.ranking!.publishedDate))
+            .map(({ league, ranking }) => (
+              <li key={league.id} style={{ "--lg": league.accent } as React.CSSProperties}>
+                <Link href={`/${league.slug}/`}>{league.name}</Link>
+                <span>{ranking!.publisher} · {fmtShortDate(ranking!.publishedDate)}</span>
+              </li>
+            ))}
+        </ul>
+        <Link className="rail-more" href="/rankings/">Report archive →</Link>
+      </section>
+
+      <AdSlot size="300x600" id="rail_sticky" className="rail-sticky" />
+    </aside>
+  );
+}
