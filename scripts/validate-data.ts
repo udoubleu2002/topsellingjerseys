@@ -3,10 +3,15 @@
  * Run: npm run validate
  */
 import { loadStore } from "../src/lib/data";
-import { checkStore } from "../src/lib/validate";
+import { checkStore, checkArticles } from "../src/lib/validate";
+import { loadArticles } from "../src/lib/articles";
 
 try {
-  const { errors, warnings } = checkStore(loadStore());
+  const store = loadStore();
+  const { errors, warnings } = checkStore(store);
+  const art = checkArticles(loadArticles(), store);
+  errors.push(...art.errors);
+  warnings.push(...art.warnings);
   for (const w of warnings) console.warn(`warn  ${w}`);
   for (const e of errors) console.error(`error ${e}`);
   if (errors.length) {

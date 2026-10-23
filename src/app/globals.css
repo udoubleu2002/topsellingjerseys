@@ -843,3 +843,35 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .fan-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
 .fan-done { color: var(--ok); font-weight: 600; margin-top: 12px; }
 .fan-err { color: var(--warn); margin: 0; }
+
+/* Jerseys to watch: articles and index */
+.article-head { margin: 18px 0 8px; }
+.article-head h1 { font: 700 clamp(28px, 4.5vw, 44px)/1.08 var(--f-head); color: var(--ink); margin-top: 8px; max-width: 24ch; }
+.article-head .p-meta { margin-top: 10px; }
+.article-cols { display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); margin-top: 18px; }
+@media (min-width: 900px) { .article-cols { grid-template-columns: minmax(0, 1fr) 320px; align-items: start; } .article-shop { position: sticky; top: 84px; } }
+.article-body { font-size: 17px; line-height: 1.65; }
+.article-body h2 { font: 700 22px/1.25 var(--f-head); color: var(--ink); margin: 22px 0 6px; }
+.article-body a { text-decoration: underline; text-underline-offset: 3px; }
+.article-rank { border-left: 3px solid var(--gold); padding-left: 12px; font-size: 15px; }
+.article-shop { display: grid; gap: 10px; }
+.article-shop h2 { font: 700 20px/1.2 var(--f-head); color: var(--ink); }
+.article-foot { margin: 36px 0 12px; max-width: 72ch; }
+.article-foot h2 { font: 700 18px/1.25 var(--f-head); color: var(--ink); margin: 20px 0 8px; }
+.article-sources, .article-related { padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); font-size: 14px; }
+.article-sources a, .article-related a { color: var(--ink); }
+.article-list { list-style: none; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.article-list a { display: grid; gap: 2px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); text-decoration: none; }
+.article-list a:hover { border-color: var(--line-2); }
+.article-list span { color: var(--muted); font-size: 13px; }
+.article-chart { margin-top: 36px; max-width: 72ch; }
+.article-chart h2 { font: 700 22px/1.2 var(--f-head); }
+.article-chart h2 a { color: var(--ink); text-decoration: none; }
+.chart-list { list-style: none; padding: 0; margin: 10px 0 14px; display: grid; gap: 4px; }
+.chart-list a { display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 9px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.chart-list a:hover { border-color: var(--accent); }
+.chart-rank { font: 700 18px/1 var(--f-num); color: var(--accent); text-align: center; }
+.chart-name { font-weight: 600; }
+.chart-team { color: var(--muted); font-size: 13px; text-align: right; }
+.chart-all { display: inline-flex; }
+@media (max-width: 520px) { .chart-team { display: none; } }

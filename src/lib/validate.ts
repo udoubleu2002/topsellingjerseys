@@ -1,5 +1,6 @@
 import type { Store } from "./data";
 import type { Ranking } from "./schema";
+import { type Article, articlePath, linksIn, wordCount } from "./articles";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -66,6 +67,47 @@ export function checkStore(s: Store, opts: { allowDemo?: boolean } = {}) {
     if (!merchantIds.has(pr.merchantId)) errors.push(`promotion ${pr.id}: unknown merchant`);
     if (pr.startDate > pr.endDate) errors.push(`promotion ${pr.id}: starts after it ends`);
     for (const l of pr.leagues) if (!leagueIds.has(l)) errors.push(`promotion ${pr.id}: unknown league ${l}`);
+  }
+  return { errors, warnings };
+}
+
+/** Articles: 250-300 words, unique slugs and metadata, a known team, and internal links that resolve to real pages. */
+export function checkArticles(articles: Article[], s: Store) {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const pages = new Set<string>(["/", "/jerseys/", "/rankings/", "/my-jerseys/", "/best-selling-jerseys/", "/best-selling-jersey/", "/best-selling-sports-jerseys/"]);
+  for (const l of s.leagues) pages.add(`/${l.slug}/`);
+  for (const p of s.players) pages.add(`/players/${p.slug}/`);
+  for (const r of s.rankings) pages.add(`/rankings/${r.league}/${r.id}/`);
+  for (const a of articles) if (a.status === "published") pages.add(articlePath(a));
+  const teams = new Set([...s.teams.map((t) => t.id), ...Object.values(s.directory).flat().map((t) => t.id)]);
+  const leagues = new Set(s.leagues.map((l) => l.id));
+  const seen: Record<string, Set<string>> = { slug: new Set(), title: new Set(), description: new Set(), headline: new Set(), player: new Set() };
+  const primaryByLeague = new Map<string, Set<string>>();
+  for (const a of articles) {
+    const id = `article ${a.slug}`;
+    for (const k of ["slug", "title", "description", "headline", "player"] as const) {
+      const v = a[k].toLowerCase();
+      if (seen[k].has(v)) errors.push(`${id}: duplicate ${k}`);
+      seen[k].add(v);
+    }
+    if (!leagues.has(a.league)) errors.push(`${id}: unknown league ${a.league}`);
+    if (a.teamId && !teams.has(a.teamId)) errors.push(`${id}: unknown team ${a.teamId}`);
+    const n = wordCount(a);
+    if (n < 250 || n > 300) errors.push(`${id}: ${n} words; articles must be 250-300`);
+    if (!a.body.slice(0, 2).join(" ").includes(a.player)) errors.push(`${id}: the player's full name must appear in the opening paragraph`);
+    if (!a.headline.includes(a.player)) errors.push(`${id}: the headline must include the player's full name`);
+    const links = a.body.flatMap(linksIn);
+    if (links.length === 0) errors.push(`${id}: needs one internal link`);
+    for (const l of links) if (!pages.has(l)) errors.push(`${id}: internal link ${l} does not match a page on the site`);
+    const pk = primaryByLeague.get(a.league) ?? new Set<string>();
+    if (pk.has(a.primaryKeyword.toLowerCase())) errors.push(`${id}: primary keyword "${a.primaryKeyword}" is already used in this league`);
+    pk.add(a.primaryKeyword.toLowerCase());
+    primaryByLeague.set(a.league, pk);
+    if (a.title.length < 50 || a.title.length > 60) warnings.push(`${id}: title is ${a.title.length} characters (aim for 50-60)`);
+    if (a.description.length < 145 || a.description.length > 160) warnings.push(`${id}: description is ${a.description.length} characters (aim for 145-160)`);
+    if (a.status === "draft") warnings.push(`${id}: draft, not published until reviewed`);
+    for (const r of a.reviewNotes) warnings.push(`${id}: review: ${r}`);
   }
   return { errors, warnings };
 }

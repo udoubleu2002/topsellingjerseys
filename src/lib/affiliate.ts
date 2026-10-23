@@ -1,5 +1,6 @@
 import type { Player, Product, Promotion, Team } from "./schema";
 import { getAnyTeam, getMerchant, getPlayer, getTeam, loadStore } from "./data";
+import { getArticle, type Article } from "./articles";
 
 export interface Offer {
   id: string;
@@ -76,6 +77,14 @@ export function promoOffer(p: Promotion): Offer | null {
   return { id: `promo-${p.id}`, kind: "promo", merchantId: p.merchantId, merchantName: merchant.name, label: p.headline, href: withAffiliate(p.url, p.merchantId) };
 }
 
+/** A retailer search for the player an article covers (the player may not be in players.json). */
+export function articleOffer(a: Pick<Article, "slug" | "shopQuery" | "player">, merchantId = DEFAULT_MERCHANT): Offer | null {
+  const merchant = getMerchant(merchantId);
+  if (!merchant) return null;
+  const raw = merchant.searchUrlTemplate.replace("{query}", encodeURIComponent(a.shopQuery).replace(/%20/g, "+"));
+  return { id: `article-${merchantId}-${a.slug}`, kind: "search", merchantId, merchantName: merchant.name, label: `Search ${a.player} jerseys at ${merchant.name}`, href: withAffiliate(raw, merchantId) };
+}
+
 /** Outbound links go through /out/ so destinations and tracking can change without rebuilding pages. */
 export const outPath = (offerId: string) => `/out/${offerId}/`;
 
@@ -92,6 +101,11 @@ export function resolveOffer(offerId: string): Offer | null {
   if (t) {
     const team = getAnyTeam(t[2]);
     return team ? teamOffer(team, t[1]) : null;
+  }
+  const art = /^article-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
+  if (art) {
+    const a = getArticle(art[2]);
+    return a ? articleOffer(a, art[1]) : null;
   }
   const m = /^search-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
   if (m) {
