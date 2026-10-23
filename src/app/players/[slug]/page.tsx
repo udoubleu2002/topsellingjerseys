@@ -24,6 +24,7 @@ import {
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { abs, site } from "@/lib/config";
 import { age, fmtDate, fmtShortDate, period } from "@/lib/format";
+import { getProfile } from "@/lib/profiles";
 import { playerTitle, playerDescription, playerIntro, playerFaq } from "@/lib/playerSeo";
 
 export const dynamicParams = false;
@@ -59,6 +60,7 @@ export default async function PlayerPage({ params }: Props) {
   const primary = jersey ? productOffer(jersey) : searchOffer(player, team);
   const search = searchOffer(player, team);
   const page = `player_${player.id}`;
+  const profile = getProfile(player.id);
 
   // Related players: same current or last team first, then neighbors in the same ranking. Both are stated relationships.
   const teammates = team ? teamPlayers(team.id).filter((p) => p.id !== player.id) : [];
@@ -156,6 +158,20 @@ export default async function PlayerPage({ params }: Props) {
 
         <div className="wrap cols">
           <div>
+            {profile && (
+              <section className="block profile" aria-labelledby="ab-h">
+                <h2 id="ab-h">About {player.name}</h2>
+                <div className="prose">
+                  {profile.intro.map((p, i) => <p key={i}>{p}</p>)}
+                  <h3>Why the {player.name} jersey stands out</h3>
+                  <ul className="jersey-points">
+                    {profile.jerseyPoints.map((j) => <li key={j.label}><strong>{j.label}.</strong> {j.text}</li>)}
+                  </ul>
+                  <p>{profile.closing}</p>
+                </div>
+              </section>
+            )}
+
             <section className="block" aria-labelledby="hl-h">
               <h2 id="hl-h">Highlights</h2>
               <ul className="highlights" style={{ marginTop: 0 }}>

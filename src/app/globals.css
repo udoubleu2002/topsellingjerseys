@@ -875,3 +875,9 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .chart-team { color: var(--muted); font-size: 13px; text-align: right; }
 .chart-all { display: inline-flex; }
 @media (max-width: 520px) { .chart-team { display: none; } }
+
+/* Player write-up */
+.profile .prose { font-size: 16px; line-height: 1.6; }
+.profile h3 { font: 700 20px/1.25 var(--f-head); color: var(--ink); margin: 20px 0 8px; }
+.jersey-points { margin: 0 0 12px; padding-left: 20px; display: grid; gap: 8px; }
+.jersey-points strong { color: var(--ink); }

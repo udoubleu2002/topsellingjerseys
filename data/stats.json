@@ -84,7 +84,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "G",
@@ -100,7 +100,7 @@
       },
       {
         "label": "+/-",
-        "value": "+3"
+        "value": "+2"
       },
       {
         "label": "PPP",
@@ -108,17 +108,17 @@
       },
       {
         "label": "SOG",
-        "value": "11"
+        "value": "13"
       },
       {
         "label": "TOI",
-        "value": "13:56"
+        "value": "14:12"
       }
     ],
     "note": null,
-    "source": "https://www.espn.com/nhl/player/gamelog/_/id/3101/alex-ovechkin",
-    "throughDate": "2026-10-18",
-    "updatedAt": "2026-10-21",
+    "source": "https://www.hockey-reference.com/players/o/ovechal01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -160,7 +160,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "9"
+        "value": "11"
       },
       {
         "label": "G",
@@ -184,17 +184,17 @@
       },
       {
         "label": "SOG",
-        "value": "21"
+        "value": "22"
       },
       {
         "label": "TOI",
-        "value": "19:35"
+        "value": "19:14"
       }
     ],
     "note": null,
-    "source": "https://www.espn.com/nhl/player/gamelog/_/id/3114/sidney-crosby",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "source": "https://www.hockey-reference.com/players/c/crosbsi01.html",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -236,7 +236,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "G",
@@ -260,17 +260,17 @@
       },
       {
         "label": "SOG",
-        "value": "32"
+        "value": "35"
       },
       {
         "label": "TOI",
-        "value": "21:09"
+        "value": "20:41"
       }
     ],
     "note": null,
     "source": "https://www.hockey-reference.com/players/h/hugheja03.html",
-    "throughDate": "2026-10-18",
-    "updatedAt": "2026-10-21",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -312,7 +312,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "G",
@@ -320,25 +320,33 @@
       },
       {
         "label": "A",
-        "value": "17"
+        "value": "20"
       },
       {
         "label": "PTS",
-        "value": "23"
+        "value": "26"
       },
       {
         "label": "+/-",
-        "value": "+19"
+        "value": "+17"
+      },
+      {
+        "label": "PPP",
+        "value": "8"
       },
       {
         "label": "SOG",
-        "value": "18"
+        "value": "22"
+      },
+      {
+        "label": "TOI",
+        "value": "23:38"
       }
     ],
     "note": null,
     "source": "https://www.hockey-reference.com/players/m/mcdavco01.html",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -380,7 +388,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "9"
+        "value": "10"
       },
       {
         "label": "G",
@@ -396,7 +404,7 @@
       },
       {
         "label": "+/-",
-        "value": "+2"
+        "value": "0"
       },
       {
         "label": "PPP",
@@ -404,17 +412,17 @@
       },
       {
         "label": "SOG",
-        "value": "39"
+        "value": "44"
       },
       {
         "label": "TOI",
-        "value": "21:16"
+        "value": "21:17"
       }
     ],
     "note": null,
-    "source": "https://www.espn.com/nhl/player/_/id/3041969/nathan-mackinnon",
-    "throughDate": "2026-10-19",
-    "updatedAt": "2026-10-21",
+    "source": "https://www.hockey-reference.com/players/m/mackina01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -524,7 +532,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "9"
+        "value": "10"
       },
       {
         "label": "G",
@@ -540,7 +548,7 @@
       },
       {
         "label": "+/-",
-        "value": "+3"
+        "value": "+2"
       },
       {
         "label": "PPP",
@@ -549,12 +557,16 @@
       {
         "label": "SOG",
         "value": "34"
+      },
+      {
+        "label": "TOI",
+        "value": "19:56"
       }
     ],
     "note": null,
-    "source": "https://www.cbssports.com/nhl/teams/bos/boston-bruins/stats/",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "source": "https://www.hockey-reference.com/players/p/pastrda01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -596,41 +608,41 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "10"
+        "value": "11"
       },
       {
         "label": "G",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "A",
-        "value": "9"
+        "value": "10"
       },
       {
         "label": "PTS",
-        "value": "16"
+        "value": "18"
       },
       {
         "label": "+/-",
-        "value": "+2"
+        "value": "+5"
       },
       {
         "label": "PPP",
-        "value": "6"
+        "value": "7"
       },
       {
         "label": "SOG",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "TOI",
-        "value": "21:44"
+        "value": "21:15"
       }
     ],
     "note": null,
-    "source": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
-    "throughDate": "2026-10-19",
-    "updatedAt": "2026-10-21",
+    "source": "https://www.hockey-reference.com/players/m/matthau01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -672,41 +684,41 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "7"
+        "value": "9"
       },
       {
         "label": "G",
-        "value": "3"
+        "value": "5"
       },
       {
         "label": "A",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "PTS",
-        "value": "11"
+        "value": "14"
       },
       {
         "label": "+/-",
-        "value": "+1"
+        "value": "0"
       },
       {
         "label": "PPP",
-        "value": "6"
+        "value": "8"
       },
       {
         "label": "SOG",
-        "value": "31"
+        "value": "39"
       },
       {
         "label": "TOI",
-        "value": "22:43"
+        "value": "22:49"
       }
     ],
     "note": null,
     "source": "https://www.hockey-reference.com/players/c/celebma01.html",
-    "throughDate": "2026-10-19",
-    "updatedAt": "2026-10-21",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -922,11 +934,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "20"
+        "value": "21"
       },
       {
         "label": "GS",
-        "value": "13"
+        "value": "14"
       },
       {
         "label": "G",
@@ -935,16 +947,12 @@
       {
         "label": "A",
         "value": "4"
-      },
-      {
-        "label": "Shots",
-        "value": "27"
       }
     ],
     "note": "Season in progress; the regular season ends Nov. 7.",
-    "source": "https://www.espn.com/soccer/player/_/id/210252/jordan-morris",
-    "throughDate": "2026-10-10",
-    "updatedAt": "2026-10-21",
+    "source": "https://www.soundersfc.com/news/match-recap-sounders-fc-draws-cf-montreal-1-1-saturday-night-at-lumen-field",
+    "throughDate": "2026-10-17",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -2183,30 +2191,42 @@
     "competition": "regular-season",
     "statistics": [
       {
+        "label": "GP",
+        "value": "7"
+      },
+      {
         "label": "Cmp/Att",
-        "value": "18/32"
+        "value": "141/214"
+      },
+      {
+        "label": "Cmp%",
+        "value": "65.9"
       },
       {
         "label": "Pass Yds",
-        "value": "235"
+        "value": "1,784"
       },
       {
         "label": "Pass TD",
-        "value": "3"
+        "value": "13"
       },
       {
         "label": "INT",
-        "value": "0"
+        "value": "8"
       },
       {
         "label": "Rush Yds",
-        "value": "24"
+        "value": "211"
+      },
+      {
+        "label": "Rush TD",
+        "value": "2"
       }
     ],
-    "note": "Week 6 game against the Jets only. Published season totals disagree, so they are not shown.",
-    "source": "https://www.cbsnews.com/boston/news/new-england-patriots-new-york-jets-week-6-recap/",
-    "throughDate": "2026-10-19",
-    "updatedAt": "2026-10-21",
+    "note": "Season totals through Week 6 from Pro Football Reference plus the Week 7 game line from CBS Sports.",
+    "source": "https://www.cbssports.com/nfl/news/bears-vs-patriots-live-updates-score-highlights/live/",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -2444,45 +2464,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "Cmp/Att",
-        "value": "66/91"
+        "value": "88/124"
       },
       {
         "label": "Cmp%",
-        "value": "72.5"
+        "value": "71.0"
       },
       {
         "label": "Pass Yds",
-        "value": "712"
+        "value": "1,020"
       },
       {
         "label": "Pass TD",
-        "value": "3"
+        "value": "5"
       },
       {
         "label": "INT",
         "value": "1"
-      },
-      {
-        "label": "Rating",
-        "value": "101.5"
-      },
-      {
-        "label": "Rush Yds",
-        "value": "110"
-      },
-      {
-        "label": "Rush TD",
-        "value": "2"
       }
     ],
-    "note": "Missed Weeks 3 to 5 (hamstring). Cmp% and passer rating are calculated from the verified totals.",
-    "source": "https://www.espn.com/nfl/player/gamelog/_/id/4431611/caleb-williams",
-    "throughDate": "2026-10-19",
-    "updatedAt": "2026-10-21",
+    "note": "Week 1-6 totals from ESPN plus the Week 7 game line from CBS Sports; rushing totals left out until confirmed.",
+    "source": "https://www.cbssports.com/nfl/news/bears-vs-patriots-live-updates-score-highlights/live/",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   },
   {
@@ -4063,6 +4071,706 @@
     "source": "https://wnba.com/news/wilson-named-2026-most-valuable-player",
     "throughDate": "2026-09-24",
     "updatedAt": "2026-10-21",
+    "isDemo": false
+  },
+  {
+    "playerId": "stephen-curry",
+    "league": "nba",
+    "teamId": "golden-state-warriors",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "23.0"
+      },
+      {
+        "label": "RPG",
+        "value": "2.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.0"
+      },
+      {
+        "label": "SPG",
+        "value": "2.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "46.7"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/c/curryst01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "luka-doncic",
+    "league": "nba",
+    "teamId": "los-angeles-lakers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "28.0"
+      },
+      {
+        "label": "RPG",
+        "value": "8.0"
+      },
+      {
+        "label": "APG",
+        "value": "7.0"
+      },
+      {
+        "label": "SPG",
+        "value": "3.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "5.0"
+      },
+      {
+        "label": "FG%",
+        "value": "38.9"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/d/doncilu01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "jalen-brunson",
+    "league": "nba",
+    "teamId": "new-york-knicks",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "21.0"
+      },
+      {
+        "label": "RPG",
+        "value": "5.0"
+      },
+      {
+        "label": "APG",
+        "value": "3.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "31.6"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/b/brunsja01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "victor-wembanyama",
+    "league": "nba",
+    "teamId": "san-antonio-spurs",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "12.0"
+      },
+      {
+        "label": "RPG",
+        "value": "13.0"
+      },
+      {
+        "label": "APG",
+        "value": "3.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "6.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "7.7"
+      },
+      {
+        "label": "FT%",
+        "value": "83.3"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/w/wembavi01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "lebron-james",
+    "league": "nba",
+    "teamId": "philadelphia-76ers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "2"
+      },
+      {
+        "label": "PPG",
+        "value": "15.5"
+      },
+      {
+        "label": "RPG",
+        "value": "9.5"
+      },
+      {
+        "label": "APG",
+        "value": "6.0"
+      },
+      {
+        "label": "SPG",
+        "value": "2.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.5"
+      },
+      {
+        "label": "FG%",
+        "value": "37.0"
+      },
+      {
+        "label": "FT%",
+        "value": "76.9"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/j/jamesle01.html",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "anthony-edwards",
+    "league": "nba",
+    "teamId": "minnesota-timberwolves",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "45.0"
+      },
+      {
+        "label": "RPG",
+        "value": "10.0"
+      },
+      {
+        "label": "APG",
+        "value": "3.0"
+      },
+      {
+        "label": "SPG",
+        "value": "2.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "9.0"
+      },
+      {
+        "label": "FG%",
+        "value": "55.2"
+      },
+      {
+        "label": "FT%",
+        "value": "80.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/e/edwaran01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "lamelo-ball",
+    "league": "nba",
+    "teamId": "minnesota-timberwolves",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "21.0"
+      },
+      {
+        "label": "RPG",
+        "value": "2.0"
+      },
+      {
+        "label": "APG",
+        "value": "6.0"
+      },
+      {
+        "label": "SPG",
+        "value": "2.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "5.0"
+      },
+      {
+        "label": "FG%",
+        "value": "41.2"
+      },
+      {
+        "label": "FT%",
+        "value": "66.7"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/b/ballla01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "jayson-tatum",
+    "league": "nba",
+    "teamId": "boston-celtics",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "13.0"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "11.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "26.1"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/t/tatumja01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "shai-gilgeous-alexander",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "32.0"
+      },
+      {
+        "label": "RPG",
+        "value": "6.0"
+      },
+      {
+        "label": "APG",
+        "value": "4.0"
+      },
+      {
+        "label": "SPG",
+        "value": "3.0"
+      },
+      {
+        "label": "BPG",
+        "value": "3.0"
+      },
+      {
+        "label": "3PG",
+        "value": "3.0"
+      },
+      {
+        "label": "FG%",
+        "value": "48.1"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/g/gilgesh01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "cooper-flagg",
+    "league": "nba",
+    "teamId": "dallas-mavericks",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "32.0"
+      },
+      {
+        "label": "RPG",
+        "value": "5.0"
+      },
+      {
+        "label": "APG",
+        "value": "2.0"
+      },
+      {
+        "label": "SPG",
+        "value": "3.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "58.8"
+      },
+      {
+        "label": "FT%",
+        "value": "84.6"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/f/flaggco01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "kevin-durant",
+    "league": "nba",
+    "teamId": "houston-rockets",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "30.0"
+      },
+      {
+        "label": "RPG",
+        "value": "6.0"
+      },
+      {
+        "label": "APG",
+        "value": "3.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "62.5"
+      },
+      {
+        "label": "FT%",
+        "value": "72.7"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/d/duranke01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "tyrese-maxey",
+    "league": "nba",
+    "teamId": "philadelphia-76ers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "28.0"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "5.0"
+      },
+      {
+        "label": "SPG",
+        "value": "3.0"
+      },
+      {
+        "label": "BPG",
+        "value": "3.0"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "47.4"
+      },
+      {
+        "label": "FT%",
+        "value": "88.9"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/m/maxeyty01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "devin-booker",
+    "league": "nba",
+    "teamId": "phoenix-suns",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "23.0"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "2.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "53.8"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/b/bookede01.html",
+    "throughDate": "2026-10-21",
+    "updatedAt": "2026-10-23",
+    "isDemo": false
+  },
+  {
+    "playerId": "cade-cunningham",
+    "league": "nba",
+    "teamId": "detroit-pistons",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "22.0"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "8.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "44.4"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.basketball-reference.com/players/c/cunnica01.html",
+    "throughDate": "2026-10-20",
+    "updatedAt": "2026-10-23",
     "isDemo": false
   }
 ]
