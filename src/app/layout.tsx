@@ -12,7 +12,7 @@ const num = Barlow_Condensed({ subsets: ["latin"], weight: ["500", "600", "700",
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `Top Selling Jerseys: NFL, NBA, WNBA, MLB, NHL and MLS Rankings | ${site.name}`, template: `%s | ${site.name}` },
+  title: { default: `${site.name}: NFL, NBA, WNBA, MLB, NHL and MLS Rankings`, template: `${site.name}: %s` },
   description: "The latest published top-selling jersey rankings for the NFL, NBA, WNBA, MLB, NHL and MLS, with player stats, sources and links to shop.",
   openGraph: { siteName: site.name, type: "website", locale: "en_US" },
   twitter: { card: "summary_large_image" },

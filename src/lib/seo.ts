@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { site } from "./config";
 
-const BRAND = ` | ${site.name}`;
-
-/** Adds the brand suffix only when the full title stays short enough to show in search results. */
+/** Every page title starts with the brand, "Top Selling Jerseys: ...", unless it already does. */
 export function pageTitle(t: string): string {
-  return t.length + BRAND.length <= 62 ? t + BRAND : t;
+  const clean = t.replace(new RegExp(`\\s*\\|\\s*${site.name}$`), "");
+  return clean.toLowerCase().startsWith(site.name.toLowerCase()) ? clean : `${site.name}: ${clean}`;
 }
 
 /** Trims a description to search-snippet length at a word boundary. */
