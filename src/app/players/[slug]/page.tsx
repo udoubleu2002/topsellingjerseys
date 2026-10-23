@@ -70,6 +70,8 @@ export default async function PlayerPage({ params }: Props) {
 
   const seo = { player, league, team, latest, line };
   const intro = playerIntro(seo);
+  // The hero shows the season stats in full just below, so its intro leaves out the one-line stat summary.
+  const heroIntro = playerIntro({ ...seo, line: undefined });
   const faq = playerFaq(seo);
   const url = abs(`/players/${player.slug}/`);
   const ld = {
@@ -123,7 +125,7 @@ export default async function PlayerPage({ params }: Props) {
                 <span>{player.position}</span>
                 {player.number && <span>No. {player.number}</span>}
               </p>
-              {intro && <p className="p-intro">{intro}</p>}
+              {heroIntro && <p className="p-intro">{heroIntro}</p>}
               {player.overview && <p className="lede p-overview">{player.overview}</p>}
               <dl className="facts">
                 <div><dt>Team</dt><dd>{team?.name ?? "—"}</dd></div>
