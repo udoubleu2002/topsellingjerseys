@@ -39,7 +39,7 @@ function tagged(href: string, page: string): { href: string; ref: string } {
   try { host = new URL(href).hostname; } catch { return { href, ref: "" }; }
   if (IMPACT.test(host)) {
     const ref = newRef();
-    return { href: setParam(setParam(href, "subId2", ref), "subId3", page.toLowerCase().replace(/\//g, "~").slice(0, 80)), ref };
+    return { href: setParam(setParam(href, "subId2", ref), "subId3", page.toLowerCase().replace(/(.)\/+$/, "$1").replace(/\//g, "~").slice(0, 80)), ref };
   }
   if (CJ.test(host)) {
     const ref = newRef();
