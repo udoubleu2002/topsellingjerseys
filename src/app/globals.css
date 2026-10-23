@@ -923,3 +923,5 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 }
 .rail-main { min-width: 0; }
 .rail-main + .rail { padding-top: 0; }
+/* Pages with the sidebar run wider so the main column keeps its two-column lists. */
+body:has(.with-rail) { --max: 1360px; }
