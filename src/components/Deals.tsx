@@ -29,6 +29,7 @@ export function DealsBar({ league, page }: { league?: string; page: string }) {
           </div>
         );
       })}
+      <p className="disclosure">We may earn a commission on purchases through these deals, at no cost to you.</p>
     </aside>
   );
 }
