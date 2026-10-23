@@ -318,7 +318,7 @@ export default async function PlayerPage({ params }: Props) {
           </aside>
         </div>
         <JsonLd data={ld} />
-        {primary && <StickyShop offer={primary} name={player.name} sub={`No. ${latest?.rank ?? "–"} ${league.name} · ${team?.name ?? player.status}`} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "sticky_mobile", page }} />}
+        {primary && <StickyShop offer={primary} name={player.name} sub={`${latest ? `No. ${latest.rank} ` : ""}${league.name} · ${team?.name ?? player.status}`} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "sticky_mobile", page }} />}
       </main>
     </>
   );

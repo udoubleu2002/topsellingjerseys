@@ -19,7 +19,7 @@ export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
   return errs;
 }
 
-export function checkStore(s: Store, opts: { allowDemo?: boolean } = {}) {
+export function checkStore(s: Store, opts: { allowDemo?: boolean; profiledIds?: Set<string> } = {}) {
   const errors: string[] = [];
   const warnings: string[] = [];
   const playerIds = new Set(s.players.map((p) => p.id));
@@ -48,7 +48,7 @@ export function checkStore(s: Store, opts: { allowDemo?: boolean } = {}) {
     if (new Set(texts).size !== texts.length) errors.push(`${p.id}: highlights must be distinct`);
     if (p.highlights.some((h) => !h.source)) warnings.push(`${p.id}: a highlight has no source`);
     if (!p.birthday) warnings.push(`${p.id}: birthday not verified`);
-    if (!s.rankings.some((r) => r.entries.some((e) => e.playerId === p.id))) warnings.push(`${p.id}: not in any ranking (page will be noindex)`);
+    if (!s.rankings.some((r) => r.entries.some((e) => e.playerId === p.id)) && !opts.profiledIds?.has(p.id)) warnings.push(`${p.id}: not in any ranking and no write-up (page will be noindex)`);
   }
   for (const st of s.stats) {
     if (!playerIds.has(st.playerId)) errors.push(`stats: unknown player ${st.playerId}`);
