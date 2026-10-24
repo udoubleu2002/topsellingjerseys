@@ -1013,3 +1013,32 @@ body:has(.with-rail) { --max: 1360px; }
 }
 @media (min-width: 641px) and (max-width: 860px) { .lrow-who { grid-template-columns: minmax(0, 1fr); grid-template-areas: "name" "team" "stats"; } }
 @media (max-width: 640px) { .lrow-acts { display: contents; } }
+
+/* League pages: a compact header so the ranking starts near the top. Smaller title, a short intro, a slim
+   dates strip, and the source, notes and disclosure on small lines together. */
+main[data-page-type="league"] .crumbs { padding-top: 12px; }
+.league-head { padding-block: 6px 14px; gap: 10px; }
+.league-head h1 { font-size: clamp(30px, 3.6vw, 44px); }
+.league-head .lede { font-size: 15.5px; line-height: 1.5; max-width: 100ch; }
+.league-head .fresh > div { padding: 7px 14px; }
+.league-head .fresh dt { font-size: 10px; }
+.league-head .fresh dd { font-size: 16px; margin-top: 2px; }
+.head-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 18px; font-size: 13px; }
+.head-meta .source-line { font-size: 13px; gap: 2px 14px; }
+.head-meta .report-notes { margin: 0; }
+.head-meta .report-notes summary { min-height: 28px; }
+.head-meta .report-notes[open] { flex-basis: 100%; }
+.head-meta .disclosure { flex-basis: 100%; margin: 0; font-size: 12.5px; color: var(--muted); }
+@media (max-width: 640px) {
+  .league-head h1 { font-size: 30px; }
+  .league-head .lede { font-size: 15px; }
+  .league-head .fresh dd { font-size: 15px; }
+}
+.league-head .fresh, .head-meta .source-line { margin: 0; }
+@media (max-width: 640px) {
+  .league-head { gap: 8px; }
+  .league-head .lede { font-size: 14.5px; line-height: 1.45; }
+  .league-head .fresh > div { padding: 6px 12px; }
+  .league-head .fresh dt { letter-spacing: .06em; }
+  .head-meta { font-size: 12.5px; }
+}

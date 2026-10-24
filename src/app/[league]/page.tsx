@@ -67,15 +67,17 @@ export default async function LeaguePage({ params }: Props) {
       <main id="main" data-page-type="league" data-league={league.id}>
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: `Top Selling ${league.name} Jerseys`, href: `/${league.slug}/` }]} />
         <DealsBar league={league.id} page={pageId} />
-        <header className="wrap page-head">
+        <header className="wrap page-head league-head">
           <h1>Top Selling {league.name} Jerseys</h1>
           {copy && <p className="lede">{copy.intro}</p>}
           {ranking ? (
             <>
               <Freshness ranking={ranking} statsThrough={commonStatsThrough(ranking)} />
-              <SourceLine ranking={ranking} />
-              <ReportNotes ranking={ranking} />
-              <AffiliateNote />
+              <div className="head-meta">
+                <SourceLine ranking={ranking} />
+                <ReportNotes ranking={ranking} />
+                <AffiliateNote />
+              </div>
             </>
           ) : (
             <p className="notice">No verified {league.name} report is published yet.</p>
