@@ -1,7 +1,7 @@
 import type { Store } from "./data";
 import type { Ranking } from "./schema";
 import { type Article, articlePath, linksIn, wordCount } from "./articles";
-import { type Profile, profileWords } from "./profiles";
+import { type Profile } from "./profiles";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -119,7 +119,7 @@ export function checkArticles(articles: Article[], s: Store) {
   return { errors, warnings };
 }
 
-/** Player write-ups: 200-250 words, one per known player, and the player's full name in the opening paragraph. */
+/** Player write-ups: a 60-70 word About paragraph, at most 4 jersey points, one per known player, and the player's full name in the opening paragraph. */
 export function checkProfiles(profiles: Profile[], s: Store) {
   const errors: string[] = [];
   const seen = new Set<string>();
@@ -129,8 +129,8 @@ export function checkProfiles(profiles: Profile[], s: Store) {
     if (!player) { errors.push(`${id}: unknown player`); continue; }
     if (seen.has(p.playerId)) errors.push(`${id}: duplicate`);
     seen.add(p.playerId);
-    const n = profileWords(p);
-    if (n < 200 || n > 250) errors.push(`${id}: ${n} words; write-ups must be 200-250`);
+    const n = p.intro.join(" ").split(/\s+/).filter(Boolean).length;
+    if (n < 60 || n > 70) errors.push(`${id}: About text is ${n} words; it must be 60-70`);
     if (!p.intro[0].includes(player.name)) errors.push(`${id}: the player's full name must appear in the opening paragraph`);
   }
   return { errors };

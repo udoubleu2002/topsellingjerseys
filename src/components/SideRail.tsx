@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
 import { fmtShortDate } from "@/lib/format";
+import { adsFor } from "@/lib/houseAds";
+import { HouseAd } from "./HouseAd";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
 export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
@@ -15,6 +17,7 @@ export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x60
 
 /** Sidebar: a second way into the lists (top 5 of every league at a glance) plus ad space. */
 export function SideRail({ active }: { active?: string }) {
+  const [adA, adB] = adsFor(active);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   return (
     <aside className="rail" aria-label="Browse the lists">
@@ -45,7 +48,7 @@ export function SideRail({ active }: { active?: string }) {
         </div>
       </section>
 
-      <AdSlot size="300x250" id="rail_top" />
+      <HouseAd ad={adA} at="rail_top" />
 
       <section className="rail-box">
         <h2 className="rail-h">Latest reports</h2>
@@ -63,7 +66,7 @@ export function SideRail({ active }: { active?: string }) {
         <Link className="rail-more" href="/rankings/">Report archive →</Link>
       </section>
 
-      <AdSlot size="300x600" id="rail_sticky" className="rail-sticky" />
+      <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" />
     </aside>
   );
 }

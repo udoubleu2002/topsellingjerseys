@@ -17,6 +17,8 @@ import { PriceAlert } from "@/components/PriceAlert";
 import { StickyShop } from "@/components/StickyShop";
 import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
+import { HouseAd } from "@/components/HouseAd";
+import { adsFor } from "@/lib/houseAds";
 import {
   getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getStatLine, getProducts, getPlayer,
   isIndexable, teamLabel, teamPlayers, loadStore,
@@ -68,6 +70,7 @@ export default async function PlayerPage({ params }: Props) {
     ? latest.ranking.entries.filter((e) => Math.abs(e.rank - latest.rank) <= 3 && e.playerId !== player.id).map((e) => ({ p: getPlayer(e.playerId)!, rank: e.rank }))
     : [];
 
+  const rankOf = (id: string) => latest?.ranking.entries.find((e) => e.playerId === id)?.rank;
   const seo = { player, league, team, latest, line };
   const intro = playerIntro(seo);
   // The hero shows the season stats in full just below, so its intro leaves out the one-line stat summary.
@@ -114,8 +117,8 @@ export default async function PlayerPage({ params }: Props) {
         <DealsBar league={league.id} page={page} />
         <section className="phero">
           <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: `Top Selling ${league.name} Jerseys`, href: `/${league.slug}/` }, { name: player.name, href: `/players/${player.slug}/` }]} />
-          <div className="wrap phero-in" style={{ marginTop: 14 }}>
-            <ProductImage player={player} team={team} product={jersey} priority />
+          <div className={`wrap phero-in${jersey?.image ? "" : " no-img"}`} style={{ marginTop: 14 }}>
+            {jersey?.image && <ProductImage player={player} team={team} product={jersey} priority />}
             <div>
               {latest && <p className="eyebrow">No. {latest.rank} on the Top Selling {league.name} Jerseys list</p>}
               <h1 className="p-h1" style={{ marginTop: 8 }}>{player.name} <span className="h1-tag">Jersey</span></h1>
@@ -300,7 +303,7 @@ export default async function PlayerPage({ params }: Props) {
                 <h2 id="tm-h">Also ranked from the {team.name}</h2>
                 <ul className="linklist">
                   {teammates.map((p) => (
-                    <li key={p.id}><Link href={`/players/${p.slug}/`}><span>{p.name}</span><span className="r">{p.position}</span></Link></li>
+                    <li key={p.id}><Link href={`/players/${p.slug}/`}><span>{p.name}</span><span className="r">{rankOf(p.id) ? `No. ${rankOf(p.id)}` : p.position}</span></Link></li>
                   ))}
                 </ul>
               </section>
@@ -316,6 +319,7 @@ export default async function PlayerPage({ params }: Props) {
                 </ol>
               </section>
             )}
+            <HouseAd ad={adsFor(league.id)[0]} at="player_side" />
             <section className="side-box">
               <h2>Full ranking</h2>
               <Link className="btn-ghost" href={`/${league.slug}/#rank-${latest?.rank ?? 1}`}>Top Selling {league.name} Jerseys</Link>

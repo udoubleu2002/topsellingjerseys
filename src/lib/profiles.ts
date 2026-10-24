@@ -11,7 +11,7 @@ import { z } from "zod";
 export const ProfileSchema = z.object({
   playerId: z.string(),
   intro: z.array(z.string().min(1)).min(1).max(3),
-  jerseyPoints: z.array(z.object({ label: z.string().min(1), text: z.string().min(1) })).length(3),
+  jerseyPoints: z.array(z.object({ label: z.string().min(1), text: z.string().min(1) })).min(3).max(4),
   closing: z.string().min(1),
   lastReviewed: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });

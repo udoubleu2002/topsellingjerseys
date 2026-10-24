@@ -1,10 +1,10 @@
-import { NextResponse, after } from "next/server";
+import { NextResponse } from "next/server";
 import { randomBytes } from "node:crypto";
-import { resolveOffer, type Offer } from "@/lib/affiliate";
+import { resolveOffer } from "@/lib/affiliate";
+import { BOT, fromPage, sendClick } from "@/lib/deskClick";
 
 export const dynamic = "force-dynamic";
 
-const BOT = /bot|crawl|spider|slurp|preview|facebookexternalhit|headless/i;
 
 const IMPACT = /(^|\.)7q8j\.net$/i;
 const CJ = /(^|\.)(kqzyfj\.com|anrdoezrs\.net|jdoqocy\.com|tkqlhce\.com|dpbolvw\.net)$/i;
@@ -19,15 +19,6 @@ function setParam(href: string, name: string, value: string) {
   let h = (k >= 0 ? href.slice(0, k) : href).replace(new RegExp(`([?&])${name}=[^&]*&?`, "g"), "$1").replace(/[?&]$/, "");
   h += `${h.includes("?") ? "&" : "?"}${name}=${encodeURIComponent(value)}`;
   return h + hash;
-}
-
-/** The page the Shop button was on, when the browser says (same site only). */
-function fromPage(req: Request) {
-  try {
-    const ref = new URL(req.headers.get("referer") ?? "");
-    if (ref.host === new URL(req.url).host) return ref.pathname;
-  } catch { /* no referrer */ }
-  return "";
 }
 
 /**
@@ -48,28 +39,6 @@ function tagged(href: string, page: string): { href: string; ref: string } {
   return { href, ref: "" };
 }
 
-/**
- * Counts the click on the editor desk (DESK_CLICK_URL + DESK_CLICK_KEY) after the redirect is sent.
- * Records which offer, where on the page (?at=) and which page (Referer); the IP goes along for rate limiting only.
- */
-function recordClick(req: Request, offer: Offer, page: string, ref: string) {
-  const url = process.env.DESK_CLICK_URL;
-  const key = process.env.DESK_CLICK_KEY;
-  if (!url || !key || BOT.test(req.headers.get("user-agent") ?? "")) return;
-  const at = (new URL(req.url).searchParams.get("at") ?? "").replace(/[^a-z0-9_]/gi, "").slice(0, 40);
-  const ip = (req.headers.get("x-nf-client-connection-ip") || req.headers.get("x-forwarded-for")?.split(",")[0] || "").trim();
-  after(async () => {
-    try {
-      await fetch(`${url.replace(/\/+$/, "")}/api/click`, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain", Authorization: `Bearer ${key}` },
-        body: JSON.stringify({ site: "topsellingjerseys", kind: "affiliate", slot: [offer.kind, at].filter(Boolean).join(" · "), target: offer.merchantName, href: offer.id, label: offer.label, page, ip, ref }),
-        signal: AbortSignal.timeout(4000),
-      });
-    } catch { /* never let counting break shopping */ }
-  });
-}
-
 export async function GET(req: Request, { params }: { params: Promise<{ offerId: string }> }) {
   const { offerId } = await params;
   const offer = resolveOffer(offerId);
@@ -78,6 +47,9 @@ export async function GET(req: Request, { params }: { params: Promise<{ offerId:
   const page = fromPage(req);
   const bot = BOT.test(req.headers.get("user-agent") ?? "");
   const out = bot ? { href: offer.href, ref: "" } : tagged(offer.href, page);
-  recordClick(req, offer, page, out.ref);
+  if (!bot) {
+    const at = (new URL(req.url).searchParams.get("at") ?? "").replace(/[^a-z0-9_]/gi, "").slice(0, 40);
+    sendClick(req, { kind: "affiliate", slot: [offer.kind, at].filter(Boolean).join(" · "), target: offer.merchantName, href: offer.id, label: offer.label, page, ref: out.ref });
+  }
   return NextResponse.redirect(out.href, { status: 302, headers });
 }
