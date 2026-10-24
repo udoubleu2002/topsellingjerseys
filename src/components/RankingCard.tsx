@@ -32,7 +32,7 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
           <span className="lrow-rank" aria-label={`Rank ${rank}`}>{rank}</span>
           <span className="lrow-tile" style={{ backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }} aria-hidden="true">{player.number ?? ""}</span>
           <span className="lrow-who">
-            <span><Link className="lrow-name" href={href} id={`p-${player.id}`}>{player.name}</Link>
+            <span><span className="lrow-name" id={`p-${player.id}`}>{player.name}</span>
               {move && move.delta !== null && move.delta !== 0 && <span className={`rank-move ${move.delta > 0 ? "up" : "down"}`}>{move.delta > 0 ? ` ▲ ${move.delta}` : ` ▼ ${-move.delta}`}</span>}
               {move && move.previousRank === null && <span className="rank-move"> New</span>}</span>
             <span className="lrow-team">{teamLabel} · {player.position}{player.number ? ` · No. ${player.number}` : ""}</span>

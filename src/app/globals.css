@@ -1052,3 +1052,6 @@ main[data-page-type="league"] .crumbs { padding-top: 12px; }
 .rrow-end .rchev { margin-left: 4px; }
 .rchev { flex-shrink: 0; }
 @media (max-width: 640px) { .rrow-end { gap: 6px; } .rrow-end .have-btn { padding: 0 8px; } }
+.rdet > summary .lrow-name:hover { text-decoration: none; }
+.rdet > summary:hover .lrow-name { color: var(--accent); }
+.hero-top .hero-head p { max-width: none; }
