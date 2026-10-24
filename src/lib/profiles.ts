@@ -1,6 +1,6 @@
 /**
  * Player write-ups shown on /players/<slug>/: two short intro paragraphs, a bulleted list of
- * reasons the jersey stands out, and a closing line. Stored in data/profiles.json, one per player.
+ * three reasons the jersey stands out, and a closing line. Stored in data/profiles.json, one per player.
  * Every fact must already appear in the player's sourced highlights or stats, or be a stable,
  * well-known detail (team colors, the number worn). Wording is original.
  */
@@ -11,7 +11,7 @@ import { z } from "zod";
 export const ProfileSchema = z.object({
   playerId: z.string(),
   intro: z.array(z.string().min(1)).min(1).max(3),
-  jerseyPoints: z.array(z.object({ label: z.string().min(1), text: z.string().min(1) })).min(3).max(5),
+  jerseyPoints: z.array(z.object({ label: z.string().min(1), text: z.string().min(1) })).length(3),
   closing: z.string().min(1),
   lastReviewed: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });

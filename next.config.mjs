@@ -15,6 +15,10 @@ const nextConfig = {
         { key: "X-Frame-Options", value: "SAMEORIGIN" },
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
       ],
+    }, {
+      // Font files have content-hashed names, so they can be cached for a year.
+      source: "/fonts/:file*",
+      headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
     }];
   },
   async redirects() {

@@ -9,11 +9,12 @@ import { loadProfiles } from "../src/lib/profiles";
 
 try {
   const store = loadStore();
-  const { errors, warnings } = checkStore(store);
+  const profiles = loadProfiles();
+  const { errors, warnings } = checkStore(store, { profiledIds: new Set(profiles.map((p) => p.playerId)) });
   const art = checkArticles(loadArticles(), store);
   errors.push(...art.errors);
   warnings.push(...art.warnings);
-  errors.push(...checkProfiles(loadProfiles(), store).errors);
+  errors.push(...checkProfiles(profiles, store).errors);
   for (const w of warnings) console.warn(`warn  ${w}`);
   for (const e of errors) console.error(`error ${e}`);
   if (errors.length) {

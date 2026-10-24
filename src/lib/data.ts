@@ -9,6 +9,7 @@ import {
   LeagueSchema, TeamSchema, PlayerSchema, StatLineSchema, RankingSchema, MerchantSchema, ProductSchema, PromotionSchema,
   type League, type Team, type Player, type StatLine, type Ranking, type Merchant, type Product, type Promotion,
 } from "./schema";
+import { getProfile } from "./profiles";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -129,9 +130,9 @@ export function getStatLine(playerId: string): StatLine | undefined {
 export const getProducts = (playerId: string) =>
   loadStore().products.filter((p) => p.playerId === playerId && !p.flagged);
 
-/** A player page is indexable when it has verified highlights and a ranking appearance. */
+/** A player page is indexable when it has verified highlights and either a ranking appearance or an original write-up. */
 export function isIndexable(p: Player) {
-  return p.highlights.length === 3 && getAppearances(p.id).length > 0;
+  return p.highlights.length === 3 && (getAppearances(p.id).length > 0 || !!getProfile(p.id));
 }
 
 export function teamPlayers(teamId: string) {
