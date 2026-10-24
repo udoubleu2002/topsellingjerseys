@@ -553,6 +553,9 @@
   window.addEventListener("storage", badges);
   document.addEventListener("click", function (e) {
     var w = e.target.closest && e.target.closest("[data-mj-wish]");
+    // In a ranking row the buttons sit inside <summary>; keep a tap from also opening the row.
+    var inRow = e.target.closest && e.target.closest("summary [data-mj-wish], summary [data-mj-have]");
+    if (inRow) e.preventDefault();
     if (w) {
       var ws = load(), wl = w.dataset.league, wn = w.dataset.name, wat = find(ws.wish, wl, wn);
       if (wat > -1) ws.wish.splice(wat, 1); else ws.wish.push({ l: wl, n: wn });

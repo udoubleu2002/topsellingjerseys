@@ -39,6 +39,7 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
             {quick.length > 0 && <span className="lrow-stats">{quick.map((s) => `${s.value} ${s.label}`).join(" · ")}</span>}
           </span>
           <span className="rrow-end">
+            <HaveJersey name={player.name} league={ranking.league} className="have-sm" />
             {offer && (
               <ShopButton offer={offer} variant="small" ctx={{ league: ranking.league, playerId: player.id, rank, placement: "ranking_row", page }}>
                 <span className="sr-only">Shop {player.name} Jerseys</span><span aria-hidden="true">Shop</span>

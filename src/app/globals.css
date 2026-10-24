@@ -1042,3 +1042,13 @@ main[data-page-type="league"] .crumbs { padding-top: 12px; }
   .league-head .fresh dt { letter-spacing: .06em; }
   .head-meta { font-size: 12.5px; }
 }
+
+/* League page rows carry the same short "I have it" and "Wishlist" buttons as the homepage rows. */
+.rrow-end { gap: 8px; }
+.rrow-end .have-row { flex-wrap: nowrap; margin: 0; gap: 6px; }
+.rrow-end .have-btn { margin: 0; padding: 0 10px; min-height: 30px; font-size: 12.5px; white-space: nowrap; }
+.rrow-end .have-text { display: none; }
+.rrow-end .have-short { display: inline; }
+.rrow-end .rchev { margin-left: 4px; }
+.rchev { flex-shrink: 0; }
+@media (max-width: 640px) { .rrow-end { gap: 6px; } .rrow-end .have-btn { padding: 0 8px; } }
