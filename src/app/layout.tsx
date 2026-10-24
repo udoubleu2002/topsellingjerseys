@@ -1,14 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Source_Serif_4, Public_Sans, Barlow_Condensed } from "next/font/google";
+import { preload } from "react-dom";
+import "./fonts.css";
 import "./globals.css";
 import { site } from "@/lib/config";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Analytics } from "@/components/Analytics";
 import { Tags } from "@/components/Tags";
 
-const serif = Source_Serif_4({ subsets: ["latin"], weight: ["600", "700"], variable: "--font-serif", display: "swap" });
-const sans = Public_Sans({ subsets: ["latin"], weight: ["400", "600", "700"], variable: "--font-sans", display: "swap" });
-const num = Barlow_Condensed({ subsets: ["latin"], weight: ["500", "600", "700", "800"], style: ["normal", "italic"], variable: "--font-num", display: "swap" });
+/** Latin subsets of the self-hosted fonts in fonts.css, preloaded as next/font did. */
+const PRELOAD_FONTS = [
+  "597b6a5d799c44de-s.p.woff2", // Source Serif 4
+  "8bf7b2ceda89477b-s.p.woff2", // Public Sans
+  "3667c091265cf81b-s.p.woff2", "5fb5c05ff73c0616-s.p.woff2", "437e5f23c97e320c-s.p.woff2", "79f0f365efbf4f90-s.p.woff2", // Barlow Condensed 500-800
+  "040e1cbd80d62d71-s.p.woff2", "29379020bca5f260-s.p.woff2", "14e12da985e5a1a3-s.p.woff2", "72207ecf667d99d7-s.p.woff2", // Barlow Condensed italic 500-800
+];
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -23,8 +28,9 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: "#0e1726", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  for (const f of PRELOAD_FONTS) preload(`/fonts/${f}`, { as: "font", type: "font/woff2", crossOrigin: "anonymous" });
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable} ${num.variable}`}>
+    <html lang="en">
       <body>
         <a className="skip" href="#main">Skip to content</a>
         {children}
