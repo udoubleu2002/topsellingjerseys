@@ -49,7 +49,19 @@ export function Analytics({ pageType }: { pageType?: string }) {
       track(d.track!, { offer: d.offer, offer_kind: d.offerKind, merchant: d.merchant, league: d.league, player: d.player, rank: d.rank, placement: d.placement, page: d.page, cta_variant: cta, path: pathname });
     };
     document.addEventListener("click", onClick);
-    return () => { io.disconnect(); document.removeEventListener("click", onClick); };
+
+    // Phone and in-app browsers often drop the Referer, so /out/ and /go/ links carry the page themselves.
+    const addFrom = (a: HTMLAnchorElement) => {
+      const u = new URL(a.href, location.href);
+      if (u.origin !== location.origin || !/^\/(out|go)\//.test(u.pathname)) return;
+      u.searchParams.set("from", location.pathname);
+      a.href = u.pathname + u.search + u.hash;
+    };
+    document.querySelectorAll<HTMLAnchorElement>("a[href^='/out/'], a[href^='/go/']").forEach(addFrom);
+    const onPress = (ev: Event) => { const a = (ev.target as HTMLElement).closest?.("a"); if (a) addFrom(a); };
+    document.addEventListener("pointerdown", onPress, true);
+    document.addEventListener("click", onPress, true);
+    return () => { io.disconnect(); document.removeEventListener("click", onClick); document.removeEventListener("pointerdown", onPress, true); document.removeEventListener("click", onPress, true); };
   }, [pathname, pageType]);
 
   if (!askConsent) return null;
