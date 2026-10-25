@@ -2,8 +2,10 @@ import { after } from "next/server";
 
 export const BOT = /bot|crawl|spider|slurp|preview|facebookexternalhit|headless/i;
 
-/** The page the link was on, when the browser says (same site only). */
+/** The page the link was on: the link's own ?from= (added in the browser), else the Referer (same site only). */
 export function fromPage(req: Request) {
+  const from = new URL(req.url).searchParams.get("from") ?? "";
+  if (/^\/[a-z0-9\-_/.~%]*$/i.test(from) && from.length <= 200) return from;
   try {
     const ref = new URL(req.headers.get("referer") ?? "");
     if (ref.host === new URL(req.url).host) return ref.pathname;
