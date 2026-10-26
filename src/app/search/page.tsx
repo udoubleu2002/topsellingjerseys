@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SearchClient, type SearchItem } from "@/components/SearchClient";
-import { getPlayers, getLeague, getAppearances, loadStore, teamPlayers, teamLabel } from "@/lib/data";
+import { getPlayers, getLeague, getLeagues, getAppearances, loadStore, teamPlayers, teamLabel } from "@/lib/data";
 
 export const metadata: Metadata = pageMeta({ title: "Search Players and Teams", description: "Search every ranked player and team across the NFL, NBA, WNBA, MLB, NHL and MLS top-selling jersey lists, and jump to their profiles and shop links.", path: "/search/", noindex: true });
 
@@ -33,6 +33,13 @@ export default function SearchPage() {
             </ul>
           </noscript>
         </header>
+        <section className="wrap section" aria-labelledby="browse-h">
+          <div className="section-head"><h2 id="browse-h">Browse the rankings</h2></div>
+          <nav className="related" aria-labelledby="browse-h">
+            {getLeagues().map((l) => <Link key={l.id} href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link>)}
+            <Link href="/rankings/">Report archive</Link>
+          </nav>
+        </section>
       </main>
     </>
   );

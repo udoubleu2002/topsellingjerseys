@@ -277,7 +277,7 @@ export default async function PlayerPage({ params }: Props) {
               <div className="faq">
                 {faq.map((f) => (
                   <details key={f.q} open>
-                    <summary>{f.q}</summary>
+                    <summary><h3 className="faq-q">{f.q}</h3></summary>
                     <p>{f.a}</p>
                   </details>
                 ))}

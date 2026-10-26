@@ -1055,3 +1055,9 @@ main[data-page-type="league"] .crumbs { padding-top: 12px; }
 .rdet > summary .lrow-name:hover { text-decoration: none; }
 .rdet > summary:hover .lrow-name { color: var(--accent); }
 .hero-top .hero-head p { max-width: none; }
+
+/* Headings added for page structure that keep the look of the text they replaced. */
+.faq summary .faq-q { display: inline; font: inherit; letter-spacing: inherit; text-transform: inherit; }
+h3.lrow-name { display: inline; }
+.article-list h3 { font: inherit; font-weight: 700; }
+.list-h { font: 700 20px/1.15 var(--f-head); text-transform: uppercase; letter-spacing: .03em; margin: 0 0 12px; }

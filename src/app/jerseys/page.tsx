@@ -33,7 +33,7 @@ export default function JerseysToWatch() {
               {getArticles(l.id).map((a) => (
                 <li key={a.slug}>
                   <Link href={articlePath(a)}>
-                    <strong>{a.player}</strong>
+                    <h3>{a.player}</h3>
                     <span>{a.teamId ? getAnyTeam(a.teamId)?.name : "Free agent"} · {a.position}</span>
                   </Link>
                 </li>

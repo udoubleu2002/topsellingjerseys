@@ -10,7 +10,8 @@ export default function NotFound() {
         <header className="wrap page-head" style={{ paddingTop: 40 }}>
           <h1>Page not found</h1>
           <p className="lede">That page does not exist or has moved. Try a league ranking or search for a player.</p>
-          <nav className="related" aria-label="Leagues">
+          <h2 id="nf-h" className="list-h" style={{ marginTop: 20 }}>Top selling jersey rankings</h2>
+          <nav className="related" aria-labelledby="nf-h">
             {getLeagues().map((l) => <Link key={l.id} href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link>)}
             <Link href="/search/">Search</Link>
           </nav>
