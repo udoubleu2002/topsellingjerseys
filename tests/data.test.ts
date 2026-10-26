@@ -103,3 +103,14 @@ describe("formatting", () => {
     expect(period(null, null, "2025 season")).toBe("2025 season");
   });
 });
+
+describe("sidebar news", () => {
+  it("loads, passes validation, and lists the newest five first", async () => {
+    const { loadNews, getLatestNews } = await import("@/lib/news");
+    const { checkNews } = await import("@/lib/validate");
+    expect(checkNews(loadNews(), loadStore()).errors).toEqual([]);
+    const latest = getLatestNews(5);
+    expect(latest).toHaveLength(5);
+    expect(latest.map((n) => n.date)).toEqual(latest.map((n) => n.date).slice().sort().reverse());
+  });
+});

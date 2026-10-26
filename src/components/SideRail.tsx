@@ -2,7 +2,9 @@ import Link from "next/link";
 import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
 import { fmtShortDate } from "@/lib/format";
 import { adsFor } from "@/lib/houseAds";
+import { getLatestNews } from "@/lib/news";
 import { HouseAd } from "./HouseAd";
+import { SportJersey } from "./SportJersey";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
 export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
@@ -18,6 +20,7 @@ export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x60
 /** Sidebar: a second way into the lists (top 5 of every league at a glance) plus ad space. */
 export function SideRail({ active }: { active?: string }) {
   const [adA, adB] = adsFor(active);
+  const news = getLatestNews(5);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   return (
     <aside className="rail" aria-label="Browse the lists">
@@ -65,6 +68,27 @@ export function SideRail({ active }: { active?: string }) {
         </ul>
         <Link className="rail-more" href="/rankings/">Report archive →</Link>
       </section>
+
+      {news.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">Jersey sales news</h2>
+          <ul className="rail-news">
+            {news.map((n) => {
+              const player = n.playerId ? getPlayer(n.playerId) : undefined;
+              return (
+                <li key={n.id}>
+                  <SportJersey sport={n.sport} />
+                  <span className="rail-news-who">
+                    {player ? <Link href={`/players/${player.slug}/`}>{n.players.join(", ")}</Link> : n.players.join(", ")}
+                  </span>
+                  <a className="rail-news-hl" href={n.url} target="_blank" rel="noopener nofollow">{n.headline}</a>
+                  <span className="rail-news-meta">{n.outlet} · {fmtShortDate(n.date)}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" />
     </aside>

@@ -911,6 +911,16 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .rail-updates li { display: grid; border-left: 2px solid var(--lg); padding-left: 10px; }
 .rail-updates a { font: 700 15px/1.2 var(--f-num); letter-spacing: .06em; text-decoration: none; }
 .rail-updates span { font-size: 12.5px; color: var(--muted); }
+.rail-news { list-style: none; margin: 0; padding: 0; display: grid; }
+.rail-news li { display: grid; grid-template-columns: 24px 1fr; column-gap: 10px; row-gap: 3px; padding: 10px 0; border-top: 1px solid var(--line); }
+.rail-news li > :not(.sport-jersey) { grid-column: 2; }
+.rail-news .sport-jersey { grid-row: 1 / span 3; width: 24px; height: 24px; margin-top: 1px; }
+.rail-news li:last-child { padding-bottom: 4px; }
+.rail-news-who { font: 700 13px/1.2 var(--f-num); text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
+.rail-news-who a { color: inherit; text-decoration: none; }
+.rail-news-hl { font-size: 14.5px; font-weight: 600; line-height: 1.3; color: var(--ink); text-decoration: none; }
+.rail-news-hl:hover, .rail-news-who a:hover { text-decoration: underline; }
+.rail-news-meta { font-size: 12.5px; color: var(--muted); }
 .ad-slot { width: 100%; max-width: var(--ad-w); aspect-ratio: var(--ad-r); margin: 0 auto; display: grid; place-content: center; text-align: center; gap: 4px;
   background: repeating-linear-gradient(135deg, #0f1522 0 10px, #121a29 10px 20px); border: 1px dashed var(--line-2); border-radius: 4px; color: var(--muted); }
 .ad-label { font: 700 12px/1 var(--f-num); text-transform: uppercase; letter-spacing: .14em; }
