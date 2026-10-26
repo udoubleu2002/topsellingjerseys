@@ -10,7 +10,7 @@ export function Faq({ items }: { items: { q: string; a: string }[] }) {
     <div className="faq">
       {items.map((i) => (
         <details key={i.q}>
-          <summary>{i.q}</summary>
+          <summary><h3 className="faq-q">{i.q}</h3></summary>
           <p>{i.a}</p>
         </details>
       ))}

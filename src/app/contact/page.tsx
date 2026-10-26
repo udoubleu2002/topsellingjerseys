@@ -9,8 +9,10 @@ export const metadata: Metadata = pageMeta({ title: "Contact Top Selling Jerseys
 export default function Contact() {
   return (
     <InfoPage title="Contact" path="/contact/" lede="Corrections, partnership questions and press inquiries are welcome.">
-      <p>Send us a message below, or email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p>
+      <h2>Corrections</h2>
       <p>For a correction, please include the page address and a link to the source that shows the right information.</p>
+      <h2>Send us a message</h2>
+      <p>Use the form below, or email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p>
       <ContactForm />
     </InfoPage>
   );

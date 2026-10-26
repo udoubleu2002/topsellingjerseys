@@ -42,6 +42,7 @@ export default function BestSellingJersey() {
           );
         })}
       </div>
+      <h2>More best selling lists</h2>
       <p>For the top five in each league, see <Link href="/best-selling-jerseys/">best selling jerseys</Link>. For how each list is made, see <Link href="/best-selling-sports-jerseys/">where these sales lists come from</Link>.</p>
       <JsonLd data={ld} />
     </InfoPage>

@@ -87,7 +87,8 @@ export default async function LeaguePage({ params }: Props) {
         <div className="wrap with-rail">
         <div className="rail-main">
         {ranking && (
-          <section className="wrap" aria-label={`Ranked players, ${ranking.periodLabel}`}>
+          <section className="wrap" aria-labelledby="list-h">
+            <h2 id="list-h" className="list-h">{league.name} jersey sales rankings: top {ranking.entries.length}</h2>
             <ol className="ranking">
               {ranking.entries.map((e) => (
                 <RankingCard key={e.playerId} ranking={ranking} rank={e.rank} playerId={e.playerId} leagueName={league.name} page={pageId} />

@@ -8,6 +8,7 @@ export const metadata: Metadata = pageMeta({ title: "Affiliate Disclosure", desc
 export default function Disclosure() {
   return (
     <InfoPage title="Affiliate Disclosure" path="/affiliate-disclosure/">
+      <h2>How we earn money</h2>
       <p>{site.name} may earn a commission when you buy through some of the shopping links on this site. You pay the same price either way.</p>
       <h2>What this means</h2>
       <ul>
@@ -16,7 +17,8 @@ export default function Disclosure() {
         <li>Prices, discounts and availability are set by the retailer. We show a price only for a listing we have checked, with the date we checked it.</li>
         <li>Where we have not verified a specific product, the button opens the retailer&apos;s search for that player&apos;s jerseys and says so.</li>
       </ul>
-      <p>Questions? Email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p>
+      <h2>Questions</h2>
+      <p>Email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.</p>
     </InfoPage>
   );
 }
