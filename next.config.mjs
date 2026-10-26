@@ -16,6 +16,13 @@ const nextConfig = {
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
       ],
     }, {
+      // Share images are for link previews, not search results.
+      source: "/:path*/opengraph-image",
+      headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+    }, {
+      source: "/opengraph-image",
+      headers: [{ key: "X-Robots-Tag", value: "noindex" }],
+    }, {
       // Font files have content-hashed names, so they can be cached for a year.
       source: "/fonts/:file*",
       headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],

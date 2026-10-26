@@ -17,8 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   if (articles.length) out.push({ url: abs("/jerseys/"), lastModified: articles.map((a) => a.lastVerified).sort().at(-1), changeFrequency: "weekly", priority: 0.7 });
   for (const a of articles) out.push({ url: abs(articlePath(a)), lastModified: a.lastVerified, changeFrequency: "monthly", priority: 0.6 });
   out.push({ url: abs("/my-jerseys/"), changeFrequency: "monthly", priority: 0.6 });
+  out.push({ url: abs("/players/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
   out.push({ url: abs("/rankings/"), lastModified: site.lastReviewed, changeFrequency: "monthly", priority: 0.5 });
-  for (const r of getRankings()) out.push({ url: abs(`/rankings/${r.league}/${r.id}/`), lastModified: r.lastVerified, changeFrequency: "yearly", priority: 0.4 });
+  // A league's current report is canonical to its league page, so only archived reports are listed here.
+  for (const r of getRankings().filter((r) => getCurrentRanking(r.league)?.id !== r.id)) out.push({ url: abs(`/rankings/${r.league}/${r.id}/`), lastModified: r.lastVerified, changeFrequency: "yearly", priority: 0.4 });
   for (const p of ["about", "methodology", "sources", "affiliate-disclosure", "contact", "privacy", "terms"]) out.push({ url: abs(`/${p}/`), changeFrequency: "yearly", priority: 0.2 });
   return out;
 }
