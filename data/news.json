@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-10-12-rangers-naderi-shankland",
+    "date": "2026-10-12",
+    "headline": "Rangers' best-selling jerseys for 2026-27 season revealed",
+    "outlet": "Ibrox News via Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/rangers-best-selling-jerseys-2026-181000554.html",
+    "players": ["Ryan Naderi", "Lawrence Shankland"]
+  },
+  {
+    "id": "2026-10-01-barcelona-lamine-yamal",
+    "date": "2026-10-01",
+    "headline": "Barcelona superstar duo top shirt sales so far in 2026-27",
+    "outlet": "Barca Universal via Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/barcelona-superstar-duo-top-shirt-161000294.html",
+    "players": ["Lamine Yamal", "Raphinha"]
+  },
+  {
+    "id": "2026-09-25-mlb-shohei-ohtani",
+    "date": "2026-09-25",
+    "headline": "Shohei Ohtani leads MLB jersey sales for 4th straight season",
+    "outlet": "NBC Los Angeles",
+    "url": "https://www.nbclosangeles.com/news/sports/most-popular-mlb-jerseys-dodgers-shohei-ohtani/3947447/",
+    "players": ["Shohei Ohtani"],
+    "playerId": "shohei-ohtani"
+  },
+  {
+    "id": "2026-07-30-nba-lebron-james-76ers",
+    "date": "2026-07-30",
+    "headline": "LeBron James breaks jersey sales record with Philadelphia 76ers",
+    "outlet": "Heavy via Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/lebron-james-breaks-jersey-sales-030852473.html",
+    "players": ["LeBron James"],
+    "playerId": "lebron-james"
+  },
+  {
+    "id": "2026-05-03-nfl-caleb-downs",
+    "date": "2026-05-03",
+    "headline": "Caleb Downs has the top-selling rookie jersey, so far",
+    "outlet": "Pro Football Talk",
+    "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-downs-has-the-top-selling-rookie-jersey-so-far",
+    "players": ["Caleb Downs"]
+  }
+]

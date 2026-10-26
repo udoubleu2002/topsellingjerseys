@@ -2,6 +2,7 @@ import type { Store } from "./data";
 import type { Ranking } from "./schema";
 import { type Article, articlePath, linksIn, wordCount } from "./articles";
 import { type Profile } from "./profiles";
+import { type NewsItem } from "./news";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -134,4 +135,22 @@ export function checkProfiles(profiles: Profile[], s: Store) {
     if (!p.intro[0].includes(player.name)) errors.push(`${id}: the player's full name must appear in the opening paragraph`);
   }
   return { errors };
+}
+
+/** Sidebar news: unique ids, real player pages, no future dates, and a nudge when the newest story goes stale. */
+export function checkNews(news: NewsItem[], s: Store, today = new Date().toISOString().slice(0, 10)) {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const seen = new Set<string>();
+  for (const n of news) {
+    const id = `news ${n.id}`;
+    if (seen.has(n.id)) errors.push(`${id}: duplicate`);
+    seen.add(n.id);
+    if (n.playerId && !s.players.some((p) => p.id === n.playerId)) errors.push(`${id}: unknown player "${n.playerId}"`);
+    if (n.date > today) errors.push(`${id}: dated ${n.date}, after today`);
+  }
+  if (news.length < 5) warnings.push(`news: only ${news.length} stories; the sidebar shows five`);
+  const newest = news.map((n) => n.date).sort().at(-1);
+  if (newest && Date.parse(today) - Date.parse(newest) > 45 * 86400000) warnings.push(`news: newest story is from ${newest}; add recent jersey sales news to data/news.json`);
+  return { errors, warnings };
 }
