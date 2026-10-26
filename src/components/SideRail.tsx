@@ -4,6 +4,7 @@ import { fmtShortDate } from "@/lib/format";
 import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
 import { HouseAd } from "./HouseAd";
+import { SportJersey } from "./SportJersey";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
 export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
@@ -76,6 +77,7 @@ export function SideRail({ active }: { active?: string }) {
               const player = n.playerId ? getPlayer(n.playerId) : undefined;
               return (
                 <li key={n.id}>
+                  <SportJersey sport={n.sport} />
                   <span className="rail-news-who">
                     {player ? <Link href={`/players/${player.slug}/`}>{n.players.join(", ")}</Link> : n.players.join(", ")}
                   </span>

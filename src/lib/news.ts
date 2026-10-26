@@ -7,9 +7,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 
+export const SPORTS = ["football", "basketball", "baseball", "hockey", "soccer"] as const;
+export type Sport = (typeof SPORTS)[number];
+
 export const NewsItemSchema = z.object({
   id: z.string().min(1),
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Picks the mini jersey shown beside the story. */
+  sport: z.enum(SPORTS),
   headline: z.string().min(1),
   outlet: z.string().min(1),
   url: z.string().url().startsWith("https://"),
