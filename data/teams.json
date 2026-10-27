@@ -620,6 +620,166 @@
     }
   },
   {
+    "id": "atlanta-hawks",
+    "name": "Atlanta Hawks",
+    "league": "nba",
+    "colors": {
+      "primary": "#E03A3E",
+      "secondary": "#FFFFFF",
+      "accent": "#C1D32F"
+    }
+  },
+  {
+    "id": "brooklyn-nets",
+    "name": "Brooklyn Nets",
+    "league": "nba",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#777D84"
+    }
+  },
+  {
+    "id": "chicago-bulls",
+    "name": "Chicago Bulls",
+    "league": "nba",
+    "colors": {
+      "primary": "#CE1141",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "cleveland-cavaliers",
+    "name": "Cleveland Cavaliers",
+    "league": "nba",
+    "colors": {
+      "primary": "#860038",
+      "secondary": "#FDBB30",
+      "accent": "#041E42"
+    }
+  },
+  {
+    "id": "indiana-pacers",
+    "name": "Indiana Pacers",
+    "league": "nba",
+    "colors": {
+      "primary": "#002D62",
+      "secondary": "#FDBB30",
+      "accent": "#BEC0C2"
+    }
+  },
+  {
+    "id": "la-clippers",
+    "name": "LA Clippers",
+    "league": "nba",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#1D428A",
+      "accent": "#BEC0C2"
+    }
+  },
+  {
+    "id": "memphis-grizzlies",
+    "name": "Memphis Grizzlies",
+    "league": "nba",
+    "colors": {
+      "primary": "#5D76A9",
+      "secondary": "#12173F",
+      "accent": "#F5B112"
+    }
+  },
+  {
+    "id": "miami-heat",
+    "name": "Miami Heat",
+    "league": "nba",
+    "colors": {
+      "primary": "#98002E",
+      "secondary": "#F9A01B",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "milwaukee-bucks",
+    "name": "Milwaukee Bucks",
+    "league": "nba",
+    "colors": {
+      "primary": "#00471B",
+      "secondary": "#EEE1C6",
+      "accent": "#0077C0"
+    }
+  },
+  {
+    "id": "new-orleans-pelicans",
+    "name": "New Orleans Pelicans",
+    "league": "nba",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#C8102E",
+      "accent": "#85714D"
+    }
+  },
+  {
+    "id": "orlando-magic",
+    "name": "Orlando Magic",
+    "league": "nba",
+    "colors": {
+      "primary": "#0077C0",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "portland-trail-blazers",
+    "name": "Portland Trail Blazers",
+    "league": "nba",
+    "colors": {
+      "primary": "#E03A3E",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "sacramento-kings",
+    "name": "Sacramento Kings",
+    "league": "nba",
+    "colors": {
+      "primary": "#5A2D81",
+      "secondary": "#FFFFFF",
+      "accent": "#63727A"
+    }
+  },
+  {
+    "id": "toronto-raptors",
+    "name": "Toronto Raptors",
+    "league": "nba",
+    "colors": {
+      "primary": "#CE1141",
+      "secondary": "#000000",
+      "accent": "#A1A1A4"
+    }
+  },
+  {
+    "id": "utah-jazz",
+    "name": "Utah Jazz",
+    "league": "nba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#F9A01B",
+      "accent": "#00471B"
+    }
+  },
+  {
+    "id": "washington-wizards",
+    "name": "Washington Wizards",
+    "league": "nba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#E31837",
+      "accent": "#C4CED4"
+    }
+  },
+  {
     "id": "indiana-fever",
     "name": "Indiana Fever",
     "league": "wnba",
