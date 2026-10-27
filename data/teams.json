@@ -1438,5 +1438,105 @@
       "secondary": "#9DC2EA",
       "accent": "#FFFFFF"
     }
+  },
+  {
+    "id": "connecticut-sun",
+    "name": "Connecticut Sun",
+    "league": "wnba",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#F05023",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "dallas-wings",
+    "name": "Dallas Wings",
+    "league": "wnba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#C4D600",
+      "accent": "#0C7BC0"
+    }
+  },
+  {
+    "id": "golden-state-valkyries",
+    "name": "Golden State Valkyries",
+    "league": "wnba",
+    "colors": {
+      "primary": "#5B2C83",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "los-angeles-sparks",
+    "name": "Los Angeles Sparks",
+    "league": "wnba",
+    "colors": {
+      "primary": "#702F8A",
+      "secondary": "#FFC72C",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "minnesota-lynx",
+    "name": "Minnesota Lynx",
+    "league": "wnba",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#78BE20",
+      "accent": "#236192"
+    }
+  },
+  {
+    "id": "phoenix-mercury",
+    "name": "Phoenix Mercury",
+    "league": "wnba",
+    "colors": {
+      "primary": "#3C286E",
+      "secondary": "#FA4B0A",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "portland-fire",
+    "name": "Portland Fire",
+    "league": "wnba",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "seattle-storm",
+    "name": "Seattle Storm",
+    "league": "wnba",
+    "colors": {
+      "primary": "#2C5235",
+      "secondary": "#FBE122",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "toronto-tempo",
+    "name": "Toronto Tempo",
+    "league": "wnba",
+    "colors": {
+      "primary": "#6C1D45",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "washington-mystics",
+    "name": "Washington Mystics",
+    "league": "wnba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#FFFFFF",
+      "accent": "#E03A3E"
+    }
   }
 ]
