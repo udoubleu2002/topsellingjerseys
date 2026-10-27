@@ -9,6 +9,7 @@ import { Freshness, SourceLine, ReportNotes, AffiliateNote } from "@/components/
 import { Faq } from "@/components/Faq";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
+import { TeamRosters } from "@/components/TeamRosters";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getLeagueBySlug, getCurrentRanking, getRankings, getPlayer, commonStatsThrough } from "@/lib/data";
 import { leagueCopy } from "@/lib/content";
@@ -96,6 +97,8 @@ export default async function LeaguePage({ params }: Props) {
             </ol>
           </section>
         )}
+
+        <TeamRosters league={league} />
 
         <section className="wrap section" aria-labelledby="about-h">
           <div className="section-head"><h2 id="about-h">About this ranking</h2></div>

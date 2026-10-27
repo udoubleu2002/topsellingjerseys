@@ -1071,3 +1071,13 @@ main[data-page-type="league"] .crumbs { padding-top: 12px; }
 h3.lrow-name { display: inline; }
 .article-list h3 { font: inherit; font-weight: 700; }
 .list-h { font: 700 20px/1.15 var(--f-head); text-transform: uppercase; letter-spacing: .03em; margin: 0 0 12px; }
+
+/* League page: players grouped by team */
+.troster-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.troster { border: 1px solid var(--line-2); border-radius: 6px; background: var(--surface); padding: 12px 14px; min-width: 0; }
+.troster h3 { font: 700 16px/1.2 var(--f-head); text-transform: uppercase; letter-spacing: .03em; margin: 0 0 8px; padding-left: 8px; border-left: 4px solid var(--line-2); }
+.troster ul { list-style: none; margin: 0; padding: 0; }
+.troster li { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 5px 0; border-top: 1px solid var(--line-2); font-size: 14px; }
+.troster li:first-child { border-top: 0; }
+.troster li a { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+.troster li span { color: var(--ink-2); font-size: 12px; white-space: nowrap; }
