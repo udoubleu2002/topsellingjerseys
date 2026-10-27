@@ -818,5 +818,155 @@
       "secondary": "#C4CED4",
       "accent": "#000000"
     }
+  },
+  {
+    "id": "arizona-cardinals",
+    "name": "Arizona Cardinals",
+    "league": "nfl",
+    "colors": {
+      "primary": "#97233F",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "atlanta-falcons",
+    "name": "Atlanta Falcons",
+    "league": "nfl",
+    "colors": {
+      "primary": "#A71930",
+      "secondary": "#000000",
+      "accent": "#A5ACAF"
+    }
+  },
+  {
+    "id": "carolina-panthers",
+    "name": "Carolina Panthers",
+    "league": "nfl",
+    "colors": {
+      "primary": "#0085CA",
+      "secondary": "#101820",
+      "accent": "#BFC0BF"
+    }
+  },
+  {
+    "id": "cincinnati-bengals",
+    "name": "Cincinnati Bengals",
+    "league": "nfl",
+    "colors": {
+      "primary": "#FB4F14",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "cleveland-browns",
+    "name": "Cleveland Browns",
+    "league": "nfl",
+    "colors": {
+      "primary": "#311D00",
+      "secondary": "#FF3C00",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "indianapolis-colts",
+    "name": "Indianapolis Colts",
+    "league": "nfl",
+    "colors": {
+      "primary": "#002C5F",
+      "secondary": "#FFFFFF",
+      "accent": "#A2AAAD"
+    }
+  },
+  {
+    "id": "jacksonville-jaguars",
+    "name": "Jacksonville Jaguars",
+    "league": "nfl",
+    "colors": {
+      "primary": "#006778",
+      "secondary": "#101820",
+      "accent": "#D7A22A"
+    }
+  },
+  {
+    "id": "las-vegas-raiders",
+    "name": "Las Vegas Raiders",
+    "league": "nfl",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#A5ACAF",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "los-angeles-chargers",
+    "name": "Los Angeles Chargers",
+    "league": "nfl",
+    "colors": {
+      "primary": "#0080C6",
+      "secondary": "#FFC20E",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "miami-dolphins",
+    "name": "Miami Dolphins",
+    "league": "nfl",
+    "colors": {
+      "primary": "#008E97",
+      "secondary": "#FC4C02",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-orleans-saints",
+    "name": "New Orleans Saints",
+    "league": "nfl",
+    "colors": {
+      "primary": "#101820",
+      "secondary": "#D3BC8D",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-york-giants",
+    "name": "New York Giants",
+    "league": "nfl",
+    "colors": {
+      "primary": "#0B2265",
+      "secondary": "#A71930",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-york-jets",
+    "name": "New York Jets",
+    "league": "nfl",
+    "colors": {
+      "primary": "#125740",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "tampa-bay-buccaneers",
+    "name": "Tampa Bay Buccaneers",
+    "league": "nfl",
+    "colors": {
+      "primary": "#D50A0A",
+      "secondary": "#34302B",
+      "accent": "#FF7900"
+    }
+  },
+  {
+    "id": "tennessee-titans",
+    "name": "Tennessee Titans",
+    "league": "nfl",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#4B92DB",
+      "accent": "#C8102E"
+    }
   }
 ]
