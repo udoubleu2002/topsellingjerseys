@@ -83,7 +83,6 @@ p { margin: 0; }
 .dt-code { font-size: 12px; color: #e8d6ad; border: 1px dashed rgba(243, 185, 64, .55); border-radius: 3px; padding: 2px 6px; }
 .dt-code b { color: var(--gold); letter-spacing: .04em; }
 .dt-go { color: var(--gold); font-weight: 700; }
-.dt-px { position: absolute; width: 0; height: 0; visibility: hidden; }
 .dt-scroll { overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
 .dt-scroll .dt-list { animation: dt-marquee var(--dt-dur, 30s) linear infinite; }
 .dt-scroll:hover .dt-list, .dt-scroll:focus-within .dt-list { animation-play-state: paused; }

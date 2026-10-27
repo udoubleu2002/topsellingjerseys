@@ -35,8 +35,8 @@ describe("Impact Lids deals", () => {
     expect(campaignFromLink(undefined)).toBeNull();
   });
   it("resolves Lids banner clicks to their Impact tracking links", () => {
-    expect(resolveOffer("ad-lids-1907274")?.href).toBe("https://lids.7q8j.net/c/6755530/1907274/9679");
-    expect(resolveOffer("ad-lids-614558")?.href).toBe("https://lids.7q8j.net/c/6755530/614558/9679");
+    expect(resolveOffer("ad-lids-1907269")?.href).toBe("https://lids.7q8j.net/c/6755530/1907269/9679");
+    expect(resolveOffer("ad-lids-1907274")).toBeNull();
     expect(resolveOffer("ad-lids-123")).toBeNull();
   });
 });
