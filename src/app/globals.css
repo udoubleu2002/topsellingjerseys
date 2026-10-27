@@ -68,6 +68,44 @@ p { margin: 0; }
 .mobile-panel input { flex: 1; height: 44px; border-radius: 4px; border: 1px solid var(--navy-line); background: var(--navy-2); color: #fff; padding: 0 12px; font: 16px var(--f-body); }
 .mobile-panel button { height: 44px; padding: 0 16px; border-radius: 4px; border: 0; background: var(--accent); color: #fff; font-weight: 600; }
 
+/* ---------- Top-bar Lids deals (scrolls away; the masthead below stays sticky) ---------- */
+.dealtick { background: linear-gradient(90deg, #1d1406, #241109); border-bottom: 1px solid rgba(243, 185, 64, .35); color: #f6e7c4; font: 500 13px/1.2 var(--f-body); }
+.dt-in { display: flex; align-items: center; gap: 14px; min-height: 36px; }
+.dt-label { display: flex; align-items: center; gap: 6px; flex: none; }
+.dt-tag { background: var(--gold); color: #1a1205; font: 800 12px/1 var(--f-num); letter-spacing: .12em; text-transform: uppercase; padding: 5px 7px; border-radius: 3px; }
+.dt-ad { font: 600 10px/1 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: #c9b88f; border: 1px solid rgba(243, 185, 64, .4); border-radius: 3px; padding: 3px 4px; cursor: help; }
+.dt-track { flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.dt-track::-webkit-scrollbar { display: none; }
+.dt-list { display: flex; gap: 28px; width: max-content; }
+.dt-item { display: inline-flex; align-items: center; gap: 8px; color: #fff3d6; text-decoration: none; white-space: nowrap; padding: 8px 0; }
+.dt-item:hover .dt-head { text-decoration: underline; text-underline-offset: 3px; }
+.dt-item[hidden] { display: none; }
+.dt-code { font-size: 12px; color: #e8d6ad; border: 1px dashed rgba(243, 185, 64, .55); border-radius: 3px; padding: 2px 6px; }
+.dt-code b { color: var(--gold); letter-spacing: .04em; }
+.dt-go { color: var(--gold); font-weight: 700; }
+.dt-scroll { overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+.dt-scroll .dt-list { animation: dt-marquee var(--dt-dur, 30s) linear infinite; }
+.dt-scroll:hover .dt-list, .dt-scroll:focus-within .dt-list { animation-play-state: paused; }
+@keyframes dt-marquee { to { transform: translateX(calc(-50% - 14px)); } }
+@media (prefers-reduced-motion: reduce) {
+  .dt-scroll { overflow-x: auto; mask-image: none; }
+  .dt-scroll .dt-list { animation: none; }
+  .dt-scroll .dt-item[aria-hidden="true"] { display: none; }
+}
+@media (max-width: 640px) {
+  .dt-in { gap: 10px; min-height: 34px; }
+  .dealtick { font-size: 12.5px; }
+}
+
+/* ---------- Lids display banners ---------- */
+.lids-ad { width: 100%; max-width: var(--ad-w); margin: 0 auto; display: grid; gap: 4px; }
+.lids-ad-label { font: 600 10px/1 var(--f-body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); text-align: center; }
+.lids-ad a { display: block; line-height: 0; border-radius: 4px; overflow: hidden; }
+.lids-ad a img { width: 100%; height: auto; }
+.lids-ad .lids-ad-px { position: absolute; width: 0; height: 0; visibility: hidden; }
+.foot-ad { margin-top: 56px; }
+.foot-ad + .footer { margin-top: 24px; }
+
 /* ---------- Page intro ---------- */
 .crumbs { font-size: 13px; color: var(--muted); padding-top: 20px; }
 .crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }

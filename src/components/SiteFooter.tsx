@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { site, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
+import { LidsAd } from "./LidsAd";
+import { rectFor } from "@/lib/lidsAds";
 
 export function SiteFooter() {
   return (
+    <>
+    <div className="wrap foot-ad"><LidsAd banner={rectFor(undefined, true)} at="footer" /></div>
     <footer className="footer">
       <div className="wrap foot-in">
         <div>
@@ -59,5 +63,6 @@ export function SiteFooter() {
         <p>&copy; 2026 {site.name}</p>
       </div>
     </footer>
+    </>
   );
 }

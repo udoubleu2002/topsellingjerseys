@@ -1,10 +1,11 @@
 import type { Player, Product, Promotion, Team } from "./schema";
 import { getAnyTeam, getMerchant, getPlayer, getTeam, loadStore } from "./data";
 import { getArticle, type Article } from "./articles";
+import { bannerLink, lidsBanner } from "./lidsAds";
 
 export interface Offer {
   id: string;
-  kind: "product" | "search" | "team" | "promo";
+  kind: "product" | "search" | "team" | "promo" | "ad";
   merchantId: string;
   merchantName: string;
   label: string;
@@ -96,6 +97,11 @@ export function resolveOffer(offerId: string): Offer | null {
   if (promo) {
     const p = loadStore().promotions.find((x) => x.id === promo[1]);
     return p ? promoOffer(p) : null;
+  }
+  const ad = /^ad-lids-(\d+)$/.exec(offerId);
+  if (ad) {
+    const b = lidsBanner(ad[1]);
+    return b ? { id: offerId, kind: "ad", merchantId: "lids", merchantName: "Lids", label: b.alt, href: bannerLink(b) } : null;
   }
   const t = /^team-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
   if (t) {

@@ -4,6 +4,8 @@ import { fmtShortDate } from "@/lib/format";
 import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
 import { HouseAd } from "./HouseAd";
+import { LidsAd } from "./LidsAd";
+import { rectFor } from "@/lib/lidsAds";
 import { SportJersey } from "./SportJersey";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
@@ -50,6 +52,8 @@ export function SideRail({ active }: { active?: string }) {
           ))}
         </div>
       </section>
+
+      <LidsAd banner={rectFor(active)} at="rail_lids" />
 
       <HouseAd ad={adA} at="rail_top" />
 
