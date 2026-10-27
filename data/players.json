@@ -12654,5 +12654,5069 @@
       "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
     ],
     "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "alexey-miranchuk",
+    "slug": "alexey-miranchuk",
+    "name": "Alexey Miranchuk",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "59",
+    "birthday": "1995-10-17",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/185897",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and six assists in 29 MLS appearances in 2026, tied for the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+      },
+      {
+        "text": "Played three seasons for Atalanta in Serie A and nine for Lokomotiv Moscow before MLS",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/185897"
+      },
+      {
+        "text": "Russian international with 10 seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/185897"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/185897",
+      "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "breel-embolo",
+    "slug": "breel-embolo",
+    "name": "Breel Embolo",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Forward",
+    "number": "36",
+    "birthday": "1997-02-14",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/202099",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored three goals with one assist in his first nine MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+      },
+      {
+        "text": "Swiss international with 10 seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/202099"
+      },
+      {
+        "text": "Played for FC Basel, Schalke 04, Borussia Mönchengladbach, AS Monaco and Stade Rennais before MLS",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/202099"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/202099",
+      "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tristan-muyumba",
+    "slug": "tristan-muyumba",
+    "name": "Tristan Muyumba",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "1997-03-07",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/255802",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and two assists in 31 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+      },
+      {
+        "text": "Joined Atlanta United from Guingamp in France",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/255802"
+      },
+      {
+        "text": "In his fourth season with Atlanta United",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/255802"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/255802",
+      "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "lucas-hoyos",
+    "slug": "lucas-hoyos",
+    "name": "Lucas Hoyos",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1989-04-29",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/109193",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played in 31 MLS matches in goal for Atlanta United in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+      },
+      {
+        "text": "Joined Atlanta United after five seasons at Newell's Old Boys and five at Vélez Sarsfield in Argentina",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/109193"
+      },
+      {
+        "text": "Born in Argentina in April 1989",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/109193"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/109193",
+      "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brandon-vazquez",
+    "slug": "brandon-vazquez",
+    "name": "Brandon Vázquez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1998-10-14",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/228620",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and two assists in 20 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "Played for the United States national team and for Monterrey in Liga MX",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/228620"
+      },
+      {
+        "text": "Spent four seasons with FC Cincinnati and three with Atlanta United before joining Austin",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/228620"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/228620",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "myrto-uzuni",
+    "slug": "myrto-uzuni",
+    "name": "Myrto Uzuni",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1995-05-31",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/275500",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Nine goals and four assists in 23 MLS appearances in 2026, tied for the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "Albanian international with eight seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/275500"
+      },
+      {
+        "text": "Played four seasons for Granada in Spain and two for Ferencváros in Hungary",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/275500"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/275500",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "facundo-torres",
+    "slug": "facundo-torres",
+    "name": "Facundo Torres",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2000-04-13",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/67518",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and seven assists in 31 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "Uruguayan international who played three seasons for Orlando City and one for Palmeiras",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/67518"
+      },
+      {
+        "text": "Began his career at Peñarol in Montevideo",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/67518"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/67518",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brad-stuver",
+    "slug": "brad-stuver",
+    "name": "Brad Stuver",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1991-04-16",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/183780",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 128 saves in 28 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "In his sixth season with Austin FC, which joined MLS in 2021",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/183780"
+      },
+      {
+        "text": "Previously spent time with Columbus Crew and New York City FC",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/183780"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/183780",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "christian-ramirez",
+    "slug": "christian-ramirez",
+    "name": "Christian Ramírez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "21",
+    "birthday": "1991-04-04",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/235061",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Nine goals in 27 MLS appearances in 2026, tied for the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "Has played for Minnesota United, LAFC, Houston Dynamo, Columbus Crew and LA Galaxy in MLS",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/235061"
+      },
+      {
+        "text": "Earned a cap with the United States national team",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/235061"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/235061",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "prince-owusu",
+    "slug": "prince-owusu",
+    "name": "Prince Owusu",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1997-01-07",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/275798",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fifteen goals and six assists in 27 MLS appearances in 2026, the team lead in both",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Ghanaian international who joined CF Montréal from Toronto FC",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/275798"
+      },
+      {
+        "text": "Played in Germany for Arminia Bielefeld, SC Paderborn, Erzgebirge Aue and Jahn Regensburg",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/275798"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/275798",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "alexis-sanchez",
+    "slug": "alexis-sanchez",
+    "name": "Alexis Sánchez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1988-12-19",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/92055",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Joined CF Montréal in 2026 and has made 12 MLS appearances",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Chilean international with 16 seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/92055"
+      },
+      {
+        "text": "Played for Barcelona, Arsenal, Manchester United, Inter and Sevilla in Europe",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/92055"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/92055",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matthew-longstaff",
+    "slug": "matthew-longstaff",
+    "name": "Matthew Longstaff",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "2000-03-21",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/279758",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals and three assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Came through Newcastle United's academy and played three seasons with the first team",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/279758"
+      },
+      {
+        "text": "Played two seasons for Toronto FC before joining CF Montréal",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/279758"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/279758",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "samuel-piette",
+    "slug": "samuel-piette",
+    "name": "Samuel Piette",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "6",
+    "birthday": "1994-11-12",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/87387",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty MLS appearances in 2026, his 10th season with CF Montréal",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Canadian international with 14 seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/87387"
+      },
+      {
+        "text": "Played for Fortuna Düsseldorf in Germany early in his career",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/87387"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/87387",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "wikelman-carmona",
+    "slug": "wikelman-carmona",
+    "name": "Wikelman Carmona",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "16",
+    "birthday": "2003-02-24",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/315924",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and four assists in 21 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Venezuelan international",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/315924"
+      },
+      {
+        "text": "Developed with the New York Red Bulls before joining CF Montréal",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/315924"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/315924",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "pep-biel",
+    "slug": "pep-biel",
+    "name": "Pep Biel",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "16",
+    "birthday": "1996-09-05",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/268604",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirteen goals and 11 assists in 31 MLS starts in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "Played four seasons at F.C. København and two at Olympiacos before Charlotte",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/268604"
+      },
+      {
+        "text": "Selected for the MLS All-Stars",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/268604"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/268604",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "idan-toklomati",
+    "slug": "idan-toklomati",
+    "name": "Idan Toklomati",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2004-08-09",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/340698",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fourteen goals in 30 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "Israeli international at 22",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/340698"
+      },
+      {
+        "text": "Represented Israel at the under-19 and under-21 levels",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/340698"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/340698",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "allan-saint-maximin",
+    "slug": "allan-saint-maximin",
+    "name": "Allan Saint-Maximin",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1997-03-12",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/193281",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "One goal and six assists in 12 MLS appearances after joining Charlotte in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "Played four seasons for Newcastle United in the Premier League",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/193281"
+      },
+      {
+        "text": "Also played for Nice, Al Ahli, Fenerbahçe and Club América",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/193281"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/193281",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tim-ream",
+    "slug": "tim-ream",
+    "name": "Tim Ream",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "3",
+    "birthday": "1987-10-05",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/146290",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-one MLS starts at center back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "United States international with 14 seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/146290"
+      },
+      {
+        "text": "Spent nine seasons with Fulham and four with Bolton Wanderers in England",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/146290"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/146290",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kristijan-kahlina",
+    "slug": "kristijan-kahlina",
+    "name": "Kristijan Kahlina",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1992-07-24",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/221408",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 143 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "In his fifth season as Charlotte FC's goalkeeper",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/221408"
+      },
+      {
+        "text": "Joined Charlotte from Ludogorets Razgrad in Bulgaria",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/221408"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/221408",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "robert-lewandowski",
+    "slug": "robert-lewandowski",
+    "name": "Robert Lewandowski",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1988-08-21",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/125824",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and three assists in his first 16 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Played eight seasons for Bayern Munich, four for Borussia Dortmund and four for Barcelona",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/125824"
+      },
+      {
+        "text": "Poland international across 18 seasons",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/125824"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/125824",
+      "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "philip-zinckernagel",
+    "slug": "philip-zinckernagel",
+    "name": "Philip Zinckernagel",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "1994-12-16",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/186466",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seven goals and nine assists in 30 MLS appearances in 2026, tied for the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Played four seasons at Bodø/Glimt in Norway",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/186466"
+      },
+      {
+        "text": "Named to the MLS All-Stars",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/186466"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/186466",
+      "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "maren-haile-selassie",
+    "slug": "maren-haile-selassie",
+    "name": "Maren Haile-Selassie",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "7",
+    "birthday": "1999-03-13",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/259951",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eleven goals and nine assists in 31 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Tied for the Chicago Fire lead in assists this season",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+      },
+      {
+        "text": "In his fourth season with Chicago after playing for FC Zürich and FC Lugano",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/259951"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/259951",
+      "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chris-brady",
+    "slug": "chris-brady",
+    "name": "Chris Brady",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "2004-03-03",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/303693",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played in 29 MLS matches in goal for the Chicago Fire in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Chicago-area product in his sixth season with the Fire",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/303693"
+      },
+      {
+        "text": "Has been called into the United States national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/303693"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/303693",
+      "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jonathan-bamba",
+    "slug": "jonathan-bamba",
+    "name": "Jonathan Bamba",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "19",
+    "birthday": "1996-03-26",
+    "birthdaySource": "https://www.mlssoccer.com/players/jonathan-bamba/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and four assists in 24 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Born in Alfortville, France",
+        "source": "https://www.mlssoccer.com/players/jonathan-bamba/"
+      },
+      {
+        "text": "Played in Ligue 1 and La Liga before joining the Chicago Fire",
+        "source": "https://en.wikipedia.org/wiki/Jonathan_Bamba"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jonathan_Bamba",
+      "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1",
+      "https://www.mlssoccer.com/players/jonathan-bamba/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "paxten-aaronson",
+    "slug": "paxten-aaronson",
+    "name": "Paxten Aaronson",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "2003-08-26",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/304129",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seven goals and nine assists in 31 MLS appearances in 2026, the team lead in both",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "United States international who played for Eintracht Frankfurt, Vitesse and FC Utrecht",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/304129"
+      },
+      {
+        "text": "Began his professional career with the Philadelphia Union",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/304129"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/304129",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "zack-steffen",
+    "slug": "zack-steffen",
+    "name": "Zack Steffen",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1995-04-02",
+    "birthdaySource": "https://www.mlssoccer.com/players/zack-steffen/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 28 saves in nine MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "Former United States national team goalkeeper who played for Manchester City",
+        "source": "https://en.wikipedia.org/wiki/Zack_Steffen"
+      },
+      {
+        "text": "Born in Coatesville, Pennsylvania",
+        "source": "https://www.mlssoccer.com/players/zack-steffen/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zack_Steffen",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
+      "https://www.mlssoccer.com/players/zack-steffen/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rob-holding",
+    "slug": "rob-holding",
+    "name": "Rob Holding",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Defender",
+    "number": "6",
+    "birthday": "1995-09-20",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/218188",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-nine MLS appearances at center back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "Spent eight seasons with Arsenal in the Premier League",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/218188"
+      },
+      {
+        "text": "Also played for Crystal Palace, Sheffield United and Bolton Wanderers",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/218188"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/218188",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "darren-yapi",
+    "slug": "darren-yapi",
+    "name": "Darren Yapi",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Forward",
+    "number": "77",
+    "birthday": "2004-11-19",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/304623",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and two assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "Homegrown forward in his sixth season with the Colorado Rapids",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/304623"
+      },
+      {
+        "text": "Represented the United States at under-20 level",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/304623"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/304623",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "reggie-cannon",
+    "slug": "reggie-cannon",
+    "name": "Reggie Cannon",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Defender",
+    "number": "4",
+    "birthday": "1998-06-11",
+    "birthdaySource": "https://www.mlssoccer.com/players/reggie-cannon/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals in 18 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "Former United States international who played for FC Dallas, Boavista and Queens Park Rangers",
+        "source": "https://en.wikipedia.org/wiki/Reggie_Cannon"
+      },
+      {
+        "text": "Born in Chicago, Illinois",
+        "source": "https://www.mlssoccer.com/players/reggie-cannon/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Reggie_Cannon",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
+      "https://www.mlssoccer.com/players/reggie-cannon/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "patrick-schulte",
+    "slug": "patrick-schulte",
+    "name": "Patrick Schulte",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "28",
+    "birthday": "2001-03-13",
+    "birthdaySource": "https://www.mlssoccer.com/players/patrick-schulte/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 95 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Started in goal when Columbus won MLS Cup in 2023",
+        "source": "https://en.wikipedia.org/wiki/Patrick_Schulte"
+      },
+      {
+        "text": "Born in St. Charles, Missouri",
+        "source": "https://www.mlssoccer.com/players/patrick-schulte/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Patrick_Schulte",
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+      "https://www.mlssoccer.com/players/patrick-schulte/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brais-mendez",
+    "slug": "brais-mendez",
+    "name": "Brais Méndez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1997-01-07",
+    "birthdaySource": "https://www.mlssoccer.com/players/brais-mendez/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and three assists in 13 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Spanish international who played in La Liga for Celta Vigo and Real Sociedad",
+        "source": "https://en.wikipedia.org/wiki/Brais_M%C3%A9ndez"
+      },
+      {
+        "text": "Born in Mos, Spain",
+        "source": "https://www.mlssoccer.com/players/brais-mendez/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brais_M%C3%A9ndez",
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+      "https://www.mlssoccer.com/players/brais-mendez/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "wessam-abou-ali",
+    "slug": "wessam-abou-ali",
+    "name": "Wessam Abou Ali",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1999-01-04",
+    "birthdaySource": "https://www.mlssoccer.com/players/wessam-abou-ali/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and one assist in his first seven MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Palestine international who played for Al Ahly in Egypt",
+        "source": "https://en.wikipedia.org/wiki/Wessam_Abou_Ali"
+      },
+      {
+        "text": "Born in Aalborg, Denmark",
+        "source": "https://www.mlssoccer.com/players/wessam-abou-ali/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wessam_Abou_Ali",
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+      "https://www.mlssoccer.com/players/wessam-abou-ali/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andre-gomes",
+    "slug": "andre-gomes",
+    "name": "André Gomes",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "20",
+    "birthday": "1993-07-30",
+    "birthdaySource": "https://www.mlssoccer.com/players/andre-gomes/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-three MLS appearances in 2026, with one goal and one assist",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Played for Benfica, Valencia, Barcelona, Everton and Lille",
+        "source": "https://en.wikipedia.org/wiki/Andr%C3%A9_Gomes"
+      },
+      {
+        "text": "Part of Portugal's squad that won Euro 2016",
+        "source": "https://en.wikipedia.org/wiki/Andr%C3%A9_Gomes"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andr%C3%A9_Gomes",
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+      "https://www.mlssoccer.com/players/andre-gomes/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "taha-habroune",
+    "slug": "taha-habroune",
+    "name": "Taha Habroune",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "16",
+    "birthday": "2006-02-05",
+    "birthdaySource": "https://www.mlssoccer.com/players/taha-habroune/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and four assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Born in Columbus, Ohio",
+        "source": "https://www.mlssoccer.com/players/taha-habroune/"
+      },
+      {
+        "text": "Twenty years old during the 2026 season",
+        "source": "https://www.mlssoccer.com/players/taha-habroune/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+      "https://www.mlssoccer.com/players/taha-habroune/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tai-baribo",
+    "slug": "tai-baribo",
+    "name": "Tai Baribo",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1998-01-15",
+    "birthdaySource": "https://www.mlssoccer.com/players/tai-baribo/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Sixteen goals in 25 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Israeli international who previously scored for the Philadelphia Union",
+        "source": "https://en.wikipedia.org/wiki/Tai_Baribo"
+      },
+      {
+        "text": "Born in Eilat, Israel",
+        "source": "https://www.mlssoccer.com/players/tai-baribo/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tai_Baribo",
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+      "https://www.mlssoccer.com/players/tai-baribo/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "louis-munteanu",
+    "slug": "louis-munteanu",
+    "name": "Louis Munteanu",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2002-06-16",
+    "birthdaySource": "https://www.mlssoccer.com/players/louis-munteanu/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and three assists in 22 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Took 65 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Born in Vaslui, Romania",
+        "source": "https://www.mlssoccer.com/players/louis-munteanu/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+      "https://www.mlssoccer.com/players/louis-munteanu/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sean-johnson",
+    "slug": "sean-johnson",
+    "name": "Sean Johnson",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1989-05-31",
+    "birthdaySource": "https://www.mlssoccer.com/players/sean-johnson/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 106 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with New York City FC in 2021",
+        "source": "https://en.wikipedia.org/wiki/Sean_Johnson_(soccer)"
+      },
+      {
+        "text": "Member of the United States squad at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Sean_Johnson_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sean_Johnson_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+      "https://www.mlssoccer.com/players/sean-johnson/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "joao-peglow",
+    "slug": "joao-peglow",
+    "name": "João Peglow",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "2002-01-07",
+    "birthdaySource": "https://www.mlssoccer.com/players/joao-peglow/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "One goal and six assists in 28 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Led D.C. United in assists among its attackers this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Born in Porto Alegre, Brazil",
+        "source": "https://www.mlssoccer.com/players/joao-peglow/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+      "https://www.mlssoccer.com/players/joao-peglow/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jackson-hopkins",
+    "slug": "jackson-hopkins",
+    "name": "Jackson Hopkins",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "25",
+    "birthday": "2004-07-01",
+    "birthdaySource": "https://www.mlssoccer.com/players/jackson-hopkins/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirty-one MLS appearances with two goals in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Homegrown player from Virginia who came through D.C. United's academy",
+        "source": "https://www.mlssoccer.com/players/jackson-hopkins/"
+      },
+      {
+        "text": "Put 19 of his 36 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+      "https://www.mlssoccer.com/players/jackson-hopkins/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "evander",
+    "slug": "evander",
+    "name": "Evander",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1998-06-09",
+    "birthdaySource": "https://www.mlssoccer.com/players/evander/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fourteen goals and 14 assists in 28 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "Starred for the Portland Timbers before moving to Cincinnati",
+        "source": "https://en.wikipedia.org/wiki/Evander_(footballer)"
+      },
+      {
+        "text": "Born in Rio de Janeiro, Brazil",
+        "source": "https://www.mlssoccer.com/players/evander/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Evander_(footballer)",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
+      "https://www.mlssoccer.com/players/evander/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kevin-denkey",
+    "slug": "kevin-denkey",
+    "name": "Kévin Denkey",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2000-11-30",
+    "birthdaySource": "https://www.mlssoccer.com/players/kevin-denkey/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seventeen goals in 29 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "Togo international who was the top scorer in Belgium's top flight with Cercle Brugge",
+        "source": "https://en.wikipedia.org/wiki/K%C3%A9vin_Denkey"
+      },
+      {
+        "text": "Born in Lomé, Togo",
+        "source": "https://www.mlssoccer.com/players/kevin-denkey/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/K%C3%A9vin_Denkey",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
+      "https://www.mlssoccer.com/players/kevin-denkey/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "pavel-bucha",
+    "slug": "pavel-bucha",
+    "name": "Pavel Bucha",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "20",
+    "birthday": "1998-03-11",
+    "birthdaySource": "https://www.mlssoccer.com/players/pavel-bucha/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and 10 assists in 29 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "Czech international who played for Viktoria Plzeň",
+        "source": "https://en.wikipedia.org/wiki/Pavel_Bucha"
+      },
+      {
+        "text": "Born in Mělník, Czech Republic",
+        "source": "https://www.mlssoccer.com/players/pavel-bucha/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pavel_Bucha",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
+      "https://www.mlssoccer.com/players/pavel-bucha/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "roman-celentano",
+    "slug": "roman-celentano",
+    "name": "Roman Celentano",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "18",
+    "birthday": "2000-09-14",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/315972",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 83 saves in 27 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "In his fifth season with FC Cincinnati after playing college soccer at Indiana",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/315972"
+      },
+      {
+        "text": "Has been called into the United States national team",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/315972"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/315972",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "miles-robinson",
+    "slug": "miles-robinson",
+    "name": "Miles Robinson",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Defender",
+    "number": "12",
+    "birthday": "1997-03-14",
+    "birthdaySource": "https://www.mlssoccer.com/players/miles-robinson/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-one MLS appearances at center back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "Scored the winning goal for the United States in the 2021 Gold Cup final",
+        "source": "https://en.wikipedia.org/wiki/Miles_Robinson"
+      },
+      {
+        "text": "Born in Arlington, Massachusetts",
+        "source": "https://www.mlssoccer.com/players/miles-robinson/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Miles_Robinson",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
+      "https://www.mlssoccer.com/players/miles-robinson/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "petar-musa",
+    "slug": "petar-musa",
+    "name": "Petar Musa",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1998-03-04",
+    "birthdaySource": "https://www.mlssoccer.com/players/petar-musa/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-two goals in 27 MLS appearances in 2026, the team lead and among the best in MLS",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Put 46 of his 88 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Croatian forward who joined FC Dallas from Benfica",
+        "source": "https://en.wikipedia.org/wiki/Petar_Musa"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Petar_Musa",
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
+      "https://www.mlssoccer.com/players/petar-musa/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "logan-farrington",
+    "slug": "logan-farrington",
+    "name": "Logan Farrington",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Forward",
+    "number": "23",
+    "birthday": "2001-12-14",
+    "birthdaySource": "https://www.mlssoccer.com/players/logan-farrington/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Ten goals and four assists in 27 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Second on FC Dallas in goals this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Born in Racine, Wisconsin",
+        "source": "https://www.mlssoccer.com/players/logan-farrington/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
+      "https://www.mlssoccer.com/players/logan-farrington/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "shaq-moore",
+    "slug": "shaq-moore",
+    "name": "Shaq Moore",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Defender",
+    "number": "18",
+    "birthday": "1996-11-02",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/219275",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirty MLS appearances at right back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "United States international with seven seasons in the national team setup",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/219275"
+      },
+      {
+        "text": "Played for Levante and Tenerife in Spain and for Nashville SC",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/219275"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/219275",
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "joaquin-valiente",
+    "slug": "joaquin-valiente",
+    "name": "Joaquín Valiente",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "21",
+    "birthday": "2001-04-13",
+    "birthdaySource": "https://www.mlssoccer.com/players/joaquin-valiente/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirteen assists in 29 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Two goals to go with his assists this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Born in Colonia Valdense, Uruguay",
+        "source": "https://www.mlssoccer.com/players/joaquin-valiente/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
+      "https://www.mlssoccer.com/players/joaquin-valiente/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kaick",
+    "slug": "kaick",
+    "name": "Kaick",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "55",
+    "birthday": "2005-11-29",
+    "birthdaySource": "https://www.mlssoccer.com/players/kaick/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and two assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Brazilian midfielder who turned 20 shortly before the season",
+        "source": "https://www.mlssoccer.com/players/kaick/"
+      },
+      {
+        "text": "Started 25 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
+      "https://www.mlssoccer.com/players/kaick/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "hector-herrera",
+    "slug": "hector-herrera",
+    "name": "Héctor Herrera",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "16",
+    "birthday": "1990-04-19",
+    "birthdaySource": "https://www.mlssoccer.com/players/hector-herrera/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals in 29 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Played for Porto and Atlético Madrid in Europe",
+        "source": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Herrera"
+      },
+      {
+        "text": "Mexico international who played at multiple World Cups",
+        "source": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Herrera"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/H%C3%A9ctor_Herrera",
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+      "https://www.mlssoccer.com/players/hector-herrera/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mateusz-bogusz",
+    "slug": "mateusz-bogusz",
+    "name": "Mateusz Bogusz",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "19",
+    "birthday": "2001-08-22",
+    "birthdaySource": "https://www.mlssoccer.com/players/mateusz-bogusz/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eight goals and three assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Took 92 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Polish midfielder who previously starred for LAFC",
+        "source": "https://en.wikipedia.org/wiki/Mateusz_Bogusz"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mateusz_Bogusz",
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+      "https://www.mlssoccer.com/players/mateusz-bogusz/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "guilherme-augusto",
+    "slug": "guilherme-augusto",
+    "name": "Guilherme Augusto",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "20",
+    "birthday": "1995-04-13",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/233578",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Sixteen goals and 10 assists in 30 MLS appearances in 2026, the team lead in both",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Named to the MLS All-Stars in his first Houston season",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/233578"
+      },
+      {
+        "text": "Played in Brazil for Grêmio, Santos, Botafogo and Fortaleza",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/233578"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/233578",
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jonathan-bond",
+    "slug": "jonathan-bond",
+    "name": "Jonathan Bond",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "31",
+    "birthday": "1993-05-19",
+    "birthdaySource": "https://www.mlssoccer.com/players/jonathan-bond/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 83 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Previously played for LA Galaxy, West Bromwich Albion and Watford",
+        "source": "https://en.wikipedia.org/wiki/Jonathan_Bond"
+      },
+      {
+        "text": "Born in Hemel Hempstead, England",
+        "source": "https://www.mlssoccer.com/players/jonathan-bond/"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jonathan_Bond",
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+      "https://www.mlssoccer.com/players/jonathan-bond/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "lawrence-ennali",
+    "slug": "lawrence-ennali",
+    "name": "Lawrence Ennali",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2002-03-07",
+    "birthdaySource": "https://www.mlssoccer.com/players/lawrence-ennali/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and four assists in 31 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Started 29 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Born in Berlin, Germany",
+        "source": "https://www.mlssoccer.com/players/lawrence-ennali/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+      "https://www.mlssoccer.com/players/lawrence-ennali/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "casemiro",
+    "slug": "casemiro",
+    "name": "Casemiro",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "5",
+    "birthday": "1992-02-23",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Casemiro",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals in 15 MLS starts after joining Inter Miami in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+      },
+      {
+        "text": "Won five Champions League titles with Real Madrid",
+        "source": "https://en.wikipedia.org/wiki/Casemiro"
+      },
+      {
+        "text": "Brazil international who also played for Manchester United",
+        "source": "https://en.wikipedia.org/wiki/Casemiro"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Casemiro",
+      "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "german-berterame",
+    "slug": "german-berterame",
+    "name": "Germán Berterame",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Forward",
+    "number": "19",
+    "birthday": "1998-11-13",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/228394",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Nine goals and eight assists in 27 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+      },
+      {
+        "text": "Mexico international who played four seasons for Monterrey",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/228394"
+      },
+      {
+        "text": "Also played for Atlético de San Luis and San Lorenzo",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/228394"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/228394",
+      "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "joseph-paintsil",
+    "slug": "joseph-paintsil",
+    "name": "Joseph Paintsil",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Forward",
+    "number": "28",
+    "birthday": "1998-02-01",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/256843",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seven goals and four assists in 24 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with LA Galaxy in 2024",
+        "source": "https://en.wikipedia.org/wiki/Joseph_Paintsil"
+      },
+      {
+        "text": "Ghana international who played six seasons for Racing Genk",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/256843"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joseph_Paintsil",
+      "https://www.espn.com/soccer/player/bio/_/id/256843",
+      "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyogo-furuhashi",
+    "slug": "kyogo-furuhashi",
+    "name": "Kyogo Furuhashi",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "1995-01-20",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Kyogo_Furuhashi",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eleven MLS appearances after joining LA Galaxy in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+      },
+      {
+        "text": "Scored freely for Celtic in Scotland and won league titles there",
+        "source": "https://en.wikipedia.org/wiki/Kyogo_Furuhashi"
+      },
+      {
+        "text": "Japan international forward",
+        "source": "https://en.wikipedia.org/wiki/Kyogo_Furuhashi"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kyogo_Furuhashi",
+      "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "maya-yoshida",
+    "slug": "maya-yoshida",
+    "name": "Maya Yoshida",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Defender",
+    "number": "4",
+    "birthday": "1988-08-24",
+    "birthdaySource": "https://www.mlssoccer.com/players/maya-yoshida/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals in 23 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+      },
+      {
+        "text": "Former Japan national team captain who played for Southampton, Sampdoria and Schalke 04",
+        "source": "https://en.wikipedia.org/wiki/Maya_Yoshida"
+      },
+      {
+        "text": "Won MLS Cup with LA Galaxy in 2024",
+        "source": "https://en.wikipedia.org/wiki/Maya_Yoshida"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maya_Yoshida",
+      "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1",
+      "https://www.mlssoccer.com/players/maya-yoshida/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "denis-bouanga",
+    "slug": "denis-bouanga",
+    "name": "Denis Bouanga",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "99",
+    "birthday": "1994-11-11",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/213304",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eighteen goals and seven assists in 30 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+      },
+      {
+        "text": "Won the MLS Golden Boot in 2023",
+        "source": "https://en.wikipedia.org/wiki/Denis_Bouanga"
+      },
+      {
+        "text": "Gabon international in his fifth season with LAFC",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/213304"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Denis_Bouanga",
+      "https://www.espn.com/soccer/player/bio/_/id/213304",
+      "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "hugo-lloris",
+    "slug": "hugo-lloris",
+    "name": "Hugo Lloris",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1986-12-26",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Hugo_Lloris",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 84 saves and allowed 29 goals in 28 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+      },
+      {
+        "text": "Captained France to the 2018 World Cup title",
+        "source": "https://en.wikipedia.org/wiki/Hugo_Lloris"
+      },
+      {
+        "text": "Spent more than a decade at Tottenham Hotspur",
+        "source": "https://en.wikipedia.org/wiki/Hugo_Lloris"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hugo_Lloris",
+      "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mark-delgado",
+    "slug": "mark-delgado",
+    "name": "Mark Delgado",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "1995-05-16",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/193171",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals and four assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with Toronto FC in 2017 during seven seasons there",
+        "source": "https://en.wikipedia.org/wiki/Mark_Delgado"
+      },
+      {
+        "text": "Has also played for Chivas USA and LA Galaxy",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/193171"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Delgado",
+      "https://www.espn.com/soccer/player/bio/_/id/193171",
+      "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "timothy-tillman",
+    "slug": "timothy-tillman",
+    "name": "Timothy Tillman",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "11",
+    "birthday": "1999-01-04",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/231192",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "One goal and three assists in 19 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+      },
+      {
+        "text": "United States international in his fourth season with LAFC",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/231192"
+      },
+      {
+        "text": "Came through Bayern Munich's academy and played four seasons at Greuther Fürth",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/231192"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/231192",
+      "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kelvin-yeboah",
+    "slug": "kelvin-yeboah",
+    "name": "Kelvin Yeboah",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2000-05-06",
+    "birthdaySource": "https://www.mlssoccer.com/players/kelvin-yeboah/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seventeen goals and four assists in 30 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Put 33 of his 81 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Played in Europe for Sturm Graz and Genoa before joining Minnesota United",
+        "source": "https://en.wikipedia.org/wiki/Kelvin_Yeboah"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kelvin_Yeboah",
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
+      "https://www.mlssoccer.com/players/kelvin-yeboah/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "joaquin-pereyra",
+    "slug": "joaquin-pereyra",
+    "name": "Joaquín Pereyra",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "26",
+    "birthday": "1998-12-01",
+    "birthdaySource": "https://www.mlssoccer.com/players/joaquin-pereyra/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fourteen assists in 29 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Three goals to go with his assists this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Born in Paraná, Argentina",
+        "source": "https://www.mlssoccer.com/players/joaquin-pereyra/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
+      "https://www.mlssoccer.com/players/joaquin-pereyra/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "drake-callender",
+    "slug": "drake-callender",
+    "name": "Drake Callender",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "12",
+    "birthday": "1997-10-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Drake_Callender",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 96 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Spent several seasons as Inter Miami's starting goalkeeper before joining Minnesota",
+        "source": "https://en.wikipedia.org/wiki/Drake_Callender"
+      },
+      {
+        "text": "Won the Leagues Cup with Inter Miami in 2023",
+        "source": "https://en.wikipedia.org/wiki/Drake_Callender"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Drake_Callender",
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "anthony-markanich",
+    "slug": "anthony-markanich",
+    "name": "Anthony Markanich",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "13",
+    "birthday": "1999-12-26",
+    "birthdaySource": "https://www.mlssoccer.com/players/anthony-markanich/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eight goals and two assists from defense in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Third on Minnesota United in goals this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Born in Bourbonnais, Illinois",
+        "source": "https://www.mlssoccer.com/players/anthony-markanich/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
+      "https://www.mlssoccer.com/players/anthony-markanich/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "michael-boxall",
+    "slug": "michael-boxall",
+    "name": "Michael Boxall",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "15",
+    "birthday": "1988-08-18",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Michael_Boxall",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-two MLS appearances at center back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Has played for Minnesota United since the club's first MLS season in 2017",
+        "source": "https://en.wikipedia.org/wiki/Michael_Boxall"
+      },
+      {
+        "text": "New Zealand international center back",
+        "source": "https://en.wikipedia.org/wiki/Michael_Boxall"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Boxall",
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "hany-mukhtar",
+    "slug": "hany-mukhtar",
+    "name": "Hany Mukhtar",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1995-03-21",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Hany_Mukhtar",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Sixteen goals and eight assists in 31 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Won the MLS MVP award and the Golden Boot in 2022",
+        "source": "https://en.wikipedia.org/wiki/Hany_Mukhtar"
+      },
+      {
+        "text": "Took 99 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hany_Mukhtar",
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sam-surridge",
+    "slug": "sam-surridge",
+    "name": "Sam Surridge",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1998-07-28",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Sam_Surridge",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eighteen goals in 25 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Put 37 of his 67 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "English striker who joined Nashville from Nottingham Forest",
+        "source": "https://en.wikipedia.org/wiki/Sam_Surridge"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sam_Surridge",
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cristian-espinoza",
+    "slug": "cristian-espinoza",
+    "name": "Cristian Espinoza",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "1995-04-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cristian_Espinoza",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fourteen assists in 27 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Spent several seasons as a star winger for the San Jose Earthquakes",
+        "source": "https://en.wikipedia.org/wiki/Cristian_Espinoza"
+      },
+      {
+        "text": "Four goals to go with his assists this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cristian_Espinoza",
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brian-schwake",
+    "slug": "brian-schwake",
+    "name": "Brian Schwake",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "99",
+    "birthday": "2001-08-24",
+    "birthdaySource": "https://www.mlssoccer.com/players/brian-schwake/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Allowed only 23 goals in 30 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Made 81 saves this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Born in West Hartford, Connecticut",
+        "source": "https://www.mlssoccer.com/players/brian-schwake/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
+      "https://www.mlssoccer.com/players/brian-schwake/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andy-najar",
+    "slug": "andy-najar",
+    "name": "Andy Nájar",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "31",
+    "birthday": "1993-03-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Andy_N%C3%A1jar",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and eight assists in 28 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Won the MLS Rookie of the Year award with D.C. United in 2011",
+        "source": "https://en.wikipedia.org/wiki/Andy_N%C3%A1jar"
+      },
+      {
+        "text": "Honduras international who played for Anderlecht in Belgium",
+        "source": "https://en.wikipedia.org/wiki/Andy_N%C3%A1jar"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andy_N%C3%A1jar",
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "carles-gil",
+    "slug": "carles-gil",
+    "name": "Carles Gil",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1992-11-22",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Carles_Gil",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirteen goals and 11 assists in 31 MLS starts in 2026, the team lead in both",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Won the MLS MVP award in 2021",
+        "source": "https://en.wikipedia.org/wiki/Carles_Gil"
+      },
+      {
+        "text": "Played for Valencia and Aston Villa before joining New England",
+        "source": "https://en.wikipedia.org/wiki/Carles_Gil"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carles_Gil",
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matt-turner",
+    "slug": "matt-turner",
+    "name": "Matt Turner",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "30",
+    "birthday": "1994-06-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Matt_Turner",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 124 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Started in goal for the United States at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Matt_Turner"
+      },
+      {
+        "text": "Played for Arsenal and Nottingham Forest in the Premier League",
+        "source": "https://en.wikipedia.org/wiki/Matt_Turner"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matt_Turner",
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dor-turgeman",
+    "slug": "dor-turgeman",
+    "name": "Dor Turgeman",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Forward",
+    "number": "99",
+    "birthday": "2003-10-24",
+    "birthdaySource": "https://www.mlssoccer.com/players/dor-turgeman/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Ten goals and seven assists in 30 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Second on the Revolution in goals this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Born in Ashdod, Israel",
+        "source": "https://www.mlssoccer.com/players/dor-turgeman/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
+      "https://www.mlssoccer.com/players/dor-turgeman/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "peyton-miller",
+    "slug": "peyton-miller",
+    "name": "Peyton Miller",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Defender",
+    "number": "25",
+    "birthday": "2007-11-08",
+    "birthdaySource": "https://www.mlssoccer.com/players/peyton-miller/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seven goals and eight assists from defense in 28 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Eighteen years old during the 2026 season",
+        "source": "https://www.mlssoccer.com/players/peyton-miller/"
+      },
+      {
+        "text": "Born in Unionville, Connecticut",
+        "source": "https://www.mlssoccer.com/players/peyton-miller/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
+      "https://www.mlssoccer.com/players/peyton-miller/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matt-polster",
+    "slug": "matt-polster",
+    "name": "Matt Polster",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "1993-06-08",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Matt_Polster",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals and three assists in 26 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Played for Rangers in Scotland and the Chicago Fire",
+        "source": "https://en.wikipedia.org/wiki/Matt_Polster"
+      },
+      {
+        "text": "Has earned caps for the United States",
+        "source": "https://en.wikipedia.org/wiki/Matt_Polster"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matt_Polster",
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "nicolas-fernandez",
+    "slug": "nicolas-fernandez",
+    "name": "Nicolás Fernández",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "7",
+    "birthday": "2000-01-11",
+    "birthdaySource": "https://www.mlssoccer.com/players/nicolas-fernandez-mercau/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fifteen goals and 10 assists in 30 MLS starts in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Put 43 of his 78 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Argentine attacker who joined New York City FC from Elche in Spain",
+        "source": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Fern%C3%A1ndez_Mercau"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Fern%C3%A1ndez_Mercau",
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
+      "https://www.mlssoccer.com/players/nicolas-fernandez-mercau/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matt-freese",
+    "slug": "matt-freese",
+    "name": "Matt Freese",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "49",
+    "birthday": "1998-09-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Matt_Freese",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 98 saves and allowed 39 goals in 30 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Played college soccer at Harvard",
+        "source": "https://en.wikipedia.org/wiki/Matt_Freese"
+      },
+      {
+        "text": "Started in goal for the United States at the 2025 Gold Cup",
+        "source": "https://en.wikipedia.org/wiki/Matt_Freese"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matt_Freese",
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "hannes-wolf",
+    "slug": "hannes-wolf",
+    "name": "Hannes Wolf",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "17",
+    "birthday": "1999-04-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Hannes_Wolf",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and three assists in 25 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Austrian international who played for RB Leipzig and Borussia Mönchengladbach",
+        "source": "https://en.wikipedia.org/wiki/Hannes_Wolf"
+      },
+      {
+        "text": "Came through the Red Bull Salzburg system",
+        "source": "https://en.wikipedia.org/wiki/Hannes_Wolf"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hannes_Wolf",
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "agustin-ojeda",
+    "slug": "agustin-ojeda",
+    "name": "Agustín Ojeda",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "26",
+    "birthday": "2004-06-19",
+    "birthdaySource": "https://www.mlssoccer.com/players/agustin-ojeda/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eleven assists in 31 MLS starts in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Five goals to go with his assists this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Born in Rosario, Argentina",
+        "source": "https://www.mlssoccer.com/players/agustin-ojeda/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
+      "https://www.mlssoccer.com/players/agustin-ojeda/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "maxi-moralez",
+    "slug": "maxi-moralez",
+    "name": "Maxi Morález",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1987-02-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Maximiliano_Mor%C3%A1lez",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "One goal and six assists in 14 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with New York City FC in 2021",
+        "source": "https://en.wikipedia.org/wiki/Maximiliano_Mor%C3%A1lez"
+      },
+      {
+        "text": "Played for Atalanta in Serie A before joining NYCFC",
+        "source": "https://en.wikipedia.org/wiki/Maximiliano_Mor%C3%A1lez"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maximiliano_Mor%C3%A1lez",
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "emil-forsberg",
+    "slug": "emil-forsberg",
+    "name": "Emil Forsberg",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1991-10-23",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Emil_Forsberg",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and eight assists in 28 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "Played for RB Leipzig in the Bundesliga for several seasons",
+        "source": "https://en.wikipedia.org/wiki/Emil_Forsberg"
+      },
+      {
+        "text": "Sweden international",
+        "source": "https://en.wikipedia.org/wiki/Emil_Forsberg"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Emil_Forsberg",
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "eric-maxim-choupo-moting",
+    "slug": "eric-maxim-choupo-moting",
+    "name": "Eric Maxim Choupo-Moting",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Forward",
+    "number": "13",
+    "birthday": "1989-03-23",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals in 22 MLS appearances in 2026, many off the bench",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "Won Bundesliga titles with Bayern Munich",
+        "source": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting"
+      },
+      {
+        "text": "Cameroon international who reached the 2020 Champions League final with Paris Saint-Germain",
+        "source": "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eric_Maxim_Choupo-Moting",
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "julian-hall",
+    "slug": "julian-hall",
+    "name": "Julian Hall",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Forward",
+    "number": "16",
+    "birthday": "2008-03-24",
+    "birthdaySource": "https://www.mlssoccer.com/players/julian-hall/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eleven goals and three assists in 30 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "Put 34 of his 69 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "Homegrown forward from the Red Bulls academy",
+        "source": "https://www.mlssoccer.com/players/julian-hall/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
+      "https://www.mlssoccer.com/players/julian-hall/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cade-cowell",
+    "slug": "cade-cowell",
+    "name": "Cade Cowell",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "2003-10-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cade_Cowell",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals and seven assists in 29 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "United States international who also played for Chivas in Mexico",
+        "source": "https://en.wikipedia.org/wiki/Cade_Cowell"
+      },
+      {
+        "text": "Began his professional career with the San Jose Earthquakes",
+        "source": "https://en.wikipedia.org/wiki/Cade_Cowell"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cade_Cowell",
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ethan-horvath",
+    "slug": "ethan-horvath",
+    "name": "Ethan Horvath",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "34",
+    "birthday": "1995-06-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Ethan_Horvath",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 103 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "United States international goalkeeper",
+        "source": "https://en.wikipedia.org/wiki/Ethan_Horvath"
+      },
+      {
+        "text": "Played for Nottingham Forest and Cardiff City in England",
+        "source": "https://en.wikipedia.org/wiki/Ethan_Horvath"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ethan_Horvath",
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "antoine-griezmann",
+    "slug": "antoine-griezmann",
+    "name": "Antoine Griezmann",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "1991-03-21",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Antoine_Griezmann",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirteen goals and seven assists in his first 15 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Won the 2018 World Cup with France",
+        "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann"
+      },
+      {
+        "text": "Atlético Madrid's all-time leading scorer",
+        "source": "https://en.wikipedia.org/wiki/Antoine_Griezmann"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antoine_Griezmann",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "martin-ojeda",
+    "slug": "martin-ojeda",
+    "name": "Martín Ojeda",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1998-11-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Ojeda",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Sixteen goals and five assists in 25 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Put 37 of his 76 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Argentine playmaker who joined Orlando from Godoy Cruz",
+        "source": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Ojeda"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mart%C3%ADn_Ojeda",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ivan-angulo",
+    "slug": "ivan-angulo",
+    "name": "Iván Angulo",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "77",
+    "birthday": "1999-03-22",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Angulo",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and eight assists in 31 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Colombian winger who played for Palmeiras in Brazil",
+        "source": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Angulo"
+      },
+      {
+        "text": "Started 30 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Iv%C3%A1n_Angulo",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "maxime-crepeau",
+    "slug": "maxime-crepeau",
+    "name": "Maxime Crépeau",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "71",
+    "birthday": "1994-05-11",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Maxime_Cr%C3%A9peau",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 128 saves in 30 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Canada international goalkeeper",
+        "source": "https://en.wikipedia.org/wiki/Maxime_Cr%C3%A9peau"
+      },
+      {
+        "text": "Won MLS Cup with LAFC in 2022",
+        "source": "https://en.wikipedia.org/wiki/Maxime_Cr%C3%A9peau"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maxime_Cr%C3%A9peau",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "robin-jansson",
+    "slug": "robin-jansson",
+    "name": "Robin Jansson",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "6",
+    "birthday": "1991-11-15",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Robin_Jansson",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-one MLS starts at center back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Has played for Orlando City since 2019",
+        "source": "https://en.wikipedia.org/wiki/Robin_Jansson"
+      },
+      {
+        "text": "Swedish defender who played for AIK before moving to Orlando",
+        "source": "https://en.wikipedia.org/wiki/Robin_Jansson"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robin_Jansson",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "milan-iloski",
+    "slug": "milan-iloski",
+    "name": "Milan Iloski",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1999-07-29",
+    "birthdaySource": "https://www.mlssoccer.com/players/milan-iloski/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Nineteen goals and six assists in 31 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Took 121 shots this season, one of the highest totals in MLS",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Born in Escondido, California",
+        "source": "https://www.mlssoccer.com/players/milan-iloski/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
+      "https://www.mlssoccer.com/players/milan-iloski/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cavan-sullivan",
+    "slug": "cavan-sullivan",
+    "name": "Cavan Sullivan",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "6",
+    "birthday": "2009-09-28",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cavan_Sullivan",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seven goals and 11 assists in 27 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Seventeen years old during the 2026 season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Younger brother of Union midfielder Quinn Sullivan",
+        "source": "https://en.wikipedia.org/wiki/Cavan_Sullivan"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cavan_Sullivan",
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andre-blake",
+    "slug": "andre-blake",
+    "name": "Andre Blake",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "18",
+    "birthday": "1990-11-21",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Andre_Blake",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 66 saves in 29 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Three-time MLS Goalkeeper of the Year",
+        "source": "https://en.wikipedia.org/wiki/Andre_Blake"
+      },
+      {
+        "text": "Jamaica international and national team captain",
+        "source": "https://en.wikipedia.org/wiki/Andre_Blake"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andre_Blake",
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bruno-damiani",
+    "slug": "bruno-damiani",
+    "name": "Bruno Damiani",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2002-04-18",
+    "birthdaySource": "https://www.mlssoccer.com/players/bruno-damiani/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twelve goals and three assists in 31 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Second on the Union in goals this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Born in Montevideo, Uruguay",
+        "source": "https://www.mlssoccer.com/players/bruno-damiani/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
+      "https://www.mlssoccer.com/players/bruno-damiani/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kai-wagner",
+    "slug": "kai-wagner",
+    "name": "Kai Wagner",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Defender",
+    "number": "27",
+    "birthday": "1997-02-15",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Kai_Wagner",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six assists in 16 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Longtime Union left back who was named to the MLS Best XI",
+        "source": "https://en.wikipedia.org/wiki/Kai_Wagner"
+      },
+      {
+        "text": "German defender who joined Philadelphia from Würzburger Kickers",
+        "source": "https://en.wikipedia.org/wiki/Kai_Wagner"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kai_Wagner",
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kristoffer-velde",
+    "slug": "kristoffer-velde",
+    "name": "Kristoffer Velde",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Forward",
+    "number": "99",
+    "birthday": "1999-09-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Kristoffer_Velde",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eight goals and nine assists in 30 MLS appearances in 2026, the team lead in both",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Took 100 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Norwegian winger who played for Lech Poznań and Olympiacos",
+        "source": "https://en.wikipedia.org/wiki/Kristoffer_Velde"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kristoffer_Velde",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "david-da-costa",
+    "slug": "david-da-costa",
+    "name": "David Da Costa",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "2001-01-05",
+    "birthdaySource": "https://www.mlssoccer.com/players/david-da-costa/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and seven assists in 27 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Portuguese playmaker who joined Portland from RC Lens in France",
+        "source": "https://en.wikipedia.org/wiki/David_Da_Costa"
+      },
+      {
+        "text": "Has started every league match he has played this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Da_Costa",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
+      "https://www.mlssoccer.com/players/david-da-costa/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "diego-chara",
+    "slug": "diego-chara",
+    "name": "Diego Chará",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "21",
+    "birthday": "1986-04-05",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Diego_Char%C3%A1",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twenty-four MLS appearances in 2026, his 16th season with Portland",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with the Portland Timbers in 2015",
+        "source": "https://en.wikipedia.org/wiki/Diego_Char%C3%A1"
+      },
+      {
+        "text": "Has played for the Timbers since 2011, the club's first MLS season",
+        "source": "https://en.wikipedia.org/wiki/Diego_Char%C3%A1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Diego_Char%C3%A1",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "james-pantemis",
+    "slug": "james-pantemis",
+    "name": "James Pantemis",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "41",
+    "birthday": "1997-02-21",
+    "birthdaySource": "https://en.wikipedia.org/wiki/James_Pantemis",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 118 saves in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Canadian goalkeeper who began his career with CF Montréal",
+        "source": "https://en.wikipedia.org/wiki/James_Pantemis"
+      },
+      {
+        "text": "Started every league match he has played this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Pantemis",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cole-bassett",
+    "slug": "cole-bassett",
+    "name": "Cole Bassett",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "17",
+    "birthday": "2001-07-28",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cole_Bassett",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and six assists in 25 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Came through the Colorado Rapids academy and played for Feyenoord in the Netherlands",
+        "source": "https://en.wikipedia.org/wiki/Cole_Bassett"
+      },
+      {
+        "text": "Took 46 shots this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cole_Bassett",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "diego-luna",
+    "slug": "diego-luna",
+    "name": "Diego Luna",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "2003-09-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Diego_Luna_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and five assists in 18 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "United States international",
+        "source": "https://en.wikipedia.org/wiki/Diego_Luna_(soccer)"
+      },
+      {
+        "text": "Wears the No. 10 for Real Salt Lake",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Diego_Luna_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sergi-solans",
+    "slug": "sergi-solans",
+    "name": "Sergi Solans",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Forward",
+    "number": "22",
+    "birthday": "2003-02-26",
+    "birthdaySource": "https://www.mlssoccer.com/players/sergi-solans/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fourteen goals and three assists in 29 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Put 30 of his 63 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Born in Lleida, Spain",
+        "source": "https://www.mlssoccer.com/players/sergi-solans/"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
+      "https://www.mlssoccer.com/players/sergi-solans/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rafael-cabral",
+    "slug": "rafael-cabral",
+    "name": "Rafael Cabral",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1990-05-20",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Rafael_Cabral",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 80 saves in 30 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Brazilian goalkeeper who played for Napoli and Sampdoria in Italy",
+        "source": "https://en.wikipedia.org/wiki/Rafael_Cabral"
+      },
+      {
+        "text": "Started every league match he has played this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rafael_Cabral",
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "deandre-yedlin",
+    "slug": "deandre-yedlin",
+    "name": "DeAndre Yedlin",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Defender",
+    "number": "2",
+    "birthday": "1993-07-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/DeAndre_Yedlin",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two assists in 22 MLS appearances at right back in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Played for the United States at the 2014 and 2022 World Cups",
+        "source": "https://en.wikipedia.org/wiki/DeAndre_Yedlin"
+      },
+      {
+        "text": "Played for Tottenham Hotspur and Newcastle United in England",
+        "source": "https://en.wikipedia.org/wiki/DeAndre_Yedlin"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/DeAndre_Yedlin",
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "morgan-guilavogui",
+    "slug": "morgan-guilavogui",
+    "name": "Morgan Guilavogui",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1998-03-10",
+    "birthdaySource": "https://www.mlssoccer.com/players/morgan-guilavogui/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and 10 assists in 25 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Put 24 of his 51 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Started 21 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
+      "https://www.mlssoccer.com/players/morgan-guilavogui/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "anders-dreyer",
+    "slug": "anders-dreyer",
+    "name": "Anders Dreyer",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "10",
+    "birthday": "1998-05-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Anders_Dreyer",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Thirteen goals and 14 assists in 30 MLS appearances in 2026, the team lead in both",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "Danish winger who played for Anderlecht in Belgium",
+        "source": "https://en.wikipedia.org/wiki/Anders_Dreyer"
+      },
+      {
+        "text": "Took 94 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anders_Dreyer",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "marcus-ingvartsen",
+    "slug": "marcus-ingvartsen",
+    "name": "Marcus Ingvartsen",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "1996-01-04",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Marcus_Ingvartsen",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Twelve goals and five assists in 27 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "Danish forward who played for Union Berlin and Mainz in the Bundesliga",
+        "source": "https://en.wikipedia.org/wiki/Marcus_Ingvartsen"
+      },
+      {
+        "text": "Second on San Diego FC in goals this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marcus_Ingvartsen",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "onni-valakari",
+    "slug": "onni-valakari",
+    "name": "Onni Valakari",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "1999-08-18",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Onni_Valakari",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and nine assists in 29 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "Finland international who played for Pafos in Cyprus",
+        "source": "https://en.wikipedia.org/wiki/Onni_Valakari"
+      },
+      {
+        "text": "Started 25 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Onni_Valakari",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cedric-bakambu",
+    "slug": "cedric-bakambu",
+    "name": "Cédric Bakambu",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "94",
+    "birthday": "1991-04-11",
+    "birthdaySource": "https://en.wikipedia.org/wiki/C%C3%A9dric_Bakambu",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and one assist in his first eight MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "DR Congo international who played for Villarreal, Marseille and Real Betis",
+        "source": "https://en.wikipedia.org/wiki/C%C3%A9dric_Bakambu"
+      },
+      {
+        "text": "Put 10 of his 15 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/C%C3%A9dric_Bakambu",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jeppe-tverskov",
+    "slug": "jeppe-tverskov",
+    "name": "Jeppe Tverskov",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "6",
+    "birthday": "1993-03-12",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jeppe_Tverskov",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four assists in 25 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "San Diego FC captain since the club's first MLS season",
+        "source": "https://en.wikipedia.org/wiki/Jeppe_Tverskov"
+      },
+      {
+        "text": "Played for Nordsjælland in Denmark before moving to San Diego",
+        "source": "https://en.wikipedia.org/wiki/Jeppe_Tverskov"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeppe_Tverskov",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "timo-werner",
+    "slug": "timo-werner",
+    "name": "Timo Werner",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "1996-03-06",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Timo_Werner",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and eight assists in 19 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "Won the Champions League with Chelsea in 2021",
+        "source": "https://en.wikipedia.org/wiki/Timo_Werner"
+      },
+      {
+        "text": "Germany international who starred for RB Leipzig",
+        "source": "https://en.wikipedia.org/wiki/Timo_Werner"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Timo_Werner",
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "preston-judd",
+    "slug": "preston-judd",
+    "name": "Preston Judd",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Forward",
+    "number": "19",
+    "birthday": "1999-05-28",
+    "birthdaySource": "https://www.mlssoccer.com/players/preston-judd/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Sixteen goals and three assists in 29 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "Put 39 of his 78 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "American striker who has become San Jose's main finisher",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
+      "https://www.mlssoccer.com/players/preston-judd/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "niko-tsakiris",
+    "slug": "niko-tsakiris",
+    "name": "Niko Tsakiris",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "2005-06-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Niko_Tsakiris",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and 11 assists in 20 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "Homegrown midfielder who came through the San Jose Earthquakes academy",
+        "source": "https://en.wikipedia.org/wiki/Niko_Tsakiris"
+      },
+      {
+        "text": "Wears the No. 10 for San Jose at age 21",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Niko_Tsakiris",
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ousseni-bouda",
+    "slug": "ousseni-bouda",
+    "name": "Ousseni Bouda",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": null,
+    "birthdaySource": null,
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and three assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "Burkina Faso forward who played college soccer at Stanford",
+        "source": "https://en.wikipedia.org/wiki/Ousseni_Bouda"
+      },
+      {
+        "text": "Started 24 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ousseni_Bouda",
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "angus-gunn",
+    "slug": "angus-gunn",
+    "name": "Angus Gunn",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1996-01-22",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Angus_Gunn",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 47 saves in 14 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "Scotland international goalkeeper",
+        "source": "https://en.wikipedia.org/wiki/Angus_Gunn"
+      },
+      {
+        "text": "Played for Norwich City and Southampton in England",
+        "source": "https://en.wikipedia.org/wiki/Angus_Gunn"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Angus_Gunn",
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "albert-rusnak",
+    "slug": "albert-rusnak",
+    "name": "Albert Rusnák",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "11",
+    "birthday": "1994-07-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and 13 assists in 30 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Slovakia international",
+        "source": "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k"
+      },
+      {
+        "text": "Starred for Real Salt Lake before joining Seattle",
+        "source": "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Albert_Rusn%C3%A1k",
+      "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cristian-roldan",
+    "slug": "cristian-roldan",
+    "name": "Cristian Roldan",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "7",
+    "birthday": "1995-06-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cristian_Roldan",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals and three assists in 23 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with Seattle in 2016 and 2019",
+        "source": "https://en.wikipedia.org/wiki/Cristian_Roldan"
+      },
+      {
+        "text": "United States international",
+        "source": "https://en.wikipedia.org/wiki/Cristian_Roldan"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cristian_Roldan",
+      "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jesus-ferreira",
+    "slug": "jesus-ferreira",
+    "name": "Jesús Ferreira",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "27",
+    "birthday": "2000-12-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Ferreira",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals and four assists in 22 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Played for the United States at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Ferreira"
+      },
+      {
+        "text": "Starred for FC Dallas before joining Seattle",
+        "source": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Ferreira"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jes%C3%BAs_Ferreira",
+      "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "paul-rothrock",
+    "slug": "paul-rothrock",
+    "name": "Paul Rothrock",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "14",
+    "birthday": null,
+    "birthdaySource": null,
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Five goals in 22 MLS appearances in 2026, tied for the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Put 13 of his 31 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Started 19 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andre-luiz",
+    "slug": "andre-luiz",
+    "name": "André Luiz",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "sporting-kansas-city",
+    "lastTeamId": "sporting-kansas-city",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2002-02-23",
+    "birthdaySource": "https://www.espn.com/soccer/player/bio/_/id/324574",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seven goals and three assists in just 10 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Put 15 of his 33 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Came through Flamengo and played for Rio Ave in Portugal and Olympiacos in Greece",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/324574"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/324574",
+      "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "calvin-harris",
+    "slug": "calvin-harris",
+    "name": "Calvin Harris",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "sporting-kansas-city",
+    "lastTeamId": "sporting-kansas-city",
+    "status": "Active",
+    "position": "Forward",
+    "number": "14",
+    "birthday": "2000-03-20",
+    "birthdaySource": "https://www.mlssoccer.com/players/calvin-harris/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and six assists in 30 MLS appearances in 2026, the team lead in assists",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Took 57 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Played for FC Cincinnati and the Colorado Rapids after college soccer at Wake Forest",
+        "source": "https://www.espn.com/soccer/player/bio/_/id/293695"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/player/bio/_/id/293695",
+      "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1",
+      "https://www.mlssoccer.com/players/calvin-harris/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "shapi-suleymanov",
+    "slug": "shapi-suleymanov",
+    "name": "Shapi Suleymanov",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "sporting-kansas-city",
+    "lastTeamId": "sporting-kansas-city",
+    "status": "Active",
+    "position": "Forward",
+    "number": "93",
+    "birthday": "1999-12-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Shapi_Suleymanov",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "One goal and one assist in 25 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Russian winger who played for Krasnodar",
+        "source": "https://en.wikipedia.org/wiki/Shapi_Suleymanov"
+      },
+      {
+        "text": "Took 24 shots this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shapi_Suleymanov",
+      "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "roman-burki",
+    "slug": "roman-burki",
+    "name": "Roman Bürki",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1990-11-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 74 saves in 28 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Played for Borussia Dortmund for several seasons",
+        "source": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki"
+      },
+      {
+        "text": "Switzerland international goalkeeper",
+        "source": "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roman_B%C3%BCrki",
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "simon-becher",
+    "slug": "simon-becher",
+    "name": "Simon Becher",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "1999-07-20",
+    "birthdaySource": "https://www.mlssoccer.com/players/simon-becher/",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Nine goals and four assists in 31 MLS appearances in 2026, the team lead in goals",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Took 70 shots this season, the most on the team",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Started 25 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
+      "https://www.mlssoccer.com/players/simon-becher/"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rafael-navarro",
+    "slug": "rafael-navarro",
+    "name": "Rafael Navarro",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": null,
+    "birthdaySource": null,
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eight goals and three assists in just nine MLS appearances for St. Louis in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Brazilian striker who played for Palmeiras and the Colorado Rapids",
+        "source": "https://en.wikipedia.org/wiki/Rafael_Navarro"
+      },
+      {
+        "text": "Put 13 of his 21 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rafael_Navarro",
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "carlo-holse",
+    "slug": "carlo-holse",
+    "name": "Carlo Holse",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "19",
+    "birthday": "1999-06-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Carlo_Holse",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Six goals and one assist in 11 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Danish attacker who played for Rosenborg in Norway",
+        "source": "https://en.wikipedia.org/wiki/Carlo_Holse"
+      },
+      {
+        "text": "Put 12 of his 23 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carlo_Holse",
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "daniel-edelman",
+    "slug": "daniel-edelman",
+    "name": "Daniel Edelman",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "24",
+    "birthday": null,
+    "birthdaySource": null,
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and four assists in 30 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "American midfielder who began his career with the New York Red Bulls",
+        "source": "https://en.wikipedia.org/wiki/Daniel_Edelman"
+      },
+      {
+        "text": "Started 26 league matches this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daniel_Edelman",
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "josh-sargent",
+    "slug": "josh-sargent",
+    "name": "Josh Sargent",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2000-02-20",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Josh_Sargent",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Eight goals and two assists in 24 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "United States international who played for Werder Bremen and Norwich City",
+        "source": "https://en.wikipedia.org/wiki/Josh_Sargent"
+      },
+      {
+        "text": "Played for the United States at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Josh_Sargent"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Josh_Sargent",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "djordje-mihailovic",
+    "slug": "djordje-mihailovic",
+    "name": "Djordje Mihailovic",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "10",
+    "birthday": "1998-11-10",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Djordje_Mihailovic",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three goals and five assists in 16 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "United States international who played for AZ Alkmaar in the Netherlands",
+        "source": "https://en.wikipedia.org/wiki/Djordje_Mihailovic"
+      },
+      {
+        "text": "Has also played for the Chicago Fire, CF Montréal and the Colorado Rapids",
+        "source": "https://en.wikipedia.org/wiki/Djordje_Mihailovic"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Djordje_Mihailovic",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jonathan-osorio",
+    "slug": "jonathan-osorio",
+    "name": "Jonathan Osorio",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "21",
+    "birthday": "1992-06-12",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four assists in 22 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "Won MLS Cup with Toronto FC in 2017",
+        "source": "https://en.wikipedia.org/wiki/Jonathan_Osorio"
+      },
+      {
+        "text": "Played for Canada at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Jonathan_Osorio"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "walker-zimmerman",
+    "slug": "walker-zimmerman",
+    "name": "Walker Zimmerman",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "25",
+    "birthday": "1993-05-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Walker_Zimmerman",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "One goal and one assist in 22 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "Played for the United States at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Walker_Zimmerman"
+      },
+      {
+        "text": "Former Nashville SC and FC Dallas center back",
+        "source": "https://en.wikipedia.org/wiki/Walker_Zimmerman"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Walker_Zimmerman",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "richie-laryea",
+    "slug": "richie-laryea",
+    "name": "Richie Laryea",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "22",
+    "birthday": "1995-01-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Richie_Laryea",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two goals and four assists in 24 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "Played for Canada at the 2022 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Richie_Laryea"
+      },
+      {
+        "text": "Has also played for Nottingham Forest in England",
+        "source": "https://en.wikipedia.org/wiki/Richie_Laryea"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richie_Laryea",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "thomas-muller",
+    "slug": "thomas-muller",
+    "name": "Thomas Müller",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "13",
+    "birthday": "1989-09-13",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Nine goals and eight assists in 23 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Won the 2014 World Cup with Germany",
+        "source": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller"
+      },
+      {
+        "text": "Won two Champions League titles with Bayern Munich",
+        "source": "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_M%C3%BCller",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brian-white",
+    "slug": "brian-white",
+    "name": "Brian White",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "24",
+    "birthday": "1996-02-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Brian_White_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seventeen goals in 29 MLS appearances in 2026, the team lead",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Put 43 of his 94 shots on target this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Joined Vancouver from the New York Red Bulls",
+        "source": "https://en.wikipedia.org/wiki/Brian_White_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_White_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ryan-gauld",
+    "slug": "ryan-gauld",
+    "name": "Ryan Gauld",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "25",
+    "birthday": "1995-12-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Ryan_Gauld",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four goals and two assists in 17 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Played for Sporting CP in Portugal",
+        "source": "https://en.wikipedia.org/wiki/Ryan_Gauld"
+      },
+      {
+        "text": "Scottish playmaker who has been one of Vancouver's key players since 2021",
+        "source": "https://en.wikipedia.org/wiki/Ryan_Gauld"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ryan_Gauld",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "yohei-takaoka",
+    "slug": "yohei-takaoka",
+    "name": "Yohei Takaoka",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Goalkeeper",
+    "number": "1",
+    "birthday": "1996-03-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Yohei_Takaoka",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Allowed only 29 goals in 30 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Japanese goalkeeper who played for Yokohama F. Marinos",
+        "source": "https://en.wikipedia.org/wiki/Yohei_Takaoka"
+      },
+      {
+        "text": "Made 67 saves this season",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yohei_Takaoka",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andres-cubas",
+    "slug": "andres-cubas",
+    "name": "Andrés Cubas",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "20",
+    "birthday": "1996-05-22",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Four assists in 25 MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Paraguay international",
+        "source": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas"
+      },
+      {
+        "text": "Played for Boca Juniors in Argentina and Nîmes in France",
+        "source": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andr%C3%A9s_Cubas",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-27"
   }
 ]

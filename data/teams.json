@@ -978,5 +978,235 @@
       "secondary": "#C4CED4",
       "accent": "#000000"
     }
+  },
+  {
+    "id": "austin-fc",
+    "name": "Austin FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#00B140",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "cf-montreal",
+    "name": "CF Montréal",
+    "league": "mls",
+    "colors": {
+      "primary": "#0033A1",
+      "secondary": "#000000",
+      "accent": "#9EA2A2"
+    }
+  },
+  {
+    "id": "chicago-fire-fc",
+    "name": "Chicago Fire FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#141946",
+      "accent": "#7CCDEF"
+    }
+  },
+  {
+    "id": "colorado-rapids",
+    "name": "Colorado Rapids",
+    "league": "mls",
+    "colors": {
+      "primary": "#960A2C",
+      "secondary": "#9CC2EA",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "d-c-united",
+    "name": "D.C. United",
+    "league": "mls",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#EF3E42",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "fc-cincinnati",
+    "name": "FC Cincinnati",
+    "league": "mls",
+    "colors": {
+      "primary": "#F05323",
+      "secondary": "#263B80",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "fc-dallas",
+    "name": "FC Dallas",
+    "league": "mls",
+    "colors": {
+      "primary": "#E81F3E",
+      "secondary": "#2A4076",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "houston-dynamo-fc",
+    "name": "Houston Dynamo FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#FF6B00",
+      "secondary": "#101820",
+      "accent": "#8DC8E8"
+    }
+  },
+  {
+    "id": "minnesota-united-fc",
+    "name": "Minnesota United FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#231F20",
+      "secondary": "#8CD2F4",
+      "accent": "#E4E5E6"
+    }
+  },
+  {
+    "id": "nashville-sc",
+    "name": "Nashville SC",
+    "league": "mls",
+    "colors": {
+      "primary": "#ECE83A",
+      "secondary": "#1F1646",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-england-revolution",
+    "name": "New England Revolution",
+    "league": "mls",
+    "colors": {
+      "primary": "#0A2240",
+      "secondary": "#CE0E2D",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-york-city-fc",
+    "name": "New York City FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#6CACE4",
+      "secondary": "#041E42",
+      "accent": "#F15524"
+    }
+  },
+  {
+    "id": "new-york-red-bulls",
+    "name": "New York Red Bulls",
+    "league": "mls",
+    "colors": {
+      "primary": "#ED1E36",
+      "secondary": "#23326A",
+      "accent": "#FFC72C"
+    }
+  },
+  {
+    "id": "orlando-city-sc",
+    "name": "Orlando City SC",
+    "league": "mls",
+    "colors": {
+      "primary": "#633492",
+      "secondary": "#FDE192",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "philadelphia-union",
+    "name": "Philadelphia Union",
+    "league": "mls",
+    "colors": {
+      "primary": "#071B2C",
+      "secondary": "#B18500",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "portland-timbers",
+    "name": "Portland Timbers",
+    "league": "mls",
+    "colors": {
+      "primary": "#00482B",
+      "secondary": "#D69A00",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "real-salt-lake",
+    "name": "Real Salt Lake",
+    "league": "mls",
+    "colors": {
+      "primary": "#B30838",
+      "secondary": "#013A81",
+      "accent": "#DAA900"
+    }
+  },
+  {
+    "id": "san-diego-fc",
+    "name": "San Diego FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#0B2240",
+      "secondary": "#B8B9BC",
+      "accent": "#F2A6C8"
+    }
+  },
+  {
+    "id": "san-jose-earthquakes",
+    "name": "San Jose Earthquakes",
+    "league": "mls",
+    "colors": {
+      "primary": "#0067B1",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "sporting-kansas-city",
+    "name": "Sporting Kansas City",
+    "league": "mls",
+    "colors": {
+      "primary": "#91B0D5",
+      "secondary": "#002F65",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "st-louis-city-sc",
+    "name": "St. Louis CITY SC",
+    "league": "mls",
+    "colors": {
+      "primary": "#DD004A",
+      "secondary": "#0A1E2C",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "toronto-fc",
+    "name": "Toronto FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#B81137",
+      "secondary": "#455560",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "vancouver-whitecaps-fc",
+    "name": "Vancouver Whitecaps FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#00245D",
+      "secondary": "#9DC2EA",
+      "accent": "#FFFFFF"
+    }
   }
 ]
