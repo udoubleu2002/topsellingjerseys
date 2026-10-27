@@ -25493,5 +25493,4732 @@
       "https://www.statmuse.com/wnba/player/georgia-amoore-367"
     ],
     "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "trey-mcbride",
+    "slug": "trey-mcbride",
+    "name": "Trey McBride",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "arizona-cardinals",
+    "lastTeamId": "arizona-cardinals",
+    "status": "Active",
+    "position": "TE",
+    "number": "85",
+    "birthday": "1999-11-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/trey-mcbride-29704",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads the Cardinals with 59 catches for 472 yards and 4 TDs through seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/trey-mcbride-29704"
+      },
+      {
+        "text": "Caught 10 passes for 111 yards and a touchdown against Denver on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/trey-mcbride-29704"
+      },
+      {
+        "text": "Wears No. 85 for the Cardinals",
+        "source": "https://www.statmuse.com/nfl/player/trey-mcbride-29704"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/trey-mcbride-29704"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jeremiyah-love",
+    "slug": "jeremiyah-love",
+    "name": "Jeremiyah Love",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "arizona-cardinals",
+    "lastTeamId": "arizona-cardinals",
+    "status": "Active",
+    "position": "RB",
+    "number": "4",
+    "birthday": "2005-05-31",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jeremiyah-love-32768",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Ran for 245 yards with 2 total touchdowns in his first five NFL games",
+        "source": "https://www.statmuse.com/nfl/player/jeremiyah-love-32768"
+      },
+      {
+        "text": "Scored a rushing touchdown in his NFL debut, a 26-14 win at the Chargers on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/jeremiyah-love-32768"
+      },
+      {
+        "text": "Wears No. 4 for the Cardinals",
+        "source": "https://www.statmuse.com/nfl/player/jeremiyah-love-32768"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jeremiyah-love-32768"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "budda-baker",
+    "slug": "budda-baker",
+    "name": "Budda Baker",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "arizona-cardinals",
+    "lastTeamId": "arizona-cardinals",
+    "status": "Active",
+    "position": "S",
+    "number": "3",
+    "birthday": "1996-01-10",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/budda-baker-26193",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 12 tackles and 1.5 sacks in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/budda-baker-26193"
+      },
+      {
+        "text": "Recorded a sack and a tackle for loss against Seattle on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/budda-baker-26193"
+      },
+      {
+        "text": "Wears No. 3 for the Cardinals",
+        "source": "https://www.statmuse.com/nfl/player/budda-baker-26193"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/budda-baker-26193"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jacoby-brissett",
+    "slug": "jacoby-brissett",
+    "name": "Jacoby Brissett",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "arizona-cardinals",
+    "lastTeamId": "arizona-cardinals",
+    "status": "Active",
+    "position": "QB",
+    "number": "7",
+    "birthday": "1992-12-11",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jacoby-brissett-25131",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 1,328 yards and 9 touchdowns in his first six starts of 2026",
+        "source": "https://www.statmuse.com/nfl/player/jacoby-brissett-25131"
+      },
+      {
+        "text": "Passed for 292 yards and 3 touchdowns against Detroit on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/jacoby-brissett-25131"
+      },
+      {
+        "text": "Wears No. 7 for the Cardinals",
+        "source": "https://www.statmuse.com/nfl/player/jacoby-brissett-25131"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jacoby-brissett-25131"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "josh-sweat",
+    "slug": "josh-sweat",
+    "name": "Josh Sweat",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "arizona-cardinals",
+    "lastTeamId": "arizona-cardinals",
+    "status": "Active",
+    "position": "LB",
+    "number": "10",
+    "birthday": "1997-03-29",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/josh-sweat-26571",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2.0 sacks and 3 tackles for loss in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/josh-sweat-26571"
+      },
+      {
+        "text": "Had a sack in Arizona's 18-16 win at the Rams on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/josh-sweat-26571"
+      },
+      {
+        "text": "Wears No. 10 for the Cardinals",
+        "source": "https://www.statmuse.com/nfl/player/josh-sweat-26571"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/josh-sweat-26571"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bijan-robinson",
+    "slug": "bijan-robinson",
+    "name": "Bijan Robinson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "atlanta-falcons",
+    "lastTeamId": "atlanta-falcons",
+    "status": "Active",
+    "position": "RB",
+    "number": "7",
+    "birthday": "2002-01-30",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/bijan-robinson-30266",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 704 rushing yards at 5.4 yards per carry and 907 total yards in seven games",
+        "source": "https://www.statmuse.com/nfl/player/bijan-robinson-30266"
+      },
+      {
+        "text": "Ran for 194 yards and 2 touchdowns in a 35-14 win at Green Bay on Sept. 24",
+        "source": "https://www.statmuse.com/nfl/player/bijan-robinson-30266"
+      },
+      {
+        "text": "Wears No. 7 for the Falcons",
+        "source": "https://www.statmuse.com/nfl/player/bijan-robinson-30266"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/bijan-robinson-30266"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "drake-london",
+    "slug": "drake-london",
+    "name": "Drake London",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "atlanta-falcons",
+    "lastTeamId": "atlanta-falcons",
+    "status": "Active",
+    "position": "WR",
+    "number": "5",
+    "birthday": "2001-07-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/drake-london-29720",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 31 catches for 550 yards, 17.7 yards per catch, in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/drake-london-29720"
+      },
+      {
+        "text": "Caught 9 passes for 194 yards in a 35-14 win at Green Bay on Sept. 24",
+        "source": "https://www.statmuse.com/nfl/player/drake-london-29720"
+      },
+      {
+        "text": "Wears No. 5 for the Falcons",
+        "source": "https://www.statmuse.com/nfl/player/drake-london-29720"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/drake-london-29720"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "michael-penix-jr",
+    "slug": "michael-penix-jr",
+    "name": "Michael Penix Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "atlanta-falcons",
+    "lastTeamId": "atlanta-falcons",
+    "status": "Active",
+    "position": "QB",
+    "number": "9",
+    "birthday": "2000-05-08",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/michael-penix-jr.-31077",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has a 106.0 passer rating with 6 touchdowns and 1 interception in four games",
+        "source": "https://www.statmuse.com/nfl/player/michael-penix-jr.-31077"
+      },
+      {
+        "text": "Threw for 225 yards and 3 touchdowns against Chicago on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/michael-penix-jr.-31077"
+      },
+      {
+        "text": "Wears No. 9 for the Falcons",
+        "source": "https://www.statmuse.com/nfl/player/michael-penix-jr.-31077"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/michael-penix-jr.-31077"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyle-pitts",
+    "slug": "kyle-pitts",
+    "name": "Kyle Pitts",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "atlanta-falcons",
+    "lastTeamId": "atlanta-falcons",
+    "status": "Active",
+    "position": "TE",
+    "number": "8",
+    "birthday": "2000-10-06",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/kyle-pitts-sr.-29302",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 10 catches for 109 yards and a touchdown in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/kyle-pitts-sr.-29302"
+      },
+      {
+        "text": "Caught 5 passes for 42 yards and a touchdown against Baltimore on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/kyle-pitts-sr.-29302"
+      },
+      {
+        "text": "Wears No. 8 for the Falcons",
+        "source": "https://www.statmuse.com/nfl/player/kyle-pitts-sr.-29302"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/kyle-pitts-sr.-29302"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jessie-bates-iii",
+    "slug": "jessie-bates-iii",
+    "name": "Jessie Bates III",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "atlanta-falcons",
+    "lastTeamId": "atlanta-falcons",
+    "status": "Active",
+    "position": "S",
+    "number": "3",
+    "birthday": "1997-02-26",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jessie-bates-iii-26736",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has an interception, 2 forced fumbles, 4 passes defended and a defensive touchdown in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jessie-bates-iii-26736"
+      },
+      {
+        "text": "Intercepted a pass and forced a fumble in a 29-20 win over San Francisco on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/jessie-bates-iii-26736"
+      },
+      {
+        "text": "Wears No. 3 for the Falcons",
+        "source": "https://www.statmuse.com/nfl/player/jessie-bates-iii-26736"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jessie-bates-iii-26736"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bryce-young",
+    "slug": "bryce-young",
+    "name": "Bryce Young",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "carolina-panthers",
+    "lastTeamId": "carolina-panthers",
+    "status": "Active",
+    "position": "QB",
+    "number": "9",
+    "birthday": "2001-07-25",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/bryce-young-30269",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1,712 passing yards, 12 touchdowns and 4 interceptions in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/bryce-young-30269"
+      },
+      {
+        "text": "Threw for 287 yards and 3 touchdowns in a 34-3 win at Atlanta on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/bryce-young-30269"
+      },
+      {
+        "text": "Wears No. 9 for the Panthers",
+        "source": "https://www.statmuse.com/nfl/player/bryce-young-30269"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/bryce-young-30269"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tetairoa-mcmillan",
+    "slug": "tetairoa-mcmillan",
+    "name": "Tetairoa McMillan",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "carolina-panthers",
+    "lastTeamId": "carolina-panthers",
+    "status": "Active",
+    "position": "WR",
+    "number": "4",
+    "birthday": "2003-04-05",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/tetairoa-mcmillan-31966",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 26 catches for 385 yards and 2 touchdowns in four games",
+        "source": "https://www.statmuse.com/nfl/player/tetairoa-mcmillan-31966"
+      },
+      {
+        "text": "Caught 14 passes for 192 yards and 2 touchdowns in a 32-26 win over Detroit on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/tetairoa-mcmillan-31966"
+      },
+      {
+        "text": "Wears No. 4 for the Panthers",
+        "source": "https://www.statmuse.com/nfl/player/tetairoa-mcmillan-31966"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/tetairoa-mcmillan-31966"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chuba-hubbard",
+    "slug": "chuba-hubbard",
+    "name": "Chuba Hubbard",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "carolina-panthers",
+    "lastTeamId": "carolina-panthers",
+    "status": "Active",
+    "position": "RB",
+    "number": "30",
+    "birthday": "1999-06-11",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/chuba-hubbard-29358",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 426 rushing yards at 4.8 a carry and 6 total touchdowns in five games",
+        "source": "https://www.statmuse.com/nfl/player/chuba-hubbard-29358"
+      },
+      {
+        "text": "Ran for 122 yards and 2 touchdowns in a 32-26 win over Detroit on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/chuba-hubbard-29358"
+      },
+      {
+        "text": "Wears No. 30 for the Panthers",
+        "source": "https://www.statmuse.com/nfl/player/chuba-hubbard-29358"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/chuba-hubbard-29358"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-coker",
+    "slug": "jalen-coker",
+    "name": "Jalen Coker",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "carolina-panthers",
+    "lastTeamId": "carolina-panthers",
+    "status": "Active",
+    "position": "WR",
+    "number": "18",
+    "birthday": "2001-10-30",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jalen-coker-31446",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 18 catches for 222 yards and 2 touchdowns in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/jalen-coker-31446"
+      },
+      {
+        "text": "Caught 8 passes for 138 yards and 2 touchdowns against Chicago on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/jalen-coker-31446"
+      },
+      {
+        "text": "Wears No. 18 for the Panthers",
+        "source": "https://www.statmuse.com/nfl/player/jalen-coker-31446"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jalen-coker-31446"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "devin-lloyd",
+    "slug": "devin-lloyd",
+    "name": "Devin Lloyd",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "carolina-panthers",
+    "lastTeamId": "carolina-panthers",
+    "status": "Active",
+    "position": "LB",
+    "number": "55",
+    "birthday": "1998-09-30",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/devin-lloyd-29801",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 interceptions, 2.0 sacks and a defensive touchdown in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/devin-lloyd-29801"
+      },
+      {
+        "text": "Had 2 interceptions and a sack in a 34-3 win at Atlanta on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/devin-lloyd-29801"
+      },
+      {
+        "text": "Wears No. 55 for the Panthers",
+        "source": "https://www.statmuse.com/nfl/player/devin-lloyd-29801"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/devin-lloyd-29801"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "joe-burrow",
+    "slug": "joe-burrow",
+    "name": "Joe Burrow",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cincinnati-bengals",
+    "lastTeamId": "cincinnati-bengals",
+    "status": "Active",
+    "position": "QB",
+    "number": "9",
+    "birthday": "1996-12-10",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/joe-burrow-28175",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Completed 71.4 percent of his passes with 11 touchdowns in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/joe-burrow-28175"
+      },
+      {
+        "text": "Threw 4 touchdown passes in a 31-24 win at Miami on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/joe-burrow-28175"
+      },
+      {
+        "text": "Wears No. 9 for the Bengals",
+        "source": "https://www.statmuse.com/nfl/player/joe-burrow-28175"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/joe-burrow-28175"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jamarr-chase",
+    "slug": "jamarr-chase",
+    "name": "Ja'Marr Chase",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cincinnati-bengals",
+    "lastTeamId": "cincinnati-bengals",
+    "status": "Active",
+    "position": "WR",
+    "number": "1",
+    "birthday": "2000-03-01",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/ja'marr-chase-29182",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 32 catches for 351 yards and 5 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/ja'marr-chase-29182"
+      },
+      {
+        "text": "Caught 7 passes for 75 yards and 2 touchdowns in a 20-6 win at Houston on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/ja'marr-chase-29182"
+      },
+      {
+        "text": "Wears No. 1 for the Bengals",
+        "source": "https://www.statmuse.com/nfl/player/ja'marr-chase-29182"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/ja'marr-chase-29182"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tee-higgins",
+    "slug": "tee-higgins",
+    "name": "Tee Higgins",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cincinnati-bengals",
+    "lastTeamId": "cincinnati-bengals",
+    "status": "Active",
+    "position": "WR",
+    "number": "5",
+    "birthday": "1999-01-18",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/tee-higgins-28238",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 27 catches for 423 yards, 15.7 yards per catch, in five games",
+        "source": "https://www.statmuse.com/nfl/player/tee-higgins-28238"
+      },
+      {
+        "text": "Caught 11 passes for 157 yards against Jacksonville on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/tee-higgins-28238"
+      },
+      {
+        "text": "Wears No. 5 for the Bengals",
+        "source": "https://www.statmuse.com/nfl/player/tee-higgins-28238"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/tee-higgins-28238"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chase-brown",
+    "slug": "chase-brown",
+    "name": "Chase Brown",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cincinnati-bengals",
+    "lastTeamId": "cincinnati-bengals",
+    "status": "Active",
+    "position": "RB",
+    "number": "30",
+    "birthday": "2000-03-21",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/chase-brown-30420",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 370 total yards from scrimmage in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/chase-brown-30420"
+      },
+      {
+        "text": "Ran for 80 yards on 20 carries in a 20-6 win at Houston on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/chase-brown-30420"
+      },
+      {
+        "text": "Wears No. 30 for the Bengals",
+        "source": "https://www.statmuse.com/nfl/player/chase-brown-30420"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/chase-brown-30420"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jonathan-allen",
+    "slug": "jonathan-allen",
+    "name": "Jonathan Allen",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cincinnati-bengals",
+    "lastTeamId": "cincinnati-bengals",
+    "status": "Active",
+    "position": "DT",
+    "number": "93",
+    "birthday": "1995-01-16",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jonathan-allen-25724",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3.0 sacks, 4 tackles for loss and a forced fumble in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jonathan-allen-25724"
+      },
+      {
+        "text": "Had a sack and 3 tackles for loss in a 20-6 win at Houston on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/jonathan-allen-25724"
+      },
+      {
+        "text": "Wears No. 93 for the Bengals",
+        "source": "https://www.statmuse.com/nfl/player/jonathan-allen-25724"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jonathan-allen-25724"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "shedeur-sanders",
+    "slug": "shedeur-sanders",
+    "name": "Shedeur Sanders",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cleveland-browns",
+    "lastTeamId": "cleveland-browns",
+    "status": "Active",
+    "position": "QB",
+    "number": "2",
+    "birthday": "2002-02-07",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/shedeur-sanders-32045",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "In his second NFL season, all with the Cleveland Browns",
+        "source": "https://www.statmuse.com/nfl/player/shedeur-sanders-32045"
+      },
+      {
+        "text": "Completed his only pass in a 21-18 win over Carolina on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/shedeur-sanders-32045"
+      },
+      {
+        "text": "Wears No. 2 for the Browns",
+        "source": "https://www.statmuse.com/nfl/player/shedeur-sanders-32045"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/shedeur-sanders-32045"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "quinshon-judkins",
+    "slug": "quinshon-judkins",
+    "name": "Quinshon Judkins",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cleveland-browns",
+    "lastTeamId": "cleveland-browns",
+    "status": "Active",
+    "position": "RB",
+    "number": "10",
+    "birthday": "2003-10-29",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/quinshon-judkins-31976",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 317 rushing yards, 427 total yards and 3 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/quinshon-judkins-31976"
+      },
+      {
+        "text": "Ran for 96 yards and 2 touchdowns in a 27-24 win at Tennessee on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/quinshon-judkins-31976"
+      },
+      {
+        "text": "Wears No. 10 for the Browns",
+        "source": "https://www.statmuse.com/nfl/player/quinshon-judkins-31976"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/quinshon-judkins-31976"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "denzel-ward",
+    "slug": "denzel-ward",
+    "name": "Denzel Ward",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cleveland-browns",
+    "lastTeamId": "cleveland-browns",
+    "status": "Active",
+    "position": "CB",
+    "number": "21",
+    "birthday": "1997-04-28",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/denzel-ward-26805",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 interceptions, 2 forced fumbles and 6 passes defended in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/denzel-ward-26805"
+      },
+      {
+        "text": "Intercepted a pass and broke up 3 more in a 27-24 win at Tennessee on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/denzel-ward-26805"
+      },
+      {
+        "text": "Wears No. 21 for the Browns",
+        "source": "https://www.statmuse.com/nfl/player/denzel-ward-26805"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/denzel-ward-26805"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mason-graham",
+    "slug": "mason-graham",
+    "name": "Mason Graham",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cleveland-browns",
+    "lastTeamId": "cleveland-browns",
+    "status": "Active",
+    "position": "DT",
+    "number": "94",
+    "birthday": "2003-09-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/mason-graham-31941",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 4.0 sacks and 6 tackles for loss in his first four games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/mason-graham-31941"
+      },
+      {
+        "text": "Had 2.0 sacks and 3 tackles for loss in a 21-18 win over Carolina on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/mason-graham-31941"
+      },
+      {
+        "text": "Wears No. 94 for the Browns",
+        "source": "https://www.statmuse.com/nfl/player/mason-graham-31941"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/mason-graham-31941"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "carson-schwesinger",
+    "slug": "carson-schwesinger",
+    "name": "Carson Schwesinger",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "cleveland-browns",
+    "lastTeamId": "cleveland-browns",
+    "status": "Active",
+    "position": "LB",
+    "number": "49",
+    "birthday": "2003-02-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/carson-schwesinger-31977",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 10 tackles, with a tackle for loss, at Jacksonville on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/carson-schwesinger-31977"
+      },
+      {
+        "text": "Is in his second NFL season, both with the Cleveland Browns",
+        "source": "https://www.statmuse.com/nfl/player/carson-schwesinger-31977"
+      },
+      {
+        "text": "Wears No. 49 for the Browns",
+        "source": "https://www.statmuse.com/nfl/player/carson-schwesinger-31977"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/carson-schwesinger-31977"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jonathan-taylor",
+    "slug": "jonathan-taylor",
+    "name": "Jonathan Taylor",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "indianapolis-colts",
+    "lastTeamId": "indianapolis-colts",
+    "status": "Active",
+    "position": "RB",
+    "number": "28",
+    "birthday": "1999-01-19",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jonathan-taylor-28226",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 587 rushing yards and 8 touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jonathan-taylor-28226"
+      },
+      {
+        "text": "Ran for 95 yards and 2 touchdowns in a 30-13 win at Washington on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/jonathan-taylor-28226"
+      },
+      {
+        "text": "Wears No. 28 for the Colts",
+        "source": "https://www.statmuse.com/nfl/player/jonathan-taylor-28226"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jonathan-taylor-28226"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "daniel-jones",
+    "slug": "daniel-jones",
+    "name": "Daniel Jones",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "indianapolis-colts",
+    "lastTeamId": "indianapolis-colts",
+    "status": "Active",
+    "position": "QB",
+    "number": "17",
+    "birthday": "1997-05-27",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/daniel-jones-27304",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 1,021 yards in five starts for the Colts in 2026",
+        "source": "https://www.statmuse.com/nfl/player/daniel-jones-27304"
+      },
+      {
+        "text": "Passed for 235 yards and a touchdown in a 19-17 win over Houston on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/daniel-jones-27304"
+      },
+      {
+        "text": "Wears No. 17 for the Colts",
+        "source": "https://www.statmuse.com/nfl/player/daniel-jones-27304"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/daniel-jones-27304"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tyler-warren",
+    "slug": "tyler-warren",
+    "name": "Tyler Warren",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "indianapolis-colts",
+    "lastTeamId": "indianapolis-colts",
+    "status": "Active",
+    "position": "TE",
+    "number": "84",
+    "birthday": "2002-05-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/tyler-warren-31952",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 30 catches on 36 targets with 2 touchdowns in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/tyler-warren-31952"
+      },
+      {
+        "text": "Caught 9 passes for 55 yards in a 19-17 win over Houston on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/tyler-warren-31952"
+      },
+      {
+        "text": "Wears No. 84 for the Colts",
+        "source": "https://www.statmuse.com/nfl/player/tyler-warren-31952"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/tyler-warren-31952"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "deforest-buckner",
+    "slug": "deforest-buckner",
+    "name": "DeForest Buckner",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "indianapolis-colts",
+    "lastTeamId": "indianapolis-colts",
+    "status": "Active",
+    "position": "DT",
+    "number": "99",
+    "birthday": "1994-03-17",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/deforest-buckner-25548",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 3.0 sacks in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
+      },
+      {
+        "text": "Had 1.5 sacks and 7 combined tackles in a 19-17 win over Houston on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
+      },
+      {
+        "text": "Wears No. 99 for the Colts",
+        "source": "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "trevor-lawrence",
+    "slug": "trevor-lawrence",
+    "name": "Trevor Lawrence",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "jacksonville-jaguars",
+    "lastTeamId": "jacksonville-jaguars",
+    "status": "Active",
+    "position": "QB",
+    "number": "16",
+    "birthday": "1999-10-06",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/trevor-lawrence-29384",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 14 touchdown passes and a 106.2 passer rating in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/trevor-lawrence-29384"
+      },
+      {
+        "text": "Threw for 306 yards and 4 touchdowns against Houston on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/trevor-lawrence-29384"
+      },
+      {
+        "text": "Wears No. 16 for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/trevor-lawrence-29384"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/trevor-lawrence-29384"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "travis-hunter",
+    "slug": "travis-hunter",
+    "name": "Travis Hunter",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "jacksonville-jaguars",
+    "lastTeamId": "jacksonville-jaguars",
+    "status": "Active",
+    "position": "WR",
+    "number": "12",
+    "birthday": "2003-05-18",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/travis-hunter-31953",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Plays both receiver and cornerback for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/travis-hunter-31953"
+      },
+      {
+        "text": "Caught 4 passes for 59 yards and a touchdown against Houston on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/travis-hunter-31953"
+      },
+      {
+        "text": "Wears No. 12 for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/travis-hunter-31953"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/travis-hunter-31953"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brian-thomas-jr",
+    "slug": "brian-thomas-jr",
+    "name": "Brian Thomas Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "jacksonville-jaguars",
+    "lastTeamId": "jacksonville-jaguars",
+    "status": "Active",
+    "position": "WR",
+    "number": "7",
+    "birthday": "2002-10-08",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/brian-thomas-jr.-31092",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 9 catches for 105 yards and a touchdown in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/brian-thomas-jr.-31092"
+      },
+      {
+        "text": "Caught a touchdown pass in a 22-17 win at Cincinnati on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/brian-thomas-jr.-31092"
+      },
+      {
+        "text": "Wears No. 7 for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/brian-thomas-jr.-31092"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/brian-thomas-jr.-31092"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bhayshul-tuten",
+    "slug": "bhayshul-tuten",
+    "name": "Bhayshul Tuten",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "jacksonville-jaguars",
+    "lastTeamId": "jacksonville-jaguars",
+    "status": "Active",
+    "position": "RB",
+    "number": "33",
+    "birthday": "2003-02-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/bhayshul-tuten-32071",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads the Jaguars with 388 rushing yards and has 4 total touchdowns in 2026",
+        "source": "https://www.statmuse.com/nfl/player/bhayshul-tuten-32071"
+      },
+      {
+        "text": "Caught 2 touchdown passes against Houston on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/bhayshul-tuten-32071"
+      },
+      {
+        "text": "Wears No. 33 for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/bhayshul-tuten-32071"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/bhayshul-tuten-32071"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "josh-hines-allen",
+    "slug": "josh-hines-allen",
+    "name": "Josh Hines-Allen",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "jacksonville-jaguars",
+    "lastTeamId": "jacksonville-jaguars",
+    "status": "Active",
+    "position": "DE",
+    "number": "41",
+    "birthday": "1997-07-13",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/josh-hines-allen-27668",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 1.5 sacks and a forced fumble in a 34-10 opening win over Cleveland",
+        "source": "https://www.statmuse.com/nfl/player/josh-hines-allen-27668"
+      },
+      {
+        "text": "Is the longtime top pass rusher for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/josh-hines-allen-27668"
+      },
+      {
+        "text": "Wears No. 41 for the Jaguars",
+        "source": "https://www.statmuse.com/nfl/player/josh-hines-allen-27668"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/josh-hines-allen-27668"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brock-bowers",
+    "slug": "brock-bowers",
+    "name": "Brock Bowers",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "las-vegas-raiders",
+    "lastTeamId": "las-vegas-raiders",
+    "status": "Active",
+    "position": "TE",
+    "number": "89",
+    "birthday": "2002-12-13",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/brock-bowers-31082",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 28 catches for 382 yards and 3 touchdowns in four games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/brock-bowers-31082"
+      },
+      {
+        "text": "Caught 10 passes for 116 yards and a touchdown in a 35-27 win at New Orleans on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/brock-bowers-31082"
+      },
+      {
+        "text": "Wears No. 89 for the Raiders",
+        "source": "https://www.statmuse.com/nfl/player/brock-bowers-31082"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/brock-bowers-31082"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ashton-jeanty",
+    "slug": "ashton-jeanty",
+    "name": "Ashton Jeanty",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "las-vegas-raiders",
+    "lastTeamId": "las-vegas-raiders",
+    "status": "Active",
+    "position": "RB",
+    "number": "2",
+    "birthday": "2003-12-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/ashton-jeanty-31954",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 640 total yards and 4 touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/ashton-jeanty-31954"
+      },
+      {
+        "text": "Caught 8 passes for 61 yards and a touchdown against the Rams on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/ashton-jeanty-31954"
+      },
+      {
+        "text": "Wears No. 2 for the Raiders",
+        "source": "https://www.statmuse.com/nfl/player/ashton-jeanty-31954"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/ashton-jeanty-31954"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "maxx-crosby",
+    "slug": "maxx-crosby",
+    "name": "Maxx Crosby",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "las-vegas-raiders",
+    "lastTeamId": "las-vegas-raiders",
+    "status": "Active",
+    "position": "DE",
+    "number": "98",
+    "birthday": "1997-08-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/maxx-crosby-27329",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2.0 sacks, 2 tackles for loss and a forced fumble in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/maxx-crosby-27329"
+      },
+      {
+        "text": "Forced a fumble in a 35-27 win at New Orleans on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/maxx-crosby-27329"
+      },
+      {
+        "text": "Wears No. 98 for the Raiders",
+        "source": "https://www.statmuse.com/nfl/player/maxx-crosby-27329"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/maxx-crosby-27329"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kirk-cousins",
+    "slug": "kirk-cousins",
+    "name": "Kirk Cousins",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "las-vegas-raiders",
+    "lastTeamId": "las-vegas-raiders",
+    "status": "Active",
+    "position": "QB",
+    "number": "8",
+    "birthday": "1988-08-19",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/kirk-cousins-4288",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1,877 passing yards and 16 touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/kirk-cousins-4288"
+      },
+      {
+        "text": "Threw for 248 yards and 3 touchdowns in a 35-27 win at New Orleans on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/kirk-cousins-4288"
+      },
+      {
+        "text": "Wears No. 8 for the Raiders",
+        "source": "https://www.statmuse.com/nfl/player/kirk-cousins-4288"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/kirk-cousins-4288"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fernando-mendoza",
+    "slug": "fernando-mendoza",
+    "name": "Fernando Mendoza",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "las-vegas-raiders",
+    "lastTeamId": "las-vegas-raiders",
+    "status": "Active",
+    "position": "QB",
+    "number": "15",
+    "birthday": "2003-10-01",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/fernando-mendoza-32765",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Is a rookie quarterback for the Raiders in 2026",
+        "source": "https://www.statmuse.com/nfl/player/fernando-mendoza-32765"
+      },
+      {
+        "text": "Completed 6 of 8 passes for 48 yards at New England on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/fernando-mendoza-32765"
+      },
+      {
+        "text": "Wears No. 15 for the Raiders",
+        "source": "https://www.statmuse.com/nfl/player/fernando-mendoza-32765"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/fernando-mendoza-32765"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "justin-herbert",
+    "slug": "justin-herbert",
+    "name": "Justin Herbert",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-chargers",
+    "lastTeamId": "los-angeles-chargers",
+    "status": "Active",
+    "position": "QB",
+    "number": "10",
+    "birthday": "1998-03-10",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/justin-herbert-28159",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 627 yards in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/justin-herbert-28159"
+      },
+      {
+        "text": "Passed for 226 yards and a touchdown at Buffalo on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/justin-herbert-28159"
+      },
+      {
+        "text": "Wears No. 10 for the Chargers",
+        "source": "https://www.statmuse.com/nfl/player/justin-herbert-28159"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/justin-herbert-28159"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ladd-mcconkey",
+    "slug": "ladd-mcconkey",
+    "name": "Ladd McConkey",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-chargers",
+    "lastTeamId": "los-angeles-chargers",
+    "status": "Active",
+    "position": "WR",
+    "number": "15",
+    "birthday": "2001-11-11",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/ladd-mcconkey-31102",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 12 catches for 183 yards and a touchdown in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/ladd-mcconkey-31102"
+      },
+      {
+        "text": "Caught 5 passes for 82 yards and a touchdown against Arizona on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/ladd-mcconkey-31102"
+      },
+      {
+        "text": "Wears No. 15 for the Chargers",
+        "source": "https://www.statmuse.com/nfl/player/ladd-mcconkey-31102"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/ladd-mcconkey-31102"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "omarion-hampton",
+    "slug": "omarion-hampton",
+    "name": "Omarion Hampton",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-chargers",
+    "lastTeamId": "los-angeles-chargers",
+    "status": "Active",
+    "position": "RB",
+    "number": "8",
+    "birthday": "2003-03-16",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/omarion-hampton-31969",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 289 rushing yards and 3 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/omarion-hampton-31969"
+      },
+      {
+        "text": "Ran for 94 yards and a touchdown on 23 carries against Las Vegas on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/omarion-hampton-31969"
+      },
+      {
+        "text": "Wears No. 8 for the Chargers",
+        "source": "https://www.statmuse.com/nfl/player/omarion-hampton-31969"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/omarion-hampton-31969"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "derwin-james-jr",
+    "slug": "derwin-james-jr",
+    "name": "Derwin James Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-chargers",
+    "lastTeamId": "los-angeles-chargers",
+    "status": "Active",
+    "position": "S",
+    "number": "3",
+    "birthday": "1996-08-03",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/derwin-james-jr.-26495",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 3 interceptions, 2.0 sacks and 7 passes defended in 16 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/derwin-james-jr.-26495"
+      },
+      {
+        "text": "Is the longtime leader of the Chargers secondary",
+        "source": "https://www.statmuse.com/nfl/player/derwin-james-jr.-26495"
+      },
+      {
+        "text": "Wears No. 3 for the Chargers",
+        "source": "https://www.statmuse.com/nfl/player/derwin-james-jr.-26495"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/derwin-james-jr.-26495"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "khalil-mack",
+    "slug": "khalil-mack",
+    "name": "Khalil Mack",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-chargers",
+    "lastTeamId": "los-angeles-chargers",
+    "status": "Active",
+    "position": "LB",
+    "number": "52",
+    "birthday": "1991-02-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/khalil-mack-23740",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 5.5 sacks and 4 forced fumbles in 12 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/khalil-mack-23740"
+      },
+      {
+        "text": "Is one of the most accomplished pass rushers of his generation",
+        "source": "https://www.statmuse.com/nfl/player/khalil-mack-23740"
+      },
+      {
+        "text": "Wears No. 52 for the Chargers",
+        "source": "https://www.statmuse.com/nfl/player/khalil-mack-23740"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/khalil-mack-23740"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "devon-achane",
+    "slug": "devon-achane",
+    "name": "De'Von Achane",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "miami-dolphins",
+    "lastTeamId": "miami-dolphins",
+    "status": "Active",
+    "position": "RB",
+    "number": "28",
+    "birthday": "2001-10-13",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/de'von-achane-30331",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 176 total yards in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/de'von-achane-30331"
+      },
+      {
+        "text": "Ran for 74 yards on 20 carries at San Francisco on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/de'von-achane-30331"
+      },
+      {
+        "text": "Wears No. 28 for the Dolphins",
+        "source": "https://www.statmuse.com/nfl/player/de'von-achane-30331"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/de'von-achane-30331"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "malik-willis",
+    "slug": "malik-willis",
+    "name": "Malik Willis",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "miami-dolphins",
+    "lastTeamId": "miami-dolphins",
+    "status": "Active",
+    "position": "QB",
+    "number": "2",
+    "birthday": "1999-05-25",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/malik-willis-29677",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Completed 85.7 percent of his passes with a 145.5 rating in four games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/malik-willis-29677"
+      },
+      {
+        "text": "Ran for 123 yards and 2 touchdowns in four games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/malik-willis-29677"
+      },
+      {
+        "text": "Wears No. 2 for the Dolphins",
+        "source": "https://www.statmuse.com/nfl/player/malik-willis-29677"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/malik-willis-29677"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jordyn-brooks",
+    "slug": "jordyn-brooks",
+    "name": "Jordyn Brooks",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "miami-dolphins",
+    "lastTeamId": "miami-dolphins",
+    "status": "Active",
+    "position": "LB",
+    "number": "20",
+    "birthday": "1997-10-21",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jordyn-brooks-28166",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 99 tackles, 13 tackles for loss and 3.5 sacks in 17 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/jordyn-brooks-28166"
+      },
+      {
+        "text": "Played all 17 games for the Dolphins in 2025",
+        "source": "https://www.statmuse.com/nfl/player/jordyn-brooks-28166"
+      },
+      {
+        "text": "Wears No. 20 for the Dolphins",
+        "source": "https://www.statmuse.com/nfl/player/jordyn-brooks-28166"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jordyn-brooks-28166"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "malik-washington",
+    "slug": "malik-washington",
+    "name": "Malik Washington",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "miami-dolphins",
+    "lastTeamId": "miami-dolphins",
+    "status": "Active",
+    "position": "WR",
+    "number": "6",
+    "birthday": "2001-01-04",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/malik-washington-31251",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads Miami receivers with 23 catches for 262 yards in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/malik-washington-31251"
+      },
+      {
+        "text": "Caught 5 passes for 67 yards at Minnesota on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/malik-washington-31251"
+      },
+      {
+        "text": "Wears No. 6 for the Dolphins",
+        "source": "https://www.statmuse.com/nfl/player/malik-washington-31251"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/malik-washington-31251"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chop-robinson",
+    "slug": "chop-robinson",
+    "name": "Chop Robinson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "miami-dolphins",
+    "lastTeamId": "miami-dolphins",
+    "status": "Active",
+    "position": "DE",
+    "number": "44",
+    "birthday": "2003-01-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/chop-robinson-31090",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2.0 sacks in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/chop-robinson-31090"
+      },
+      {
+        "text": "Had a sack in a 28-25 win at the Jets on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/chop-robinson-31090"
+      },
+      {
+        "text": "Wears No. 44 for the Dolphins",
+        "source": "https://www.statmuse.com/nfl/player/chop-robinson-31090"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/chop-robinson-31090"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chris-olave",
+    "slug": "chris-olave",
+    "name": "Chris Olave",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-orleans-saints",
+    "lastTeamId": "new-orleans-saints",
+    "status": "Active",
+    "position": "WR",
+    "number": "12",
+    "birthday": "2000-06-27",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/chris-olave-29428",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 35 catches for 491 yards in four games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/chris-olave-29428"
+      },
+      {
+        "text": "Caught 10 passes for 182 yards at Detroit on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/chris-olave-29428"
+      },
+      {
+        "text": "Wears No. 12 for the Saints",
+        "source": "https://www.statmuse.com/nfl/player/chris-olave-29428"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/chris-olave-29428"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tyler-shough",
+    "slug": "tyler-shough",
+    "name": "Tyler Shough",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-orleans-saints",
+    "lastTeamId": "new-orleans-saints",
+    "status": "Active",
+    "position": "QB",
+    "number": "6",
+    "birthday": "1999-09-28",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/tyler-shough-31973",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1,443 passing yards and 12 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/tyler-shough-31973"
+      },
+      {
+        "text": "Threw 4 touchdown passes against Las Vegas on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/tyler-shough-31973"
+      },
+      {
+        "text": "Wears No. 6 for the Saints",
+        "source": "https://www.statmuse.com/nfl/player/tyler-shough-31973"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/tyler-shough-31973"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "alvin-kamara",
+    "slug": "alvin-kamara",
+    "name": "Alvin Kamara",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-orleans-saints",
+    "lastTeamId": "new-orleans-saints",
+    "status": "Active",
+    "position": "RB",
+    "number": "41",
+    "birthday": "1995-07-25",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/alvin-kamara-25666",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 total touchdowns in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/alvin-kamara-25666"
+      },
+      {
+        "text": "Ran for 2 touchdowns against Atlanta on Oct. 5",
+        "source": "https://www.statmuse.com/nfl/player/alvin-kamara-25666"
+      },
+      {
+        "text": "Wears No. 41 for the Saints",
+        "source": "https://www.statmuse.com/nfl/player/alvin-kamara-25666"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/alvin-kamara-25666"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chase-young",
+    "slug": "chase-young",
+    "name": "Chase Young",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-orleans-saints",
+    "lastTeamId": "new-orleans-saints",
+    "status": "Active",
+    "position": "DE",
+    "number": "99",
+    "birthday": "1999-04-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/chase-young-28160",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 7.0 sacks in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/chase-young-28160"
+      },
+      {
+        "text": "Had 2.0 sacks and a forced fumble against Las Vegas on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/chase-young-28160"
+      },
+      {
+        "text": "Wears No. 99 for the Saints",
+        "source": "https://www.statmuse.com/nfl/player/chase-young-28160"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/chase-young-28160"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "travis-etienne-jr",
+    "slug": "travis-etienne-jr",
+    "name": "Travis Etienne Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-orleans-saints",
+    "lastTeamId": "new-orleans-saints",
+    "status": "Active",
+    "position": "RB",
+    "number": "3",
+    "birthday": "1999-01-26",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/travis-etienne-jr.-29380",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Ran for 1,107 yards and had 13 total touchdowns in 17 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/travis-etienne-jr.-29380"
+      },
+      {
+        "text": "Had 1,399 yards from scrimmage in 2025",
+        "source": "https://www.statmuse.com/nfl/player/travis-etienne-jr.-29380"
+      },
+      {
+        "text": "Wears No. 3 for the Saints",
+        "source": "https://www.statmuse.com/nfl/player/travis-etienne-jr.-29380"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/travis-etienne-jr.-29380"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "malik-nabers",
+    "slug": "malik-nabers",
+    "name": "Malik Nabers",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-giants",
+    "lastTeamId": "new-york-giants",
+    "status": "Active",
+    "position": "WR",
+    "number": "1",
+    "birthday": "2003-07-28",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/malik-nabers-31075",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 29 catches for 329 yards and 2 touchdowns in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/malik-nabers-31075"
+      },
+      {
+        "text": "Caught 11 passes for 121 yards and a touchdown at Washington on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/malik-nabers-31075"
+      },
+      {
+        "text": "Wears No. 1 for the Giants",
+        "source": "https://www.statmuse.com/nfl/player/malik-nabers-31075"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/malik-nabers-31075"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaxson-dart",
+    "slug": "jaxson-dart",
+    "name": "Jaxson Dart",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-giants",
+    "lastTeamId": "new-york-giants",
+    "status": "Active",
+    "position": "QB",
+    "number": "6",
+    "birthday": "2003-05-13",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jaxson-dart-31947",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw 3 touchdown passes with no interceptions in a 28-20 opening win over Dallas",
+        "source": "https://www.statmuse.com/nfl/player/jaxson-dart-31947"
+      },
+      {
+        "text": "Completed 23 of 29 passes and ran for 54 yards against Dallas on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/jaxson-dart-31947"
+      },
+      {
+        "text": "Wears No. 6 for the Giants",
+        "source": "https://www.statmuse.com/nfl/player/jaxson-dart-31947"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jaxson-dart-31947"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cam-skattebo",
+    "slug": "cam-skattebo",
+    "name": "Cam Skattebo",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-giants",
+    "lastTeamId": "new-york-giants",
+    "status": "Active",
+    "position": "RB",
+    "number": "44",
+    "birthday": "2002-02-05",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/cam-skattebo-32056",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads the Giants with 294 rushing yards in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/cam-skattebo-32056"
+      },
+      {
+        "text": "Ran for 81 yards and a touchdown in a 28-20 win over Dallas on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/cam-skattebo-32056"
+      },
+      {
+        "text": "Wears No. 44 for the Giants",
+        "source": "https://www.statmuse.com/nfl/player/cam-skattebo-32056"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/cam-skattebo-32056"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "abdul-carter",
+    "slug": "abdul-carter",
+    "name": "Abdul Carter",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-giants",
+    "lastTeamId": "new-york-giants",
+    "status": "Active",
+    "position": "LB",
+    "number": "3",
+    "birthday": "2004-01-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/abdul-carter-31948",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 4.0 sacks, 7 tackles for loss and 2 forced fumbles as a rookie in 2025",
+        "source": "https://www.statmuse.com/nfl/player/abdul-carter-31948"
+      },
+      {
+        "text": "Played all 17 games for the Giants in 2025",
+        "source": "https://www.statmuse.com/nfl/player/abdul-carter-31948"
+      },
+      {
+        "text": "Wears No. 3 for the Giants",
+        "source": "https://www.statmuse.com/nfl/player/abdul-carter-31948"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/abdul-carter-31948"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "arvell-reese",
+    "slug": "arvell-reese",
+    "name": "Arvell Reese",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-giants",
+    "lastTeamId": "new-york-giants",
+    "status": "Active",
+    "position": "LB",
+    "number": "52",
+    "birthday": "2005-08-30",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/arvell-reese-32751",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 34 tackles, an interception and 4 passes defended as a rookie in 2026",
+        "source": "https://www.statmuse.com/nfl/player/arvell-reese-32751"
+      },
+      {
+        "text": "Intercepted a pass in a 36-24 win over Arizona on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/arvell-reese-32751"
+      },
+      {
+        "text": "Wears No. 52 for the Giants",
+        "source": "https://www.statmuse.com/nfl/player/arvell-reese-32751"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/arvell-reese-32751"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "garrett-wilson",
+    "slug": "garrett-wilson",
+    "name": "Garrett Wilson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-jets",
+    "lastTeamId": "new-york-jets",
+    "status": "Active",
+    "position": "WR",
+    "number": "5",
+    "birthday": "2000-07-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/garrett-wilson-29531",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 37 catches for 444 yards and 3 touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/garrett-wilson-29531"
+      },
+      {
+        "text": "Caught 10 passes for 107 yards and a touchdown at Detroit on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/garrett-wilson-29531"
+      },
+      {
+        "text": "Wears No. 5 for the Jets",
+        "source": "https://www.statmuse.com/nfl/player/garrett-wilson-29531"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/garrett-wilson-29531"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "breece-hall",
+    "slug": "breece-hall",
+    "name": "Breece Hall",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-jets",
+    "lastTeamId": "new-york-jets",
+    "status": "Active",
+    "position": "RB",
+    "number": "20",
+    "birthday": "2001-05-31",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/breece-hall-29534",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 265 total yards in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/breece-hall-29534"
+      },
+      {
+        "text": "Ran for 102 yards and a touchdown in a 23-10 win at Tennessee on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/breece-hall-29534"
+      },
+      {
+        "text": "Wears No. 20 for the Jets",
+        "source": "https://www.statmuse.com/nfl/player/breece-hall-29534"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/breece-hall-29534"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "geno-smith",
+    "slug": "geno-smith",
+    "name": "Geno Smith",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-jets",
+    "lastTeamId": "new-york-jets",
+    "status": "Active",
+    "position": "QB",
+    "number": "7",
+    "birthday": "1990-10-10",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/geno-smith-19099",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has a 101.8 passer rating with 7 touchdowns and 1 interception in six games",
+        "source": "https://www.statmuse.com/nfl/player/geno-smith-19099"
+      },
+      {
+        "text": "Threw for 321 yards and 3 touchdowns at Detroit on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/geno-smith-19099"
+      },
+      {
+        "text": "Wears No. 7 for the Jets",
+        "source": "https://www.statmuse.com/nfl/player/geno-smith-19099"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/geno-smith-19099"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "david-bailey",
+    "slug": "david-bailey",
+    "name": "David Bailey",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-jets",
+    "lastTeamId": "new-york-jets",
+    "status": "Active",
+    "position": "DE",
+    "number": "31",
+    "birthday": "2003-08-28",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/david-bailey-32759",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5.0 sacks and 3 forced fumbles as a rookie in 2026",
+        "source": "https://www.statmuse.com/nfl/player/david-bailey-32759"
+      },
+      {
+        "text": "Had 3.0 sacks in a 17-12 win over Cleveland on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/david-bailey-32759"
+      },
+      {
+        "text": "Wears No. 31 for the Jets",
+        "source": "https://www.statmuse.com/nfl/player/david-bailey-32759"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/david-bailey-32759"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "baker-mayfield",
+    "slug": "baker-mayfield",
+    "name": "Baker Mayfield",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tampa-bay-buccaneers",
+    "lastTeamId": "tampa-bay-buccaneers",
+    "status": "Active",
+    "position": "QB",
+    "number": "6",
+    "birthday": "1995-04-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/baker-mayfield-26789",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 615 yards and ran for a touchdown in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/baker-mayfield-26789"
+      },
+      {
+        "text": "Passed for 216 yards with no interceptions at Cincinnati on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/baker-mayfield-26789"
+      },
+      {
+        "text": "Wears No. 6 for the Buccaneers",
+        "source": "https://www.statmuse.com/nfl/player/baker-mayfield-26789"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/baker-mayfield-26789"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "emeka-egbuka",
+    "slug": "emeka-egbuka",
+    "name": "Emeka Egbuka",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tampa-bay-buccaneers",
+    "lastTeamId": "tampa-bay-buccaneers",
+    "status": "Active",
+    "position": "WR",
+    "number": "2",
+    "birthday": "2002-10-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/emeka-egbuka-31960",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads Tampa Bay with 28 catches and 49 targets in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/emeka-egbuka-31960"
+      },
+      {
+        "text": "Caught 7 passes and a touchdown against Pittsburgh on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/emeka-egbuka-31960"
+      },
+      {
+        "text": "Wears No. 2 for the Buccaneers",
+        "source": "https://www.statmuse.com/nfl/player/emeka-egbuka-31960"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/emeka-egbuka-31960"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bucky-irving",
+    "slug": "bucky-irving",
+    "name": "Bucky Irving",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tampa-bay-buccaneers",
+    "lastTeamId": "tampa-bay-buccaneers",
+    "status": "Active",
+    "position": "RB",
+    "number": "7",
+    "birthday": "2002-08-19",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/bucky-irving-31192",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 452 rushing yards at 4.7 yards per carry in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/bucky-irving-31192"
+      },
+      {
+        "text": "Ran for 165 yards and scored twice in a 24-16 win at Dallas on Oct. 8",
+        "source": "https://www.statmuse.com/nfl/player/bucky-irving-31192"
+      },
+      {
+        "text": "Wears No. 7 for the Buccaneers",
+        "source": "https://www.statmuse.com/nfl/player/bucky-irving-31192"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/bucky-irving-31192"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chris-godwin",
+    "slug": "chris-godwin",
+    "name": "Chris Godwin",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tampa-bay-buccaneers",
+    "lastTeamId": "tampa-bay-buccaneers",
+    "status": "Active",
+    "position": "WR",
+    "number": "14",
+    "birthday": "1996-02-27",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/chris-godwin-jr.-25839",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 23 catches on 29 targets for 216 yards in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/chris-godwin-jr.-25839"
+      },
+      {
+        "text": "Caught 3 passes for 46 yards against Cleveland on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/chris-godwin-jr.-25839"
+      },
+      {
+        "text": "Wears No. 14 for the Buccaneers",
+        "source": "https://www.statmuse.com/nfl/player/chris-godwin-jr.-25839"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/chris-godwin-jr.-25839"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "antoine-winfield-jr",
+    "slug": "antoine-winfield-jr",
+    "name": "Antoine Winfield Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tampa-bay-buccaneers",
+    "lastTeamId": "tampa-bay-buccaneers",
+    "status": "Active",
+    "position": "S",
+    "number": "31",
+    "birthday": "1998-08-16",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/antoine-winfield-jr.-28208",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 9 tackles in his first two games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/antoine-winfield-jr.-28208"
+      },
+      {
+        "text": "Made 4 combined tackles against Cleveland on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/antoine-winfield-jr.-28208"
+      },
+      {
+        "text": "Wears No. 31 for the Buccaneers",
+        "source": "https://www.statmuse.com/nfl/player/antoine-winfield-jr.-28208"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/antoine-winfield-jr.-28208"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cam-ward",
+    "slug": "cam-ward",
+    "name": "Cam Ward",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tennessee-titans",
+    "lastTeamId": "tennessee-titans",
+    "status": "Active",
+    "position": "QB",
+    "number": "1",
+    "birthday": "2002-05-25",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/cam-ward-31965",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 998 passing yards and 6 total touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/cam-ward-31965"
+      },
+      {
+        "text": "Threw for 222 yards and a touchdown at Baltimore on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/cam-ward-31965"
+      },
+      {
+        "text": "Wears No. 1 for the Titans",
+        "source": "https://www.statmuse.com/nfl/player/cam-ward-31965"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/cam-ward-31965"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "carnell-tate",
+    "slug": "carnell-tate",
+    "name": "Carnell Tate",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tennessee-titans",
+    "lastTeamId": "tennessee-titans",
+    "status": "Active",
+    "position": "WR",
+    "number": "14",
+    "birthday": "2005-01-19",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/carnell-tate-32773",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads Tennessee with 34 catches for 413 yards as a rookie in 2026",
+        "source": "https://www.statmuse.com/nfl/player/carnell-tate-32773"
+      },
+      {
+        "text": "Caught 9 passes for 145 yards at Baltimore on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/carnell-tate-32773"
+      },
+      {
+        "text": "Wears No. 14 for the Titans",
+        "source": "https://www.statmuse.com/nfl/player/carnell-tate-32773"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/carnell-tate-32773"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jeffery-simmons",
+    "slug": "jeffery-simmons",
+    "name": "Jeffery Simmons",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tennessee-titans",
+    "lastTeamId": "tennessee-titans",
+    "status": "Active",
+    "position": "DT",
+    "number": "98",
+    "birthday": "1997-07-28",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4.0 sacks, 6 tackles for loss and 4 passes defended in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
+      },
+      {
+        "text": "Had 2.0 sacks and a forced fumble in a 26-20 win at Indianapolis on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
+      },
+      {
+        "text": "Wears No. 98 for the Titans",
+        "source": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tony-pollard",
+    "slug": "tony-pollard",
+    "name": "Tony Pollard",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tennessee-titans",
+    "lastTeamId": "tennessee-titans",
+    "status": "Active",
+    "position": "RB",
+    "number": "20",
+    "birthday": "1997-04-30",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/tony-pollard-27613",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 4.7 yards per carry in his first two games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/tony-pollard-27613"
+      },
+      {
+        "text": "Ran for 64 yards on 14 carries against Philadelphia on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/tony-pollard-27613"
+      },
+      {
+        "text": "Wears No. 20 for the Titans",
+        "source": "https://www.statmuse.com/nfl/player/tony-pollard-27613"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/tony-pollard-27613"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "calvin-ridley",
+    "slug": "calvin-ridley",
+    "name": "Calvin Ridley",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "tennessee-titans",
+    "lastTeamId": "tennessee-titans",
+    "status": "Active",
+    "position": "WR",
+    "number": "0",
+    "birthday": "1994-12-20",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/calvin-ridley-26846",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averages 16.2 yards per catch in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/calvin-ridley-26846"
+      },
+      {
+        "text": "Caught 2 passes for 35 yards against Philadelphia on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/calvin-ridley-26846"
+      },
+      {
+        "text": "Wears No. 0 for the Titans",
+        "source": "https://www.statmuse.com/nfl/player/calvin-ridley-26846"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/calvin-ridley-26846"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "derrick-henry",
+    "slug": "derrick-henry",
+    "name": "Derrick Henry",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "baltimore-ravens",
+    "lastTeamId": "baltimore-ravens",
+    "status": "Active",
+    "position": "RB",
+    "number": "22",
+    "birthday": "1994-01-04",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/derrick-henry-25363",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 579 rushing yards and 8 total touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/derrick-henry-25363"
+      },
+      {
+        "text": "Ran for 2 touchdowns in a 34-31 win at Dallas on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/derrick-henry-25363"
+      },
+      {
+        "text": "Wears No. 22 for the Ravens",
+        "source": "https://www.statmuse.com/nfl/player/derrick-henry-25363"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/derrick-henry-25363"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "zay-flowers",
+    "slug": "zay-flowers",
+    "name": "Zay Flowers",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "baltimore-ravens",
+    "lastTeamId": "baltimore-ravens",
+    "status": "Active",
+    "position": "WR",
+    "number": "4",
+    "birthday": "2000-09-11",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/zay-flowers-30270",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 26 catches for 405 yards and 2 touchdowns in four games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/zay-flowers-30270"
+      },
+      {
+        "text": "Caught 5 passes for 150 yards and a touchdown at Indianapolis on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/zay-flowers-30270"
+      },
+      {
+        "text": "Wears No. 4 for the Ravens",
+        "source": "https://www.statmuse.com/nfl/player/zay-flowers-30270"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/zay-flowers-30270"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyle-hamilton",
+    "slug": "kyle-hamilton",
+    "name": "Kyle Hamilton",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "baltimore-ravens",
+    "lastTeamId": "baltimore-ravens",
+    "status": "Active",
+    "position": "S",
+    "number": "14",
+    "birthday": "2001-03-16",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/kyle-hamilton-29750",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 59 tackles, 7 tackles for loss and 9 passes defended in 16 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/kyle-hamilton-29750"
+      },
+      {
+        "text": "Is one of the most versatile safeties in the NFL",
+        "source": "https://www.statmuse.com/nfl/player/kyle-hamilton-29750"
+      },
+      {
+        "text": "Wears No. 14 for the Ravens",
+        "source": "https://www.statmuse.com/nfl/player/kyle-hamilton-29750"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/kyle-hamilton-29750"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mark-andrews",
+    "slug": "mark-andrews",
+    "name": "Mark Andrews",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "baltimore-ravens",
+    "lastTeamId": "baltimore-ravens",
+    "status": "Active",
+    "position": "TE",
+    "number": "89",
+    "birthday": "1995-09-06",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/mark-andrews-26861",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 22 catches for 177 yards and a touchdown in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/mark-andrews-26861"
+      },
+      {
+        "text": "Caught 6 passes for 49 yards against New Orleans on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/mark-andrews-26861"
+      },
+      {
+        "text": "Wears No. 89 for the Ravens",
+        "source": "https://www.statmuse.com/nfl/player/mark-andrews-26861"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/mark-andrews-26861"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dalton-kincaid",
+    "slug": "dalton-kincaid",
+    "name": "Dalton Kincaid",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "buffalo-bills",
+    "lastTeamId": "buffalo-bills",
+    "status": "Active",
+    "position": "TE",
+    "number": "86",
+    "birthday": "1999-10-18",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/dalton-kincaid-30274",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 14 catches for 263 yards in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/dalton-kincaid-30274"
+      },
+      {
+        "text": "Caught 5 passes for 130 yards in a 36-31 win at Houston on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/dalton-kincaid-30274"
+      },
+      {
+        "text": "Wears No. 86 for the Bills",
+        "source": "https://www.statmuse.com/nfl/player/dalton-kincaid-30274"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/dalton-kincaid-30274"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "khalil-shakir",
+    "slug": "khalil-shakir",
+    "name": "Khalil Shakir",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "buffalo-bills",
+    "lastTeamId": "buffalo-bills",
+    "status": "Active",
+    "position": "WR",
+    "number": "10",
+    "birthday": "2000-02-03",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/khalil-shakir-29545",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 72 catches for 719 yards and 4 touchdowns in 16 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/khalil-shakir-29545"
+      },
+      {
+        "text": "Caught 72 of his 95 targets in 2025",
+        "source": "https://www.statmuse.com/nfl/player/khalil-shakir-29545"
+      },
+      {
+        "text": "Wears No. 10 for the Bills",
+        "source": "https://www.statmuse.com/nfl/player/khalil-shakir-29545"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/khalil-shakir-29545"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "greg-rousseau",
+    "slug": "greg-rousseau",
+    "name": "Greg Rousseau",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "buffalo-bills",
+    "lastTeamId": "buffalo-bills",
+    "status": "Active",
+    "position": "DE",
+    "number": "50",
+    "birthday": "2000-04-05",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/greg-rousseau-29077",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 6.0 sacks, 8 tackles for loss and 3 forced fumbles in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/greg-rousseau-29077"
+      },
+      {
+        "text": "Had 2.0 sacks and 4 tackles for loss against the Chargers on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/greg-rousseau-29077"
+      },
+      {
+        "text": "Wears No. 50 for the Bills",
+        "source": "https://www.statmuse.com/nfl/player/greg-rousseau-29077"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/greg-rousseau-29077"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "james-cook",
+    "slug": "james-cook",
+    "name": "James Cook",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "buffalo-bills",
+    "lastTeamId": "buffalo-bills",
+    "status": "Active",
+    "position": "RB",
+    "number": "4",
+    "birthday": "1999-09-25",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/james-cook-iii-29552",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 6.0 yards per carry with 346 rushing yards in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/james-cook-iii-29552"
+      },
+      {
+        "text": "Ran for 154 yards and a touchdown against the Chargers on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/james-cook-iii-29552"
+      },
+      {
+        "text": "Wears No. 4 for the Bills",
+        "source": "https://www.statmuse.com/nfl/player/james-cook-iii-29552"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/james-cook-iii-29552"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rome-odunze",
+    "slug": "rome-odunze",
+    "name": "Rome Odunze",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "chicago-bears",
+    "lastTeamId": "chicago-bears",
+    "status": "Active",
+    "position": "WR",
+    "number": "15",
+    "birthday": "2002-06-03",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/rome-odunze-31078",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 17 catches for 273 yards, 16.1 yards per catch, in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/rome-odunze-31078"
+      },
+      {
+        "text": "Caught 6 passes for 94 yards in a 23-12 win over the Jets on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/rome-odunze-31078"
+      },
+      {
+        "text": "Wears No. 15 for the Bears",
+        "source": "https://www.statmuse.com/nfl/player/rome-odunze-31078"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/rome-odunze-31078"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "d-andre-swift",
+    "slug": "d-andre-swift",
+    "name": "D'Andre Swift",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "chicago-bears",
+    "lastTeamId": "chicago-bears",
+    "status": "Active",
+    "position": "RB",
+    "number": "4",
+    "birthday": "1999-01-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/d'andre-swift-28240",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 398 rushing yards and 6 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/d'andre-swift-28240"
+      },
+      {
+        "text": "Ran for 2 touchdowns in a 31-23 win at Atlanta on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/d'andre-swift-28240"
+      },
+      {
+        "text": "Wears No. 4 for the Bears",
+        "source": "https://www.statmuse.com/nfl/player/d'andre-swift-28240"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/d'andre-swift-28240"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "luther-burden-iii",
+    "slug": "luther-burden-iii",
+    "name": "Luther Burden III",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "chicago-bears",
+    "lastTeamId": "chicago-bears",
+    "status": "Active",
+    "position": "WR",
+    "number": "10",
+    "birthday": "2003-12-12",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/luther-burden-iii-31989",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 35 catches for 491 yards in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/luther-burden-iii-31989"
+      },
+      {
+        "text": "Caught 4 passes for 130 yards and a touchdown in a 30-24 win over New England on Oct. 22",
+        "source": "https://www.statmuse.com/nfl/player/luther-burden-iii-31989"
+      },
+      {
+        "text": "Wears No. 10 for the Bears",
+        "source": "https://www.statmuse.com/nfl/player/luther-burden-iii-31989"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/luther-burden-iii-31989"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "colston-loveland",
+    "slug": "colston-loveland",
+    "name": "Colston Loveland",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "chicago-bears",
+    "lastTeamId": "chicago-bears",
+    "status": "Active",
+    "position": "TE",
+    "number": "84",
+    "birthday": "2004-04-09",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/colston-loveland-31958",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 26 catches for 244 yards and 2 touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/colston-loveland-31958"
+      },
+      {
+        "text": "Caught a touchdown pass in back-to-back wins over Atlanta and New England",
+        "source": "https://www.statmuse.com/nfl/player/colston-loveland-31958"
+      },
+      {
+        "text": "Wears No. 84 for the Bears",
+        "source": "https://www.statmuse.com/nfl/player/colston-loveland-31958"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/colston-loveland-31958"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dak-prescott",
+    "slug": "dak-prescott",
+    "name": "Dak Prescott",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "dallas-cowboys",
+    "lastTeamId": "dallas-cowboys",
+    "status": "Active",
+    "position": "QB",
+    "number": "4",
+    "birthday": "1993-07-29",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/dak-prescott-25450",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw for 4,552 yards and 30 touchdowns in 17 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/dak-prescott-25450"
+      },
+      {
+        "text": "Passed for 307 yards and 2 touchdowns in a Christmas Day win at Washington in 2025",
+        "source": "https://www.statmuse.com/nfl/player/dak-prescott-25450"
+      },
+      {
+        "text": "Wears No. 4 for the Cowboys",
+        "source": "https://www.statmuse.com/nfl/player/dak-prescott-25450"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/dak-prescott-25450"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "george-pickens",
+    "slug": "george-pickens",
+    "name": "George Pickens",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "dallas-cowboys",
+    "lastTeamId": "dallas-cowboys",
+    "status": "Active",
+    "position": "WR",
+    "number": "3",
+    "birthday": "2001-03-04",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/george-pickens-29647",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 33 catches for 428 yards in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/george-pickens-29647"
+      },
+      {
+        "text": "Caught 9 passes for 130 yards and a touchdown against Tampa Bay on Oct. 8",
+        "source": "https://www.statmuse.com/nfl/player/george-pickens-29647"
+      },
+      {
+        "text": "Wears No. 3 for the Cowboys",
+        "source": "https://www.statmuse.com/nfl/player/george-pickens-29647"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/george-pickens-29647"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "quinnen-williams",
+    "slug": "quinnen-williams",
+    "name": "Quinnen Williams",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "dallas-cowboys",
+    "lastTeamId": "dallas-cowboys",
+    "status": "Active",
+    "position": "DT",
+    "number": "92",
+    "birthday": "1997-12-05",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/quinnen-williams-27440",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2.0 sacks, 6 tackles for loss and a forced fumble in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/quinnen-williams-27440"
+      },
+      {
+        "text": "Had a sack and 2 tackles for loss in a 34-30 win at Houston on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/quinnen-williams-27440"
+      },
+      {
+        "text": "Wears No. 92 for the Cowboys",
+        "source": "https://www.statmuse.com/nfl/player/quinnen-williams-27440"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/quinnen-williams-27440"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "caleb-downs",
+    "slug": "caleb-downs",
+    "name": "Caleb Downs",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "dallas-cowboys",
+    "lastTeamId": "dallas-cowboys",
+    "status": "Active",
+    "position": "S",
+    "number": "13",
+    "birthday": "2004-12-10",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/caleb-downs-32762",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 25 tackles, a sack and 2 forced fumbles as a rookie in 2026",
+        "source": "https://www.statmuse.com/nfl/player/caleb-downs-32762"
+      },
+      {
+        "text": "Made 12 combined tackles at Green Bay on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/caleb-downs-32762"
+      },
+      {
+        "text": "Wears No. 13 for the Cowboys",
+        "source": "https://www.statmuse.com/nfl/player/caleb-downs-32762"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/caleb-downs-32762"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaylen-waddle",
+    "slug": "jaylen-waddle",
+    "name": "Jaylen Waddle",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "denver-broncos",
+    "lastTeamId": "denver-broncos",
+    "status": "Active",
+    "position": "WR",
+    "number": "17",
+    "birthday": "1998-11-25",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jaylen-waddle-29021",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 18 catches for 204 yards and a touchdown in his first five games with Denver",
+        "source": "https://www.statmuse.com/nfl/player/jaylen-waddle-29021"
+      },
+      {
+        "text": "Caught 8 passes for 138 yards in a 20-13 win over Jacksonville on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/jaylen-waddle-29021"
+      },
+      {
+        "text": "Wears No. 17 for the Broncos",
+        "source": "https://www.statmuse.com/nfl/player/jaylen-waddle-29021"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jaylen-waddle-29021"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "courtland-sutton",
+    "slug": "courtland-sutton",
+    "name": "Courtland Sutton",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "denver-broncos",
+    "lastTeamId": "denver-broncos",
+    "status": "Active",
+    "position": "WR",
+    "number": "14",
+    "birthday": "1995-10-10",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/courtland-sutton-26776",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 16 catches for 168 yards and a touchdown in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/courtland-sutton-26776"
+      },
+      {
+        "text": "Caught 3 passes for 45 yards in a 30-16 win at Arizona on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/courtland-sutton-26776"
+      },
+      {
+        "text": "Wears No. 14 for the Broncos",
+        "source": "https://www.statmuse.com/nfl/player/courtland-sutton-26776"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/courtland-sutton-26776"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "pat-surtain-ii",
+    "slug": "pat-surtain-ii",
+    "name": "Pat Surtain II",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "denver-broncos",
+    "lastTeamId": "denver-broncos",
+    "status": "Active",
+    "position": "CB",
+    "number": "2",
+    "birthday": "2000-04-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/pat-surtain-ii-29223",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 12 tackles and a pass defended in his first four games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/pat-surtain-ii-29223"
+      },
+      {
+        "text": "Made 4 combined tackles at San Francisco on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/pat-surtain-ii-29223"
+      },
+      {
+        "text": "Wears No. 2 for the Broncos",
+        "source": "https://www.statmuse.com/nfl/player/pat-surtain-ii-29223"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/pat-surtain-ii-29223"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "nik-bonitto",
+    "slug": "nik-bonitto",
+    "name": "Nik Bonitto",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "denver-broncos",
+    "lastTeamId": "denver-broncos",
+    "status": "Active",
+    "position": "LB",
+    "number": "15",
+    "birthday": "1999-09-26",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/nik-bonitto-29667",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3.5 sacks, 4 tackles for loss and a forced fumble in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/nik-bonitto-29667"
+      },
+      {
+        "text": "Had 2.0 sacks in a 23-17 win at the Chargers on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/nik-bonitto-29667"
+      },
+      {
+        "text": "Wears No. 15 for the Broncos",
+        "source": "https://www.statmuse.com/nfl/player/nik-bonitto-29667"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/nik-bonitto-29667"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jared-goff",
+    "slug": "jared-goff",
+    "name": "Jared Goff",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "detroit-lions",
+    "lastTeamId": "detroit-lions",
+    "status": "Active",
+    "position": "QB",
+    "number": "16",
+    "birthday": "1994-10-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jared-goff-24809",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Threw 12 touchdown passes with no interceptions in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jared-goff-24809"
+      },
+      {
+        "text": "Passed for 327 yards and 4 touchdowns at Buffalo on Sept. 17",
+        "source": "https://www.statmuse.com/nfl/player/jared-goff-24809"
+      },
+      {
+        "text": "Wears No. 16 for the Lions",
+        "source": "https://www.statmuse.com/nfl/player/jared-goff-24809"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jared-goff-24809"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jameson-williams",
+    "slug": "jameson-williams",
+    "name": "Jameson Williams",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "detroit-lions",
+    "lastTeamId": "detroit-lions",
+    "status": "Active",
+    "position": "WR",
+    "number": "1",
+    "birthday": "2001-03-26",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jameson-williams-29639",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 18 catches for 276 yards, 15.3 yards per catch, in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jameson-williams-29639"
+      },
+      {
+        "text": "Caught 2 touchdown passes in a 45-21 win at Arizona on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/jameson-williams-29639"
+      },
+      {
+        "text": "Wears No. 1 for the Lions",
+        "source": "https://www.statmuse.com/nfl/player/jameson-williams-29639"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jameson-williams-29639"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "christian-watson",
+    "slug": "christian-watson",
+    "name": "Christian Watson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "green-bay-packers",
+    "lastTeamId": "green-bay-packers",
+    "status": "Active",
+    "position": "WR",
+    "number": "9",
+    "birthday": "1999-05-12",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/christian-watson-29612",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 26 catches for 474 yards and 6 touchdowns in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/christian-watson-29612"
+      },
+      {
+        "text": "Caught 6 passes for 143 yards and 2 touchdowns in a 31-7 win over Chicago on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/christian-watson-29612"
+      },
+      {
+        "text": "Wears No. 9 for the Packers",
+        "source": "https://www.statmuse.com/nfl/player/christian-watson-29612"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/christian-watson-29612"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matthew-golden",
+    "slug": "matthew-golden",
+    "name": "Matthew Golden",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "green-bay-packers",
+    "lastTeamId": "green-bay-packers",
+    "status": "Active",
+    "position": "WR",
+    "number": "0",
+    "birthday": "2003-08-01",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/matthew-golden-31957",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads the Packers with 36 catches for 540 yards in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/matthew-golden-31957"
+      },
+      {
+        "text": "Caught 6 passes for 104 yards and a touchdown in a 23-13 win over Dallas on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/matthew-golden-31957"
+      },
+      {
+        "text": "Wears No. 0 for the Packers",
+        "source": "https://www.statmuse.com/nfl/player/matthew-golden-31957"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/matthew-golden-31957"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tucker-kraft",
+    "slug": "tucker-kraft",
+    "name": "Tucker Kraft",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "green-bay-packers",
+    "lastTeamId": "green-bay-packers",
+    "status": "Active",
+    "position": "TE",
+    "number": "85",
+    "birthday": "2000-11-03",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/tucker-kraft-30330",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 15 catches for 148 yards and a touchdown in four games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/tucker-kraft-30330"
+      },
+      {
+        "text": "Caught 6 passes and a touchdown in a 17-14 win at Tampa Bay on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/tucker-kraft-30330"
+      },
+      {
+        "text": "Wears No. 85 for the Packers",
+        "source": "https://www.statmuse.com/nfl/player/tucker-kraft-30330"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/tucker-kraft-30330"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "nico-collins",
+    "slug": "nico-collins",
+    "name": "Nico Collins",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "houston-texans",
+    "lastTeamId": "houston-texans",
+    "status": "Active",
+    "position": "WR",
+    "number": "12",
+    "birthday": "1999-03-19",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/nico-collins-29133",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 14 catches for 193 yards and 3 touchdowns in two games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/nico-collins-29133"
+      },
+      {
+        "text": "Caught 7 passes for 118 yards and 2 touchdowns against Dallas on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/nico-collins-29133"
+      },
+      {
+        "text": "Wears No. 12 for the Texans",
+        "source": "https://www.statmuse.com/nfl/player/nico-collins-29133"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/nico-collins-29133"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "will-anderson-jr",
+    "slug": "will-anderson-jr",
+    "name": "Will Anderson Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "houston-texans",
+    "lastTeamId": "houston-texans",
+    "status": "Active",
+    "position": "DE",
+    "number": "51",
+    "birthday": "2001-09-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/will-anderson-jr.-30261",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 7.5 sacks and 10 tackles for loss in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/will-anderson-jr.-30261"
+      },
+      {
+        "text": "Had 3.0 sacks in a 26-3 win at Tennessee on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/will-anderson-jr.-30261"
+      },
+      {
+        "text": "Wears No. 51 for the Texans",
+        "source": "https://www.statmuse.com/nfl/player/will-anderson-jr.-30261"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/will-anderson-jr.-30261"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "derek-stingley-jr",
+    "slug": "derek-stingley-jr",
+    "name": "Derek Stingley Jr.",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "houston-texans",
+    "lastTeamId": "houston-texans",
+    "status": "Active",
+    "position": "CB",
+    "number": "24",
+    "birthday": "2001-06-20",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/derek-stingley-jr.-29589",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 15 tackles, 4 passes defended and a forced fumble in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/derek-stingley-jr.-29589"
+      },
+      {
+        "text": "Made 3 solo tackles against the Giants on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/derek-stingley-jr.-29589"
+      },
+      {
+        "text": "Wears No. 24 for the Texans",
+        "source": "https://www.statmuse.com/nfl/player/derek-stingley-jr.-29589"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/derek-stingley-jr.-29589"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "danielle-hunter",
+    "slug": "danielle-hunter",
+    "name": "Danielle Hunter",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "houston-texans",
+    "lastTeamId": "houston-texans",
+    "status": "Active",
+    "position": "DE",
+    "number": "55",
+    "birthday": "1994-10-29",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/danielle-hunter-24300",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 2.0 sacks, a forced fumble and 3 passes defended in four games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/danielle-hunter-24300"
+      },
+      {
+        "text": "Had half a sack and a forced fumble at Indianapolis on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/danielle-hunter-24300"
+      },
+      {
+        "text": "Wears No. 55 for the Texans",
+        "source": "https://www.statmuse.com/nfl/player/danielle-hunter-24300"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/danielle-hunter-24300"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "travis-kelce",
+    "slug": "travis-kelce",
+    "name": "Travis Kelce",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "kansas-city-chiefs",
+    "lastTeamId": "kansas-city-chiefs",
+    "status": "Active",
+    "position": "TE",
+    "number": "87",
+    "birthday": "1989-10-05",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/travis-kelce-11101",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 24 catches for 343 yards and 2 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/travis-kelce-11101"
+      },
+      {
+        "text": "Caught 9 passes for 101 yards and a touchdown in a 33-30 win over Indianapolis on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/travis-kelce-11101"
+      },
+      {
+        "text": "Wears No. 87 for the Chiefs",
+        "source": "https://www.statmuse.com/nfl/player/travis-kelce-11101"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/travis-kelce-11101"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kenneth-walker-iii",
+    "slug": "kenneth-walker-iii",
+    "name": "Kenneth Walker III",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "kansas-city-chiefs",
+    "lastTeamId": "kansas-city-chiefs",
+    "status": "Active",
+    "position": "RB",
+    "number": "9",
+    "birthday": "2000-10-20",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/kenneth-walker-iii-29508",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 701 rushing yards at 5.8 yards per carry and 8 total touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/kenneth-walker-iii-29508"
+      },
+      {
+        "text": "Ran for 177 yards and 2 touchdowns in a 30-27 win at Las Vegas on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/kenneth-walker-iii-29508"
+      },
+      {
+        "text": "Wears No. 9 for the Chiefs",
+        "source": "https://www.statmuse.com/nfl/player/kenneth-walker-iii-29508"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/kenneth-walker-iii-29508"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "xavier-worthy",
+    "slug": "xavier-worthy",
+    "name": "Xavier Worthy",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "kansas-city-chiefs",
+    "lastTeamId": "kansas-city-chiefs",
+    "status": "Active",
+    "position": "WR",
+    "number": "1",
+    "birthday": "2003-04-27",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/xavier-worthy-31096",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 24 catches for 217 yards and a touchdown in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/xavier-worthy-31096"
+      },
+      {
+        "text": "Caught all 7 of his targets for 73 yards in a 22-6 win over the Chargers on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/xavier-worthy-31096"
+      },
+      {
+        "text": "Wears No. 1 for the Chiefs",
+        "source": "https://www.statmuse.com/nfl/player/xavier-worthy-31096"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/xavier-worthy-31096"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rashee-rice",
+    "slug": "rashee-rice",
+    "name": "Rashee Rice",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "kansas-city-chiefs",
+    "lastTeamId": "kansas-city-chiefs",
+    "status": "Active",
+    "position": "WR",
+    "number": "4",
+    "birthday": "2000-04-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/rashee-rice-30285",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 53 catches for 571 yards and 5 touchdowns in eight games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/rashee-rice-30285"
+      },
+      {
+        "text": "Averaged nearly 10 targets per game in 2025",
+        "source": "https://www.statmuse.com/nfl/player/rashee-rice-30285"
+      },
+      {
+        "text": "Wears No. 4 for the Chiefs",
+        "source": "https://www.statmuse.com/nfl/player/rashee-rice-30285"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/rashee-rice-30285"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matthew-stafford",
+    "slug": "matthew-stafford",
+    "name": "Matthew Stafford",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-rams",
+    "lastTeamId": "los-angeles-rams",
+    "status": "Active",
+    "position": "QB",
+    "number": "9",
+    "birthday": "1988-02-07",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/matthew-stafford-19516",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1,794 passing yards and 11 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/matthew-stafford-19516"
+      },
+      {
+        "text": "Threw for 327 yards and 4 touchdowns in a 28-6 win over the Giants on Sept. 21",
+        "source": "https://www.statmuse.com/nfl/player/matthew-stafford-19516"
+      },
+      {
+        "text": "Wears No. 9 for the Rams",
+        "source": "https://www.statmuse.com/nfl/player/matthew-stafford-19516"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/matthew-stafford-19516"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "davante-adams",
+    "slug": "davante-adams",
+    "name": "Davante Adams",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-rams",
+    "lastTeamId": "los-angeles-rams",
+    "status": "Active",
+    "position": "WR",
+    "number": "17",
+    "birthday": "1992-12-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/davante-adams-23576",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 30 catches for 480 yards and 4 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/davante-adams-23576"
+      },
+      {
+        "text": "Caught 8 passes for 195 yards and 2 touchdowns in a 28-6 win over the Giants on Sept. 21",
+        "source": "https://www.statmuse.com/nfl/player/davante-adams-23576"
+      },
+      {
+        "text": "Wears No. 17 for the Rams",
+        "source": "https://www.statmuse.com/nfl/player/davante-adams-23576"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/davante-adams-23576"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyren-williams",
+    "slug": "kyren-williams",
+    "name": "Kyren Williams",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-rams",
+    "lastTeamId": "los-angeles-rams",
+    "status": "Active",
+    "position": "RB",
+    "number": "23",
+    "birthday": "2000-08-26",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/kyren-williams-29476",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 610 total yards and 5 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/kyren-williams-29476"
+      },
+      {
+        "text": "Ran for 80 yards and 2 touchdowns in a 24-20 win at Philadelphia on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/kyren-williams-29476"
+      },
+      {
+        "text": "Wears No. 23 for the Rams",
+        "source": "https://www.statmuse.com/nfl/player/kyren-williams-29476"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/kyren-williams-29476"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "myles-garrett",
+    "slug": "myles-garrett",
+    "name": "Myles Garrett",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "los-angeles-rams",
+    "lastTeamId": "los-angeles-rams",
+    "status": "Active",
+    "position": "DE",
+    "number": "95",
+    "birthday": "1995-12-29",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/myles-garrett-26176",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Joined the Rams in a June 2026 trade with Cleveland",
+        "source": "https://www.fox19.com/2026/06/01/browns-trading-myles-garrett-rams-per-report/"
+      },
+      {
+        "text": "Played in the Rams' season opener against San Francisco on Sept. 10",
+        "source": "https://www.statmuse.com/nfl/player/myles-garrett-26176"
+      },
+      {
+        "text": "Wears No. 95 for the Rams",
+        "source": "https://www.statmuse.com/nfl/player/myles-garrett-26176"
+      }
+    ],
+    "sources": [
+      "https://www.fox19.com/2026/06/01/browns-trading-myles-garrett-rams-per-report/",
+      "https://www.statmuse.com/nfl/player/myles-garrett-26176"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyler-murray",
+    "slug": "kyler-murray",
+    "name": "Kyler Murray",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "minnesota-vikings",
+    "lastTeamId": "minnesota-vikings",
+    "status": "Active",
+    "position": "QB",
+    "number": "1",
+    "birthday": "1997-08-07",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/kyler-murray-27610",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "The Vikings won both of his first two games with the team in 2026",
+        "source": "https://www.statmuse.com/nfl/player/kyler-murray-27610"
+      },
+      {
+        "text": "Threw a touchdown pass in a 23-16 win at Tampa Bay on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/kyler-murray-27610"
+      },
+      {
+        "text": "Wears No. 1 for the Vikings",
+        "source": "https://www.statmuse.com/nfl/player/kyler-murray-27610"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/kyler-murray-27610"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "aaron-jones",
+    "slug": "aaron-jones",
+    "name": "Aaron Jones",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "minnesota-vikings",
+    "lastTeamId": "minnesota-vikings",
+    "status": "Active",
+    "position": "RB",
+    "number": "33",
+    "birthday": "1994-12-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/aaron-jones-sr.-26024",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 410 rushing yards and 482 total yards in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/aaron-jones-sr.-26024"
+      },
+      {
+        "text": "Ran for 113 yards and a touchdown in a 23-13 win at New Orleans on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/aaron-jones-sr.-26024"
+      },
+      {
+        "text": "Wears No. 33 for the Vikings",
+        "source": "https://www.statmuse.com/nfl/player/aaron-jones-sr.-26024"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/aaron-jones-sr.-26024"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jordan-addison",
+    "slug": "jordan-addison",
+    "name": "Jordan Addison",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "minnesota-vikings",
+    "lastTeamId": "minnesota-vikings",
+    "status": "Active",
+    "position": "WR",
+    "number": "3",
+    "birthday": "2002-01-27",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jordan-addison-30271",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 13 catches for 183 yards and a touchdown in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jordan-addison-30271"
+      },
+      {
+        "text": "Caught 5 passes for 90 yards and a touchdown in a 23-16 win at Tampa Bay on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/jordan-addison-30271"
+      },
+      {
+        "text": "Wears No. 3 for the Vikings",
+        "source": "https://www.statmuse.com/nfl/player/jordan-addison-30271"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jordan-addison-30271"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dallas-turner",
+    "slug": "dallas-turner",
+    "name": "Dallas Turner",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "minnesota-vikings",
+    "lastTeamId": "minnesota-vikings",
+    "status": "Active",
+    "position": "LB",
+    "number": "15",
+    "birthday": "2003-02-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/dallas-turner-31086",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 6.0 sacks and 2 forced fumbles in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/dallas-turner-31086"
+      },
+      {
+        "text": "Had 2.0 sacks and a forced fumble in a 15-10 win over Miami on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/dallas-turner-31086"
+      },
+      {
+        "text": "Wears No. 15 for the Vikings",
+        "source": "https://www.statmuse.com/nfl/player/dallas-turner-31086"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/dallas-turner-31086"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "treveyon-henderson",
+    "slug": "treveyon-henderson",
+    "name": "TreVeyon Henderson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-england-patriots",
+    "lastTeamId": "new-england-patriots",
+    "status": "Active",
+    "position": "RB",
+    "number": "32",
+    "birthday": "2002-10-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/treveyon-henderson-31980",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 203 rushing yards and a touchdown in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/treveyon-henderson-31980"
+      },
+      {
+        "text": "Ran 14 times for 42 yards in a 29-26 win at Buffalo on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/treveyon-henderson-31980"
+      },
+      {
+        "text": "Wears No. 32 for the Patriots",
+        "source": "https://www.statmuse.com/nfl/player/treveyon-henderson-31980"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/treveyon-henderson-31980"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "hunter-henry",
+    "slug": "hunter-henry",
+    "name": "Hunter Henry",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-england-patriots",
+    "lastTeamId": "new-england-patriots",
+    "status": "Active",
+    "position": "TE",
+    "number": "85",
+    "birthday": "1994-12-07",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/hunter-henry-25153",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 60 catches for 768 yards and 7 touchdowns in 17 games in 2025",
+        "source": "https://www.statmuse.com/nfl/player/hunter-henry-25153"
+      },
+      {
+        "text": "Caught a touchdown pass in a 16-3 playoff win over the Chargers in January 2026",
+        "source": "https://www.statmuse.com/nfl/player/hunter-henry-25153"
+      },
+      {
+        "text": "Wears No. 85 for the Patriots",
+        "source": "https://www.statmuse.com/nfl/player/hunter-henry-25153"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/hunter-henry-25153"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "romeo-doubs",
+    "slug": "romeo-doubs",
+    "name": "Romeo Doubs",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-england-patriots",
+    "lastTeamId": "new-england-patriots",
+    "status": "Active",
+    "position": "WR",
+    "number": "87",
+    "birthday": "2000-04-13",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/romeo-doubs-29615",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 14 catches for 261 yards and 3 touchdowns in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/romeo-doubs-29615"
+      },
+      {
+        "text": "Caught 2 touchdown passes in a 29-26 win at Buffalo on Oct. 4",
+        "source": "https://www.statmuse.com/nfl/player/romeo-doubs-29615"
+      },
+      {
+        "text": "Wears No. 87 for the Patriots",
+        "source": "https://www.statmuse.com/nfl/player/romeo-doubs-29615"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/romeo-doubs-29615"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "devonta-smith",
+    "slug": "devonta-smith",
+    "name": "DeVonta Smith",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "philadelphia-eagles",
+    "lastTeamId": "philadelphia-eagles",
+    "status": "Active",
+    "position": "WR",
+    "number": "6",
+    "birthday": "1998-11-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/devonta-smith-28980",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 13 catches for 170 yards and a touchdown in his first two games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/devonta-smith-28980"
+      },
+      {
+        "text": "Caught 10 passes for 117 yards and a touchdown in a 24-20 win at Tennessee on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/devonta-smith-28980"
+      },
+      {
+        "text": "Wears No. 6 for the Eagles",
+        "source": "https://www.statmuse.com/nfl/player/devonta-smith-28980"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/devonta-smith-28980"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-carter",
+    "slug": "jalen-carter",
+    "name": "Jalen Carter",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "philadelphia-eagles",
+    "lastTeamId": "philadelphia-eagles",
+    "status": "Active",
+    "position": "DT",
+    "number": "98",
+    "birthday": "2001-04-04",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jalen-carter-30249",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3.0 sacks, 5 tackles for loss and 3 forced fumbles in six games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jalen-carter-30249"
+      },
+      {
+        "text": "Had 2.0 sacks and 2 forced fumbles at Jacksonville on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/jalen-carter-30249"
+      },
+      {
+        "text": "Wears No. 98 for the Eagles",
+        "source": "https://www.statmuse.com/nfl/player/jalen-carter-30249"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jalen-carter-30249"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "aaron-rodgers",
+    "slug": "aaron-rodgers",
+    "name": "Aaron Rodgers",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "pittsburgh-steelers",
+    "lastTeamId": "pittsburgh-steelers",
+    "status": "Active",
+    "position": "QB",
+    "number": "8",
+    "birthday": "1983-12-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/aaron-rodgers-17536",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1,699 passing yards and 13 touchdowns in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/aaron-rodgers-17536"
+      },
+      {
+        "text": "Threw 3 touchdown passes in a 34-22 win over Indianapolis on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/aaron-rodgers-17536"
+      },
+      {
+        "text": "Wears No. 8 for the Steelers",
+        "source": "https://www.statmuse.com/nfl/player/aaron-rodgers-17536"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/aaron-rodgers-17536"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dk-metcalf",
+    "slug": "dk-metcalf",
+    "name": "DK Metcalf",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "pittsburgh-steelers",
+    "lastTeamId": "pittsburgh-steelers",
+    "status": "Active",
+    "position": "WR",
+    "number": "4",
+    "birthday": "1997-12-14",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/dk-metcalf-27411",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads the Steelers with 32 catches and 58 targets in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/dk-metcalf-27411"
+      },
+      {
+        "text": "Caught 11 passes for 93 yards in a 26-19 win at Tampa Bay on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/dk-metcalf-27411"
+      },
+      {
+        "text": "Wears No. 4 for the Steelers",
+        "source": "https://www.statmuse.com/nfl/player/dk-metcalf-27411"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/dk-metcalf-27411"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaylen-warren",
+    "slug": "jaylen-warren",
+    "name": "Jaylen Warren",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "pittsburgh-steelers",
+    "lastTeamId": "pittsburgh-steelers",
+    "status": "Active",
+    "position": "RB",
+    "number": "30",
+    "birthday": "1998-11-01",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jaylen-warren-29656",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 561 rushing yards at 5.5 yards per carry and 855 total yards in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jaylen-warren-29656"
+      },
+      {
+        "text": "Ran for 127 yards in a 30-27 win over Cincinnati on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/jaylen-warren-29656"
+      },
+      {
+        "text": "Wears No. 30 for the Steelers",
+        "source": "https://www.statmuse.com/nfl/player/jaylen-warren-29656"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jaylen-warren-29656"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-ramsey",
+    "slug": "jalen-ramsey",
+    "name": "Jalen Ramsey",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "pittsburgh-steelers",
+    "lastTeamId": "pittsburgh-steelers",
+    "status": "Active",
+    "position": "DB",
+    "number": "5",
+    "birthday": "1994-10-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jalen-ramsey-25591",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 26 tackles, 2.0 sacks and 5 tackles for loss in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jalen-ramsey-25591"
+      },
+      {
+        "text": "Had 2.0 sacks and 4 tackles for loss in a 26-19 win at Tampa Bay on Oct. 18",
+        "source": "https://www.statmuse.com/nfl/player/jalen-ramsey-25591"
+      },
+      {
+        "text": "Wears No. 5 for the Steelers",
+        "source": "https://www.statmuse.com/nfl/player/jalen-ramsey-25591"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jalen-ramsey-25591"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mike-evans",
+    "slug": "mike-evans",
+    "name": "Mike Evans",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
+    "status": "Active",
+    "position": "WR",
+    "number": "5",
+    "birthday": "1993-08-21",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/mike-evans-23812",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 27 catches for 420 yards and 3 touchdowns in his first six games with San Francisco",
+        "source": "https://www.statmuse.com/nfl/player/mike-evans-23812"
+      },
+      {
+        "text": "Caught 7 passes for 113 yards and a touchdown in a 32-29 win at Seattle on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/mike-evans-23812"
+      },
+      {
+        "text": "Wears No. 5 for the 49ers",
+        "source": "https://www.statmuse.com/nfl/player/mike-evans-23812"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/mike-evans-23812"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sam-darnold",
+    "slug": "sam-darnold",
+    "name": "Sam Darnold",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "seattle-seahawks",
+    "lastTeamId": "seattle-seahawks",
+    "status": "Active",
+    "position": "QB",
+    "number": "14",
+    "birthday": "1997-06-05",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/sam-darnold-26611",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads Seattle with 1,033 passing yards in 2026",
+        "source": "https://www.statmuse.com/nfl/team/2026-seattle-seahawks-81/stats/2026"
+      },
+      {
+        "text": "Played in a 13-10 opening win over New England on Sept. 9",
+        "source": "https://www.statmuse.com/nfl/player/sam-darnold-26611"
+      },
+      {
+        "text": "Wears No. 14 for the Seahawks",
+        "source": "https://www.statmuse.com/nfl/player/sam-darnold-26611"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/sam-darnold-26611",
+      "https://www.statmuse.com/nfl/team/2026-seattle-seahawks-81/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "devon-witherspoon",
+    "slug": "devon-witherspoon",
+    "name": "Devon Witherspoon",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "seattle-seahawks",
+    "lastTeamId": "seattle-seahawks",
+    "status": "Active",
+    "position": "CB",
+    "number": "21",
+    "birthday": "2000-12-11",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/devon-witherspoon-30265",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 24 tackles, 3 tackles for loss and 3 passes defended in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/devon-witherspoon-30265"
+      },
+      {
+        "text": "Made 4 tackles in a 20-3 win over Kansas City on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/devon-witherspoon-30265"
+      },
+      {
+        "text": "Wears No. 21 for the Seahawks",
+        "source": "https://www.statmuse.com/nfl/player/devon-witherspoon-30265"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/devon-witherspoon-30265"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cooper-kupp",
+    "slug": "cooper-kupp",
+    "name": "Cooper Kupp",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "seattle-seahawks",
+    "lastTeamId": "seattle-seahawks",
+    "status": "Active",
+    "position": "WR",
+    "number": "10",
+    "birthday": "1993-06-15",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/cooper-kupp-25743",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 18 catches for 199 yards and a touchdown in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/cooper-kupp-25743"
+      },
+      {
+        "text": "Caught a touchdown pass at Washington on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/cooper-kupp-25743"
+      },
+      {
+        "text": "Wears No. 10 for the Seahawks",
+        "source": "https://www.statmuse.com/nfl/player/cooper-kupp-25743"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/cooper-kupp-25743"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ernest-jones-iv",
+    "slug": "ernest-jones-iv",
+    "name": "Ernest Jones IV",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "seattle-seahawks",
+    "lastTeamId": "seattle-seahawks",
+    "status": "Active",
+    "position": "LB",
+    "number": "13",
+    "birthday": "1999-11-22",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/ernest-jones-iv-28940",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 15 tackles and a pass defended in his first three games of 2026",
+        "source": "https://www.statmuse.com/nfl/player/ernest-jones-iv-28940"
+      },
+      {
+        "text": "Made 8 combined tackles at Washington on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/ernest-jones-iv-28940"
+      },
+      {
+        "text": "Wears No. 13 for the Seahawks",
+        "source": "https://www.statmuse.com/nfl/player/ernest-jones-iv-28940"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/ernest-jones-iv-28940"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "terry-mclaurin",
+    "slug": "terry-mclaurin",
+    "name": "Terry McLaurin",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "washington-commanders",
+    "lastTeamId": "washington-commanders",
+    "status": "Active",
+    "position": "WR",
+    "number": "17",
+    "birthday": "1995-09-15",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/terry-mclaurin-27356",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 15 catches for 230 yards and a touchdown in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/terry-mclaurin-27356"
+      },
+      {
+        "text": "Caught 6 passes for 77 yards and a touchdown in a 33-31 win over Seattle on Sept. 27",
+        "source": "https://www.statmuse.com/nfl/player/terry-mclaurin-27356"
+      },
+      {
+        "text": "Wears No. 17 for the Commanders",
+        "source": "https://www.statmuse.com/nfl/player/terry-mclaurin-27356"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/terry-mclaurin-27356"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "stefon-diggs",
+    "slug": "stefon-diggs",
+    "name": "Stefon Diggs",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "washington-commanders",
+    "lastTeamId": "washington-commanders",
+    "status": "Active",
+    "position": "WR",
+    "number": "3",
+    "birthday": "1993-11-29",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/stefon-diggs-24298",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Leads Washington with 24 catches and 4 touchdown receptions in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/stefon-diggs-24298"
+      },
+      {
+        "text": "Caught 2 touchdown passes at Dallas on Sept. 20",
+        "source": "https://www.statmuse.com/nfl/player/stefon-diggs-24298"
+      },
+      {
+        "text": "Wears No. 3 for the Commanders",
+        "source": "https://www.statmuse.com/nfl/player/stefon-diggs-24298"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/stefon-diggs-24298"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jacory-croskey-merritt",
+    "slug": "jacory-croskey-merritt",
+    "name": "Jacory Croskey-Merritt",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "washington-commanders",
+    "lastTeamId": "washington-commanders",
+    "status": "Active",
+    "position": "RB",
+    "number": "22",
+    "birthday": "2001-04-12",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/jacory-croskey-merritt-32195",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 239 rushing yards and 2 touchdowns in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/jacory-croskey-merritt-32195"
+      },
+      {
+        "text": "Ran for 82 yards and a touchdown in a 27-27 tie with the Giants on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/jacory-croskey-merritt-32195"
+      },
+      {
+        "text": "Wears No. 22 for the Commanders",
+        "source": "https://www.statmuse.com/nfl/player/jacory-croskey-merritt-32195"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/jacory-croskey-merritt-32195"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "sonny-styles",
+    "slug": "sonny-styles",
+    "name": "Sonny Styles",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "washington-commanders",
+    "lastTeamId": "washington-commanders",
+    "status": "Active",
+    "position": "LB",
+    "number": "52",
+    "birthday": "2004-11-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/sonny-styles-32771",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 22 tackles, a sack, an interception and a forced fumble as a rookie in 2026",
+        "source": "https://www.statmuse.com/nfl/player/sonny-styles-32771"
+      },
+      {
+        "text": "Made 13 combined tackles at San Francisco on Oct. 19",
+        "source": "https://www.statmuse.com/nfl/player/sonny-styles-32771"
+      },
+      {
+        "text": "Wears No. 52 for the Commanders",
+        "source": "https://www.statmuse.com/nfl/player/sonny-styles-32771"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/sonny-styles-32771"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "alec-pierce",
+    "slug": "alec-pierce",
+    "name": "Alec Pierce",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "indianapolis-colts",
+    "lastTeamId": "indianapolis-colts",
+    "status": "Active",
+    "position": "WR",
+    "number": "14",
+    "birthday": "2000-05-02",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/alec-pierce-29574",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Caught 4 passes for 61 yards against Baltimore on Sept. 13",
+        "source": "https://www.statmuse.com/nfl/player/alec-pierce-29574"
+      },
+      {
+        "text": "Averaged 15.3 yards per catch in his first game of 2026",
+        "source": "https://www.statmuse.com/nfl/player/alec-pierce-29574"
+      },
+      {
+        "text": "Wears No. 14 for the Colts",
+        "source": "https://www.statmuse.com/nfl/player/alec-pierce-29574"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/alec-pierce-29574"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "minkah-fitzpatrick",
+    "slug": "minkah-fitzpatrick",
+    "name": "Minkah Fitzpatrick",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-jets",
+    "lastTeamId": "new-york-jets",
+    "status": "Active",
+    "position": "S",
+    "number": "29",
+    "birthday": "1996-11-17",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/minkah-fitzpatrick-26605",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 19 tackles, an interception and 2 passes defended in five games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/minkah-fitzpatrick-26605"
+      },
+      {
+        "text": "Made 10 combined tackles against Miami on Oct. 25",
+        "source": "https://www.statmuse.com/nfl/player/minkah-fitzpatrick-26605"
+      },
+      {
+        "text": "Wears No. 29 for the Jets",
+        "source": "https://www.statmuse.com/nfl/player/minkah-fitzpatrick-26605"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/minkah-fitzpatrick-26605"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "elijah-ponder",
+    "slug": "elijah-ponder",
+    "name": "Elijah Ponder",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-england-patriots",
+    "lastTeamId": "new-england-patriots",
+    "status": "Active",
+    "position": "LB",
+    "number": "91",
+    "birthday": "2002-08-24",
+    "birthdaySource": "https://www.statmuse.com/nfl/player/elijah-ponder-32440",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5.5 sacks and 7 tackles for loss in seven games in 2026",
+        "source": "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
+      },
+      {
+        "text": "Had 2.0 sacks and a forced fumble in a 45-17 win over Las Vegas on Oct. 11",
+        "source": "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
+      },
+      {
+        "text": "Wears No. 91 for the Patriots",
+        "source": "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
+    ],
+    "lastVerified": "2026-10-27"
   }
 ]
