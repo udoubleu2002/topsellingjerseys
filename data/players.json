@@ -7793,6 +7793,4869 @@
     "lastVerified": "2026-10-23"
   },
   {
+    "id": "paul-george",
+    "slug": "paul-george",
+    "name": "Paul George",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "boston-celtics",
+    "lastTeamId": "boston-celtics",
+    "status": "Active",
+    "position": "PF",
+    "number": "13",
+    "birthday": "1990-05-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.3 points, 5.3 rebounds and 3.6 assists over 37 games for the Philadelphia 76ers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/paul-george-1273/career-stats"
+      },
+      {
+        "text": "Scored 38 points with seven 3-pointers in his first game for Boston on Oct. 20, 2026",
+        "source": "https://www.statmuse.com/nba/player/paul-george-1273"
+      },
+      {
+        "text": "Wears No. 13 for the Boston Celtics in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/paul-george-1273",
+      "https://www.statmuse.com/nba/player/paul-george-1273/career-stats",
+      "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "derrick-white",
+    "slug": "derrick-white",
+    "name": "Derrick White",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "boston-celtics",
+    "lastTeamId": "boston-celtics",
+    "status": "Active",
+    "position": "SG",
+    "number": "9",
+    "birthday": "1994-07-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.5 points, 4.4 rebounds and 5.4 assists over 77 games for the Boston Celtics in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/derrick-white-9608/career-stats"
+      },
+      {
+        "text": "Won an NBA championship with Boston in 2024",
+        "source": "https://www.statmuse.com/nba/player/derrick-white-9608/career-stats"
+      },
+      {
+        "text": "Wears No. 9 for the Boston Celtics in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/derrick-white-9608/career-stats",
+      "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "payton-pritchard",
+    "slug": "payton-pritchard",
+    "name": "Payton Pritchard",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "boston-celtics",
+    "lastTeamId": "boston-celtics",
+    "status": "Active",
+    "position": "PG",
+    "number": "11",
+    "birthday": "1998-01-28",
+    "birthdaySource": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.0 points, 3.9 rebounds and 5.2 assists over 79 games for the Boston Celtics in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/payton-pritchard-10180/career-stats"
+      },
+      {
+        "text": "Won the NBA Sixth Man of the Year award and an NBA title with Boston",
+        "source": "https://www.statmuse.com/nba/player/payton-pritchard-10180/career-stats"
+      },
+      {
+        "text": "Wears No. 11 for the Boston Celtics in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/payton-pritchard-10180/career-stats",
+      "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "neemias-queta",
+    "slug": "neemias-queta",
+    "name": "Neemias Queta",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "boston-celtics",
+    "lastTeamId": "boston-celtics",
+    "status": "Active",
+    "position": "C",
+    "number": "88",
+    "birthday": "1999-07-13",
+    "birthdaySource": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 10.2 points, 8.4 rebounds and 1.7 assists over 76 games for the Boston Celtics in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/neemias-queta-10316/career-stats"
+      },
+      {
+        "text": "Shot 73.5 percent from the field in seven 2026 playoff games",
+        "source": "https://www.statmuse.com/nba/player/neemias-queta-10316/career-stats"
+      },
+      {
+        "text": "Wears No. 88 for the Boston Celtics in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/neemias-queta-10316/career-stats",
+      "https://www.statmuse.com/nba/team/boston-celtics-1/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-duren",
+    "slug": "jalen-duren",
+    "name": "Jalen Duren",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "detroit-pistons",
+    "lastTeamId": "detroit-pistons",
+    "status": "Active",
+    "position": "C",
+    "number": "0",
+    "birthday": "2003-11-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 19.5 points, 10.5 rebounds and 2.0 assists over 70 games for the Detroit Pistons in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jalen-duren-10447/career-stats"
+      },
+      {
+        "text": "Named an NBA All-Star for the first time",
+        "source": "https://www.statmuse.com/nba/player/jalen-duren-10447/career-stats"
+      },
+      {
+        "text": "Wears No. 0 for the Detroit Pistons in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jalen-duren-10447/career-stats",
+      "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ausar-thompson",
+    "slug": "ausar-thompson",
+    "name": "Ausar Thompson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "detroit-pistons",
+    "lastTeamId": "detroit-pistons",
+    "status": "Active",
+    "position": "SF",
+    "number": "9",
+    "birthday": "2003-01-30",
+    "birthdaySource": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.9 points, 5.7 rebounds and 3.1 assists over 73 games for the Detroit Pistons in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/ausar-thompson-30245/career-stats"
+      },
+      {
+        "text": "Averaged 2.0 steals per game in 2025-26 and 1.8 blocks per game in the playoffs",
+        "source": "https://www.statmuse.com/nba/player/ausar-thompson-30245/career-stats"
+      },
+      {
+        "text": "Wears No. 9 for the Detroit Pistons in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/ausar-thompson-30245/career-stats",
+      "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "duncan-robinson",
+    "slug": "duncan-robinson",
+    "name": "Duncan Robinson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "detroit-pistons",
+    "lastTeamId": "detroit-pistons",
+    "status": "Active",
+    "position": "SF",
+    "number": "55",
+    "birthday": "1994-04-22",
+    "birthdaySource": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.2 points, 2.7 rebounds and 2.1 assists over 77 games for the Detroit Pistons in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/duncan-robinson-9833/career-stats"
+      },
+      {
+        "text": "Scored 21 points with five 3-pointers in a 106-93 win at Philadelphia on Oct. 25, 2026",
+        "source": "https://www.statmuse.com/nba/player/duncan-robinson-9833"
+      },
+      {
+        "text": "Wears No. 55 for the Detroit Pistons in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/duncan-robinson-9833",
+      "https://www.statmuse.com/nba/player/duncan-robinson-9833/career-stats",
+      "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "john-collins",
+    "slug": "john-collins",
+    "name": "John Collins",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "detroit-pistons",
+    "lastTeamId": "detroit-pistons",
+    "status": "Active",
+    "position": "PF",
+    "number": "20",
+    "birthday": "1997-09-23",
+    "birthdaySource": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.6 points, 5.3 rebounds and 1.0 assists over 69 games for the LA Clippers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/john-collins-9598/career-stats"
+      },
+      {
+        "text": "Has averaged 15.7 points and 7.7 rebounds over 541 career games",
+        "source": "https://www.statmuse.com/nba/player/john-collins-9598/career-stats"
+      },
+      {
+        "text": "Wears No. 20 for the Detroit Pistons in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/john-collins-9598/career-stats",
+      "https://www.statmuse.com/nba/team/detroit-pistons-13/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "joel-embiid",
+    "slug": "joel-embiid",
+    "name": "Joel Embiid",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "philadelphia-76ers",
+    "lastTeamId": "philadelphia-76ers",
+    "status": "Active",
+    "position": "C",
+    "number": "21",
+    "birthday": "1994-03-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 26.9 points, 7.7 rebounds and 3.9 assists over 38 games for the Philadelphia 76ers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/joel-embiid-9188/career-stats"
+      },
+      {
+        "text": "Won the 2023 NBA MVP award and has been named an All-Star seven times",
+        "source": "https://www.statmuse.com/nba/player/joel-embiid-9188/career-stats"
+      },
+      {
+        "text": "Wears No. 21 for the Philadelphia 76ers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/joel-embiid-9188/career-stats",
+      "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaylen-brown",
+    "slug": "jaylen-brown",
+    "name": "Jaylen Brown",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "philadelphia-76ers",
+    "lastTeamId": "philadelphia-76ers",
+    "status": "Active",
+    "position": "SF",
+    "number": "7",
+    "birthday": "1996-10-24",
+    "birthdaySource": "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 28.7 points, 6.9 rebounds and 5.1 assists over 71 games for the Boston Celtics in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jaylen-brown-9449/career-stats"
+      },
+      {
+        "text": "Won the 2024 NBA Finals MVP award with Boston",
+        "source": "https://www.statmuse.com/nba/player/jaylen-brown-9449/career-stats"
+      },
+      {
+        "text": "Wears No. 7 for the Philadelphia 76ers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jaylen-brown-9449/career-stats",
+      "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "vj-edgecombe",
+    "slug": "vj-edgecombe",
+    "name": "VJ Edgecombe",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "philadelphia-76ers",
+    "lastTeamId": "philadelphia-76ers",
+    "status": "Active",
+    "position": "SG",
+    "number": "77",
+    "birthday": "2005-07-30",
+    "birthdaySource": "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.0 points, 5.6 rebounds and 4.2 assists over 75 games for the Philadelphia 76ers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/vj-edgecombe-30563/career-stats"
+      },
+      {
+        "text": "Averaged 14.0 points and 6.1 rebounds in 11 playoff games as a rookie",
+        "source": "https://www.statmuse.com/nba/player/vj-edgecombe-30563/career-stats"
+      },
+      {
+        "text": "Wears No. 77 for the Philadelphia 76ers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/vj-edgecombe-30563/career-stats",
+      "https://www.statmuse.com/nba/team/philadelphia-76ers-21/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-johnson",
+    "slug": "jalen-johnson",
+    "name": "Jalen Johnson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "atlanta-hawks",
+    "lastTeamId": "atlanta-hawks",
+    "status": "Active",
+    "position": "SF",
+    "number": "1",
+    "birthday": "2001-12-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 22.5 points, 10.3 rebounds and 7.9 assists over 72 games for the Atlanta Hawks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jalen-johnson-10333/career-stats"
+      },
+      {
+        "text": "Named an NBA All-Star for the first time",
+        "source": "https://www.statmuse.com/nba/player/jalen-johnson-10333/career-stats"
+      },
+      {
+        "text": "Wears No. 1 for the Atlanta Hawks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jalen-johnson-10333/career-stats",
+      "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dyson-daniels",
+    "slug": "dyson-daniels",
+    "name": "Dyson Daniels",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "atlanta-hawks",
+    "lastTeamId": "atlanta-hawks",
+    "status": "Active",
+    "position": "SG",
+    "number": "5",
+    "birthday": "2003-03-17",
+    "birthdaySource": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.9 points, 6.8 rebounds and 5.9 assists over 76 games for the Atlanta Hawks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/dyson-daniels-10475/career-stats"
+      },
+      {
+        "text": "Won the NBA Most Improved Player award and averaged 2.0 steals per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/dyson-daniels-10475/career-stats"
+      },
+      {
+        "text": "Wears No. 5 for the Atlanta Hawks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/dyson-daniels-10475/career-stats",
+      "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cj-mccollum",
+    "slug": "cj-mccollum",
+    "name": "CJ McCollum",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "atlanta-hawks",
+    "lastTeamId": "atlanta-hawks",
+    "status": "Active",
+    "position": "PG",
+    "number": "3",
+    "birthday": "1991-09-19",
+    "birthdaySource": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.7 points, 3.3 rebounds and 3.9 assists over 76 games in 2025-26, split between the Washington Wizards and Atlanta Hawks",
+        "source": "https://www.statmuse.com/nba/player/cj-mccollum-2399/career-stats"
+      },
+      {
+        "text": "Has averaged 19.5 points over 866 career games and won Most Improved Player",
+        "source": "https://www.statmuse.com/nba/player/cj-mccollum-2399/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the Atlanta Hawks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/cj-mccollum-2399/career-stats",
+      "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "nickeil-alexander-walker",
+    "slug": "nickeil-alexander-walker",
+    "name": "Nickeil Alexander-Walker",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "atlanta-hawks",
+    "lastTeamId": "atlanta-hawks",
+    "status": "Active",
+    "position": "SG",
+    "number": "7",
+    "birthday": "1998-09-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.8 points, 3.4 rebounds and 3.7 assists over 78 games for the Atlanta Hawks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/nickeil-alexander-walker-9991/career-stats"
+      },
+      {
+        "text": "Made 3.2 3-pointers per game and 90.2 percent of his free throws in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/nickeil-alexander-walker-9991/career-stats"
+      },
+      {
+        "text": "Wears No. 7 for the Atlanta Hawks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/nickeil-alexander-walker-9991/career-stats",
+      "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "onyeka-okongwu",
+    "slug": "onyeka-okongwu",
+    "name": "Onyeka Okongwu",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "atlanta-hawks",
+    "lastTeamId": "atlanta-hawks",
+    "status": "Active",
+    "position": "C",
+    "number": "17",
+    "birthday": "2000-12-11",
+    "birthdaySource": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.2 points, 7.6 rebounds and 3.1 assists over 74 games for the Atlanta Hawks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/onyeka-okongwu-10174/career-stats"
+      },
+      {
+        "text": "Shot 58.3 percent from the field in six 2026 playoff games",
+        "source": "https://www.statmuse.com/nba/player/onyeka-okongwu-10174/career-stats"
+      },
+      {
+        "text": "Wears No. 17 for the Atlanta Hawks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/onyeka-okongwu-10174/career-stats",
+      "https://www.statmuse.com/nba/team/atlanta-hawks-22/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "scottie-barnes",
+    "slug": "scottie-barnes",
+    "name": "Scottie Barnes",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "toronto-raptors",
+    "lastTeamId": "toronto-raptors",
+    "status": "Active",
+    "position": "PF",
+    "number": "4",
+    "birthday": "2001-08-01",
+    "birthdaySource": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.1 points, 7.5 rebounds and 5.9 assists over 80 games for the Toronto Raptors in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/scottie-barnes-10287/career-stats"
+      },
+      {
+        "text": "Won NBA Rookie of the Year and has been named an All-Star twice",
+        "source": "https://www.statmuse.com/nba/player/scottie-barnes-10287/career-stats"
+      },
+      {
+        "text": "Wears No. 4 for the Toronto Raptors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/scottie-barnes-10287/career-stats",
+      "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kawhi-leonard",
+    "slug": "kawhi-leonard",
+    "name": "Kawhi Leonard",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "toronto-raptors",
+    "lastTeamId": "toronto-raptors",
+    "status": "Active",
+    "position": "SF",
+    "number": "2",
+    "birthday": "1991-06-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 27.9 points, 6.4 rebounds and 3.6 assists over 65 games for the LA Clippers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/kawhi-leonard-2177/career-stats"
+      },
+      {
+        "text": "Won two NBA championships and two Finals MVP awards, including one with Toronto in 2019",
+        "source": "https://www.statmuse.com/nba/player/kawhi-leonard-2177/career-stats"
+      },
+      {
+        "text": "Wears No. 2 for the Toronto Raptors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/kawhi-leonard-2177/career-stats",
+      "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rj-barrett",
+    "slug": "rj-barrett",
+    "name": "RJ Barrett",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "toronto-raptors",
+    "lastTeamId": "toronto-raptors",
+    "status": "Active",
+    "position": "SF",
+    "number": "9",
+    "birthday": "2000-06-14",
+    "birthdaySource": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 19.3 points, 5.3 rebounds and 3.3 assists over 57 games for the Toronto Raptors in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/rj-barrett-9977/career-stats"
+      },
+      {
+        "text": "Averaged 24.1 points and 7.0 rebounds in seven 2026 playoff games",
+        "source": "https://www.statmuse.com/nba/player/rj-barrett-9977/career-stats"
+      },
+      {
+        "text": "Wears No. 9 for the Toronto Raptors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/rj-barrett-9977/career-stats",
+      "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "immanuel-quickley",
+    "slug": "immanuel-quickley",
+    "name": "Immanuel Quickley",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "toronto-raptors",
+    "lastTeamId": "toronto-raptors",
+    "status": "Active",
+    "position": "PG",
+    "number": "5",
+    "birthday": "1999-06-17",
+    "birthdaySource": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.4 points, 4.0 rebounds and 5.9 assists over 70 games for the Toronto Raptors in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/immanuel-quickley-10195/career-stats"
+      },
+      {
+        "text": "Averaged 16.4 points and 5.9 assists over 70 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/immanuel-quickley-10195/career-stats"
+      },
+      {
+        "text": "Wears No. 5 for the Toronto Raptors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/immanuel-quickley-10195/career-stats",
+      "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jakob-poeltl",
+    "slug": "jakob-poeltl",
+    "name": "Jakob Poeltl",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "toronto-raptors",
+    "lastTeamId": "toronto-raptors",
+    "status": "Active",
+    "position": "C",
+    "number": "19",
+    "birthday": "1995-10-15",
+    "birthdaySource": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 10.7 points, 7.0 rebounds and 2.0 assists over 46 games for the Toronto Raptors in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jakob-poeltl-9455/career-stats"
+      },
+      {
+        "text": "Shot 70.0 percent from the field in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jakob-poeltl-9455/career-stats"
+      },
+      {
+        "text": "Wears No. 19 for the Toronto Raptors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jakob-poeltl-9455/career-stats",
+      "https://www.statmuse.com/nba/team/toronto-raptors-51/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "trae-young",
+    "slug": "trae-young",
+    "name": "Trae Young",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "washington-wizards",
+    "lastTeamId": "washington-wizards",
+    "status": "Active",
+    "position": "PG",
+    "number": "3",
+    "birthday": "1998-09-19",
+    "birthdaySource": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.9 points, 2.0 rebounds and 8.0 assists over 15 games in 2025-26, split between the Atlanta Hawks and Washington Wizards",
+        "source": "https://www.statmuse.com/nba/player/trae-young-9767/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star four times and averages 9.8 assists for his career",
+        "source": "https://www.statmuse.com/nba/player/trae-young-9767/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the Washington Wizards in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/trae-young-9767/career-stats",
+      "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "anthony-davis",
+    "slug": "anthony-davis",
+    "name": "Anthony Davis",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "washington-wizards",
+    "lastTeamId": "washington-wizards",
+    "status": "Active",
+    "position": "PF",
+    "number": "23",
+    "birthday": "1993-03-11",
+    "birthdaySource": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.4 points, 11.1 rebounds and 2.8 assists over 20 games for the Dallas Mavericks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/anthony-davis-818/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star 10 times and won the 2020 NBA title",
+        "source": "https://www.statmuse.com/nba/player/anthony-davis-818/career-stats"
+      },
+      {
+        "text": "Wears No. 23 for the Washington Wizards in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/anthony-davis-818/career-stats",
+      "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "aj-dybantsa",
+    "slug": "aj-dybantsa",
+    "name": "AJ Dybantsa",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "washington-wizards",
+    "lastTeamId": "washington-wizards",
+    "status": "Active",
+    "position": "SF",
+    "number": "4",
+    "birthday": "2007-01-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Joined the Washington Wizards as a rookie for 2026-27",
+        "source": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+      },
+      {
+        "text": "Listed at 6-foot-9 and 210 pounds as a 19-year-old rookie",
+        "source": "https://www.statmuse.com/nba/player/aj-dybantsa-30703"
+      },
+      {
+        "text": "Wears No. 4 for the Washington Wizards in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/aj-dybantsa-30703",
+      "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "alex-sarr",
+    "slug": "alex-sarr",
+    "name": "Alex Sarr",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "washington-wizards",
+    "lastTeamId": "washington-wizards",
+    "status": "Active",
+    "position": "C",
+    "number": "20",
+    "birthday": "2005-04-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.3 points, 7.4 rebounds and 2.7 assists over 48 games for the Washington Wizards in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/alex-sarr-30416/career-stats"
+      },
+      {
+        "text": "Averaged 2.0 blocks per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/alex-sarr-30416/career-stats"
+      },
+      {
+        "text": "Wears No. 20 for the Washington Wizards in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/alex-sarr-30416/career-stats",
+      "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bilal-coulibaly",
+    "slug": "bilal-coulibaly",
+    "name": "Bilal Coulibaly",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "washington-wizards",
+    "lastTeamId": "washington-wizards",
+    "status": "Active",
+    "position": "SF",
+    "number": "0",
+    "birthday": "2004-07-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.7 points, 4.3 rebounds and 2.6 assists over 56 games for the Washington Wizards in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/bilal-coulibaly-30267/career-stats"
+      },
+      {
+        "text": "Averaged 1.3 steals and 1.0 blocks per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/bilal-coulibaly-30267/career-stats"
+      },
+      {
+        "text": "Wears No. 0 for the Washington Wizards in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/bilal-coulibaly-30267/career-stats",
+      "https://www.statmuse.com/nba/team/washington-wizards-24/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tyrese-haliburton",
+    "slug": "tyrese-haliburton",
+    "name": "Tyrese Haliburton",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "indiana-pacers",
+    "lastTeamId": "indiana-pacers",
+    "status": "Active",
+    "position": "PG",
+    "number": "0",
+    "birthday": "2000-02-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.6 points, 3.5 rebounds and 9.2 assists over 73 games for the Indiana Pacers in 2024-25",
+        "source": "https://www.statmuse.com/nba/player/tyrese-haliburton-10199/career-stats"
+      },
+      {
+        "text": "Averaged 18.6 points and 9.2 assists in 2024-25 before missing 2025-26",
+        "source": "https://www.statmuse.com/nba/player/tyrese-haliburton-10199/career-stats"
+      },
+      {
+        "text": "Wears No. 0 for the Indiana Pacers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/tyrese-haliburton-10199/career-stats",
+      "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "pascal-siakam",
+    "slug": "pascal-siakam",
+    "name": "Pascal Siakam",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "indiana-pacers",
+    "lastTeamId": "indiana-pacers",
+    "status": "Active",
+    "position": "PF",
+    "number": "43",
+    "birthday": "1994-04-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 24.0 points, 6.6 rebounds and 3.8 assists over 62 games for the Indiana Pacers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/pascal-siakam-9473/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star four times and won the 2019 NBA title",
+        "source": "https://www.statmuse.com/nba/player/pascal-siakam-9473/career-stats"
+      },
+      {
+        "text": "Wears No. 43 for the Indiana Pacers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/pascal-siakam-9473/career-stats",
+      "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ivica-zubac",
+    "slug": "ivica-zubac",
+    "name": "Ivica Zubac",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "indiana-pacers",
+    "lastTeamId": "indiana-pacers",
+    "status": "Active",
+    "position": "C",
+    "number": "40",
+    "birthday": "1997-03-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.1 points, 10.6 rebounds and 2.2 assists over 48 games in 2025-26, split between the LA Clippers and Indiana Pacers",
+        "source": "https://www.statmuse.com/nba/player/ivica-zubac-9478/career-stats"
+      },
+      {
+        "text": "Averaged 14.1 points and 10.6 rebounds in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/ivica-zubac-9478/career-stats"
+      },
+      {
+        "text": "Wears No. 40 for the Indiana Pacers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/ivica-zubac-9478/career-stats",
+      "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andrew-nembhard",
+    "slug": "andrew-nembhard",
+    "name": "Andrew Nembhard",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "indiana-pacers",
+    "lastTeamId": "indiana-pacers",
+    "status": "Active",
+    "position": "SG",
+    "number": "2",
+    "birthday": "2000-01-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.9 points, 2.8 rebounds and 7.7 assists over 57 games for the Indiana Pacers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/andrew-nembhard-10436/career-stats"
+      },
+      {
+        "text": "Averaged 7.7 assists per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/andrew-nembhard-10436/career-stats"
+      },
+      {
+        "text": "Wears No. 2 for the Indiana Pacers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/andrew-nembhard-10436/career-stats",
+      "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "aaron-nesmith",
+    "slug": "aaron-nesmith",
+    "name": "Aaron Nesmith",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "indiana-pacers",
+    "lastTeamId": "indiana-pacers",
+    "status": "Active",
+    "position": "SF",
+    "number": "23",
+    "birthday": "1999-10-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.8 points, 4.2 rebounds and 1.9 assists over 45 games for the Indiana Pacers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/aaron-nesmith-10182/career-stats"
+      },
+      {
+        "text": "Made 2.3 3-pointers per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/aaron-nesmith-10182/career-stats"
+      },
+      {
+        "text": "Wears No. 23 for the Indiana Pacers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/aaron-nesmith-10182/career-stats",
+      "https://www.statmuse.com/nba/team/indiana-pacers-30/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brandon-miller",
+    "slug": "brandon-miller",
+    "name": "Brandon Miller",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "charlotte-hornets",
+    "lastTeamId": "charlotte-hornets",
+    "status": "Active",
+    "position": "SF",
+    "number": "24",
+    "birthday": "2002-11-22",
+    "birthdaySource": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.2 points, 4.9 rebounds and 3.3 assists over 65 games for the Charlotte Hornets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/brandon-miller-30259/career-stats"
+      },
+      {
+        "text": "Made 3.1 3-pointers per game and 89.2 percent of his free throws in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/brandon-miller-30259/career-stats"
+      },
+      {
+        "text": "Wears No. 24 for the Charlotte Hornets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/brandon-miller-30259/career-stats",
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kon-knueppel",
+    "slug": "kon-knueppel",
+    "name": "Kon Knueppel",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "charlotte-hornets",
+    "lastTeamId": "charlotte-hornets",
+    "status": "Active",
+    "position": "SF",
+    "number": "7",
+    "birthday": "2005-08-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.5 points, 5.3 rebounds and 3.4 assists over 81 games for the Charlotte Hornets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/kon-knueppel-30564/career-stats"
+      },
+      {
+        "text": "Made 3.4 3-pointers per game as a rookie in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/kon-knueppel-30564/career-stats"
+      },
+      {
+        "text": "Wears No. 7 for the Charlotte Hornets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/kon-knueppel-30564/career-stats",
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "coby-white",
+    "slug": "coby-white",
+    "name": "Coby White",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "charlotte-hornets",
+    "lastTeamId": "charlotte-hornets",
+    "status": "Active",
+    "position": "SG",
+    "number": "3",
+    "birthday": "2000-02-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.4 points, 3.4 rebounds and 4.0 assists over 50 games in 2025-26, split between the Chicago Bulls and Charlotte Hornets",
+        "source": "https://www.statmuse.com/nba/player/coby-white-9981/career-stats"
+      },
+      {
+        "text": "Averaged 18.6 points in 29 games for Chicago in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/coby-white-9981/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the Charlotte Hornets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/coby-white-9981/career-stats",
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "naz-reid",
+    "slug": "naz-reid",
+    "name": "Naz Reid",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "charlotte-hornets",
+    "lastTeamId": "charlotte-hornets",
+    "status": "Active",
+    "position": "C",
+    "number": "0",
+    "birthday": "1999-08-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.6 points, 6.2 rebounds and 2.2 assists over 77 games for the Minnesota Timberwolves in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/naz-reid-10049/career-stats"
+      },
+      {
+        "text": "Won the NBA Sixth Man of the Year award",
+        "source": "https://www.statmuse.com/nba/player/naz-reid-10049/career-stats"
+      },
+      {
+        "text": "Wears No. 0 for the Charlotte Hornets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/naz-reid-10049/career-stats",
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "grayson-allen",
+    "slug": "grayson-allen",
+    "name": "Grayson Allen",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "charlotte-hornets",
+    "lastTeamId": "charlotte-hornets",
+    "status": "Active",
+    "position": "SG",
+    "number": "8",
+    "birthday": "1995-10-08",
+    "birthdaySource": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.5 points, 3.0 rebounds and 3.8 assists over 51 games for the Phoenix Suns in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/grayson-allen-9783/career-stats"
+      },
+      {
+        "text": "Made 3.1 3-pointers per game for Phoenix in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/grayson-allen-9783/career-stats"
+      },
+      {
+        "text": "Wears No. 8 for the Charlotte Hornets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/grayson-allen-9783/career-stats",
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "donovan-mitchell",
+    "slug": "donovan-mitchell",
+    "name": "Donovan Mitchell",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "cleveland-cavaliers",
+    "lastTeamId": "cleveland-cavaliers",
+    "status": "Active",
+    "position": "SG",
+    "number": "45",
+    "birthday": "1996-09-07",
+    "birthdaySource": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 27.9 points, 4.5 rebounds and 5.7 assists over 70 games for the Cleveland Cavaliers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/donovan-mitchell-9592/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star seven times",
+        "source": "https://www.statmuse.com/nba/player/donovan-mitchell-9592/career-stats"
+      },
+      {
+        "text": "Wears No. 45 for the Cleveland Cavaliers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/donovan-mitchell-9592/career-stats",
+      "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "james-harden",
+    "slug": "james-harden",
+    "name": "James Harden",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "cleveland-cavaliers",
+    "lastTeamId": "cleveland-cavaliers",
+    "status": "Active",
+    "position": "PG",
+    "number": "1",
+    "birthday": "1989-08-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 23.6 points, 4.8 rebounds and 8.0 assists over 70 games in 2025-26, split between the LA Clippers and Cleveland Cavaliers",
+        "source": "https://www.statmuse.com/nba/player/james-harden-1489/career-stats"
+      },
+      {
+        "text": "Won the 2018 NBA MVP award and has been named an All-Star 11 times",
+        "source": "https://www.statmuse.com/nba/player/james-harden-1489/career-stats"
+      },
+      {
+        "text": "Wears No. 1 for the Cleveland Cavaliers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/james-harden-1489/career-stats",
+      "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "evan-mobley",
+    "slug": "evan-mobley",
+    "name": "Evan Mobley",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "cleveland-cavaliers",
+    "lastTeamId": "cleveland-cavaliers",
+    "status": "Active",
+    "position": "PF",
+    "number": "4",
+    "birthday": "2001-06-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.2 points, 9.0 rebounds and 3.6 assists over 65 games for the Cleveland Cavaliers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/evan-mobley-10337/career-stats"
+      },
+      {
+        "text": "Won the NBA Defensive Player of the Year award",
+        "source": "https://www.statmuse.com/nba/player/evan-mobley-10337/career-stats"
+      },
+      {
+        "text": "Wears No. 4 for the Cleveland Cavaliers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/evan-mobley-10337/career-stats",
+      "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jarrett-allen",
+    "slug": "jarrett-allen",
+    "name": "Jarrett Allen",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "cleveland-cavaliers",
+    "lastTeamId": "cleveland-cavaliers",
+    "status": "Active",
+    "position": "C",
+    "number": "31",
+    "birthday": "1998-04-21",
+    "birthdaySource": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.4 points, 8.5 rebounds and 1.8 assists over 56 games for the Cleveland Cavaliers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jarrett-allen-9601/career-stats"
+      },
+      {
+        "text": "Shot 63.8 percent from the field in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jarrett-allen-9601/career-stats"
+      },
+      {
+        "text": "Wears No. 31 for the Cleveland Cavaliers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jarrett-allen-9601/career-stats",
+      "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaylon-tyson",
+    "slug": "jaylon-tyson",
+    "name": "Jaylon Tyson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "cleveland-cavaliers",
+    "lastTeamId": "cleveland-cavaliers",
+    "status": "Active",
+    "position": "SG",
+    "number": "20",
+    "birthday": "2002-12-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.2 points, 5.1 rebounds and 2.2 assists over 66 games for the Cleveland Cavaliers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jaylon-tyson-30407/career-stats"
+      },
+      {
+        "text": "Shot 49.3 percent from the field and averaged 13.2 points in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jaylon-tyson-30407/career-stats"
+      },
+      {
+        "text": "Wears No. 20 for the Cleveland Cavaliers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jaylon-tyson-30407/career-stats",
+      "https://www.statmuse.com/nba/team/cleveland-cavaliers-42/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "paolo-banchero",
+    "slug": "paolo-banchero",
+    "name": "Paolo Banchero",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "orlando-magic",
+    "lastTeamId": "orlando-magic",
+    "status": "Active",
+    "position": "PF",
+    "number": "5",
+    "birthday": "2002-11-12",
+    "birthdaySource": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 22.2 points, 8.4 rebounds and 5.2 assists over 72 games for the Orlando Magic in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/paolo-banchero-10510/career-stats"
+      },
+      {
+        "text": "Averaged 26.3 points, 9.0 rebounds and 6.3 assists in seven 2026 playoff games",
+        "source": "https://www.statmuse.com/nba/player/paolo-banchero-10510/career-stats"
+      },
+      {
+        "text": "Wears No. 5 for the Orlando Magic in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/paolo-banchero-10510/career-stats",
+      "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "franz-wagner",
+    "slug": "franz-wagner",
+    "name": "Franz Wagner",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "orlando-magic",
+    "lastTeamId": "orlando-magic",
+    "status": "Active",
+    "position": "SF",
+    "number": "22",
+    "birthday": "2001-08-27",
+    "birthdaySource": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.6 points, 5.2 rebounds and 3.3 assists over 34 games for the Orlando Magic in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/franz-wagner-10299/career-stats"
+      },
+      {
+        "text": "Has averaged 19.3 points over 328 career games, all with Orlando",
+        "source": "https://www.statmuse.com/nba/player/franz-wagner-10299/career-stats"
+      },
+      {
+        "text": "Wears No. 22 for the Orlando Magic in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/franz-wagner-10299/career-stats",
+      "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "desmond-bane",
+    "slug": "desmond-bane",
+    "name": "Desmond Bane",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "orlando-magic",
+    "lastTeamId": "orlando-magic",
+    "status": "Active",
+    "position": "SG",
+    "number": "3",
+    "birthday": "1998-06-25",
+    "birthdaySource": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.1 points, 4.1 rebounds and 4.1 assists over 82 games for the Orlando Magic in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/desmond-bane-10181/career-stats"
+      },
+      {
+        "text": "Played all 82 games and shot 90.8 percent from the free-throw line in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/desmond-bane-10181/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the Orlando Magic in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/desmond-bane-10181/career-stats",
+      "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-suggs",
+    "slug": "jalen-suggs",
+    "name": "Jalen Suggs",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "orlando-magic",
+    "lastTeamId": "orlando-magic",
+    "status": "Active",
+    "position": "PG",
+    "number": "4",
+    "birthday": "2001-06-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.8 points, 3.9 rebounds and 5.5 assists over 57 games for the Orlando Magic in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/jalen-suggs-10311/career-stats"
+      },
+      {
+        "text": "Averaged 1.8 steals per game in 2025-26 and 1.9 in the playoffs",
+        "source": "https://www.statmuse.com/nba/player/jalen-suggs-10311/career-stats"
+      },
+      {
+        "text": "Wears No. 4 for the Orlando Magic in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jalen-suggs-10311/career-stats",
+      "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "wendell-carter-jr",
+    "slug": "wendell-carter-jr",
+    "name": "Wendell Carter Jr.",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "orlando-magic",
+    "lastTeamId": "orlando-magic",
+    "status": "Active",
+    "position": "C",
+    "number": "34",
+    "birthday": "1999-04-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.8 points, 7.4 rebounds and 2.0 assists over 78 games for the Orlando Magic in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/wendell-carter-jr.-9769/career-stats"
+      },
+      {
+        "text": "Averaged 1.7 blocks per game in seven 2026 playoff games",
+        "source": "https://www.statmuse.com/nba/player/wendell-carter-jr.-9769/career-stats"
+      },
+      {
+        "text": "Wears No. 34 for the Orlando Magic in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/wendell-carter-jr.-9769/career-stats",
+      "https://www.statmuse.com/nba/team/orlando-magic-50/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "josh-giddey",
+    "slug": "josh-giddey",
+    "name": "Josh Giddey",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "chicago-bulls",
+    "lastTeamId": "chicago-bulls",
+    "status": "Active",
+    "position": "PG",
+    "number": "3",
+    "birthday": "2002-10-10",
+    "birthdaySource": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.0 points, 8.3 rebounds and 9.1 assists over 54 games for the Chicago Bulls in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/josh-giddey-10308/career-stats"
+      },
+      {
+        "text": "Averaged 17.0 points, 8.3 rebounds and 9.1 assists in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/josh-giddey-10308/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the Chicago Bulls in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/josh-giddey-10308/career-stats",
+      "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "matas-buzelis",
+    "slug": "matas-buzelis",
+    "name": "Matas Buzelis",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "chicago-bulls",
+    "lastTeamId": "chicago-bulls",
+    "status": "Active",
+    "position": "SF",
+    "number": "14",
+    "birthday": "2004-10-13",
+    "birthdaySource": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.3 points, 5.8 rebounds and 2.1 assists over 77 games for the Chicago Bulls in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/matas-buzelis-30420/career-stats"
+      },
+      {
+        "text": "Averaged 1.5 blocks per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/matas-buzelis-30420/career-stats"
+      },
+      {
+        "text": "Wears No. 14 for the Chicago Bulls in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/matas-buzelis-30420/career-stats",
+      "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "norman-powell",
+    "slug": "norman-powell",
+    "name": "Norman Powell",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "chicago-bulls",
+    "lastTeamId": "chicago-bulls",
+    "status": "Active",
+    "position": "SG",
+    "number": "24",
+    "birthday": "1993-05-25",
+    "birthdaySource": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 21.7 points, 3.5 rebounds and 2.5 assists over 58 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/norman-powell-9334/career-stats"
+      },
+      {
+        "text": "Averaged 21.7 points per game for Miami in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/norman-powell-9334/career-stats"
+      },
+      {
+        "text": "Wears No. 24 for the Chicago Bulls in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/norman-powell-9334/career-stats",
+      "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "nic-claxton",
+    "slug": "nic-claxton",
+    "name": "Nic Claxton",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "chicago-bulls",
+    "lastTeamId": "chicago-bulls",
+    "status": "Active",
+    "position": "C",
+    "number": "9",
+    "birthday": "1999-04-17",
+    "birthdaySource": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.7 points, 6.9 rebounds and 3.7 assists over 69 games for the Brooklyn Nets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/nic-claxton-10005/career-stats"
+      },
+      {
+        "text": "Shot 57.1 percent from the field and averaged 3.7 assists in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/nic-claxton-10005/career-stats"
+      },
+      {
+        "text": "Wears No. 9 for the Chicago Bulls in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/nic-claxton-10005/career-stats",
+      "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "caleb-wilson",
+    "slug": "caleb-wilson",
+    "name": "Caleb Wilson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "chicago-bulls",
+    "lastTeamId": "chicago-bulls",
+    "status": "Active",
+    "position": "PF",
+    "number": "8",
+    "birthday": "2006-07-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 22.3 points and 8.0 rebounds over his first 3 NBA games in 2026-27",
+        "source": "https://www.statmuse.com/nba/player/caleb-wilson-30707"
+      },
+      {
+        "text": "Scored 30 points with 14 rebounds against Washington on Oct. 24, 2026",
+        "source": "https://www.statmuse.com/nba/player/caleb-wilson-30707"
+      },
+      {
+        "text": "Wears No. 8 for the Chicago Bulls in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/caleb-wilson-30707",
+      "https://www.statmuse.com/nba/team/chicago-bulls-25/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "giannis-antetokounmpo",
+    "slug": "giannis-antetokounmpo",
+    "name": "Giannis Antetokounmpo",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "miami-heat",
+    "lastTeamId": "miami-heat",
+    "status": "Active",
+    "position": "PF",
+    "number": "7",
+    "birthday": "1994-12-06",
+    "birthdaySource": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 27.6 points, 9.8 rebounds and 5.4 assists over 36 games for the Milwaukee Bucks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/giannis-antetokounmpo-97/career-stats"
+      },
+      {
+        "text": "Won two NBA MVP awards and the 2021 NBA Finals MVP",
+        "source": "https://www.statmuse.com/nba/player/giannis-antetokounmpo-97/career-stats"
+      },
+      {
+        "text": "Wears No. 7 for the Miami Heat in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/giannis-antetokounmpo-97/career-stats",
+      "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bam-adebayo",
+    "slug": "bam-adebayo",
+    "name": "Bam Adebayo",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "miami-heat",
+    "lastTeamId": "miami-heat",
+    "status": "Active",
+    "position": "C",
+    "number": "13",
+    "birthday": "1997-07-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.1 points, 10.0 rebounds and 3.2 assists over 73 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/bam-adebayo-9593/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star three times",
+        "source": "https://www.statmuse.com/nba/player/bam-adebayo-9593/career-stats"
+      },
+      {
+        "text": "Wears No. 13 for the Miami Heat in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/bam-adebayo-9593/career-stats",
+      "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "klay-thompson",
+    "slug": "klay-thompson",
+    "name": "Klay Thompson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "miami-heat",
+    "lastTeamId": "miami-heat",
+    "status": "Active",
+    "position": "SF",
+    "number": "11",
+    "birthday": "1990-02-08",
+    "birthdaySource": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.7 points, 2.1 rebounds and 1.4 assists over 69 games for the Dallas Mavericks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/klay-thompson-3674/career-stats"
+      },
+      {
+        "text": "Has won four NBA championships and been named an All-Star five times",
+        "source": "https://www.statmuse.com/nba/player/klay-thompson-3674/career-stats"
+      },
+      {
+        "text": "Wears No. 11 for the Miami Heat in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/klay-thompson-3674/career-stats",
+      "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "andrew-wiggins",
+    "slug": "andrew-wiggins",
+    "name": "Andrew Wiggins",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "miami-heat",
+    "lastTeamId": "miami-heat",
+    "status": "Active",
+    "position": "SF",
+    "number": "22",
+    "birthday": "1995-02-23",
+    "birthdaySource": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.4 points, 4.8 rebounds and 2.7 assists over 68 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/andrew-wiggins-9186/career-stats"
+      },
+      {
+        "text": "Won NBA Rookie of the Year and an NBA championship",
+        "source": "https://www.statmuse.com/nba/player/andrew-wiggins-9186/career-stats"
+      },
+      {
+        "text": "Wears No. 22 for the Miami Heat in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/andrew-wiggins-9186/career-stats",
+      "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "davion-mitchell",
+    "slug": "davion-mitchell",
+    "name": "Davion Mitchell",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "miami-heat",
+    "lastTeamId": "miami-heat",
+    "status": "Active",
+    "position": "PG",
+    "number": "2",
+    "birthday": "1998-09-05",
+    "birthdaySource": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.3 points, 2.7 rebounds and 6.5 assists over 70 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/davion-mitchell-10294/career-stats"
+      },
+      {
+        "text": "Averaged 6.5 assists per game and shot 49.0 percent from the field in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/davion-mitchell-10294/career-stats"
+      },
+      {
+        "text": "Wears No. 2 for the Miami Heat in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/davion-mitchell-10294/career-stats",
+      "https://www.statmuse.com/nba/team/miami-heat-48/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "karl-anthony-towns",
+    "slug": "karl-anthony-towns",
+    "name": "Karl-Anthony Towns",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-york-knicks",
+    "lastTeamId": "new-york-knicks",
+    "status": "Active",
+    "position": "C",
+    "number": "32",
+    "birthday": "1995-11-15",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.1 points, 11.9 rebounds and 3.0 assists over 75 games for the New York Knicks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/karl-anthony-towns-9289/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star six times and won NBA Rookie of the Year",
+        "source": "https://www.statmuse.com/nba/player/karl-anthony-towns-9289/career-stats"
+      },
+      {
+        "text": "Wears No. 32 for the New York Knicks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/karl-anthony-towns-9289/career-stats",
+      "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mikal-bridges",
+    "slug": "mikal-bridges",
+    "name": "Mikal Bridges",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-york-knicks",
+    "lastTeamId": "new-york-knicks",
+    "status": "Active",
+    "position": "SF",
+    "number": "25",
+    "birthday": "1996-08-30",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.4 points, 3.8 rebounds and 3.7 assists over 82 games for the New York Knicks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/mikal-bridges-9772/career-stats"
+      },
+      {
+        "text": "Played all 82 games in 2025-26 and 19 playoff games",
+        "source": "https://www.statmuse.com/nba/player/mikal-bridges-9772/career-stats"
+      },
+      {
+        "text": "Wears No. 25 for the New York Knicks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/mikal-bridges-9772/career-stats",
+      "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "og-anunoby",
+    "slug": "og-anunoby",
+    "name": "OG Anunoby",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-york-knicks",
+    "lastTeamId": "new-york-knicks",
+    "status": "Active",
+    "position": "PF",
+    "number": "8",
+    "birthday": "1997-07-17",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.7 points, 5.2 rebounds and 2.2 assists over 67 games for the New York Knicks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/og-anunoby-9602/career-stats"
+      },
+      {
+        "text": "Averaged 20.1 points and shot 56.1 percent from the field in 17 playoff games in 2026",
+        "source": "https://www.statmuse.com/nba/player/og-anunoby-9602/career-stats"
+      },
+      {
+        "text": "Wears No. 8 for the New York Knicks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/og-anunoby-9602/career-stats",
+      "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "josh-hart",
+    "slug": "josh-hart",
+    "name": "Josh Hart",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-york-knicks",
+    "lastTeamId": "new-york-knicks",
+    "status": "Active",
+    "position": "SG",
+    "number": "3",
+    "birthday": "1995-03-06",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.0 points, 7.4 rebounds and 4.8 assists over 66 games for the New York Knicks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/josh-hart-9609/career-stats"
+      },
+      {
+        "text": "Averaged 8.9 rebounds per game in 19 playoff games in 2026",
+        "source": "https://www.statmuse.com/nba/player/josh-hart-9609/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the New York Knicks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/josh-hart-9609/career-stats",
+      "https://www.statmuse.com/nba/team/new-york-knicks-5/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "tyler-herro",
+    "slug": "tyler-herro",
+    "name": "Tyler Herro",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "milwaukee-bucks",
+    "lastTeamId": "milwaukee-bucks",
+    "status": "Active",
+    "position": "SG",
+    "number": "11",
+    "birthday": "2000-01-20",
+    "birthdaySource": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.5 points, 4.8 rebounds and 4.1 assists over 33 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/tyler-herro-9987/career-stats"
+      },
+      {
+        "text": "Won the NBA Sixth Man of the Year award and has been named an All-Star",
+        "source": "https://www.statmuse.com/nba/player/tyler-herro-9987/career-stats"
+      },
+      {
+        "text": "Wears No. 11 for the Milwaukee Bucks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/tyler-herro-9987/career-stats",
+      "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "myles-turner",
+    "slug": "myles-turner",
+    "name": "Myles Turner",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "milwaukee-bucks",
+    "lastTeamId": "milwaukee-bucks",
+    "status": "Active",
+    "position": "C",
+    "number": "3",
+    "birthday": "1996-03-24",
+    "birthdaySource": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.9 points, 5.3 rebounds and 1.5 assists over 71 games for the Milwaukee Bucks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/myles-turner-9299/career-stats"
+      },
+      {
+        "text": "Averaged 1.6 blocks and made 2.1 3-pointers per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/myles-turner-9299/career-stats"
+      },
+      {
+        "text": "Wears No. 3 for the Milwaukee Bucks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/myles-turner-9299/career-stats",
+      "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyle-kuzma",
+    "slug": "kyle-kuzma",
+    "name": "Kyle Kuzma",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "milwaukee-bucks",
+    "lastTeamId": "milwaukee-bucks",
+    "status": "Active",
+    "position": "PF",
+    "number": "18",
+    "birthday": "1995-07-24",
+    "birthdaySource": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.0 points, 4.5 rebounds and 2.7 assists over 69 games for the Milwaukee Bucks in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/kyle-kuzma-9606/career-stats"
+      },
+      {
+        "text": "Has averaged 16.5 points over 614 career games and won an NBA title",
+        "source": "https://www.statmuse.com/nba/player/kyle-kuzma-9606/career-stats"
+      },
+      {
+        "text": "Wears No. 18 for the Milwaukee Bucks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/kyle-kuzma-9606/career-stats",
+      "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaime-jaquez-jr",
+    "slug": "jaime-jaquez-jr",
+    "name": "Jaime Jaquez Jr.",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "milwaukee-bucks",
+    "lastTeamId": "milwaukee-bucks",
+    "status": "Active",
+    "position": "SF",
+    "number": "24",
+    "birthday": "2001-02-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.4 points, 5.0 rebounds and 4.7 assists over 75 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026"
+      },
+      {
+        "text": "Averaged 15.4 points and 4.7 assists over 75 games for Miami in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026"
+      },
+      {
+        "text": "Wears No. 24 for the Milwaukee Bucks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026",
+      "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kelel-ware",
+    "slug": "kelel-ware",
+    "name": "Kel'el Ware",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "milwaukee-bucks",
+    "lastTeamId": "milwaukee-bucks",
+    "status": "Active",
+    "position": "C",
+    "number": "9",
+    "birthday": "2004-04-20",
+    "birthdaySource": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.1 points, 9.0 rebounds and 0.7 assists over 77 games for the Miami Heat in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026"
+      },
+      {
+        "text": "Averaged 11.1 points, 9.0 rebounds and 1.1 blocks for Miami in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026"
+      },
+      {
+        "text": "Wears No. 9 for the Milwaukee Bucks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026",
+      "https://www.statmuse.com/nba/team/milwaukee-bucks-39/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "michael-porter-jr",
+    "slug": "michael-porter-jr",
+    "name": "Michael Porter Jr.",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "brooklyn-nets",
+    "lastTeamId": "brooklyn-nets",
+    "status": "Active",
+    "position": "SF",
+    "number": "17",
+    "birthday": "1998-06-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 24.2 points, 7.1 rebounds and 3.0 assists over 52 games for the Brooklyn Nets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/michael-porter-jr.-9776/career-stats"
+      },
+      {
+        "text": "Averaged 24.2 points and made 3.4 3-pointers per game for Brooklyn in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/michael-porter-jr.-9776/career-stats"
+      },
+      {
+        "text": "Wears No. 17 for the Brooklyn Nets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/michael-porter-jr.-9776/career-stats",
+      "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "julius-randle",
+    "slug": "julius-randle",
+    "name": "Julius Randle",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "brooklyn-nets",
+    "lastTeamId": "brooklyn-nets",
+    "status": "Active",
+    "position": "PF",
+    "number": "30",
+    "birthday": "1994-11-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 21.1 points, 6.7 rebounds and 5.0 assists over 79 games for the Minnesota Timberwolves in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+      },
+      {
+        "text": "Averaged 21.1 points, 6.7 rebounds and 5.0 assists over 79 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+      },
+      {
+        "text": "Wears No. 30 for the Brooklyn Nets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027",
+      "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mikel-brown-jr",
+    "slug": "mikel-brown-jr",
+    "name": "Mikel Brown Jr.",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "brooklyn-nets",
+    "lastTeamId": "brooklyn-nets",
+    "status": "Active",
+    "position": "PG",
+    "number": "0",
+    "birthday": "2006-04-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 6 points, 3 rebounds and 3 assists in his NBA debut in 2026-27",
+        "source": "https://www.statmuse.com/nba/player/mikel-brown-jr.-30702"
+      },
+      {
+        "text": "Listed at 6-foot-4 and 190 pounds as a 20-year-old rookie",
+        "source": "https://www.statmuse.com/nba/player/mikel-brown-jr.-30702"
+      },
+      {
+        "text": "Wears No. 0 for the Brooklyn Nets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/mikel-brown-jr.-30702",
+      "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "egor-demin",
+    "slug": "egor-demin",
+    "name": "Egor Dëmin",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "brooklyn-nets",
+    "lastTeamId": "brooklyn-nets",
+    "status": "Active",
+    "position": "PG",
+    "number": "8",
+    "birthday": "2006-03-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 10.3 points, 3.2 rebounds and 3.3 assists over 52 games for the Brooklyn Nets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/egor-d%C3%ABmin-30576/career-stats"
+      },
+      {
+        "text": "Made 2.4 3-pointers per game as a rookie in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/egor-d%C3%ABmin-30576/career-stats"
+      },
+      {
+        "text": "Wears No. 8 for the Brooklyn Nets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/egor-d%C3%ABmin-30576/career-stats",
+      "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "noah-clowney",
+    "slug": "noah-clowney",
+    "name": "Noah Clowney",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "brooklyn-nets",
+    "lastTeamId": "brooklyn-nets",
+    "status": "Active",
+    "position": "PF",
+    "number": "21",
+    "birthday": "2004-07-14",
+    "birthdaySource": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.3 points, 4.1 rebounds and 1.6 assists over 66 games for the Brooklyn Nets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/noah-clowney-30269/career-stats"
+      },
+      {
+        "text": "Made 2.0 3-pointers per game over 66 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/noah-clowney-30269/career-stats"
+      },
+      {
+        "text": "Wears No. 21 for the Brooklyn Nets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/noah-clowney-30269/career-stats",
+      "https://www.statmuse.com/nba/team/brooklyn-nets-33/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "alperen-sengun",
+    "slug": "alperen-sengun",
+    "name": "Alperen Şengün",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "houston-rockets",
+    "lastTeamId": "houston-rockets",
+    "status": "Active",
+    "position": "C",
+    "number": "28",
+    "birthday": "2002-07-25",
+    "birthdaySource": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.4 points, 8.9 rebounds and 6.2 assists over 72 games for the Houston Rockets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/alperen-%C5%9Feng%C3%BCn-10297/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star twice",
+        "source": "https://www.statmuse.com/nba/player/alperen-%C5%9Feng%C3%BCn-10297/career-stats"
+      },
+      {
+        "text": "Wears No. 28 for the Houston Rockets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/alperen-%C5%9Feng%C3%BCn-10297/career-stats",
+      "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "amen-thompson",
+    "slug": "amen-thompson",
+    "name": "Amen Thompson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "houston-rockets",
+    "lastTeamId": "houston-rockets",
+    "status": "Active",
+    "position": "SF",
+    "number": "1",
+    "birthday": "2003-01-30",
+    "birthdaySource": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.3 points, 7.8 rebounds and 5.3 assists over 79 games for the Houston Rockets in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/amen-thompson-30248/career-stats"
+      },
+      {
+        "text": "Averaged 19.2 points and 2.0 steals per game in six 2026 playoff games",
+        "source": "https://www.statmuse.com/nba/player/amen-thompson-30248/career-stats"
+      },
+      {
+        "text": "Wears No. 1 for the Houston Rockets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/amen-thompson-30248/career-stats",
+      "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "fred-vanvleet",
+    "slug": "fred-vanvleet",
+    "name": "Fred VanVleet",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "houston-rockets",
+    "lastTeamId": "houston-rockets",
+    "status": "Active",
+    "position": "PG",
+    "number": "5",
+    "birthday": "1994-02-25",
+    "birthdaySource": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.1 points, 3.7 rebounds and 5.6 assists over 60 games for the Houston Rockets in 2024-25",
+        "source": "https://www.statmuse.com/nba/player/fred-vanvleet-9547/career-stats"
+      },
+      {
+        "text": "Won an NBA championship with Toronto in 2019 and has been named an All-Star",
+        "source": "https://www.statmuse.com/nba/player/fred-vanvleet-9547/career-stats"
+      },
+      {
+        "text": "Wears No. 5 for the Houston Rockets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/fred-vanvleet-9547/career-stats",
+      "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jabari-smith-jr",
+    "slug": "jabari-smith-jr",
+    "name": "Jabari Smith Jr.",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "houston-rockets",
+    "lastTeamId": "houston-rockets",
+    "status": "Active",
+    "position": "PF",
+    "number": "10",
+    "birthday": "2003-05-13",
+    "birthdaySource": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.8 points, 6.9 rebounds and 1.9 assists over 77 games for the Houston Rockets in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/houston-rockets-37/stats/2026"
+      },
+      {
+        "text": "Averaged 15.8 points and 6.9 rebounds for a 52-30 Rockets team in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/houston-rockets-37/stats/2026"
+      },
+      {
+        "text": "Wears No. 10 for the Houston Rockets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/houston-rockets-37/roster/2027",
+      "https://www.statmuse.com/nba/team/houston-rockets-37/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "austin-reaves",
+    "slug": "austin-reaves",
+    "name": "Austin Reaves",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "los-angeles-lakers",
+    "lastTeamId": "los-angeles-lakers",
+    "status": "Active",
+    "position": "SG",
+    "number": "15",
+    "birthday": "1998-05-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 23.3 points, 4.7 rebounds and 5.5 assists over 51 games for the Los Angeles Lakers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/stats/2026"
+      },
+      {
+        "text": "Averaged 23.3 points and 5.5 assists for a 53-29 Lakers team in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/stats/2026"
+      },
+      {
+        "text": "Wears No. 15 for the Los Angeles Lakers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027",
+      "https://www.statmuse.com/nba/team/los-angeles-lakers-15/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "walker-kessler",
+    "slug": "walker-kessler",
+    "name": "Walker Kessler",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "los-angeles-lakers",
+    "lastTeamId": "los-angeles-lakers",
+    "status": "Active",
+    "position": "C",
+    "number": "14",
+    "birthday": "2001-07-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.4 points, 10.8 rebounds and 3.0 assists over 5 games for the Utah Jazz in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Averaged 14.4 points, 10.8 rebounds and 1.8 blocks over five games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Wears No. 14 for the Los Angeles Lakers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027",
+      "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "quentin-grimes",
+    "slug": "quentin-grimes",
+    "name": "Quentin Grimes",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "los-angeles-lakers",
+    "lastTeamId": "los-angeles-lakers",
+    "status": "Active",
+    "position": "SG",
+    "number": "5",
+    "birthday": "2000-05-08",
+    "birthdaySource": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.4 points, 3.6 rebounds and 3.3 assists over 75 games for the Philadelphia 76ers in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/quentin-grimes-10338/career-stats"
+      },
+      {
+        "text": "Averaged 13.4 points and shot 84.0 percent at the line for Philadelphia in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/quentin-grimes-10338/career-stats"
+      },
+      {
+        "text": "Wears No. 5 for the Los Angeles Lakers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/quentin-grimes-10338/career-stats",
+      "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "collin-sexton",
+    "slug": "collin-sexton",
+    "name": "Collin Sexton",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "los-angeles-lakers",
+    "lastTeamId": "los-angeles-lakers",
+    "status": "Active",
+    "position": "SG",
+    "number": "10",
+    "birthday": "1999-01-04",
+    "birthdaySource": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.2 points, 1.9 rebounds and 3.7 assists over 42 games for the Charlotte Hornets in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/stats/2026"
+      },
+      {
+        "text": "Shot 48.8 percent from the field and 87.7 percent at the line for Charlotte in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/stats/2026"
+      },
+      {
+        "text": "Wears No. 10 for the Los Angeles Lakers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/stats/2026",
+      "https://www.statmuse.com/nba/team/los-angeles-lakers-15/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "chet-holmgren",
+    "slug": "chet-holmgren",
+    "name": "Chet Holmgren",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "oklahoma-city-thunder",
+    "lastTeamId": "oklahoma-city-thunder",
+    "status": "Active",
+    "position": "C",
+    "number": "7",
+    "birthday": "2002-05-01",
+    "birthdaySource": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.1 points, 8.9 rebounds and 1.7 assists over 69 games for the Oklahoma City Thunder in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Averaged 1.9 blocks per game for a 64-18 Thunder team in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Wears No. 7 for the Oklahoma City Thunder in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-williams",
+    "slug": "jalen-williams",
+    "name": "Jalen Williams",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "oklahoma-city-thunder",
+    "lastTeamId": "oklahoma-city-thunder",
+    "status": "Active",
+    "position": "SG",
+    "number": "8",
+    "birthday": "2001-04-14",
+    "birthdaySource": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.1 points, 4.6 rebounds and 5.5 assists over 33 games for the Oklahoma City Thunder in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Averaged 17.1 points and 5.5 assists over 33 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Wears No. 8 for the Oklahoma City Thunder in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "isaiah-hartenstein",
+    "slug": "isaiah-hartenstein",
+    "name": "Isaiah Hartenstein",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "oklahoma-city-thunder",
+    "lastTeamId": "oklahoma-city-thunder",
+    "status": "Active",
+    "position": "C",
+    "number": "55",
+    "birthday": "1998-05-05",
+    "birthdaySource": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.2 points, 9.4 rebounds and 3.5 assists over 47 games for the Oklahoma City Thunder in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Averaged 9.4 rebounds and 3.5 assists over 47 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Wears No. 55 for the Oklahoma City Thunder in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ajay-mitchell",
+    "slug": "ajay-mitchell",
+    "name": "Ajay Mitchell",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "oklahoma-city-thunder",
+    "lastTeamId": "oklahoma-city-thunder",
+    "status": "Active",
+    "position": "SG",
+    "number": "25",
+    "birthday": "2002-06-25",
+    "birthdaySource": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.6 points, 3.3 rebounds and 3.6 assists over 57 games for the Oklahoma City Thunder in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Averaged 13.6 points and shot 87.0 percent at the line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+      },
+      {
+        "text": "Wears No. 25 for the Oklahoma City Thunder in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/roster/2027",
+      "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cameron-boozer",
+    "slug": "cameron-boozer",
+    "name": "Cameron Boozer",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "memphis-grizzlies",
+    "lastTeamId": "memphis-grizzlies",
+    "status": "Active",
+    "position": "PF",
+    "number": "27",
+    "birthday": "2007-07-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 7 points, 11 rebounds and 5 assists in his NBA debut in 2026-27",
+        "source": "https://www.statmuse.com/nba/player/cameron-boozer-30693"
+      },
+      {
+        "text": "Listed at 6-foot-8 and 250 pounds as a 19-year-old rookie",
+        "source": "https://www.statmuse.com/nba/player/cameron-boozer-30693"
+      },
+      {
+        "text": "Wears No. 27 for the Memphis Grizzlies in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/cameron-boozer-30693",
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "zach-edey",
+    "slug": "zach-edey",
+    "name": "Zach Edey",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "memphis-grizzlies",
+    "lastTeamId": "memphis-grizzlies",
+    "status": "Active",
+    "position": "C",
+    "number": "14",
+    "birthday": "2002-05-14",
+    "birthdaySource": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.6 points, 11.1 rebounds and 1.1 assists over 11 games for the Memphis Grizzlies in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Averaged 11.1 rebounds and 1.9 blocks over 11 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Wears No. 14 for the Memphis Grizzlies in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cedric-coward",
+    "slug": "cedric-coward",
+    "name": "Cedric Coward",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "memphis-grizzlies",
+    "lastTeamId": "memphis-grizzlies",
+    "status": "Active",
+    "position": "SG",
+    "number": "23",
+    "birthday": "2003-09-11",
+    "birthdaySource": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.6 points, 5.9 rebounds and 2.8 assists over 62 games for the Memphis Grizzlies in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Averaged 13.6 points and 5.9 rebounds as a rookie in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Wears No. 23 for the Memphis Grizzlies in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaylen-wells",
+    "slug": "jaylen-wells",
+    "name": "Jaylen Wells",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "memphis-grizzlies",
+    "lastTeamId": "memphis-grizzlies",
+    "status": "Active",
+    "position": "SG",
+    "number": "0",
+    "birthday": "2003-08-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.5 points, 3.2 rebounds and 1.6 assists over 69 games for the Memphis Grizzlies in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Averaged 12.5 points and made 1.9 3-pointers per game over 69 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Wears No. 0 for the Memphis Grizzlies in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jerami-grant",
+    "slug": "jerami-grant",
+    "name": "Jerami Grant",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "memphis-grizzlies",
+    "lastTeamId": "memphis-grizzlies",
+    "status": "Active",
+    "position": "PF",
+    "number": "3",
+    "birthday": "1994-03-12",
+    "birthdaySource": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.6 points, 3.5 rebounds and 2.1 assists over 57 games for the Portland Trail Blazers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Averaged 18.6 points and made 2.4 3-pointers per game for Portland in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Wears No. 3 for the Memphis Grizzlies in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/roster/2027",
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rudy-gobert",
+    "slug": "rudy-gobert",
+    "name": "Rudy Gobert",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "minnesota-timberwolves",
+    "lastTeamId": "minnesota-timberwolves",
+    "status": "Active",
+    "position": "C",
+    "number": "27",
+    "birthday": "1992-06-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 10.9 points, 11.5 rebounds and 1.7 assists over 76 games for the Minnesota Timberwolves in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+      },
+      {
+        "text": "Averaged 11.5 rebounds and 1.6 blocks while shooting 68.2 percent in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+      },
+      {
+        "text": "Wears No. 27 for the Minnesota Timberwolves in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027",
+      "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaden-mcdaniels",
+    "slug": "jaden-mcdaniels",
+    "name": "Jaden McDaniels",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "minnesota-timberwolves",
+    "lastTeamId": "minnesota-timberwolves",
+    "status": "Active",
+    "position": "PF",
+    "number": "3",
+    "birthday": "2000-09-29",
+    "birthdaySource": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.8 points, 4.2 rebounds and 2.7 assists over 73 games for the Minnesota Timberwolves in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+      },
+      {
+        "text": "Shot 51.5 percent from the field and 83.5 percent at the line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+      },
+      {
+        "text": "Wears No. 3 for the Minnesota Timberwolves in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027",
+      "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jonathan-kuminga",
+    "slug": "jonathan-kuminga",
+    "name": "Jonathan Kuminga",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "minnesota-timberwolves",
+    "lastTeamId": "minnesota-timberwolves",
+    "status": "Active",
+    "position": "PF",
+    "number": "24",
+    "birthday": "2002-10-06",
+    "birthdaySource": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.2 points, 5.6 rebounds and 2.3 assists over 36 games in 2025-26, split between the Golden State Warriors and Atlanta Hawks",
+        "source": "https://www.statmuse.com/nba/player/jonathan-kuminga-10324/career-stats"
+      },
+      {
+        "text": "Won an NBA championship with Golden State in 2022",
+        "source": "https://www.statmuse.com/nba/player/jonathan-kuminga-10324/career-stats"
+      },
+      {
+        "text": "Wears No. 24 for the Minnesota Timberwolves in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/jonathan-kuminga-10324/career-stats",
+      "https://www.statmuse.com/nba/team/minnesota-timberwolves-49/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ja-morant",
+    "slug": "ja-morant",
+    "name": "Ja Morant",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "portland-trail-blazers",
+    "lastTeamId": "portland-trail-blazers",
+    "status": "Active",
+    "position": "PG",
+    "number": "1",
+    "birthday": "1999-08-10",
+    "birthdaySource": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 19.5 points, 3.3 rebounds and 8.1 assists over 20 games for the Memphis Grizzlies in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Averaged 19.5 points and 8.1 assists over 20 games for Memphis in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Wears No. 1 for the Portland Trail Blazers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026",
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "damian-lillard",
+    "slug": "damian-lillard",
+    "name": "Damian Lillard",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "portland-trail-blazers",
+    "lastTeamId": "portland-trail-blazers",
+    "status": "Active",
+    "position": "PG",
+    "number": "0",
+    "birthday": "1990-07-15",
+    "birthdaySource": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 22.0 points, 4.0 rebounds and 4.0 assists over 2 games for the Portland Trail Blazers in 2026-27",
+        "source": "https://www.statmuse.com/nba/player/damian-lillard-2205/career-stats"
+      },
+      {
+        "text": "Rejoined Portland, where he spent his first 11 NBA seasons, for 2026-27",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+      },
+      {
+        "text": "Wears No. 0 for the Portland Trail Blazers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/damian-lillard-2205/career-stats",
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "deni-avdija",
+    "slug": "deni-avdija",
+    "name": "Deni Avdija",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "portland-trail-blazers",
+    "lastTeamId": "portland-trail-blazers",
+    "status": "Active",
+    "position": "SF",
+    "number": "8",
+    "birthday": "2001-01-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 24.2 points, 6.9 rebounds and 6.7 assists over 66 games for the Portland Trail Blazers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Averaged 24.2 points, 6.9 rebounds and 6.7 assists for Portland in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Wears No. 8 for the Portland Trail Blazers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "shaedon-sharpe",
+    "slug": "shaedon-sharpe",
+    "name": "Shaedon Sharpe",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "portland-trail-blazers",
+    "lastTeamId": "portland-trail-blazers",
+    "status": "Active",
+    "position": "SG",
+    "number": "17",
+    "birthday": "2003-05-30",
+    "birthdaySource": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.8 points, 4.3 rebounds and 2.6 assists over 50 games for the Portland Trail Blazers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Averaged 20.8 points and 1.4 steals over 50 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Wears No. 17 for the Portland Trail Blazers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jrue-holiday",
+    "slug": "jrue-holiday",
+    "name": "Jrue Holiday",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "portland-trail-blazers",
+    "lastTeamId": "portland-trail-blazers",
+    "status": "Active",
+    "position": "PG",
+    "number": "5",
+    "birthday": "1990-06-12",
+    "birthdaySource": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.3 points, 4.6 rebounds and 6.1 assists over 53 games for the Portland Trail Blazers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Averaged 16.3 points and 6.1 assists for Portland in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+      },
+      {
+        "text": "Wears No. 5 for the Portland Trail Blazers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/roster/2027",
+      "https://www.statmuse.com/nba/team/portland-trail-blazers-43/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jamal-murray",
+    "slug": "jamal-murray",
+    "name": "Jamal Murray",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "denver-nuggets",
+    "lastTeamId": "denver-nuggets",
+    "status": "Active",
+    "position": "PG",
+    "number": "27",
+    "birthday": "1997-02-23",
+    "birthdaySource": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 25.4 points, 4.4 rebounds and 7.1 assists over 75 games for the Denver Nuggets in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+      },
+      {
+        "text": "Averaged 25.4 points and 7.1 assists for a 54-28 Denver team in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+      },
+      {
+        "text": "Wears No. 27 for the Denver Nuggets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "demar-derozan",
+    "slug": "demar-derozan",
+    "name": "DeMar DeRozan",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "denver-nuggets",
+    "lastTeamId": "denver-nuggets",
+    "status": "Active",
+    "position": "SF",
+    "number": "10",
+    "birthday": "1989-08-07",
+    "birthdaySource": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.4 points, 2.9 rebounds and 4.1 assists over 77 games for the Sacramento Kings in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Averaged 18.4 points and shot 86.8 percent at the line for Sacramento in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Wears No. 10 for the Denver Nuggets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "aaron-gordon",
+    "slug": "aaron-gordon",
+    "name": "Aaron Gordon",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "denver-nuggets",
+    "lastTeamId": "denver-nuggets",
+    "status": "Active",
+    "position": "PF",
+    "number": "32",
+    "birthday": "1995-09-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.2 points, 5.8 rebounds and 2.7 assists over 36 games for the Denver Nuggets in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+      },
+      {
+        "text": "Averaged 16.2 points and 5.8 rebounds over 36 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+      },
+      {
+        "text": "Wears No. 32 for the Denver Nuggets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cameron-johnson",
+    "slug": "cameron-johnson",
+    "name": "Cameron Johnson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "denver-nuggets",
+    "lastTeamId": "denver-nuggets",
+    "status": "Active",
+    "position": "PF",
+    "number": "23",
+    "birthday": "1996-03-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.2 points, 3.8 rebounds and 2.4 assists over 54 games for the Denver Nuggets in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+      },
+      {
+        "text": "Shot 48.0 percent from the field and 83.9 percent at the line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+      },
+      {
+        "text": "Wears No. 23 for the Denver Nuggets in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/roster/2027",
+      "https://www.statmuse.com/nba/team/denver-nuggets-28/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jalen-green",
+    "slug": "jalen-green",
+    "name": "Jalen Green",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "phoenix-suns",
+    "lastTeamId": "phoenix-suns",
+    "status": "Active",
+    "position": "SG",
+    "number": "4",
+    "birthday": "2002-02-09",
+    "birthdaySource": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.8 points, 3.6 rebounds and 2.8 assists over 32 games for the Phoenix Suns in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+      },
+      {
+        "text": "Averaged 17.8 points over 32 games for Phoenix in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+      },
+      {
+        "text": "Wears No. 4 for the Phoenix Suns in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "miles-bridges",
+    "slug": "miles-bridges",
+    "name": "Miles Bridges",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "phoenix-suns",
+    "lastTeamId": "phoenix-suns",
+    "status": "Active",
+    "position": "SF",
+    "number": "22",
+    "birthday": "1998-03-21",
+    "birthdaySource": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.1 points, 5.8 rebounds and 3.2 assists over 77 games for the Charlotte Hornets in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/stats/2026"
+      },
+      {
+        "text": "Averaged 17.1 points and 5.8 rebounds over 77 games for Charlotte in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/charlotte-hornets-53/stats/2026"
+      },
+      {
+        "text": "Wears No. 22 for the Phoenix Suns in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/charlotte-hornets-53/stats/2026",
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dillon-brooks",
+    "slug": "dillon-brooks",
+    "name": "Dillon Brooks",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "phoenix-suns",
+    "lastTeamId": "phoenix-suns",
+    "status": "Active",
+    "position": "SF",
+    "number": "3",
+    "birthday": "1996-01-22",
+    "birthdaySource": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.2 points, 3.6 rebounds and 1.8 assists over 56 games for the Phoenix Suns in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+      },
+      {
+        "text": "Averaged 20.2 points for Phoenix in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+      },
+      {
+        "text": "Wears No. 3 for the Phoenix Suns in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "mark-williams",
+    "slug": "mark-williams",
+    "name": "Mark Williams",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "phoenix-suns",
+    "lastTeamId": "phoenix-suns",
+    "status": "Active",
+    "position": "C",
+    "number": "25",
+    "birthday": "2001-12-16",
+    "birthdaySource": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.7 points, 8.0 rebounds and 1.0 assists over 60 games for the Phoenix Suns in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+      },
+      {
+        "text": "Shot 64.4 percent from the field and averaged 8.0 rebounds in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+      },
+      {
+        "text": "Wears No. 25 for the Phoenix Suns in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/roster/2027",
+      "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "deaaron-fox",
+    "slug": "deaaron-fox",
+    "name": "De'Aaron Fox",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "san-antonio-spurs",
+    "lastTeamId": "san-antonio-spurs",
+    "status": "Active",
+    "position": "PG",
+    "number": "4",
+    "birthday": "1997-12-20",
+    "birthdaySource": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.6 points, 3.8 rebounds and 6.2 assists over 72 games for the San Antonio Spurs in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Averaged 18.6 points and 6.2 assists for a 62-20 Spurs team in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Wears No. 4 for the San Antonio Spurs in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "stephon-castle",
+    "slug": "stephon-castle",
+    "name": "Stephon Castle",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "san-antonio-spurs",
+    "lastTeamId": "san-antonio-spurs",
+    "status": "Active",
+    "position": "PG",
+    "number": "5",
+    "birthday": "2004-11-01",
+    "birthdaySource": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.7 points, 5.3 rebounds and 7.4 assists over 68 games for the San Antonio Spurs in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Averaged 16.7 points and 7.4 assists in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Wears No. 5 for the San Antonio Spurs in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dylan-harper",
+    "slug": "dylan-harper",
+    "name": "Dylan Harper",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "san-antonio-spurs",
+    "lastTeamId": "san-antonio-spurs",
+    "status": "Active",
+    "position": "SG",
+    "number": "2",
+    "birthday": "2006-03-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.8 points, 3.4 rebounds and 3.9 assists over 69 games for the San Antonio Spurs in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Shot 50.5 percent from the field as a rookie in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Wears No. 2 for the San Antonio Spurs in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "devin-vassell",
+    "slug": "devin-vassell",
+    "name": "Devin Vassell",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "san-antonio-spurs",
+    "lastTeamId": "san-antonio-spurs",
+    "status": "Active",
+    "position": "SG",
+    "number": "24",
+    "birthday": "2000-08-23",
+    "birthdaySource": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.9 points, 4.0 rebounds and 2.5 assists over 67 games for the San Antonio Spurs in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Averaged 13.9 points and made 2.5 3-pointers per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+      },
+      {
+        "text": "Wears No. 24 for the San Antonio Spurs in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/roster/2027",
+      "https://www.statmuse.com/nba/team/san-antonio-spurs-27/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kyrie-irving",
+    "slug": "kyrie-irving",
+    "name": "Kyrie Irving",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "dallas-mavericks",
+    "lastTeamId": "dallas-mavericks",
+    "status": "Active",
+    "position": "SG",
+    "number": "11",
+    "birthday": "1992-03-23",
+    "birthdaySource": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 24.7 points, 4.8 rebounds and 4.6 assists over 50 games for the Dallas Mavericks in 2024-25",
+        "source": "https://www.statmuse.com/nba/player/kyrie-irving-1734/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star nine times and won the 2016 NBA title",
+        "source": "https://www.statmuse.com/nba/player/kyrie-irving-1734/career-stats"
+      },
+      {
+        "text": "Wears No. 11 for the Dallas Mavericks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/kyrie-irving-1734/career-stats",
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "pj-washington",
+    "slug": "pj-washington",
+    "name": "P.J. Washington",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "dallas-mavericks",
+    "lastTeamId": "dallas-mavericks",
+    "status": "Active",
+    "position": "PF",
+    "number": "25",
+    "birthday": "1998-08-23",
+    "birthdaySource": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.2 points, 7.0 rebounds and 1.8 assists over 56 games for the Dallas Mavericks in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+      },
+      {
+        "text": "Averaged 14.2 points, 7.0 rebounds and 1.1 blocks in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+      },
+      {
+        "text": "Wears No. 25 for the Dallas Mavericks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "max-christie",
+    "slug": "max-christie",
+    "name": "Max Christie",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "dallas-mavericks",
+    "lastTeamId": "dallas-mavericks",
+    "status": "Active",
+    "position": "SG",
+    "number": "0",
+    "birthday": "2003-02-10",
+    "birthdaySource": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.3 points, 3.2 rebounds and 2.0 assists over 77 games for the Dallas Mavericks in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+      },
+      {
+        "text": "Shot 89.9 percent from the free-throw line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+      },
+      {
+        "text": "Wears No. 0 for the Dallas Mavericks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "naji-marshall",
+    "slug": "naji-marshall",
+    "name": "Naji Marshall",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "dallas-mavericks",
+    "lastTeamId": "dallas-mavericks",
+    "status": "Active",
+    "position": "SF",
+    "number": "3",
+    "birthday": "1998-01-24",
+    "birthdaySource": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.2 points, 4.7 rebounds and 3.3 assists over 74 games for the Dallas Mavericks in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+      },
+      {
+        "text": "Averaged 15.2 points and shot 51.0 percent from the field in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+      },
+      {
+        "text": "Wears No. 3 for the Dallas Mavericks in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/roster/2027",
+      "https://www.statmuse.com/nba/team/dallas-mavericks-46/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "darius-garland",
+    "slug": "darius-garland",
+    "name": "Darius Garland",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "la-clippers",
+    "lastTeamId": "la-clippers",
+    "status": "Active",
+    "position": "PG",
+    "number": "10",
+    "birthday": "2000-01-26",
+    "birthdaySource": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 18.8 points, 2.4 rebounds and 6.7 assists over 45 games in 2025-26, split between the Cleveland Cavaliers and LA Clippers",
+        "source": "https://www.statmuse.com/nba/player/darius-garland-9979/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star twice",
+        "source": "https://www.statmuse.com/nba/player/darius-garland-9979/career-stats"
+      },
+      {
+        "text": "Wears No. 10 for the LA Clippers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/darius-garland-9979/career-stats",
+      "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brandon-ingram",
+    "slug": "brandon-ingram",
+    "name": "Brandon Ingram",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "la-clippers",
+    "lastTeamId": "la-clippers",
+    "status": "Active",
+    "position": "SF",
+    "number": "7",
+    "birthday": "1997-09-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 21.5 points, 5.6 rebounds and 3.7 assists over 77 games for the Toronto Raptors in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/brandon-ingram-9448/career-stats"
+      },
+      {
+        "text": "Has been named an NBA All-Star twice and won Most Improved Player",
+        "source": "https://www.statmuse.com/nba/player/brandon-ingram-9448/career-stats"
+      },
+      {
+        "text": "Wears No. 7 for the LA Clippers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/brandon-ingram-9448/career-stats",
+      "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bradley-beal",
+    "slug": "bradley-beal",
+    "name": "Bradley Beal",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "la-clippers",
+    "lastTeamId": "la-clippers",
+    "status": "Active",
+    "position": "SG",
+    "number": "3",
+    "birthday": "1993-06-28",
+    "birthdaySource": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 8.2 points, 0.8 rebounds and 1.7 assists over 6 games for the LA Clippers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/stats/2026"
+      },
+      {
+        "text": "Has been named an NBA All-Star three times",
+        "source": "https://www.statmuse.com/nba/player/bradley-beal-232"
+      },
+      {
+        "text": "Wears No. 3 for the LA Clippers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/bradley-beal-232",
+      "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+      "https://www.statmuse.com/nba/team/la-clippers-41/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "rui-hachimura",
+    "slug": "rui-hachimura",
+    "name": "Rui Hachimura",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "la-clippers",
+    "lastTeamId": "la-clippers",
+    "status": "Active",
+    "position": "PF",
+    "number": "28",
+    "birthday": "1998-02-08",
+    "birthdaySource": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 11.5 points, 3.3 rebounds and 0.8 assists over 68 games for the Los Angeles Lakers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/stats/2026"
+      },
+      {
+        "text": "Shot 51.4 percent from the field over 68 games for the Lakers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/los-angeles-lakers-15/stats/2026"
+      },
+      {
+        "text": "Wears No. 28 for the LA Clippers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+      "https://www.statmuse.com/nba/team/los-angeles-lakers-15/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brook-lopez",
+    "slug": "brook-lopez",
+    "name": "Brook Lopez",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "la-clippers",
+    "lastTeamId": "la-clippers",
+    "status": "Active",
+    "position": "C",
+    "number": "11",
+    "birthday": "1988-04-01",
+    "birthdaySource": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 8.5 points, 3.6 rebounds and 1.3 assists over 75 games for the LA Clippers in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/stats/2026"
+      },
+      {
+        "text": "Averaged 1.2 blocks and made 1.5 3-pointers per game over 75 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/stats/2026"
+      },
+      {
+        "text": "Wears No. 11 for the LA Clippers in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/la-clippers-41/roster/2027",
+      "https://www.statmuse.com/nba/team/la-clippers-41/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "lauri-markkanen",
+    "slug": "lauri-markkanen",
+    "name": "Lauri Markkanen",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "utah-jazz",
+    "lastTeamId": "utah-jazz",
+    "status": "Active",
+    "position": "PF",
+    "number": "23",
+    "birthday": "1997-05-22",
+    "birthdaySource": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 26.7 points, 6.9 rebounds and 2.1 assists over 42 games for the Utah Jazz in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Averaged 26.7 points and shot 89.6 percent at the line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Wears No. 23 for the Utah Jazz in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+      "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jaren-jackson-jr",
+    "slug": "jaren-jackson-jr",
+    "name": "Jaren Jackson Jr.",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "utah-jazz",
+    "lastTeamId": "utah-jazz",
+    "status": "Active",
+    "position": "C",
+    "number": "20",
+    "birthday": "1999-09-15",
+    "birthdaySource": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 19.2 points, 5.8 rebounds and 1.9 assists over 45 games for the Memphis Grizzlies in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Averaged 19.2 points and 1.5 blocks over 45 games for Memphis in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026"
+      },
+      {
+        "text": "Wears No. 20 for the Utah Jazz in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026",
+      "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "keyonte-george",
+    "slug": "keyonte-george",
+    "name": "Keyonte George",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "utah-jazz",
+    "lastTeamId": "utah-jazz",
+    "status": "Active",
+    "position": "PG",
+    "number": "3",
+    "birthday": "2003-11-08",
+    "birthdaySource": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 23.6 points, 3.7 rebounds and 6.1 assists over 54 games for the Utah Jazz in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Averaged 23.6 points and 6.1 assists in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Wears No. 3 for the Utah Jazz in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+      "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "ace-bailey",
+    "slug": "ace-bailey",
+    "name": "Ace Bailey",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "utah-jazz",
+    "lastTeamId": "utah-jazz",
+    "status": "Active",
+    "position": "SF",
+    "number": "19",
+    "birthday": "2006-08-13",
+    "birthdaySource": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.8 points, 4.2 rebounds and 1.8 assists over 72 games for the Utah Jazz in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Averaged 13.8 points as a rookie over 72 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+      },
+      {
+        "text": "Wears No. 19 for the Utah Jazz in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+      "https://www.statmuse.com/nba/team/utah-jazz-45/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "darryn-peterson",
+    "slug": "darryn-peterson",
+    "name": "Darryn Peterson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "utah-jazz",
+    "lastTeamId": "utah-jazz",
+    "status": "Active",
+    "position": "SG",
+    "number": "22",
+    "birthday": "2007-01-17",
+    "birthdaySource": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 10.7 points and 3.3 rebounds over his first 3 NBA games in 2026-27",
+        "source": "https://www.statmuse.com/nba/player/darryn-peterson-30687"
+      },
+      {
+        "text": "Scored 15 points in a 120-119 win over New Orleans on Oct. 23, 2026",
+        "source": "https://www.statmuse.com/nba/player/darryn-peterson-30687"
+      },
+      {
+        "text": "Wears No. 22 for the Utah Jazz in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/darryn-peterson-30687",
+      "https://www.statmuse.com/nba/team/utah-jazz-45/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "zion-williamson",
+    "slug": "zion-williamson",
+    "name": "Zion Williamson",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-orleans-pelicans",
+    "lastTeamId": "new-orleans-pelicans",
+    "status": "Active",
+    "position": "PF",
+    "number": "1",
+    "birthday": "2000-07-06",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 21.0 points, 5.7 rebounds and 3.2 assists over 62 games for the New Orleans Pelicans in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Shot 60.0 percent from the field over 62 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Wears No. 1 for the New Orleans Pelicans in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "trey-murphy-iii",
+    "slug": "trey-murphy-iii",
+    "name": "Trey Murphy III",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-orleans-pelicans",
+    "lastTeamId": "new-orleans-pelicans",
+    "status": "Active",
+    "position": "SF",
+    "number": "25",
+    "birthday": "2000-06-18",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 21.5 points, 5.7 rebounds and 3.8 assists over 66 games for the New Orleans Pelicans in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Averaged 21.5 points and made 3.2 3-pointers per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Wears No. 25 for the New Orleans Pelicans in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "dejounte-murray",
+    "slug": "dejounte-murray",
+    "name": "Dejounte Murray",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-orleans-pelicans",
+    "lastTeamId": "new-orleans-pelicans",
+    "status": "Active",
+    "position": "PG",
+    "number": "5",
+    "birthday": "1996-09-19",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.7 points, 5.4 rebounds and 6.4 assists over 14 games for the New Orleans Pelicans in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Averaged 16.7 points and 6.4 assists over 14 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Wears No. 5 for the New Orleans Pelicans in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "bennedict-mathurin",
+    "slug": "bennedict-mathurin",
+    "name": "Bennedict Mathurin",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-orleans-pelicans",
+    "lastTeamId": "new-orleans-pelicans",
+    "status": "Active",
+    "position": "SF",
+    "number": "24",
+    "birthday": "2002-06-19",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 17.6 points, 5.4 rebounds and 2.4 assists over 54 games in 2025-26, split between the Indiana Pacers and LA Clippers",
+        "source": "https://www.statmuse.com/nba/player/bennedict-mathurin-10438/career-stats"
+      },
+      {
+        "text": "Averaged 17.8 points over 28 games for Indiana in 2025-26",
+        "source": "https://www.statmuse.com/nba/player/bennedict-mathurin-10438/career-stats"
+      },
+      {
+        "text": "Wears No. 24 for the New Orleans Pelicans in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/bennedict-mathurin-10438/career-stats",
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "herbert-jones",
+    "slug": "herbert-jones",
+    "name": "Herbert Jones",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "new-orleans-pelicans",
+    "lastTeamId": "new-orleans-pelicans",
+    "status": "Active",
+    "position": "SF",
+    "number": "2",
+    "birthday": "1998-10-06",
+    "birthdaySource": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 8.9 points, 3.4 rebounds and 2.8 assists over 56 games for the New Orleans Pelicans in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Averaged 1.6 steals per game in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+      },
+      {
+        "text": "Wears No. 2 for the New Orleans Pelicans in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/roster/2027",
+      "https://www.statmuse.com/nba/team/new-orleans-pelicans-47/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "jimmy-butler-iii",
+    "slug": "jimmy-butler-iii",
+    "name": "Jimmy Butler III",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "golden-state-warriors",
+    "lastTeamId": "golden-state-warriors",
+    "status": "Active",
+    "position": "SF",
+    "number": "10",
+    "birthday": "1989-09-14",
+    "birthdaySource": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 20.0 points, 5.6 rebounds and 4.9 assists over 38 games for the Golden State Warriors in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+      },
+      {
+        "text": "Averaged 20.0 points and shot 51.9 percent from the field in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+      },
+      {
+        "text": "Wears No. 10 for the Golden State Warriors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "draymond-green",
+    "slug": "draymond-green",
+    "name": "Draymond Green",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "golden-state-warriors",
+    "lastTeamId": "golden-state-warriors",
+    "status": "Active",
+    "position": "PF",
+    "number": "23",
+    "birthday": "1990-03-04",
+    "birthdaySource": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 8.4 points, 5.5 rebounds and 5.5 assists over 68 games for the Golden State Warriors in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+      },
+      {
+        "text": "Averaged 5.5 rebounds and 5.5 assists over 68 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+      },
+      {
+        "text": "Wears No. 23 for the Golden State Warriors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "kristaps-porzingis",
+    "slug": "kristaps-porzingis",
+    "name": "Kristaps Porziņģis",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "golden-state-warriors",
+    "lastTeamId": "golden-state-warriors",
+    "status": "Active",
+    "position": "C",
+    "number": "7",
+    "birthday": "1995-08-02",
+    "birthdaySource": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 16.7 points, 5.2 rebounds and 2.5 assists over 32 games in 2025-26, split between the Atlanta Hawks and Golden State Warriors",
+        "source": "https://www.statmuse.com/nba/player/kristaps-porzi%C5%86%C4%A3is-9292/career-stats"
+      },
+      {
+        "text": "Won an NBA championship with Boston in 2024",
+        "source": "https://www.statmuse.com/nba/player/kristaps-porzi%C5%86%C4%A3is-9292/career-stats"
+      },
+      {
+        "text": "Wears No. 7 for the Golden State Warriors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/player/kristaps-porzi%C5%86%C4%A3is-9292/career-stats",
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "brandin-podziemski",
+    "slug": "brandin-podziemski",
+    "name": "Brandin Podziemski",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "golden-state-warriors",
+    "lastTeamId": "golden-state-warriors",
+    "status": "Active",
+    "position": "SG",
+    "number": "2",
+    "birthday": "2003-02-25",
+    "birthdaySource": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 13.8 points, 5.1 rebounds and 3.7 assists over 82 games for the Golden State Warriors in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+      },
+      {
+        "text": "Played all 82 games and averaged 13.8 points in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+      },
+      {
+        "text": "Wears No. 2 for the Golden State Warriors in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/roster/2027",
+      "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "domantas-sabonis",
+    "slug": "domantas-sabonis",
+    "name": "Domantas Sabonis",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "sacramento-kings",
+    "lastTeamId": "sacramento-kings",
+    "status": "Active",
+    "position": "C",
+    "number": "11",
+    "birthday": "1996-05-03",
+    "birthdaySource": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 15.8 points, 11.4 rebounds and 4.1 assists over 19 games for the Sacramento Kings in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Averaged 15.8 points and 11.4 rebounds over 19 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Wears No. 11 for the Sacramento Kings in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "zach-lavine",
+    "slug": "zach-lavine",
+    "name": "Zach LaVine",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "sacramento-kings",
+    "lastTeamId": "sacramento-kings",
+    "status": "Active",
+    "position": "SG",
+    "number": "8",
+    "birthday": "1995-03-10",
+    "birthdaySource": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 19.2 points, 2.8 rebounds and 2.3 assists over 39 games for the Sacramento Kings in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Averaged 19.2 points and shot 88.0 percent at the line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Wears No. 8 for the Sacramento Kings in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "malik-monk",
+    "slug": "malik-monk",
+    "name": "Malik Monk",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "sacramento-kings",
+    "lastTeamId": "sacramento-kings",
+    "status": "Active",
+    "position": "SG",
+    "number": "0",
+    "birthday": "1998-02-04",
+    "birthdaySource": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.5 points, 1.9 rebounds and 3.0 assists over 62 games for the Sacramento Kings in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Shot 87.9 percent from the free-throw line in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Wears No. 0 for the Sacramento Kings in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "keegan-murray",
+    "slug": "keegan-murray",
+    "name": "Keegan Murray",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "sacramento-kings",
+    "lastTeamId": "sacramento-kings",
+    "status": "Active",
+    "position": "PF",
+    "number": "13",
+    "birthday": "2000-08-19",
+    "birthdaySource": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 14.0 points, 5.7 rebounds and 1.7 assists over 23 games for the Sacramento Kings in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Averaged 1.6 blocks and 1.0 steals over 23 games in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Wears No. 13 for the Sacramento Kings in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "maxime-raynaud",
+    "slug": "maxime-raynaud",
+    "name": "Maxime Raynaud",
+    "leagues": [
+      "nba"
+    ],
+    "teamId": "sacramento-kings",
+    "lastTeamId": "sacramento-kings",
+    "status": "Active",
+    "position": "C",
+    "number": "42",
+    "birthday": "2003-04-07",
+    "birthdaySource": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.5 points, 7.5 rebounds and 1.4 assists over 74 games for the Sacramento Kings in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Shot 57.1 percent from the field as a rookie in 2025-26",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+      },
+      {
+        "text": "Wears No. 42 for the Sacramento Kings in 2026-27",
+        "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/roster/2027",
+      "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026"
+    ],
+    "lastVerified": "2026-10-27"
+  },
+  {
     "id": "alexey-miranchuk",
     "slug": "alexey-miranchuk",
     "name": "Alexey Miranchuk",
