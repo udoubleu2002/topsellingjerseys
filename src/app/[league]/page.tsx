@@ -26,10 +26,8 @@ type Props = { params: Promise<{ league: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const league = getLeagueBySlug((await params).league);
   if (!league) return {};
-  const ranking = getCurrentRanking(league.id);
-  const year = ranking ? (ranking.periodEnd ?? ranking.publishedDate).slice(0, 4) : "";
-  const title = ranking ? `Top Selling ${league.name} Jerseys ${year}: Top ${ranking.entries.length} Best-Sellers` : `Top Selling ${league.name} Jerseys`;
-  return pageMeta({ title, description: leagueCopy[league.id]?.meta ?? title, path: `/${league.slug}/`, image: `/${league.slug}/opengraph-image/` });
+  const title = `Top Selling ${league.name} Jerseys`;
+  return pageMeta({ title, brand: false, description: leagueCopy[league.id]?.meta ?? title, path: `/${league.slug}/`, image: `/${league.slug}/opengraph-image/` });
 }
 
 export default async function LeaguePage({ params }: Props) {

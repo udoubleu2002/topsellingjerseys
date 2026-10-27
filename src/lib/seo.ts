@@ -16,8 +16,9 @@ export function clip(s: string, max = 158): string {
 
 /** One place that builds title, description, canonical, Open Graph and Twitter tags for a page. */
 /** shareTitle/shareText override what link previews show in texts and social posts, without changing the search title. */
-export function pageMeta({ title, description, path, noindex = false, type = "website", shareTitle, shareText, image = "/opengraph-image/" }: { title: string; description: string; path: string; noindex?: boolean; type?: "website" | "profile" | "article"; shareTitle?: string; shareText?: string; image?: string }): Metadata {
-  const t = pageTitle(title);
+/** brand: false keeps the title exactly as given, without the "Top Selling Jerseys: " prefix. */
+export function pageMeta({ title, description, path, noindex = false, type = "website", shareTitle, shareText, image = "/opengraph-image/", brand = true }: { title: string; description: string; path: string; noindex?: boolean; type?: "website" | "profile" | "article"; shareTitle?: string; shareText?: string; image?: string; brand?: boolean }): Metadata {
+  const t = brand ? pageTitle(title) : title;
   const d = clip(description);
   const st = shareTitle ?? title;
   const sd = shareText ? clip(shareText) : d;
