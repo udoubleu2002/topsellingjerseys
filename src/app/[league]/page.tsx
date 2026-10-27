@@ -9,6 +9,8 @@ import { Freshness, SourceLine, ReportNotes, AffiliateNote } from "@/components/
 import { Faq } from "@/components/Faq";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
+import { LidsAd } from "@/components/LidsAd";
+import { lidsBanner } from "@/lib/lidsAds";
 import { TeamRosters } from "@/components/TeamRosters";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getLeagueBySlug, getCurrentRanking, getRankings, getPlayer, commonStatsThrough } from "@/lib/data";
@@ -97,6 +99,8 @@ export default async function LeaguePage({ params }: Props) {
             </ol>
           </section>
         )}
+
+        {league.id === "mlb" && <div className="wrap section"><LidsAd banner={lidsBanner("1907274")!} at="league_feature" /></div>}
 
         <TeamRosters league={league} />
 

@@ -18,6 +18,8 @@ import { StickyShop } from "@/components/StickyShop";
 import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
 import { HouseAd } from "@/components/HouseAd";
+import { LidsAd } from "@/components/LidsAd";
+import { rectFor } from "@/lib/lidsAds";
 import { adsFor } from "@/lib/houseAds";
 import {
   getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getStatLine, getProducts, getPlayer,
@@ -319,6 +321,7 @@ export default async function PlayerPage({ params }: Props) {
                 </ol>
               </section>
             )}
+            <LidsAd banner={rectFor(league.id)} at="player_side_lids" />
             <HouseAd ad={adsFor(league.id)[0]} at="player_side" />
             <section className="side-box">
               <h2>Full ranking</h2>

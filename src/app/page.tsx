@@ -9,6 +9,8 @@ import { getLeagues, getCurrentRanking, getTeamDirectory, getPlayer, getTeam } f
 import { teamOffer, outPath } from "@/lib/affiliate";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
+import { LidsAd } from "@/components/LidsAd";
+import { lidsBanner } from "@/lib/lidsAds";
 import { site, abs } from "@/lib/config";
 
 export const metadata: Metadata = pageMeta({ title: "Top Selling Jerseys: NFL, NBA, WNBA, MLB, NHL & MLS Rankings", description: "The latest published top-selling jersey lists for the NFL, NBA, WNBA, MLB, NHL and MLS, in published order, with player stats, sources and links to shop each jersey.", path: "/", shareTitle: "Top Selling Jerseys: Updated lists for NFL, NBA, WNBA, MLB, NHL and MLS", shareText: "See the best-selling jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, ranked from the published sales lists, with stats and links to shop." });
@@ -58,6 +60,8 @@ export default function Home() {
           </div>
           <SideRail />
         </div>
+
+        <div className="wrap section"><LidsAd banner={lidsBanner("1907274")!} at="home_feature" /></div>
 
         <section className="wrap section" aria-labelledby="teams-h">
           <div className="section-head">
