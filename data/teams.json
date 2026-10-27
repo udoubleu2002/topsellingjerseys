@@ -520,6 +520,16 @@
     }
   },
   {
+    "id": "anaheim-ducks",
+    "name": "Anaheim Ducks",
+    "league": "nhl",
+    "colors": {
+      "primary": "#F47A38",
+      "secondary": "#000000",
+      "accent": "#B9975B"
+    }
+  },
+  {
     "id": "boston-bruins",
     "name": "Boston Bruins",
     "league": "nhl",
@@ -527,6 +537,36 @@
       "primary": "#111111",
       "secondary": "#FFB81C",
       "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "buffalo-sabres",
+    "name": "Buffalo Sabres",
+    "league": "nhl",
+    "colors": {
+      "primary": "#003087",
+      "secondary": "#FFB81C",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "calgary-flames",
+    "name": "Calgary Flames",
+    "league": "nhl",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#F1BE48",
+      "accent": "#111111"
+    }
+  },
+  {
+    "id": "carolina-hurricanes",
+    "name": "Carolina Hurricanes",
+    "league": "nhl",
+    "colors": {
+      "primary": "#CE1126",
+      "secondary": "#000000",
+      "accent": "#A4A9AD"
     }
   },
   {
@@ -550,6 +590,36 @@
     }
   },
   {
+    "id": "columbus-blue-jackets",
+    "name": "Columbus Blue Jackets",
+    "league": "nhl",
+    "colors": {
+      "primary": "#002654",
+      "secondary": "#CE1126",
+      "accent": "#A4A9AD"
+    }
+  },
+  {
+    "id": "dallas-stars",
+    "name": "Dallas Stars",
+    "league": "nhl",
+    "colors": {
+      "primary": "#006847",
+      "secondary": "#8F8F8C",
+      "accent": "#111111"
+    }
+  },
+  {
+    "id": "detroit-red-wings",
+    "name": "Detroit Red Wings",
+    "league": "nhl",
+    "colors": {
+      "primary": "#CE1126",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
     "id": "edmonton-oilers",
     "name": "Edmonton Oilers",
     "league": "nhl",
@@ -560,6 +630,56 @@
     }
   },
   {
+    "id": "florida-panthers",
+    "name": "Florida Panthers",
+    "league": "nhl",
+    "colors": {
+      "primary": "#041E42",
+      "secondary": "#C8102E",
+      "accent": "#B9975B"
+    }
+  },
+  {
+    "id": "los-angeles-kings",
+    "name": "Los Angeles Kings",
+    "league": "nhl",
+    "colors": {
+      "primary": "#111111",
+      "secondary": "#A2AAAD",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "minnesota-wild",
+    "name": "Minnesota Wild",
+    "league": "nhl",
+    "colors": {
+      "primary": "#154734",
+      "secondary": "#A6192E",
+      "accent": "#DDCBA4"
+    }
+  },
+  {
+    "id": "montreal-canadiens",
+    "name": "Montréal Canadiens",
+    "league": "nhl",
+    "colors": {
+      "primary": "#AF1E2D",
+      "secondary": "#192168",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "nashville-predators",
+    "name": "Nashville Predators",
+    "league": "nhl",
+    "colors": {
+      "primary": "#FFB81C",
+      "secondary": "#041E42",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
     "id": "new-jersey-devils",
     "name": "New Jersey Devils",
     "league": "nhl",
@@ -567,6 +687,46 @@
       "primary": "#CE1126",
       "secondary": "#FFFFFF",
       "accent": "#000000"
+    }
+  },
+  {
+    "id": "new-york-islanders",
+    "name": "New York Islanders",
+    "league": "nhl",
+    "colors": {
+      "primary": "#00539B",
+      "secondary": "#F47D30",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-york-rangers",
+    "name": "New York Rangers",
+    "league": "nhl",
+    "colors": {
+      "primary": "#0038A8",
+      "secondary": "#CE1126",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "ottawa-senators",
+    "name": "Ottawa Senators",
+    "league": "nhl",
+    "colors": {
+      "primary": "#DA1A32",
+      "secondary": "#000000",
+      "accent": "#B79257"
+    }
+  },
+  {
+    "id": "philadelphia-flyers",
+    "name": "Philadelphia Flyers",
+    "league": "nhl",
+    "colors": {
+      "primary": "#F74902",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
     }
   },
   {
@@ -590,6 +750,36 @@
     }
   },
   {
+    "id": "seattle-kraken",
+    "name": "Seattle Kraken",
+    "league": "nhl",
+    "colors": {
+      "primary": "#001628",
+      "secondary": "#99D9D9",
+      "accent": "#355464"
+    }
+  },
+  {
+    "id": "st-louis-blues",
+    "name": "St. Louis Blues",
+    "league": "nhl",
+    "colors": {
+      "primary": "#002F87",
+      "secondary": "#FCB514",
+      "accent": "#041E42"
+    }
+  },
+  {
+    "id": "tampa-bay-lightning",
+    "name": "Tampa Bay Lightning",
+    "league": "nhl",
+    "colors": {
+      "primary": "#002868",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
     "id": "toronto-maple-leafs",
     "name": "Toronto Maple Leafs",
     "league": "nhl",
@@ -597,6 +787,36 @@
       "primary": "#00205B",
       "secondary": "#FFFFFF",
       "accent": "#8AA4CC"
+    }
+  },
+  {
+    "id": "utah-mammoth",
+    "name": "Utah Mammoth",
+    "league": "nhl",
+    "colors": {
+      "primary": "#090909",
+      "secondary": "#6CACE4",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "vancouver-canucks",
+    "name": "Vancouver Canucks",
+    "league": "nhl",
+    "colors": {
+      "primary": "#00205B",
+      "secondary": "#00843D",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "vegas-golden-knights",
+    "name": "Vegas Golden Knights",
+    "league": "nhl",
+    "colors": {
+      "primary": "#B4975A",
+      "secondary": "#333F42",
+      "accent": "#C8102E"
     }
   },
   {
@@ -610,6 +830,16 @@
     }
   },
   {
+    "id": "winnipeg-jets",
+    "name": "Winnipeg Jets",
+    "league": "nhl",
+    "colors": {
+      "primary": "#041E42",
+      "secondary": "#004C97",
+      "accent": "#AC162C"
+    }
+  },
+  {
     "id": "charlotte-hornets",
     "name": "Charlotte Hornets",
     "league": "nba",
@@ -617,6 +847,166 @@
       "primary": "#1D1160",
       "secondary": "#00788C",
       "accent": "#A1A1A4"
+    }
+  },
+  {
+    "id": "atlanta-hawks",
+    "name": "Atlanta Hawks",
+    "league": "nba",
+    "colors": {
+      "primary": "#E03A3E",
+      "secondary": "#FFFFFF",
+      "accent": "#C1D32F"
+    }
+  },
+  {
+    "id": "brooklyn-nets",
+    "name": "Brooklyn Nets",
+    "league": "nba",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#777D84"
+    }
+  },
+  {
+    "id": "chicago-bulls",
+    "name": "Chicago Bulls",
+    "league": "nba",
+    "colors": {
+      "primary": "#CE1141",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "cleveland-cavaliers",
+    "name": "Cleveland Cavaliers",
+    "league": "nba",
+    "colors": {
+      "primary": "#860038",
+      "secondary": "#FDBB30",
+      "accent": "#041E42"
+    }
+  },
+  {
+    "id": "indiana-pacers",
+    "name": "Indiana Pacers",
+    "league": "nba",
+    "colors": {
+      "primary": "#002D62",
+      "secondary": "#FDBB30",
+      "accent": "#BEC0C2"
+    }
+  },
+  {
+    "id": "la-clippers",
+    "name": "LA Clippers",
+    "league": "nba",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#1D428A",
+      "accent": "#BEC0C2"
+    }
+  },
+  {
+    "id": "memphis-grizzlies",
+    "name": "Memphis Grizzlies",
+    "league": "nba",
+    "colors": {
+      "primary": "#5D76A9",
+      "secondary": "#12173F",
+      "accent": "#F5B112"
+    }
+  },
+  {
+    "id": "miami-heat",
+    "name": "Miami Heat",
+    "league": "nba",
+    "colors": {
+      "primary": "#98002E",
+      "secondary": "#F9A01B",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "milwaukee-bucks",
+    "name": "Milwaukee Bucks",
+    "league": "nba",
+    "colors": {
+      "primary": "#00471B",
+      "secondary": "#EEE1C6",
+      "accent": "#0077C0"
+    }
+  },
+  {
+    "id": "new-orleans-pelicans",
+    "name": "New Orleans Pelicans",
+    "league": "nba",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#C8102E",
+      "accent": "#85714D"
+    }
+  },
+  {
+    "id": "orlando-magic",
+    "name": "Orlando Magic",
+    "league": "nba",
+    "colors": {
+      "primary": "#0077C0",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "portland-trail-blazers",
+    "name": "Portland Trail Blazers",
+    "league": "nba",
+    "colors": {
+      "primary": "#E03A3E",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "sacramento-kings",
+    "name": "Sacramento Kings",
+    "league": "nba",
+    "colors": {
+      "primary": "#5A2D81",
+      "secondary": "#FFFFFF",
+      "accent": "#63727A"
+    }
+  },
+  {
+    "id": "toronto-raptors",
+    "name": "Toronto Raptors",
+    "league": "nba",
+    "colors": {
+      "primary": "#CE1141",
+      "secondary": "#000000",
+      "accent": "#A1A1A4"
+    }
+  },
+  {
+    "id": "utah-jazz",
+    "name": "Utah Jazz",
+    "league": "nba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#F9A01B",
+      "accent": "#00471B"
+    }
+  },
+  {
+    "id": "washington-wizards",
+    "name": "Washington Wizards",
+    "league": "nba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#E31837",
+      "accent": "#C4CED4"
     }
   },
   {
@@ -817,6 +1207,336 @@
       "primary": "#33006F",
       "secondary": "#C4CED4",
       "accent": "#000000"
+    }
+  },
+  {
+    "id": "austin-fc",
+    "name": "Austin FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#00B140",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "cf-montreal",
+    "name": "CF Montréal",
+    "league": "mls",
+    "colors": {
+      "primary": "#0033A1",
+      "secondary": "#000000",
+      "accent": "#9EA2A2"
+    }
+  },
+  {
+    "id": "chicago-fire-fc",
+    "name": "Chicago Fire FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#141946",
+      "accent": "#7CCDEF"
+    }
+  },
+  {
+    "id": "colorado-rapids",
+    "name": "Colorado Rapids",
+    "league": "mls",
+    "colors": {
+      "primary": "#960A2C",
+      "secondary": "#9CC2EA",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "d-c-united",
+    "name": "D.C. United",
+    "league": "mls",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#EF3E42",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "fc-cincinnati",
+    "name": "FC Cincinnati",
+    "league": "mls",
+    "colors": {
+      "primary": "#F05323",
+      "secondary": "#263B80",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "fc-dallas",
+    "name": "FC Dallas",
+    "league": "mls",
+    "colors": {
+      "primary": "#E81F3E",
+      "secondary": "#2A4076",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "houston-dynamo-fc",
+    "name": "Houston Dynamo FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#FF6B00",
+      "secondary": "#101820",
+      "accent": "#8DC8E8"
+    }
+  },
+  {
+    "id": "minnesota-united-fc",
+    "name": "Minnesota United FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#231F20",
+      "secondary": "#8CD2F4",
+      "accent": "#E4E5E6"
+    }
+  },
+  {
+    "id": "nashville-sc",
+    "name": "Nashville SC",
+    "league": "mls",
+    "colors": {
+      "primary": "#ECE83A",
+      "secondary": "#1F1646",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-england-revolution",
+    "name": "New England Revolution",
+    "league": "mls",
+    "colors": {
+      "primary": "#0A2240",
+      "secondary": "#CE0E2D",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-york-city-fc",
+    "name": "New York City FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#6CACE4",
+      "secondary": "#041E42",
+      "accent": "#F15524"
+    }
+  },
+  {
+    "id": "new-york-red-bulls",
+    "name": "New York Red Bulls",
+    "league": "mls",
+    "colors": {
+      "primary": "#ED1E36",
+      "secondary": "#23326A",
+      "accent": "#FFC72C"
+    }
+  },
+  {
+    "id": "orlando-city-sc",
+    "name": "Orlando City SC",
+    "league": "mls",
+    "colors": {
+      "primary": "#633492",
+      "secondary": "#FDE192",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "philadelphia-union",
+    "name": "Philadelphia Union",
+    "league": "mls",
+    "colors": {
+      "primary": "#071B2C",
+      "secondary": "#B18500",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "portland-timbers",
+    "name": "Portland Timbers",
+    "league": "mls",
+    "colors": {
+      "primary": "#00482B",
+      "secondary": "#D69A00",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "real-salt-lake",
+    "name": "Real Salt Lake",
+    "league": "mls",
+    "colors": {
+      "primary": "#B30838",
+      "secondary": "#013A81",
+      "accent": "#DAA900"
+    }
+  },
+  {
+    "id": "san-diego-fc",
+    "name": "San Diego FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#0B2240",
+      "secondary": "#B8B9BC",
+      "accent": "#F2A6C8"
+    }
+  },
+  {
+    "id": "san-jose-earthquakes",
+    "name": "San Jose Earthquakes",
+    "league": "mls",
+    "colors": {
+      "primary": "#0067B1",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "sporting-kansas-city",
+    "name": "Sporting Kansas City",
+    "league": "mls",
+    "colors": {
+      "primary": "#91B0D5",
+      "secondary": "#002F65",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "st-louis-city-sc",
+    "name": "St. Louis CITY SC",
+    "league": "mls",
+    "colors": {
+      "primary": "#DD004A",
+      "secondary": "#0A1E2C",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "toronto-fc",
+    "name": "Toronto FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#B81137",
+      "secondary": "#455560",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "vancouver-whitecaps-fc",
+    "name": "Vancouver Whitecaps FC",
+    "league": "mls",
+    "colors": {
+      "primary": "#00245D",
+      "secondary": "#9DC2EA",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "connecticut-sun",
+    "name": "Connecticut Sun",
+    "league": "wnba",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#F05023",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "dallas-wings",
+    "name": "Dallas Wings",
+    "league": "wnba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#C4D600",
+      "accent": "#0C7BC0"
+    }
+  },
+  {
+    "id": "golden-state-valkyries",
+    "name": "Golden State Valkyries",
+    "league": "wnba",
+    "colors": {
+      "primary": "#5B2C83",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "los-angeles-sparks",
+    "name": "Los Angeles Sparks",
+    "league": "wnba",
+    "colors": {
+      "primary": "#702F8A",
+      "secondary": "#FFC72C",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "minnesota-lynx",
+    "name": "Minnesota Lynx",
+    "league": "wnba",
+    "colors": {
+      "primary": "#0C2340",
+      "secondary": "#78BE20",
+      "accent": "#236192"
+    }
+  },
+  {
+    "id": "phoenix-mercury",
+    "name": "Phoenix Mercury",
+    "league": "wnba",
+    "colors": {
+      "primary": "#3C286E",
+      "secondary": "#FA4B0A",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "portland-fire",
+    "name": "Portland Fire",
+    "league": "wnba",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "seattle-storm",
+    "name": "Seattle Storm",
+    "league": "wnba",
+    "colors": {
+      "primary": "#2C5235",
+      "secondary": "#FBE122",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "toronto-tempo",
+    "name": "Toronto Tempo",
+    "league": "wnba",
+    "colors": {
+      "primary": "#6C1D45",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
+    "id": "washington-mystics",
+    "name": "Washington Mystics",
+    "league": "wnba",
+    "colors": {
+      "primary": "#002B5C",
+      "secondary": "#FFFFFF",
+      "accent": "#E03A3E"
     }
   },
   {
