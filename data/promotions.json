@@ -1,15 +1,1 @@
-[
-  {
-    "id": "lids-free-ship-34",
-    "merchantId": "lids",
-    "headline": "Free shipping on U.S. orders over $34",
-    "details": "Sitewide banner offer on lids.com; exclusions apply.",
-    "code": "LIDS34",
-    "url": "https://www.lids.com/",
-    "startDate": "2026-10-27",
-    "endDate": "2026-11-03",
-    "leagues": [],
-    "source": "lids.com sitewide banner, checked 2026-10-27",
-    "lastVerified": "2026-10-27"
-  }
-]
+[]
