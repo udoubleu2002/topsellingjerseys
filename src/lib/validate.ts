@@ -149,7 +149,7 @@ export function checkNews(news: NewsItem[], s: Store, today = new Date().toISOSt
     if (n.playerId && !s.players.some((p) => p.id === n.playerId)) errors.push(`${id}: unknown player "${n.playerId}"`);
     if (n.date > today) errors.push(`${id}: dated ${n.date}, after today`);
   }
-  if (news.length < 5) warnings.push(`news: only ${news.length} stories; the sidebar shows five`);
+  if (news.length < 7) warnings.push(`news: only ${news.length} stories; the sidebar shows seven`);
   const newest = news.map((n) => n.date).sort().at(-1);
   if (newest && Date.parse(today) - Date.parse(newest) > 45 * 86400000) warnings.push(`news: newest story is from ${newest}; add recent jersey sales news to data/news.json`);
   return { errors, warnings };

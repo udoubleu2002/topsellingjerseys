@@ -57,5 +57,30 @@
     "players": [
       "Caleb Downs"
     ]
+  },
+  {
+    "id": "2026-05-05-nfl-rookie-jerseys",
+    "date": "2026-05-05",
+    "sport": "football",
+    "headline": "10 top-selling rookie jerseys from 2026 NFL Draft picks",
+    "outlet": "The Big Lead via Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/10-top-selling-rookie-jerseys-213000227.html",
+    "players": [
+      "Caleb Downs",
+      "Jacob Rodriguez"
+    ]
+  },
+  {
+    "id": "2026-04-14-nba-stephen-curry",
+    "date": "2026-04-14",
+    "sport": "basketball",
+    "headline": "Top-selling NBA jerseys of 2025-26 season",
+    "outlet": "The Big Lead via Yahoo Sports",
+    "url": "https://sports.yahoo.com/articles/top-selling-nba-jerseys-2025-122500783.html",
+    "players": [
+      "Stephen Curry",
+      "Luka Doncic"
+    ],
+    "playerId": "stephen-curry"
   }
 ]
