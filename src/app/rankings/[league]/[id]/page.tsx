@@ -20,10 +20,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = getRanking(id);
   const league = getLeague(lid);
   if (!r || !league) return {};
+  // The current report is the same list the league page shows, so it points search engines to the league page.
+  const isCurrent = getCurrentRanking(lid)?.id === r.id;
   return pageMeta({
     title: r.title,
     description: `${r.publisher} published this ${league.name} jersey sales list on ${fmtDate(r.publishedDate)}. See the source, sales period, method and all ${r.entries.length} ranked players.`,
-    path: `/rankings/${lid}/${id}/`,
+    path: isCurrent ? `/${league.slug}/` : `/rankings/${lid}/${id}/`,
   });
 }
 
