@@ -520,6 +520,16 @@
     }
   },
   {
+    "id": "anaheim-ducks",
+    "name": "Anaheim Ducks",
+    "league": "nhl",
+    "colors": {
+      "primary": "#F47A38",
+      "secondary": "#000000",
+      "accent": "#B9975B"
+    }
+  },
+  {
     "id": "boston-bruins",
     "name": "Boston Bruins",
     "league": "nhl",
@@ -527,6 +537,36 @@
       "primary": "#111111",
       "secondary": "#FFB81C",
       "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "buffalo-sabres",
+    "name": "Buffalo Sabres",
+    "league": "nhl",
+    "colors": {
+      "primary": "#003087",
+      "secondary": "#FFB81C",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "calgary-flames",
+    "name": "Calgary Flames",
+    "league": "nhl",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#F1BE48",
+      "accent": "#111111"
+    }
+  },
+  {
+    "id": "carolina-hurricanes",
+    "name": "Carolina Hurricanes",
+    "league": "nhl",
+    "colors": {
+      "primary": "#CE1126",
+      "secondary": "#000000",
+      "accent": "#A4A9AD"
     }
   },
   {
@@ -550,6 +590,36 @@
     }
   },
   {
+    "id": "columbus-blue-jackets",
+    "name": "Columbus Blue Jackets",
+    "league": "nhl",
+    "colors": {
+      "primary": "#002654",
+      "secondary": "#CE1126",
+      "accent": "#A4A9AD"
+    }
+  },
+  {
+    "id": "dallas-stars",
+    "name": "Dallas Stars",
+    "league": "nhl",
+    "colors": {
+      "primary": "#006847",
+      "secondary": "#8F8F8C",
+      "accent": "#111111"
+    }
+  },
+  {
+    "id": "detroit-red-wings",
+    "name": "Detroit Red Wings",
+    "league": "nhl",
+    "colors": {
+      "primary": "#CE1126",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
     "id": "edmonton-oilers",
     "name": "Edmonton Oilers",
     "league": "nhl",
@@ -560,6 +630,56 @@
     }
   },
   {
+    "id": "florida-panthers",
+    "name": "Florida Panthers",
+    "league": "nhl",
+    "colors": {
+      "primary": "#041E42",
+      "secondary": "#C8102E",
+      "accent": "#B9975B"
+    }
+  },
+  {
+    "id": "los-angeles-kings",
+    "name": "Los Angeles Kings",
+    "league": "nhl",
+    "colors": {
+      "primary": "#111111",
+      "secondary": "#A2AAAD",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "minnesota-wild",
+    "name": "Minnesota Wild",
+    "league": "nhl",
+    "colors": {
+      "primary": "#154734",
+      "secondary": "#A6192E",
+      "accent": "#DDCBA4"
+    }
+  },
+  {
+    "id": "montreal-canadiens",
+    "name": "Montréal Canadiens",
+    "league": "nhl",
+    "colors": {
+      "primary": "#AF1E2D",
+      "secondary": "#192168",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "nashville-predators",
+    "name": "Nashville Predators",
+    "league": "nhl",
+    "colors": {
+      "primary": "#FFB81C",
+      "secondary": "#041E42",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
     "id": "new-jersey-devils",
     "name": "New Jersey Devils",
     "league": "nhl",
@@ -567,6 +687,46 @@
       "primary": "#CE1126",
       "secondary": "#FFFFFF",
       "accent": "#000000"
+    }
+  },
+  {
+    "id": "new-york-islanders",
+    "name": "New York Islanders",
+    "league": "nhl",
+    "colors": {
+      "primary": "#00539B",
+      "secondary": "#F47D30",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "new-york-rangers",
+    "name": "New York Rangers",
+    "league": "nhl",
+    "colors": {
+      "primary": "#0038A8",
+      "secondary": "#CE1126",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "ottawa-senators",
+    "name": "Ottawa Senators",
+    "league": "nhl",
+    "colors": {
+      "primary": "#DA1A32",
+      "secondary": "#000000",
+      "accent": "#B79257"
+    }
+  },
+  {
+    "id": "philadelphia-flyers",
+    "name": "Philadelphia Flyers",
+    "league": "nhl",
+    "colors": {
+      "primary": "#F74902",
+      "secondary": "#000000",
+      "accent": "#FFFFFF"
     }
   },
   {
@@ -590,6 +750,36 @@
     }
   },
   {
+    "id": "seattle-kraken",
+    "name": "Seattle Kraken",
+    "league": "nhl",
+    "colors": {
+      "primary": "#001628",
+      "secondary": "#99D9D9",
+      "accent": "#355464"
+    }
+  },
+  {
+    "id": "st-louis-blues",
+    "name": "St. Louis Blues",
+    "league": "nhl",
+    "colors": {
+      "primary": "#002F87",
+      "secondary": "#FCB514",
+      "accent": "#041E42"
+    }
+  },
+  {
+    "id": "tampa-bay-lightning",
+    "name": "Tampa Bay Lightning",
+    "league": "nhl",
+    "colors": {
+      "primary": "#002868",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  {
     "id": "toronto-maple-leafs",
     "name": "Toronto Maple Leafs",
     "league": "nhl",
@@ -600,6 +790,36 @@
     }
   },
   {
+    "id": "utah-mammoth",
+    "name": "Utah Mammoth",
+    "league": "nhl",
+    "colors": {
+      "primary": "#090909",
+      "secondary": "#6CACE4",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "vancouver-canucks",
+    "name": "Vancouver Canucks",
+    "league": "nhl",
+    "colors": {
+      "primary": "#00205B",
+      "secondary": "#00843D",
+      "accent": "#FFFFFF"
+    }
+  },
+  {
+    "id": "vegas-golden-knights",
+    "name": "Vegas Golden Knights",
+    "league": "nhl",
+    "colors": {
+      "primary": "#B4975A",
+      "secondary": "#333F42",
+      "accent": "#C8102E"
+    }
+  },
+  {
     "id": "washington-capitals",
     "name": "Washington Capitals",
     "league": "nhl",
@@ -607,6 +827,16 @@
       "primary": "#C8102E",
       "secondary": "#FFFFFF",
       "accent": "#041E42"
+    }
+  },
+  {
+    "id": "winnipeg-jets",
+    "name": "Winnipeg Jets",
+    "league": "nhl",
+    "colors": {
+      "primary": "#041E42",
+      "secondary": "#004C97",
+      "accent": "#AC162C"
     }
   },
   {
