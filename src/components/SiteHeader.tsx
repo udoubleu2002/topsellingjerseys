@@ -2,10 +2,13 @@ import Link from "next/link";
 import { site, backend, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
 import { JerseyIcon } from "./Brand";
+import { DealTicker } from "./DealTicker";
 
 export function SiteHeader({ active }: { active?: string }) {
   const leagues = getLeagues();
   return (
+    <>
+    <DealTicker />
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
@@ -45,5 +48,6 @@ export function SiteHeader({ active }: { active?: string }) {
       </div>
       <script src="/my-jerseys.js" defer data-keep {...(backendEnabled ? { "data-sb-url": backend.url, "data-sb-key": backend.anonKey } : {})} />
     </header>
+    </>
   );
 }

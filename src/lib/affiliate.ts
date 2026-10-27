@@ -77,6 +77,13 @@ export function promoOffer(p: Promotion): Offer | null {
   return { id: `promo-${p.id}`, kind: "promo", merchantId: p.merchantId, merchantName: merchant.name, label: p.headline, href: withAffiliate(p.url, p.merchantId) };
 }
 
+/** The retailer's front page, for the top-bar deals strip when no specific deal is running. */
+export function dealsOffer(merchantId = DEFAULT_MERCHANT): Offer | null {
+  const merchant = getMerchant(merchantId);
+  if (!merchant) return null;
+  return { id: `deals-${merchantId}`, kind: "promo", merchantId, merchantName: merchant.name, label: `Today's deals at ${merchant.name}`, href: withAffiliate(merchant.homepage, merchantId) };
+}
+
 /** A retailer search for the player an article covers (the player may not be in players.json). */
 export function articleOffer(a: Pick<Article, "slug" | "shopQuery" | "player">, merchantId = DEFAULT_MERCHANT): Offer | null {
   const merchant = getMerchant(merchantId);
@@ -97,6 +104,8 @@ export function resolveOffer(offerId: string): Offer | null {
     const p = loadStore().promotions.find((x) => x.id === promo[1]);
     return p ? promoOffer(p) : null;
   }
+  const d = /^deals-([a-z0-9]+)$/.exec(offerId);
+  if (d) return dealsOffer(d[1]);
   const t = /^team-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
   if (t) {
     const team = getAnyTeam(t[2]);
