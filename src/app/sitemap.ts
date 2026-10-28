@@ -21,6 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   out.push({ url: abs("/rankings/"), lastModified: site.lastReviewed, changeFrequency: "monthly", priority: 0.5 });
   // A league's current report is canonical to its league page, so only archived reports are listed here.
   for (const r of getRankings().filter((r) => getCurrentRanking(r.league)?.id !== r.id)) out.push({ url: abs(`/rankings/${r.league}/${r.id}/`), lastModified: r.lastVerified, changeFrequency: "yearly", priority: 0.4 });
-  for (const p of ["about", "methodology", "sources", "affiliate-disclosure", "contact", "privacy", "terms"]) out.push({ url: abs(`/${p}/`), changeFrequency: "yearly", priority: 0.2 });
+  for (const p of ["about", "methodology", "sources", "affiliate-disclosure", "contact", "privacy", "terms", "related-sites"]) out.push({ url: abs(`/${p}/`), changeFrequency: "yearly", priority: 0.2 });
   return out;
 }
