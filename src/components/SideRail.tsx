@@ -49,8 +49,6 @@ export function SideRail({ active }: { active?: string }) {
 
       <LidsAd banner={rectFor(active)} at="rail_lids" />
 
-      <HouseAd ad={adA} at="rail_top" />
-
       <section className="rail-box">
         <h2 className="rail-h">Latest reports</h2>
         <ul className="rail-updates">
@@ -66,6 +64,8 @@ export function SideRail({ active }: { active?: string }) {
         </ul>
         <Link className="rail-more" href="/rankings/">Report archive →</Link>
       </section>
+
+      <HouseAd ad={adA} at="rail_top" />
 
       <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
