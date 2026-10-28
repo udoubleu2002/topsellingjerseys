@@ -103,8 +103,6 @@ p { margin: 0; }
 .lids-ad a { display: block; line-height: 0; border-radius: 4px; overflow: hidden; }
 .lids-ad a img { width: 100%; height: auto; }
 .lids-ad .lids-ad-px { position: absolute; width: 0; height: 0; visibility: hidden; }
-.foot-ad { margin-top: 56px; }
-.foot-ad + .footer { margin-top: 24px; }
 
 /* ---------- Page intro ---------- */
 .crumbs { font-size: 13px; color: var(--muted); padding-top: 20px; }
