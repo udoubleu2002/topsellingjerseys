@@ -30220,5 +30220,2165 @@
       "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
     ],
     "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "colt-emerson",
+    "slug": "colt-emerson",
+    "name": "Colt Emerson",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "seattle-mariners",
+    "lastTeamId": "seattle-mariners",
+    "status": "Active",
+    "position": "SS",
+    "number": "4",
+    "birthday": "2005-07-20",
+    "birthdaySource": "https://www.baseball-reference.com/players/e/emersco01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .190 with 8 homers, 23 RBIs and a .581 OPS in 69 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/SEA/2026.shtml"
+      },
+      {
+        "text": "Scored 24 runs and stole 3 bases for a 76-86 Mariners team",
+        "source": "https://www.baseball-reference.com/teams/SEA/2026.shtml"
+      },
+      {
+        "text": "Wears No. 4 for the Mariners",
+        "source": "https://www.baseball-reference.com/players/e/emersco01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/e/emersco01.shtml",
+      "https://www.baseball-reference.com/teams/SEA/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cole-young",
+    "slug": "cole-young",
+    "name": "Cole Young",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "seattle-mariners",
+    "lastTeamId": "seattle-mariners",
+    "status": "Active",
+    "position": "2B",
+    "number": "2",
+    "birthday": "2003-07-29",
+    "birthdaySource": "https://www.baseball-reference.com/players/y/youngco01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .246 with 17 homers, 66 RBIs and a .694 OPS in 160 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/SEA/2026.shtml"
+      },
+      {
+        "text": "Scored 76 runs and stole 4 bases for a 76-86 Mariners team",
+        "source": "https://www.baseball-reference.com/teams/SEA/2026.shtml"
+      },
+      {
+        "text": "Wears No. 2 for the Mariners",
+        "source": "https://www.baseball-reference.com/players/y/youngco01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/y/youngco01.shtml",
+      "https://www.baseball-reference.com/teams/SEA/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "roman-anthony",
+    "slug": "roman-anthony",
+    "name": "Roman Anthony",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "boston-red-sox",
+    "lastTeamId": "boston-red-sox",
+    "status": "Active",
+    "position": "OF",
+    "number": "19",
+    "birthday": "2004-05-13",
+    "birthdaySource": "https://www.baseball-reference.com/players/a/anthoro01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .245 with 5 homers, 15 RBIs and a .735 OPS in 55 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/BOS/2026.shtml"
+      },
+      {
+        "text": "Scored 24 runs and stole 2 bases for an 87-75 Red Sox team that reached the Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/BOS/2026.shtml"
+      },
+      {
+        "text": "Wears No. 19 for the Red Sox",
+        "source": "https://www.baseball-reference.com/players/a/anthoro01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/a/anthoro01.shtml",
+      "https://www.baseball-reference.com/teams/BOS/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "payton-tolle",
+    "slug": "payton-tolle",
+    "name": "Payton Tolle",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "boston-red-sox",
+    "lastTeamId": "boston-red-sox",
+    "status": "Active",
+    "position": "SP",
+    "number": "70",
+    "birthday": "2002-11-01",
+    "birthdaySource": "https://www.baseball-reference.com/players/t/tollepa01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 9-6 with a 3.03 ERA and 171 strikeouts over 148.2 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/BOS/2026.shtml"
+      },
+      {
+        "text": "Made 26 starts with a 1.096 WHIP for an 87-75 Red Sox team that reached the Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/BOS/2026.shtml"
+      },
+      {
+        "text": "Wears No. 70 for the Red Sox",
+        "source": "https://www.baseball-reference.com/players/t/tollepa01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/t/tollepa01.shtml",
+      "https://www.baseball-reference.com/teams/BOS/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "alejandro-kirk",
+    "slug": "alejandro-kirk",
+    "name": "Alejandro Kirk",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "toronto-blue-jays",
+    "lastTeamId": "toronto-blue-jays",
+    "status": "Active",
+    "position": "C",
+    "number": "30",
+    "birthday": "1998-11-06",
+    "birthdaySource": "https://www.baseball-reference.com/players/k/kirkal01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .278 with 10 homers, 43 RBIs and a .767 OPS in 79 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/TOR/2026.shtml"
+      },
+      {
+        "text": "Scored 26 runs and stole 1 bases for a 79-83 Blue Jays team",
+        "source": "https://www.baseball-reference.com/teams/TOR/2026.shtml"
+      },
+      {
+        "text": "Two-time All-Star and 2022 Silver Slugger winner",
+        "source": "https://www.baseball-reference.com/players/k/kirkal01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/k/kirkal01.shtml",
+      "https://www.baseball-reference.com/teams/TOR/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "louis-varland",
+    "slug": "louis-varland",
+    "name": "Louis Varland",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "toronto-blue-jays",
+    "lastTeamId": "toronto-blue-jays",
+    "status": "Active",
+    "position": "RP",
+    "number": "77",
+    "birthday": "1997-12-09",
+    "birthdaySource": "https://www.baseball-reference.com/players/v/varlalo01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Saved 35 games with a 1.27 ERA and 97 strikeouts in 78.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/TOR/2026.shtml"
+      },
+      {
+        "text": "Pitched in 71 games with a 1.000 WHIP for a 79-83 Blue Jays team",
+        "source": "https://www.baseball-reference.com/teams/TOR/2026.shtml"
+      },
+      {
+        "text": "Wears No. 77 for the Blue Jays",
+        "source": "https://www.baseball-reference.com/players/v/varlalo01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/v/varlalo01.shtml",
+      "https://www.baseball-reference.com/teams/TOR/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "colton-cowser",
+    "slug": "colton-cowser",
+    "name": "Colton Cowser",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "baltimore-orioles",
+    "lastTeamId": "baltimore-orioles",
+    "status": "Active",
+    "position": "OF",
+    "number": "17",
+    "birthday": "2000-03-20",
+    "birthdaySource": "https://www.baseball-reference.com/players/c/cowseco01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .226 with 13 homers, 40 RBIs and a .687 OPS in 142 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/BAL/2026.shtml"
+      },
+      {
+        "text": "Scored 41 runs and stole 10 bases for a 79-82 Orioles team",
+        "source": "https://www.baseball-reference.com/teams/BAL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 17 for the Orioles",
+        "source": "https://www.baseball-reference.com/players/c/cowseco01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/c/cowseco01.shtml",
+      "https://www.baseball-reference.com/teams/BAL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "dylan-beavers",
+    "slug": "dylan-beavers",
+    "name": "Dylan Beavers",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "baltimore-orioles",
+    "lastTeamId": "baltimore-orioles",
+    "status": "Active",
+    "position": "OF",
+    "number": "12",
+    "birthday": "2001-08-11",
+    "birthdaySource": "https://www.baseball-reference.com/players/b/beavedy01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .228 with 9 homers, 44 RBIs and a .680 OPS in 104 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/BAL/2026.shtml"
+      },
+      {
+        "text": "Scored 41 runs and stole 5 bases for a 79-82 Orioles team",
+        "source": "https://www.baseball-reference.com/teams/BAL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 12 for the Orioles",
+        "source": "https://www.baseball-reference.com/players/b/beavedy01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/b/beavedy01.shtml",
+      "https://www.baseball-reference.com/teams/BAL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "max-clark",
+    "slug": "max-clark",
+    "name": "Max Clark",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "detroit-tigers",
+    "lastTeamId": "detroit-tigers",
+    "status": "Active",
+    "position": "CF",
+    "number": "15",
+    "birthday": "2004-12-21",
+    "birthdaySource": "https://www.baseball-reference.com/players/c/clarkma04.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .272 with 3 homers, 23 RBIs and a .766 OPS in 51 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/DET/2026.shtml"
+      },
+      {
+        "text": "Scored 27 runs and stole 5 bases for a 76-86 Tigers team",
+        "source": "https://www.baseball-reference.com/teams/DET/2026.shtml"
+      },
+      {
+        "text": "Was the No. 3 overall pick in the 2023 draft",
+        "source": "https://www.baseball-reference.com/players/c/clarkma04.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/c/clarkma04.shtml",
+      "https://www.baseball-reference.com/teams/DET/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jackson-jobe",
+    "slug": "jackson-jobe",
+    "name": "Jackson Jobe",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "detroit-tigers",
+    "lastTeamId": "detroit-tigers",
+    "status": "Active",
+    "position": "SP",
+    "number": "21",
+    "birthday": "2002-07-30",
+    "birthdaySource": "https://www.baseball-reference.com/players/j/jobeja01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 3-3 with a 3.91 ERA and 51 strikeouts over 46.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/DET/2026.shtml"
+      },
+      {
+        "text": "Made 9 starts with a 1.174 WHIP for a 76-86 Tigers team",
+        "source": "https://www.baseball-reference.com/teams/DET/2026.shtml"
+      },
+      {
+        "text": "Was the No. 3 overall pick in the 2021 draft",
+        "source": "https://www.baseball-reference.com/players/j/jobeja01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/j/jobeja01.shtml",
+      "https://www.baseball-reference.com/teams/DET/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "maikel-garcia",
+    "slug": "maikel-garcia",
+    "name": "Maikel Garcia",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "kansas-city-royals",
+    "lastTeamId": "kansas-city-royals",
+    "status": "Active",
+    "position": "3B",
+    "number": "11",
+    "birthday": "2000-03-03",
+    "birthdaySource": "https://www.baseball-reference.com/players/g/garcima01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .268 with 3 homers, 38 RBIs and a .715 OPS in 82 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/KCR/2026.shtml"
+      },
+      {
+        "text": "Scored 40 runs and stole 5 bases for a 69-93 Royals team",
+        "source": "https://www.baseball-reference.com/teams/KCR/2026.shtml"
+      },
+      {
+        "text": "Wears No. 11 for the Royals",
+        "source": "https://www.baseball-reference.com/players/g/garcima01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/g/garcima01.shtml",
+      "https://www.baseball-reference.com/teams/KCR/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "michael-wacha",
+    "slug": "michael-wacha",
+    "name": "Michael Wacha",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "kansas-city-royals",
+    "lastTeamId": "kansas-city-royals",
+    "status": "Active",
+    "position": "SP",
+    "number": "52",
+    "birthday": "1991-07-01",
+    "birthdaySource": "https://www.baseball-reference.com/players/w/wachami01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 9-10 with a 3.32 ERA and 158 strikeouts over 200.2 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/KCR/2026.shtml"
+      },
+      {
+        "text": "Made 32 starts with a 1.106 WHIP for a 69-93 Royals team",
+        "source": "https://www.baseball-reference.com/teams/KCR/2026.shtml"
+      },
+      {
+        "text": "Wears No. 52 for the Royals",
+        "source": "https://www.baseball-reference.com/players/w/wachami01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/w/wachami01.shtml",
+      "https://www.baseball-reference.com/teams/KCR/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "walker-jenkins",
+    "slug": "walker-jenkins",
+    "name": "Walker Jenkins",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "minnesota-twins",
+    "lastTeamId": "minnesota-twins",
+    "status": "Active",
+    "position": "OF",
+    "number": "11",
+    "birthday": "2005-02-19",
+    "birthdaySource": "https://www.baseball-reference.com/players/j/jenkiwa01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .226 with 4 homers, 10 RBIs and a .686 OPS in 26 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/MIN/2026.shtml"
+      },
+      {
+        "text": "Scored 14 runs and stole 1 bases for a 77-85 Twins team",
+        "source": "https://www.baseball-reference.com/teams/MIN/2026.shtml"
+      },
+      {
+        "text": "Was the No. 5 overall pick in the 2023 draft",
+        "source": "https://www.baseball-reference.com/players/j/jenkiwa01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/j/jenkiwa01.shtml",
+      "https://www.baseball-reference.com/teams/MIN/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "taj-bradley",
+    "slug": "taj-bradley",
+    "name": "Taj Bradley",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "minnesota-twins",
+    "lastTeamId": "minnesota-twins",
+    "status": "Active",
+    "position": "SP",
+    "number": "26",
+    "birthday": "2001-03-20",
+    "birthdaySource": "https://www.baseball-reference.com/players/b/bradlta01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 12-6 with a 3.73 ERA and 205 strikeouts over 178.1 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/MIN/2026.shtml"
+      },
+      {
+        "text": "Made 31 starts with a 1.222 WHIP for a 77-85 Twins team",
+        "source": "https://www.baseball-reference.com/teams/MIN/2026.shtml"
+      },
+      {
+        "text": "Wears No. 26 for the Twins",
+        "source": "https://www.baseball-reference.com/players/b/bradlta01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/b/bradlta01.shtml",
+      "https://www.baseball-reference.com/teams/MIN/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "spencer-jones",
+    "slug": "spencer-jones",
+    "name": "Spencer Jones",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "new-york-yankees",
+    "lastTeamId": "new-york-yankees",
+    "status": "Active",
+    "position": "OF",
+    "number": "78",
+    "birthday": "2001-05-14",
+    "birthdaySource": "https://www.baseball-reference.com/players/j/jonessp01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .245 with 11 homers, 40 RBIs and a .742 OPS in 86 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/NYY/2026.shtml"
+      },
+      {
+        "text": "Scored 36 runs and stole 10 bases for a 93-68 Yankees team that won its Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/NYY/2026.shtml"
+      },
+      {
+        "text": "Wears No. 78 for the Yankees",
+        "source": "https://www.baseball-reference.com/players/j/jonessp01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/j/jonessp01.shtml",
+      "https://www.baseball-reference.com/teams/NYY/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "george-lombard-jr",
+    "slug": "george-lombard-jr",
+    "name": "George Lombard Jr.",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "new-york-yankees",
+    "lastTeamId": "new-york-yankees",
+    "status": "Active",
+    "position": "SS",
+    "number": "96",
+    "birthday": "2005-06-02",
+    "birthdaySource": "https://www.baseball-reference.com/players/l/lombage02.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .237 with 7 homers, 22 RBIs and a .699 OPS in 42 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/NYY/2026.shtml"
+      },
+      {
+        "text": "Scored 23 runs and stole 2 bases for a 93-68 Yankees team that won its Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/NYY/2026.shtml"
+      },
+      {
+        "text": "Is the son of former big league outfielder George Lombard",
+        "source": "https://www.baseball-reference.com/players/l/lombage02.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/l/lombage02.shtml",
+      "https://www.baseball-reference.com/teams/NYY/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "victor-mesa-jr",
+    "slug": "victor-mesa-jr",
+    "name": "Victor Mesa Jr.",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "tampa-bay-rays",
+    "lastTeamId": "tampa-bay-rays",
+    "status": "Active",
+    "position": "OF",
+    "number": "25",
+    "birthday": "2001-09-08",
+    "birthdaySource": "https://www.baseball-reference.com/players/m/mesavi01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .260 with 14 homers, 34 RBIs and a .825 OPS in 79 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/TBR/2026.shtml"
+      },
+      {
+        "text": "Scored 37 runs and stole 9 bases for a 98-64 Rays team that won the AL East and the AL pennant",
+        "source": "https://www.baseball-reference.com/teams/TBR/2026.shtml"
+      },
+      {
+        "text": "Wears No. 25 for the Rays",
+        "source": "https://www.baseball-reference.com/players/m/mesavi01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/m/mesavi01.shtml",
+      "https://www.baseball-reference.com/teams/TBR/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jonathan-aranda",
+    "slug": "jonathan-aranda",
+    "name": "Jonathan Aranda",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "tampa-bay-rays",
+    "lastTeamId": "tampa-bay-rays",
+    "status": "Active",
+    "position": "1B",
+    "number": "8",
+    "birthday": "1998-05-23",
+    "birthdaySource": "https://www.baseball-reference.com/players/a/arandjo01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .274 with 22 homers, 92 RBIs and a .792 OPS in 155 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/TBR/2026.shtml"
+      },
+      {
+        "text": "Scored 73 runs and stole 0 bases for a 98-64 Rays team that won the AL East and the AL pennant",
+        "source": "https://www.baseball-reference.com/teams/TBR/2026.shtml"
+      },
+      {
+        "text": "Wears No. 8 for the Rays",
+        "source": "https://www.baseball-reference.com/players/a/arandjo01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/a/arandjo01.shtml",
+      "https://www.baseball-reference.com/teams/TBR/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "parker-messick",
+    "slug": "parker-messick",
+    "name": "Parker Messick",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "cleveland-guardians",
+    "lastTeamId": "cleveland-guardians",
+    "status": "Active",
+    "position": "SP",
+    "number": "77",
+    "birthday": "2000-10-26",
+    "birthdaySource": "https://www.baseball-reference.com/players/m/messipa01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 12-9 with a 2.56 ERA and 193 strikeouts over 186.1 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/CLE/2026.shtml"
+      },
+      {
+        "text": "Made 32 starts with a 1.063 WHIP for an 85-77 Guardians team that won the AL Central and reached the ALCS",
+        "source": "https://www.baseball-reference.com/teams/CLE/2026.shtml"
+      },
+      {
+        "text": "Wears No. 77 for the Guardians",
+        "source": "https://www.baseball-reference.com/players/m/messipa01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/m/messipa01.shtml",
+      "https://www.baseball-reference.com/teams/CLE/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cade-smith",
+    "slug": "cade-smith",
+    "name": "Cade Smith",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "cleveland-guardians",
+    "lastTeamId": "cleveland-guardians",
+    "status": "Active",
+    "position": "RP",
+    "number": "36",
+    "birthday": "1999-05-09",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/smithca06.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Saved 41 games with a 1.95 ERA and 107 strikeouts in 74.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/CLE/2026.shtml"
+      },
+      {
+        "text": "Pitched in 69 games with a 0.959 WHIP for an 85-77 Guardians team that won the AL Central and reached the ALCS",
+        "source": "https://www.baseball-reference.com/teams/CLE/2026.shtml"
+      },
+      {
+        "text": "Wears No. 36 for the Guardians",
+        "source": "https://www.baseball-reference.com/players/s/smithca06.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/smithca06.shtml",
+      "https://www.baseball-reference.com/teams/CLE/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "sam-antonacci",
+    "slug": "sam-antonacci",
+    "name": "Sam Antonacci",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "chicago-white-sox",
+    "lastTeamId": "chicago-white-sox",
+    "status": "Active",
+    "position": "LF",
+    "number": "17",
+    "birthday": "2003-02-06",
+    "birthdaySource": "https://www.baseball-reference.com/players/a/antonsa01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .277 with 8 homers, 48 RBIs and a .766 OPS in 140 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/CHW/2026.shtml"
+      },
+      {
+        "text": "Scored 81 runs and stole 20 bases for an 84-78 White Sox team that won its Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/CHW/2026.shtml"
+      },
+      {
+        "text": "Wears No. 17 for the White Sox",
+        "source": "https://www.baseball-reference.com/players/a/antonsa01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/a/antonsa01.shtml",
+      "https://www.baseball-reference.com/teams/CHW/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "kyle-teel",
+    "slug": "kyle-teel",
+    "name": "Kyle Teel",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "chicago-white-sox",
+    "lastTeamId": "chicago-white-sox",
+    "status": "Active",
+    "position": "C",
+    "number": "8",
+    "birthday": "2002-02-15",
+    "birthdaySource": "https://www.baseball-reference.com/players/t/teelky01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .210 with 5 homers, 26 RBIs and a .697 OPS in 39 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/CHW/2026.shtml"
+      },
+      {
+        "text": "Scored 21 runs and stole 0 bases for an 84-78 White Sox team that won its Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/CHW/2026.shtml"
+      },
+      {
+        "text": "Wears No. 8 for the White Sox",
+        "source": "https://www.baseball-reference.com/players/t/teelky01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/t/teelky01.shtml",
+      "https://www.baseball-reference.com/teams/CHW/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cam-smith",
+    "slug": "cam-smith",
+    "name": "Cam Smith",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "houston-astros",
+    "lastTeamId": "houston-astros",
+    "status": "Active",
+    "position": "RF",
+    "number": "11",
+    "birthday": "2003-02-22",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/smithca07.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .210 with 21 homers, 56 RBIs and a .669 OPS in 157 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/HOU/2026.shtml"
+      },
+      {
+        "text": "Scored 67 runs and stole 12 bases for an 81-81 Astros team that won the AL West",
+        "source": "https://www.baseball-reference.com/teams/HOU/2026.shtml"
+      },
+      {
+        "text": "Joined Houston in the December 2024 trade that sent Kyle Tucker to the Cubs",
+        "source": "https://www.baseball-reference.com/players/s/smithca07.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/smithca07.shtml",
+      "https://www.baseball-reference.com/teams/HOU/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "carlos-correa",
+    "slug": "carlos-correa",
+    "name": "Carlos Correa",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "houston-astros",
+    "lastTeamId": "houston-astros",
+    "status": "Active",
+    "position": "SS",
+    "number": "1",
+    "birthday": "1994-09-22",
+    "birthdaySource": "https://www.baseball-reference.com/players/c/correca01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .279 with 3 homers, 16 RBIs and a .787 OPS in 32 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/HOU/2026.shtml"
+      },
+      {
+        "text": "Scored 22 runs and stole 1 bases for an 81-81 Astros team that won the AL West",
+        "source": "https://www.baseball-reference.com/teams/HOU/2026.shtml"
+      },
+      {
+        "text": "Won the 2015 AL Rookie of the Year award with Houston",
+        "source": "https://www.baseball-reference.com/players/c/correca01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/c/correca01.shtml",
+      "https://www.baseball-reference.com/teams/HOU/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "evan-carter",
+    "slug": "evan-carter",
+    "name": "Evan Carter",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "texas-rangers",
+    "lastTeamId": "texas-rangers",
+    "status": "Active",
+    "position": "OF",
+    "number": "32",
+    "birthday": "2002-08-29",
+    "birthdaySource": "https://www.baseball-reference.com/players/c/carteev01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .194 with 9 homers, 40 RBIs and a .602 OPS in 141 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/TEX/2026.shtml"
+      },
+      {
+        "text": "Scored 52 runs and stole 17 bases for an 80-82 Rangers team",
+        "source": "https://www.baseball-reference.com/teams/TEX/2026.shtml"
+      },
+      {
+        "text": "Won the 2023 World Series with Texas as a rookie",
+        "source": "https://www.baseball-reference.com/players/c/carteev01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/c/carteev01.shtml",
+      "https://www.baseball-reference.com/teams/TEX/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jake-burger",
+    "slug": "jake-burger",
+    "name": "Jake Burger",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "texas-rangers",
+    "lastTeamId": "texas-rangers",
+    "status": "Active",
+    "position": "1B",
+    "number": "21",
+    "birthday": "1996-04-10",
+    "birthdaySource": "https://www.baseball-reference.com/players/b/burgeja01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .228 with 28 homers, 90 RBIs and a .722 OPS in 155 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/TEX/2026.shtml"
+      },
+      {
+        "text": "Scored 71 runs and stole 4 bases for an 80-82 Rangers team",
+        "source": "https://www.baseball-reference.com/teams/TEX/2026.shtml"
+      },
+      {
+        "text": "Wears No. 21 for the Rangers",
+        "source": "https://www.baseball-reference.com/players/b/burgeja01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/b/burgeja01.shtml",
+      "https://www.baseball-reference.com/teams/TEX/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "walbert-urena",
+    "slug": "walbert-urena",
+    "name": "Walbert Ureña",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-angels",
+    "lastTeamId": "los-angeles-angels",
+    "status": "Active",
+    "position": "SP",
+    "number": "57",
+    "birthday": "2004-01-25",
+    "birthdaySource": "https://www.baseball-reference.com/players/u/urenawa01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 9-11 with a 2.97 ERA and 142 strikeouts over 148.1 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/LAA/2026.shtml"
+      },
+      {
+        "text": "Made 27 starts with a 1.227 WHIP for a 62-100 Angels team",
+        "source": "https://www.baseball-reference.com/teams/LAA/2026.shtml"
+      },
+      {
+        "text": "Wears No. 57 for the Angels",
+        "source": "https://www.baseball-reference.com/players/u/urenawa01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/u/urenawa01.shtml",
+      "https://www.baseball-reference.com/teams/LAA/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "christian-moore",
+    "slug": "christian-moore",
+    "name": "Christian Moore",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-angels",
+    "lastTeamId": "los-angeles-angels",
+    "status": "Active",
+    "position": "2B",
+    "number": "4",
+    "birthday": "2002-10-21",
+    "birthdaySource": "https://www.baseball-reference.com/players/m/moorech03.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .187 with 2 homers, 18 RBIs and a .528 OPS in 38 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/LAA/2026.shtml"
+      },
+      {
+        "text": "Scored 5 runs and stole 1 bases for a 62-100 Angels team",
+        "source": "https://www.baseball-reference.com/teams/LAA/2026.shtml"
+      },
+      {
+        "text": "Was the No. 8 overall pick in the 2024 draft",
+        "source": "https://www.baseball-reference.com/players/m/moorech03.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/m/moorech03.shtml",
+      "https://www.baseball-reference.com/teams/LAA/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "henry-bolte",
+    "slug": "henry-bolte",
+    "name": "Henry Bolte",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "athletics",
+    "lastTeamId": "athletics",
+    "status": "Active",
+    "position": "OF",
+    "number": "33",
+    "birthday": "2003-08-04",
+    "birthdaySource": "https://www.baseball-reference.com/players/b/boltehe01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .277 with 11 homers, 38 RBIs and a .764 OPS in 119 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/ATH/2026.shtml"
+      },
+      {
+        "text": "Scored 57 runs and stole 21 bases for a 64-98 Athletics team",
+        "source": "https://www.baseball-reference.com/teams/ATH/2026.shtml"
+      },
+      {
+        "text": "Wears No. 33 for the A's",
+        "source": "https://www.baseball-reference.com/players/b/boltehe01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/b/boltehe01.shtml",
+      "https://www.baseball-reference.com/teams/ATH/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "lawrence-butler",
+    "slug": "lawrence-butler",
+    "name": "Lawrence Butler",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "athletics",
+    "lastTeamId": "athletics",
+    "status": "Active",
+    "position": "OF",
+    "number": "4",
+    "birthday": "2000-07-10",
+    "birthdaySource": "https://www.baseball-reference.com/players/b/butlela01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .237 with 17 homers, 62 RBIs and a .720 OPS in 154 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/ATH/2026.shtml"
+      },
+      {
+        "text": "Scored 64 runs and stole 10 bases for a 64-98 Athletics team",
+        "source": "https://www.baseball-reference.com/teams/ATH/2026.shtml"
+      },
+      {
+        "text": "Wears No. 4 for the A's",
+        "source": "https://www.baseball-reference.com/players/b/butlela01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/b/butlela01.shtml",
+      "https://www.baseball-reference.com/teams/ATH/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "didier-fuentes",
+    "slug": "didier-fuentes",
+    "name": "Didier Fuentes",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "atlanta-braves",
+    "lastTeamId": "atlanta-braves",
+    "status": "Active",
+    "position": "RP",
+    "number": "72",
+    "birthday": "2005-06-17",
+    "birthdaySource": "https://www.baseball-reference.com/players/f/fuentdi01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Saved 3 games with a 2.45 ERA and 92 strikeouts in 73.1 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/ATL/2026.shtml"
+      },
+      {
+        "text": "Pitched in 58 games with a 1.105 WHIP for a 94-68 Braves team that won the NL East",
+        "source": "https://www.baseball-reference.com/teams/ATL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 72 for the Braves",
+        "source": "https://www.baseball-reference.com/players/f/fuentdi01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/f/fuentdi01.shtml",
+      "https://www.baseball-reference.com/teams/ATL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ozzie-albies",
+    "slug": "ozzie-albies",
+    "name": "Ozzie Albies",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "atlanta-braves",
+    "lastTeamId": "atlanta-braves",
+    "status": "Active",
+    "position": "2B",
+    "number": "1",
+    "birthday": "1997-01-07",
+    "birthdaySource": "https://www.baseball-reference.com/players/a/albieoz01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .237 with 22 homers, 73 RBIs and a .685 OPS in 162 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/ATL/2026.shtml"
+      },
+      {
+        "text": "Scored 85 runs and stole 4 bases for a 94-68 Braves team that won the NL East",
+        "source": "https://www.baseball-reference.com/teams/ATL/2026.shtml"
+      },
+      {
+        "text": "Won the 2021 World Series with Atlanta",
+        "source": "https://www.baseball-reference.com/players/a/albieoz01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/a/albieoz01.shtml",
+      "https://www.baseball-reference.com/teams/ATL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "justin-crawford",
+    "slug": "justin-crawford",
+    "name": "Justin Crawford",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "philadelphia-phillies",
+    "lastTeamId": "philadelphia-phillies",
+    "status": "Active",
+    "position": "OF",
+    "number": "2",
+    "birthday": "2004-01-13",
+    "birthdaySource": "https://www.baseball-reference.com/players/c/crawfju01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .264 with 3 homers, 41 RBIs and a .662 OPS in 149 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/PHI/2026.shtml"
+      },
+      {
+        "text": "Scored 48 runs and stole 17 bases for an 88-74 Phillies team that reached the Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/PHI/2026.shtml"
+      },
+      {
+        "text": "Is the son of four-time All-Star Carl Crawford",
+        "source": "https://www.baseball-reference.com/players/c/crawfju01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/c/crawfju01.shtml",
+      "https://www.baseball-reference.com/teams/PHI/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jesus-luzardo",
+    "slug": "jesus-luzardo",
+    "name": "Jesús Luzardo",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "philadelphia-phillies",
+    "lastTeamId": "philadelphia-phillies",
+    "status": "Active",
+    "position": "SP",
+    "number": "44",
+    "birthday": "1997-09-30",
+    "birthdaySource": "https://www.baseball-reference.com/players/l/luzarje01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 14-5 with a 2.86 ERA and 221 strikeouts over 179.2 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/PHI/2026.shtml"
+      },
+      {
+        "text": "Made 29 starts with a 1.074 WHIP for an 88-74 Phillies team that reached the Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/PHI/2026.shtml"
+      },
+      {
+        "text": "Wears No. 44 for the Phillies",
+        "source": "https://www.baseball-reference.com/players/l/luzarje01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/l/luzarje01.shtml",
+      "https://www.baseball-reference.com/teams/PHI/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "aj-ewing",
+    "slug": "aj-ewing",
+    "name": "A.J. Ewing",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "new-york-mets",
+    "lastTeamId": "new-york-mets",
+    "status": "Active",
+    "position": "CF",
+    "number": "9",
+    "birthday": "2004-08-10",
+    "birthdaySource": "https://www.baseball-reference.com/players/e/ewingaj01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .252 with 11 homers, 43 RBIs and a .700 OPS in 120 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/NYM/2026.shtml"
+      },
+      {
+        "text": "Scored 55 runs and stole 25 bases for a 74-88 Mets team",
+        "source": "https://www.baseball-reference.com/teams/NYM/2026.shtml"
+      },
+      {
+        "text": "Wears No. 9 for the Mets",
+        "source": "https://www.baseball-reference.com/players/e/ewingaj01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/e/ewingaj01.shtml",
+      "https://www.baseball-reference.com/teams/NYM/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "francisco-alvarez",
+    "slug": "francisco-alvarez",
+    "name": "Francisco Alvarez",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "new-york-mets",
+    "lastTeamId": "new-york-mets",
+    "status": "Active",
+    "position": "C",
+    "number": "4",
+    "birthday": "2001-11-19",
+    "birthdaySource": "https://www.baseball-reference.com/players/a/alvarfr01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .233 with 16 homers, 43 RBIs and a .710 OPS in 113 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/NYM/2026.shtml"
+      },
+      {
+        "text": "Scored 38 runs and stole 0 bases for a 74-88 Mets team",
+        "source": "https://www.baseball-reference.com/teams/NYM/2026.shtml"
+      },
+      {
+        "text": "Wears No. 4 for the Mets",
+        "source": "https://www.baseball-reference.com/players/a/alvarfr01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/a/alvarfr01.shtml",
+      "https://www.baseball-reference.com/teams/NYM/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "javier-sanoja",
+    "slug": "javier-sanoja",
+    "name": "Javier Sanoja",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "miami-marlins",
+    "lastTeamId": "miami-marlins",
+    "status": "Active",
+    "position": "IF",
+    "number": "8",
+    "birthday": "2002-09-03",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/sanojja01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .295 with 11 homers, 69 RBIs and a .791 OPS in 144 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/MIA/2026.shtml"
+      },
+      {
+        "text": "Scored 50 runs and stole 11 bases for an 80-82 Marlins team",
+        "source": "https://www.baseball-reference.com/teams/MIA/2026.shtml"
+      },
+      {
+        "text": "Wears No. 8 for the Marlins",
+        "source": "https://www.baseball-reference.com/players/s/sanojja01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/sanojja01.shtml",
+      "https://www.baseball-reference.com/teams/MIA/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "max-meyer",
+    "slug": "max-meyer",
+    "name": "Max Meyer",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "miami-marlins",
+    "lastTeamId": "miami-marlins",
+    "status": "Active",
+    "position": "SP",
+    "number": "23",
+    "birthday": "1999-03-12",
+    "birthdaySource": "https://www.baseball-reference.com/players/m/meyerma01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 9-1 with a 2.68 ERA and 121 strikeouts over 111.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/MIA/2026.shtml"
+      },
+      {
+        "text": "Made 20 starts with a 1.135 WHIP for an 80-82 Marlins team",
+        "source": "https://www.baseball-reference.com/teams/MIA/2026.shtml"
+      },
+      {
+        "text": "Wears No. 23 for the Marlins",
+        "source": "https://www.baseball-reference.com/players/m/meyerma01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/m/meyerma01.shtml",
+      "https://www.baseball-reference.com/teams/MIA/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "daylen-lile",
+    "slug": "daylen-lile",
+    "name": "Daylen Lile",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "washington-nationals",
+    "lastTeamId": "washington-nationals",
+    "status": "Active",
+    "position": "OF",
+    "number": "4",
+    "birthday": "2002-11-30",
+    "birthdaySource": "https://www.baseball-reference.com/players/l/lileda01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .246 with 22 homers, 89 RBIs and a .725 OPS in 160 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/WSN/2026.shtml"
+      },
+      {
+        "text": "Scored 81 runs and stole 15 bases for a 77-85 Nationals team",
+        "source": "https://www.baseball-reference.com/teams/WSN/2026.shtml"
+      },
+      {
+        "text": "Wears No. 4 for the Nationals",
+        "source": "https://www.baseball-reference.com/players/l/lileda01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/l/lileda01.shtml",
+      "https://www.baseball-reference.com/teams/WSN/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "harry-ford",
+    "slug": "harry-ford",
+    "name": "Harry Ford",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "washington-nationals",
+    "lastTeamId": "washington-nationals",
+    "status": "Active",
+    "position": "C",
+    "number": "17",
+    "birthday": "2003-02-21",
+    "birthdaySource": "https://www.baseball-reference.com/players/f/fordha01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .190 with 3 homers, 10 RBIs and a .664 OPS in 38 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/WSN/2026.shtml"
+      },
+      {
+        "text": "Scored 17 runs and stole 3 bases for a 77-85 Nationals team",
+        "source": "https://www.baseball-reference.com/teams/WSN/2026.shtml"
+      },
+      {
+        "text": "Wears No. 17 for the Nationals",
+        "source": "https://www.baseball-reference.com/players/f/fordha01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/f/fordha01.shtml",
+      "https://www.baseball-reference.com/teams/WSN/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "matt-shaw",
+    "slug": "matt-shaw",
+    "name": "Matt Shaw",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "chicago-cubs",
+    "lastTeamId": "chicago-cubs",
+    "status": "Active",
+    "position": "3B",
+    "number": "6",
+    "birthday": "2001-11-06",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/shawma01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .237 with 5 homers, 24 RBIs and a .737 OPS in 77 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/CHC/2026.shtml"
+      },
+      {
+        "text": "Scored 25 runs and stole 4 bases for an 89-73 Cubs team that reached the Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/CHC/2026.shtml"
+      },
+      {
+        "text": "Wears No. 6 for the Cubs",
+        "source": "https://www.baseball-reference.com/players/s/shawma01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/shawma01.shtml",
+      "https://www.baseball-reference.com/teams/CHC/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "michael-busch",
+    "slug": "michael-busch",
+    "name": "Michael Busch",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "chicago-cubs",
+    "lastTeamId": "chicago-cubs",
+    "status": "Active",
+    "position": "1B",
+    "number": "29",
+    "birthday": "1997-11-09",
+    "birthdaySource": "https://www.baseball-reference.com/players/b/buschmi02.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .242 with 20 homers, 77 RBIs and a .745 OPS in 160 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/CHC/2026.shtml"
+      },
+      {
+        "text": "Scored 78 runs and stole 3 bases for an 89-73 Cubs team that reached the Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/CHC/2026.shtml"
+      },
+      {
+        "text": "Wears No. 29 for the Cubs",
+        "source": "https://www.baseball-reference.com/players/b/buschmi02.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/b/buschmi02.shtml",
+      "https://www.baseball-reference.com/teams/CHC/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "logan-henderson",
+    "slug": "logan-henderson",
+    "name": "Logan Henderson",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "milwaukee-brewers",
+    "lastTeamId": "milwaukee-brewers",
+    "status": "Active",
+    "position": "SP",
+    "number": "43",
+    "birthday": "2002-03-02",
+    "birthdaySource": "https://www.baseball-reference.com/players/h/hendelo01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 11-3 with a 2.47 ERA and 110 strikeouts over 98.1 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/MIL/2026.shtml"
+      },
+      {
+        "text": "Made 18 starts with a 0.844 WHIP for a 103-59 Brewers team that won the NL Central and the NL pennant",
+        "source": "https://www.baseball-reference.com/teams/MIL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 43 for the Brewers",
+        "source": "https://www.baseball-reference.com/players/h/hendelo01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/h/hendelo01.shtml",
+      "https://www.baseball-reference.com/teams/MIL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cooper-pratt",
+    "slug": "cooper-pratt",
+    "name": "Cooper Pratt",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "milwaukee-brewers",
+    "lastTeamId": "milwaukee-brewers",
+    "status": "Active",
+    "position": "SS",
+    "number": "12",
+    "birthday": "2004-08-18",
+    "birthdaySource": "https://www.baseball-reference.com/players/p/prattco01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .281 with 3 homers, 34 RBIs and a .718 OPS in 74 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/MIL/2026.shtml"
+      },
+      {
+        "text": "Scored 33 runs and stole 19 bases for a 103-59 Brewers team that won the NL Central and the NL pennant",
+        "source": "https://www.baseball-reference.com/teams/MIL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 12 for the Brewers",
+        "source": "https://www.baseball-reference.com/players/p/prattco01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/p/prattco01.shtml",
+      "https://www.baseball-reference.com/teams/MIL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "michael-mcgreevy",
+    "slug": "michael-mcgreevy",
+    "name": "Michael McGreevy",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "st-louis-cardinals",
+    "lastTeamId": "st-louis-cardinals",
+    "status": "Active",
+    "position": "SP",
+    "number": "36",
+    "birthday": "2000-07-08",
+    "birthdaySource": "https://www.baseball-reference.com/players/m/mcgremi01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 7-9 with a 3.95 ERA and 115 strikeouts over 168.2 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/STL/2026.shtml"
+      },
+      {
+        "text": "Made 31 starts with a 1.281 WHIP for a 77-85 Cardinals team",
+        "source": "https://www.baseball-reference.com/teams/STL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 36 for the Cardinals",
+        "source": "https://www.baseball-reference.com/players/m/mcgremi01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/m/mcgremi01.shtml",
+      "https://www.baseball-reference.com/teams/STL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "riley-obrien",
+    "slug": "riley-obrien",
+    "name": "Riley O'Brien",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "st-louis-cardinals",
+    "lastTeamId": "st-louis-cardinals",
+    "status": "Active",
+    "position": "RP",
+    "number": "61",
+    "birthday": "1995-02-06",
+    "birthdaySource": "https://www.baseball-reference.com/players/o/obrieri01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Saved 38 games with a 4.08 ERA and 64 strikeouts in 64.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/STL/2026.shtml"
+      },
+      {
+        "text": "Pitched in 66 games with a 1.281 WHIP for a 77-85 Cardinals team",
+        "source": "https://www.baseball-reference.com/teams/STL/2026.shtml"
+      },
+      {
+        "text": "Wears No. 61 for the Cardinals",
+        "source": "https://www.baseball-reference.com/players/o/obrieri01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/o/obrieri01.shtml",
+      "https://www.baseball-reference.com/teams/STL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "andrew-abbott",
+    "slug": "andrew-abbott",
+    "name": "Andrew Abbott",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "cincinnati-reds",
+    "lastTeamId": "cincinnati-reds",
+    "status": "Active",
+    "position": "SP",
+    "number": "41",
+    "birthday": "1999-06-01",
+    "birthdaySource": "https://www.baseball-reference.com/players/a/abbotan01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 6-11 with a 4.61 ERA and 131 strikeouts over 166.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/CIN/2026.shtml"
+      },
+      {
+        "text": "Made 32 starts with a 1.452 WHIP for a 75-87 Reds team",
+        "source": "https://www.baseball-reference.com/teams/CIN/2026.shtml"
+      },
+      {
+        "text": "Wears No. 41 for the Reds",
+        "source": "https://www.baseball-reference.com/players/a/abbotan01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/a/abbotan01.shtml",
+      "https://www.baseball-reference.com/teams/CIN/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "matt-mclain",
+    "slug": "matt-mclain",
+    "name": "Matt McLain",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "cincinnati-reds",
+    "lastTeamId": "cincinnati-reds",
+    "status": "Active",
+    "position": "IF",
+    "number": "9",
+    "birthday": "1999-08-06",
+    "birthdaySource": "https://www.baseball-reference.com/players/m/mclaima01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .185 with 15 homers, 40 RBIs and a .608 OPS in 134 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/CIN/2026.shtml"
+      },
+      {
+        "text": "Scored 59 runs and stole 20 bases for a 75-87 Reds team",
+        "source": "https://www.baseball-reference.com/teams/CIN/2026.shtml"
+      },
+      {
+        "text": "Wears No. 9 for the Reds",
+        "source": "https://www.baseball-reference.com/players/m/mclaima01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/m/mclaima01.shtml",
+      "https://www.baseball-reference.com/teams/CIN/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "bubba-chandler",
+    "slug": "bubba-chandler",
+    "name": "Bubba Chandler",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "pittsburgh-pirates",
+    "lastTeamId": "pittsburgh-pirates",
+    "status": "Active",
+    "position": "SP",
+    "number": "36",
+    "birthday": "2002-09-14",
+    "birthdaySource": "https://www.baseball-reference.com/players/c/chandbu01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 8-10 with a 4.62 ERA and 140 strikeouts over 154.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/PIT/2026.shtml"
+      },
+      {
+        "text": "Made 30 starts with a 1.403 WHIP for an 82-80 Pirates team",
+        "source": "https://www.baseball-reference.com/teams/PIT/2026.shtml"
+      },
+      {
+        "text": "Wears No. 36 for the Pirates",
+        "source": "https://www.baseball-reference.com/players/c/chandbu01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/c/chandbu01.shtml",
+      "https://www.baseball-reference.com/teams/PIT/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jared-jones",
+    "slug": "jared-jones",
+    "name": "Jared Jones",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "pittsburgh-pirates",
+    "lastTeamId": "pittsburgh-pirates",
+    "status": "Active",
+    "position": "SP",
+    "number": "17",
+    "birthday": "2001-08-06",
+    "birthdaySource": "https://www.baseball-reference.com/players/j/jonesja09.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 5-6 with a 3.72 ERA and 123 strikeouts over 101.2 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/PIT/2026.shtml"
+      },
+      {
+        "text": "Made 21 starts with a 1.082 WHIP for an 82-80 Pirates team",
+        "source": "https://www.baseball-reference.com/teams/PIT/2026.shtml"
+      },
+      {
+        "text": "Wears No. 17 for the Pirates",
+        "source": "https://www.baseball-reference.com/players/j/jonesja09.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/j/jonesja09.shtml",
+      "https://www.baseball-reference.com/teams/PIT/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "andy-pages",
+    "slug": "andy-pages",
+    "name": "Andy Pages",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-dodgers",
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Active",
+    "position": "CF",
+    "number": "44",
+    "birthday": "2000-12-08",
+    "birthdaySource": "https://www.baseball-reference.com/players/p/pagesan01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .274 with 23 homers, 85 RBIs and a .811 OPS in 134 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/LAD/2026.shtml"
+      },
+      {
+        "text": "Scored 75 runs and stole 13 bases for a 100-62 Dodgers team that won the NL West and reached the NLCS",
+        "source": "https://www.baseball-reference.com/teams/LAD/2026.shtml"
+      },
+      {
+        "text": "Wears No. 44 for the Dodgers",
+        "source": "https://www.baseball-reference.com/players/p/pagesan01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/p/pagesan01.shtml",
+      "https://www.baseball-reference.com/teams/LAD/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "roki-sasaki",
+    "slug": "roki-sasaki",
+    "name": "Roki Sasaki",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "los-angeles-dodgers",
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Active",
+    "position": "SP",
+    "number": "11",
+    "birthday": "2001-11-03",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/sasakro01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 5-5 with a 4.49 ERA and 123 strikeouts over 122.1 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/LAD/2026.shtml"
+      },
+      {
+        "text": "Made 23 starts with a 1.316 WHIP for a 100-62 Dodgers team that won the NL West and reached the NLCS",
+        "source": "https://www.baseball-reference.com/teams/LAD/2026.shtml"
+      },
+      {
+        "text": "Threw a 19-strikeout perfect game in Japan in 2022",
+        "source": "https://www.baseball-reference.com/players/s/sasakro01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/sasakro01.shtml",
+      "https://www.baseball-reference.com/teams/LAD/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ethan-salas",
+    "slug": "ethan-salas",
+    "name": "Ethan Salas",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "san-diego-padres",
+    "lastTeamId": "san-diego-padres",
+    "status": "Active",
+    "position": "C",
+    "number": "8",
+    "birthday": "2006-06-01",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/salaset01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .256 with 2 homers, 5 RBIs and a .737 OPS in 16 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/SDP/2026.shtml"
+      },
+      {
+        "text": "Scored 6 runs and stole 0 bases for a 91-71 Padres team that won its Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/SDP/2026.shtml"
+      },
+      {
+        "text": "Wears No. 8 for the Padres",
+        "source": "https://www.baseball-reference.com/players/s/salaset01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/salaset01.shtml",
+      "https://www.baseball-reference.com/teams/SDP/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ty-france",
+    "slug": "ty-france",
+    "name": "Ty France",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "san-diego-padres",
+    "lastTeamId": "san-diego-padres",
+    "status": "Active",
+    "position": "1B",
+    "number": "25",
+    "birthday": "1994-07-13",
+    "birthdaySource": "https://www.baseball-reference.com/players/f/francty01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .295 with 21 homers, 72 RBIs and a .865 OPS in 133 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/SDP/2026.shtml"
+      },
+      {
+        "text": "Scored 59 runs and stole 1 bases for a 91-71 Padres team that won its Wild Card Series",
+        "source": "https://www.baseball-reference.com/teams/SDP/2026.shtml"
+      },
+      {
+        "text": "Wears No. 25 for the Padres",
+        "source": "https://www.baseball-reference.com/players/f/francty01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/f/francty01.shtml",
+      "https://www.baseball-reference.com/teams/SDP/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "bryce-eldridge",
+    "slug": "bryce-eldridge",
+    "name": "Bryce Eldridge",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "san-francisco-giants",
+    "lastTeamId": "san-francisco-giants",
+    "status": "Active",
+    "position": "1B",
+    "number": "8",
+    "birthday": "2004-10-20",
+    "birthdaySource": "https://www.baseball-reference.com/players/e/eldribr01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .269 with 17 homers, 57 RBIs and a .825 OPS in 107 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/SFG/2026.shtml"
+      },
+      {
+        "text": "Scored 50 runs and stole 1 bases for a 65-97 Giants team",
+        "source": "https://www.baseball-reference.com/teams/SFG/2026.shtml"
+      },
+      {
+        "text": "Wears No. 8 for the Giants",
+        "source": "https://www.baseball-reference.com/players/e/eldribr01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/e/eldribr01.shtml",
+      "https://www.baseball-reference.com/teams/SFG/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "casey-schmitt",
+    "slug": "casey-schmitt",
+    "name": "Casey Schmitt",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "san-francisco-giants",
+    "lastTeamId": "san-francisco-giants",
+    "status": "Active",
+    "position": "IF",
+    "number": "10",
+    "birthday": "1999-03-01",
+    "birthdaySource": "https://www.baseball-reference.com/players/s/schmica01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .271 with 21 homers, 55 RBIs and a .784 OPS in 98 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/SFG/2026.shtml"
+      },
+      {
+        "text": "Scored 47 runs and stole 9 bases for a 65-97 Giants team",
+        "source": "https://www.baseball-reference.com/teams/SFG/2026.shtml"
+      },
+      {
+        "text": "Wears No. 10 for the Giants",
+        "source": "https://www.baseball-reference.com/players/s/schmica01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/s/schmica01.shtml",
+      "https://www.baseball-reference.com/teams/SFG/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "eduardo-rodriguez",
+    "slug": "eduardo-rodriguez",
+    "name": "Eduardo Rodríguez",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "arizona-diamondbacks",
+    "lastTeamId": "arizona-diamondbacks",
+    "status": "Active",
+    "position": "SP",
+    "number": "57",
+    "birthday": "1993-04-07",
+    "birthdaySource": "https://www.baseball-reference.com/players/r/rodried05.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 16-7 with a 2.89 ERA and 143 strikeouts over 189.2 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/ARI/2026.shtml"
+      },
+      {
+        "text": "Made 32 starts with a 1.239 WHIP for an 86-76 Diamondbacks team",
+        "source": "https://www.baseball-reference.com/teams/ARI/2026.shtml"
+      },
+      {
+        "text": "Wears No. 57 for the Diamondbacks",
+        "source": "https://www.baseball-reference.com/players/r/rodried05.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/r/rodried05.shtml",
+      "https://www.baseball-reference.com/teams/ARI/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jordan-lawlar",
+    "slug": "jordan-lawlar",
+    "name": "Jordan Lawlar",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "arizona-diamondbacks",
+    "lastTeamId": "arizona-diamondbacks",
+    "status": "Active",
+    "position": "IF",
+    "number": "10",
+    "birthday": "2002-07-17",
+    "birthdaySource": "https://www.baseball-reference.com/players/l/lawlajo01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .258 with 6 homers, 16 RBIs and a .778 OPS in 44 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/ARI/2026.shtml"
+      },
+      {
+        "text": "Scored 18 runs and stole 6 bases for an 86-76 Diamondbacks team",
+        "source": "https://www.baseball-reference.com/teams/ARI/2026.shtml"
+      },
+      {
+        "text": "Was the No. 6 overall pick in the 2021 draft",
+        "source": "https://www.baseball-reference.com/players/l/lawlajo01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/l/lawlajo01.shtml",
+      "https://www.baseball-reference.com/teams/ARI/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "kyle-karros",
+    "slug": "kyle-karros",
+    "name": "Kyle Karros",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "colorado-rockies",
+    "lastTeamId": "colorado-rockies",
+    "status": "Active",
+    "position": "3B",
+    "number": "12",
+    "birthday": "2002-07-26",
+    "birthdaySource": "https://www.baseball-reference.com/players/k/karroky01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Hit .253 with 13 homers, 49 RBIs and a .761 OPS in 131 games in 2026",
+        "source": "https://www.baseball-reference.com/teams/COL/2026.shtml"
+      },
+      {
+        "text": "Scored 63 runs and stole 5 bases for a 58-104 Rockies team",
+        "source": "https://www.baseball-reference.com/teams/COL/2026.shtml"
+      },
+      {
+        "text": "Is the son of former Dodgers first baseman Eric Karros",
+        "source": "https://www.baseball-reference.com/players/k/karroky01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/k/karroky01.shtml",
+      "https://www.baseball-reference.com/teams/COL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "chase-dollander",
+    "slug": "chase-dollander",
+    "name": "Chase Dollander",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": "colorado-rockies",
+    "lastTeamId": "colorado-rockies",
+    "status": "Active",
+    "position": "SP",
+    "number": "32",
+    "birthday": "2001-10-26",
+    "birthdaySource": "https://www.baseball-reference.com/players/d/dollach01.shtml",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Went 3-3 with a 3.89 ERA and 47 strikeouts over 44.0 innings in 2026",
+        "source": "https://www.baseball-reference.com/teams/COL/2026.shtml"
+      },
+      {
+        "text": "Made 3 starts with a 1.295 WHIP for a 58-104 Rockies team",
+        "source": "https://www.baseball-reference.com/teams/COL/2026.shtml"
+      },
+      {
+        "text": "Was the No. 9 overall pick in the 2023 draft",
+        "source": "https://www.baseball-reference.com/players/d/dollach01.shtml"
+      }
+    ],
+    "sources": [
+      "https://www.baseball-reference.com/players/d/dollach01.shtml",
+      "https://www.baseball-reference.com/teams/COL/2026.shtml"
+    ],
+    "lastVerified": "2026-10-29"
   }
 ]
