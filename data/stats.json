@@ -40522,6 +40522,1502 @@
     "isDemo": false
   },
   {
+    "playerId": "te-hina-paopao",
+    "league": "wnba",
+    "teamId": "atlanta-dream",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "35"
+      },
+      {
+        "label": "PPG",
+        "value": "3.7"
+      },
+      {
+        "label": "RPG",
+        "value": "0.8"
+      },
+      {
+        "label": "APG",
+        "value": "1.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "35.4"
+      },
+      {
+        "label": "3P%",
+        "value": "35.7"
+      },
+      {
+        "label": "FT%",
+        "value": "90.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/te-hina-paopao-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "madina-okot",
+    "league": "wnba",
+    "teamId": "atlanta-dream",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "42"
+      },
+      {
+        "label": "PPG",
+        "value": "5.4"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "0.3"
+      },
+      {
+        "label": "SPG",
+        "value": "0.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "58.0"
+      },
+      {
+        "label": "3P%",
+        "value": "11.1"
+      },
+      {
+        "label": "FT%",
+        "value": "76.8"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/madina-okot-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "gabriela-jaquez",
+    "league": "wnba",
+    "teamId": "chicago-sky",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "39"
+      },
+      {
+        "label": "PPG",
+        "value": "7.1"
+      },
+      {
+        "label": "RPG",
+        "value": "3.0"
+      },
+      {
+        "label": "APG",
+        "value": "0.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "44.0"
+      },
+      {
+        "label": "3P%",
+        "value": "26.8"
+      },
+      {
+        "label": "FT%",
+        "value": "81.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/gabriela-jaquez-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "courtney-vandersloot",
+    "league": "wnba",
+    "teamId": "chicago-sky",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "PPG",
+        "value": "9.6"
+      },
+      {
+        "label": "RPG",
+        "value": "2.9"
+      },
+      {
+        "label": "APG",
+        "value": "5.4"
+      },
+      {
+        "label": "SPG",
+        "value": "1.1"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "45.5"
+      },
+      {
+        "label": "3P%",
+        "value": "40.9"
+      },
+      {
+        "label": "FT%",
+        "value": "78.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/courtney-vandersloot-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "hailey-van-lith",
+    "league": "wnba",
+    "teamId": "connecticut-sun",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "22"
+      },
+      {
+        "label": "PPG",
+        "value": "5.5"
+      },
+      {
+        "label": "RPG",
+        "value": "1.6"
+      },
+      {
+        "label": "APG",
+        "value": "2.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "FG%",
+        "value": "42.5"
+      },
+      {
+        "label": "3P%",
+        "value": "32.4"
+      },
+      {
+        "label": "FT%",
+        "value": "85.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/hailey-van-lith-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "diamond-miller",
+    "league": "wnba",
+    "teamId": "connecticut-sun",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "43"
+      },
+      {
+        "label": "PPG",
+        "value": "9.8"
+      },
+      {
+        "label": "RPG",
+        "value": "2.7"
+      },
+      {
+        "label": "APG",
+        "value": "1.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "36.5"
+      },
+      {
+        "label": "3P%",
+        "value": "32.5"
+      },
+      {
+        "label": "FT%",
+        "value": "77.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/diamond-miller-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "aziaha-james",
+    "league": "wnba",
+    "teamId": "dallas-wings",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "39"
+      },
+      {
+        "label": "PPG",
+        "value": "6.1"
+      },
+      {
+        "label": "RPG",
+        "value": "2.4"
+      },
+      {
+        "label": "APG",
+        "value": "1.3"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "FG%",
+        "value": "38.8"
+      },
+      {
+        "label": "3P%",
+        "value": "24.6"
+      },
+      {
+        "label": "FT%",
+        "value": "73.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/aziaha-james-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "awak-kuier",
+    "league": "wnba",
+    "teamId": "dallas-wings",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "41"
+      },
+      {
+        "label": "PPG",
+        "value": "6.3"
+      },
+      {
+        "label": "RPG",
+        "value": "3.9"
+      },
+      {
+        "label": "APG",
+        "value": "1.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "1.8"
+      },
+      {
+        "label": "FG%",
+        "value": "50.8"
+      },
+      {
+        "label": "3P%",
+        "value": "39.0"
+      },
+      {
+        "label": "FT%",
+        "value": "71.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/awak-kuier-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kaitlyn-chen",
+    "league": "wnba",
+    "teamId": "golden-state-valkyries",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "44"
+      },
+      {
+        "label": "PPG",
+        "value": "7.2"
+      },
+      {
+        "label": "RPG",
+        "value": "1.1"
+      },
+      {
+        "label": "APG",
+        "value": "1.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "52.7"
+      },
+      {
+        "label": "3P%",
+        "value": "41.7"
+      },
+      {
+        "label": "FT%",
+        "value": "72.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/kaitlyn-chen-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cecilia-zandalasini",
+    "league": "wnba",
+    "teamId": "golden-state-valkyries",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "37"
+      },
+      {
+        "label": "PPG",
+        "value": "8.6"
+      },
+      {
+        "label": "RPG",
+        "value": "2.1"
+      },
+      {
+        "label": "APG",
+        "value": "1.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "FG%",
+        "value": "39.3"
+      },
+      {
+        "label": "3P%",
+        "value": "32.4"
+      },
+      {
+        "label": "FT%",
+        "value": "82.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/cecilia-zandalasini-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "raven-johnson",
+    "league": "wnba",
+    "teamId": "indiana-fever",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "39"
+      },
+      {
+        "label": "PPG",
+        "value": "3.1"
+      },
+      {
+        "label": "RPG",
+        "value": "1.7"
+      },
+      {
+        "label": "APG",
+        "value": "1.2"
+      },
+      {
+        "label": "SPG",
+        "value": "0.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "FG%",
+        "value": "40.8"
+      },
+      {
+        "label": "3P%",
+        "value": "23.4"
+      },
+      {
+        "label": "FT%",
+        "value": "69.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/raven-johnson-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "makayla-timpson",
+    "league": "wnba",
+    "teamId": "indiana-fever",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "43"
+      },
+      {
+        "label": "PPG",
+        "value": "5.7"
+      },
+      {
+        "label": "RPG",
+        "value": "4.9"
+      },
+      {
+        "label": "APG",
+        "value": "0.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.8"
+      },
+      {
+        "label": "FG%",
+        "value": "64.1"
+      },
+      {
+        "label": "FT%",
+        "value": "69.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/makayla-timpson-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dana-evans",
+    "league": "wnba",
+    "teamId": "las-vegas-aces",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "14"
+      },
+      {
+        "label": "PPG",
+        "value": "3.6"
+      },
+      {
+        "label": "RPG",
+        "value": "1.4"
+      },
+      {
+        "label": "APG",
+        "value": "2.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "28.6"
+      },
+      {
+        "label": "3P%",
+        "value": "38.7"
+      },
+      {
+        "label": "FT%",
+        "value": "50.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/dana-evans-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cheyenne-parker-tyus",
+    "league": "wnba",
+    "teamId": "las-vegas-aces",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "31"
+      },
+      {
+        "label": "PPG",
+        "value": "5.4"
+      },
+      {
+        "label": "RPG",
+        "value": "2.9"
+      },
+      {
+        "label": "APG",
+        "value": "0.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "FG%",
+        "value": "51.9"
+      },
+      {
+        "label": "3P%",
+        "value": "52.9"
+      },
+      {
+        "label": "FT%",
+        "value": "77.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/cheyenne-parker-tyus-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "erica-wheeler",
+    "league": "wnba",
+    "teamId": "los-angeles-sparks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "43"
+      },
+      {
+        "label": "PPG",
+        "value": "9.0"
+      },
+      {
+        "label": "RPG",
+        "value": "1.9"
+      },
+      {
+        "label": "APG",
+        "value": "5.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "40.2"
+      },
+      {
+        "label": "3P%",
+        "value": "32.6"
+      },
+      {
+        "label": "FT%",
+        "value": "87.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/erica-wheeler-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "monique-akoa-makani",
+    "league": "wnba",
+    "teamId": "los-angeles-sparks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "PPG",
+        "value": "7.6"
+      },
+      {
+        "label": "RPG",
+        "value": "1.8"
+      },
+      {
+        "label": "APG",
+        "value": "2.2"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "41.4"
+      },
+      {
+        "label": "3P%",
+        "value": "38.5"
+      },
+      {
+        "label": "FT%",
+        "value": "84.5"
+      }
+    ],
+    "note": "Combined 2026 line with the Phoenix Mercury and Los Angeles Sparks.",
+    "source": "https://www.statmuse.com/wnba/ask/monique-akoa-makani-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "anastasiia-olairi-kosu",
+    "league": "wnba",
+    "teamId": "minnesota-lynx",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "PPG",
+        "value": "3.6"
+      },
+      {
+        "label": "RPG",
+        "value": "2.0"
+      },
+      {
+        "label": "APG",
+        "value": "0.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "FG%",
+        "value": "47.6"
+      },
+      {
+        "label": "3P%",
+        "value": "66.7"
+      },
+      {
+        "label": "FT%",
+        "value": "84.8"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/anastasiia-olairi-kosu-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dorka-juhasz",
+    "league": "wnba",
+    "teamId": "minnesota-lynx",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "21"
+      },
+      {
+        "label": "PPG",
+        "value": "3.6"
+      },
+      {
+        "label": "RPG",
+        "value": "3.1"
+      },
+      {
+        "label": "APG",
+        "value": "1.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.6"
+      },
+      {
+        "label": "FG%",
+        "value": "37.0"
+      },
+      {
+        "label": "3P%",
+        "value": "28.8"
+      },
+      {
+        "label": "FT%",
+        "value": "25.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/dorka-juhasz-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "han-xu",
+    "league": "wnba",
+    "teamId": "new-york-liberty",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "44"
+      },
+      {
+        "label": "PPG",
+        "value": "6.3"
+      },
+      {
+        "label": "RPG",
+        "value": "2.5"
+      },
+      {
+        "label": "APG",
+        "value": "0.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.6"
+      },
+      {
+        "label": "FG%",
+        "value": "50.0"
+      },
+      {
+        "label": "3P%",
+        "value": "39.1"
+      },
+      {
+        "label": "FT%",
+        "value": "86.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/han-xu-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "marine-johannes",
+    "league": "wnba",
+    "teamId": "new-york-liberty",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "41"
+      },
+      {
+        "label": "PPG",
+        "value": "8.2"
+      },
+      {
+        "label": "RPG",
+        "value": "2.0"
+      },
+      {
+        "label": "APG",
+        "value": "2.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "40.6"
+      },
+      {
+        "label": "3P%",
+        "value": "37.9"
+      },
+      {
+        "label": "FT%",
+        "value": "84.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/marine-johannes-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jovana-nogic",
+    "league": "wnba",
+    "teamId": "phoenix-mercury",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "16"
+      },
+      {
+        "label": "PPG",
+        "value": "10.4"
+      },
+      {
+        "label": "RPG",
+        "value": "1.1"
+      },
+      {
+        "label": "APG",
+        "value": "1.6"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "42.0"
+      },
+      {
+        "label": "3P%",
+        "value": "42.1"
+      },
+      {
+        "label": "FT%",
+        "value": "89.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/jovana-nogic-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "valeriane-ayayi",
+    "league": "wnba",
+    "teamId": "phoenix-mercury",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "35"
+      },
+      {
+        "label": "PPG",
+        "value": "6.3"
+      },
+      {
+        "label": "RPG",
+        "value": "2.8"
+      },
+      {
+        "label": "APG",
+        "value": "1.3"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "FG%",
+        "value": "36.4"
+      },
+      {
+        "label": "3P%",
+        "value": "27.5"
+      },
+      {
+        "label": "FT%",
+        "value": "81.8"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/valeriane-ayayi-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "serah-williams",
+    "league": "wnba",
+    "teamId": "portland-fire",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "39"
+      },
+      {
+        "label": "PPG",
+        "value": "4.3"
+      },
+      {
+        "label": "RPG",
+        "value": "2.7"
+      },
+      {
+        "label": "APG",
+        "value": "0.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "FG%",
+        "value": "54.5"
+      },
+      {
+        "label": "3P%",
+        "value": "50.0"
+      },
+      {
+        "label": "FT%",
+        "value": "61.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/serah-williams-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "nyadiew-puoch",
+    "league": "wnba",
+    "teamId": "portland-fire",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "42"
+      },
+      {
+        "label": "PPG",
+        "value": "4.3"
+      },
+      {
+        "label": "RPG",
+        "value": "2.2"
+      },
+      {
+        "label": "APG",
+        "value": "0.8"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "36.6"
+      },
+      {
+        "label": "3P%",
+        "value": "24.4"
+      },
+      {
+        "label": "FT%",
+        "value": "63.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/nyadiew-puoch-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "zia-cooke",
+    "league": "wnba",
+    "teamId": "seattle-storm",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "41"
+      },
+      {
+        "label": "PPG",
+        "value": "7.5"
+      },
+      {
+        "label": "RPG",
+        "value": "1.7"
+      },
+      {
+        "label": "APG",
+        "value": "1.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "34.7"
+      },
+      {
+        "label": "3P%",
+        "value": "29.4"
+      },
+      {
+        "label": "FT%",
+        "value": "80.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/zia-cooke-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jordan-horston",
+    "league": "wnba",
+    "teamId": "seattle-storm",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "37"
+      },
+      {
+        "label": "PPG",
+        "value": "4.5"
+      },
+      {
+        "label": "RPG",
+        "value": "3.5"
+      },
+      {
+        "label": "APG",
+        "value": "1.3"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "FG%",
+        "value": "36.2"
+      },
+      {
+        "label": "3P%",
+        "value": "21.3"
+      },
+      {
+        "label": "FT%",
+        "value": "67.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/jordan-horston-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "nyara-sabally",
+    "league": "wnba",
+    "teamId": "toronto-tempo",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "24"
+      },
+      {
+        "label": "PPG",
+        "value": "12.3"
+      },
+      {
+        "label": "RPG",
+        "value": "5.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.9"
+      },
+      {
+        "label": "FG%",
+        "value": "52.7"
+      },
+      {
+        "label": "3P%",
+        "value": "39.2"
+      },
+      {
+        "label": "FT%",
+        "value": "72.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/nyara-sabally-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "isabelle-harrison",
+    "league": "wnba",
+    "teamId": "toronto-tempo",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "32"
+      },
+      {
+        "label": "PPG",
+        "value": "12.8"
+      },
+      {
+        "label": "RPG",
+        "value": "6.9"
+      },
+      {
+        "label": "APG",
+        "value": "1.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "FG%",
+        "value": "42.5"
+      },
+      {
+        "label": "3P%",
+        "value": "27.8"
+      },
+      {
+        "label": "FT%",
+        "value": "73.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/isabelle-harrison-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cotie-mcmahon",
+    "league": "wnba",
+    "teamId": "washington-mystics",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "42"
+      },
+      {
+        "label": "PPG",
+        "value": "6.6"
+      },
+      {
+        "label": "RPG",
+        "value": "2.9"
+      },
+      {
+        "label": "APG",
+        "value": "1.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "40.9"
+      },
+      {
+        "label": "3P%",
+        "value": "30.1"
+      },
+      {
+        "label": "FT%",
+        "value": "60.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/cotie-mcmahon-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "michaela-onyenwere",
+    "league": "wnba",
+    "teamId": "washington-mystics",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "40"
+      },
+      {
+        "label": "PPG",
+        "value": "9.0"
+      },
+      {
+        "label": "RPG",
+        "value": "2.6"
+      },
+      {
+        "label": "APG",
+        "value": "1.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "FG%",
+        "value": "43.8"
+      },
+      {
+        "label": "3P%",
+        "value": "39.5"
+      },
+      {
+        "label": "FT%",
+        "value": "84.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/wnba/ask/michaela-onyenwere-2026-regular-season-stats",
+    "throughDate": "2026-09-24",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "trey-mcbride",
     "league": "nfl",
     "teamId": "arizona-cardinals",

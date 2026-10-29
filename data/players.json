@@ -27655,6 +27655,1086 @@
     "lastVerified": "2026-10-27"
   },
   {
+    "id": "te-hina-paopao",
+    "slug": "te-hina-paopao",
+    "name": "Te-Hina Paopao",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "atlanta-dream",
+    "lastTeamId": "atlanta-dream",
+    "status": "Active",
+    "position": "G",
+    "number": "2",
+    "birthday": "2002-08-21",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/te-hina-paopao-344/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Appeared in 35 games for Atlanta in 2026, averaging 3.7 points and 1.4 assists",
+        "source": "https://www.statmuse.com/wnba/ask/te-hina-paopao-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 35.7% of her threes and 90.0% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/te-hina-paopao-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-nine guard from Oceanside, California; South Carolina product taken 18th overall in 2025",
+        "source": "https://www.statmuse.com/wnba/player/te-hina-paopao-344/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/te-hina-paopao-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/te-hina-paopao-344/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "madina-okot",
+    "slug": "madina-okot",
+    "name": "Madina Okot",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "atlanta-dream",
+    "lastTeamId": "atlanta-dream",
+    "status": "Active",
+    "position": "C",
+    "number": "11",
+    "birthday": "2004-08-23",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/madina-okot-1775/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 42 games as a rookie for Atlanta in 2026, averaging 5.4 points and 3.3 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/madina-okot-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 58.0% from the field in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/madina-okot-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-six center born in Mumias, Kenya; picked 13th overall out of South Carolina in 2026",
+        "source": "https://www.statmuse.com/wnba/player/madina-okot-1775/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/madina-okot-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/madina-okot-1775/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "gabriela-jaquez",
+    "slug": "gabriela-jaquez",
+    "name": "Gabriela Jaquez",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "chicago-sky",
+    "lastTeamId": "chicago-sky",
+    "status": "Active",
+    "position": "G",
+    "number": "11",
+    "birthday": "2003-11-19",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/gabriela-jaquez-1753/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 39 games as a rookie for Chicago in 2026, averaging 7.1 points and 3.0 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/gabriela-jaquez-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 81.5% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/gabriela-jaquez-2026-regular-season-stats"
+      },
+      {
+        "text": "Chicago drafted the six-foot UCLA guard fifth overall in 2026",
+        "source": "https://www.statmuse.com/wnba/player/gabriela-jaquez-1753/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/gabriela-jaquez-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/gabriela-jaquez-1753/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "courtney-vandersloot",
+    "slug": "courtney-vandersloot",
+    "name": "Courtney Vandersloot",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "chicago-sky",
+    "lastTeamId": "chicago-sky",
+    "status": "Active",
+    "position": "G",
+    "number": "22",
+    "birthday": "1989-02-08",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/courtney-vandersloot-17/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.6 points and 5.4 assists in 27 games for Chicago in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/courtney-vandersloot-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 40.9% from three-point range in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/courtney-vandersloot-2026-regular-season-stats"
+      },
+      {
+        "text": "Gonzaga point guard drafted third overall in 2011",
+        "source": "https://www.statmuse.com/wnba/player/courtney-vandersloot-17/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/courtney-vandersloot-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/courtney-vandersloot-17/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "hailey-van-lith",
+    "slug": "hailey-van-lith",
+    "name": "Hailey Van Lith",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "connecticut-sun",
+    "lastTeamId": "connecticut-sun",
+    "status": "Active",
+    "position": "G",
+    "number": "2",
+    "birthday": "2001-09-09",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/hailey-van-lith-265/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 5.5 points and 2.1 assists in 22 games for Connecticut in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/hailey-van-lith-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 85.7% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/hailey-van-lith-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-nine guard from Wenatchee, Washington; picked 11th overall out of TCU in 2025",
+        "source": "https://www.statmuse.com/wnba/player/hailey-van-lith-265/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/hailey-van-lith-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/hailey-van-lith-265/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "diamond-miller",
+    "slug": "diamond-miller",
+    "name": "Diamond Miller",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "connecticut-sun",
+    "lastTeamId": "connecticut-sun",
+    "status": "Active",
+    "position": "F",
+    "number": "1",
+    "birthday": "2001-02-11",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/diamond-miller-230/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.8 points and 2.7 rebounds in 43 games for Connecticut in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/diamond-miller-2026-regular-season-stats"
+      },
+      {
+        "text": "Hit 32.5% of her three-pointers in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/diamond-miller-2026-regular-season-stats"
+      },
+      {
+        "text": "Maryland forward from Montclair, New Jersey; selected second overall in 2023",
+        "source": "https://www.statmuse.com/wnba/player/diamond-miller-230/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/diamond-miller-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/diamond-miller-230/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "aziaha-james",
+    "slug": "aziaha-james",
+    "name": "Aziaha James",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "dallas-wings",
+    "lastTeamId": "dallas-wings",
+    "status": "Active",
+    "position": "G",
+    "number": "10",
+    "birthday": "2002-11-19",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/aziaha-james-239/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 6.1 points and 2.4 rebounds over 39 games for Dallas in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/aziaha-james-2026-regular-season-stats"
+      },
+      {
+        "text": "Added 0.9 steals per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/aziaha-james-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-ten NC State guard from Virginia Beach, Virginia; taken 12th overall in 2025",
+        "source": "https://www.statmuse.com/wnba/player/aziaha-james-239/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/aziaha-james-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/aziaha-james-239/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "awak-kuier",
+    "slug": "awak-kuier",
+    "name": "Awak Kuier",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "dallas-wings",
+    "lastTeamId": "dallas-wings",
+    "status": "Active",
+    "position": "F",
+    "number": "28",
+    "birthday": "2001-08-19",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/awak-kuier-235/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 6.3 points, 3.9 rebounds and 1.8 blocks in 41 games for Dallas in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/awak-kuier-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 50.8% from the field and 39.0% from three in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/awak-kuier-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-six forward born in Cairo, Egypt; the No. 2 pick in the 2021 draft",
+        "source": "https://www.statmuse.com/wnba/player/awak-kuier-235/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/awak-kuier-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/awak-kuier-235/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "kaitlyn-chen",
+    "slug": "kaitlyn-chen",
+    "name": "Kaitlyn Chen",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "golden-state-valkyries",
+    "lastTeamId": "golden-state-valkyries",
+    "status": "Active",
+    "position": "G",
+    "number": "2",
+    "birthday": "2002-02-22",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/kaitlyn-chen-333/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played all 44 games for Golden State in 2026, averaging 7.2 points and 1.9 assists",
+        "source": "https://www.statmuse.com/wnba/ask/kaitlyn-chen-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 52.7% from the field and 41.7% from three in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/kaitlyn-chen-2026-regular-season-stats"
+      },
+      {
+        "text": "UConn guard from San Marino, California; a third-round pick (No. 30) in 2025",
+        "source": "https://www.statmuse.com/wnba/player/kaitlyn-chen-333/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/kaitlyn-chen-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/kaitlyn-chen-333/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cecilia-zandalasini",
+    "slug": "cecilia-zandalasini",
+    "name": "Cecilia Zandalasini",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "golden-state-valkyries",
+    "lastTeamId": "golden-state-valkyries",
+    "status": "Active",
+    "position": "F",
+    "number": "24",
+    "birthday": "1996-03-16",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/cecilia-zandalasini-350/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 8.6 points, 2.1 rebounds and 1.7 assists in 37 games for Golden State in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/cecilia-zandalasini-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 82.6% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/cecilia-zandalasini-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-two forward born in Broni, Italy",
+        "source": "https://www.statmuse.com/wnba/player/cecilia-zandalasini-350/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/cecilia-zandalasini-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/cecilia-zandalasini-350/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "raven-johnson",
+    "slug": "raven-johnson",
+    "name": "Raven Johnson",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "indiana-fever",
+    "lastTeamId": "indiana-fever",
+    "status": "Active",
+    "position": "G",
+    "number": "23",
+    "birthday": "2003-03-04",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/raven-johnson-1786/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 39 games as a rookie for Indiana in 2026, averaging 3.1 points and 1.2 assists",
+        "source": "https://www.statmuse.com/wnba/ask/raven-johnson-2026-regular-season-stats"
+      },
+      {
+        "text": "Pulled down 1.7 rebounds per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/raven-johnson-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-eight South Carolina guard from Atlanta; drafted 10th overall in 2026",
+        "source": "https://www.statmuse.com/wnba/player/raven-johnson-1786/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/raven-johnson-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/raven-johnson-1786/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "makayla-timpson",
+    "slug": "makayla-timpson",
+    "name": "Makayla Timpson",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "indiana-fever",
+    "lastTeamId": "indiana-fever",
+    "status": "Active",
+    "position": "F/C",
+    "number": "21",
+    "birthday": "2002-09-20",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/makayla-timpson-382/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 5.7 points and 4.9 rebounds in 43 games for Indiana in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/makayla-timpson-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 64.1% from the field and blocked 0.8 shots per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/makayla-timpson-2026-regular-season-stats"
+      },
+      {
+        "text": "Florida State forward from Edison, Georgia; drafted 19th overall in 2025",
+        "source": "https://www.statmuse.com/wnba/player/makayla-timpson-382/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/makayla-timpson-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/makayla-timpson-382/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "dana-evans",
+    "slug": "dana-evans",
+    "name": "Dana Evans",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "las-vegas-aces",
+    "lastTeamId": "las-vegas-aces",
+    "status": "Active",
+    "position": "G",
+    "number": "11",
+    "birthday": "1998-08-01",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/dana-evans-191/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 14 games for Las Vegas in 2026, averaging 3.6 points and 2.1 assists",
+        "source": "https://www.statmuse.com/wnba/ask/dana-evans-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 38.7% of her threes in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/dana-evans-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-six Louisville guard from Gary, Indiana; a 2021 second-round pick",
+        "source": "https://www.statmuse.com/wnba/player/dana-evans-191/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/dana-evans-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/dana-evans-191/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cheyenne-parker-tyus",
+    "slug": "cheyenne-parker-tyus",
+    "name": "Cheyenne Parker-Tyus",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "las-vegas-aces",
+    "lastTeamId": "las-vegas-aces",
+    "status": "Active",
+    "position": "F",
+    "number": "32",
+    "birthday": "1992-08-22",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/cheyenne-parker-tyus-117/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 5.4 points and 2.9 rebounds in 31 games for Las Vegas in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/cheyenne-parker-tyus-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 51.9% from the field and 52.9% from three in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/cheyenne-parker-tyus-2026-regular-season-stats"
+      },
+      {
+        "text": "Middle Tennessee forward from Queens, New York; drafted fifth overall in 2015",
+        "source": "https://www.statmuse.com/wnba/player/cheyenne-parker-tyus-117/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/cheyenne-parker-tyus-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/cheyenne-parker-tyus-117/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "erica-wheeler",
+    "slug": "erica-wheeler",
+    "name": "Erica Wheeler",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "los-angeles-sparks",
+    "lastTeamId": "los-angeles-sparks",
+    "status": "Active",
+    "position": "G",
+    "number": "17",
+    "birthday": "1991-05-02",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/erica-wheeler-12/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.0 points and 5.0 assists in 43 games for Los Angeles in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/erica-wheeler-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 87.2% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/erica-wheeler-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-seven Rutgers guard from Miami who went undrafted",
+        "source": "https://www.statmuse.com/wnba/player/erica-wheeler-12/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/erica-wheeler-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/erica-wheeler-12/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "monique-akoa-makani",
+    "slug": "monique-akoa-makani",
+    "name": "Monique Akoa Makani",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "los-angeles-sparks",
+    "lastTeamId": "los-angeles-sparks",
+    "status": "Active",
+    "position": "G",
+    "number": "1",
+    "birthday": "2001-02-04",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/monique-akoa-makani-400/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 7.6 points and 2.2 assists over 30 games with Phoenix and Los Angeles in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/monique-akoa-makani-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 38.5% from three and 84.5% from the free-throw line in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/monique-akoa-makani-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-eleven guard born in Edea, Cameroon",
+        "source": "https://www.statmuse.com/wnba/player/monique-akoa-makani-400/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/monique-akoa-makani-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/monique-akoa-makani-400/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "anastasiia-olairi-kosu",
+    "slug": "anastasiia-olairi-kosu",
+    "name": "Anastasiia Olairi Kosu",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "minnesota-lynx",
+    "lastTeamId": "minnesota-lynx",
+    "status": "Active",
+    "position": "F",
+    "number": "7",
+    "birthday": "2005-04-21",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/anastasiia-olairi-kosu-227/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 3.6 points and 2.0 rebounds in 30 games for Minnesota in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/anastasiia-olairi-kosu-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 84.8% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/anastasiia-olairi-kosu-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-one forward born in Kursk, Russia, in 2005; the 15th pick in 2025",
+        "source": "https://www.statmuse.com/wnba/player/anastasiia-olairi-kosu-227/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/anastasiia-olairi-kosu-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/anastasiia-olairi-kosu-227/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "dorka-juhasz",
+    "slug": "dorka-juhasz",
+    "name": "Dorka Juhász",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "minnesota-lynx",
+    "lastTeamId": "minnesota-lynx",
+    "status": "Active",
+    "position": "F",
+    "number": "14",
+    "birthday": "1999-12-18",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/dorka-juh%C3%A1sz-229/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Appeared in 21 games for Minnesota in 2026, averaging 3.6 points and 3.1 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/dorka-juhasz-2026-regular-season-stats"
+      },
+      {
+        "text": "Added 1.4 assists and 0.6 blocks per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/dorka-juhasz-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-five forward from Pécs, Hungary; played at UConn and was the 16th pick in 2023",
+        "source": "https://www.statmuse.com/wnba/player/dorka-juh%C3%A1sz-229/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/dorka-juhasz-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/dorka-juh%C3%A1sz-229/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "han-xu",
+    "slug": "han-xu",
+    "name": "Han Xu",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "new-york-liberty",
+    "lastTeamId": "new-york-liberty",
+    "status": "Active",
+    "position": "C",
+    "number": "21",
+    "birthday": "1999-10-31",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/han-xu-494/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played all 44 games for New York in 2026, averaging 6.3 points and 2.5 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/han-xu-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 50.0% from the field, 39.1% from three and 86.1% from the line in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/han-xu-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-eleven center born in Shijiazhuang, China",
+        "source": "https://www.statmuse.com/wnba/player/han-xu-494/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/han-xu-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/han-xu-494/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "marine-johannes",
+    "slug": "marine-johannes",
+    "name": "Marine Johannès",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "new-york-liberty",
+    "lastTeamId": "new-york-liberty",
+    "status": "Active",
+    "position": "G",
+    "number": "23",
+    "birthday": "1995-01-21",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/marine-johannes-278/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 8.2 points and 2.4 assists in 41 games for New York in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/marine-johannes-2026-regular-season-stats"
+      },
+      {
+        "text": "Hit 37.9% of her three-pointers in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/marine-johannes-2026-regular-season-stats"
+      },
+      {
+        "text": "Five-foot-ten guard from Lisieux, France",
+        "source": "https://www.statmuse.com/wnba/player/marine-johannes-278/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/marine-johannes-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/marine-johannes-278/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jovana-nogic",
+    "slug": "jovana-nogic",
+    "name": "Jovana Nogić",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "phoenix-mercury",
+    "lastTeamId": "phoenix-mercury",
+    "status": "Active",
+    "position": "G",
+    "number": "29",
+    "birthday": "1997-12-17",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/jovana-nogic-1814/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 10.4 points in 16 games for Phoenix in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/jovana-nogic-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 42.1% from three and 89.5% from the line in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/jovana-nogic-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot guard born in Belgrade, Serbia; played college ball at Providence",
+        "source": "https://www.statmuse.com/wnba/player/jovana-nogic-1814/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/jovana-nogic-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/jovana-nogic-1814/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "valeriane-ayayi",
+    "slug": "valeriane-ayayi",
+    "name": "Valériane Ayayi",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "phoenix-mercury",
+    "lastTeamId": "phoenix-mercury",
+    "status": "Active",
+    "position": "F",
+    "number": "11",
+    "birthday": "1994-04-29",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/valeriane-ayayi-165/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 6.3 points and 2.8 rebounds in 35 games for Phoenix in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/valeriane-ayayi-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 81.8% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/valeriane-ayayi-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-one forward born in Bordeaux, France",
+        "source": "https://www.statmuse.com/wnba/player/valeriane-ayayi-165/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/valeriane-ayayi-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/valeriane-ayayi-165/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "serah-williams",
+    "slug": "serah-williams",
+    "name": "Serah Williams",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "portland-fire",
+    "lastTeamId": "portland-fire",
+    "status": "Active",
+    "position": "F",
+    "number": "25",
+    "birthday": "2004-01-17",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/serah-williams-1788/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 39 games as a rookie for Portland in 2026, averaging 4.3 points and 2.7 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/serah-williams-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 54.5% from the field in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/serah-williams-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-four UConn forward from Brooklyn, New York; drafted 33rd overall in 2026",
+        "source": "https://www.statmuse.com/wnba/player/serah-williams-1788/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/serah-williams-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/serah-williams-1788/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "nyadiew-puoch",
+    "slug": "nyadiew-puoch",
+    "name": "Nyadiew Puoch",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "portland-fire",
+    "lastTeamId": "portland-fire",
+    "status": "Active",
+    "position": "F",
+    "number": "13",
+    "birthday": "2004-06-23",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/nyadiew-puoch-352/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 42 games for Portland in 2026, averaging 4.3 points and 2.2 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/nyadiew-puoch-2026-regular-season-stats"
+      },
+      {
+        "text": "Added 0.7 steals per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/nyadiew-puoch-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-three forward selected 12th overall in the 2024 draft",
+        "source": "https://www.statmuse.com/wnba/player/nyadiew-puoch-352/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/nyadiew-puoch-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/nyadiew-puoch-352/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "zia-cooke",
+    "slug": "zia-cooke",
+    "name": "Zia Cooke",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "seattle-storm",
+    "lastTeamId": "seattle-storm",
+    "status": "Active",
+    "position": "G",
+    "number": "7",
+    "birthday": "2001-01-09",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/zia-cooke-170/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 7.5 points in 41 games for Seattle in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/zia-cooke-2026-regular-season-stats"
+      },
+      {
+        "text": "Made 80.6% of her free throws in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/zia-cooke-2026-regular-season-stats"
+      },
+      {
+        "text": "South Carolina guard from Toledo, Ohio; drafted 10th overall in 2023",
+        "source": "https://www.statmuse.com/wnba/player/zia-cooke-170/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/zia-cooke-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/zia-cooke-170/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jordan-horston",
+    "slug": "jordan-horston",
+    "name": "Jordan Horston",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "seattle-storm",
+    "lastTeamId": "seattle-storm",
+    "status": "Active",
+    "position": "F",
+    "number": "23",
+    "birthday": "2001-05-21",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/jordan-horston-218/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 4.5 points, 3.5 rebounds and 1.0 steal in 37 games for Seattle in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/jordan-horston-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-two forward from Columbus, Ohio",
+        "source": "https://www.statmuse.com/wnba/player/jordan-horston-218/bio"
+      },
+      {
+        "text": "Tennessee product drafted ninth overall in 2023",
+        "source": "https://www.statmuse.com/wnba/player/jordan-horston-218/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/jordan-horston-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/jordan-horston-218/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "nyara-sabally",
+    "slug": "nyara-sabally",
+    "name": "Nyara Sabally",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "toronto-tempo",
+    "lastTeamId": "toronto-tempo",
+    "status": "Active",
+    "position": "F",
+    "number": "8",
+    "birthday": "2000-02-26",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/nyara-sabally-246/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.3 points and 5.3 rebounds in 24 games for Toronto in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/nyara-sabally-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 52.7% from the field and 39.2% from three in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/nyara-sabally-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-five Oregon forward from Berlin, Germany; drafted fifth overall in 2022",
+        "source": "https://www.statmuse.com/wnba/player/nyara-sabally-246/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/nyara-sabally-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/nyara-sabally-246/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "isabelle-harrison",
+    "slug": "isabelle-harrison",
+    "name": "Isabelle Harrison",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "toronto-tempo",
+    "lastTeamId": "toronto-tempo",
+    "status": "Active",
+    "position": "F",
+    "number": "21",
+    "birthday": "1993-09-27",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/isabelle-harrison-436/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 12.8 points and 6.9 rebounds in 32 games for Toronto in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/isabelle-harrison-2026-regular-season-stats"
+      },
+      {
+        "text": "Added 0.7 blocks per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/isabelle-harrison-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot-five Tennessee forward from Nashville; drafted 12th overall in 2015",
+        "source": "https://www.statmuse.com/wnba/player/isabelle-harrison-436/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/isabelle-harrison-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/isabelle-harrison-436/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cotie-mcmahon",
+    "slug": "cotie-mcmahon",
+    "name": "Cotie McMahon",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "washington-mystics",
+    "lastTeamId": "washington-mystics",
+    "status": "Active",
+    "position": "G",
+    "number": "23",
+    "birthday": "2004-05-04",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/cotie-mcmahon-1782/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played 42 games as a rookie for Washington in 2026, averaging 6.6 points and 2.9 rebounds",
+        "source": "https://www.statmuse.com/wnba/ask/cotie-mcmahon-2026-regular-season-stats"
+      },
+      {
+        "text": "Added 1.9 assists per game in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/cotie-mcmahon-2026-regular-season-stats"
+      },
+      {
+        "text": "Six-foot guard from Dayton, Ohio; Ole Miss product drafted 11th overall in 2026",
+        "source": "https://www.statmuse.com/wnba/player/cotie-mcmahon-1782/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/cotie-mcmahon-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/cotie-mcmahon-1782/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "michaela-onyenwere",
+    "slug": "michaela-onyenwere",
+    "name": "Michaela Onyenwere",
+    "leagues": [
+      "wnba"
+    ],
+    "teamId": "washington-mystics",
+    "lastTeamId": "washington-mystics",
+    "status": "Active",
+    "position": "F",
+    "number": "12",
+    "birthday": "1999-08-10",
+    "birthdaySource": "https://www.statmuse.com/wnba/player/michaela-onyenwere-269/bio",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Averaged 9.0 points and 2.6 rebounds in 40 games for Washington in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/michaela-onyenwere-2026-regular-season-stats"
+      },
+      {
+        "text": "Shot 39.5% from three and 84.0% from the free-throw line in 2026",
+        "source": "https://www.statmuse.com/wnba/ask/michaela-onyenwere-2026-regular-season-stats"
+      },
+      {
+        "text": "UCLA forward from Aurora, Colorado; drafted sixth overall in 2021",
+        "source": "https://www.statmuse.com/wnba/player/michaela-onyenwere-269/bio"
+      }
+    ],
+    "sources": [
+      "https://www.statmuse.com/wnba/ask/michaela-onyenwere-2026-regular-season-stats",
+      "https://www.statmuse.com/wnba/player/michaela-onyenwere-269/bio"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
     "id": "trey-mcbride",
     "slug": "trey-mcbride",
     "name": "Trey McBride",
