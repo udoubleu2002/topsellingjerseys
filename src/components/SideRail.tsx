@@ -5,7 +5,8 @@ import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
 import { HouseAd } from "./HouseAd";
 import { LidsAd } from "./LidsAd";
-import { rectFor } from "@/lib/lidsAds";
+import { rectFor, lidsBanner, ROTATION_BANNER_ID, ROTATION_SHARE } from "@/lib/lidsAds";
+import { AdRotation } from "./AdRotation";
 import { SportJersey } from "./SportJersey";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
@@ -17,6 +18,11 @@ export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x60
       <span className="ad-size">{w} × {h}</span>
     </div>
   );
+}
+
+/** A slot's own ad, swapped for the rotating Lids banner on about a quarter of page views. */
+export function RotatingSlot({ at, className, children }: { at: string; className?: string; children: React.ReactNode }) {
+  return <AdRotation share={ROTATION_SHARE} alt={<LidsAd banner={lidsBanner(ROTATION_BANNER_ID)!} at={`${at}_rot`} className={className} />}>{children}</AdRotation>;
 }
 
 /** Sidebar: jersey sales news first, then a second way into the lists (top 5 of every league at a glance), plus ad space. */
@@ -47,7 +53,7 @@ export function SideRail({ active }: { active?: string }) {
         </section>
       )}
 
-      <LidsAd banner={rectFor(active)} at="rail_lids" />
+      <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>
 
       <section className="rail-box">
         <h2 className="rail-h">Latest reports</h2>
@@ -65,7 +71,7 @@ export function SideRail({ active }: { active?: string }) {
         <Link className="rail-more" href="/rankings/">Report archive →</Link>
       </section>
 
-      <HouseAd ad={adA} at="rail_top" />
+      <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>
 
       <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
@@ -94,7 +100,7 @@ export function SideRail({ active }: { active?: string }) {
         </div>
       </section>
 
-      <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" />
+      <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>
     </aside>
   );
 }
