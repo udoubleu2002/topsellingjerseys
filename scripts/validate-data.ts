@@ -24,13 +24,14 @@ try {
   errors.push(...news.errors);
   warnings.push(...news.warnings);
   for (const w of warnings) console.warn(`warn  ${w}`);
-  for (const e of errors) console.error(`error ${e}`);
+  // In GitHub Actions, errors also show as annotations on the run, so they can be read without the full log.
+  for (const e of errors) console.error(process.env.GITHUB_ACTIONS ? `::error::${e}` : `error ${e}`);
   if (errors.length) {
     console.error(`\n${errors.length} error(s). Fix the data before building.`);
     process.exit(1);
   }
   console.log(`Data OK (${warnings.length} warning(s) for review).`);
 } catch (e) {
-  console.error((e as Error).message);
+  console.error(process.env.GITHUB_ACTIONS ? `::error::${(e as Error).message.slice(0, 2000).replace(/\n/g, "%0A")}` : (e as Error).message);
   process.exit(1);
 }

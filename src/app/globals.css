@@ -639,7 +639,7 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .report-notes .notice { margin-top: 8px; }
 
 /* ---------- Player page: SEO copy, FAQ, full list ---------- */
-.h1-tag { color: var(--muted); font-weight: 600; }
+.h1-tag { color: var(--muted); font-weight: 600; font-size: .7em; }
 .p-intro { margin-top: 12px; font-size: 15px; line-height: 1.55; color: var(--ink-2); max-width: 68ch; }
 .p-overview { margin-top: 10px; font-size: 16px; }
 .faq { display: grid; gap: 8px; }
@@ -1161,3 +1161,16 @@ h3.lrow-name { display: inline; }
 .rail-stories a { color: var(--ink); font-weight: 600; line-height: 1.3; text-decoration: none; }
 .rail-stories a:hover { text-decoration: underline; }
 .rail-more { display: inline-block; margin-top: 10px; font-size: 14px; }
+
+/* Retailer product photos. Stores publish them square on white, so they get a square frame, sized like a store
+   listing: 240px beside the player's name on desktop, 200px on phones, and a thumbnail row in phone shop lists. */
+.pframe.photo { aspect-ratio: 1 / 1; }
+.pframe.photo img { padding: 4%; }
+.rexp .pframe.photo { max-width: 168px; }
+@media (max-width: 900px) { .rexp .pframe.photo { max-width: 200px; } }
+@media (max-width: 640px) {
+  [data-page-type="player"] .phero-in .pframe.photo { max-width: 200px; }
+  .product:has(.pframe.photo) { grid-template-columns: 112px minmax(0, 1fr); align-items: start; }
+  .product .pframe.photo { border-bottom: 0; border-right: 1px solid var(--line); }
+  .product:has(.pframe.photo) .product-body { padding: 10px 12px; gap: 4px; }
+}

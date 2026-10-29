@@ -51,6 +51,15 @@ Edit `stats.json` (or write a research file and run `apply_research.py`). Always
 - Without verified products, each player gets a clearly labeled Fanatics **search** for their jerseys. To show real products, add entries to `products.json` with the URL, image (with source), price/currency (or `null`), availability and `lastVerified`. Price and stock are displayed only when present. Run `npm run check:links -- --write` regularly to flag dead listings (flagged products are hidden).
 - To add another retailer, add it to `merchants.json` with its own env var name.
 
+## Jersey photos from the Lids product feed (Impact.com)
+
+`npm run products:sync` searches the Impact.com catalog shared by the Lids program for each ranked player's jerseys (`-- --all`: every player, which the daily workflow uses) and writes up to three per player to `data/products.json`: the feed's product photo, title, price, regular price, stock and the per-product tracking link (`affiliateUrl`, so clicks through `/out/` are credited). Player pages and ranking cards then show the photo instead of the placeholder. `-- --all` covers every player; `-- --dry` prints matches without writing.
+
+- Credentials: `IMPACT_ACCOUNT_SID` and `IMPACT_AUTH_TOKEN` (Impact: Settings > API). Keep them in `.env.local` and GitHub repository secrets only, never in the repo.
+- Only items from the Lids Main Feed (catalog 5267, or `IMPACT_LIDS_CATALOG_ID`) and the Lids campaign (`IMPACT_LIDS_CAMPAIGN_ID`, else the one in `AFFILIATE_DEEPLINK_LIDS`, else 9679) are used. Each item's `Url` is already the account's Impact tracking link (confirmed with `/api/impact-diagnostic/`), so it is stored as `affiliateUrl`.
+- The workflow runs in GitHub Actions, which cannot read Netlify's variables: add `IMPACT_ACCOUNT_SID` and `IMPACT_AUTH_TOKEN` as GitHub repository secrets too.
+- An item matches when its name has the player's full name and the word "jersey" (tees, hoodies and collectibles are skipped). When any match names the player's team, other teams' jerseys are dropped. In-stock adult jerseys are preferred, and the first one (shown beside the player's name) is a mid-tier jersey: $100 to $250, ideally about $150 (`MID_TIER` in `src/lib/impactCatalog.ts`), not a $60 replica or a $400 authentic. Size variants collapse to one listing.
+- The daily workflow runs the sync after the deals refresh. Hand-entered products are kept. To hide a bad match, set its `flagged` field; the flag survives refreshes.
 ## Impact catalog check
 
 `GET /api/impact-diagnostic/` confirms that the server can read the Lids Main Feed (Impact catalog 5267) with `IMPACT_ACCOUNT_SID` and `IMPACT_AUTH_TOKEN`. It returns at most five items (name, image URL, price, stock, product URL and whether that URL is an Impact tracking link) or a safe error code: `missing_env`, `auth_failed`, `catalog_not_found`, `rate_limited`, `timeout`, `upstream_error` or `bad_response`. It never returns or logs the credentials or Impact's raw error text.

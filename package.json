@@ -9,6 +9,7 @@
     "validate": "tsx scripts/validate-data.ts",
     "import:ranking": "tsx scripts/import-ranking.ts",
     "deals:fetch": "tsx scripts/fetch-lids-deals.ts",
+    "products:sync": "tsx scripts/sync-impact-products.ts",
     "check:links": "tsx scripts/check-product-links.ts",
     "test": "vitest run",
     "test:e2e": "node scripts/e2e.mjs",

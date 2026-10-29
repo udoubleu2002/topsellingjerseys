@@ -7,8 +7,8 @@ import type { Player, Product, Team } from "@/lib/schema";
 export function ProductImage({ player, team, product, priority = false }: { player: Player; team?: Team; product?: Product; priority?: boolean }) {
   if (product?.image) {
     return (
-      <div className="pframe">
-        <img src={product.image.url} alt={product.image.alt} loading={priority ? "eager" : "lazy"} width={400} height={500} />
+      <div className="pframe photo">
+        <img src={product.image.url} alt={product.image.alt} loading={priority ? "eager" : "lazy"} decoding="async" width={500} height={500} />
       </div>
     );
   }
