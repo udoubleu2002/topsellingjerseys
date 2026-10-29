@@ -7,7 +7,12 @@ const CAMPAIGN = "9679";
 export const LIDS_BANNERS: LidsBanner[] = [
   { id: "1907269", width: 300, height: 250, alt: "Pre-Order Your Shohei Ohtani LA Dodgers Jersey at Lids.com" },
   { id: "2159657", width: 300, height: 250, alt: "Shop NHL jerseys at Lids.com" },
+  { id: "4114443", width: 300, height: 250, alt: "Shop jerseys and fan gear at Lids.com" },
 ];
+
+/** The Lids banner that rotates into about a quarter of all ad slots (see AdRotation). */
+export const ROTATION_BANNER_ID = "4114443";
+export const ROTATION_SHARE = 0.25;
 
 export const lidsBanner = (id: string) => LIDS_BANNERS.find((b) => b.id === id);
 export const bannerImage = (b: LidsBanner) => `https://a.impactradius-go.com/display-ad/${CAMPAIGN}-${b.id}`;

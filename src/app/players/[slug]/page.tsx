@@ -20,6 +20,7 @@ import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
 import { HouseAd } from "@/components/HouseAd";
 import { LidsAd } from "@/components/LidsAd";
+import { RotatingSlot } from "@/components/SideRail";
 import { rectFor } from "@/lib/lidsAds";
 import { adsFor } from "@/lib/houseAds";
 import {
@@ -331,8 +332,8 @@ export default async function PlayerPage({ params }: Props) {
                 </ol>
               </section>
             )}
-            <LidsAd banner={rectFor(league.id)} at="player_side_lids" />
-            <HouseAd ad={adsFor(league.id)[0]} at="player_side" />
+            <RotatingSlot at="player_side_lids"><LidsAd banner={rectFor(league.id)} at="player_side_lids" /></RotatingSlot>
+            <RotatingSlot at="player_side"><HouseAd ad={adsFor(league.id)[0]} at="player_side" /></RotatingSlot>
             <section className="side-box">
               <h2>Full ranking</h2>
               <Link className="btn-ghost" href={`/${league.slug}/#rank-${latest?.rank ?? 1}`}>Top Selling {league.name} Jerseys</Link>
