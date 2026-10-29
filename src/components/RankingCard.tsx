@@ -35,7 +35,7 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
             <span><h3 className="lrow-name" id={`p-${player.id}`}>{player.name}</h3>
               {move && move.delta !== null && move.delta !== 0 && <span className={`rank-move ${move.delta > 0 ? "up" : "down"}`}>{move.delta > 0 ? ` ▲ ${move.delta}` : ` ▼ ${-move.delta}`}</span>}
               {move && move.previousRank === null && <span className="rank-move"> New</span>}</span>
-            <span className="lrow-team">{teamLabel} · {player.position}{player.number ? ` · No. ${player.number}` : ""}</span>
+            <span className="lrow-team">{teamLabel} · {player.position}{player.number ? <span className="lrow-no"> · No. {player.number}</span> : null}</span>
             {quick.length > 0 && <span className="lrow-stats">{quick.map((s) => `${s.value} ${s.label}`).join(" · ")}</span>}
           </span>
           <span className="rrow-end">

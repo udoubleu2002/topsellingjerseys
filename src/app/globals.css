@@ -1117,3 +1117,39 @@ h3.lrow-name { display: inline; }
 .troster li:first-child { border-top: 0; }
 .troster li a { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
 .troster li span { color: var(--ink-2); font-size: 12px; white-space: nowrap; }
+
+/* Phone list rows, tidy version: one clean line per player like the team directory. Rank, a small number tile,
+   name over team, and Shop on the right, all centered on the same line; the jersey buttons become small text
+   links under the team so every row is the same height. */
+@media (max-width: 640px) {
+  .lrows { padding: 0 12px 6px; }
+  .lrow {
+    grid-template-columns: 22px 30px minmax(0, 1fr) auto;
+    grid-template-areas: "rank tile name shop" "rank tile team shop" "rank tile acts shop";
+    column-gap: 10px; row-gap: 1px; padding: 10px 4px; align-items: center;
+  }
+  .lrow-rank { align-self: center; padding-top: 0; font-size: 18px; text-align: center; }
+  .lrow-tile { justify-self: start; width: 30px; height: 30px; font-size: 14px; border-bottom-width: 2px; }
+  .lrow-name { font-size: 15px; line-height: 1.2; align-self: end; }
+  .lrow-team { font-size: 12px; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lrow .have-row { grid-area: acts; margin: 2px 0 0; gap: 12px; align-self: start; }
+  .lrow .have-row .have-btn { min-height: 22px; padding: 0; border: 0; background: none; font-size: 11.5px; color: var(--muted); }
+  .lrow .have-row .have-btn[aria-pressed="true"] { color: var(--gold); background: none; }
+  .lrow .btn-shop { margin-top: 0; height: 30px; min-height: 30px; padding: 0 11px; font-size: 12px; }
+  .lrow.is-first { background: linear-gradient(90deg, rgba(243, 185, 64, .08), rgba(243, 185, 64, 0) 60%); }
+
+
+  /* League pages: the same line, with the open arrow after Shop. */
+  .rdet > summary.lrow { grid-template-columns: 22px 30px minmax(0, 1fr) auto 10px; grid-template-areas: "rank tile name shop chev" "rank tile team shop chev" "rank tile acts shop chev"; }
+  .rdet > summary.lrow .lrow-who > span:first-child { grid-area: name; align-self: end; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .rdet > summary.lrow .lrow-name { font-size: 15px; }
+  .rdet > summary.lrow .rrow-end { display: contents; }
+  .rdet > summary.lrow .rrow-end .have-row { grid-area: acts; }
+  .rdet > summary.lrow .rrow-end .have-btn { padding: 0; }
+  .rdet > summary.lrow .btn-shop { grid-area: shop; justify-self: end; }
+  .rdet > summary.lrow .rchev { grid-area: chev; margin-left: 0; justify-self: center; }
+}
+@media (max-width: 640px) {
+  /* The tile already shows the number, so the team line stays short enough to fit. */
+  .rdet > summary.lrow .lrow-no { display: none; }
+}
