@@ -73,8 +73,9 @@ function score(item: ImpactItem, team: Team | undefined): number {
 
 /**
  * Picks up to `limit` jerseys for one player from catalog search results. An item counts only when its name holds the
- * player's full name and the word jersey, has an https image and a tracking link, and (when catalogIds/campaignId are
- * given) comes from the Lids program. Size and color variants (same group) and repeated photos collapse to one listing.
+ * player's full name and the word jersey, has an https image and a tracking link, and (when catalogId/campaignId are
+ * given) comes from the Lids program: a field Impact leaves out is not held against the item, but one that names
+ * another catalog or campaign, or a tracking link for another campaign, is. Size and color variants (same group) and repeated photos collapse to one listing.
  * When any item names the player's team, items naming other teams are dropped, so a traded player shows the current kit.
  */
 export function pickJerseys(
@@ -85,8 +86,9 @@ export function pickJerseys(
 ): ImpactItem[] {
   const limit = opts.limit ?? 3;
   let ok = items.filter((i) =>
-    (!opts.campaignId || String(i.CampaignId) === String(opts.campaignId)) &&
-    (!opts.catalogId || String(i.CatalogId) === String(opts.catalogId)) &&
+    (!opts.campaignId || i.CampaignId == null || String(i.CampaignId) === String(opts.campaignId)) &&
+    (!opts.catalogId || i.CatalogId == null || String(i.CatalogId) === String(opts.catalogId)) &&
+    (!opts.campaignId || !i.Url || !/\/c\/\d+\/\d+\/\d+/.test(i.Url) || new RegExp(`/c/\\d+/\\d+/${opts.campaignId}(\\?|$)`).test(i.Url)) &&
     i.Name && has(i.Name, player.name) && isJersey(i.Name) && https(i.ImageUrl) && https(i.Url));
   if (team && ok.some((i) => has(i.Name!, team.name))) ok = ok.filter((i) => has(i.Name!, team.name));
   ok.sort((a, b) => score(b, team) - score(a, team) || (num(a.CurrentPrice) ?? 1e9) - (num(b.CurrentPrice) ?? 1e9));

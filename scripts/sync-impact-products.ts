@@ -1,7 +1,7 @@
 /**
  * Fills data/products.json with Lids jerseys (photo, price, stock, tracking link) from the Impact.com product catalog.
  * Needs IMPACT_ACCOUNT_SID and IMPACT_AUTH_TOKEN (Impact: Settings > API). Only items from the Lids campaign are used:
- * IMPACT_LIDS_CAMPAIGN_ID, else the one in AFFILIATE_DEEPLINK_LIDS, else 9679. IMPACT_LIDS_CATALOG_ID narrows it to one catalog.
+ * IMPACT_LIDS_CAMPAIGN_ID, else the one in AFFILIATE_DEEPLINK_LIDS, else 9679. Items must come from catalog IMPACT_LIDS_CATALOG_ID (default 5267, the Lids Main Feed).
  * Hand-entered products are kept; only the previous feed products are replaced.
  *   npm run products:sync            players on a published ranking
  *   npm run products:sync -- --all   every player (one API call each, so slower)
@@ -12,12 +12,13 @@ import path from "node:path";
 import { loadStore, getTeam } from "../src/lib/data";
 import { campaignFromLink } from "../src/lib/impactDeals";
 import { itemToProduct, mergeProducts, pickJerseys, type ImpactItem } from "../src/lib/impactCatalog";
+import { DIAGNOSTIC_CATALOG_ID } from "../src/lib/impactDiagnostic";
 import type { Product } from "../src/lib/schema";
 
 const sid = process.env.IMPACT_ACCOUNT_SID;
 const token = process.env.IMPACT_AUTH_TOKEN;
 const campaignId = process.env.IMPACT_LIDS_CAMPAIGN_ID || campaignFromLink(process.env.AFFILIATE_DEEPLINK_LIDS) || "9679";
-const catalogId = process.env.IMPACT_LIDS_CATALOG_ID || null;
+const catalogId = process.env.IMPACT_LIDS_CATALOG_ID || DIAGNOSTIC_CATALOG_ID;
 const all = process.argv.includes("--all");
 const dry = process.argv.includes("--dry");
 const file = path.join(process.cwd(), "data", "products.json");
@@ -42,13 +43,11 @@ async function main() {
     return;
   }
   const store = loadStore();
-  const catalogs = await api<{ Catalogs?: { Id: string | number; Name?: string; CampaignId?: string | number; AdvertiserName?: string; NumberOfItems?: number }[] }>(`/Mediapartners/${sid}/Catalogs`);
-  const lids = (catalogs.Catalogs ?? []).filter((c) => (catalogId ? String(c.Id) === catalogId : String(c.CampaignId) === String(campaignId)));
+  type Catalog = { Id: string | number; Name?: string; CampaignId?: string | number; AdvertiserName?: string; NumberOfItems?: number };
+  const catalogs = await api<{ Catalogs?: Catalog[] }>(`/Mediapartners/${sid}/Catalogs`).catch((e) => { console.warn(`Could not list catalogs: ${(e as Error).message.split(":")[0]}`); return { Catalogs: [] as Catalog[] }; });
+  const lids = (catalogs.Catalogs ?? []).find((c) => String(c.Id) === catalogId);
   for (const c of catalogs.Catalogs ?? []) console.log(`catalog ${c.Id}: ${c.Name} (${c.AdvertiserName}, campaign ${c.CampaignId}, ${c.NumberOfItems ?? "?"} items)`);
-  if (!lids.length) {
-    console.error(`No Lids catalog (${catalogId ? `catalog ${catalogId}` : `campaign ${campaignId}`}) is shared with this account. Ask Lids for product feed access in Impact, or set IMPACT_LIDS_CAMPAIGN_ID.`);
-    process.exit(1);
-  }
+  if (!lids) console.warn(`Catalog ${catalogId} is not in this account's catalog list; searching anyway.`);
 
   const ranked = new Set(store.rankings.filter((r) => r.status === "published").flatMap((r) => r.entries.map((e) => e.playerId)));
   const players = store.players.filter((p) => all || ranked.has(p.id));

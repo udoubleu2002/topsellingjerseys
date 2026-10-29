@@ -36,12 +36,19 @@ describe("Impact Lids catalog", () => {
       item({ CampaignId: 1234 }),
       item({ ImageUrl: "http://insecure.example.com/x.jpg" }),
       item({ Name: "Men's Nike Aaron Judge New York Yankees T-Shirt" }),
-    ], judge, yankees, { campaignId: "9679" });
+      item({ CatalogId: 999 }),
+      item({ CampaignId: undefined, Url: "https://other.sjv.io/c/6755530/1/1234?u=https%3A%2F%2Fexample.com" }),
+    ], judge, yankees, { campaignId: "9679", catalogId: "1" });
     expect(picks.map((i) => i.Name)).toEqual([
       "Men's Nike Aaron Judge White New York Yankees Home Limited Player Jersey",
       "Youth Nike Aaron Judge Navy New York Yankees Alternate Player Jersey",
       "Men's Nike Aaron Judge Gray New York Yankees Road Limited Player Jersey",
     ]);
+  });
+
+  it("does not drop items when Impact leaves out the catalog or campaign fields", () => {
+    const picks = pickJerseys([item({ CampaignId: undefined, CatalogId: undefined })], judge, yankees, { campaignId: "9679", catalogId: "5267" });
+    expect(picks).toHaveLength(1);
   });
 
   it("turns an item into a valid product with the feed photo and tracking link", () => {

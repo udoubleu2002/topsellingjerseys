@@ -1,8 +1,9 @@
 import type { Store } from "./data";
 import type { Ranking } from "./schema";
-import { type Article, articlePath, linksIn, wordCount } from "./articles";
+import { type Article, articlePath, linksIn, plain, wordCount } from "./articles";
 import { type Profile } from "./profiles";
 import { type NewsItem } from "./news";
+import { type Story, storyPath } from "./stories";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -152,5 +153,43 @@ export function checkNews(news: NewsItem[], s: Store, today = new Date().toISOSt
   if (news.length < 7) warnings.push(`news: only ${news.length} stories; the sidebar shows seven`);
   const newest = news.map((n) => n.date).sort().at(-1);
   if (newest && Date.parse(today) - Date.parse(newest) > 45 * 86400000) warnings.push(`news: newest story is from ${newest}; add recent jersey sales news to data/news.json`);
+  return { errors, warnings };
+}
+
+/** Daily stories: 300-400 words, unique slugs and metadata, known league, team and player, and internal links that resolve to real pages. */
+export function checkStories(stories: Story[], s: Store, articles: Article[]) {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const pages = new Set<string>(["/", "/news/", "/jerseys/", "/rankings/", "/players/", "/my-jerseys/", "/best-selling-jerseys/", "/best-selling-jersey/", "/best-selling-sports-jerseys/"]);
+  for (const l of s.leagues) pages.add(`/${l.slug}/`);
+  for (const p of s.players) pages.add(`/players/${p.slug}/`);
+  for (const r of s.rankings) pages.add(`/rankings/${r.league}/${r.id}/`);
+  for (const a of articles) if (a.status === "published") pages.add(articlePath(a));
+  for (const st of stories) if (st.status === "published") pages.add(storyPath(st));
+  const teams = new Set([...s.teams.map((t) => t.id), ...Object.values(s.directory).flat().map((t) => t.id)]);
+  const leagues = new Set(s.leagues.map((l) => l.id));
+  const players = new Set(s.players.map((p) => p.id));
+  const seen: Record<string, Set<string>> = { slug: new Set(), title: new Set(), description: new Set(), headline: new Set() };
+  for (const st of stories) {
+    const id = `story ${st.slug}`;
+    for (const k of ["slug", "title", "description", "headline"] as const) {
+      const v = st[k].toLowerCase();
+      if (seen[k].has(v)) errors.push(`${id}: duplicate ${k}`);
+      seen[k].add(v);
+    }
+    if (!leagues.has(st.league)) errors.push(`${id}: unknown league ${st.league}`);
+    if (st.teamId && !teams.has(st.teamId)) errors.push(`${id}: unknown team ${st.teamId}`);
+    if (st.playerId && !players.has(st.playerId)) errors.push(`${id}: unknown player ${st.playerId}`);
+    const n = wordCount(st);
+    if (n < 300 || n > 400) errors.push(`${id}: ${n} words; stories must be 300-400`);
+    if (!st.body.slice(0, 2).map(plain).join(" ").includes(st.subject)) errors.push(`${id}: "${st.subject}" must appear in the opening paragraphs`);
+    const links = st.body.flatMap(linksIn);
+    if (links.length === 0) errors.push(`${id}: needs one internal link in the body`);
+    for (const l of [...links, ...st.related.map((r) => r.href)]) if (!pages.has(l)) errors.push(`${id}: internal link ${l} does not match a page on the site`);
+    if (st.title.length < 50 || st.title.length > 60) warnings.push(`${id}: title is ${st.title.length} characters (aim for 50-60)`);
+    if (st.description.length < 140 || st.description.length > 160) warnings.push(`${id}: description is ${st.description.length} characters (aim for 140-160)`);
+    if (st.status === "draft") warnings.push(`${id}: draft, not published until reviewed`);
+    for (const r of st.reviewNotes) warnings.push(`${id}: review: ${r}`);
+  }
   return { errors, warnings };
 }

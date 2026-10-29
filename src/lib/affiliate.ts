@@ -1,6 +1,7 @@
 import type { Player, Product, Promotion, Team } from "./schema";
 import { getAnyTeam, getMerchant, getPlayer, getTeam, loadStore } from "./data";
 import { getArticle, type Article } from "./articles";
+import { getStory, type Story } from "./stories";
 import { bannerLink, lidsBanner } from "./lidsAds";
 
 export interface Offer {
@@ -86,6 +87,14 @@ export function articleOffer(a: Pick<Article, "slug" | "shopQuery" | "player">, 
   return { id: `article-${merchantId}-${a.slug}`, kind: "search", merchantId, merchantName: merchant.name, label: `Search ${a.player} jerseys at ${merchant.name}`, href: withAffiliate(raw, merchantId) };
 }
 
+/** A retailer search for the player or team a daily story covers. */
+export function storyOffer(s: Pick<Story, "slug" | "shopQuery" | "subject">, merchantId = DEFAULT_MERCHANT): Offer | null {
+  const merchant = getMerchant(merchantId);
+  if (!merchant) return null;
+  const raw = merchant.searchUrlTemplate.replace("{query}", encodeURIComponent(s.shopQuery).replace(/%20/g, "+"));
+  return { id: `story-${merchantId}-${s.slug}`, kind: "search", merchantId, merchantName: merchant.name, label: `Search ${s.subject} jerseys at ${merchant.name}`, href: withAffiliate(raw, merchantId) };
+}
+
 /** Outbound links go through /out/ so destinations and tracking can change without rebuilding pages. */
 export const outPath = (offerId: string) => `/out/${offerId}/`;
 
@@ -112,6 +121,11 @@ export function resolveOffer(offerId: string): Offer | null {
   if (art) {
     const a = getArticle(art[2]);
     return a ? articleOffer(a, art[1]) : null;
+  }
+  const story = /^story-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
+  if (story) {
+    const s = getStory(story[2]);
+    return s ? storyOffer(s, story[1]) : null;
   }
   const m = /^search-([a-z0-9]+)-([a-z0-9-]+)$/.exec(offerId);
   if (m) {
