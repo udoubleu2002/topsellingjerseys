@@ -1,5 +1,5 @@
-# Refreshes data/promotions.json from the Impact.com partner API every morning and commits it,
-# which redeploys the site with today's Lids deals in the top bar.
+# Refreshes data/promotions.json (Lids deals in the top bar) and data/products.json (Lids jersey photos, prices and
+# links on player pages) from the Impact.com partner API every morning and commits them, which redeploys the site.
 # Repository secrets: IMPACT_ACCOUNT_SID, IMPACT_AUTH_TOKEN, and IMPACT_LIDS_CAMPAIGN_ID (or AFFILIATE_DEEPLINK_LIDS).
 name: Daily Lids deals
 on:
@@ -24,12 +24,19 @@ jobs:
           IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
           IMPACT_LIDS_CAMPAIGN_ID: ${{ secrets.IMPACT_LIDS_CAMPAIGN_ID }}
           AFFILIATE_DEEPLINK_LIDS: ${{ secrets.AFFILIATE_DEEPLINK_LIDS }}
+      - run: npm run products:sync
+        env:
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
+          IMPACT_LIDS_CAMPAIGN_ID: ${{ secrets.IMPACT_LIDS_CAMPAIGN_ID }}
+          IMPACT_LIDS_CATALOG_ID: ${{ secrets.IMPACT_LIDS_CATALOG_ID }}
+          AFFILIATE_DEEPLINK_LIDS: ${{ secrets.AFFILIATE_DEEPLINK_LIDS }}
       - run: npm run validate
-      - name: Commit if deals changed
+      - name: Commit if deals or products changed
         run: |
-          git diff --quiet data/promotions.json && { echo "No change."; exit 0; }
+          git diff --quiet data/promotions.json data/products.json && { echo "No change."; exit 0; }
           git config user.name "deals-bot"
           git config user.email "deals-bot@users.noreply.github.com"
-          git add data/promotions.json
-          git commit -m "Refresh Lids deals $(date -u +%F)"
+          git add data/promotions.json data/products.json
+          git commit -m "Refresh Lids deals and jerseys $(date -u +%F)"
           git push

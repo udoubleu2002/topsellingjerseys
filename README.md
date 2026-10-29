@@ -51,6 +51,15 @@ Edit `stats.json` (or write a research file and run `apply_research.py`). Always
 - Without verified products, each player gets a clearly labeled Fanatics **search** for their jerseys. To show real products, add entries to `products.json` with the URL, image (with source), price/currency (or `null`), availability and `lastVerified`. Price and stock are displayed only when present. Run `npm run check:links -- --write` regularly to flag dead listings (flagged products are hidden).
 - To add another retailer, add it to `merchants.json` with its own env var name.
 
+## Jersey photos from the Lids product feed (Impact.com)
+
+`npm run products:sync` searches the Impact.com catalog shared by the Lids program for each ranked player's jerseys and writes up to three per player to `data/products.json`: the feed's product photo, title, price, regular price, stock and the per-product tracking link (`affiliateUrl`, so clicks through `/out/` are credited). Player pages and ranking cards then show the photo instead of the placeholder. `-- --all` covers every player; `-- --dry` prints matches without writing.
+
+- Credentials: `IMPACT_ACCOUNT_SID` and `IMPACT_AUTH_TOKEN` (Impact: Settings > API). Keep them in `.env.local` and GitHub repository secrets only, never in the repo.
+- Only items from the Lids campaign are used (`IMPACT_LIDS_CAMPAIGN_ID`, else the one in `AFFILIATE_DEEPLINK_LIDS`, else 9679). If Lids has not shared a catalog with your account, the sync says so; request product feed access from Lids in Impact.
+- An item matches when its name has the player's full name and the word "jersey" (tees, hoodies and collectibles are skipped). When any match names the player's team, other teams' jerseys are dropped. In-stock adult jerseys are preferred, and size variants collapse to one listing.
+- The daily workflow runs the sync after the deals refresh. Hand-entered products are kept. To hide a bad match, set its `flagged` field; the flag survives refreshes.
+
 ## Deals, sale badges and price alerts
 
 - **Deals bar:** add a promotion to `data/promotions.json` (`id`, `merchantId`, `headline`, `details`, `code`, `url`, `startDate`, `endDate`, `leagues` ([] for sitewide), `source`, `lastVerified`). It appears on the home, league and player pages only between its dates, links through `/out/promo-<id>/`, and hides itself in the browser once it ends. Use only offers published by the retailer or your affiliate network.
