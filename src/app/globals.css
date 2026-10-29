@@ -639,7 +639,7 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .report-notes .notice { margin-top: 8px; }
 
 /* ---------- Player page: SEO copy, FAQ, full list ---------- */
-.h1-tag { color: var(--muted); font-weight: 600; }
+.h1-tag { color: var(--muted); font-weight: 600; font-size: .7em; }
 .p-intro { margin-top: 12px; font-size: 15px; line-height: 1.55; color: var(--ink-2); max-width: 68ch; }
 .p-overview { margin-top: 10px; font-size: 16px; }
 .faq { display: grid; gap: 8px; }
