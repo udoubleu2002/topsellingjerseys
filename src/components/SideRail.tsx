@@ -3,6 +3,7 @@ import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
 import { fmtShortDate } from "@/lib/format";
 import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
+import { getStories, storyPath } from "@/lib/stories";
 import { HouseAd } from "./HouseAd";
 import { LidsAd } from "./LidsAd";
 import { rectFor } from "@/lib/lidsAds";
@@ -23,9 +24,25 @@ export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x60
 export function SideRail({ active }: { active?: string }) {
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
+  const stories = getStories(active).slice(0, active ? 3 : 6);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   return (
     <aside className="rail" aria-label="Browse the lists">
+      {stories.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">Latest stories</h2>
+          <ul className="rail-stories">
+            {stories.map((s) => (
+              <li key={s.slug}>
+                <Link href={storyPath(s)}>{s.headline}</Link>
+                <span className="rail-news-meta">{s.league.toUpperCase()} · {fmtShortDate(s.publishedDate)}</span>
+              </li>
+            ))}
+          </ul>
+          <Link className="rail-more" href="/news/">All jersey news →</Link>
+        </section>
+      )}
+
       {news.length > 0 && (
         <section className="rail-box">
           <h2 className="rail-h">Jersey sales news</h2>

@@ -37,6 +37,7 @@ export function SiteHeader({ active }: { active?: string }) {
             {leagues.map((l) => (
               <Link key={l.id} href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link>
             ))}
+            <Link href="/news/">Jersey news</Link>
             <form action="/search/" role="search">
               <label htmlFor="q-mobile" className="sr-only">Search players and teams</label>
               <input id="q-mobile" name="q" type="search" placeholder="Search players or teams" />

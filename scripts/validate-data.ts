@@ -3,10 +3,11 @@
  * Run: npm run validate
  */
 import { loadStore } from "../src/lib/data";
-import { checkStore, checkArticles, checkProfiles, checkNews } from "../src/lib/validate";
+import { checkStore, checkArticles, checkProfiles, checkNews, checkStories } from "../src/lib/validate";
 import { loadArticles } from "../src/lib/articles";
 import { loadProfiles } from "../src/lib/profiles";
 import { loadNews } from "../src/lib/news";
+import { loadStories } from "../src/lib/stories";
 
 try {
   const store = loadStore();
@@ -16,6 +17,9 @@ try {
   errors.push(...art.errors);
   warnings.push(...art.warnings);
   errors.push(...checkProfiles(profiles, store).errors);
+  const stories = checkStories(loadStories(), store, loadArticles());
+  errors.push(...stories.errors);
+  warnings.push(...stories.warnings);
   const news = checkNews(loadNews(), store);
   errors.push(...news.errors);
   warnings.push(...news.warnings);

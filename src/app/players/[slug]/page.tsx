@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getStories, storyPath } from "@/lib/stories";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
@@ -68,6 +69,7 @@ export default async function PlayerPage({ params }: Props) {
 
   // Related players: same current or last team first, then neighbors in the same ranking. Both are stated relationships.
   const teammates = team ? teamPlayers(team.id).filter((p) => p.id !== player.id) : [];
+  const stories = getStories().filter((st) => st.playerId === player.id || st.body.some((b) => b.includes(`(/players/${player.slug}/)`))).slice(0, 3);
   const neighbors = latest
     ? latest.ranking.entries.filter((e) => Math.abs(e.rank - latest.rank) <= 3 && e.playerId !== player.id).map((e) => ({ p: getPlayer(e.playerId)!, rank: e.rank }))
     : [];
@@ -290,6 +292,14 @@ export default async function PlayerPage({ params }: Props) {
           </div>
 
           <aside className="side">
+            {stories.length > 0 && (
+              <section className="side-box" aria-labelledby="news-h">
+                <h2 id="news-h">{player.name} in the news</h2>
+                <ul className="rail-stories">
+                  {stories.map((st) => <li key={st.slug}><Link href={storyPath(st)}>{st.headline}</Link><span className="rail-news-meta">{fmtDate(st.publishedDate)}</span></li>)}
+                </ul>
+              </section>
+            )}
             {neighbors.length > 0 && (
               <section className="side-box" aria-labelledby="nb-h">
                 <h2 id="nb-h">Near {player.name} on the {league.name} list</h2>
