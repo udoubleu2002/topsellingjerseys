@@ -33,3 +33,32 @@ export function sendClick(req: Request, click: { kind: "affiliate" | "ad"; slot:
     } catch { /* never let counting break a click */ }
   });
 }
+
+const str = (v: unknown, max: number) => (typeof v === "string" ? v.slice(0, max) : "");
+
+/**
+ * Passes a page view on to the editor desk (same DESK_CLICK_URL and key as clicks): the page, the referring
+ * address, any utm_ tags, screen width, and Netlify's rough location. The desk keeps no IP address.
+ */
+export function sendView(req: Request, v: Record<string, unknown>, self: string) {
+  const url = process.env.DESK_CLICK_URL;
+  const key = process.env.DESK_CLICK_KEY;
+  if (!url || !key) return;
+  const ip = (req.headers.get("x-nf-client-connection-ip") || req.headers.get("x-forwarded-for")?.split(",")[0] || "").trim();
+  const body = {
+    site: "topsellingjerseys", page: str(v.page, 300), ref: str(v.ref, 500),
+    utm_source: str(v.utm_source, 80), utm_medium: str(v.utm_medium, 80), utm_campaign: str(v.utm_campaign, 120),
+    w: Number(v.w) || 0, reload: v.reload === true, self,
+    ip, ua: (req.headers.get("user-agent") ?? "").slice(0, 400), geo: (req.headers.get("x-nf-geo") ?? "").slice(0, 4000),
+  };
+  after(async () => {
+    try {
+      await fetch(`${url.replace(/\/+$/, "")}/api/visit`, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain", Authorization: `Bearer ${key}` },
+        body: JSON.stringify(body),
+        signal: AbortSignal.timeout(4000),
+      });
+    } catch { /* never let counting break a page */ }
+  });
+}
