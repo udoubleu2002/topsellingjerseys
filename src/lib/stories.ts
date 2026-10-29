@@ -5,6 +5,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { getAppearances, getPlayer, getPlayers, getProducts, teamPlayers } from "./data";
+import type { Player, Product } from "./schema";
 
 const url = z.string().url();
 const day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
@@ -62,3 +64,32 @@ export const getStories = (league?: string) => loadStories().filter((s) => s.sta
 export const getStory = (slug: string) => loadStories().find((s) => s.slug === slug && s.status === "published");
 export const getPlayerStories = (playerId: string) => getStories().filter((s) => s.playerId === playerId);
 export const storyPath = (s: Pick<Story, "slug">) => `/news/${s.slug}/`;
+
+const fold = (t: string) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+/** The player a story is about: its playerId, or a player whose name is the story's subject (players added after the story). */
+export function storyPlayer(s: Pick<Story, "playerId" | "subject">): Player | undefined {
+  if (s.playerId) return getPlayer(s.playerId);
+  const name = fold(s.subject);
+  return getPlayers().find((p) => fold(p.name) === name);
+}
+
+/**
+ * The Lids jersey shown with a story: the subject's own jersey, or for a team story the jersey of the team's
+ * best-ranked player that has one. Undefined when nothing matches, so the page keeps its plain shop link.
+ */
+export function storyJersey(s: Pick<Story, "playerId" | "subject" | "teamId">): { product: Product; player: Player } | undefined {
+  const own = storyPlayer(s);
+  const pick = (p: Player) => getProducts(p.id).find((x) => x.productType === "jersey" && x.image);
+  if (own) {
+    const product = pick(own);
+    return product ? { product, player: own } : undefined;
+  }
+  if (!s.teamId) return undefined;
+  const best = (p: Player) => getAppearances(p.id)[0]?.rank ?? 999;
+  for (const p of teamPlayers(s.teamId).filter((p) => p.teamId === s.teamId).sort((a, b) => best(a) - best(b))) {
+    const product = pick(p);
+    if (product) return { product, player: p };
+  }
+  return undefined;
+}

@@ -1174,3 +1174,17 @@ h3.lrow-name { display: inline; }
   .product .pframe.photo { border-bottom: 0; border-right: 1px solid var(--line); }
   .product:has(.pframe.photo) .product-body { padding: 10px 12px; gap: 4px; }
 }
+
+/* The Lids jersey beside a daily story: photo, name and price above the shop button. */
+.story-jersey { display: grid; gap: 8px; }
+.story-jersey .pframe.photo { max-width: 260px; }
+.story-jersey-title { font-weight: 600; font-size: 14px; line-height: 1.35; color: var(--ink); }
+.story-jersey .price { margin: 0; }
+.story-jersey-top { display: none; }
+@media (max-width: 899px) {
+  .story-jersey-top { display: grid; margin-top: 16px; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+  .story-jersey-side { display: none; }
+  .story-jersey { grid-template-columns: 120px minmax(0, 1fr); column-gap: 14px; align-items: start; }
+  .story-jersey .pframe.photo { grid-row: span 3; }
+  .story-jersey .btn-shop { grid-column: 1 / -1; }
+}
