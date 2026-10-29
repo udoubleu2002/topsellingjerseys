@@ -22202,6 +22202,106 @@
     "isDemo": false
   },
   {
+    "playerId": "ronald-holland-ii",
+    "league": "nba",
+    "teamId": "detroit-pistons",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "78"
+      },
+      {
+        "label": "PPG",
+        "value": "8.2"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.2"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "0.6"
+      },
+      {
+        "label": "FG%",
+        "value": "43.2"
+      },
+      {
+        "label": "FT%",
+        "value": "80.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/ronald-holland-ii-30414/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "isaiah-joe",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "71"
+      },
+      {
+        "label": "PPG",
+        "value": "11.1"
+      },
+      {
+        "label": "RPG",
+        "value": "2.5"
+      },
+      {
+        "label": "APG",
+        "value": "1.3"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "2.5"
+      },
+      {
+        "label": "FG%",
+        "value": "45.5"
+      },
+      {
+        "label": "FT%",
+        "value": "89.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/isaiah-joe-10163/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "john-collins",
     "league": "nba",
     "teamId": "la-clippers",
@@ -22349,6 +22449,106 @@
     "source": "https://www.statmuse.com/nba/player/jaylen-brown-9449/career-stats",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "hugo-gonzalez",
+    "league": "nba",
+    "teamId": "boston-celtics",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "74"
+      },
+      {
+        "label": "PPG",
+        "value": "3.9"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "0.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "0.6"
+      },
+      {
+        "label": "FG%",
+        "value": "47.6"
+      },
+      {
+        "label": "FT%",
+        "value": "50.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/hugo-gonz%C3%A1lez-30581/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "sam-hauser",
+    "league": "nba",
+    "teamId": "boston-celtics",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "78"
+      },
+      {
+        "label": "PPG",
+        "value": "9.2"
+      },
+      {
+        "label": "RPG",
+        "value": "3.8"
+      },
+      {
+        "label": "APG",
+        "value": "1.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "2.5"
+      },
+      {
+        "label": "FG%",
+        "value": "41.9"
+      },
+      {
+        "label": "FT%",
+        "value": "85.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/sam-hauser-10354/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -22649,6 +22849,106 @@
     "source": "https://www.statmuse.com/nba/player/onyeka-okongwu-10174/career-stats",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "kingston-flemings",
+    "league": "nba",
+    "teamId": "atlanta-hawks",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "PPG",
+        "value": "7.2"
+      },
+      {
+        "label": "RPG",
+        "value": "3.4"
+      },
+      {
+        "label": "APG",
+        "value": "4.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "0.8"
+      },
+      {
+        "label": "FG%",
+        "value": "50.0"
+      },
+      {
+        "label": "FT%",
+        "value": "50.0"
+      }
+    ],
+    "note": "Rookie; early 2026-27 line.",
+    "source": "https://www.statmuse.com/nba/player/kingston-flemings-30696",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "luguentz-dort",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "69"
+      },
+      {
+        "label": "PPG",
+        "value": "8.3"
+      },
+      {
+        "label": "RPG",
+        "value": "3.6"
+      },
+      {
+        "label": "APG",
+        "value": "1.2"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "38.5"
+      },
+      {
+        "label": "FT%",
+        "value": "75.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/luguentz-dort-10053/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -23102,6 +23402,206 @@
     "isDemo": false
   },
   {
+    "playerId": "kyshawn-george",
+    "league": "nba",
+    "teamId": "washington-wizards",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "PPG",
+        "value": "18.0"
+      },
+      {
+        "label": "RPG",
+        "value": "5.0"
+      },
+      {
+        "label": "APG",
+        "value": "3.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "57.1"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/kyshawn-george-30408/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kyshawn-george",
+    "league": "nba",
+    "teamId": "washington-wizards",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "48"
+      },
+      {
+        "label": "PPG",
+        "value": "14.8"
+      },
+      {
+        "label": "RPG",
+        "value": "5.1"
+      },
+      {
+        "label": "APG",
+        "value": "4.5"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.9"
+      },
+      {
+        "label": "3PG",
+        "value": "2.1"
+      },
+      {
+        "label": "FG%",
+        "value": "43.8"
+      },
+      {
+        "label": "FT%",
+        "value": "80.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/kyshawn-george-30408/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "tre-johnson",
+    "league": "nba",
+    "teamId": "washington-wizards",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "PPG",
+        "value": "12.0"
+      },
+      {
+        "label": "RPG",
+        "value": "2.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.8"
+      },
+      {
+        "label": "FG%",
+        "value": "47.4"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/tre-johnson-30579/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "tre-johnson",
+    "league": "nba",
+    "teamId": "washington-wizards",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "60"
+      },
+      {
+        "label": "PPG",
+        "value": "12.2"
+      },
+      {
+        "label": "RPG",
+        "value": "2.8"
+      },
+      {
+        "label": "APG",
+        "value": "2.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "41.9"
+      },
+      {
+        "label": "FT%",
+        "value": "87.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/tre-johnson-30579/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "tyrese-haliburton",
     "league": "nba",
     "teamId": "indiana-pacers",
@@ -23349,6 +23849,106 @@
     "source": "https://www.statmuse.com/nba/player/aaron-nesmith-10182/career-stats",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "t-j-mcconnell",
+    "league": "nba",
+    "teamId": "indiana-pacers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "56"
+      },
+      {
+        "label": "PPG",
+        "value": "9.4"
+      },
+      {
+        "label": "RPG",
+        "value": "2.2"
+      },
+      {
+        "label": "APG",
+        "value": "5.1"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "53.8"
+      },
+      {
+        "label": "FT%",
+        "value": "86.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/t.j.-mcconnell-9406/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jarace-walker",
+    "league": "nba",
+    "teamId": "indiana-pacers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "76"
+      },
+      {
+        "label": "PPG",
+        "value": "11.6"
+      },
+      {
+        "label": "RPG",
+        "value": "5.1"
+      },
+      {
+        "label": "APG",
+        "value": "2.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.8"
+      },
+      {
+        "label": "FG%",
+        "value": "41.9"
+      },
+      {
+        "label": "FT%",
+        "value": "74.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/jarace-walker-30266/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -23852,6 +24452,106 @@
     "isDemo": false
   },
   {
+    "playerId": "meleek-thomas",
+    "league": "nba",
+    "teamId": "cleveland-cavaliers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "2"
+      },
+      {
+        "label": "PPG",
+        "value": "13.0"
+      },
+      {
+        "label": "RPG",
+        "value": "3.0"
+      },
+      {
+        "label": "APG",
+        "value": "0.5"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "58.8"
+      },
+      {
+        "label": "FT%",
+        "value": "100.0"
+      }
+    ],
+    "note": "Rookie; early 2026-27 line.",
+    "source": "https://www.statmuse.com/nba/player/meleek-thomas-30729",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "peyton-watson",
+    "league": "nba",
+    "teamId": "denver-nuggets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "54"
+      },
+      {
+        "label": "PPG",
+        "value": "14.6"
+      },
+      {
+        "label": "RPG",
+        "value": "4.9"
+      },
+      {
+        "label": "APG",
+        "value": "2.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "1.1"
+      },
+      {
+        "label": "3PG",
+        "value": "1.5"
+      },
+      {
+        "label": "FG%",
+        "value": "49.1"
+      },
+      {
+        "label": "FT%",
+        "value": "73.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/peyton-watson-10508/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "paolo-banchero",
     "league": "nba",
     "teamId": "orlando-magic",
@@ -24102,6 +24802,106 @@
     "isDemo": false
   },
   {
+    "playerId": "anthony-black",
+    "league": "nba",
+    "teamId": "orlando-magic",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "64"
+      },
+      {
+        "label": "PPG",
+        "value": "15.0"
+      },
+      {
+        "label": "RPG",
+        "value": "3.8"
+      },
+      {
+        "label": "APG",
+        "value": "3.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "3PG",
+        "value": "1.6"
+      },
+      {
+        "label": "FG%",
+        "value": "44.7"
+      },
+      {
+        "label": "FT%",
+        "value": "73.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/anthony-black-30257/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jase-richardson",
+    "league": "nba",
+    "teamId": "orlando-magic",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "54"
+      },
+      {
+        "label": "PPG",
+        "value": "4.4"
+      },
+      {
+        "label": "RPG",
+        "value": "1.2"
+      },
+      {
+        "label": "APG",
+        "value": "1.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.5"
+      },
+      {
+        "label": "FG%",
+        "value": "47.3"
+      },
+      {
+        "label": "FT%",
+        "value": "71.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/jase-richardson-30561/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "josh-giddey",
     "league": "nba",
     "teamId": "chicago-bulls",
@@ -24349,6 +25149,106 @@
     "source": "https://www.statmuse.com/nba/player/caleb-wilson-30707",
     "throughDate": "2026-10-24",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "tre-jones",
+    "league": "nba",
+    "teamId": "chicago-bulls",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "65"
+      },
+      {
+        "label": "PPG",
+        "value": "14.1"
+      },
+      {
+        "label": "RPG",
+        "value": "3.1"
+      },
+      {
+        "label": "APG",
+        "value": "5.4"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "0.6"
+      },
+      {
+        "label": "FG%",
+        "value": "55.3"
+      },
+      {
+        "label": "FT%",
+        "value": "84.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/tre-jones-10183/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "patrick-williams",
+    "league": "nba",
+    "teamId": "chicago-bulls",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "72"
+      },
+      {
+        "label": "PPG",
+        "value": "7.0"
+      },
+      {
+        "label": "RPG",
+        "value": "3.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.3"
+      },
+      {
+        "label": "FG%",
+        "value": "37.2"
+      },
+      {
+        "label": "FT%",
+        "value": "72.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/patrick-williams-10156/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -24802,6 +25702,106 @@
     "isDemo": false
   },
   {
+    "playerId": "miles-mcbride",
+    "league": "nba",
+    "teamId": "new-york-knicks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "41"
+      },
+      {
+        "label": "PPG",
+        "value": "12.0"
+      },
+      {
+        "label": "RPG",
+        "value": "2.4"
+      },
+      {
+        "label": "APG",
+        "value": "2.6"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "2.7"
+      },
+      {
+        "label": "FG%",
+        "value": "42.3"
+      },
+      {
+        "label": "FT%",
+        "value": "78.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/miles-mcbride-10292/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jose-alvarado",
+    "league": "nba",
+    "teamId": "new-york-knicks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "69"
+      },
+      {
+        "label": "PPG",
+        "value": "7.4"
+      },
+      {
+        "label": "RPG",
+        "value": "2.5"
+      },
+      {
+        "label": "APG",
+        "value": "3.4"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "3PG",
+        "value": "1.5"
+      },
+      {
+        "label": "FG%",
+        "value": "41.6"
+      },
+      {
+        "label": "FT%",
+        "value": "76.1"
+      }
+    ],
+    "note": "Combined line for the New Orleans Pelicans and New York Knicks.",
+    "source": "https://www.statmuse.com/nba/player/jose-alvarado-10347/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "tyler-herro",
     "league": "nba",
     "teamId": "miami-heat",
@@ -24952,6 +25952,106 @@
     "isDemo": false
   },
   {
+    "playerId": "ryan-rollins",
+    "league": "nba",
+    "teamId": "milwaukee-bucks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "74"
+      },
+      {
+        "label": "PPG",
+        "value": "17.3"
+      },
+      {
+        "label": "RPG",
+        "value": "4.6"
+      },
+      {
+        "label": "APG",
+        "value": "5.6"
+      },
+      {
+        "label": "SPG",
+        "value": "1.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "2.5"
+      },
+      {
+        "label": "FG%",
+        "value": "47.2"
+      },
+      {
+        "label": "FT%",
+        "value": "79.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/ryan-rollins-10441/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "nate-ament",
+    "league": "nba",
+    "teamId": "milwaukee-bucks",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "PPG",
+        "value": "5.3"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "0.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "0.7"
+      },
+      {
+        "label": "FG%",
+        "value": "31.3"
+      },
+      {
+        "label": "FT%",
+        "value": "50.0"
+      }
+    ],
+    "note": "Rookie; early 2026-27 line.",
+    "source": "https://www.statmuse.com/nba/player/nate-ament-30710",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "jaime-jaquez-jr",
     "league": "nba",
     "teamId": "miami-heat",
@@ -25049,6 +26149,156 @@
     "source": "https://www.statmuse.com/nba/team/miami-heat-48/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "pelle-larsson",
+    "league": "nba",
+    "teamId": "miami-heat",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "PPG",
+        "value": "10.6"
+      },
+      {
+        "label": "RPG",
+        "value": "3.6"
+      },
+      {
+        "label": "APG",
+        "value": "4.2"
+      },
+      {
+        "label": "SPG",
+        "value": "1.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "41.7"
+      },
+      {
+        "label": "FT%",
+        "value": "90.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/pelle-larsson-30449/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "pelle-larsson",
+    "league": "nba",
+    "teamId": "miami-heat",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "70"
+      },
+      {
+        "label": "PPG",
+        "value": "11.4"
+      },
+      {
+        "label": "RPG",
+        "value": "3.5"
+      },
+      {
+        "label": "APG",
+        "value": "3.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "0.9"
+      },
+      {
+        "label": "FG%",
+        "value": "49.6"
+      },
+      {
+        "label": "FT%",
+        "value": "79.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/pelle-larsson-30449/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "nikola-jovic",
+    "league": "nba",
+    "teamId": "miami-heat",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "47"
+      },
+      {
+        "label": "PPG",
+        "value": "7.3"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "2.2"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "36.6"
+      },
+      {
+        "label": "FT%",
+        "value": "68.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/nikola-jovi%C4%87-10492/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -25302,6 +26552,106 @@
     "isDemo": false
   },
   {
+    "playerId": "nolan-traore",
+    "league": "nba",
+    "teamId": "brooklyn-nets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "56"
+      },
+      {
+        "label": "PPG",
+        "value": "8.9"
+      },
+      {
+        "label": "RPG",
+        "value": "1.8"
+      },
+      {
+        "label": "APG",
+        "value": "3.8"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.1"
+      },
+      {
+        "label": "FG%",
+        "value": "38.0"
+      },
+      {
+        "label": "FT%",
+        "value": "78.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/nolan-traore-30574/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "danny-wolf",
+    "league": "nba",
+    "teamId": "brooklyn-nets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "57"
+      },
+      {
+        "label": "PPG",
+        "value": "8.9"
+      },
+      {
+        "label": "RPG",
+        "value": "4.9"
+      },
+      {
+        "label": "APG",
+        "value": "2.2"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.6"
+      },
+      {
+        "label": "3PG",
+        "value": "1.2"
+      },
+      {
+        "label": "FG%",
+        "value": "40.5"
+      },
+      {
+        "label": "FT%",
+        "value": "77.1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/danny-wolf-30575/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "alperen-sengun",
     "league": "nba",
     "teamId": "houston-rockets",
@@ -25502,6 +26852,106 @@
     "isDemo": false
   },
   {
+    "playerId": "reed-sheppard",
+    "league": "nba",
+    "teamId": "houston-rockets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "13.5"
+      },
+      {
+        "label": "RPG",
+        "value": "2.9"
+      },
+      {
+        "label": "APG",
+        "value": "3.4"
+      },
+      {
+        "label": "SPG",
+        "value": "1.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "3PG",
+        "value": "2.8"
+      },
+      {
+        "label": "FG%",
+        "value": "43.0"
+      },
+      {
+        "label": "FT%",
+        "value": "80.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/reed-sheppard-30398/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "tari-eason",
+    "league": "nba",
+    "teamId": "houston-rockets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "60"
+      },
+      {
+        "label": "PPG",
+        "value": "10.5"
+      },
+      {
+        "label": "RPG",
+        "value": "6.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.5"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "1.6"
+      },
+      {
+        "label": "FG%",
+        "value": "41.6"
+      },
+      {
+        "label": "FT%",
+        "value": "77.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/tari-eason-10470/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "austin-reaves",
     "league": "nba",
     "teamId": "los-angeles-lakers",
@@ -25649,6 +27099,106 @@
     "source": "https://www.statmuse.com/nba/player/quentin-grimes-10338/career-stats",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "anfernee-simons",
+    "league": "nba",
+    "teamId": "philadelphia-76ers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "PPG",
+        "value": "8.8"
+      },
+      {
+        "label": "RPG",
+        "value": "2.4"
+      },
+      {
+        "label": "APG",
+        "value": "1.2"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "2.2"
+      },
+      {
+        "label": "FG%",
+        "value": "35.7"
+      },
+      {
+        "label": "FT%",
+        "value": "60.0"
+      }
+    ],
+    "note": "Early 2026-27 line; he split 2025-26 between two teams.",
+    "source": "https://www.statmuse.com/nba/player/anfernee-simons-9786/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kentavious-caldwell-pope",
+    "league": "nba",
+    "teamId": "memphis-grizzlies",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "51"
+      },
+      {
+        "label": "PPG",
+        "value": "8.4"
+      },
+      {
+        "label": "RPG",
+        "value": "2.5"
+      },
+      {
+        "label": "APG",
+        "value": "2.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "1.1"
+      },
+      {
+        "label": "FG%",
+        "value": "41.0"
+      },
+      {
+        "label": "FT%",
+        "value": "91.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/kentavious-caldwell-pope-548/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -25899,6 +27449,156 @@
     "source": "https://www.statmuse.com/nba/team/oklahoma-city-thunder-38/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "alex-caruso",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "PPG",
+        "value": "9.3"
+      },
+      {
+        "label": "RPG",
+        "value": "4.8"
+      },
+      {
+        "label": "APG",
+        "value": "3.8"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "56.5"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/alex-caruso-9662/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "alex-caruso",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "56"
+      },
+      {
+        "label": "PPG",
+        "value": "6.2"
+      },
+      {
+        "label": "RPG",
+        "value": "2.8"
+      },
+      {
+        "label": "APG",
+        "value": "2.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "0.9"
+      },
+      {
+        "label": "FG%",
+        "value": "42.3"
+      },
+      {
+        "label": "FT%",
+        "value": "80.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/alex-caruso-9662/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jared-mccain",
+    "league": "nba",
+    "teamId": "oklahoma-city-thunder",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "PPG",
+        "value": "11.3"
+      },
+      {
+        "label": "RPG",
+        "value": "1.5"
+      },
+      {
+        "label": "APG",
+        "value": "1.8"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "2.8"
+      },
+      {
+        "label": "FG%",
+        "value": "40.5"
+      },
+      {
+        "label": "FT%",
+        "value": "80.0"
+      }
+    ],
+    "note": "Early 2026-27 line; he split 2025-26 between two teams.",
+    "source": "https://www.statmuse.com/nba/player/jared-mccain-30394/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -26302,6 +28002,106 @@
     "isDemo": false
   },
   {
+    "playerId": "donte-divincenzo",
+    "league": "nba",
+    "teamId": "minnesota-timberwolves",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "12.2"
+      },
+      {
+        "label": "RPG",
+        "value": "4.1"
+      },
+      {
+        "label": "APG",
+        "value": "3.8"
+      },
+      {
+        "label": "SPG",
+        "value": "1.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "3.0"
+      },
+      {
+        "label": "FG%",
+        "value": "40.6"
+      },
+      {
+        "label": "FT%",
+        "value": "74.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/donte-divincenzo-9779/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ayo-dosunmu",
+    "league": "nba",
+    "teamId": "minnesota-timberwolves",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "PPG",
+        "value": "13.0"
+      },
+      {
+        "label": "RPG",
+        "value": "3.8"
+      },
+      {
+        "label": "APG",
+        "value": "4.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.4"
+      },
+      {
+        "label": "FG%",
+        "value": "49.1"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": "Early 2026-27 line; he split 2025-26 between two teams.",
+    "source": "https://www.statmuse.com/nba/player/ayo-dosunmu-10340/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "ja-morant",
     "league": "nba",
     "teamId": "memphis-grizzlies",
@@ -26552,6 +28352,106 @@
     "isDemo": false
   },
   {
+    "playerId": "scoot-henderson",
+    "league": "nba",
+    "teamId": "portland-trail-blazers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "PPG",
+        "value": "14.2"
+      },
+      {
+        "label": "RPG",
+        "value": "2.7"
+      },
+      {
+        "label": "APG",
+        "value": "3.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.9"
+      },
+      {
+        "label": "FG%",
+        "value": "41.8"
+      },
+      {
+        "label": "FT%",
+        "value": "84.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/scoot-henderson-30301/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "donovan-clingan",
+    "league": "nba",
+    "teamId": "portland-trail-blazers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "77"
+      },
+      {
+        "label": "PPG",
+        "value": "12.1"
+      },
+      {
+        "label": "RPG",
+        "value": "11.6"
+      },
+      {
+        "label": "APG",
+        "value": "2.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "1.7"
+      },
+      {
+        "label": "3PG",
+        "value": "1.1"
+      },
+      {
+        "label": "FG%",
+        "value": "52.0"
+      },
+      {
+        "label": "FT%",
+        "value": "68.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/donovan-clingan-30401/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "jamal-murray",
     "league": "nba",
     "teamId": "denver-nuggets",
@@ -26752,6 +28652,106 @@
     "isDemo": false
   },
   {
+    "playerId": "christian-braun",
+    "league": "nba",
+    "teamId": "denver-nuggets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "44"
+      },
+      {
+        "label": "PPG",
+        "value": "12.0"
+      },
+      {
+        "label": "RPG",
+        "value": "4.8"
+      },
+      {
+        "label": "APG",
+        "value": "2.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "51.9"
+      },
+      {
+        "label": "FT%",
+        "value": "78.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/christian-braun-10509/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "julian-strawther",
+    "league": "nba",
+    "teamId": "denver-nuggets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "57"
+      },
+      {
+        "label": "PPG",
+        "value": "7.2"
+      },
+      {
+        "label": "RPG",
+        "value": "2.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.4"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "46.7"
+      },
+      {
+        "label": "FT%",
+        "value": "81.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/julian-strawther-30243/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "jalen-green",
     "league": "nba",
     "teamId": "phoenix-suns",
@@ -26852,6 +28852,106 @@
     "isDemo": false
   },
   {
+    "playerId": "moussa-diabate",
+    "league": "nba",
+    "teamId": "charlotte-hornets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "73"
+      },
+      {
+        "label": "PPG",
+        "value": "7.9"
+      },
+      {
+        "label": "RPG",
+        "value": "8.7"
+      },
+      {
+        "label": "APG",
+        "value": "1.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "1.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "63.1"
+      },
+      {
+        "label": "FT%",
+        "value": "65.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/moussa-diabat%C3%A9-10484/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "grant-williams",
+    "league": "nba",
+    "teamId": "charlotte-hornets",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "36"
+      },
+      {
+        "label": "PPG",
+        "value": "7.0"
+      },
+      {
+        "label": "RPG",
+        "value": "3.9"
+      },
+      {
+        "label": "APG",
+        "value": "1.6"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "1.4"
+      },
+      {
+        "label": "FG%",
+        "value": "42.6"
+      },
+      {
+        "label": "FT%",
+        "value": "81.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/grant-williams-9996/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "dillon-brooks",
     "league": "nba",
     "teamId": "phoenix-suns",
@@ -26949,6 +29049,156 @@
     "source": "https://www.statmuse.com/nba/team/phoenix-suns-40/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "khaman-maluach",
+    "league": "nba",
+    "teamId": "phoenix-suns",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "PPG",
+        "value": "7.7"
+      },
+      {
+        "label": "RPG",
+        "value": "7.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.7"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "1.3"
+      },
+      {
+        "label": "3PG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "53.3"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/khaman-maluach-30572/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "khaman-maluach",
+    "league": "nba",
+    "teamId": "phoenix-suns",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "46"
+      },
+      {
+        "label": "PPG",
+        "value": "3.0"
+      },
+      {
+        "label": "RPG",
+        "value": "2.9"
+      },
+      {
+        "label": "APG",
+        "value": "0.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.1"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "3PG",
+        "value": "0.1"
+      },
+      {
+        "label": "FG%",
+        "value": "53.3"
+      },
+      {
+        "label": "FT%",
+        "value": "71.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/khaman-maluach-30572/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "collin-gillespie",
+    "league": "nba",
+    "teamId": "phoenix-suns",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "80"
+      },
+      {
+        "label": "PPG",
+        "value": "12.7"
+      },
+      {
+        "label": "RPG",
+        "value": "4.1"
+      },
+      {
+        "label": "APG",
+        "value": "4.6"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "2.9"
+      },
+      {
+        "label": "FG%",
+        "value": "41.8"
+      },
+      {
+        "label": "FT%",
+        "value": "87.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/collin-gillespie-10506/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -27152,6 +29402,106 @@
     "isDemo": false
   },
   {
+    "playerId": "keldon-johnson",
+    "league": "nba",
+    "teamId": "san-antonio-spurs",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "13.2"
+      },
+      {
+        "label": "RPG",
+        "value": "5.4"
+      },
+      {
+        "label": "APG",
+        "value": "1.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "3PG",
+        "value": "1.2"
+      },
+      {
+        "label": "FG%",
+        "value": "51.9"
+      },
+      {
+        "label": "FT%",
+        "value": "79.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/keldon-johnson-10003/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "harrison-barnes",
+    "league": "nba",
+    "teamId": "san-antonio-spurs",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "77"
+      },
+      {
+        "label": "PPG",
+        "value": "9.9"
+      },
+      {
+        "label": "RPG",
+        "value": "2.8"
+      },
+      {
+        "label": "APG",
+        "value": "1.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "1.8"
+      },
+      {
+        "label": "FG%",
+        "value": "45.6"
+      },
+      {
+        "label": "FT%",
+        "value": "82.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/harrison-barnes-182/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "kyrie-irving",
     "league": "nba",
     "teamId": "dallas-mavericks",
@@ -27352,6 +29702,106 @@
     "isDemo": false
   },
   {
+    "playerId": "dereck-lively-ii",
+    "league": "nba",
+    "teamId": "dallas-mavericks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "PPG",
+        "value": "4.3"
+      },
+      {
+        "label": "RPG",
+        "value": "5.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.6"
+      },
+      {
+        "label": "BPG",
+        "value": "1.6"
+      },
+      {
+        "label": "3PG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "61.1"
+      },
+      {
+        "label": "FT%",
+        "value": "80.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/dereck-lively-ii-30253/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "zaccharie-risacher",
+    "league": "nba",
+    "teamId": "atlanta-hawks",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "67"
+      },
+      {
+        "label": "PPG",
+        "value": "9.6"
+      },
+      {
+        "label": "RPG",
+        "value": "3.8"
+      },
+      {
+        "label": "APG",
+        "value": "1.1"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "1.4"
+      },
+      {
+        "label": "FG%",
+        "value": "45.5"
+      },
+      {
+        "label": "FT%",
+        "value": "64.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/zaccharie-risacher-30413/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "darius-garland",
     "league": "nba",
     "teamId": "la-clippers",
@@ -27449,6 +29899,106 @@
     "source": "https://www.statmuse.com/nba/player/brandon-ingram-9448/career-stats",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "collin-murray-boyles",
+    "league": "nba",
+    "teamId": "toronto-raptors",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "57"
+      },
+      {
+        "label": "PPG",
+        "value": "8.5"
+      },
+      {
+        "label": "RPG",
+        "value": "5.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.9"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.9"
+      },
+      {
+        "label": "3PG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "57.9"
+      },
+      {
+        "label": "FT%",
+        "value": "65.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/collin-murray-boyles-30570/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jamal-shead",
+    "league": "nba",
+    "teamId": "toronto-raptors",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "6.6"
+      },
+      {
+        "label": "RPG",
+        "value": "1.7"
+      },
+      {
+        "label": "APG",
+        "value": "5.4"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "36.7"
+      },
+      {
+        "label": "FT%",
+        "value": "78.4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/jamal-shead-30462/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -27552,6 +30102,106 @@
     "isDemo": false
   },
   {
+    "playerId": "bronny-james",
+    "league": "nba",
+    "teamId": "los-angeles-lakers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "42"
+      },
+      {
+        "label": "PPG",
+        "value": "2.9"
+      },
+      {
+        "label": "RPG",
+        "value": "0.5"
+      },
+      {
+        "label": "APG",
+        "value": "1.2"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.1"
+      },
+      {
+        "label": "3PG",
+        "value": "0.5"
+      },
+      {
+        "label": "FG%",
+        "value": "40.9"
+      },
+      {
+        "label": "FT%",
+        "value": "85.7"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/bronny-james-30437/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jake-laravia",
+    "league": "nba",
+    "teamId": "los-angeles-lakers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "8.2"
+      },
+      {
+        "label": "RPG",
+        "value": "4.0"
+      },
+      {
+        "label": "APG",
+        "value": "1.8"
+      },
+      {
+        "label": "SPG",
+        "value": "1.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "45.9"
+      },
+      {
+        "label": "FT%",
+        "value": "76.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/jake-laravia-10462/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "brook-lopez",
     "league": "nba",
     "teamId": "la-clippers",
@@ -27599,6 +30249,156 @@
     "source": "https://www.statmuse.com/nba/team/la-clippers-41/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "keaton-wagler",
+    "league": "nba",
+    "teamId": "la-clippers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "PPG",
+        "value": "13.0"
+      },
+      {
+        "label": "RPG",
+        "value": "4.3"
+      },
+      {
+        "label": "APG",
+        "value": "4.0"
+      },
+      {
+        "label": "SPG",
+        "value": "1.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "2.0"
+      },
+      {
+        "label": "FG%",
+        "value": "34.8"
+      },
+      {
+        "label": "FT%",
+        "value": "89.5"
+      }
+    ],
+    "note": "Rookie; early 2026-27 line.",
+    "source": "https://www.statmuse.com/nba/player/keaton-wagler-30705",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kris-dunn",
+    "league": "nba",
+    "teamId": "la-clippers",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "PPG",
+        "value": "9.7"
+      },
+      {
+        "label": "RPG",
+        "value": "4.7"
+      },
+      {
+        "label": "APG",
+        "value": "6.0"
+      },
+      {
+        "label": "SPG",
+        "value": "3.3"
+      },
+      {
+        "label": "BPG",
+        "value": "1.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.3"
+      },
+      {
+        "label": "FG%",
+        "value": "61.1"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/kris-dunn-9451/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kris-dunn",
+    "league": "nba",
+    "teamId": "la-clippers",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "7.3"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "3.6"
+      },
+      {
+        "label": "SPG",
+        "value": "1.6"
+      },
+      {
+        "label": "BPG",
+        "value": "0.2"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "47.6"
+      },
+      {
+        "label": "FT%",
+        "value": "76.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/kris-dunn-9451/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -27699,6 +30499,156 @@
     "source": "https://www.statmuse.com/nba/team/memphis-grizzlies-52/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "ty-jerome",
+    "league": "nba",
+    "teamId": "memphis-grizzlies",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "2"
+      },
+      {
+        "label": "PPG",
+        "value": "36.5"
+      },
+      {
+        "label": "RPG",
+        "value": "4.5"
+      },
+      {
+        "label": "APG",
+        "value": "5.5"
+      },
+      {
+        "label": "SPG",
+        "value": "0.5"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "4.0"
+      },
+      {
+        "label": "FG%",
+        "value": "59.6"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/ty-jerome-9998/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ty-jerome",
+    "league": "nba",
+    "teamId": "memphis-grizzlies",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "15"
+      },
+      {
+        "label": "PPG",
+        "value": "19.7"
+      },
+      {
+        "label": "RPG",
+        "value": "2.8"
+      },
+      {
+        "label": "APG",
+        "value": "5.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.1"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "2.8"
+      },
+      {
+        "label": "FG%",
+        "value": "47.4"
+      },
+      {
+        "label": "FT%",
+        "value": "87.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/ty-jerome-9998/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "scotty-pippen-jr",
+    "league": "nba",
+    "teamId": "memphis-grizzlies",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "10"
+      },
+      {
+        "label": "PPG",
+        "value": "11.4"
+      },
+      {
+        "label": "RPG",
+        "value": "2.2"
+      },
+      {
+        "label": "APG",
+        "value": "4.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "44.8"
+      },
+      {
+        "label": "FT%",
+        "value": "78.3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/scotty-pippen-jr.-10465/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -27849,6 +30799,156 @@
     "source": "https://www.statmuse.com/nba/player/darryn-peterson-30687",
     "throughDate": "2026-10-25",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "kyle-filipowski",
+    "league": "nba",
+    "teamId": "utah-jazz",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "77"
+      },
+      {
+        "label": "PPG",
+        "value": "11.4"
+      },
+      {
+        "label": "RPG",
+        "value": "7.2"
+      },
+      {
+        "label": "APG",
+        "value": "2.6"
+      },
+      {
+        "label": "SPG",
+        "value": "0.9"
+      },
+      {
+        "label": "BPG",
+        "value": "0.5"
+      },
+      {
+        "label": "3PG",
+        "value": "1.0"
+      },
+      {
+        "label": "FG%",
+        "value": "49.2"
+      },
+      {
+        "label": "FT%",
+        "value": "75.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/kyle-filipowski-30455/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "isaiah-collier",
+    "league": "nba",
+    "teamId": "utah-jazz",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "PPG",
+        "value": "7.4"
+      },
+      {
+        "label": "RPG",
+        "value": "4.6"
+      },
+      {
+        "label": "APG",
+        "value": "6.0"
+      },
+      {
+        "label": "SPG",
+        "value": "0.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.0"
+      },
+      {
+        "label": "3PG",
+        "value": "0.0"
+      },
+      {
+        "label": "FG%",
+        "value": "33.3"
+      },
+      {
+        "label": "FT%",
+        "value": "60.0"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/isaiah-collier-30392/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "isaiah-collier",
+    "league": "nba",
+    "teamId": "utah-jazz",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "59"
+      },
+      {
+        "label": "PPG",
+        "value": "11.7"
+      },
+      {
+        "label": "RPG",
+        "value": "2.5"
+      },
+      {
+        "label": "APG",
+        "value": "7.2"
+      },
+      {
+        "label": "SPG",
+        "value": "1.1"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "0.5"
+      },
+      {
+        "label": "FG%",
+        "value": "49.5"
+      },
+      {
+        "label": "FT%",
+        "value": "72.2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/isaiah-collier-30392/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -28102,6 +31202,156 @@
     "isDemo": false
   },
   {
+    "playerId": "jeremiah-fears",
+    "league": "nba",
+    "teamId": "new-orleans-pelicans",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "82"
+      },
+      {
+        "label": "PPG",
+        "value": "14.3"
+      },
+      {
+        "label": "RPG",
+        "value": "3.7"
+      },
+      {
+        "label": "APG",
+        "value": "3.4"
+      },
+      {
+        "label": "SPG",
+        "value": "1.2"
+      },
+      {
+        "label": "BPG",
+        "value": "0.4"
+      },
+      {
+        "label": "3PG",
+        "value": "1.2"
+      },
+      {
+        "label": "FG%",
+        "value": "43.4"
+      },
+      {
+        "label": "FT%",
+        "value": "78.9"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/jeremiah-fears-30568/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "derik-queen",
+    "league": "nba",
+    "teamId": "new-orleans-pelicans",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "PPG",
+        "value": "13.0"
+      },
+      {
+        "label": "RPG",
+        "value": "8.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.7"
+      },
+      {
+        "label": "3PG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "52.2"
+      },
+      {
+        "label": "FT%",
+        "value": "93.3"
+      }
+    ],
+    "note": "Early-season sample; the 2025-26 line is in the table below.",
+    "source": "https://www.statmuse.com/nba/player/derik-queen-30569/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "derik-queen",
+    "league": "nba",
+    "teamId": "new-orleans-pelicans",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "81"
+      },
+      {
+        "label": "PPG",
+        "value": "11.7"
+      },
+      {
+        "label": "RPG",
+        "value": "7.1"
+      },
+      {
+        "label": "APG",
+        "value": "3.7"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.9"
+      },
+      {
+        "label": "3PG",
+        "value": "0.3"
+      },
+      {
+        "label": "FG%",
+        "value": "47.3"
+      },
+      {
+        "label": "FT%",
+        "value": "79.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/derik-queen-30569/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
     "playerId": "jimmy-butler-iii",
     "league": "nba",
     "teamId": "golden-state-warriors",
@@ -28299,6 +31549,106 @@
     "source": "https://www.statmuse.com/nba/team/golden-state-warriors-6/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "moses-moody",
+    "league": "nba",
+    "teamId": "golden-state-warriors",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "60"
+      },
+      {
+        "label": "PPG",
+        "value": "12.1"
+      },
+      {
+        "label": "RPG",
+        "value": "3.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.6"
+      },
+      {
+        "label": "SPG",
+        "value": "1.0"
+      },
+      {
+        "label": "BPG",
+        "value": "0.6"
+      },
+      {
+        "label": "3PG",
+        "value": "2.5"
+      },
+      {
+        "label": "FG%",
+        "value": "44.0"
+      },
+      {
+        "label": "FT%",
+        "value": "77.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/moses-moody-10322/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "al-horford",
+    "league": "nba",
+    "teamId": "golden-state-warriors",
+    "season": "2025-26",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "45"
+      },
+      {
+        "label": "PPG",
+        "value": "8.3"
+      },
+      {
+        "label": "RPG",
+        "value": "4.9"
+      },
+      {
+        "label": "APG",
+        "value": "2.6"
+      },
+      {
+        "label": "SPG",
+        "value": "0.7"
+      },
+      {
+        "label": "BPG",
+        "value": "1.1"
+      },
+      {
+        "label": "3PG",
+        "value": "1.6"
+      },
+      {
+        "label": "FG%",
+        "value": "42.6"
+      },
+      {
+        "label": "FT%",
+        "value": "84.6"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nba/player/al-horford-1670/career-stats",
+    "throughDate": "2026-04-12",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
@@ -28549,6 +31899,106 @@
     "source": "https://www.statmuse.com/nba/team/sacramento-kings-16/stats/2026",
     "throughDate": "2026-04-12",
     "updatedAt": "2026-10-27",
+    "isDemo": false
+  },
+  {
+    "playerId": "darius-acuff-jr",
+    "league": "nba",
+    "teamId": "sacramento-kings",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "PPG",
+        "value": "21.5"
+      },
+      {
+        "label": "RPG",
+        "value": "2.8"
+      },
+      {
+        "label": "APG",
+        "value": "4.8"
+      },
+      {
+        "label": "SPG",
+        "value": "0.8"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "1.8"
+      },
+      {
+        "label": "FG%",
+        "value": "34.4"
+      },
+      {
+        "label": "FT%",
+        "value": "78.9"
+      }
+    ],
+    "note": "Rookie; early 2026-27 line.",
+    "source": "https://www.statmuse.com/nba/player/darius-acuff-jr.-30701",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "deandre-hunter",
+    "league": "nba",
+    "teamId": "sacramento-kings",
+    "season": "2026-27",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "PPG",
+        "value": "10.3"
+      },
+      {
+        "label": "RPG",
+        "value": "5.3"
+      },
+      {
+        "label": "APG",
+        "value": "1.3"
+      },
+      {
+        "label": "SPG",
+        "value": "0.3"
+      },
+      {
+        "label": "BPG",
+        "value": "0.3"
+      },
+      {
+        "label": "3PG",
+        "value": "2.3"
+      },
+      {
+        "label": "FG%",
+        "value": "48.3"
+      },
+      {
+        "label": "FT%",
+        "value": "40.0"
+      }
+    ],
+    "note": "Early 2026-27 line; he split 2025-26 between two teams.",
+    "source": "https://www.statmuse.com/nba/player/de'andre-hunter-9978/career-stats",
+    "throughDate": "2026-10-28",
+    "updatedAt": "2026-10-29",
     "isDemo": false
   },
   {
