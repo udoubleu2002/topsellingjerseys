@@ -24,7 +24,7 @@ jobs:
           IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
           IMPACT_LIDS_CAMPAIGN_ID: ${{ secrets.IMPACT_LIDS_CAMPAIGN_ID }}
           AFFILIATE_DEEPLINK_LIDS: ${{ secrets.AFFILIATE_DEEPLINK_LIDS }}
-      - run: npm run products:sync
+      - run: npm run products:sync -- --all
         env:
           IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
           IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}

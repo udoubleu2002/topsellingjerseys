@@ -57,7 +57,21 @@ export function landingUrl(tracking: string): string | null {
   try { return https(new URL(tracking).searchParams.get("u")); } catch { return null; }
 }
 
-/** Higher is better: current team, in stock, adult men's (the most common "player jersey" shoppers mean), lower price breaks ties. */
+/**
+ * The price band we show first: mid-tier jerseys (NFL Game/Limited, NBA Swingman, MLB Limited, NHL Breakaway, MLS and
+ * WNBA replicas), not $60 fan tees-as-jerseys or $400 authentics.
+ */
+export const MID_TIER = { min: 100, max: 250, ideal: 150 };
+
+/** 0 at the ideal price, falling inside the band, and well below zero outside it; 0 when the feed has no price. */
+export function priceFit(price: number | null): number {
+  if (price === null) return 0;
+  if (price < MID_TIER.min) return -40 - (MID_TIER.min - price) / 2;
+  if (price > MID_TIER.max) return -40 - (price - MID_TIER.max) / 4;
+  return 0 - Math.abs(price - MID_TIER.ideal) / 5;
+}
+
+/** Higher is better: current team, in stock, adult men's (the most common "player jersey" shoppers mean), a mid-tier price. */
 function score(item: ImpactItem, team: Team | undefined): number {
   const name = item.Name ?? "";
   let s = 0;
@@ -68,11 +82,12 @@ function score(item: ImpactItem, team: Team | undefined): number {
   if (/ (youth|kids|toddler|infant|preschool|newborn|baby) /.test(n) || /kid|youth|infant|toddler/i.test(item.AgeGroup ?? "")) s -= 30;
   else if (/ women s | womens /.test(n) || /female/i.test(item.Gender ?? "")) s -= 10;
   if (/ men s | mens /.test(n)) s += 10;
-  return s;
+  return s + priceFit(num(item.CurrentPrice));
 }
 
 /**
- * Picks up to `limit` jerseys for one player from catalog search results. An item counts only when its name holds the
+ * Picks up to `limit` jerseys for one player from catalog search results, best first; the first is the one shown
+ * beside the player's name, so it should be a mid-tier adult jersey of the current team. An item counts only when its name holds the
  * player's full name and the word jersey, has an https image and a tracking link, and (when catalogId/campaignId are
  * given) comes from the Lids program: a field Impact leaves out is not held against the item, but one that names
  * another catalog or campaign, or a tracking link for another campaign, is. Size and color variants (same group) and repeated photos collapse to one listing.
@@ -91,7 +106,7 @@ export function pickJerseys(
     (!opts.campaignId || !i.Url || !/\/c\/\d+\/\d+\/\d+/.test(i.Url) || new RegExp(`/c/\\d+/\\d+/${opts.campaignId}(\\?|$)`).test(i.Url)) &&
     i.Name && has(i.Name, player.name) && isJersey(i.Name) && https(i.ImageUrl) && https(i.Url));
   if (team && ok.some((i) => has(i.Name!, team.name))) ok = ok.filter((i) => has(i.Name!, team.name));
-  ok.sort((a, b) => score(b, team) - score(a, team) || (num(a.CurrentPrice) ?? 1e9) - (num(b.CurrentPrice) ?? 1e9));
+  ok.sort((a, b) => score(b, team) - score(a, team));
   const groups = new Set<string>();
   const images = new Set<string>();
   const out: ImpactItem[] = [];

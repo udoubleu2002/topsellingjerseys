@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { availability, isJersey, itemToProduct, mergeProducts, pickJerseys, CATALOG_SOURCE, type ImpactItem } from "@/lib/impactCatalog";
+import { availability, isJersey, priceFit, itemToProduct, mergeProducts, pickJerseys, CATALOG_SOURCE, type ImpactItem } from "@/lib/impactCatalog";
 import { getPlayer, getTeam } from "@/lib/data";
 import { ProductSchema, type Product } from "@/lib/schema";
 
@@ -44,6 +44,17 @@ describe("Impact Lids catalog", () => {
       "Youth Nike Aaron Judge Navy New York Yankees Alternate Player Jersey",
       "Men's Nike Aaron Judge Gray New York Yankees Road Limited Player Jersey",
     ]);
+  });
+
+  it("leads with a mid-tier jersey, not the cheapest or the authentic", () => {
+    const picks = pickJerseys([
+      item({ Name: "Men's Fanatics Aaron Judge New York Yankees Replica Jersey", CurrentPrice: "59.99" }),
+      item({ Name: "Men's Nike Aaron Judge New York Yankees Authentic Jersey", CurrentPrice: "449.99" }),
+      item({ Name: "Men's Nike Aaron Judge New York Yankees Limited Player Jersey", CurrentPrice: "174.99" }),
+    ], judge, yankees);
+    expect(picks.map((i) => i.CurrentPrice)).toEqual(["174.99", "59.99", "449.99"]);
+    expect(priceFit(150)).toBe(0);
+    expect(priceFit(60)).toBeLessThan(priceFit(240));
   });
 
   it("does not drop items when Impact leaves out the catalog or campaign fields", () => {
