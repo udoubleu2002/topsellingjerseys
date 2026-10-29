@@ -43,7 +43,7 @@ const str = (v: unknown, max: number) => (typeof v === "string" ? v.slice(0, max
 export function sendView(req: Request, v: Record<string, unknown>, self: string) {
   const url = process.env.DESK_CLICK_URL;
   const key = process.env.DESK_CLICK_KEY;
-  if (!url || !key) return;
+  if (!url || !key) { console.error("desk page view: DESK_CLICK_URL or DESK_CLICK_KEY is not set"); return; }
   const ip = (req.headers.get("x-nf-client-connection-ip") || req.headers.get("x-forwarded-for")?.split(",")[0] || "").trim();
   const body = {
     site: "topsellingjerseys", page: str(v.page, 300), ref: str(v.ref, 500),
@@ -53,12 +53,13 @@ export function sendView(req: Request, v: Record<string, unknown>, self: string)
   };
   after(async () => {
     try {
-      await fetch(`${url.replace(/\/+$/, "")}/api/visit`, {
+      const res = await fetch(`${url.replace(/\/+$/, "")}/api/visit`, {
         method: "POST",
         headers: { "Content-Type": "text/plain", Authorization: `Bearer ${key}` },
         body: JSON.stringify(body),
         signal: AbortSignal.timeout(4000),
       });
-    } catch { /* never let counting break a page */ }
+      if (!res.ok) console.error(`desk page view: ${res.status}`);
+    } catch (e) { console.error("desk page view failed", e); /* never let counting break a page */ }
   });
 }
