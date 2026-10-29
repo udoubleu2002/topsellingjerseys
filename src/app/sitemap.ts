@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getLeagues, getPlayers, getRankings, getCurrentRanking, isIndexable } from "@/lib/data";
 import { abs, site } from "@/lib/config";
 import { articlePath, getArticles } from "@/lib/articles";
+import { getStories, storyPath } from "@/lib/stories";
 
 export const dynamic = "force-static";
 
@@ -16,6 +17,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getArticles();
   if (articles.length) out.push({ url: abs("/jerseys/"), lastModified: articles.map((a) => a.lastVerified).sort().at(-1), changeFrequency: "weekly", priority: 0.7 });
   for (const a of articles) out.push({ url: abs(articlePath(a)), lastModified: a.lastVerified, changeFrequency: "monthly", priority: 0.6 });
+  const stories = getStories();
+  if (stories.length) out.push({ url: abs("/news/"), lastModified: stories[0].lastVerified, changeFrequency: "daily", priority: 0.8 });
+  for (const s of stories) out.push({ url: abs(storyPath(s)), lastModified: s.lastVerified, changeFrequency: "weekly", priority: 0.7 });
   out.push({ url: abs("/my-jerseys/"), changeFrequency: "monthly", priority: 0.6 });
   out.push({ url: abs("/players/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
   out.push({ url: abs("/rankings/"), lastModified: site.lastReviewed, changeFrequency: "monthly", priority: 0.5 });
