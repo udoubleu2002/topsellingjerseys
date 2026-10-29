@@ -10,10 +10,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadStore, getTeam } from "../src/lib/data";
+import { checkStore } from "../src/lib/validate";
 import { campaignFromLink } from "../src/lib/impactDeals";
 import { itemToProduct, mergeProducts, pickJerseys, type ImpactItem } from "../src/lib/impactCatalog";
 import { DIAGNOSTIC_CATALOG_ID } from "../src/lib/impactDiagnostic";
-import type { Product } from "../src/lib/schema";
+import { ProductSchema, type Product } from "../src/lib/schema";
 
 const sid = process.env.IMPACT_ACCOUNT_SID;
 const token = process.env.IMPACT_AUTH_TOKEN;
@@ -53,6 +54,7 @@ async function main() {
   const players = store.players.filter((p) => all || ranked.has(p.id));
   const today = new Date().toISOString().slice(0, 10);
   const fresh: Product[] = [];
+  const seen = new Set<string>();
   let withPhoto = 0;
   for (const p of players) {
     const team = getTeam(p.teamId ?? p.lastTeamId);
@@ -60,15 +62,27 @@ async function main() {
     const items = await search(`${p.name} jersey`);
     const picks = pickJerseys(items, p, team, { campaignId, catalogId });
     if (picks.length) withPhoto++;
-    for (const i of picks) fresh.push(itemToProduct(i, p, team.id, today));
+    for (const i of picks) {
+      // Never let one odd feed item fail the whole refresh: skip anything the data validation would reject.
+      const prod = itemToProduct(i, p, team.id, today);
+      const check = ProductSchema.safeParse(prod);
+      if (!check.success || seen.has(prod.id)) {
+        console.warn(`skip  ${prod.id}: ${check.success ? "same item already matched to another player" : `${check.error.issues[0].path.join(".")} ${check.error.issues[0].message}`}`);
+        continue;
+      }
+      seen.add(prod.id);
+      fresh.push(prod);
+    }
     console.log(`${picks.length ? "found" : "none "} ${p.name}: ${picks.map((i) => i.Name).join(" | ") || `${items.length} search results, no matching Lids jersey`}`);
     await sleep(300);
   }
 
   const existing: Product[] = JSON.parse(fs.readFileSync(file, "utf8"));
   const merged = mergeProducts(existing, fresh);
+  const { errors } = checkStore({ ...store, products: merged });
+  for (const e of errors) console.error(process.env.GITHUB_ACTIONS ? `::error::${e}` : `error ${e}`);
   if (!dry) fs.writeFileSync(file, `${JSON.stringify(merged, null, 2)}\n`);
-  console.log(`${withPhoto} of ${players.length} players have a Lids jersey; ${fresh.length} feed products${dry ? " (dry run, nothing written)" : ` written (${merged.length} products total)`}.`);
+  console.log(`${process.env.GITHUB_ACTIONS ? "::notice::" : ""}${withPhoto} of ${players.length} players have a Lids jersey; ${fresh.length} feed products${dry ? " (dry run, nothing written)" : ` written (${merged.length} products total)`}.`);
 }
 
 main().catch((e) => {
