@@ -51,6 +51,14 @@ Edit `stats.json` (or write a research file and run `apply_research.py`). Always
 - Without verified products, each player gets a clearly labeled Fanatics **search** for their jerseys. To show real products, add entries to `products.json` with the URL, image (with source), price/currency (or `null`), availability and `lastVerified`. Price and stock are displayed only when present. Run `npm run check:links -- --write` regularly to flag dead listings (flagged products are hidden).
 - To add another retailer, add it to `merchants.json` with its own env var name.
 
+## Impact catalog check
+
+`GET /api/impact-diagnostic/` confirms that the server can read the Lids Main Feed (Impact catalog 5267) with `IMPACT_ACCOUNT_SID` and `IMPACT_AUTH_TOKEN`. It returns at most five items (name, image URL, price, stock, product URL and whether that URL is an Impact tracking link) or a safe error code: `missing_env`, `auth_failed`, `catalog_not_found`, `rate_limited`, `timeout`, `upstream_error` or `bad_response`. It never returns or logs the credentials or Impact's raw error text.
+
+- It answers only with the header `x-diagnostic-key` (or `?key=`) equal to `IMPACT_DIAGNOSTIC_KEY`, and returns 404 otherwise or when that variable is not set.
+- It takes no other input, so it cannot be used as a proxy. Each server instance calls Impact at most once every 10 minutes (once a minute after an error).
+- `curl -H "x-diagnostic-key: $KEY" https://topsellingjerseys.net/api/impact-diagnostic/`
+
 ## Deals, sale badges and price alerts
 
 - **Deals bar:** add a promotion to `data/promotions.json` (`id`, `merchantId`, `headline`, `details`, `code`, `url`, `startDate`, `endDate`, `leagues` ([] for sitewide), `source`, `lastVerified`). It appears on the home, league and player pages only between its dates, links through `/out/promo-<id>/`, and hides itself in the browser once it ends. Use only offers published by the retailer or your affiliate network.
