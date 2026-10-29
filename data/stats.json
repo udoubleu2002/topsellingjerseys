@@ -42218,5 +42218,2269 @@
     "throughDate": "2026-10-22",
     "updatedAt": "2026-10-27",
     "isDemo": false
+  },
+  {
+    "playerId": "cooper-sanchez",
+    "league": "mls",
+    "teamId": "atlanta-united",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "GS",
+        "value": "22"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "18"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "elias-baez",
+    "league": "mls",
+    "teamId": "atlanta-united",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "28"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "6"
+      },
+      {
+        "label": "Shots",
+        "value": "27"
+      },
+      {
+        "label": "SOT",
+        "value": "8"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ervin-torres",
+    "league": "mls",
+    "teamId": "austin-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "18"
+      },
+      {
+        "label": "GS",
+        "value": "12"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "9"
+      },
+      {
+        "label": "SOT",
+        "value": "5"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "joseph-rosales",
+    "league": "mls",
+    "teamId": "austin-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "27"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "34"
+      },
+      {
+        "label": "SOT",
+        "value": "7"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "mbekezeli-mbokazi",
+    "league": "mls",
+    "teamId": "chicago-fire-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "18"
+      },
+      {
+        "label": "GS",
+        "value": "18"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "10"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/182/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "puso-dithejane",
+    "league": "mls",
+    "teamId": "chicago-fire-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "24"
+      },
+      {
+        "label": "GS",
+        "value": "4"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "23"
+      },
+      {
+        "label": "SOT",
+        "value": "11"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/182/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "josef-martinez",
+    "league": "mls",
+    "teamId": "columbus-crew",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "11"
+      },
+      {
+        "label": "GS",
+        "value": "7"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals and assists as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "mohamed-farsi",
+    "league": "mls",
+    "teamId": "columbus-crew",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "19"
+      },
+      {
+        "label": "GS",
+        "value": "15"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals and assists as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "hennadiy-synchuk",
+    "league": "mls",
+    "teamId": "cf-montreal",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "21"
+      },
+      {
+        "label": "GS",
+        "value": "15"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "53"
+      },
+      {
+        "label": "SOT",
+        "value": "21"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jalen-neal",
+    "league": "mls",
+    "teamId": "cf-montreal",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "20"
+      },
+      {
+        "label": "GS",
+        "value": "19"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "2"
+      },
+      {
+        "label": "SOT",
+        "value": "0"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "liel-abada",
+    "league": "mls",
+    "teamId": "charlotte-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "24"
+      },
+      {
+        "label": "GS",
+        "value": "17"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "36"
+      },
+      {
+        "label": "SOT",
+        "value": "21"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "archie-goodwin",
+    "league": "mls",
+    "teamId": "charlotte-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "24"
+      },
+      {
+        "label": "GS",
+        "value": "4"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "11"
+      },
+      {
+        "label": "SOT",
+        "value": "8"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "wayne-frederick",
+    "league": "mls",
+    "teamId": "colorado-rapids",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "GS",
+        "value": "21"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "20"
+      },
+      {
+        "label": "SOT",
+        "value": "5"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "hamzat-ojediran",
+    "league": "mls",
+    "teamId": "colorado-rapids",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "24"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "21"
+      },
+      {
+        "label": "SOT",
+        "value": "5"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "keisuke-kurokawa",
+    "league": "mls",
+    "teamId": "d-c-united",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "31"
+      },
+      {
+        "label": "GS",
+        "value": "31"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "7"
+      },
+      {
+        "label": "Shots",
+        "value": "7"
+      },
+      {
+        "label": "SOT",
+        "value": "2"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "matti-peltola",
+    "league": "mls",
+    "teamId": "d-c-united",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "19"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "21"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "gerardo-valenzuela",
+    "league": "mls",
+    "teamId": "fc-cincinnati",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "26"
+      },
+      {
+        "label": "GS",
+        "value": "19"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "7"
+      },
+      {
+        "label": "Shots",
+        "value": "27"
+      },
+      {
+        "label": "SOT",
+        "value": "7"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "tom-barlow",
+    "league": "mls",
+    "teamId": "fc-cincinnati",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "31"
+      },
+      {
+        "label": "GS",
+        "value": "14"
+      },
+      {
+        "label": "G",
+        "value": "10"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "42"
+      },
+      {
+        "label": "SOT",
+        "value": "26"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "bernard-kamungo",
+    "league": "mls",
+    "teamId": "fc-dallas",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "21"
+      },
+      {
+        "label": "GS",
+        "value": "17"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "24"
+      },
+      {
+        "label": "SOT",
+        "value": "6"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "nolan-norris",
+    "league": "mls",
+    "teamId": "fc-dallas",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "23"
+      },
+      {
+        "label": "GS",
+        "value": "20"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "7"
+      },
+      {
+        "label": "SOT",
+        "value": "2"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "lyle-foster",
+    "league": "mls",
+    "teamId": "houston-dynamo-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "GS",
+        "value": "4"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "4"
+      },
+      {
+        "label": "SOT",
+        "value": "1"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "duncan-mcguire",
+    "league": "mls",
+    "teamId": "houston-dynamo-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "17"
+      },
+      {
+        "label": "GS",
+        "value": "5"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "3"
+      },
+      {
+        "label": "SOT",
+        "value": "2"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page. Joined Houston from Orlando City in a July trade; ESPN lists his season totals under Houston.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "telasco-segovia",
+    "league": "mls",
+    "teamId": "inter-miami-cf",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "GS",
+        "value": "22"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "9"
+      },
+      {
+        "label": "Shots",
+        "value": "26"
+      },
+      {
+        "label": "SOT",
+        "value": "6"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "mateo-silvetti",
+    "league": "mls",
+    "teamId": "inter-miami-cf",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "14"
+      },
+      {
+        "label": "GS",
+        "value": "10"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "27"
+      },
+      {
+        "label": "SOT",
+        "value": "11"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "marcus-caldeira",
+    "league": "mls",
+    "teamId": "minnesota-united-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "13"
+      },
+      {
+        "label": "GS",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "7"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "20"
+      },
+      {
+        "label": "SOT",
+        "value": "12"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "tomas-chancalay",
+    "league": "mls",
+    "teamId": "minnesota-united-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "31"
+      },
+      {
+        "label": "GS",
+        "value": "21"
+      },
+      {
+        "label": "G",
+        "value": "4"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "60"
+      },
+      {
+        "label": "SOT",
+        "value": "18"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "harbor-miller",
+    "league": "mls",
+    "teamId": "la-galaxy",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "GS",
+        "value": "19"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "22"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "joao-klauss",
+    "league": "mls",
+    "teamId": "la-galaxy",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "15"
+      },
+      {
+        "label": "GS",
+        "value": "11"
+      },
+      {
+        "label": "G",
+        "value": "9"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "39"
+      },
+      {
+        "label": "SOT",
+        "value": "22"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jude-terry",
+    "league": "mls",
+    "teamId": "lafc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "12"
+      },
+      {
+        "label": "GS",
+        "value": "4"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "6"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jacob-shaffelburg",
+    "league": "mls",
+    "teamId": "lafc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "19"
+      },
+      {
+        "label": "GS",
+        "value": "10"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "12"
+      },
+      {
+        "label": "SOT",
+        "value": "5"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "brooklyn-raines",
+    "league": "mls",
+    "teamId": "new-england-revolution",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "27"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "10"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "luca-langoni",
+    "league": "mls",
+    "teamId": "new-england-revolution",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "22"
+      },
+      {
+        "label": "GS",
+        "value": "14"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "6"
+      },
+      {
+        "label": "Shots",
+        "value": "31"
+      },
+      {
+        "label": "SOT",
+        "value": "14"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "luighi",
+    "league": "mls",
+    "teamId": "new-york-city-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "12"
+      },
+      {
+        "label": "GS",
+        "value": "7"
+      },
+      {
+        "label": "G",
+        "value": "4"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "23"
+      },
+      {
+        "label": "SOT",
+        "value": "9"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jonathan-shore",
+    "league": "mls",
+    "teamId": "new-york-city-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "21"
+      },
+      {
+        "label": "GS",
+        "value": "7"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "9"
+      },
+      {
+        "label": "SOT",
+        "value": "2"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "adri-mehmeti",
+    "league": "mls",
+    "teamId": "new-york-red-bulls",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "29"
+      },
+      {
+        "label": "GS",
+        "value": "29"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "16"
+      },
+      {
+        "label": "SOT",
+        "value": "2"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ronald-donkor",
+    "league": "mls",
+    "teamId": "new-york-red-bulls",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "28"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "9"
+      },
+      {
+        "label": "Shots",
+        "value": "19"
+      },
+      {
+        "label": "SOT",
+        "value": "7"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "warren-madrigal",
+    "league": "mls",
+    "teamId": "nashville-sc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "18"
+      },
+      {
+        "label": "GS",
+        "value": "10"
+      },
+      {
+        "label": "G",
+        "value": "6"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "25"
+      },
+      {
+        "label": "SOT",
+        "value": "9"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "matthew-corcoran",
+    "league": "mls",
+    "teamId": "nashville-sc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "23"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "16"
+      },
+      {
+        "label": "SOT",
+        "value": "5"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "justin-ellis",
+    "league": "mls",
+    "teamId": "orlando-city-sc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "22"
+      },
+      {
+        "label": "GS",
+        "value": "17"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "11"
+      },
+      {
+        "label": "Shots",
+        "value": "34"
+      },
+      {
+        "label": "SOT",
+        "value": "13"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "daryl-dike",
+    "league": "mls",
+    "teamId": "orlando-city-sc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "12"
+      },
+      {
+        "label": "GS",
+        "value": "4"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "13"
+      },
+      {
+        "label": "SOT",
+        "value": "4"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "quinn-sullivan",
+    "league": "mls",
+    "teamId": "philadelphia-union",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "16"
+      },
+      {
+        "label": "GS",
+        "value": "4"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "6"
+      },
+      {
+        "label": "Shots",
+        "value": "29"
+      },
+      {
+        "label": "SOT",
+        "value": "12"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "frankie-westfield",
+    "league": "mls",
+    "teamId": "philadelphia-union",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "GS",
+        "value": "27"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "9"
+      },
+      {
+        "label": "Shots",
+        "value": "32"
+      },
+      {
+        "label": "SOT",
+        "value": "4"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "antony",
+    "league": "mls",
+    "teamId": "portland-timbers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "27"
+      },
+      {
+        "label": "GS",
+        "value": "16"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "40"
+      },
+      {
+        "label": "SOT",
+        "value": "12"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ariel-lassiter",
+    "league": "mls",
+    "teamId": "portland-timbers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "26"
+      },
+      {
+        "label": "GS",
+        "value": "15"
+      },
+      {
+        "label": "G",
+        "value": "7"
+      },
+      {
+        "label": "A",
+        "value": "5"
+      },
+      {
+        "label": "Shots",
+        "value": "32"
+      },
+      {
+        "label": "SOT",
+        "value": "16"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "aiden-hezarkhani",
+    "league": "mls",
+    "teamId": "real-salt-lake",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "26"
+      },
+      {
+        "label": "GS",
+        "value": "14"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "22"
+      },
+      {
+        "label": "SOT",
+        "value": "9"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dominik-marczuk",
+    "league": "mls",
+    "teamId": "real-salt-lake",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "18"
+      },
+      {
+        "label": "GS",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "2"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "19"
+      },
+      {
+        "label": "SOT",
+        "value": "10"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "david-vazquez",
+    "league": "mls",
+    "teamId": "san-diego-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "19"
+      },
+      {
+        "label": "GS",
+        "value": "11"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "21"
+      },
+      {
+        "label": "SOT",
+        "value": "6"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "manu-duah",
+    "league": "mls",
+    "teamId": "san-diego-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "GS",
+        "value": "30"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "6"
+      },
+      {
+        "label": "SOT",
+        "value": "1"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "beau-leroux",
+    "league": "mls",
+    "teamId": "san-jose-earthquakes",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "GS",
+        "value": "28"
+      },
+      {
+        "label": "G",
+        "value": "4"
+      },
+      {
+        "label": "A",
+        "value": "8"
+      },
+      {
+        "label": "Shots",
+        "value": "54"
+      },
+      {
+        "label": "SOT",
+        "value": "14"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "daniel-munie",
+    "league": "mls",
+    "teamId": "san-jose-earthquakes",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "28"
+      },
+      {
+        "label": "GS",
+        "value": "28"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "15"
+      },
+      {
+        "label": "SOT",
+        "value": "8"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "snyder-brunell",
+    "league": "mls",
+    "teamId": "seattle-sounders-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "30"
+      },
+      {
+        "label": "GS",
+        "value": "18"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "1"
+      },
+      {
+        "label": "Shots",
+        "value": "27"
+      },
+      {
+        "label": "SOT",
+        "value": "11"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dejan-joveljic",
+    "league": "mls",
+    "teamId": "seattle-sounders-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "8"
+      },
+      {
+        "label": "GS",
+        "value": "8"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "26"
+      },
+      {
+        "label": "SOT",
+        "value": "14"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ian-james",
+    "league": "mls",
+    "teamId": "sporting-kansas-city",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "16"
+      },
+      {
+        "label": "GS",
+        "value": "10"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "SOT",
+        "value": "2"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "taylor-calheira",
+    "league": "mls",
+    "teamId": "sporting-kansas-city",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "23"
+      },
+      {
+        "label": "GS",
+        "value": "14"
+      },
+      {
+        "label": "G",
+        "value": "4"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "33"
+      },
+      {
+        "label": "SOT",
+        "value": "15"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jeong-sang-bin",
+    "league": "mls",
+    "teamId": "st-louis-city-sc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "22"
+      },
+      {
+        "label": "GS",
+        "value": "15"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "21"
+      },
+      {
+        "label": "SOT",
+        "value": "9"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "damion-downs",
+    "league": "mls",
+    "teamId": "st-louis-city-sc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "GS",
+        "value": "0"
+      },
+      {
+        "label": "G",
+        "value": "0"
+      },
+      {
+        "label": "A",
+        "value": "0"
+      },
+      {
+        "label": "Shots",
+        "value": "5"
+      },
+      {
+        "label": "SOT",
+        "value": "3"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "daniel-salloi",
+    "league": "mls",
+    "teamId": "toronto-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "31"
+      },
+      {
+        "label": "GS",
+        "value": "27"
+      },
+      {
+        "label": "G",
+        "value": "9"
+      },
+      {
+        "label": "A",
+        "value": "7"
+      },
+      {
+        "label": "Shots",
+        "value": "56"
+      },
+      {
+        "label": "SOT",
+        "value": "25"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "theo-corbeanu",
+    "league": "mls",
+    "teamId": "toronto-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "18"
+      },
+      {
+        "label": "GS",
+        "value": "13"
+      },
+      {
+        "label": "G",
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "6"
+      },
+      {
+        "label": "Shots",
+        "value": "26"
+      },
+      {
+        "label": "SOT",
+        "value": "10"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jeevan-badwal",
+    "league": "mls",
+    "teamId": "vancouver-whitecaps-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "24"
+      },
+      {
+        "label": "GS",
+        "value": "18"
+      },
+      {
+        "label": "G",
+        "value": "1"
+      },
+      {
+        "label": "A",
+        "value": "2"
+      },
+      {
+        "label": "Shots",
+        "value": "11"
+      },
+      {
+        "label": "SOT",
+        "value": "6"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "bruno-caicedo",
+    "league": "mls",
+    "teamId": "vancouver-whitecaps-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "23"
+      },
+      {
+        "label": "GS",
+        "value": "9"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "A",
+        "value": "3"
+      },
+      {
+        "label": "Shots",
+        "value": "42"
+      },
+      {
+        "label": "SOT",
+        "value": "17"
+      }
+    ],
+    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
+    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
   }
 ]
