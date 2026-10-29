@@ -30220,5 +30220,2246 @@
       "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
     ],
     "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "roger-mcqueen",
+    "slug": "roger-mcqueen",
+    "name": "Roger McQueen",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "anaheim-ducks",
+    "lastTeamId": "anaheim-ducks",
+    "status": "Active",
+    "position": "C",
+    "number": "95",
+    "birthday": "2006-10-02",
+    "birthdaySource": "https://www.nhl.com/player/roger-mcqueen-8485400",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "10th overall pick of the Ducks in the 2025 NHL Draft",
+        "source": "https://www.nhl.com/player/roger-mcqueen-8485400"
+      },
+      {
+        "text": "Made his NHL debut in 2026-27 and has played seven games for Anaheim",
+        "source": "https://www.nhl.com/player/roger-mcqueen-8485400"
+      },
+      {
+        "text": "Scored three goals in four AHL games for San Diego early in 2026-27",
+        "source": "https://www.nhl.com/player/roger-mcqueen-8485400"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/roger-mcqueen-8485400"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mikael-granlund",
+    "slug": "mikael-granlund",
+    "name": "Mikael Granlund",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "anaheim-ducks",
+    "lastTeamId": "anaheim-ducks",
+    "status": "Active",
+    "position": "C",
+    "number": "64",
+    "birthday": "1992-02-26",
+    "birthdaySource": "https://www.nhl.com/player/mikael-granlund-8475798",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 19 goals with 41 points in 58 games for Anaheim in 2025-26",
+        "source": "https://www.nhl.com/player/mikael-granlund-8475798"
+      },
+      {
+        "text": "Has 2 goals and 6 assists in 11 games of 2026-27, four points on the power play",
+        "source": "https://www.nhl.com/player/mikael-granlund-8475798"
+      },
+      {
+        "text": "Ninth overall pick of the Minnesota Wild in 2010 and a 2026 Olympian for Finland",
+        "source": "https://www.nhl.com/player/mikael-granlund-8475798"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/mikael-granlund-8475798"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "fraser-minten",
+    "slug": "fraser-minten",
+    "name": "Fraser Minten",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "boston-bruins",
+    "lastTeamId": "boston-bruins",
+    "status": "Active",
+    "position": "C",
+    "number": "93",
+    "birthday": "2004-07-05",
+    "birthdaySource": "https://www.nhl.com/player/fraser-minten-8483489",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Played all 82 games for Boston in 2025-26 with 17 goals, 35 points and a plus-21",
+        "source": "https://www.nhl.com/player/fraser-minten-8483489"
+      },
+      {
+        "text": "Has 5 goals and 10 points in 13 games of 2026-27, including two game-winners",
+        "source": "https://www.nhl.com/player/fraser-minten-8483489"
+      },
+      {
+        "text": "Second-round pick of the Toronto Maple Leafs in 2022",
+        "source": "https://www.nhl.com/player/fraser-minten-8483489"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/fraser-minten-8483489"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jj-peterka",
+    "slug": "jj-peterka",
+    "name": "JJ Peterka",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "boston-bruins",
+    "lastTeamId": "boston-bruins",
+    "status": "Active",
+    "position": "RW",
+    "number": "10",
+    "birthday": "2002-01-14",
+    "birthdaySource": "https://www.nhl.com/player/jj-peterka-8482175",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 25 goals in 82 games for Utah in 2025-26",
+        "source": "https://www.nhl.com/player/jj-peterka-8482175"
+      },
+      {
+        "text": "Has 4 goals and 9 points in 13 games for Boston in 2026-27",
+        "source": "https://www.nhl.com/player/jj-peterka-8482175"
+      },
+      {
+        "text": "Topped 25 goals in three straight seasons, including 68 points for Buffalo in 2024-25",
+        "source": "https://www.nhl.com/player/jj-peterka-8482175"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jj-peterka-8482175"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "konsta-helenius",
+    "slug": "konsta-helenius",
+    "name": "Konsta Helenius",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "buffalo-sabres",
+    "lastTeamId": "buffalo-sabres",
+    "status": "Active",
+    "position": "C",
+    "number": "94",
+    "birthday": "2006-05-11",
+    "birthdaySource": "https://www.nhl.com/player/konsta-helenius-8484797",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "14th overall pick of the Sabres in the 2024 NHL Draft",
+        "source": "https://www.nhl.com/player/konsta-helenius-8484797"
+      },
+      {
+        "text": "Put up 63 points (21 goals) in 63 AHL games for Rochester in 2025-26",
+        "source": "https://www.nhl.com/player/konsta-helenius-8484797"
+      },
+      {
+        "text": "Has 3 points in 11 games of 2026-27, his first full stretch with Buffalo",
+        "source": "https://www.nhl.com/player/konsta-helenius-8484797"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/konsta-helenius-8484797"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "josh-doan",
+    "slug": "josh-doan",
+    "name": "Josh Doan",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "buffalo-sabres",
+    "lastTeamId": "buffalo-sabres",
+    "status": "Active",
+    "position": "RW",
+    "number": "91",
+    "birthday": "2002-02-01",
+    "birthdaySource": "https://www.nhl.com/player/josh-doan-8482659",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 25 goals with 52 points in all 82 games for Buffalo in 2025-26",
+        "source": "https://www.nhl.com/player/josh-doan-8482659"
+      },
+      {
+        "text": "Has 2 goals in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/josh-doan-8482659"
+      },
+      {
+        "text": "Second-round pick of the Arizona Coyotes in 2021 and a native of Scottsdale, Arizona",
+        "source": "https://www.nhl.com/player/josh-doan-8482659"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/josh-doan-8482659"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "matvei-gridin",
+    "slug": "matvei-gridin",
+    "name": "Matvei Gridin",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "calgary-flames",
+    "lastTeamId": "calgary-flames",
+    "status": "Active",
+    "position": "RW",
+    "number": "92",
+    "birthday": "2006-03-01",
+    "birthdaySource": "https://www.nhl.com/player/matvei-gridin-8484860",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "First-round pick (28th overall) of the Flames in 2024",
+        "source": "https://www.nhl.com/player/matvei-gridin-8484860"
+      },
+      {
+        "text": "Has 4 goals and 8 points in 11 games of 2026-27, with four power-play points",
+        "source": "https://www.nhl.com/player/matvei-gridin-8484860"
+      },
+      {
+        "text": "Had 20 points in 37 NHL games as a rookie in 2025-26",
+        "source": "https://www.nhl.com/player/matvei-gridin-8484860"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/matvei-gridin-8484860"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mikael-backlund",
+    "slug": "mikael-backlund",
+    "name": "Mikael Backlund",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "calgary-flames",
+    "lastTeamId": "calgary-flames",
+    "status": "Active",
+    "position": "C",
+    "number": "11",
+    "birthday": "1989-03-17",
+    "birthdaySource": "https://www.nhl.com/player/mikael-backlund-8474150",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has spent his entire NHL career with Calgary since debuting in 2008-09",
+        "source": "https://www.nhl.com/player/mikael-backlund-8474150"
+      },
+      {
+        "text": "Played all 82 games in 2025-26 with 17 goals and 43 points",
+        "source": "https://www.nhl.com/player/mikael-backlund-8474150"
+      },
+      {
+        "text": "Won the King Clancy Memorial Trophy for leadership and community work in 2022-23",
+        "source": "https://www.nhl.com/player/mikael-backlund-8474150"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/mikael-backlund-8474150"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jackson-blake",
+    "slug": "jackson-blake",
+    "name": "Jackson Blake",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "carolina-hurricanes",
+    "lastTeamId": "carolina-hurricanes",
+    "status": "Active",
+    "position": "RW",
+    "number": "53",
+    "birthday": "2003-08-03",
+    "birthdaySource": "https://www.nhl.com/player/jackson-blake-8482809",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with Carolina in 2025-26",
+        "source": "https://www.nhl.com/player/jackson-blake-8482809"
+      },
+      {
+        "text": "Had 22 goals and 53 points in 81 games in 2025-26",
+        "source": "https://www.nhl.com/player/jackson-blake-8482809"
+      },
+      {
+        "text": "Has 14 points (3 goals, 11 assists) and a plus-9 in 14 games of 2026-27",
+        "source": "https://www.nhl.com/player/jackson-blake-8482809"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jackson-blake-8482809"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "nikolaj-ehlers",
+    "slug": "nikolaj-ehlers",
+    "name": "Nikolaj Ehlers",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "carolina-hurricanes",
+    "lastTeamId": "carolina-hurricanes",
+    "status": "Active",
+    "position": "LW",
+    "number": "27",
+    "birthday": "1996-02-14",
+    "birthdaySource": "https://www.nhl.com/player/nikolaj-ehlers-8477940",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup in his first season with Carolina, 2025-26",
+        "source": "https://www.nhl.com/player/nikolaj-ehlers-8477940"
+      },
+      {
+        "text": "Set a career high with 71 points (26 goals) in 82 games in 2025-26",
+        "source": "https://www.nhl.com/player/nikolaj-ehlers-8477940"
+      },
+      {
+        "text": "Played 10 seasons for the Winnipeg Jets, who drafted him ninth overall in 2014",
+        "source": "https://www.nhl.com/player/nikolaj-ehlers-8477940"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/nikolaj-ehlers-8477940"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "roman-kantserov",
+    "slug": "roman-kantserov",
+    "name": "Roman Kantserov",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "chicago-blackhawks",
+    "lastTeamId": "chicago-blackhawks",
+    "status": "Active",
+    "position": "RW",
+    "number": "80",
+    "birthday": "2004-09-20",
+    "birthdaySource": "https://www.nhl.com/player/roman-kantserov-8484390",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 36 goals with 64 points in 63 KHL games for Metallurg Magnitogorsk in 2025-26",
+        "source": "https://www.nhl.com/player/roman-kantserov-8484390"
+      },
+      {
+        "text": "Has 5 goals in his first 12 NHL games in 2026-27",
+        "source": "https://www.nhl.com/player/roman-kantserov-8484390"
+      },
+      {
+        "text": "Second-round pick (44th overall) of the Blackhawks in 2023",
+        "source": "https://www.nhl.com/player/roman-kantserov-8484390"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/roman-kantserov-8484390"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "spencer-knight",
+    "slug": "spencer-knight",
+    "name": "Spencer Knight",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "chicago-blackhawks",
+    "lastTeamId": "chicago-blackhawks",
+    "status": "Active",
+    "position": "G",
+    "number": "30",
+    "birthday": "2001-04-19",
+    "birthdaySource": "https://www.nhl.com/player/spencer-knight-8481519",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Made 55 appearances for Chicago in 2025-26 with three shutouts",
+        "source": "https://www.nhl.com/player/spencer-knight-8481519"
+      },
+      {
+        "text": "Has started 10 of Chicago's games in 2026-27",
+        "source": "https://www.nhl.com/player/spencer-knight-8481519"
+      },
+      {
+        "text": "First-round pick (13th overall) of the Florida Panthers in 2019",
+        "source": "https://www.nhl.com/player/spencer-knight-8481519"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/spencer-knight-8481519"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "nazem-kadri",
+    "slug": "nazem-kadri",
+    "name": "Nazem Kadri",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "colorado-avalanche",
+    "lastTeamId": "colorado-avalanche",
+    "status": "Active",
+    "position": "C",
+    "number": "91",
+    "birthday": "1990-10-06",
+    "birthdaySource": "https://www.nhl.com/player/nazem-kadri-8475172",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with Colorado in 2021-22, a season in which he had 87 points",
+        "source": "https://www.nhl.com/player/nazem-kadri-8475172"
+      },
+      {
+        "text": "Returned to the Avalanche during 2025-26 and had 9 points in 16 games for them",
+        "source": "https://www.nhl.com/player/nazem-kadri-8475172"
+      },
+      {
+        "text": "Has 8 points (1 goal, 7 assists) in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/nazem-kadri-8475172"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/nazem-kadri-8475172"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mackenzie-blackwood",
+    "slug": "mackenzie-blackwood",
+    "name": "Mackenzie Blackwood",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "colorado-avalanche",
+    "lastTeamId": "colorado-avalanche",
+    "status": "Active",
+    "position": "G",
+    "number": "39",
+    "birthday": "1996-12-09",
+    "birthdaySource": "https://www.nhl.com/player/mackenzie-blackwood-8478406",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Shared the William M. Jennings Trophy in 2025-26",
+        "source": "https://www.nhl.com/player/mackenzie-blackwood-8478406"
+      },
+      {
+        "text": "Went 23-10-2 with a 2.51 goals-against average and three shutouts in 2025-26",
+        "source": "https://www.nhl.com/player/mackenzie-blackwood-8478406"
+      },
+      {
+        "text": "Has won five of his eight starts in 2026-27",
+        "source": "https://www.nhl.com/player/mackenzie-blackwood-8478406"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/mackenzie-blackwood-8478406"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "denton-mateychuk",
+    "slug": "denton-mateychuk",
+    "name": "Denton Mateychuk",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "columbus-blue-jackets",
+    "lastTeamId": "columbus-blue-jackets",
+    "status": "Active",
+    "position": "D",
+    "number": "5",
+    "birthday": "2004-07-12",
+    "birthdaySource": "https://www.nhl.com/player/denton-mateychuk-8483485",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "12th overall pick of the Blue Jackets in 2022",
+        "source": "https://www.nhl.com/player/denton-mateychuk-8483485"
+      },
+      {
+        "text": "Scored 13 goals with 31 points and a plus-12 in 75 games in 2025-26",
+        "source": "https://www.nhl.com/player/denton-mateychuk-8483485"
+      },
+      {
+        "text": "Has 3 goals in 10 games of 2026-27",
+        "source": "https://www.nhl.com/player/denton-mateychuk-8483485"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/denton-mateychuk-8483485"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cole-sillinger",
+    "slug": "cole-sillinger",
+    "name": "Cole Sillinger",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "columbus-blue-jackets",
+    "lastTeamId": "columbus-blue-jackets",
+    "status": "Active",
+    "position": "C",
+    "number": "4",
+    "birthday": "2003-05-16",
+    "birthdaySource": "https://www.nhl.com/player/cole-sillinger-8482705",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "12th overall pick of the Blue Jackets in 2021",
+        "source": "https://www.nhl.com/player/cole-sillinger-8482705"
+      },
+      {
+        "text": "Had 33 points in 81 games in 2025-26",
+        "source": "https://www.nhl.com/player/cole-sillinger-8482705"
+      },
+      {
+        "text": "Has 3 goals and 6 points in 10 games of 2026-27",
+        "source": "https://www.nhl.com/player/cole-sillinger-8482705"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/cole-sillinger-8482705"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "wyatt-johnston",
+    "slug": "wyatt-johnston",
+    "name": "Wyatt Johnston",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "dallas-stars",
+    "lastTeamId": "dallas-stars",
+    "status": "Active",
+    "position": "C",
+    "number": "53",
+    "birthday": "2003-05-14",
+    "birthdaySource": "https://www.nhl.com/player/wyatt-johnston-8482740",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 45 goals with 86 points in 82 games in 2025-26",
+        "source": "https://www.nhl.com/player/wyatt-johnston-8482740"
+      },
+      {
+        "text": "Has 8 points in 10 games of 2026-27",
+        "source": "https://www.nhl.com/player/wyatt-johnston-8482740"
+      },
+      {
+        "text": "23rd overall pick of the Stars in 2021 and has played every game of all four of his full NHL seasons",
+        "source": "https://www.nhl.com/player/wyatt-johnston-8482740"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/wyatt-johnston-8482740"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "thomas-harley",
+    "slug": "thomas-harley",
+    "name": "Thomas Harley",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "dallas-stars",
+    "lastTeamId": "dallas-stars",
+    "status": "Active",
+    "position": "D",
+    "number": "55",
+    "birthday": "2001-08-19",
+    "birthdaySource": "https://www.nhl.com/player/thomas-harley-8481581",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "18th overall pick of the Stars in 2019",
+        "source": "https://www.nhl.com/player/thomas-harley-8481581"
+      },
+      {
+        "text": "Had 50 points and a plus-32 in 78 games in 2024-25",
+        "source": "https://www.nhl.com/player/thomas-harley-8481581"
+      },
+      {
+        "text": "Played for Canada at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/thomas-harley-8481581"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/thomas-harley-8481581"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "emmitt-finnie",
+    "slug": "emmitt-finnie",
+    "name": "Emmitt Finnie",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "detroit-red-wings",
+    "lastTeamId": "detroit-red-wings",
+    "status": "Active",
+    "position": "C",
+    "number": "58",
+    "birthday": "2005-06-27",
+    "birthdaySource": "https://www.nhl.com/player/emmitt-finnie-8484471",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Seventh-round pick (201st overall) of the Red Wings in 2023",
+        "source": "https://www.nhl.com/player/emmitt-finnie-8484471"
+      },
+      {
+        "text": "Played all 82 games as a rookie in 2025-26 with 13 goals and 30 points",
+        "source": "https://www.nhl.com/player/emmitt-finnie-8484471"
+      },
+      {
+        "text": "Has 5 goals and a plus-8 in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/emmitt-finnie-8484471"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/emmitt-finnie-8484471"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "michael-brandsegg-nygard",
+    "slug": "michael-brandsegg-nygard",
+    "name": "Michael Brandsegg-Nygard",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "detroit-red-wings",
+    "lastTeamId": "detroit-red-wings",
+    "status": "Active",
+    "position": "RW",
+    "number": "28",
+    "birthday": "2005-10-05",
+    "birthdaySource": "https://www.nhl.com/player/michael-brandsegg-nygard-8484794",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "15th overall pick of the Red Wings in 2024",
+        "source": "https://www.nhl.com/player/michael-brandsegg-nygard-8484794"
+      },
+      {
+        "text": "Has 8 points and a plus-9 in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/michael-brandsegg-nygard-8484794"
+      },
+      {
+        "text": "Scored 6 points in 5 games for Norway at the 2026 World Championship",
+        "source": "https://www.nhl.com/player/michael-brandsegg-nygard-8484794"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/michael-brandsegg-nygard-8484794"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "isaac-howard",
+    "slug": "isaac-howard",
+    "name": "Isaac Howard",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "edmonton-oilers",
+    "lastTeamId": "edmonton-oilers",
+    "status": "Active",
+    "position": "LW",
+    "number": "53",
+    "birthday": "2004-03-30",
+    "birthdaySource": "https://www.nhl.com/player/isaac-howard-8483455",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "First-round pick (31st overall) of the Tampa Bay Lightning in 2022",
+        "source": "https://www.nhl.com/player/isaac-howard-8483455"
+      },
+      {
+        "text": "Scored 24 goals with 50 points in 47 AHL games for Bakersfield in 2025-26",
+        "source": "https://www.nhl.com/player/isaac-howard-8483455"
+      },
+      {
+        "text": "Has 3 points, including a power-play goal, in 11 games of 2026-27",
+        "source": "https://www.nhl.com/player/isaac-howard-8483455"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/isaac-howard-8483455"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "vasily-podkolzin",
+    "slug": "vasily-podkolzin",
+    "name": "Vasily Podkolzin",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "edmonton-oilers",
+    "lastTeamId": "edmonton-oilers",
+    "status": "Active",
+    "position": "RW",
+    "number": "92",
+    "birthday": "2001-06-24",
+    "birthdaySource": "https://www.nhl.com/player/vasily-podkolzin-8481617",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 8 goals and 13 points in 12 games of 2026-27, with three power-play goals",
+        "source": "https://www.nhl.com/player/vasily-podkolzin-8481617"
+      },
+      {
+        "text": "Set career highs with 19 goals and 37 points in 2025-26",
+        "source": "https://www.nhl.com/player/vasily-podkolzin-8481617"
+      },
+      {
+        "text": "10th overall pick of the Vancouver Canucks in 2019",
+        "source": "https://www.nhl.com/player/vasily-podkolzin-8481617"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/vasily-podkolzin-8481617"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "brad-marchand",
+    "slug": "brad-marchand",
+    "name": "Brad Marchand",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "florida-panthers",
+    "lastTeamId": "florida-panthers",
+    "status": "Active",
+    "position": "LW",
+    "number": "63",
+    "birthday": "1988-05-11",
+    "birthdaySource": "https://www.nhl.com/player/brad-marchand-8473419",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two-time Stanley Cup champion, with Boston in 2011 and Florida in 2025",
+        "source": "https://www.nhl.com/player/brad-marchand-8473419"
+      },
+      {
+        "text": "Scored 27 goals with 54 points in 52 games for Florida in 2025-26",
+        "source": "https://www.nhl.com/player/brad-marchand-8473419"
+      },
+      {
+        "text": "Had a career-high 100 points for Boston in 2018-19",
+        "source": "https://www.nhl.com/player/brad-marchand-8473419"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/brad-marchand-8473419"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "carter-verhaeghe",
+    "slug": "carter-verhaeghe",
+    "name": "Carter Verhaeghe",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "florida-panthers",
+    "lastTeamId": "florida-panthers",
+    "status": "Active",
+    "position": "C",
+    "number": "23",
+    "birthday": "1995-08-14",
+    "birthdaySource": "https://www.nhl.com/player/carter-verhaeghe-8477409",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Three-time Stanley Cup champion (Tampa Bay 2020, Florida 2024 and 2025)",
+        "source": "https://www.nhl.com/player/carter-verhaeghe-8477409"
+      },
+      {
+        "text": "Scored a career-high 42 goals for Florida in 2022-23",
+        "source": "https://www.nhl.com/player/carter-verhaeghe-8477409"
+      },
+      {
+        "text": "Has 8 goals and 11 points in 13 games of 2026-27",
+        "source": "https://www.nhl.com/player/carter-verhaeghe-8477409"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/carter-verhaeghe-8477409"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "alex-laferriere",
+    "slug": "alex-laferriere",
+    "name": "Alex Laferriere",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "los-angeles-kings",
+    "lastTeamId": "los-angeles-kings",
+    "status": "Active",
+    "position": "RW",
+    "number": "14",
+    "birthday": "2001-10-28",
+    "birthdaySource": "https://www.nhl.com/player/alex-laferriere-8482155",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored a career-high 21 goals with 44 points in 82 games in 2025-26",
+        "source": "https://www.nhl.com/player/alex-laferriere-8482155"
+      },
+      {
+        "text": "Has 9 points in 11 games of 2026-27",
+        "source": "https://www.nhl.com/player/alex-laferriere-8482155"
+      },
+      {
+        "text": "Third-round pick of the Kings in 2020",
+        "source": "https://www.nhl.com/player/alex-laferriere-8482155"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/alex-laferriere-8482155"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "darcy-kuemper",
+    "slug": "darcy-kuemper",
+    "name": "Darcy Kuemper",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "los-angeles-kings",
+    "lastTeamId": "los-angeles-kings",
+    "status": "Active",
+    "position": "G",
+    "number": "35",
+    "birthday": "1990-05-05",
+    "birthdaySource": "https://www.nhl.com/player/darcy-kuemper-8475311",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with Colorado in 2021-22",
+        "source": "https://www.nhl.com/player/darcy-kuemper-8475311"
+      },
+      {
+        "text": "Went 31-11-7 with a 2.02 goals-against average and five shutouts for Los Angeles in 2024-25",
+        "source": "https://www.nhl.com/player/darcy-kuemper-8475311"
+      },
+      {
+        "text": "Made 50 appearances with three shutouts in 2025-26",
+        "source": "https://www.nhl.com/player/darcy-kuemper-8475311"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/darcy-kuemper-8475311"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "brock-faber",
+    "slug": "brock-faber",
+    "name": "Brock Faber",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "minnesota-wild",
+    "lastTeamId": "minnesota-wild",
+    "status": "Injured",
+    "position": "D",
+    "number": "7",
+    "birthday": "2002-08-22",
+    "birthdaySource": "https://www.nhl.com/player/brock-faber-8482122",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Set career highs with 15 goals, 51 points and a plus-18 in 2025-26",
+        "source": "https://www.nhl.com/player/brock-faber-8482122"
+      },
+      {
+        "text": "Has missed the start of 2026-27 after surgery for a skull fracture suffered in the final preseason game",
+        "source": "https://nhl.com/news/brock-faber-injury-status-update-september-29-2026"
+      },
+      {
+        "text": "Played for the United States at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/brock-faber-8482122"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/brock-faber-8482122",
+      "https://nhl.com/news/brock-faber-injury-status-update-september-29-2026"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "danila-yurov",
+    "slug": "danila-yurov",
+    "name": "Danila Yurov",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "minnesota-wild",
+    "lastTeamId": "minnesota-wild",
+    "status": "Active",
+    "position": "RW",
+    "number": "22",
+    "birthday": "2003-12-22",
+    "birthdaySource": "https://www.nhl.com/player/danila-yurov-8483525",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "24th overall pick of the Wild in 2022",
+        "source": "https://www.nhl.com/player/danila-yurov-8483525"
+      },
+      {
+        "text": "Had 12 goals and 27 points in 73 games as a rookie in 2025-26",
+        "source": "https://www.nhl.com/player/danila-yurov-8483525"
+      },
+      {
+        "text": "Has 4 goals in 14 games of 2026-27, including a game-winner",
+        "source": "https://www.nhl.com/player/danila-yurov-8483525"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/danila-yurov-8483525"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jacob-fowler",
+    "slug": "jacob-fowler",
+    "name": "Jacob Fowler",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "montreal-canadiens",
+    "lastTeamId": "montreal-canadiens",
+    "status": "Active",
+    "position": "G",
+    "number": "32",
+    "birthday": "2004-11-24",
+    "birthdaySource": "https://www.nhl.com/player/jacob-fowler-8484170",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has won six of his seven starts in 2026-27 with a .942 save percentage and two shutouts",
+        "source": "https://www.nhl.com/player/jacob-fowler-8484170"
+      },
+      {
+        "text": "Made a 46-save shutout against St. Louis on Oct. 27, 2026",
+        "source": "https://www.nhl.com/player/jacob-fowler-8484170"
+      },
+      {
+        "text": "Third-round pick of the Canadiens in 2023",
+        "source": "https://www.nhl.com/player/jacob-fowler-8484170"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jacob-fowler-8484170"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "noah-dobson",
+    "slug": "noah-dobson",
+    "name": "Noah Dobson",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "montreal-canadiens",
+    "lastTeamId": "montreal-canadiens",
+    "status": "Active",
+    "position": "D",
+    "number": "53",
+    "birthday": "2000-01-07",
+    "birthdaySource": "https://www.nhl.com/player/noah-dobson-8480865",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 47 points in 80 games in his first season with Montreal, 2025-26",
+        "source": "https://www.nhl.com/player/noah-dobson-8480865"
+      },
+      {
+        "text": "Put up 70 points for the New York Islanders in 2023-24",
+        "source": "https://www.nhl.com/player/noah-dobson-8480865"
+      },
+      {
+        "text": "12th overall pick of the Islanders in 2018",
+        "source": "https://www.nhl.com/player/noah-dobson-8480865"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/noah-dobson-8480865"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "matthew-wood",
+    "slug": "matthew-wood",
+    "name": "Matthew Wood",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "nashville-predators",
+    "lastTeamId": "nashville-predators",
+    "status": "Active",
+    "position": "RW",
+    "number": "71",
+    "birthday": "2005-02-06",
+    "birthdaySource": "https://www.nhl.com/player/matthew-wood-8484241",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "15th overall pick of the Predators in 2023",
+        "source": "https://www.nhl.com/player/matthew-wood-8484241"
+      },
+      {
+        "text": "Scored 17 goals as a rookie in 2025-26",
+        "source": "https://www.nhl.com/player/matthew-wood-8484241"
+      },
+      {
+        "text": "Had 39 points in 39 games for the University of Minnesota in 2024-25",
+        "source": "https://www.nhl.com/player/matthew-wood-8484241"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/matthew-wood-8484241"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jonathan-marchessault",
+    "slug": "jonathan-marchessault",
+    "name": "Jonathan Marchessault",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "nashville-predators",
+    "lastTeamId": "nashville-predators",
+    "status": "Active",
+    "position": "RW",
+    "number": "81",
+    "birthday": "1990-12-27",
+    "birthdaySource": "https://www.nhl.com/player/jonathan-marchessault-8476539",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup and the Conn Smythe Trophy with Vegas in 2022-23",
+        "source": "https://www.nhl.com/player/jonathan-marchessault-8476539"
+      },
+      {
+        "text": "Scored a career-high 42 goals for Vegas in 2023-24",
+        "source": "https://www.nhl.com/player/jonathan-marchessault-8476539"
+      },
+      {
+        "text": "Had 56 points in his first season with Nashville, 2024-25",
+        "source": "https://www.nhl.com/player/jonathan-marchessault-8476539"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jonathan-marchessault-8476539"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "timo-meier",
+    "slug": "timo-meier",
+    "name": "Timo Meier",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-jersey-devils",
+    "lastTeamId": "new-jersey-devils",
+    "status": "Active",
+    "position": "RW",
+    "number": "28",
+    "birthday": "1996-10-08",
+    "birthdaySource": "https://www.nhl.com/player/timo-meier-8478414",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 24 goals in 77 games in 2025-26",
+        "source": "https://www.nhl.com/player/timo-meier-8478414"
+      },
+      {
+        "text": "Had 7 points in 5 games for Switzerland at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/timo-meier-8478414"
+      },
+      {
+        "text": "Leads New Jersey with 46 shots in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/timo-meier-8478414"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/timo-meier-8478414"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "arseny-gritsyuk",
+    "slug": "arseny-gritsyuk",
+    "name": "Arseny Gritsyuk",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-jersey-devils",
+    "lastTeamId": "new-jersey-devils",
+    "status": "Active",
+    "position": "RW",
+    "number": "81",
+    "birthday": "2001-03-15",
+    "birthdaySource": "https://www.nhl.com/player/arseny-gritsyuk-8481721",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 6 goals and 10 points in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/arseny-gritsyuk-8481721"
+      },
+      {
+        "text": "Had 31 points in 66 games as a rookie in 2025-26",
+        "source": "https://www.nhl.com/player/arseny-gritsyuk-8481721"
+      },
+      {
+        "text": "Fifth-round pick of the Devils in 2019 who starred for SKA St. Petersburg in the KHL",
+        "source": "https://www.nhl.com/player/arseny-gritsyuk-8481721"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/arseny-gritsyuk-8481721"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "victor-eklund",
+    "slug": "victor-eklund",
+    "name": "Victor Eklund",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-york-islanders",
+    "lastTeamId": "new-york-islanders",
+    "status": "Active",
+    "position": "RW",
+    "number": "38",
+    "birthday": "2006-10-03",
+    "birthdaySource": "https://www.nhl.com/player/victor-eklund-8485388",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "16th overall pick of the Islanders in 2025",
+        "source": "https://www.nhl.com/player/victor-eklund-8485388"
+      },
+      {
+        "text": "Has 3 goals in his first 12 games of 2026-27, his rookie season",
+        "source": "https://www.nhl.com/player/victor-eklund-8485388"
+      },
+      {
+        "text": "Played for Djurgardens IF in Sweden before turning pro in North America",
+        "source": "https://www.nhl.com/player/victor-eklund-8485388"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/victor-eklund-8485388"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jean-gabriel-pageau",
+    "slug": "jean-gabriel-pageau",
+    "name": "Jean-Gabriel Pageau",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-york-islanders",
+    "lastTeamId": "new-york-islanders",
+    "status": "Active",
+    "position": "C",
+    "number": "44",
+    "birthday": "1992-11-11",
+    "birthdaySource": "https://www.nhl.com/player/jean-gabriel-pageau-8476419",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has played for the Islanders since 2019-20",
+        "source": "https://www.nhl.com/player/jean-gabriel-pageau-8476419"
+      },
+      {
+        "text": "Scored 17 goals in 74 games in 2025-26",
+        "source": "https://www.nhl.com/player/jean-gabriel-pageau-8476419"
+      },
+      {
+        "text": "Has 6 points in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/jean-gabriel-pageau-8476419"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jean-gabriel-pageau-8476419"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "gabe-perreault",
+    "slug": "gabe-perreault",
+    "name": "Gabe Perreault",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-york-rangers",
+    "lastTeamId": "new-york-rangers",
+    "status": "Active",
+    "position": "RW",
+    "number": "94",
+    "birthday": "2005-05-07",
+    "birthdaySource": "https://www.nhl.com/player/gabe-perreault-8484210",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "23rd overall pick of the Rangers in 2023",
+        "source": "https://www.nhl.com/player/gabe-perreault-8484210"
+      },
+      {
+        "text": "Had 27 points in 49 games in 2025-26",
+        "source": "https://www.nhl.com/player/gabe-perreault-8484210"
+      },
+      {
+        "text": "Has 4 goals and 7 points in 14 games of 2026-27",
+        "source": "https://www.nhl.com/player/gabe-perreault-8484210"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/gabe-perreault-8484210"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "will-cuylle",
+    "slug": "will-cuylle",
+    "name": "Will Cuylle",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "new-york-rangers",
+    "lastTeamId": "new-york-rangers",
+    "status": "Active",
+    "position": "LW",
+    "number": "50",
+    "birthday": "2002-02-05",
+    "birthdaySource": "https://www.nhl.com/player/will-cuylle-8482157",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 20 goals in back-to-back seasons (2024-25 and 2025-26)",
+        "source": "https://www.nhl.com/player/will-cuylle-8482157"
+      },
+      {
+        "text": "Has 8 points in 14 games of 2026-27, including a shorthanded goal",
+        "source": "https://www.nhl.com/player/will-cuylle-8482157"
+      },
+      {
+        "text": "Second-round pick of the Rangers in 2020",
+        "source": "https://www.nhl.com/player/will-cuylle-8482157"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/will-cuylle-8482157"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "thomas-chabot",
+    "slug": "thomas-chabot",
+    "name": "Thomas Chabot",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "ottawa-senators",
+    "lastTeamId": "ottawa-senators",
+    "status": "Active",
+    "position": "D",
+    "number": "72",
+    "birthday": "1997-01-30",
+    "birthdaySource": "https://www.nhl.com/player/thomas-chabot-8478469",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has played his whole NHL career with Ottawa, which drafted him 18th overall in 2015",
+        "source": "https://www.nhl.com/player/thomas-chabot-8478469"
+      },
+      {
+        "text": "Had 55 points in 2018-19 and 45 points with a plus-17 in 2024-25",
+        "source": "https://www.nhl.com/player/thomas-chabot-8478469"
+      },
+      {
+        "text": "Has 4 points and a plus-5 in 9 games of 2026-27",
+        "source": "https://www.nhl.com/player/thomas-chabot-8478469"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/thomas-chabot-8478469"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "shane-pinto",
+    "slug": "shane-pinto",
+    "name": "Shane Pinto",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "ottawa-senators",
+    "lastTeamId": "ottawa-senators",
+    "status": "Active",
+    "position": "C",
+    "number": "12",
+    "birthday": "2000-11-12",
+    "birthdaySource": "https://www.nhl.com/player/shane-pinto-8481596",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Set career highs with 23 goals and 46 points in 2025-26",
+        "source": "https://www.nhl.com/player/shane-pinto-8481596"
+      },
+      {
+        "text": "Second-round pick (32nd overall) of the Senators in 2019",
+        "source": "https://www.nhl.com/player/shane-pinto-8481596"
+      },
+      {
+        "text": "Had 10 points in 8 games for the United States at the 2025 World Championship",
+        "source": "https://www.nhl.com/player/shane-pinto-8481596"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/shane-pinto-8481596"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "owen-tippett",
+    "slug": "owen-tippett",
+    "name": "Owen Tippett",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "philadelphia-flyers",
+    "lastTeamId": "philadelphia-flyers",
+    "status": "Active",
+    "position": "RW",
+    "number": "74",
+    "birthday": "1999-02-16",
+    "birthdaySource": "https://www.nhl.com/player/owen-tippett-8480015",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 28 goals with 51 points in 81 games in 2025-26",
+        "source": "https://www.nhl.com/player/owen-tippett-8480015"
+      },
+      {
+        "text": "Has scored at least 27 goals in three of his four full seasons with Philadelphia",
+        "source": "https://www.nhl.com/player/owen-tippett-8480015"
+      },
+      {
+        "text": "10th overall pick of the Florida Panthers in 2017",
+        "source": "https://www.nhl.com/player/owen-tippett-8480015"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/owen-tippett-8480015"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "tyson-foerster",
+    "slug": "tyson-foerster",
+    "name": "Tyson Foerster",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "philadelphia-flyers",
+    "lastTeamId": "philadelphia-flyers",
+    "status": "Active",
+    "position": "RW",
+    "number": "71",
+    "birthday": "2002-01-18",
+    "birthdaySource": "https://www.nhl.com/player/tyson-foerster-8482159",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "23rd overall pick of the Flyers in 2020",
+        "source": "https://www.nhl.com/player/tyson-foerster-8482159"
+      },
+      {
+        "text": "Scored 25 goals in 81 games in 2024-25",
+        "source": "https://www.nhl.com/player/tyson-foerster-8482159"
+      },
+      {
+        "text": "Scored 13 goals in 29 games in 2025-26",
+        "source": "https://www.nhl.com/player/tyson-foerster-8482159"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/tyson-foerster-8482159"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ben-kindel",
+    "slug": "ben-kindel",
+    "name": "Ben Kindel",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "pittsburgh-penguins",
+    "lastTeamId": "pittsburgh-penguins",
+    "status": "Active",
+    "position": "C",
+    "number": "81",
+    "birthday": "2007-04-19",
+    "birthdaySource": "https://www.nhl.com/player/ben-kindel-8485414",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "11th overall pick of the Penguins in 2025",
+        "source": "https://www.nhl.com/player/ben-kindel-8485414"
+      },
+      {
+        "text": "Scored 17 goals with 35 points in 77 games as an 18-year-old rookie in 2025-26",
+        "source": "https://www.nhl.com/player/ben-kindel-8485414"
+      },
+      {
+        "text": "Has 4 points in 9 games of 2026-27",
+        "source": "https://www.nhl.com/player/ben-kindel-8485414"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/ben-kindel-8485414"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "rickard-rakell",
+    "slug": "rickard-rakell",
+    "name": "Rickard Rakell",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "pittsburgh-penguins",
+    "lastTeamId": "pittsburgh-penguins",
+    "status": "Active",
+    "position": "RW",
+    "number": "67",
+    "birthday": "1993-05-05",
+    "birthdaySource": "https://www.nhl.com/player/rickard-rakell-8476483",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored a career-high 35 goals with 70 points in 2024-25",
+        "source": "https://www.nhl.com/player/rickard-rakell-8476483"
+      },
+      {
+        "text": "Had 24 goals in 60 games in 2025-26",
+        "source": "https://www.nhl.com/player/rickard-rakell-8476483"
+      },
+      {
+        "text": "Played for Sweden at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/rickard-rakell-8476483"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/rickard-rakell-8476483"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "sam-dickinson",
+    "slug": "sam-dickinson",
+    "name": "Sam Dickinson",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "san-jose-sharks",
+    "lastTeamId": "san-jose-sharks",
+    "status": "Active",
+    "position": "D",
+    "number": "6",
+    "birthday": "2006-06-07",
+    "birthdaySource": "https://www.nhl.com/player/sam-dickinson-8484806",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "11th overall pick of the Sharks in 2024",
+        "source": "https://www.nhl.com/player/sam-dickinson-8484806"
+      },
+      {
+        "text": "Played 72 games as a rookie defenseman in 2025-26",
+        "source": "https://www.nhl.com/player/sam-dickinson-8484806"
+      },
+      {
+        "text": "Won the Memorial Cup with the London Knights in 2025",
+        "source": "https://www.nhl.com/player/sam-dickinson-8484806"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/sam-dickinson-8484806"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "tyler-toffoli",
+    "slug": "tyler-toffoli",
+    "name": "Tyler Toffoli",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "san-jose-sharks",
+    "lastTeamId": "san-jose-sharks",
+    "status": "Active",
+    "position": "C",
+    "number": "73",
+    "birthday": "1992-04-24",
+    "birthdaySource": "https://www.nhl.com/player/tyler-toffoli-8475726",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with Los Angeles in 2014",
+        "source": "https://www.nhl.com/player/tyler-toffoli-8475726"
+      },
+      {
+        "text": "Scored 30 goals in 2024-25, his first season in San Jose",
+        "source": "https://www.nhl.com/player/tyler-toffoli-8475726"
+      },
+      {
+        "text": "Has 9 points in 13 games of 2026-27",
+        "source": "https://www.nhl.com/player/tyler-toffoli-8475726"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/tyler-toffoli-8475726"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mackie-samoskevich",
+    "slug": "mackie-samoskevich",
+    "name": "Mackie Samoskevich",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "seattle-kraken",
+    "lastTeamId": "seattle-kraken",
+    "status": "Active",
+    "position": "RW",
+    "number": "11",
+    "birthday": "2002-11-15",
+    "birthdaySource": "https://www.nhl.com/player/mackie-samoskevich-8482713",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with Florida in 2025",
+        "source": "https://www.nhl.com/player/mackie-samoskevich-8482713"
+      },
+      {
+        "text": "Had 32 points in 77 games for Florida in 2025-26",
+        "source": "https://www.nhl.com/player/mackie-samoskevich-8482713"
+      },
+      {
+        "text": "Has 5 goals in his first 11 games with Seattle in 2026-27",
+        "source": "https://www.nhl.com/player/mackie-samoskevich-8482713"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/mackie-samoskevich-8482713"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "shane-wright",
+    "slug": "shane-wright",
+    "name": "Shane Wright",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "seattle-kraken",
+    "lastTeamId": "seattle-kraken",
+    "status": "Active",
+    "position": "C",
+    "number": "51",
+    "birthday": "2004-01-05",
+    "birthdaySource": "https://www.nhl.com/player/shane-wright-8483524",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Fourth overall pick of the Kraken in 2022",
+        "source": "https://www.nhl.com/player/shane-wright-8483524"
+      },
+      {
+        "text": "Had 19 goals and 44 points in 79 games in 2024-25",
+        "source": "https://www.nhl.com/player/shane-wright-8483524"
+      },
+      {
+        "text": "Has 3 goals in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/shane-wright-8483524"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/shane-wright-8483524"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jordan-binnington",
+    "slug": "jordan-binnington",
+    "name": "Jordan Binnington",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "st-louis-blues",
+    "lastTeamId": "st-louis-blues",
+    "status": "Active",
+    "position": "G",
+    "number": "50",
+    "birthday": "1993-07-11",
+    "birthdaySource": "https://www.nhl.com/player/jordan-binnington-8476412",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with St. Louis in 2019",
+        "source": "https://www.nhl.com/player/jordan-binnington-8476412"
+      },
+      {
+        "text": "Went 4-1 with a 1.78 goals-against average for Canada at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/jordan-binnington-8476412"
+      },
+      {
+        "text": "Has 187 career NHL wins, all with the Blues",
+        "source": "https://www.nhl.com/player/jordan-binnington-8476412"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jordan-binnington-8476412"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "dalibor-dvorsky",
+    "slug": "dalibor-dvorsky",
+    "name": "Dalibor Dvorsky",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "st-louis-blues",
+    "lastTeamId": "st-louis-blues",
+    "status": "Active",
+    "position": "RW",
+    "number": "15",
+    "birthday": "2005-06-15",
+    "birthdaySource": "https://www.nhl.com/player/dalibor-dvorsky-8484164",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "10th overall pick of the Blues in 2023",
+        "source": "https://www.nhl.com/player/dalibor-dvorsky-8484164"
+      },
+      {
+        "text": "Scored 12 goals as a rookie in 2025-26",
+        "source": "https://www.nhl.com/player/dalibor-dvorsky-8484164"
+      },
+      {
+        "text": "Had 6 points in 6 games for Slovakia at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/dalibor-dvorsky-8484164"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/dalibor-dvorsky-8484164"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "brandon-hagel",
+    "slug": "brandon-hagel",
+    "name": "Brandon Hagel",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "tampa-bay-lightning",
+    "lastTeamId": "tampa-bay-lightning",
+    "status": "Active",
+    "position": "LW",
+    "number": "38",
+    "birthday": "1998-08-27",
+    "birthdaySource": "https://www.nhl.com/player/brandon-hagel-8479542",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored a career-high 36 goals with a plus-34 in 2025-26",
+        "source": "https://www.nhl.com/player/brandon-hagel-8479542"
+      },
+      {
+        "text": "Had 90 points in 2024-25",
+        "source": "https://www.nhl.com/player/brandon-hagel-8479542"
+      },
+      {
+        "text": "Has 7 goals and 13 points in 11 games of 2026-27",
+        "source": "https://www.nhl.com/player/brandon-hagel-8479542"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/brandon-hagel-8479542"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "anthony-cirelli",
+    "slug": "anthony-cirelli",
+    "name": "Anthony Cirelli",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "tampa-bay-lightning",
+    "lastTeamId": "tampa-bay-lightning",
+    "status": "Active",
+    "position": "C",
+    "number": "71",
+    "birthday": "1997-07-15",
+    "birthdaySource": "https://www.nhl.com/player/anthony-cirelli-8478519",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Two-time Stanley Cup champion with Tampa Bay (2020 and 2021)",
+        "source": "https://www.nhl.com/player/anthony-cirelli-8478519"
+      },
+      {
+        "text": "Had 52 points and a plus-38 in 71 games in 2025-26",
+        "source": "https://www.nhl.com/player/anthony-cirelli-8478519"
+      },
+      {
+        "text": "Has played his whole career with the Lightning, nearly 600 games",
+        "source": "https://www.nhl.com/player/anthony-cirelli-8478519"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/anthony-cirelli-8478519"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "easton-cowan",
+    "slug": "easton-cowan",
+    "name": "Easton Cowan",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "toronto-maple-leafs",
+    "lastTeamId": "toronto-maple-leafs",
+    "status": "Active",
+    "position": "RW",
+    "number": "53",
+    "birthday": "2005-05-20",
+    "birthdaySource": "https://www.nhl.com/player/easton-cowan-8484158",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "28th overall pick of the Maple Leafs in 2023",
+        "source": "https://www.nhl.com/player/easton-cowan-8484158"
+      },
+      {
+        "text": "Had 29 points in 66 games as a rookie in 2025-26",
+        "source": "https://www.nhl.com/player/easton-cowan-8484158"
+      },
+      {
+        "text": "Has 6 goals and 13 points in 14 games of 2026-27",
+        "source": "https://www.nhl.com/player/easton-cowan-8484158"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/easton-cowan-8484158"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "kirill-marchenko",
+    "slug": "kirill-marchenko",
+    "name": "Kirill Marchenko",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "toronto-maple-leafs",
+    "lastTeamId": "toronto-maple-leafs",
+    "status": "Active",
+    "position": "RW",
+    "number": "86",
+    "birthday": "2000-07-21",
+    "birthdaySource": "https://www.nhl.com/player/kirill-marchenko-8480893",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 74 points (31 goals) for Columbus in 2024-25",
+        "source": "https://www.nhl.com/player/kirill-marchenko-8480893"
+      },
+      {
+        "text": "Scored 27 goals with 67 points for Columbus in 2025-26",
+        "source": "https://www.nhl.com/player/kirill-marchenko-8480893"
+      },
+      {
+        "text": "Has 14 points in 14 games with Toronto in 2026-27",
+        "source": "https://www.nhl.com/player/kirill-marchenko-8480893"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/kirill-marchenko-8480893"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "daniil-but",
+    "slug": "daniil-but",
+    "name": "Daniil But",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "utah-mammoth",
+    "lastTeamId": "utah-mammoth",
+    "status": "Active",
+    "position": "LW",
+    "number": "50",
+    "birthday": "2005-02-15",
+    "birthdaySource": "https://www.nhl.com/player/daniil-but-8484388",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "12th overall pick of the Arizona Coyotes in 2023",
+        "source": "https://www.nhl.com/player/daniil-but-8484388"
+      },
+      {
+        "text": "Scored 19 goals in 41 AHL games for Tucson in 2025-26",
+        "source": "https://www.nhl.com/player/daniil-but-8484388"
+      },
+      {
+        "text": "Has 4 points in 12 games of 2026-27",
+        "source": "https://www.nhl.com/player/daniil-but-8484388"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/daniil-but-8484388"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "vincent-trocheck",
+    "slug": "vincent-trocheck",
+    "name": "Vincent Trocheck",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "utah-mammoth",
+    "lastTeamId": "utah-mammoth",
+    "status": "Active",
+    "position": "C",
+    "number": "16",
+    "birthday": "1993-07-11",
+    "birthdaySource": "https://www.nhl.com/player/vincent-trocheck-8476389",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Had 77 points for the New York Rangers in 2023-24",
+        "source": "https://www.nhl.com/player/vincent-trocheck-8476389"
+      },
+      {
+        "text": "Played for the United States at the 2026 Winter Olympics",
+        "source": "https://www.nhl.com/player/vincent-trocheck-8476389"
+      },
+      {
+        "text": "Has played more than 880 NHL games",
+        "source": "https://www.nhl.com/player/vincent-trocheck-8476389"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/vincent-trocheck-8476389"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jonathan-lekkerimaki",
+    "slug": "jonathan-lekkerimaki",
+    "name": "Jonathan Lekkerimaki",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "vancouver-canucks",
+    "lastTeamId": "vancouver-canucks",
+    "status": "Active",
+    "position": "RW",
+    "number": "88",
+    "birthday": "2004-07-24",
+    "birthdaySource": "https://www.nhl.com/player/jonathan-lekkerimaki-8483476",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "15th overall pick of the Canucks in 2022",
+        "source": "https://www.nhl.com/player/jonathan-lekkerimaki-8483476"
+      },
+      {
+        "text": "Has 6 goals and 12 points in 14 games of 2026-27",
+        "source": "https://www.nhl.com/player/jonathan-lekkerimaki-8483476"
+      },
+      {
+        "text": "Scored 13 goals in 21 AHL games for Abbotsford in 2025-26",
+        "source": "https://www.nhl.com/player/jonathan-lekkerimaki-8483476"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/jonathan-lekkerimaki-8483476"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "zeev-buium",
+    "slug": "zeev-buium",
+    "name": "Zeev Buium",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "vancouver-canucks",
+    "lastTeamId": "vancouver-canucks",
+    "status": "Active",
+    "position": "D",
+    "number": "8",
+    "birthday": "2005-12-07",
+    "birthdaySource": "https://www.nhl.com/player/zeev-buium-8484798",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "12th overall pick of the Minnesota Wild in 2024",
+        "source": "https://www.nhl.com/player/zeev-buium-8484798"
+      },
+      {
+        "text": "Had 26 points in 76 games for Minnesota and Vancouver in 2025-26",
+        "source": "https://www.nhl.com/player/zeev-buium-8484798"
+      },
+      {
+        "text": "Has 4 assists in 14 games of 2026-27",
+        "source": "https://www.nhl.com/player/zeev-buium-8484798"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/zeev-buium-8484798"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "william-karlsson",
+    "slug": "william-karlsson",
+    "name": "William Karlsson",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "vegas-golden-knights",
+    "lastTeamId": "vegas-golden-knights",
+    "status": "Active",
+    "position": "C",
+    "number": "71",
+    "birthday": "1993-01-08",
+    "birthdaySource": "https://www.nhl.com/player/william-karlsson-8476448",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won the Stanley Cup with Vegas in 2023",
+        "source": "https://www.nhl.com/player/william-karlsson-8476448"
+      },
+      {
+        "text": "Won the Lady Byng Trophy in 2017-18",
+        "source": "https://www.nhl.com/player/william-karlsson-8476448"
+      },
+      {
+        "text": "Scored 30 goals in 2023-24",
+        "source": "https://www.nhl.com/player/william-karlsson-8476448"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/william-karlsson-8476448"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "trevor-connelly",
+    "slug": "trevor-connelly",
+    "name": "Trevor Connelly",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "vegas-golden-knights",
+    "lastTeamId": "vegas-golden-knights",
+    "status": "Active",
+    "position": "LW",
+    "number": "24",
+    "birthday": "2006-02-28",
+    "birthdaySource": "https://www.nhl.com/player/trevor-connelly-8484803",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "19th overall pick of the Golden Knights in 2024",
+        "source": "https://www.nhl.com/player/trevor-connelly-8484803"
+      },
+      {
+        "text": "Had 49 points in 46 AHL games for Henderson in 2025-26",
+        "source": "https://www.nhl.com/player/trevor-connelly-8484803"
+      },
+      {
+        "text": "Has 4 goals and 9 points in his first 14 NHL games in 2026-27",
+        "source": "https://www.nhl.com/player/trevor-connelly-8484803"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/trevor-connelly-8484803"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "cole-hutson",
+    "slug": "cole-hutson",
+    "name": "Cole Hutson",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "washington-capitals",
+    "lastTeamId": "washington-capitals",
+    "status": "Active",
+    "position": "D",
+    "number": "44",
+    "birthday": "2006-06-28",
+    "birthdaySource": "https://www.nhl.com/player/cole-hutson-8484873",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Second-round pick of the Capitals in 2024",
+        "source": "https://www.nhl.com/player/cole-hutson-8484873"
+      },
+      {
+        "text": "Had 10 points in 14 games for Washington in 2025-26",
+        "source": "https://www.nhl.com/player/cole-hutson-8484873"
+      },
+      {
+        "text": "Had 32 points in 35 games for Boston University in 2025-26",
+        "source": "https://www.nhl.com/player/cole-hutson-8484873"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/cole-hutson-8484873"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "alex-tuch",
+    "slug": "alex-tuch",
+    "name": "Alex Tuch",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "washington-capitals",
+    "lastTeamId": "washington-capitals",
+    "status": "Active",
+    "position": "RW",
+    "number": "89",
+    "birthday": "1996-05-10",
+    "birthdaySource": "https://www.nhl.com/player/alex-tuch-8477949",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Scored 36 goals in 2024-25 and 33 goals in 2025-26 for Buffalo",
+        "source": "https://www.nhl.com/player/alex-tuch-8477949"
+      },
+      {
+        "text": "Has 7 goals in 10 games with Washington in 2026-27",
+        "source": "https://www.nhl.com/player/alex-tuch-8477949"
+      },
+      {
+        "text": "18th overall pick of the Minnesota Wild in 2014",
+        "source": "https://www.nhl.com/player/alex-tuch-8477949"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/alex-tuch-8477949"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "adam-lowry",
+    "slug": "adam-lowry",
+    "name": "Adam Lowry",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "winnipeg-jets",
+    "lastTeamId": "winnipeg-jets",
+    "status": "Active",
+    "position": "C",
+    "number": "17",
+    "birthday": "1993-03-29",
+    "birthdaySource": "https://www.nhl.com/player/adam-lowry-8476392",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has played his entire NHL career with Winnipeg, more than 850 games",
+        "source": "https://www.nhl.com/player/adam-lowry-8476392"
+      },
+      {
+        "text": "Third-round pick of the Jets in 2011",
+        "source": "https://www.nhl.com/player/adam-lowry-8476392"
+      },
+      {
+        "text": "Had 34 points and a plus-18 in 2024-25",
+        "source": "https://www.nhl.com/player/adam-lowry-8476392"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/adam-lowry-8476392"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "stuart-skinner",
+    "slug": "stuart-skinner",
+    "name": "Stuart Skinner",
+    "leagues": [
+      "nhl"
+    ],
+    "teamId": "winnipeg-jets",
+    "lastTeamId": "winnipeg-jets",
+    "status": "Active",
+    "position": "G",
+    "number": "74",
+    "birthday": "1998-11-01",
+    "birthdaySource": "https://www.nhl.com/player/stuart-skinner-8479973",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Won 36 games for Edmonton in 2023-24",
+        "source": "https://www.nhl.com/player/stuart-skinner-8479973"
+      },
+      {
+        "text": "Has 124 career NHL regular-season wins",
+        "source": "https://www.nhl.com/player/stuart-skinner-8479973"
+      },
+      {
+        "text": "Has a .911 save percentage in 8 games with Winnipeg in 2026-27",
+        "source": "https://www.nhl.com/player/stuart-skinner-8479973"
+      }
+    ],
+    "sources": [
+      "https://www.nhl.com/player/stuart-skinner-8479973"
+    ],
+    "lastVerified": "2026-10-29"
   }
 ]
