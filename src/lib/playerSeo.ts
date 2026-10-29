@@ -21,7 +21,7 @@ export function playerTitle({ player, league, latest }: Ctx): string {
 export function playerDescription({ player, league, team, latest, line }: Ctx): string {
   const who = [player.number && `No. ${player.number}`, team && player.teamId ? team.name : null, player.position].filter(Boolean).join(" ");
   const rank = latest ? ` Ranked No. ${latest.rank} on the ${latest.ranking.publisher.replace(/ \(.*\)$/, "")} ${league.name} sales list.` : "";
-  const stats = line ? ` ${line.season}: ${statSummary(line, 3)}.` : "";
+  const stats = line?.statistics.length ? ` ${line.season}: ${statSummary(line, 3)}.` : "";
   return `Shop ${player.name} jerseys${who ? ` (${who})` : ""}.${rank}${stats} Where to buy, sizes and styles.`;
 }
 
@@ -41,7 +41,7 @@ export function playerFaq({ player, league, team, latest, line }: Ctx): { q: str
   if (team) faq.push({ q: `What team is ${player.name} on?`, a: player.teamId ? `${player.name} plays for the ${team.name} (${league.name}).` : `${player.name} is listed as ${player.status.toLowerCase()}. The last team on file is the ${team.name}.` });
   if (latest) faq.push({ q: `Is ${player.name}'s jersey a top seller?`, a: `Yes. ${player.name} ranked No. ${latest.rank} on ${latest.ranking.title}, published by ${latest.ranking.publisher} on ${fmtDate(latest.ranking.publishedDate)}.` });
   faq.push({ q: `Where can I buy a ${player.name} jersey?`, a: `Use the Shop ${player.name} Jerseys button on this page to see every ${player.name} jersey style, size and price at the retailer. ${site.name} may earn a commission on purchases.` });
-  if (line) faq.push({ q: `What are ${player.name}'s ${line.season} stats?`, a: `Through ${fmtDate(line.throughDate)}, ${player.name} has ${statSummary(line, 6)}.` });
+  if (line?.statistics.length) faq.push({ q: `What are ${player.name}'s ${line.season} stats?`, a: `Through ${fmtDate(line.throughDate)}, ${player.name} has ${statSummary(line, 6)}.` });
   if (player.birthday) faq.push({ q: `How old is ${player.name}?`, a: `${player.name} was born on ${fmtDate(player.birthday)} and is ${age(player.birthday, site.lastReviewed)}.` });
   return faq;
 }

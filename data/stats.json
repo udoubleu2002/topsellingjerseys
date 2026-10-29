@@ -51760,5 +51760,2240 @@
     "throughDate": "2026-10-27",
     "updatedAt": "2026-10-29",
     "isDemo": false
+  },
+  {
+    "playerId": "walter-nolen-iii",
+    "league": "nfl",
+    "teamId": "arizona-cardinals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "5"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/walter-nolen-iii-31959",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "michael-wilson",
+    "league": "nfl",
+    "teamId": "arizona-cardinals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "66"
+      },
+      {
+        "label": "Rec",
+        "value": "37"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "375"
+      },
+      {
+        "label": "YPR",
+        "value": "10.1"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/michael-wilson-30334",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "zachariah-branch",
+    "league": "nfl",
+    "teamId": "atlanta-falcons",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "12"
+      },
+      {
+        "label": "Rec",
+        "value": "10"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "64"
+      },
+      {
+        "label": "YPR",
+        "value": "6.4"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/zachariah-branch-32839",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "xavier-watts",
+    "league": "nfl",
+    "teamId": "atlanta-falcons",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "24"
+      },
+      {
+        "label": "Sacks",
+        "value": "0.5"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "FF",
+        "value": "2"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/xavier-watts-32035",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "malaki-starks",
+    "league": "nfl",
+    "teamId": "baltimore-ravens",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "25"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/ask/malaki-starks-2026-stats",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "trey-hendrickson",
+    "league": "nfl",
+    "teamId": "baltimore-ravens",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Tackles",
+        "value": "5"
+      },
+      {
+        "label": "Sacks",
+        "value": "2.0"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/trey-hendrickson-25654",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "keon-coleman",
+    "league": "nfl",
+    "teamId": "buffalo-bills",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "24"
+      },
+      {
+        "label": "Rec",
+        "value": "19"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "283"
+      },
+      {
+        "label": "YPR",
+        "value": "14.9"
+      },
+      {
+        "label": "Rec TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/keon-coleman-31101",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "maxwell-hairston",
+    "league": "nfl",
+    "teamId": "buffalo-bills",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "8"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/maxwell-hairston-31971",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "derrick-brown",
+    "league": "nfl",
+    "teamId": "carolina-panthers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "12"
+      },
+      {
+        "label": "Sacks",
+        "value": "0.0"
+      },
+      {
+        "label": "PD",
+        "value": "5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/derrick-brown-28188",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jaelan-phillips",
+    "league": "nfl",
+    "teamId": "carolina-panthers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Tackles",
+        "value": "3"
+      },
+      {
+        "label": "Sacks",
+        "value": "2.5"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/jaelan-phillips-29022",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dillon-thieneman",
+    "league": "nfl",
+    "teamId": "chicago-bears",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "25"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.5"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/dillon-thieneman-32766",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kyle-monangai",
+    "league": "nfl",
+    "teamId": "chicago-bears",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Rush Att",
+        "value": "60"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "324"
+      },
+      {
+        "label": "YPC",
+        "value": "5.4"
+      },
+      {
+        "label": "Rush TD",
+        "value": "3"
+      },
+      {
+        "label": "Total Yds",
+        "value": "363"
+      },
+      {
+        "label": "Total TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/kyle-monangai-32182",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dexter-lawrence-ii",
+    "league": "nfl",
+    "teamId": "cincinnati-bengals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "11"
+      },
+      {
+        "label": "Sacks",
+        "value": "4.0"
+      },
+      {
+        "label": "TFL",
+        "value": "7"
+      },
+      {
+        "label": "PD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/dexter-lawrence-ii-27307",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "shemar-stewart",
+    "league": "nfl",
+    "teamId": "cincinnati-bengals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "Tackles",
+        "value": "2"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/shemar-stewart-31970",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kc-concepcion",
+    "league": "nfl",
+    "teamId": "cleveland-browns",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "45"
+      },
+      {
+        "label": "Rec",
+        "value": "30"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "315"
+      },
+      {
+        "label": "YPR",
+        "value": "10.5"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/kc-concepcion-jr.-32747",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jared-verse",
+    "league": "nfl",
+    "teamId": "cleveland-browns",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "10"
+      },
+      {
+        "label": "Sacks",
+        "value": "0.0"
+      },
+      {
+        "label": "TFL",
+        "value": "4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/jared-verse-31088",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "malachi-lawrence",
+    "league": "nfl",
+    "teamId": "dallas-cowboys",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "6"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/malachi-lawrence-32761",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jake-ferguson",
+    "league": "nfl",
+    "teamId": "dallas-cowboys",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "25"
+      },
+      {
+        "label": "Rec",
+        "value": "17"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "115"
+      },
+      {
+        "label": "YPR",
+        "value": "6.8"
+      },
+      {
+        "label": "Rec TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/jake-ferguson-29718",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jahdae-barron",
+    "league": "nfl",
+    "teamId": "denver-broncos",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "20"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/jahdae-barron-31943",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "rj-harvey",
+    "league": "nfl",
+    "teamId": "denver-broncos",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Rush Att",
+        "value": "24"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "87"
+      },
+      {
+        "label": "YPC",
+        "value": "3.6"
+      },
+      {
+        "label": "Rush TD",
+        "value": "1"
+      },
+      {
+        "label": "Total TD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/rj-harvey-31975",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "sam-laporta",
+    "league": "nfl",
+    "teamId": "detroit-lions",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "39"
+      },
+      {
+        "label": "Rec",
+        "value": "28"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "334"
+      },
+      {
+        "label": "YPR",
+        "value": "11.9"
+      },
+      {
+        "label": "Rec TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/sam-laporta-30307",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "brian-branch",
+    "league": "nfl",
+    "teamId": "detroit-lions",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "1"
+      },
+      {
+        "label": "Tackles",
+        "value": "1"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "1"
+      }
+    ],
+    "note": "Played his first game of the season on Oct. 25.",
+    "source": "https://www.statmuse.com/nfl/player/brian-branch-30308",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "xavier-mckinney",
+    "league": "nfl",
+    "teamId": "green-bay-packers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "18"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "INT",
+        "value": "3"
+      },
+      {
+        "label": "PD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/xavier-mckinney-28194",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "edgerrin-cooper",
+    "league": "nfl",
+    "teamId": "green-bay-packers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Tackles",
+        "value": "18"
+      },
+      {
+        "label": "Sacks",
+        "value": "3.0"
+      },
+      {
+        "label": "TFL",
+        "value": "6"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/edgerrin-cooper-31113",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "marvin-harrison-jr",
+    "league": "nfl",
+    "teamId": "houston-texans",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "21"
+      },
+      {
+        "label": "Rec",
+        "value": "9"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "125"
+      },
+      {
+        "label": "YPR",
+        "value": "13.9"
+      },
+      {
+        "label": "Rec TD",
+        "value": "2"
+      }
+    ],
+    "note": "Includes four games with Arizona before the October trade.",
+    "source": "https://www.statmuse.com/nfl/ask/marvin-harrison-jr-texans",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jaylin-noel",
+    "league": "nfl",
+    "teamId": "houston-texans",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "23"
+      },
+      {
+        "label": "Rec",
+        "value": "19"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "331"
+      },
+      {
+        "label": "YPR",
+        "value": "17.4"
+      },
+      {
+        "label": "Rec TD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/jaylin-noel-32030",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "josh-downs",
+    "league": "nfl",
+    "teamId": "indianapolis-colts",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "46"
+      },
+      {
+        "label": "Rec",
+        "value": "26"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "307"
+      },
+      {
+        "label": "YPR",
+        "value": "11.8"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/josh-downs-30325",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "laiatu-latu",
+    "league": "nfl",
+    "teamId": "indianapolis-colts",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "9"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/laiatu-latu-31084",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "parker-washington",
+    "league": "nfl",
+    "teamId": "jacksonville-jaguars",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "46"
+      },
+      {
+        "label": "Rec",
+        "value": "26"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "416"
+      },
+      {
+        "label": "YPR",
+        "value": "16.0"
+      },
+      {
+        "label": "Rec TD",
+        "value": "4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/parker-washington-30441",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "travon-walker",
+    "league": "nfl",
+    "teamId": "jacksonville-jaguars",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "5"
+      },
+      {
+        "label": "Sacks",
+        "value": "2.0"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      },
+      {
+        "label": "PD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/travon-walker-29798",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "mansoor-delane",
+    "league": "nfl",
+    "teamId": "kansas-city-chiefs",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Tackles",
+        "value": "17"
+      },
+      {
+        "label": "TFL",
+        "value": "3"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/mansoor-delane-32758",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "chris-jones",
+    "league": "nfl",
+    "teamId": "kansas-city-chiefs",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "6"
+      },
+      {
+        "label": "Sacks",
+        "value": "0.5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/ask/chris-jones-chiefs",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "tre-tucker",
+    "league": "nfl",
+    "teamId": "las-vegas-raiders",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "47"
+      },
+      {
+        "label": "Rec",
+        "value": "29"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "474"
+      },
+      {
+        "label": "YPR",
+        "value": "16.3"
+      },
+      {
+        "label": "Rec TD",
+        "value": "4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/tre-tucker-30327",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "michael-mayer",
+    "league": "nfl",
+    "teamId": "las-vegas-raiders",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "37"
+      },
+      {
+        "label": "Rec",
+        "value": "31"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "298"
+      },
+      {
+        "label": "YPR",
+        "value": "9.6"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/michael-mayer-30288",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "akheem-mesidor",
+    "league": "nfl",
+    "teamId": "los-angeles-chargers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "10"
+      },
+      {
+        "label": "Sacks",
+        "value": "2.5"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/akheem-mesidor-32777",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "quentin-johnston",
+    "league": "nfl",
+    "teamId": "los-angeles-chargers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Targets",
+        "value": "22"
+      },
+      {
+        "label": "Rec",
+        "value": "8"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "165"
+      },
+      {
+        "label": "YPR",
+        "value": "20.6"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/quentin-johnston-30272",
+    "throughDate": "2026-10-18",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "blake-corum",
+    "league": "nfl",
+    "teamId": "los-angeles-rams",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Rush Att",
+        "value": "64"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "316"
+      },
+      {
+        "label": "YPC",
+        "value": "4.9"
+      },
+      {
+        "label": "Rush TD",
+        "value": "2"
+      },
+      {
+        "label": "Total Yds",
+        "value": "415"
+      },
+      {
+        "label": "Total TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/blake-corum-31151",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "byron-young",
+    "league": "nfl",
+    "teamId": "los-angeles-rams",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "12"
+      },
+      {
+        "label": "Sacks",
+        "value": "4.5"
+      },
+      {
+        "label": "TFL",
+        "value": "5"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/byron-young-30322",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "chris-johnson",
+    "league": "nfl",
+    "teamId": "miami-dolphins",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "19"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/chris-johnson-32763",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ollie-gordon-ii",
+    "league": "nfl",
+    "teamId": "miami-dolphins",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Rush Att",
+        "value": "72"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "339"
+      },
+      {
+        "label": "YPC",
+        "value": "4.7"
+      },
+      {
+        "label": "Rush TD",
+        "value": "4"
+      },
+      {
+        "label": "Total Yds",
+        "value": "373"
+      },
+      {
+        "label": "Total TD",
+        "value": "4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/ollie-gordon-ii-32134",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "caleb-banks",
+    "league": "nfl",
+    "teamId": "minnesota-vikings",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "4"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/caleb-banks-32776",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "t-j-hockenson",
+    "league": "nfl",
+    "teamId": "minnesota-vikings",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Targets",
+        "value": "32"
+      },
+      {
+        "label": "Rec",
+        "value": "27"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "237"
+      },
+      {
+        "label": "YPR",
+        "value": "8.8"
+      },
+      {
+        "label": "Rec TD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/t.j.-hockenson-27544",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "a-j-brown",
+    "league": "nfl",
+    "teamId": "new-england-patriots",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "Targets",
+        "value": "20"
+      },
+      {
+        "label": "Rec",
+        "value": "9"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "101"
+      },
+      {
+        "label": "YPR",
+        "value": "11.2"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/ask/aj-brown-patriots",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "christian-gonzalez",
+    "league": "nfl",
+    "teamId": "new-england-patriots",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Tackles",
+        "value": "15"
+      },
+      {
+        "label": "PD",
+        "value": "5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/christian-gonzalez-30251",
+    "throughDate": "2026-10-22",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jordyn-tyson",
+    "league": "nfl",
+    "teamId": "new-orleans-saints",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [],
+    "note": "Has not played yet in 2026 after a preseason hamstring injury.",
+    "source": "https://www.statmuse.com/nfl/player/jordyn-tyson-32748",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "juwan-johnson",
+    "league": "nfl",
+    "teamId": "new-orleans-saints",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "37"
+      },
+      {
+        "label": "Rec",
+        "value": "26"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "255"
+      },
+      {
+        "label": "YPR",
+        "value": "9.8"
+      },
+      {
+        "label": "Rec TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/juwan-johnson-28422",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "isaiah-likely",
+    "league": "nfl",
+    "teamId": "new-york-giants",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "63"
+      },
+      {
+        "label": "Rec",
+        "value": "41"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "395"
+      },
+      {
+        "label": "YPR",
+        "value": "9.6"
+      },
+      {
+        "label": "Rec TD",
+        "value": "5"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/isaiah-likely-29756",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "malachi-fields",
+    "league": "nfl",
+    "teamId": "new-york-giants",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "30"
+      },
+      {
+        "label": "Rec",
+        "value": "16"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "248"
+      },
+      {
+        "label": "YPR",
+        "value": "15.5"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/malachi-fields-32819",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kenyon-sadiq",
+    "league": "nfl",
+    "teamId": "new-york-jets",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "25"
+      },
+      {
+        "label": "Rec",
+        "value": "16"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "164"
+      },
+      {
+        "label": "YPR",
+        "value": "10.3"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/kenyon-sadiq-32756",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "omar-cooper-jr",
+    "league": "nfl",
+    "teamId": "new-york-jets",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "Targets",
+        "value": "13"
+      },
+      {
+        "label": "Rec",
+        "value": "12"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "248"
+      },
+      {
+        "label": "YPR",
+        "value": "20.7"
+      },
+      {
+        "label": "Rec TD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/omar-cooper-jr.-32757",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "makai-lemon",
+    "league": "nfl",
+    "teamId": "philadelphia-eagles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "36"
+      },
+      {
+        "label": "Rec",
+        "value": "25"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "194"
+      },
+      {
+        "label": "YPR",
+        "value": "7.8"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/makai-lemon-32750",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "quinyon-mitchell",
+    "league": "nfl",
+    "teamId": "philadelphia-eagles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "27"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      },
+      {
+        "label": "INT",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "8"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/quinyon-mitchell-31091",
+    "throughDate": "2026-10-26",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "derrick-harmon",
+    "league": "nfl",
+    "teamId": "pittsburgh-steelers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Tackles",
+        "value": "3"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.5"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/derrick-harmon-31946",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "pat-freiermuth",
+    "league": "nfl",
+    "teamId": "pittsburgh-steelers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "33"
+      },
+      {
+        "label": "Rec",
+        "value": "23"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "200"
+      },
+      {
+        "label": "YPR",
+        "value": "8.7"
+      },
+      {
+        "label": "Rec TD",
+        "value": "4"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/pat-freiermuth-29201",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "deebo-samuel",
+    "league": "nfl",
+    "teamId": "san-francisco-49ers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Targets",
+        "value": "20"
+      },
+      {
+        "label": "Rec",
+        "value": "16"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "206"
+      },
+      {
+        "label": "YPR",
+        "value": "12.9"
+      },
+      {
+        "label": "Rec TD",
+        "value": "3"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/deebo-samuel-sr.-27644",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "mykel-williams",
+    "league": "nfl",
+    "teamId": "san-francisco-49ers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "Tackles",
+        "value": "4"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/mykel-williams-31942",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jadarian-price",
+    "league": "nfl",
+    "teamId": "seattle-seahawks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "3"
+      },
+      {
+        "label": "Rush Att",
+        "value": "28"
+      },
+      {
+        "label": "Rush Yds",
+        "value": "119"
+      },
+      {
+        "label": "YPC",
+        "value": "4.3"
+      },
+      {
+        "label": "Rush TD",
+        "value": "0"
+      },
+      {
+        "label": "Rec",
+        "value": "4"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "21"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": "On injured reserve with a chest injury.",
+    "source": "https://www.statmuse.com/nfl/player/jadarian-price-32770",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "nick-emmanwori",
+    "league": "nfl",
+    "teamId": "seattle-seahawks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "20"
+      },
+      {
+        "label": "Sacks",
+        "value": "2.0"
+      },
+      {
+        "label": "TFL",
+        "value": "3"
+      },
+      {
+        "label": "PD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/nick-emmanwori-31995",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "rueben-bain-jr",
+    "league": "nfl",
+    "teamId": "tampa-bay-buccaneers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "5"
+      },
+      {
+        "label": "Tackles",
+        "value": "2"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/rueben-bain-jr.-32769",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "vita-vea",
+    "league": "nfl",
+    "teamId": "tampa-bay-buccaneers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "5"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "1"
+      },
+      {
+        "label": "PD",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/vita-vea-26599",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "keldric-faulk",
+    "league": "nfl",
+    "teamId": "tennessee-titans",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Tackles",
+        "value": "3"
+      },
+      {
+        "label": "Sacks",
+        "value": "1.0"
+      },
+      {
+        "label": "TFL",
+        "value": "2"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/keldric-faulk-32772",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "elic-ayomanor",
+    "league": "nfl",
+    "teamId": "tennessee-titans",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "7"
+      },
+      {
+        "label": "Targets",
+        "value": "21"
+      },
+      {
+        "label": "Rec",
+        "value": "10"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "177"
+      },
+      {
+        "label": "YPR",
+        "value": "17.7"
+      },
+      {
+        "label": "Rec TD",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/elic-ayomanor-32102",
+    "throughDate": "2026-10-25",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "odafe-oweh",
+    "league": "nfl",
+    "teamId": "washington-commanders",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "6"
+      },
+      {
+        "label": "Tackles",
+        "value": "7"
+      },
+      {
+        "label": "Sacks",
+        "value": "3.0"
+      },
+      {
+        "label": "TFL",
+        "value": "4"
+      },
+      {
+        "label": "FF",
+        "value": "1"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/odafe-oweh-29328",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "chig-okonkwo",
+    "league": "nfl",
+    "teamId": "washington-commanders",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "4"
+      },
+      {
+        "label": "Targets",
+        "value": "20"
+      },
+      {
+        "label": "Rec",
+        "value": "15"
+      },
+      {
+        "label": "Rec Yds",
+        "value": "150"
+      },
+      {
+        "label": "YPR",
+        "value": "10.0"
+      },
+      {
+        "label": "Rec TD",
+        "value": "0"
+      }
+    ],
+    "note": null,
+    "source": "https://www.statmuse.com/nfl/player/chig-okonkwo-29674",
+    "throughDate": "2026-10-19",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
   }
 ]
