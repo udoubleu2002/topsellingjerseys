@@ -30220,5 +30220,2167 @@
       "https://www.statmuse.com/nfl/player/elijah-ponder-32440"
     ],
     "lastVerified": "2026-10-27"
+  },
+  {
+    "id": "cooper-sanchez",
+    "slug": "cooper-sanchez",
+    "name": "Cooper Sanchez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "48",
+    "birthday": "2008-03-26",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Cooper_Sanchez",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 assists in 27 MLS games, 22 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1"
+      },
+      {
+        "text": "Atlanta academy product who signed a Homegrown contract in August 2025",
+        "source": "https://en.wikipedia.org/wiki/Cooper_Sanchez"
+      },
+      {
+        "text": "Played for the United States at the 2025 FIFA U-17 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Cooper_Sanchez"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cooper_Sanchez",
+      "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "elias-baez",
+    "slug": "elias-baez",
+    "name": "Elías Báez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "atlanta-united",
+    "lastTeamId": "atlanta-united",
+    "status": "Active",
+    "position": "Defender",
+    "number": "3",
+    "birthday": "2004-10-18",
+    "birthdaySource": "https://en.wikipedia.org/wiki/El%C3%ADas_B%C3%A1ez",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 6 assists in 28 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1"
+      },
+      {
+        "text": "Joined Atlanta from San Lorenzo in 2026 on a contract through 2028",
+        "source": "https://en.wikipedia.org/wiki/El%C3%ADas_B%C3%A1ez"
+      },
+      {
+        "text": "Came through San Lorenzo's youth academy in Argentina",
+        "source": "https://en.wikipedia.org/wiki/El%C3%ADas_B%C3%A1ez"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/El%C3%ADas_B%C3%A1ez",
+      "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ervin-torres",
+    "slug": "ervin-torres",
+    "name": "Ervin Torres",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "38",
+    "birthday": "2007-11-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Ervin_Torres",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 4 assists in 18 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "Austin FC Academy product who signed a Homegrown contract before the 2026 season",
+        "source": "https://en.wikipedia.org/wiki/Ervin_Torres"
+      },
+      {
+        "text": "Born in Laredo, Texas, and has played for U.S. youth national teams",
+        "source": "https://en.wikipedia.org/wiki/Ervin_Torres"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ervin_Torres",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "joseph-rosales",
+    "slug": "joseph-rosales",
+    "name": "Joseph Rosales",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "austin-fc",
+    "lastTeamId": "austin-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "30",
+    "birthday": "2000-11-06",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Joseph_Rosales",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 4 assists in 28 MLS games, 27 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+      },
+      {
+        "text": "Joined Austin in a trade with Minnesota United after the 2025 season",
+        "source": "https://en.wikipedia.org/wiki/Joseph_Rosales"
+      },
+      {
+        "text": "Honduras international with 38 senior caps",
+        "source": "https://en.wikipedia.org/wiki/Joseph_Rosales"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joseph_Rosales",
+      "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mbekezeli-mbokazi",
+    "slug": "mbekezeli-mbokazi",
+    "name": "Mbekezeli Mbokazi",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Defender",
+    "number": "4",
+    "birthday": "2005-09-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Mbekezeli_Mbokazi",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has started all 18 of his MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Became the youngest captain in Orlando Pirates history at 19",
+        "source": "https://en.wikipedia.org/wiki/Mbekezeli_Mbokazi"
+      },
+      {
+        "text": "South Africa international with 15 senior caps",
+        "source": "https://en.wikipedia.org/wiki/Mbekezeli_Mbokazi"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mbekezeli_Mbokazi",
+      "https://www.espn.com/soccer/team/squad/_/id/182/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "puso-dithejane",
+    "slug": "puso-dithejane",
+    "name": "Puso Dithejane",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "chicago-fire-fc",
+    "lastTeamId": "chicago-fire-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "12",
+    "birthday": "2004-07-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Puso_Dithejane",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 1 assist in 24 MLS games in 2026, mostly off the bench",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/182/league/USA.1"
+      },
+      {
+        "text": "Named Betway Premiership Player of the Month three times in 2025",
+        "source": "https://en.wikipedia.org/wiki/Puso_Dithejane"
+      },
+      {
+        "text": "Scored both goals in Chicago's 2-1 Leagues Cup win over Cruz Azul in 2026",
+        "source": "https://en.wikipedia.org/wiki/Puso_Dithejane"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Puso_Dithejane",
+      "https://www.espn.com/soccer/team/squad/_/id/182/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "josef-martinez",
+    "slug": "josef-martinez",
+    "name": "Josef Martínez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Forward",
+    "number": "77",
+    "birthday": "1993-05-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 1 assist in 11 MLS games since joining Columbus in August 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Won the 2018 MLS MVP and Golden Boot after scoring 31 goals with Atlanta United",
+        "source": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez"
+      },
+      {
+        "text": "Venezuela international with 70 caps and 15 goals",
+        "source": "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Josef_Mart%C3%ADnez",
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mohamed-farsi",
+    "slug": "mohamed-farsi",
+    "name": "Mohamed Farsi",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "columbus-crew",
+    "lastTeamId": "columbus-crew",
+    "status": "Active",
+    "position": "Defender",
+    "number": "23",
+    "birthday": "1999-12-16",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Mohamed_Farsi",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 5 assists in 19 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+      },
+      {
+        "text": "Played 86 minutes as Columbus won MLS Cup 2023",
+        "source": "https://en.wikipedia.org/wiki/Mohamed_Farsi"
+      },
+      {
+        "text": "Algeria international who was born in Montreal",
+        "source": "https://en.wikipedia.org/wiki/Mohamed_Farsi"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mohamed_Farsi",
+      "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "hennadiy-synchuk",
+    "slug": "hennadiy-synchuk",
+    "name": "Hennadiy Synchuk",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "18",
+    "birthday": "2006-07-10",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Hennadiy_Synchuk",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 1 assist in 21 MLS games in 2026, with 53 shots",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Signed with Montréal in January 2025 as a U22 Initiative player",
+        "source": "https://en.wikipedia.org/wiki/Hennadiy_Synchuk"
+      },
+      {
+        "text": "Made his Ukrainian Premier League debut for Metalist Kharkiv at 16",
+        "source": "https://en.wikipedia.org/wiki/Hennadiy_Synchuk"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hennadiy_Synchuk",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jalen-neal",
+    "slug": "jalen-neal",
+    "name": "Jalen Neal",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "cf-montreal",
+    "lastTeamId": "cf-montreal",
+    "status": "Active",
+    "position": "Defender",
+    "number": "2",
+    "birthday": "2003-08-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jalen_Neal",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has made 20 MLS appearances, 19 of them starts, for Montréal in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+      },
+      {
+        "text": "Joined Montréal in a trade from the LA Galaxy in January 2025",
+        "source": "https://en.wikipedia.org/wiki/Jalen_Neal"
+      },
+      {
+        "text": "Became the youngest center-back to play in a USMNT knockout game at the 2023 Gold Cup",
+        "source": "https://en.wikipedia.org/wiki/Jalen_Neal"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jalen_Neal",
+      "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "liel-abada",
+    "slug": "liel-abada",
+    "name": "Liel Abada",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2001-10-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Liel_Abada",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5 goals and 5 assists in 24 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "Joined Charlotte from Celtic in March 2024 for a reported $8 million",
+        "source": "https://en.wikipedia.org/wiki/Liel_Abada"
+      },
+      {
+        "text": "Won two Scottish Premiership titles and the PFA Scotland Young Player of the Year award at Celtic",
+        "source": "https://en.wikipedia.org/wiki/Liel_Abada"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Liel_Abada",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "archie-goodwin",
+    "slug": "archie-goodwin",
+    "name": "Archie Goodwin",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "charlotte-fc",
+    "lastTeamId": "charlotte-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "2004-11-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Archie_Goodwin_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals in 24 MLS games in 2026, mostly as a substitute",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+      },
+      {
+        "text": "Shared the 2024-25 A-League Golden Boot with 13 goals, the youngest player to win it",
+        "source": "https://en.wikipedia.org/wiki/Archie_Goodwin_(soccer)"
+      },
+      {
+        "text": "Scored twice in Charlotte's 6-1 win over the New York Red Bulls in 2026",
+        "source": "https://en.wikipedia.org/wiki/Archie_Goodwin_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Archie_Goodwin_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "wayne-frederick",
+    "slug": "wayne-frederick",
+    "name": "Wayne Frederick",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "13",
+    "birthday": "2004-06-13",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Wayne_Frederick_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 5 assists in 27 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "Taken second overall in the 2024 MLS SuperDraft out of Duke",
+        "source": "https://en.wikipedia.org/wiki/Wayne_Frederick_(soccer)"
+      },
+      {
+        "text": "Made his senior debut for Trinidad and Tobago in December 2024",
+        "source": "https://en.wikipedia.org/wiki/Wayne_Frederick_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wayne_Frederick_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "hamzat-ojediran",
+    "slug": "hamzat-ojediran",
+    "name": "Hamzat Ojediran",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "colorado-rapids",
+    "lastTeamId": "colorado-rapids",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "2003-11-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Hamzat_Ojediran",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has made 28 MLS appearances, 24 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+      },
+      {
+        "text": "Signed with Colorado from French club RC Lens in January 2026",
+        "source": "https://en.wikipedia.org/wiki/Hamzat_Ojediran"
+      },
+      {
+        "text": "Played for Nigeria at the 2019 FIFA U-17 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Hamzat_Ojediran"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hamzat_Ojediran",
+      "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "keisuke-kurokawa",
+    "slug": "keisuke-kurokawa",
+    "name": "Keisuke Kurokawa",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Defender",
+    "number": "6",
+    "birthday": "1997-04-13",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Keisuke_Kurokawa",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 7 assists in 31 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Joined D.C. United in 2026 after seven seasons with Gamba Osaka",
+        "source": "https://en.wikipedia.org/wiki/Keisuke_Kurokawa"
+      },
+      {
+        "text": "Made 151 appearances for Gamba Osaka in Japan",
+        "source": "https://en.wikipedia.org/wiki/Keisuke_Kurokawa"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Keisuke_Kurokawa",
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "matti-peltola",
+    "slug": "matti-peltola",
+    "name": "Matti Peltola",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "d-c-united",
+    "lastTeamId": "d-c-united",
+    "status": "Active",
+    "position": "Defender",
+    "number": "4",
+    "birthday": "2002-07-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Matti_Peltola",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 1 assist in 28 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+      },
+      {
+        "text": "Signed with D.C. United as a Young Designated Player in February 2024",
+        "source": "https://en.wikipedia.org/wiki/Matti_Peltola"
+      },
+      {
+        "text": "Won four straight Finnish league titles with HJK and has 27 caps for Finland",
+        "source": "https://en.wikipedia.org/wiki/Matti_Peltola"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matti_Peltola",
+      "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "gerardo-valenzuela",
+    "slug": "gerardo-valenzuela",
+    "name": "Gerardo Valenzuela",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "22",
+    "birthday": "2004-09-28",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Gerardo_Valenzuela",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 7 assists in 26 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "Signed a Homegrown contract with FC Cincinnati in May 2023 after joining its academy in 2020",
+        "source": "https://en.wikipedia.org/wiki/Gerardo_Valenzuela"
+      },
+      {
+        "text": "Scored his first first-team goal against his former academy club, Inter Miami, in a 6-1 win in 2024",
+        "source": "https://en.wikipedia.org/wiki/Gerardo_Valenzuela"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gerardo_Valenzuela",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "tom-barlow",
+    "slug": "tom-barlow",
+    "name": "Tom Barlow",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-cincinnati",
+    "lastTeamId": "fc-cincinnati",
+    "status": "Active",
+    "position": "Forward",
+    "number": "16",
+    "birthday": "1995-07-08",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Tom_Barlow_(American_soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 10 goals and 3 assists in 31 MLS games in 2026, many as a substitute",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+      },
+      {
+        "text": "Joined FC Cincinnati in 2026",
+        "source": "https://en.wikipedia.org/wiki/Tom_Barlow_(American_soccer)"
+      },
+      {
+        "text": "Scored on his MLS debut for the New York Red Bulls in 2019",
+        "source": "https://en.wikipedia.org/wiki/Tom_Barlow_(American_soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tom_Barlow_(American_soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "bernard-kamungo",
+    "slug": "bernard-kamungo",
+    "name": "Bernard Kamungo",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Forward",
+    "number": "77",
+    "birthday": "2002-01-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Bernard_Kamungo",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5 assists in 21 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Born in a refugee camp in Tanzania, he earned a contract after a $90 tryout with North Texas SC",
+        "source": "https://en.wikipedia.org/wiki/Bernard_Kamungo"
+      },
+      {
+        "text": "Made his senior debut for the United States in January 2024",
+        "source": "https://en.wikipedia.org/wiki/Bernard_Kamungo"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bernard_Kamungo",
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "nolan-norris",
+    "slug": "nolan-norris",
+    "name": "Nolan Norris",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "fc-dallas",
+    "lastTeamId": "fc-dallas",
+    "status": "Active",
+    "position": "Defender",
+    "number": "32",
+    "birthday": "2005-02-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Nolan_Norris",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 2 assists in 23 MLS games, 20 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+      },
+      {
+        "text": "Joined the FC Dallas academy at 12 and signed a Homegrown contract in November 2022",
+        "source": "https://en.wikipedia.org/wiki/Nolan_Norris"
+      },
+      {
+        "text": "Scored his first MLS goal in 2026 and has represented the U.S. at under-23 level",
+        "source": "https://en.wikipedia.org/wiki/Nolan_Norris"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nolan_Norris",
+      "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "lyle-foster",
+    "slug": "lyle-foster",
+    "name": "Lyle Foster",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2000-09-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Lyle_Foster",
+    "portrait": null,
+    "overview": "On loan to Houston Dynamo FC from Burnley.",
+    "highlights": [
+      {
+        "text": "Has 1 goal in 5 MLS games since joining Houston in September 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Joined Houston on loan from Premier League club Burnley in September 2026",
+        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-premier-league-forward-lyle-foster-on-loan"
+      },
+      {
+        "text": "South Africa international with 32 caps and 10 goals",
+        "source": "https://en.wikipedia.org/wiki/Lyle_Foster"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lyle_Foster",
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
+      "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-premier-league-forward-lyle-foster-on-loan"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "duncan-mcguire",
+    "slug": "duncan-mcguire",
+    "name": "Duncan McGuire",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "houston-dynamo-fc",
+    "lastTeamId": "houston-dynamo-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "23",
+    "birthday": "2001-02-05",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Duncan_McGuire_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal in 17 MLS games in 2026, as listed on ESPN's Houston squad page",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+      },
+      {
+        "text": "Traded from Orlando City to Houston in July 2026 for up to $2.4 million in allocation money",
+        "source": "https://en.wikipedia.org/wiki/Duncan_McGuire_(soccer)"
+      },
+      {
+        "text": "Won the 2022 Hermann Trophy after leading the nation with 23 goals at Creighton",
+        "source": "https://en.wikipedia.org/wiki/Duncan_McGuire_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duncan_McGuire_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "telasco-segovia",
+    "slug": "telasco-segovia",
+    "name": "Telasco Segovia",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "8",
+    "birthday": "2003-04-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Telasco_Segovia",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 9 assists in 27 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+      },
+      {
+        "text": "Joined Inter Miami from Casa Pia in January 2025 on a four-year deal",
+        "source": "https://en.wikipedia.org/wiki/Telasco_Segovia"
+      },
+      {
+        "text": "Venezuela international who scored against Brazil in 2026 World Cup qualifying",
+        "source": "https://en.wikipedia.org/wiki/Telasco_Segovia"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Telasco_Segovia",
+      "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "mateo-silvetti",
+    "slug": "mateo-silvetti",
+    "name": "Mateo Silvetti",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "inter-miami-cf",
+    "lastTeamId": "inter-miami-cf",
+    "status": "Active",
+    "position": "Forward",
+    "number": "24",
+    "birthday": "2006-01-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Mateo_Silvetti",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 4 assists in 14 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+      },
+      {
+        "text": "Started the MLS Cup 2025 final, which Inter Miami won against Vancouver",
+        "source": "https://en.wikipedia.org/wiki/Mateo_Silvetti"
+      },
+      {
+        "text": "Reached the 2025 FIFA U-20 World Cup final with Argentina",
+        "source": "https://en.wikipedia.org/wiki/Mateo_Silvetti"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mateo_Silvetti",
+      "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "marcus-caldeira",
+    "slug": "marcus-caldeira",
+    "name": "Marcus Caldeira",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "22",
+    "birthday": "2004-10-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Marcus_Caldeira",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 7 goals and 1 assist in 13 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Drafted 20th overall in the 2024 MLS SuperDraft and signed with Minnesota in January 2026",
+        "source": "https://en.wikipedia.org/wiki/Marcus_Caldeira"
+      },
+      {
+        "text": "Named Sun Belt Player of the Year in 2025 at West Virginia",
+        "source": "https://en.wikipedia.org/wiki/Marcus_Caldeira"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marcus_Caldeira",
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "tomas-chancalay",
+    "slug": "tomas-chancalay",
+    "name": "Tomás Chancalay",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "minnesota-united-fc",
+    "lastTeamId": "minnesota-united-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "8",
+    "birthday": "1999-01-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Chancalay",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4 goals and 3 assists in 31 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+      },
+      {
+        "text": "Joined Minnesota United from the New England Revolution in December 2025",
+        "source": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Chancalay"
+      },
+      {
+        "text": "Scored the first goal ever at Centreville Bank Stadium in 2025",
+        "source": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Chancalay"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tom%C3%A1s_Chancalay",
+      "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "harbor-miller",
+    "slug": "harbor-miller",
+    "name": "Harbor Miller",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Defender",
+    "number": "26",
+    "birthday": "2007-06-21",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Harbor_Miller",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 assists in 30 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+      },
+      {
+        "text": "LA Galaxy academy product on a Homegrown contract that began in 2025",
+        "source": "https://en.wikipedia.org/wiki/Harbor_Miller"
+      },
+      {
+        "text": "Scored his first Galaxy goal in a 3-0 win over Colorado in August 2025",
+        "source": "https://en.wikipedia.org/wiki/Harbor_Miller"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harbor_Miller",
+      "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "joao-klauss",
+    "slug": "joao-klauss",
+    "name": "João Klauss",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "la-galaxy",
+    "lastTeamId": "la-galaxy",
+    "status": "Active",
+    "position": "Forward",
+    "number": "99",
+    "birthday": "1997-03-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 9 goals in 15 MLS games for the Galaxy in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+      },
+      {
+        "text": "Joined the Galaxy from St. Louis City in a January 2026 trade worth $2.375 million",
+        "source": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss"
+      },
+      {
+        "text": "Scored the winner in St. Louis City's first-ever win and later its first hat trick",
+        "source": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jo%C3%A3o_Klauss",
+      "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jude-terry",
+    "slug": "jude-terry",
+    "name": "Jude Terry",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "22",
+    "birthday": "2008-10-08",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jude_Terry_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 1 assist in 12 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+      },
+      {
+        "text": "Joined the LAFC academy at 12 and was promoted to the first team in 2025",
+        "source": "https://en.wikipedia.org/wiki/Jude_Terry_(soccer)"
+      },
+      {
+        "text": "Called one of the finest talents in the U.S. pipeline by The Guardian",
+        "source": "https://en.wikipedia.org/wiki/Jude_Terry_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jude_Terry_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jacob-shaffelburg",
+    "slug": "jacob-shaffelburg",
+    "name": "Jacob Shaffelburg",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "lafc",
+    "lastTeamId": "lafc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "18",
+    "birthday": "1999-11-26",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jacob_Shaffelburg",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4 assists in 19 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+      },
+      {
+        "text": "Joined LAFC from Nashville SC in December 2025 for $1 million in allocation money",
+        "source": "https://en.wikipedia.org/wiki/Jacob_Shaffelburg"
+      },
+      {
+        "text": "Canada international with 39 caps who scored at the 2024 Copa América",
+        "source": "https://en.wikipedia.org/wiki/Jacob_Shaffelburg"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jacob_Shaffelburg",
+      "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "brooklyn-raines",
+    "slug": "brooklyn-raines",
+    "name": "Brooklyn Raines",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "21",
+    "birthday": "2005-03-11",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Brooklyn_Raines",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has made 28 MLS appearances, 27 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Acquired from Houston in December 2025 in a deal reported at $1.6 million",
+        "source": "https://en.wikipedia.org/wiki/Brooklyn_Raines"
+      },
+      {
+        "text": "Became the youngest player in Houston Dynamo history at 17",
+        "source": "https://en.wikipedia.org/wiki/Brooklyn_Raines"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brooklyn_Raines",
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "luca-langoni",
+    "slug": "luca-langoni",
+    "name": "Luca Langoni",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-england-revolution",
+    "lastTeamId": "new-england-revolution",
+    "status": "Active",
+    "position": "Forward",
+    "number": "41",
+    "birthday": "2002-02-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Luca_Langoni",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 6 assists in 22 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+      },
+      {
+        "text": "Joined New England from Boca Juniors in August 2024 for a club-record fee",
+        "source": "https://en.wikipedia.org/wiki/Luca_Langoni"
+      },
+      {
+        "text": "Scored and assisted on his Revolution debut, a first in club history",
+        "source": "https://en.wikipedia.org/wiki/Luca_Langoni"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luca_Langoni",
+      "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "luighi",
+    "slug": "luighi",
+    "name": "Luighi",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "20",
+    "birthday": "2006-04-30",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Luighi",
+    "portrait": null,
+    "overview": "On loan to New York City FC from Palmeiras.",
+    "highlights": [
+      {
+        "text": "Has 4 goals in 12 MLS games for NYCFC in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Joined New York City FC on loan from Brazilian club Palmeiras in 2026",
+        "source": "https://www.newyorkcityfc.com/news/new-york-city-fc-acquires-forward-luighi-hanri-sousa-santos-on-loan-from-se-palmeiras"
+      },
+      {
+        "text": "Came through the Palmeiras academy and played for Brazil at the 2023 FIFA U-17 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Luighi"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luighi",
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
+      "https://www.newyorkcityfc.com/news/new-york-city-fc-acquires-forward-luighi-hanri-sousa-santos-on-loan-from-se-palmeiras"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jonathan-shore",
+    "slug": "jonathan-shore",
+    "name": "Jonathan Shore",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-city-fc",
+    "lastTeamId": "new-york-city-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "32",
+    "birthday": "2007-04-13",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jonathan_Shore",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal in 21 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+      },
+      {
+        "text": "Signed a Homegrown contract with NYCFC at 15 after joining the academy at 10",
+        "source": "https://en.wikipedia.org/wiki/Jonathan_Shore"
+      },
+      {
+        "text": "Made his MLS debut against Inter Miami in February 2025",
+        "source": "https://en.wikipedia.org/wiki/Jonathan_Shore"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jonathan_Shore",
+      "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "adri-mehmeti",
+    "slug": "adri-mehmeti",
+    "name": "Adri Mehmeti",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "15",
+    "birthday": "2009-04-06",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Adri_Mehmeti",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 5 assists in 29 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "Called up to the U.S. national team by Mauricio Pochettino in 2026",
+        "source": "https://en.wikipedia.org/wiki/Adri_Mehmeti"
+      },
+      {
+        "text": "New York Red Bulls academy product who signed a first-team contract in December 2024",
+        "source": "https://en.wikipedia.org/wiki/Adri_Mehmeti"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adri_Mehmeti",
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ronald-donkor",
+    "slug": "ronald-donkor",
+    "name": "Ronald Donkor",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "new-york-red-bulls",
+    "lastTeamId": "new-york-red-bulls",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "48",
+    "birthday": "2004-11-20",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Ronald_Donkor",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 9 assists in 28 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+      },
+      {
+        "text": "Signed with the New York Red Bulls in May 2023 after starting out at the JMG Academy in Mali",
+        "source": "https://en.wikipedia.org/wiki/Ronald_Donkor"
+      },
+      {
+        "text": "Recorded three assists in a 5-3 win over New England in July 2025",
+        "source": "https://en.wikipedia.org/wiki/Ronald_Donkor"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ronald_Donkor",
+      "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "warren-madrigal",
+    "slug": "warren-madrigal",
+    "name": "Warren Madrigal",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "41",
+    "birthday": "2004-07-24",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Warren_Madrigal",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 6 goals and 3 assists in 18 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Joined Nashville SC from Costa Rican club Saprissa, announced in December 2025",
+        "source": "https://en.wikipedia.org/wiki/Warren_Madrigal"
+      },
+      {
+        "text": "Costa Rica international with 28 caps and 7 goals",
+        "source": "https://en.wikipedia.org/wiki/Warren_Madrigal"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Warren_Madrigal",
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "matthew-corcoran",
+    "slug": "matthew-corcoran",
+    "name": "Matthew Corcoran",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "nashville-sc",
+    "lastTeamId": "nashville-sc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "16",
+    "birthday": "2006-02-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Matthew_Corcoran",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 assists in 28 MLS games, 23 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+      },
+      {
+        "text": "Joined Nashville from Birmingham Legion in February 2025",
+        "source": "https://en.wikipedia.org/wiki/Matthew_Corcoran"
+      },
+      {
+        "text": "Made his senior debut for North Texas SC at 15 and has played for the U.S. under-20 team",
+        "source": "https://en.wikipedia.org/wiki/Matthew_Corcoran"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matthew_Corcoran",
+      "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "justin-ellis",
+    "slug": "justin-ellis",
+    "name": "Justin Ellis",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "22",
+    "birthday": "2007-05-14",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Justin_Ellis_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 11 assists in 22 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Signed a Homegrown contract with Orlando City in February 2026",
+        "source": "https://en.wikipedia.org/wiki/Justin_Ellis_(soccer)"
+      },
+      {
+        "text": "Named the 2024-25 U19 MLS NEXT Most Valuable Player after scoring 18 goals",
+        "source": "https://en.wikipedia.org/wiki/Justin_Ellis_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justin_Ellis_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "daryl-dike",
+    "slug": "daryl-dike",
+    "name": "Daryl Dike",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "orlando-city-sc",
+    "lastTeamId": "orlando-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "2000-06-03",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Daryl_Dike",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 2 assists in 12 MLS games since returning to Orlando in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+      },
+      {
+        "text": "Rejoined Orlando City in July 2026 after his West Bromwich Albion contract ended",
+        "source": "https://en.wikipedia.org/wiki/Daryl_Dike"
+      },
+      {
+        "text": "Won the 2021 Gold Cup with the United States and has 10 caps",
+        "source": "https://en.wikipedia.org/wiki/Daryl_Dike"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daryl_Dike",
+      "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "quinn-sullivan",
+    "slug": "quinn-sullivan",
+    "name": "Quinn Sullivan",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "33",
+    "birthday": "2004-03-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Quinn_Sullivan_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 6 assists in 16 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Philadelphia native who signed a Homegrown contract with the Union in 2020",
+        "source": "https://en.wikipedia.org/wiki/Quinn_Sullivan_(soccer)"
+      },
+      {
+        "text": "Has 3 caps for the United States and scored 10 goals for the U.S. under-20 team",
+        "source": "https://en.wikipedia.org/wiki/Quinn_Sullivan_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Quinn_Sullivan_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "frankie-westfield",
+    "slug": "frankie-westfield",
+    "name": "Frankie Westfield",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "philadelphia-union",
+    "lastTeamId": "philadelphia-union",
+    "status": "Active",
+    "position": "Defender",
+    "number": "39",
+    "birthday": "2005-12-09",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Frankie_Westfield",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 9 assists in 27 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+      },
+      {
+        "text": "Philadelphia native who signed a Homegrown contract with the Union in February 2025",
+        "source": "https://en.wikipedia.org/wiki/Frankie_Westfield"
+      },
+      {
+        "text": "Named to the U.S. squad for the 2025 FIFA U-20 World Cup",
+        "source": "https://en.wikipedia.org/wiki/Frankie_Westfield"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frankie_Westfield",
+      "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "antony",
+    "slug": "antony",
+    "name": "Antony",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2001-09-08",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Antony_(footballer,_born_2001)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 2 assists in 27 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Signed with the Portland Timbers in August 2023 from Portuguese club Arouca",
+        "source": "https://en.wikipedia.org/wiki/Antony_(footballer,_born_2001)"
+      },
+      {
+        "text": "Made his first-team debut for Brazilian giants Corinthians in 2021",
+        "source": "https://en.wikipedia.org/wiki/Antony_(footballer,_born_2001)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antony_(footballer,_born_2001)",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ariel-lassiter",
+    "slug": "ariel-lassiter",
+    "name": "Ariel Lassiter",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "portland-timbers",
+    "lastTeamId": "portland-timbers",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "1994-09-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Ariel_Lassiter",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 7 goals and 5 assists in 26 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+      },
+      {
+        "text": "Signed with the Portland Timbers as a free agent in December 2024",
+        "source": "https://en.wikipedia.org/wiki/Ariel_Lassiter"
+      },
+      {
+        "text": "Costa Rica international and son of former MLS forward Roy Lassiter",
+        "source": "https://en.wikipedia.org/wiki/Ariel_Lassiter"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ariel_Lassiter",
+      "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "aiden-hezarkhani",
+    "slug": "aiden-hezarkhani",
+    "name": "Aiden Hezarkhani",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Forward",
+    "number": "39",
+    "birthday": "2007-06-28",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Aiden_Hezarkhani",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 1 assist in 26 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Joined the Real Salt Lake academy in 2024 and signed an MLS contract in January 2025",
+        "source": "https://en.wikipedia.org/wiki/Aiden_Hezarkhani"
+      },
+      {
+        "text": "Scored his first RSL goal in a 2-1 home win over Seattle in February 2026",
+        "source": "https://en.wikipedia.org/wiki/Aiden_Hezarkhani"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aiden_Hezarkhani",
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "dominik-marczuk",
+    "slug": "dominik-marczuk",
+    "name": "Dominik Marczuk",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "real-salt-lake",
+    "lastTeamId": "real-salt-lake",
+    "status": "Active",
+    "position": "Forward",
+    "number": "11",
+    "birthday": "2003-11-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Dominik_Marczuk",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 2 goals and 1 assist in 18 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+      },
+      {
+        "text": "Joined RSL from Jagiellonia Białystok in August 2024 after winning the Polish title",
+        "source": "https://en.wikipedia.org/wiki/Dominik_Marczuk"
+      },
+      {
+        "text": "Named Ekstraklasa Young Player of the Season for 2023-24 and scored on his Poland debut",
+        "source": "https://en.wikipedia.org/wiki/Dominik_Marczuk"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dominik_Marczuk",
+      "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "david-vazquez",
+    "slug": "david-vazquez",
+    "name": "David Vazquez",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "19",
+    "birthday": "2006-02-22",
+    "birthdaySource": "https://en.wikipedia.org/wiki/David_Vazquez_(soccer,_born_2006)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 1 assist in 19 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "San Diego FC made his loan from Philadelphia permanent in December 2025",
+        "source": "https://en.wikipedia.org/wiki/David_Vazquez_(soccer,_born_2006)"
+      },
+      {
+        "text": "Tied for top scorer at the 2024 CONCACAF U-20 Championship with 3 goals",
+        "source": "https://en.wikipedia.org/wiki/David_Vazquez_(soccer,_born_2006)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Vazquez_(soccer,_born_2006)",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "manu-duah",
+    "slug": "manu-duah",
+    "name": "Manu Duah",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-diego-fc",
+    "lastTeamId": "san-diego-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "26",
+    "birthday": "2005-06-05",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Manu_Duah",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has started all 30 of his MLS appearances in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+      },
+      {
+        "text": "Taken first overall in the 2025 MLS SuperDraft as San Diego FC's first-ever draft pick",
+        "source": "https://en.wikipedia.org/wiki/Manu_Duah"
+      },
+      {
+        "text": "Scored San Diego's first goal in a 4-1 Champions Cup comeback win over Pumas in February 2026",
+        "source": "https://en.wikipedia.org/wiki/Manu_Duah"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manu_Duah",
+      "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "beau-leroux",
+    "slug": "beau-leroux",
+    "name": "Beau Leroux",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "34",
+    "birthday": "2003-08-31",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Beau_Leroux",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4 goals and 8 assists in 30 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "San Jose native drafted by the Earthquakes out of San Jose State in the 2024 SuperDraft",
+        "source": "https://en.wikipedia.org/wiki/Beau_Leroux"
+      },
+      {
+        "text": "Signed with the Earthquakes' first team in February 2025 and assisted on his debut",
+        "source": "https://en.wikipedia.org/wiki/Beau_Leroux"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Beau_Leroux",
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "daniel-munie",
+    "slug": "daniel-munie",
+    "name": "Daniel Munie",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "san-jose-earthquakes",
+    "lastTeamId": "san-jose-earthquakes",
+    "status": "Active",
+    "position": "Defender",
+    "number": "5",
+    "birthday": "2000-02-10",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Daniel_Munie",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5 goals and 2 assists in 28 MLS starts in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+      },
+      {
+        "text": "Drafted 10th overall by San Jose in the 2023 MLS SuperDraft",
+        "source": "https://en.wikipedia.org/wiki/Daniel_Munie"
+      },
+      {
+        "text": "Twice named Big Ten Defensive Player of the Year at Indiana",
+        "source": "https://en.wikipedia.org/wiki/Daniel_Munie"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daniel_Munie",
+      "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "snyder-brunell",
+    "slug": "snyder-brunell",
+    "name": "Snyder Brunell",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "37",
+    "birthday": "2007-03-27",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Snyder_Brunell",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 assist in 30 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Signed a Homegrown contract with the Sounders in July 2025 after joining the academy in 2021",
+        "source": "https://en.wikipedia.org/wiki/Snyder_Brunell"
+      },
+      {
+        "text": "Scored on his MLS debut in a 4-0 win over the LA Galaxy in August 2025",
+        "source": "https://en.wikipedia.org/wiki/Snyder_Brunell"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Snyder_Brunell",
+      "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "dejan-joveljic",
+    "slug": "dejan-joveljic",
+    "name": "Dejan Joveljić",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "seattle-sounders-fc",
+    "lastTeamId": "seattle-sounders-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "9",
+    "birthday": "1999-08-07",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Dejan_Jovelji%C4%87",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5 goals in 8 MLS starts for Seattle in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+      },
+      {
+        "text": "Joined Seattle from Sporting Kansas City in an August 2026 trade worth $6 million",
+        "source": "https://en.wikipedia.org/wiki/Dejan_Jovelji%C4%87"
+      },
+      {
+        "text": "Won MLS Cup 2024 with the LA Galaxy and has 11 caps for Serbia",
+        "source": "https://en.wikipedia.org/wiki/Dejan_Jovelji%C4%87"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dejan_Jovelji%C4%87",
+      "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "ian-james",
+    "slug": "ian-james",
+    "name": "Ian James",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "sporting-kansas-city",
+    "lastTeamId": "sporting-kansas-city",
+    "status": "Active",
+    "position": "Defender",
+    "number": "2",
+    "birthday": "2008-06-06",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Ian_James_(soccer)",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has made 16 MLS appearances, 10 of them starts, in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Signed a Homegrown contract with Sporting KC in December 2024 after joining the academy in 2021",
+        "source": "https://en.wikipedia.org/wiki/Ian_James_(soccer)"
+      },
+      {
+        "text": "Made his senior debut at 16 in the CONCACAF Champions Cup against Inter Miami",
+        "source": "https://en.wikipedia.org/wiki/Ian_James_(soccer)"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ian_James_(soccer)",
+      "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "taylor-calheira",
+    "slug": "taylor-calheira",
+    "name": "Taylor Calheira",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "sporting-kansas-city",
+    "lastTeamId": "sporting-kansas-city",
+    "status": "Active",
+    "position": "Forward",
+    "number": "19",
+    "birthday": "2002-04-26",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Taylor_Calheira",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 4 goals and 2 assists in 23 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+      },
+      {
+        "text": "Signed with Sporting Kansas City in February 2026",
+        "source": "https://en.wikipedia.org/wiki/Taylor_Calheira"
+      },
+      {
+        "text": "Scored 14 goals in 24 games for New York City FC II and was named to the 2024 MLS NEXT Pro Best XI",
+        "source": "https://en.wikipedia.org/wiki/Taylor_Calheira"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Taylor_Calheira",
+      "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jeong-sang-bin",
+    "slug": "jeong-sang-bin",
+    "name": "Jeong Sang-bin",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "77",
+    "birthday": "2002-04-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jeong_Sang-bin",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 3 assists in 22 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Joined St. Louis City from Minnesota United in a July 2025 trade worth up to $2 million",
+        "source": "https://en.wikipedia.org/wiki/Jeong_Sang-bin"
+      },
+      {
+        "text": "Scored on his South Korea debut in a 2021 World Cup qualifier",
+        "source": "https://en.wikipedia.org/wiki/Jeong_Sang-bin"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeong_Sang-bin",
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "damion-downs",
+    "slug": "damion-downs",
+    "name": "Damion Downs",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "st-louis-city-sc",
+    "lastTeamId": "st-louis-city-sc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "42",
+    "birthday": "2004-07-06",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Damion_Downs",
+    "portrait": null,
+    "overview": "On loan to St. Louis City SC from Southampton through the 2027 MLS season.",
+    "highlights": [
+      {
+        "text": "Has made 7 MLS appearances off the bench since joining St. Louis in September 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+      },
+      {
+        "text": "Joined St. Louis City on loan from Southampton in September 2026, through the end of the 2027 season",
+        "source": "https://en.wikipedia.org/wiki/Damion_Downs"
+      },
+      {
+        "text": "Scored the winning penalty in the 2025 Gold Cup quarterfinal shootout against Costa Rica for the U.S.",
+        "source": "https://en.wikipedia.org/wiki/Damion_Downs"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Damion_Downs",
+      "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "daniel-salloi",
+    "slug": "daniel-salloi",
+    "name": "Dániel Sallói",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "20",
+    "birthday": "1996-07-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/D%C3%A1niel_Sall%C3%B3i",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 9 goals and 7 assists in 31 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "Joined Toronto FC in a trade from Sporting Kansas City, signing a deal through 2027",
+        "source": "https://en.wikipedia.org/wiki/D%C3%A1niel_Sall%C3%B3i"
+      },
+      {
+        "text": "Scored 16 goals in 2021 and was a finalist for the MLS MVP award",
+        "source": "https://en.wikipedia.org/wiki/D%C3%A1niel_Sall%C3%B3i"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/D%C3%A1niel_Sall%C3%B3i",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "theo-corbeanu",
+    "slug": "theo-corbeanu",
+    "name": "Theo Corbeanu",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "toronto-fc",
+    "lastTeamId": "toronto-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "7",
+    "birthday": "2002-05-17",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Theo_Corbeanu",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 3 goals and 6 assists in 18 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+      },
+      {
+        "text": "Toronto FC academy product who played in the Premier League for Wolverhampton",
+        "source": "https://en.wikipedia.org/wiki/Theo_Corbeanu"
+      },
+      {
+        "text": "Named Canada Soccer Youth Player of the Year in 2021 and scored on his Canada debut",
+        "source": "https://en.wikipedia.org/wiki/Theo_Corbeanu"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Theo_Corbeanu",
+      "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "jeevan-badwal",
+    "slug": "jeevan-badwal",
+    "name": "Jeevan Badwal",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Midfielder",
+    "number": "59",
+    "birthday": "2006-03-11",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Jeevan_Badwal",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 1 goal and 2 assists in 24 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Whitecaps academy product from Surrey, B.C., who signed a Homegrown contract in September 2024",
+        "source": "https://en.wikipedia.org/wiki/Jeevan_Badwal"
+      },
+      {
+        "text": "Received his first senior Canada call-up in January 2026",
+        "source": "https://en.wikipedia.org/wiki/Jeevan_Badwal"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeevan_Badwal",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "bruno-caicedo",
+    "slug": "bruno-caicedo",
+    "name": "Bruno Caicedo",
+    "leagues": [
+      "mls"
+    ],
+    "teamId": "vancouver-whitecaps-fc",
+    "lastTeamId": "vancouver-whitecaps-fc",
+    "status": "Active",
+    "position": "Forward",
+    "number": "14",
+    "birthday": "2005-01-15",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Bruno_Caicedo",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Has 5 goals and 3 assists in 23 MLS games in 2026",
+        "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+      },
+      {
+        "text": "Joined the Vancouver Whitecaps in 2026 from Ecuador",
+        "source": "https://en.wikipedia.org/wiki/Bruno_Caicedo"
+      },
+      {
+        "text": "Received his first senior Ecuador call-up in May 2026, ahead of the World Cup",
+        "source": "https://en.wikipedia.org/wiki/Bruno_Caicedo"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bruno_Caicedo",
+      "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1"
+    ],
+    "lastVerified": "2026-10-29"
   }
 ]
