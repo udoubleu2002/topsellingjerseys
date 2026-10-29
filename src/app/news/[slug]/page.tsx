@@ -8,11 +8,13 @@ import { ShopButton } from "@/components/ShopButton";
 import { TrustNote } from "@/components/TrustNote";
 import { JsonLd } from "@/components/JsonLd";
 import { getAnyTeam, getLeague } from "@/lib/data";
-import { storyOffer } from "@/lib/affiliate";
+import { productOffer, storyOffer } from "@/lib/affiliate";
+import { ProductImage } from "@/components/ProductImage";
+import { PriceTag } from "@/components/PriceTag";
 import { abs, site } from "@/lib/config";
 import { fmtDate } from "@/lib/format";
 import { inline, isHeading, plain, wordCount } from "@/lib/articles";
-import { getStories, getStory, storyPath } from "@/lib/stories";
+import { getStories, getStory, storyJersey, storyPath } from "@/lib/stories";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -41,6 +43,18 @@ export default async function StoryPage({ params }: Props) {
   const league = getLeague(s.league)!;
   const team = s.teamId ? getAnyTeam(s.teamId) : undefined;
   const offer = storyOffer(s);
+  const jersey = storyJersey(s);
+  const jerseyOffer = jersey ? productOffer(jersey.product) : null;
+  // Shown in the sidebar on wide screens and under the headline on phones, where the sidebar falls below the story.
+  const jerseyCard = (placement: string, className: string) =>
+    jersey && jerseyOffer && (
+      <div className={className}>
+        <ProductImage player={jersey.player} product={jersey.product} priority />
+        <p className="story-jersey-title">{jersey.product.title}</p>
+        <PriceTag product={jersey.product} />
+        <ShopButton offer={jerseyOffer} ctx={{ league: league.id, playerId: jersey.player.id, placement, page }}>View this jersey at {jerseyOffer.merchantName}</ShopButton>
+      </div>
+    );
   const page = `story_${s.slug}`;
   const more = getStories(s.league).filter((x) => x.slug !== s.slug).slice(0, 4);
   const url = abs(storyPath(s));
@@ -55,7 +69,7 @@ export default async function StoryPage({ params }: Props) {
     datePublished: s.publishedDate,
     dateModified: s.lastVerified,
     inLanguage: "en-US",
-    image: abs("/opengraph-image/"),
+    image: jersey?.product.image ? [jersey.product.image.url, abs("/opengraph-image/")] : abs("/opengraph-image/"),
     author: { "@type": "Organization", name: s.author, url: abs("/") },
     publisher: { "@type": "Organization", name: site.name, url: abs("/") },
     keywords: [s.primaryKeyword, ...s.secondaryKeywords].join(", "),
@@ -78,6 +92,7 @@ export default async function StoryPage({ params }: Props) {
               <span>Published {fmtDate(s.publishedDate)}</span>
               {s.lastVerified !== s.publishedDate && <span>Updated {fmtDate(s.lastVerified)}</span>}
             </p>
+            {jerseyCard("story_jersey_top", "story-jersey story-jersey-top")}
           </header>
 
           <div className="article-cols">
@@ -87,9 +102,10 @@ export default async function StoryPage({ params }: Props) {
 
             <aside className="buybox article-shop" aria-labelledby="shop-h">
               <h2 id="shop-h">Shop {s.subject} jerseys</h2>
+              {jerseyCard("story_jersey", "story-jersey story-jersey-side")}
               {offer ? (
                 <>
-                  <ShopButton offer={offer} ctx={{ league: league.id, playerId: s.playerId ?? s.slug, placement: "story_shop", page }}>{s.shopLabel}</ShopButton>
+                  <ShopButton offer={offer} ctx={{ league: league.id, playerId: s.playerId ?? s.slug, placement: "story_shop", page }} variant={jersey ? "ghost" : "primary"}>{s.shopLabel}</ShopButton>
                   <TrustNote merchant={offer.merchantName} />
                   <p className="shop-note">Opens {offer.merchantName} search results for {s.subject} jerseys, with every style, size and price they carry.</p>
                 </>

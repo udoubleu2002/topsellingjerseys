@@ -23,6 +23,7 @@ They are also listed in the side rail (home and league pages), on the player pag
 - `author` is always "Top Selling Jerseys" (the build rejects anything else). Never put a person's name or "Claude" in the byline.
 - `title` 50 to 60 characters, `description` 140 to 160, `headline` (H1), `subheadline`, one `primaryKeyword` and two to four `secondaryKeywords`, `searchIntent`.
 - A player who already has a page (`data/players.json`): do not make "[player] jersey" the primary keyword. Use it as anchor text to `/players/<slug>/` instead, and set `playerId`.
+- Jersey photo: a story page shows the Lids jersey photo, price and link automatically when the subject's jersey is in `data/products.json` (refreshed every morning). Set `playerId` for a player story, or `teamId` for a team story (it shows the team's best-ranked player's jersey). A story whose `subject` is a player's exact name also matches. Nothing else is needed.
 - Never target "best-selling/top selling [league] jerseys" as a primary keyword; link to `/top-selling-<league>-jerseys/` with that anchor instead.
 - At least one internal link in the body (`[anchor](/path/)`) and one to three `related` links. Every link must be a real page; the build fails otherwise.
 - `shopQuery` is a Lids search such as "Jacob Misiorowski Brewers jersey" or "Golden State Valkyries jersey".
