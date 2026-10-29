@@ -56,7 +56,7 @@ export default async function StoryPage({ params }: Props) {
     dateModified: s.lastVerified,
     inLanguage: "en-US",
     image: abs("/opengraph-image/"),
-    author: { "@type": "Organization", name: site.name, url: abs("/") },
+    author: { "@type": "Organization", name: s.author, url: abs("/") },
     publisher: { "@type": "Organization", name: site.name, url: abs("/") },
     keywords: [s.primaryKeyword, ...s.secondaryKeywords].join(", "),
     wordCount: wordCount(s),
@@ -73,7 +73,8 @@ export default async function StoryPage({ params }: Props) {
             <h1>{s.headline}</h1>
             <p className="lede story-sub">{s.subheadline}</p>
             <p className="p-meta">
-              {team && <span><strong>{team.name}</strong></span>}
+              <span>By <strong>{s.author}</strong></span>
+              {team && <span>{team.name}</span>}
               <span>Published {fmtDate(s.publishedDate)}</span>
               {s.lastVerified !== s.publishedDate && <span>Updated {fmtDate(s.lastVerified)}</span>}
             </p>

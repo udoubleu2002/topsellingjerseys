@@ -22,6 +22,8 @@ export const StorySchema = z.object({
   headline: z.string().min(20).max(90),
   title: z.string().min(20).max(70),
   subheadline: z.string().min(20).max(200),
+  /** Byline shown on the page and in NewsArticle data. Every story runs under the site name. */
+  author: z.literal("Top Selling Jerseys"),
   description: z.string().min(100).max(170),
   primaryKeyword: z.string(),
   secondaryKeywords: z.array(z.string()).min(2).max(4),
