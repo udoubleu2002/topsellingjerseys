@@ -7,10 +7,11 @@ export const metadata: Metadata = pageMeta({ title: "Privacy Policy", descriptio
 
 export default function Privacy() {
   return (
-    <InfoPage title="Privacy Policy" path="/privacy/" lede="Last updated October 22, 2026.">
+    <InfoPage title="Privacy Policy" path="/privacy/" lede="Last updated October 29, 2026.">
       <p className="notice">Template text. Have it reviewed by a lawyer before launch and update it to match the analytics and affiliate services you actually enable.</p>
       <h2>What we collect</h2>
-      <p>With your consent, we record anonymous usage events such as page views, which rankings are viewed and which shopping links are clicked. We never ask for payment details.</p>
+      <p>With your consent, our analytics services record usage events such as which rankings are viewed and which shopping links are clicked. We never ask for payment details.</p>
+      <p>Without cookies, we also count page views: the page, the site you came from, any campaign tags in the link, your rough location (country, state and city, worked out from your connection) and your type of device. Your IP address is used only to tell visitors apart within a single day and is not stored.</p>
       <p>Separately, when you click a shopping link we count the click (which link, where it was on the page, which page and when) so we know which links are useful. This count is kept without anything that identifies you; your IP address is used only briefly to stop abuse and is not stored with it.</p>
       <h2>Forms you send us</h2>
       <p>When you share a jersey story, suggest a fix or send a message, we receive what you typed, any photo you attach, and the page you sent it from. Your email address is used only to reply and is never shown. A story or photo appears on the site only if you tick the box allowing it. When you share your My Jerseys list, we record the list, its share link, your first name if you entered one, and how you shared it, so we can see which lists people share.</p>
