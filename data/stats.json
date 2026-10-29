@@ -42218,5 +42218,3005 @@
     "throughDate": "2026-10-22",
     "updatedAt": "2026-10-27",
     "isDemo": false
+  },
+  {
+    "playerId": "colt-emerson",
+    "league": "mlb",
+    "teamId": "seattle-mariners",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "69"
+      },
+      {
+        "label": "AVG",
+        "value": ".190"
+      },
+      {
+        "label": "HR",
+        "value": "8"
+      },
+      {
+        "label": "RBI",
+        "value": "23"
+      },
+      {
+        "label": "R",
+        "value": "24"
+      },
+      {
+        "label": "H",
+        "value": "42"
+      },
+      {
+        "label": "SB",
+        "value": "3"
+      },
+      {
+        "label": "OBP",
+        "value": ".246"
+      },
+      {
+        "label": "SLG",
+        "value": ".335"
+      },
+      {
+        "label": "OPS",
+        "value": ".581"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/SEA/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cole-young",
+    "league": "mlb",
+    "teamId": "seattle-mariners",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "160"
+      },
+      {
+        "label": "AVG",
+        "value": ".246"
+      },
+      {
+        "label": "HR",
+        "value": "17"
+      },
+      {
+        "label": "RBI",
+        "value": "66"
+      },
+      {
+        "label": "R",
+        "value": "76"
+      },
+      {
+        "label": "H",
+        "value": "142"
+      },
+      {
+        "label": "SB",
+        "value": "4"
+      },
+      {
+        "label": "OBP",
+        "value": ".312"
+      },
+      {
+        "label": "SLG",
+        "value": ".381"
+      },
+      {
+        "label": "OPS",
+        "value": ".694"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/SEA/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "roman-anthony",
+    "league": "mlb",
+    "teamId": "boston-red-sox",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "55"
+      },
+      {
+        "label": "AVG",
+        "value": ".245"
+      },
+      {
+        "label": "HR",
+        "value": "5"
+      },
+      {
+        "label": "RBI",
+        "value": "15"
+      },
+      {
+        "label": "R",
+        "value": "24"
+      },
+      {
+        "label": "H",
+        "value": "52"
+      },
+      {
+        "label": "SB",
+        "value": "2"
+      },
+      {
+        "label": "OBP",
+        "value": ".339"
+      },
+      {
+        "label": "SLG",
+        "value": ".396"
+      },
+      {
+        "label": "OPS",
+        "value": ".735"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/BOS/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "payton-tolle",
+    "league": "mlb",
+    "teamId": "boston-red-sox",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "26"
+      },
+      {
+        "label": "W-L",
+        "value": "9-6"
+      },
+      {
+        "label": "ERA",
+        "value": "3.03"
+      },
+      {
+        "label": "IP",
+        "value": "148.2"
+      },
+      {
+        "label": "SO",
+        "value": "171"
+      },
+      {
+        "label": "BB",
+        "value": "40"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.096"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/BOS/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "alejandro-kirk",
+    "league": "mlb",
+    "teamId": "toronto-blue-jays",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "79"
+      },
+      {
+        "label": "AVG",
+        "value": ".278"
+      },
+      {
+        "label": "HR",
+        "value": "10"
+      },
+      {
+        "label": "RBI",
+        "value": "43"
+      },
+      {
+        "label": "R",
+        "value": "26"
+      },
+      {
+        "label": "H",
+        "value": "77"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".351"
+      },
+      {
+        "label": "SLG",
+        "value": ".415"
+      },
+      {
+        "label": "OPS",
+        "value": ".767"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/TOR/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "louis-varland",
+    "league": "mlb",
+    "teamId": "toronto-blue-jays",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "71"
+      },
+      {
+        "label": "SV",
+        "value": "35"
+      },
+      {
+        "label": "ERA",
+        "value": "1.27"
+      },
+      {
+        "label": "IP",
+        "value": "78.0"
+      },
+      {
+        "label": "SO",
+        "value": "97"
+      },
+      {
+        "label": "BB",
+        "value": "23"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.000"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/TOR/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "colton-cowser",
+    "league": "mlb",
+    "teamId": "baltimore-orioles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "142"
+      },
+      {
+        "label": "AVG",
+        "value": ".226"
+      },
+      {
+        "label": "HR",
+        "value": "13"
+      },
+      {
+        "label": "RBI",
+        "value": "40"
+      },
+      {
+        "label": "R",
+        "value": "41"
+      },
+      {
+        "label": "H",
+        "value": "77"
+      },
+      {
+        "label": "SB",
+        "value": "10"
+      },
+      {
+        "label": "OBP",
+        "value": ".317"
+      },
+      {
+        "label": "SLG",
+        "value": ".370"
+      },
+      {
+        "label": "OPS",
+        "value": ".687"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/BAL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "dylan-beavers",
+    "league": "mlb",
+    "teamId": "baltimore-orioles",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "104"
+      },
+      {
+        "label": "AVG",
+        "value": ".228"
+      },
+      {
+        "label": "HR",
+        "value": "9"
+      },
+      {
+        "label": "RBI",
+        "value": "44"
+      },
+      {
+        "label": "R",
+        "value": "41"
+      },
+      {
+        "label": "H",
+        "value": "74"
+      },
+      {
+        "label": "SB",
+        "value": "5"
+      },
+      {
+        "label": "OBP",
+        "value": ".307"
+      },
+      {
+        "label": "SLG",
+        "value": ".373"
+      },
+      {
+        "label": "OPS",
+        "value": ".680"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/BAL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "max-clark",
+    "league": "mlb",
+    "teamId": "detroit-tigers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "51"
+      },
+      {
+        "label": "AVG",
+        "value": ".272"
+      },
+      {
+        "label": "HR",
+        "value": "3"
+      },
+      {
+        "label": "RBI",
+        "value": "23"
+      },
+      {
+        "label": "R",
+        "value": "27"
+      },
+      {
+        "label": "H",
+        "value": "49"
+      },
+      {
+        "label": "SB",
+        "value": "5"
+      },
+      {
+        "label": "OBP",
+        "value": ".350"
+      },
+      {
+        "label": "SLG",
+        "value": ".417"
+      },
+      {
+        "label": "OPS",
+        "value": ".766"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/DET/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jackson-jobe",
+    "league": "mlb",
+    "teamId": "detroit-tigers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "9"
+      },
+      {
+        "label": "W-L",
+        "value": "3-3"
+      },
+      {
+        "label": "ERA",
+        "value": "3.91"
+      },
+      {
+        "label": "IP",
+        "value": "46.0"
+      },
+      {
+        "label": "SO",
+        "value": "51"
+      },
+      {
+        "label": "BB",
+        "value": "16"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.174"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/DET/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "maikel-garcia",
+    "league": "mlb",
+    "teamId": "kansas-city-royals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "82"
+      },
+      {
+        "label": "AVG",
+        "value": ".268"
+      },
+      {
+        "label": "HR",
+        "value": "3"
+      },
+      {
+        "label": "RBI",
+        "value": "38"
+      },
+      {
+        "label": "R",
+        "value": "40"
+      },
+      {
+        "label": "H",
+        "value": "83"
+      },
+      {
+        "label": "SB",
+        "value": "5"
+      },
+      {
+        "label": "OBP",
+        "value": ".334"
+      },
+      {
+        "label": "SLG",
+        "value": ".381"
+      },
+      {
+        "label": "OPS",
+        "value": ".715"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/KCR/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "michael-wacha",
+    "league": "mlb",
+    "teamId": "kansas-city-royals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "32"
+      },
+      {
+        "label": "W-L",
+        "value": "9-10"
+      },
+      {
+        "label": "ERA",
+        "value": "3.32"
+      },
+      {
+        "label": "IP",
+        "value": "200.2"
+      },
+      {
+        "label": "SO",
+        "value": "158"
+      },
+      {
+        "label": "BB",
+        "value": "54"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.106"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/KCR/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "walker-jenkins",
+    "league": "mlb",
+    "teamId": "minnesota-twins",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "26"
+      },
+      {
+        "label": "AVG",
+        "value": ".226"
+      },
+      {
+        "label": "HR",
+        "value": "4"
+      },
+      {
+        "label": "RBI",
+        "value": "10"
+      },
+      {
+        "label": "R",
+        "value": "14"
+      },
+      {
+        "label": "H",
+        "value": "19"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".293"
+      },
+      {
+        "label": "SLG",
+        "value": ".393"
+      },
+      {
+        "label": "OPS",
+        "value": ".686"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/MIN/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "taj-bradley",
+    "league": "mlb",
+    "teamId": "minnesota-twins",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "31"
+      },
+      {
+        "label": "W-L",
+        "value": "12-6"
+      },
+      {
+        "label": "ERA",
+        "value": "3.73"
+      },
+      {
+        "label": "IP",
+        "value": "178.1"
+      },
+      {
+        "label": "SO",
+        "value": "205"
+      },
+      {
+        "label": "BB",
+        "value": "76"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.222"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/MIN/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "spencer-jones",
+    "league": "mlb",
+    "teamId": "new-york-yankees",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "86"
+      },
+      {
+        "label": "AVG",
+        "value": ".245"
+      },
+      {
+        "label": "HR",
+        "value": "11"
+      },
+      {
+        "label": "RBI",
+        "value": "40"
+      },
+      {
+        "label": "R",
+        "value": "36"
+      },
+      {
+        "label": "H",
+        "value": "64"
+      },
+      {
+        "label": "SB",
+        "value": "10"
+      },
+      {
+        "label": "OBP",
+        "value": ".313"
+      },
+      {
+        "label": "SLG",
+        "value": ".429"
+      },
+      {
+        "label": "OPS",
+        "value": ".742"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/NYY/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "george-lombard-jr",
+    "league": "mlb",
+    "teamId": "new-york-yankees",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "42"
+      },
+      {
+        "label": "AVG",
+        "value": ".237"
+      },
+      {
+        "label": "HR",
+        "value": "7"
+      },
+      {
+        "label": "RBI",
+        "value": "22"
+      },
+      {
+        "label": "R",
+        "value": "23"
+      },
+      {
+        "label": "H",
+        "value": "36"
+      },
+      {
+        "label": "SB",
+        "value": "2"
+      },
+      {
+        "label": "OBP",
+        "value": ".285"
+      },
+      {
+        "label": "SLG",
+        "value": ".414"
+      },
+      {
+        "label": "OPS",
+        "value": ".699"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/NYY/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "victor-mesa-jr",
+    "league": "mlb",
+    "teamId": "tampa-bay-rays",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "79"
+      },
+      {
+        "label": "AVG",
+        "value": ".260"
+      },
+      {
+        "label": "HR",
+        "value": "14"
+      },
+      {
+        "label": "RBI",
+        "value": "34"
+      },
+      {
+        "label": "R",
+        "value": "37"
+      },
+      {
+        "label": "H",
+        "value": "61"
+      },
+      {
+        "label": "SB",
+        "value": "9"
+      },
+      {
+        "label": "OBP",
+        "value": ".327"
+      },
+      {
+        "label": "SLG",
+        "value": ".498"
+      },
+      {
+        "label": "OPS",
+        "value": ".825"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/TBR/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jonathan-aranda",
+    "league": "mlb",
+    "teamId": "tampa-bay-rays",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "155"
+      },
+      {
+        "label": "AVG",
+        "value": ".274"
+      },
+      {
+        "label": "HR",
+        "value": "22"
+      },
+      {
+        "label": "RBI",
+        "value": "92"
+      },
+      {
+        "label": "R",
+        "value": "73"
+      },
+      {
+        "label": "H",
+        "value": "159"
+      },
+      {
+        "label": "SB",
+        "value": "0"
+      },
+      {
+        "label": "OBP",
+        "value": ".358"
+      },
+      {
+        "label": "SLG",
+        "value": ".434"
+      },
+      {
+        "label": "OPS",
+        "value": ".792"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/TBR/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "parker-messick",
+    "league": "mlb",
+    "teamId": "cleveland-guardians",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "32"
+      },
+      {
+        "label": "W-L",
+        "value": "12-9"
+      },
+      {
+        "label": "ERA",
+        "value": "2.56"
+      },
+      {
+        "label": "IP",
+        "value": "186.1"
+      },
+      {
+        "label": "SO",
+        "value": "193"
+      },
+      {
+        "label": "BB",
+        "value": "49"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.063"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CLE/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cade-smith",
+    "league": "mlb",
+    "teamId": "cleveland-guardians",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "69"
+      },
+      {
+        "label": "SV",
+        "value": "41"
+      },
+      {
+        "label": "ERA",
+        "value": "1.95"
+      },
+      {
+        "label": "IP",
+        "value": "74.0"
+      },
+      {
+        "label": "SO",
+        "value": "107"
+      },
+      {
+        "label": "BB",
+        "value": "23"
+      },
+      {
+        "label": "WHIP",
+        "value": "0.959"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CLE/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "sam-antonacci",
+    "league": "mlb",
+    "teamId": "chicago-white-sox",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "140"
+      },
+      {
+        "label": "AVG",
+        "value": ".277"
+      },
+      {
+        "label": "HR",
+        "value": "8"
+      },
+      {
+        "label": "RBI",
+        "value": "48"
+      },
+      {
+        "label": "R",
+        "value": "81"
+      },
+      {
+        "label": "H",
+        "value": "133"
+      },
+      {
+        "label": "SB",
+        "value": "20"
+      },
+      {
+        "label": "OBP",
+        "value": ".370"
+      },
+      {
+        "label": "SLG",
+        "value": ".396"
+      },
+      {
+        "label": "OPS",
+        "value": ".766"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CHW/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kyle-teel",
+    "league": "mlb",
+    "teamId": "chicago-white-sox",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "39"
+      },
+      {
+        "label": "AVG",
+        "value": ".210"
+      },
+      {
+        "label": "HR",
+        "value": "5"
+      },
+      {
+        "label": "RBI",
+        "value": "26"
+      },
+      {
+        "label": "R",
+        "value": "21"
+      },
+      {
+        "label": "H",
+        "value": "25"
+      },
+      {
+        "label": "SB",
+        "value": "0"
+      },
+      {
+        "label": "OBP",
+        "value": ".336"
+      },
+      {
+        "label": "SLG",
+        "value": ".361"
+      },
+      {
+        "label": "OPS",
+        "value": ".697"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CHW/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cam-smith",
+    "league": "mlb",
+    "teamId": "houston-astros",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "157"
+      },
+      {
+        "label": "AVG",
+        "value": ".210"
+      },
+      {
+        "label": "HR",
+        "value": "21"
+      },
+      {
+        "label": "RBI",
+        "value": "56"
+      },
+      {
+        "label": "R",
+        "value": "67"
+      },
+      {
+        "label": "H",
+        "value": "107"
+      },
+      {
+        "label": "SB",
+        "value": "12"
+      },
+      {
+        "label": "OBP",
+        "value": ".279"
+      },
+      {
+        "label": "SLG",
+        "value": ".390"
+      },
+      {
+        "label": "OPS",
+        "value": ".669"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/HOU/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "carlos-correa",
+    "league": "mlb",
+    "teamId": "houston-astros",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "32"
+      },
+      {
+        "label": "AVG",
+        "value": ".279"
+      },
+      {
+        "label": "HR",
+        "value": "3"
+      },
+      {
+        "label": "RBI",
+        "value": "16"
+      },
+      {
+        "label": "R",
+        "value": "22"
+      },
+      {
+        "label": "H",
+        "value": "34"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".369"
+      },
+      {
+        "label": "SLG",
+        "value": ".418"
+      },
+      {
+        "label": "OPS",
+        "value": ".787"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/HOU/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "evan-carter",
+    "league": "mlb",
+    "teamId": "texas-rangers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "141"
+      },
+      {
+        "label": "AVG",
+        "value": ".194"
+      },
+      {
+        "label": "HR",
+        "value": "9"
+      },
+      {
+        "label": "RBI",
+        "value": "40"
+      },
+      {
+        "label": "R",
+        "value": "52"
+      },
+      {
+        "label": "H",
+        "value": "76"
+      },
+      {
+        "label": "SB",
+        "value": "17"
+      },
+      {
+        "label": "OBP",
+        "value": ".288"
+      },
+      {
+        "label": "SLG",
+        "value": ".315"
+      },
+      {
+        "label": "OPS",
+        "value": ".602"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/TEX/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jake-burger",
+    "league": "mlb",
+    "teamId": "texas-rangers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "155"
+      },
+      {
+        "label": "AVG",
+        "value": ".228"
+      },
+      {
+        "label": "HR",
+        "value": "28"
+      },
+      {
+        "label": "RBI",
+        "value": "90"
+      },
+      {
+        "label": "R",
+        "value": "71"
+      },
+      {
+        "label": "H",
+        "value": "127"
+      },
+      {
+        "label": "SB",
+        "value": "4"
+      },
+      {
+        "label": "OBP",
+        "value": ".302"
+      },
+      {
+        "label": "SLG",
+        "value": ".421"
+      },
+      {
+        "label": "OPS",
+        "value": ".722"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/TEX/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "walbert-urena",
+    "league": "mlb",
+    "teamId": "los-angeles-angels",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "27"
+      },
+      {
+        "label": "W-L",
+        "value": "9-11"
+      },
+      {
+        "label": "ERA",
+        "value": "2.97"
+      },
+      {
+        "label": "IP",
+        "value": "148.1"
+      },
+      {
+        "label": "SO",
+        "value": "142"
+      },
+      {
+        "label": "BB",
+        "value": "68"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.227"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/LAA/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "christian-moore",
+    "league": "mlb",
+    "teamId": "los-angeles-angels",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "38"
+      },
+      {
+        "label": "AVG",
+        "value": ".187"
+      },
+      {
+        "label": "HR",
+        "value": "2"
+      },
+      {
+        "label": "RBI",
+        "value": "18"
+      },
+      {
+        "label": "R",
+        "value": "5"
+      },
+      {
+        "label": "H",
+        "value": "25"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".252"
+      },
+      {
+        "label": "SLG",
+        "value": ".276"
+      },
+      {
+        "label": "OPS",
+        "value": ".528"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/LAA/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "henry-bolte",
+    "league": "mlb",
+    "teamId": "athletics",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "119"
+      },
+      {
+        "label": "AVG",
+        "value": ".277"
+      },
+      {
+        "label": "HR",
+        "value": "11"
+      },
+      {
+        "label": "RBI",
+        "value": "38"
+      },
+      {
+        "label": "R",
+        "value": "57"
+      },
+      {
+        "label": "H",
+        "value": "115"
+      },
+      {
+        "label": "SB",
+        "value": "21"
+      },
+      {
+        "label": "OBP",
+        "value": ".359"
+      },
+      {
+        "label": "SLG",
+        "value": ".405"
+      },
+      {
+        "label": "OPS",
+        "value": ".764"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/ATH/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "lawrence-butler",
+    "league": "mlb",
+    "teamId": "athletics",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "154"
+      },
+      {
+        "label": "AVG",
+        "value": ".237"
+      },
+      {
+        "label": "HR",
+        "value": "17"
+      },
+      {
+        "label": "RBI",
+        "value": "62"
+      },
+      {
+        "label": "R",
+        "value": "64"
+      },
+      {
+        "label": "H",
+        "value": "112"
+      },
+      {
+        "label": "SB",
+        "value": "10"
+      },
+      {
+        "label": "OBP",
+        "value": ".326"
+      },
+      {
+        "label": "SLG",
+        "value": ".394"
+      },
+      {
+        "label": "OPS",
+        "value": ".720"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/ATH/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "didier-fuentes",
+    "league": "mlb",
+    "teamId": "atlanta-braves",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "58"
+      },
+      {
+        "label": "SV",
+        "value": "3"
+      },
+      {
+        "label": "ERA",
+        "value": "2.45"
+      },
+      {
+        "label": "IP",
+        "value": "73.1"
+      },
+      {
+        "label": "SO",
+        "value": "92"
+      },
+      {
+        "label": "BB",
+        "value": "21"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.105"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/ATL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ozzie-albies",
+    "league": "mlb",
+    "teamId": "atlanta-braves",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "162"
+      },
+      {
+        "label": "AVG",
+        "value": ".237"
+      },
+      {
+        "label": "HR",
+        "value": "22"
+      },
+      {
+        "label": "RBI",
+        "value": "73"
+      },
+      {
+        "label": "R",
+        "value": "85"
+      },
+      {
+        "label": "H",
+        "value": "146"
+      },
+      {
+        "label": "SB",
+        "value": "4"
+      },
+      {
+        "label": "OBP",
+        "value": ".293"
+      },
+      {
+        "label": "SLG",
+        "value": ".392"
+      },
+      {
+        "label": "OPS",
+        "value": ".685"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/ATL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "justin-crawford",
+    "league": "mlb",
+    "teamId": "philadelphia-phillies",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "149"
+      },
+      {
+        "label": "AVG",
+        "value": ".264"
+      },
+      {
+        "label": "HR",
+        "value": "3"
+      },
+      {
+        "label": "RBI",
+        "value": "41"
+      },
+      {
+        "label": "R",
+        "value": "48"
+      },
+      {
+        "label": "H",
+        "value": "112"
+      },
+      {
+        "label": "SB",
+        "value": "17"
+      },
+      {
+        "label": "OBP",
+        "value": ".309"
+      },
+      {
+        "label": "SLG",
+        "value": ".353"
+      },
+      {
+        "label": "OPS",
+        "value": ".662"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/PHI/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jesus-luzardo",
+    "league": "mlb",
+    "teamId": "philadelphia-phillies",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "29"
+      },
+      {
+        "label": "W-L",
+        "value": "14-5"
+      },
+      {
+        "label": "ERA",
+        "value": "2.86"
+      },
+      {
+        "label": "IP",
+        "value": "179.2"
+      },
+      {
+        "label": "SO",
+        "value": "221"
+      },
+      {
+        "label": "BB",
+        "value": "52"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.074"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/PHI/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "aj-ewing",
+    "league": "mlb",
+    "teamId": "new-york-mets",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "120"
+      },
+      {
+        "label": "AVG",
+        "value": ".252"
+      },
+      {
+        "label": "HR",
+        "value": "11"
+      },
+      {
+        "label": "RBI",
+        "value": "43"
+      },
+      {
+        "label": "R",
+        "value": "55"
+      },
+      {
+        "label": "H",
+        "value": "110"
+      },
+      {
+        "label": "SB",
+        "value": "25"
+      },
+      {
+        "label": "OBP",
+        "value": ".324"
+      },
+      {
+        "label": "SLG",
+        "value": ".376"
+      },
+      {
+        "label": "OPS",
+        "value": ".700"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/NYM/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "francisco-alvarez",
+    "league": "mlb",
+    "teamId": "new-york-mets",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "113"
+      },
+      {
+        "label": "AVG",
+        "value": ".233"
+      },
+      {
+        "label": "HR",
+        "value": "16"
+      },
+      {
+        "label": "RBI",
+        "value": "43"
+      },
+      {
+        "label": "R",
+        "value": "38"
+      },
+      {
+        "label": "H",
+        "value": "87"
+      },
+      {
+        "label": "SB",
+        "value": "0"
+      },
+      {
+        "label": "OBP",
+        "value": ".311"
+      },
+      {
+        "label": "SLG",
+        "value": ".399"
+      },
+      {
+        "label": "OPS",
+        "value": ".710"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/NYM/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "javier-sanoja",
+    "league": "mlb",
+    "teamId": "miami-marlins",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "144"
+      },
+      {
+        "label": "AVG",
+        "value": ".295"
+      },
+      {
+        "label": "HR",
+        "value": "11"
+      },
+      {
+        "label": "RBI",
+        "value": "69"
+      },
+      {
+        "label": "R",
+        "value": "50"
+      },
+      {
+        "label": "H",
+        "value": "136"
+      },
+      {
+        "label": "SB",
+        "value": "11"
+      },
+      {
+        "label": "OBP",
+        "value": ".333"
+      },
+      {
+        "label": "SLG",
+        "value": ".458"
+      },
+      {
+        "label": "OPS",
+        "value": ".791"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/MIA/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "max-meyer",
+    "league": "mlb",
+    "teamId": "miami-marlins",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "20"
+      },
+      {
+        "label": "W-L",
+        "value": "9-1"
+      },
+      {
+        "label": "ERA",
+        "value": "2.68"
+      },
+      {
+        "label": "IP",
+        "value": "111.0"
+      },
+      {
+        "label": "SO",
+        "value": "121"
+      },
+      {
+        "label": "BB",
+        "value": "41"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.135"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/MIA/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "daylen-lile",
+    "league": "mlb",
+    "teamId": "washington-nationals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "160"
+      },
+      {
+        "label": "AVG",
+        "value": ".246"
+      },
+      {
+        "label": "HR",
+        "value": "22"
+      },
+      {
+        "label": "RBI",
+        "value": "89"
+      },
+      {
+        "label": "R",
+        "value": "81"
+      },
+      {
+        "label": "H",
+        "value": "148"
+      },
+      {
+        "label": "SB",
+        "value": "15"
+      },
+      {
+        "label": "OBP",
+        "value": ".296"
+      },
+      {
+        "label": "SLG",
+        "value": ".429"
+      },
+      {
+        "label": "OPS",
+        "value": ".725"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/WSN/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "harry-ford",
+    "league": "mlb",
+    "teamId": "washington-nationals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "38"
+      },
+      {
+        "label": "AVG",
+        "value": ".190"
+      },
+      {
+        "label": "HR",
+        "value": "3"
+      },
+      {
+        "label": "RBI",
+        "value": "10"
+      },
+      {
+        "label": "R",
+        "value": "17"
+      },
+      {
+        "label": "H",
+        "value": "19"
+      },
+      {
+        "label": "SB",
+        "value": "3"
+      },
+      {
+        "label": "OBP",
+        "value": ".314"
+      },
+      {
+        "label": "SLG",
+        "value": ".350"
+      },
+      {
+        "label": "OPS",
+        "value": ".664"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/WSN/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "matt-shaw",
+    "league": "mlb",
+    "teamId": "chicago-cubs",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "77"
+      },
+      {
+        "label": "AVG",
+        "value": ".237"
+      },
+      {
+        "label": "HR",
+        "value": "5"
+      },
+      {
+        "label": "RBI",
+        "value": "24"
+      },
+      {
+        "label": "R",
+        "value": "25"
+      },
+      {
+        "label": "H",
+        "value": "41"
+      },
+      {
+        "label": "SB",
+        "value": "4"
+      },
+      {
+        "label": "OBP",
+        "value": ".327"
+      },
+      {
+        "label": "SLG",
+        "value": ".410"
+      },
+      {
+        "label": "OPS",
+        "value": ".737"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CHC/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "michael-busch",
+    "league": "mlb",
+    "teamId": "chicago-cubs",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "160"
+      },
+      {
+        "label": "AVG",
+        "value": ".242"
+      },
+      {
+        "label": "HR",
+        "value": "20"
+      },
+      {
+        "label": "RBI",
+        "value": "77"
+      },
+      {
+        "label": "R",
+        "value": "78"
+      },
+      {
+        "label": "H",
+        "value": "145"
+      },
+      {
+        "label": "SB",
+        "value": "3"
+      },
+      {
+        "label": "OBP",
+        "value": ".352"
+      },
+      {
+        "label": "SLG",
+        "value": ".393"
+      },
+      {
+        "label": "OPS",
+        "value": ".745"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CHC/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "logan-henderson",
+    "league": "mlb",
+    "teamId": "milwaukee-brewers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "18"
+      },
+      {
+        "label": "W-L",
+        "value": "11-3"
+      },
+      {
+        "label": "ERA",
+        "value": "2.47"
+      },
+      {
+        "label": "IP",
+        "value": "98.1"
+      },
+      {
+        "label": "SO",
+        "value": "110"
+      },
+      {
+        "label": "BB",
+        "value": "19"
+      },
+      {
+        "label": "WHIP",
+        "value": "0.844"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/MIL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "cooper-pratt",
+    "league": "mlb",
+    "teamId": "milwaukee-brewers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "74"
+      },
+      {
+        "label": "AVG",
+        "value": ".281"
+      },
+      {
+        "label": "HR",
+        "value": "3"
+      },
+      {
+        "label": "RBI",
+        "value": "34"
+      },
+      {
+        "label": "R",
+        "value": "33"
+      },
+      {
+        "label": "H",
+        "value": "64"
+      },
+      {
+        "label": "SB",
+        "value": "19"
+      },
+      {
+        "label": "OBP",
+        "value": ".350"
+      },
+      {
+        "label": "SLG",
+        "value": ".368"
+      },
+      {
+        "label": "OPS",
+        "value": ".718"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/MIL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "michael-mcgreevy",
+    "league": "mlb",
+    "teamId": "st-louis-cardinals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "31"
+      },
+      {
+        "label": "W-L",
+        "value": "7-9"
+      },
+      {
+        "label": "ERA",
+        "value": "3.95"
+      },
+      {
+        "label": "IP",
+        "value": "168.2"
+      },
+      {
+        "label": "SO",
+        "value": "115"
+      },
+      {
+        "label": "BB",
+        "value": "48"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.281"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/STL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "riley-obrien",
+    "league": "mlb",
+    "teamId": "st-louis-cardinals",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "66"
+      },
+      {
+        "label": "SV",
+        "value": "38"
+      },
+      {
+        "label": "ERA",
+        "value": "4.08"
+      },
+      {
+        "label": "IP",
+        "value": "64.0"
+      },
+      {
+        "label": "SO",
+        "value": "64"
+      },
+      {
+        "label": "BB",
+        "value": "29"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.281"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/STL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "andrew-abbott",
+    "league": "mlb",
+    "teamId": "cincinnati-reds",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "32"
+      },
+      {
+        "label": "W-L",
+        "value": "6-11"
+      },
+      {
+        "label": "ERA",
+        "value": "4.61"
+      },
+      {
+        "label": "IP",
+        "value": "166.0"
+      },
+      {
+        "label": "SO",
+        "value": "131"
+      },
+      {
+        "label": "BB",
+        "value": "76"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.452"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CIN/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "matt-mclain",
+    "league": "mlb",
+    "teamId": "cincinnati-reds",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "134"
+      },
+      {
+        "label": "AVG",
+        "value": ".185"
+      },
+      {
+        "label": "HR",
+        "value": "15"
+      },
+      {
+        "label": "RBI",
+        "value": "40"
+      },
+      {
+        "label": "R",
+        "value": "59"
+      },
+      {
+        "label": "H",
+        "value": "81"
+      },
+      {
+        "label": "SB",
+        "value": "20"
+      },
+      {
+        "label": "OBP",
+        "value": ".274"
+      },
+      {
+        "label": "SLG",
+        "value": ".334"
+      },
+      {
+        "label": "OPS",
+        "value": ".608"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/CIN/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "bubba-chandler",
+    "league": "mlb",
+    "teamId": "pittsburgh-pirates",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "30"
+      },
+      {
+        "label": "W-L",
+        "value": "8-10"
+      },
+      {
+        "label": "ERA",
+        "value": "4.62"
+      },
+      {
+        "label": "IP",
+        "value": "154.0"
+      },
+      {
+        "label": "SO",
+        "value": "140"
+      },
+      {
+        "label": "BB",
+        "value": "80"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.403"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/PIT/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jared-jones",
+    "league": "mlb",
+    "teamId": "pittsburgh-pirates",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "21"
+      },
+      {
+        "label": "W-L",
+        "value": "5-6"
+      },
+      {
+        "label": "ERA",
+        "value": "3.72"
+      },
+      {
+        "label": "IP",
+        "value": "101.2"
+      },
+      {
+        "label": "SO",
+        "value": "123"
+      },
+      {
+        "label": "BB",
+        "value": "31"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.082"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/PIT/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "andy-pages",
+    "league": "mlb",
+    "teamId": "los-angeles-dodgers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "134"
+      },
+      {
+        "label": "AVG",
+        "value": ".274"
+      },
+      {
+        "label": "HR",
+        "value": "23"
+      },
+      {
+        "label": "RBI",
+        "value": "85"
+      },
+      {
+        "label": "R",
+        "value": "75"
+      },
+      {
+        "label": "H",
+        "value": "140"
+      },
+      {
+        "label": "SB",
+        "value": "13"
+      },
+      {
+        "label": "OBP",
+        "value": ".343"
+      },
+      {
+        "label": "SLG",
+        "value": ".468"
+      },
+      {
+        "label": "OPS",
+        "value": ".811"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/LAD/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "roki-sasaki",
+    "league": "mlb",
+    "teamId": "los-angeles-dodgers",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "23"
+      },
+      {
+        "label": "W-L",
+        "value": "5-5"
+      },
+      {
+        "label": "ERA",
+        "value": "4.49"
+      },
+      {
+        "label": "IP",
+        "value": "122.1"
+      },
+      {
+        "label": "SO",
+        "value": "123"
+      },
+      {
+        "label": "BB",
+        "value": "48"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.316"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/LAD/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ethan-salas",
+    "league": "mlb",
+    "teamId": "san-diego-padres",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "16"
+      },
+      {
+        "label": "AVG",
+        "value": ".256"
+      },
+      {
+        "label": "HR",
+        "value": "2"
+      },
+      {
+        "label": "RBI",
+        "value": "5"
+      },
+      {
+        "label": "R",
+        "value": "6"
+      },
+      {
+        "label": "H",
+        "value": "10"
+      },
+      {
+        "label": "SB",
+        "value": "0"
+      },
+      {
+        "label": "OBP",
+        "value": ".275"
+      },
+      {
+        "label": "SLG",
+        "value": ".462"
+      },
+      {
+        "label": "OPS",
+        "value": ".737"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/SDP/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "ty-france",
+    "league": "mlb",
+    "teamId": "san-diego-padres",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "133"
+      },
+      {
+        "label": "AVG",
+        "value": ".295"
+      },
+      {
+        "label": "HR",
+        "value": "21"
+      },
+      {
+        "label": "RBI",
+        "value": "72"
+      },
+      {
+        "label": "R",
+        "value": "59"
+      },
+      {
+        "label": "H",
+        "value": "130"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".363"
+      },
+      {
+        "label": "SLG",
+        "value": ".502"
+      },
+      {
+        "label": "OPS",
+        "value": ".865"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/SDP/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "bryce-eldridge",
+    "league": "mlb",
+    "teamId": "san-francisco-giants",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "107"
+      },
+      {
+        "label": "AVG",
+        "value": ".269"
+      },
+      {
+        "label": "HR",
+        "value": "17"
+      },
+      {
+        "label": "RBI",
+        "value": "57"
+      },
+      {
+        "label": "R",
+        "value": "50"
+      },
+      {
+        "label": "H",
+        "value": "104"
+      },
+      {
+        "label": "SB",
+        "value": "1"
+      },
+      {
+        "label": "OBP",
+        "value": ".364"
+      },
+      {
+        "label": "SLG",
+        "value": ".461"
+      },
+      {
+        "label": "OPS",
+        "value": ".825"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/SFG/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "casey-schmitt",
+    "league": "mlb",
+    "teamId": "san-francisco-giants",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "98"
+      },
+      {
+        "label": "AVG",
+        "value": ".271"
+      },
+      {
+        "label": "HR",
+        "value": "21"
+      },
+      {
+        "label": "RBI",
+        "value": "55"
+      },
+      {
+        "label": "R",
+        "value": "47"
+      },
+      {
+        "label": "H",
+        "value": "105"
+      },
+      {
+        "label": "SB",
+        "value": "9"
+      },
+      {
+        "label": "OBP",
+        "value": ".301"
+      },
+      {
+        "label": "SLG",
+        "value": ".483"
+      },
+      {
+        "label": "OPS",
+        "value": ".784"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/SFG/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "eduardo-rodriguez",
+    "league": "mlb",
+    "teamId": "arizona-diamondbacks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "32"
+      },
+      {
+        "label": "W-L",
+        "value": "16-7"
+      },
+      {
+        "label": "ERA",
+        "value": "2.89"
+      },
+      {
+        "label": "IP",
+        "value": "189.2"
+      },
+      {
+        "label": "SO",
+        "value": "143"
+      },
+      {
+        "label": "BB",
+        "value": "62"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.239"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/ARI/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "jordan-lawlar",
+    "league": "mlb",
+    "teamId": "arizona-diamondbacks",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "44"
+      },
+      {
+        "label": "AVG",
+        "value": ".258"
+      },
+      {
+        "label": "HR",
+        "value": "6"
+      },
+      {
+        "label": "RBI",
+        "value": "16"
+      },
+      {
+        "label": "R",
+        "value": "18"
+      },
+      {
+        "label": "H",
+        "value": "32"
+      },
+      {
+        "label": "SB",
+        "value": "6"
+      },
+      {
+        "label": "OBP",
+        "value": ".319"
+      },
+      {
+        "label": "SLG",
+        "value": ".460"
+      },
+      {
+        "label": "OPS",
+        "value": ".778"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/ARI/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "kyle-karros",
+    "league": "mlb",
+    "teamId": "colorado-rockies",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "G",
+        "value": "131"
+      },
+      {
+        "label": "AVG",
+        "value": ".253"
+      },
+      {
+        "label": "HR",
+        "value": "13"
+      },
+      {
+        "label": "RBI",
+        "value": "49"
+      },
+      {
+        "label": "R",
+        "value": "63"
+      },
+      {
+        "label": "H",
+        "value": "104"
+      },
+      {
+        "label": "SB",
+        "value": "5"
+      },
+      {
+        "label": "OBP",
+        "value": ".347"
+      },
+      {
+        "label": "SLG",
+        "value": ".414"
+      },
+      {
+        "label": "OPS",
+        "value": ".761"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/COL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
+  },
+  {
+    "playerId": "chase-dollander",
+    "league": "mlb",
+    "teamId": "colorado-rockies",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GS",
+        "value": "3"
+      },
+      {
+        "label": "W-L",
+        "value": "3-3"
+      },
+      {
+        "label": "ERA",
+        "value": "3.89"
+      },
+      {
+        "label": "IP",
+        "value": "44.0"
+      },
+      {
+        "label": "SO",
+        "value": "47"
+      },
+      {
+        "label": "BB",
+        "value": "18"
+      },
+      {
+        "label": "WHIP",
+        "value": "1.295"
+      }
+    ],
+    "note": null,
+    "source": "https://www.baseball-reference.com/teams/COL/2026.shtml",
+    "throughDate": "2026-09-27",
+    "updatedAt": "2026-10-29",
+    "isDemo": false
   }
 ]
