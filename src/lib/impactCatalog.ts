@@ -37,7 +37,7 @@ const https = (u: string | null | undefined) => { try { const x = new URL(u ?? "
 export function isJersey(name: string): boolean {
   const n = norm(name);
   if (!n.includes(" jersey ")) return false;
-  return !/ (t shirt|tee|shirt|hoodie|pullover|sweatshirt|tank|shorts|ornament|frame|framed|card|pin|keychain|magnet|blanket|pillow|mug|figure|plush|dog|pet|onesie|bodysuit|creeper|costume|mini|replica helmet) /.test(n);
+  return !/ (t shirt|tee|shirt|hoodie|pullover|sweatshirt|tank|shorts|ornament|frame|framed|card|pin|keychain|magnet|blanket|pillow|mug|figure|plush|dog|pet|onesie|bodysuit|creeper|costume|mini|replica helmet|autographed|signed) /.test(n);
 }
 
 export function availability(s: string | null | undefined): Product["availability"] {
@@ -82,6 +82,8 @@ function score(item: ImpactItem, team: Team | undefined): number {
   if (/ (youth|kids|toddler|infant|preschool|newborn|baby) /.test(n) || /kid|youth|infant|toddler/i.test(item.AgeGroup ?? "")) s -= 30;
   else if (/ women s | womens /.test(n) || /female/i.test(item.Gender ?? "")) s -= 10;
   if (/ men s | mens /.test(n)) s += 10;
+  // "Custom" listings are build-your-own name and number jerseys, often pictured blank; use them only as a last resort.
+  if (n.includes(" custom ")) s -= 60;
   return s + priceFit(num(item.CurrentPrice));
 }
 
@@ -91,7 +93,8 @@ function score(item: ImpactItem, team: Team | undefined): number {
  * player's full name and the word jersey, has an https image and a tracking link, and (when catalogId/campaignId are
  * given) comes from the Lids program: a field Impact leaves out is not held against the item, but one that names
  * another catalog or campaign, or a tracking link for another campaign, is. Size and color variants (same group) and repeated photos collapse to one listing.
- * When any item names the player's team, items naming other teams are dropped, so a traded player shows the current kit.
+ * A current player gets only jerseys naming their current team, so a traded player never shows the old kit; for a retired
+ * player, items naming their last team win when there are any.
  */
 export function pickJerseys(
   items: ImpactItem[],
@@ -105,7 +108,8 @@ export function pickJerseys(
     (!opts.catalogId || i.CatalogId == null || String(i.CatalogId) === String(opts.catalogId)) &&
     (!opts.campaignId || !i.Url || !/\/c\/\d+\/\d+\/\d+/.test(i.Url) || new RegExp(`/c/\\d+/\\d+/${opts.campaignId}(\\?|$)`).test(i.Url)) &&
     i.Name && has(i.Name, player.name) && isJersey(i.Name) && https(i.ImageUrl) && https(i.Url));
-  if (team && ok.some((i) => has(i.Name!, team.name))) ok = ok.filter((i) => has(i.Name!, team.name));
+  // A current player shows only their current team's jersey; a retired player's last team is preferred when listed.
+  if (team && (player.teamId || ok.some((i) => has(i.Name!, team.name)))) ok = ok.filter((i) => has(i.Name!, team.name));
   ok.sort((a, b) => score(b, team) - score(a, team));
   const groups = new Set<string>();
   const images = new Set<string>();

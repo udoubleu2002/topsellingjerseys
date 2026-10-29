@@ -23,6 +23,7 @@ describe("Impact Lids catalog", () => {
     expect(isJersey("Men's Nike Aaron Judge Navy New York Yankees Name & Number T-Shirt")).toBe(false);
     expect(isJersey("Aaron Judge New York Yankees Framed Autographed Jersey")).toBe(false);
     expect(isJersey("Aaron Judge New York Yankees Dog Jersey")).toBe(false);
+    expect(isJersey("Aaron Judge New York Yankees Autographed Nike Limited Jersey")).toBe(false);
   });
 
   it("keeps the player's current-team Lids jerseys, best first, one per variant group", () => {
@@ -55,6 +56,19 @@ describe("Impact Lids catalog", () => {
     expect(picks.map((i) => i.CurrentPrice)).toEqual(["174.99", "59.99", "449.99"]);
     expect(priceFit(150)).toBe(0);
     expect(priceFit(60)).toBeLessThan(priceFit(240));
+  });
+
+  it("skips other teams for a current player and puts custom listings last", () => {
+    const picks = pickJerseys([
+      item({ Name: "Men's Nike Aaron Judge Fresno State Jersey" }),
+      item({ Name: "Aaron Judge Men's Nike New York Yankees Home Limited Custom Jersey" }),
+      item({ Name: "Men's Nike Aaron Judge New York Yankees Road Limited Jersey", CurrentPrice: "174.99" }),
+    ], judge, yankees);
+    expect(picks.map((i) => i.Name)).toEqual([
+      "Men's Nike Aaron Judge New York Yankees Road Limited Jersey",
+      "Aaron Judge Men's Nike New York Yankees Home Limited Custom Jersey",
+    ]);
+    expect(pickJerseys([item({ Name: "Men's Nike Aaron Judge Fresno State Jersey" })], judge, yankees)).toEqual([]);
   });
 
   it("does not drop items when Impact leaves out the catalog or campaign fields", () => {
