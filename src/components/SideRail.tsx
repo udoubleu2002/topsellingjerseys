@@ -6,8 +6,9 @@ import { getLatestNews } from "@/lib/news";
 import { getStories, storyPath } from "@/lib/stories";
 import { HouseAd } from "./HouseAd";
 import { LidsAd } from "./LidsAd";
-import { rectFor, lidsBanner, ROTATION_BANNER_ID, ROTATION_SHARE } from "@/lib/lidsAds";
+import { rectFor, lidsBanner, pinnedRailBanner, ROTATION_BANNER_ID, ROTATION_SHARE } from "@/lib/lidsAds";
 import { AdRotation } from "./AdRotation";
+import { ShowUntil } from "./ShowUntil";
 import { SportJersey } from "./SportJersey";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
@@ -27,16 +28,19 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
 }
 
 /**
- * Sidebar, alternating content and ads: the top 5 of every league first (the most colorful box and a second way into the lists),
- * then jersey sales news, our own stories in the middle, and the report dates last.
+ * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
+ * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
 export function SideRail({ active }: { active?: string }) {
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
+  const pinned = pinnedRailBanner();
   return (
     <aside className="rail" aria-label="Browse the lists">
+      {pinned && <ShowUntil until={pinned.until}><LidsAd banner={pinned.banner} at="rail_pinned" /></ShowUntil>}
+
       <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
         <div className="rail-lists">
