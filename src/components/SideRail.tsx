@@ -26,7 +26,10 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
   return <AdRotation share={ROTATION_SHARE} alt={<LidsAd banner={lidsBanner(ROTATION_BANNER_ID)!} at={`${at}_rot`} className={className} />}>{children}</AdRotation>;
 }
 
-/** Sidebar: jersey sales news first, then a second way into the lists (top 5 of every league at a glance), plus ad space. */
+/**
+ * Sidebar, alternating content and ads: the top 5 of every league first (the most colorful box and a second way into the lists),
+ * then jersey sales news, our own stories in the middle, and the report dates last.
+ */
 export function SideRail({ active }: { active?: string }) {
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
@@ -34,62 +37,6 @@ export function SideRail({ active }: { active?: string }) {
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   return (
     <aside className="rail" aria-label="Browse the lists">
-      {stories.length > 0 && (
-        <section className="rail-box">
-          <h2 className="rail-h">Latest stories</h2>
-          <ul className="rail-stories">
-            {stories.map((s) => (
-              <li key={s.slug}>
-                <Link href={storyPath(s)}>{s.headline}</Link>
-                <span className="rail-news-meta">{s.league.toUpperCase()} · {fmtShortDate(s.publishedDate)}</span>
-              </li>
-            ))}
-          </ul>
-          <Link className="rail-more" href="/news/">All jersey news →</Link>
-        </section>
-      )}
-
-      {news.length > 0 && (
-        <section className="rail-box">
-          <h2 className="rail-h">Jersey sales news</h2>
-          <ul className="rail-news">
-            {news.map((n) => {
-              const player = n.playerId ? getPlayer(n.playerId) : undefined;
-              return (
-                <li key={n.id}>
-                  <SportJersey sport={n.sport} />
-                  <span className="rail-news-who">
-                    {player ? <Link href={`/players/${player.slug}/`}>{n.players.join(", ")}</Link> : n.players.join(", ")}
-                  </span>
-                  <a className="rail-news-hl" href={n.url} target="_blank" rel="noopener nofollow">{n.headline}</a>
-                  <span className="rail-news-meta">{n.outlet} · {fmtShortDate(n.date)}</span>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      )}
-
-      <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>
-
-      <section className="rail-box">
-        <h2 className="rail-h">Latest reports</h2>
-        <ul className="rail-updates">
-          {leagues
-            .slice()
-            .sort((a, b) => b.ranking!.publishedDate.localeCompare(a.ranking!.publishedDate))
-            .map(({ league, ranking }) => (
-              <li key={league.id} style={{ "--lg": league.accent } as React.CSSProperties}>
-                <Link href={`/${league.slug}/`}>{league.name}</Link>
-                <span>{ranking!.publisher} · {fmtShortDate(ranking!.publishedDate)}</span>
-              </li>
-            ))}
-        </ul>
-        <Link className="rail-more" href="/rankings/">Report archive →</Link>
-      </section>
-
-      <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>
-
       <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
         <div className="rail-lists">
@@ -115,6 +62,62 @@ export function SideRail({ active }: { active?: string }) {
             </details>
           ))}
         </div>
+      </section>
+
+      <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>
+
+      {news.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">Jersey sales news</h2>
+          <ul className="rail-news">
+            {news.map((n) => {
+              const player = n.playerId ? getPlayer(n.playerId) : undefined;
+              return (
+                <li key={n.id}>
+                  <SportJersey sport={n.sport} />
+                  <span className="rail-news-who">
+                    {player ? <Link href={`/players/${player.slug}/`}>{n.players.join(", ")}</Link> : n.players.join(", ")}
+                  </span>
+                  <a className="rail-news-hl" href={n.url} target="_blank" rel="noopener nofollow">{n.headline}</a>
+                  <span className="rail-news-meta">{n.outlet} · {fmtShortDate(n.date)}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {stories.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">Latest stories</h2>
+          <ul className="rail-stories">
+            {stories.map((s) => (
+              <li key={s.slug}>
+                <Link href={storyPath(s)}>{s.headline}</Link>
+                <span className="rail-news-meta">{s.league.toUpperCase()} · {fmtShortDate(s.publishedDate)}</span>
+              </li>
+            ))}
+          </ul>
+          <Link className="rail-more" href="/news/">All jersey news →</Link>
+        </section>
+      )}
+
+      <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>
+
+      <section className="rail-box">
+        <h2 className="rail-h">Latest reports</h2>
+        <ul className="rail-updates">
+          {leagues
+            .slice()
+            .sort((a, b) => b.ranking!.publishedDate.localeCompare(a.ranking!.publishedDate))
+            .map(({ league, ranking }) => (
+              <li key={league.id} style={{ "--lg": league.accent } as React.CSSProperties}>
+                <Link href={`/${league.slug}/`}>{league.name}</Link>
+                <span>{ranking!.publisher} · {fmtShortDate(ranking!.publishedDate)}</span>
+              </li>
+            ))}
+        </ul>
+        <Link className="rail-more" href="/rankings/">Report archive →</Link>
       </section>
 
       <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>
