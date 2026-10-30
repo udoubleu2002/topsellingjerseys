@@ -17,8 +17,8 @@ const PRELOAD_FONTS = [
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `${site.name}: NFL, NBA, WNBA, MLB, NHL and MLS Rankings`, template: `${site.name}: %s` },
-  description: "The latest published top-selling jersey rankings for the NFL, NBA, WNBA, MLB, NHL and MLS, with player stats, sources and links to shop.",
+  title: { default: `Top Selling Sports Jerseys: NFL, NBA, MLB, NHL, WNBA & MLS`, template: `%s | ${site.name}` },
+  description: "The top selling sports jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, from each league's latest published sales list, with sources, dates and stats.",
   openGraph: { siteName: site.name, type: "website", locale: "en_US" },
   twitter: { card: "summary_large_image" },
   icons: { icon: "/icon.svg", apple: "/apple-icon/" },
