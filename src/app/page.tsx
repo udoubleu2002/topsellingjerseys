@@ -11,7 +11,7 @@ import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
 import { site, abs } from "@/lib/config";
 
-export const metadata: Metadata = pageMeta({ title: "Top Selling Sports Jerseys: NFL, NBA, MLB, NHL, WNBA & MLS", description: "The top selling sports jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS: the best sellers on each league's latest published sales list, with sources and dates.", path: "/", shareTitle: "Top Selling Jerseys: Updated lists for NFL, NBA, WNBA, MLB, NHL and MLS", shareText: "See the best-selling jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, ranked from the published sales lists, with stats and links to shop." });
+export const metadata: Metadata = pageMeta({ title: "Top Selling Sports Jerseys: NFL, NBA, MLB, NHL, WNBA & MLS", description: "The top selling sports jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS: the best sellers on each league's latest published sales list, with sources and dates.", path: "/", shareTitle: "Best-Selling Jerseys Across Six Leagues", shareText: "See the best-selling jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, ranked from the published sales lists, with stats and links to shop." });
 
 export default function Home() {
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
