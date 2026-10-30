@@ -11,7 +11,7 @@ import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
 import { site, abs } from "@/lib/config";
 
-export const metadata: Metadata = pageMeta({ title: "Top Selling Jerseys: NFL, NBA, WNBA, MLB, NHL & MLS Rankings", description: "The latest published top-selling jersey lists for the NFL, NBA, WNBA, MLB, NHL and MLS, in published order, with player stats, sources and links to shop each jersey.", path: "/", shareTitle: "Top Selling Jerseys: Updated lists for NFL, NBA, WNBA, MLB, NHL and MLS", shareText: "See the best-selling jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, ranked from the published sales lists, with stats and links to shop." });
+export const metadata: Metadata = pageMeta({ title: "Top Selling Sports Jerseys: NFL, NBA, MLB, NHL, WNBA & MLS", description: "The top selling sports jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS: the best sellers on each league's latest published sales list, with sources and dates.", path: "/", shareTitle: "Top Selling Jerseys: Updated lists for NFL, NBA, WNBA, MLB, NHL and MLS", shareText: "See the best-selling jerseys in the NFL, NBA, WNBA, MLB, NHL and MLS, ranked from the published sales lists, with stats and links to shop." });
 
 export default function Home() {
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
@@ -30,7 +30,7 @@ export default function Home() {
         <section className="hero hero-top">
           <div className="wrap hero-in">
             <div className="hero-head">
-              <h1>Top selling jerseys in every league</h1>
+              <h1>Top selling sports jerseys in every league</h1>
               <p>The No. 1 seller on each league&apos;s latest published list. Tap a league to see its full ranking.</p>
             </div>
             <nav className="top1" aria-label="No. 1 jersey in each league">

@@ -11,8 +11,15 @@ export function statSummary(line: StatLine | undefined, n = 4): string {
 }
 
 /** Search title: puts the jersey number in when it still fits on one search-result line. */
-export function playerTitle({ player, league, latest }: Ctx): string {
-  if (!latest) return `${player.name} Jersey`;
+export function playerTitle({ player, league, team, latest }: Ctx): string {
+  if (!latest) {
+    // Not on a sales list: target the player's team jersey search, e.g. "Leo Carlsson #91 Anaheim Ducks Jersey".
+    // Only a current team is used; a retired player's last team is often not the jersey fans look for.
+    if (!team || !player.teamId) return `${player.name} Jersey`;
+    const withNum = player.number ? `${player.name} #${player.number} ${team.name} Jersey` : "";
+    const withTeam = `${player.name} ${team.name} Jersey`;
+    return withNum && withNum.length <= 60 ? withNum : withTeam.length <= 60 ? withTeam : `${player.name} Jersey`;
+  }
   const base = `${player.name} Jersey: No. ${latest.rank} Top Selling ${league.name} Jersey`;
   const withNum = player.number ? `${player.name} #${player.number} Jersey: No. ${latest.rank} Top Selling ${league.name} Jersey` : base;
   return withNum.length <= 65 ? withNum : base;
@@ -20,7 +27,10 @@ export function playerTitle({ player, league, latest }: Ctx): string {
 
 export function playerDescription({ player, league, team, latest, line }: Ctx): string {
   const who = [player.number && `No. ${player.number}`, team && player.teamId ? team.name : null, player.position].filter(Boolean).join(" ");
-  const rank = latest ? ` Ranked No. ${latest.rank} on the ${latest.ranking.publisher.replace(/ \(.*\)$/, "")} ${league.name} sales list.` : "";
+  // "NHL (Shop.NHL.com / Fanatics), as reported by HockeyFeed" -> "NHL"; the league name is added only when missing.
+  const pub = latest?.ranking.publisher.split(/ \(|, /)[0] ?? "";
+  const list = pub.includes(league.name) ? pub : `${pub} ${league.name}`;
+  const rank = latest ? ` Ranked No. ${latest.rank} on the ${list} sales list.` : "";
   const stats = line?.statistics.length ? ` ${line.season}: ${statSummary(line, 3)}.` : "";
   return `Shop ${player.name} jerseys${who ? ` (${who})` : ""}.${rank}${stats} Where to buy, sizes and styles.`;
 }

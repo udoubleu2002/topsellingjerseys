@@ -87,6 +87,8 @@ Events: `page_view` (path, page type), `impression` (player cards: league, playe
 ## SEO
 
 - One H1 per page; league H1s are exactly "Top Selling {League} Jerseys". Unique titles and descriptions (checked by `test:e2e`).
+- Titles lead with the page's keyword; " | Top Selling Jerseys" is added at the end only when the title stays within 60 characters (`pageTitle` in `src/lib/seo.ts`).
+- Each league page has one primary keyword (`keyword` in `src/lib/content.ts`, e.g. "best selling NFL jerseys", "most popular MLB jerseys"); its title takes the year from the report, so an older list is never labeled with the current year.
 - Canonical URLs, Open Graph tags, `sitemap.xml`, `robots.txt`, breadcrumbs with BreadcrumbList data, ItemList data on league pages, Person data on player pages, FAQPage data on league FAQs. No Product, Offer or Review markup is emitted unless a verified product exists, and no prices or ratings are invented.
 - Player pages are indexed only when the player has three highlights and a ranking appearance.
 - Old v1 URLs (`/nfl`, `/nfl/<player>`) redirect permanently.
