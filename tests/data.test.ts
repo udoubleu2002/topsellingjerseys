@@ -52,7 +52,7 @@ describe("validation catches bad rankings", () => {
 
 describe("rank movement", () => {
   it("is null when no earlier report exists in the same series", () => {
-    const r = getCurrentRanking("nfl")!;
+    const r = getCurrentRanking("nba")!;
     expect(rankMovement(r, r.entries[0].playerId)).toBeNull();
   });
 });

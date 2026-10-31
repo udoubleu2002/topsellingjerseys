@@ -5,6 +5,7 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Freshness } from "@/components/RankingHeader";
+import { Movement } from "@/components/Movement";
 import { getRankings, getRanking, getLeague, getPlayer, getTeam, getCurrentRanking, rankMovement, getPreviousInSeries, reportStatus, entryTeams } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 
@@ -91,6 +92,17 @@ export default async function ReportPage({ params }: Props) {
             )}
           </aside>
         </div>
+        <Movement ranking={r} leagueName={league.name} />
+        <section className="wrap section" aria-labelledby="related-reports-h">
+          <div className="section-head"><h2 id="related-reports-h">Related reports</h2></div>
+          <nav className="related" aria-labelledby="related-reports-h">
+            {getRankings(lid).filter((x) => x.id !== r.id).map((x) => (
+              <Link key={x.id} href={getCurrentRanking(lid)?.id === x.id ? `/${league.slug}/` : `/rankings/${lid}/${x.id}/`}>{x.title}</Link>
+            ))}
+            <Link href={`/${league.slug}/`}>Top Selling {league.name} Jerseys</Link>
+            <Link href="/rankings/">All reports</Link>
+          </nav>
+        </section>
       </main>
     </>
   );

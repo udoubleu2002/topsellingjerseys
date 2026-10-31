@@ -11,13 +11,16 @@
   var BASE = (SCRIPT && SCRIPT.src) || location.href;
   var SB_URL = (SCRIPT && SCRIPT.dataset.sbUrl) || "", SB_KEY = (SCRIPT && SCRIPT.dataset.sbKey) || "";
   var AUTH_KEY = "tsj-auth";
+  // Optional jersey style on an owned jersey. Stored as item.s; older lists without it keep working.
+  var STYLES = ["Authentic", "Replica", "Swingman / Game", "Limited", "Throwback", "Alternate", "City / Special edition", "Signed"];
+  function withStyle(o, i) { if (i && typeof i.s === "string" && STYLES.indexOf(i.s) > -1) o.s = i.s; return o; }
   var cache = {};
 
   function load() {
     try {
       var d = JSON.parse(localStorage.getItem(KEY) || "null");
       var ok = function (i) { return i && LEAGUES.indexOf(i.l) > -1 && i.n; };
-      if (d && Array.isArray(d.items)) return { name: String(d.name || ""), items: d.items.filter(ok), wish: Array.isArray(d.wish) ? d.wish.filter(ok) : [] };
+      if (d && Array.isArray(d.items)) return { name: String(d.name || ""), items: d.items.filter(ok).map(function (i) { return withStyle({ l: i.l, n: i.n }, i); }), wish: Array.isArray(d.wish) ? d.wish.filter(ok) : [] };
     } catch (e) {}
     return { name: "", items: [], wish: [] };
   }
@@ -50,7 +53,7 @@
   function currentUser() {
     return sb().then(function (c) { return c.auth.getSession().then(function (r) { return { c: c, user: r.data && r.data.session ? r.data.session.user : null }; }); });
   }
-  function clean(list) { return Array.isArray(list) ? list.filter(function (i) { return i && LEAGUES.indexOf(i.l) > -1 && typeof i.n === "string" && i.n; }).map(function (i) { return { l: i.l, n: i.n.slice(0, 48) }; }) : []; }
+  function clean(list) { return Array.isArray(list) ? list.filter(function (i) { return i && LEAGUES.indexOf(i.l) > -1 && typeof i.n === "string" && i.n; }).map(function (i) { return withStyle({ l: i.l, n: i.n.slice(0, 48) }, i); }) : []; }
   // Adds b's entries to a, counting repeats, so merging two copies of the same list changes nothing.
   function merge(a, b) {
     var out = a.slice(), seen = {};
@@ -277,12 +280,34 @@
     var site = (app.dataset.site || location.origin).replace(/\/$/, "");
     var shareUrl = "";
     nameIn.value = state.name;
+    // Players with a page on this site, so a list entry can link to that player's ranking and jerseys.
+    var pages = {};
+    try { pages = JSON.parse((document.getElementById("mj-pages") || {}).textContent || "{}"); } catch (e) {}
+    function nameNode(it) {
+      var slug = pages[it.l] && pages[it.l][it.n];
+      if (!slug) return el("span", "mj-item-name", it.n);
+      var a = el("a", "mj-item-name", it.n);
+      a.href = "/players/" + slug + "/";
+      return a;
+    }
+    function track(ev, props) { try { if (window.gtag) window.gtag("event", ev, props); } catch (e) {} }
+    function totals() {
+      var box = app.querySelector("#mj-totals");
+      if (!box) return;
+      var lg = {}, st = {}, teams = 0;
+      state.items.forEach(function (i) { lg[i.l] = 1; if (i.s) st[i.s] = (st[i.s] || 0) + 1; });
+      var parts = [state.items.length + " owned", state.wish.length + " on your wishlist", Object.keys(lg).length + (Object.keys(lg).length === 1 ? " league" : " leagues")];
+      var styles = Object.keys(st).sort(function (a, b) { return st[b] - st[a]; }).map(function (k) { return st[k] + " " + k; });
+      box.textContent = parts.join(" · ") + (styles.length ? ". Styles: " + styles.join(", ") + "." : ".");
+      box.hidden = !state.items.length && !state.wish.length;
+    }
 
     function add(n, toWish) {
       if (toWish) { if (find(state.wish, league, n) < 0) state.wish.push({ l: league, n: n }); }
       else state.items.push({ l: league, n: n });
       save(state);
       render();
+      track(toWish ? "wishlist_added" : "jersey_added", { league: league, player: n, placement: "my_jerseys_search" });
       status.textContent = "Added " + n + " (" + NAMES[league] + ")" + (toWish ? " to your wishlist." : ".");
       search.value = "";
       results.innerHTML = "";
@@ -291,6 +316,7 @@
 
     function render() {
       renderWish();
+      totals();
       countH.textContent = headline(state.name, state.items.length);
       groups.innerHTML = "";
       share.hidden = state.items.length === 0;
@@ -309,7 +335,18 @@
         sec.appendChild(h);
         var ul = el("ul");
         mine.forEach(function (it) {
-          var li = el("li", null, it.n);
+          var li = el("li");
+          li.appendChild(nameNode(it));
+          var sel = el("select", "mj-style");
+          sel.setAttribute("aria-label", "Style of your " + it.n + " jersey");
+          [""].concat(STYLES).forEach(function (v) { var o = el("option", null, v || "Style…"); o.value = v; if ((it.s || "") === v) o.selected = true; sel.appendChild(o); });
+          sel.addEventListener("change", function () {
+            if (sel.value) it.s = sel.value; else delete it.s;
+            save(state);
+            totals();
+            track("jersey_style_set", { league: it.l, player: it.n, style: sel.value || "none" });
+          });
+          li.appendChild(sel);
           var x = el("button", "mj-remove", "×");
           x.type = "button";
           x.setAttribute("aria-label", "Remove " + it.n);
@@ -357,7 +394,8 @@
         sec.appendChild(h);
         var ul = el("ul");
         mine.forEach(function (it) {
-          var li = el("li", null, it.n);
+          var li = el("li");
+          li.appendChild(nameNode(it));
           var got = el("button", "mj-got", "Got it");
           got.type = "button";
           got.setAttribute("aria-label", "Move " + it.n + " to My Jerseys");
@@ -450,6 +488,7 @@
       var key = method + "|" + shareUrl;
       if (key === lastLog) return; // one log per list and method
       lastLog = key;
+      track("collection_shared", { method: method, count: state.items.length });
       var leagues = {};
       state.items.forEach(function (i) { leagues[i.l] = 1; });
       var body = new URLSearchParams({

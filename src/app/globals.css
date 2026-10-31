@@ -1199,3 +1199,26 @@ h3.lrow-name { display: inline; }
 .status-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font: 600 12px/1.6 var(--f-body); background: #e2e8f0; color: #1e293b; white-space: nowrap; }
 .status-pill.is-latest { background: #dcfce7; color: #14532d; }
 .status-pill.is-dated { background: #fef3c7; color: #78350f; }
+
+/* Rank movement between comparable reports. */
+.moves-lede { color: var(--ink-2); max-width: 80ch; margin: 0 0 16px; line-height: 1.55; }
+.moves-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.moves-box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
+.moves-box h3 { font: 700 16px/1.2 var(--f-head); text-transform: uppercase; letter-spacing: .02em; margin: 0 0 8px; }
+.moves-box ol, .moves-box ul { margin: 0; padding-left: 20px; display: grid; gap: 5px; font-size: 14.5px; }
+.moves-box li { overflow-wrap: anywhere; }
+.moves-box .mv { color: var(--muted); font-size: 13px; white-space: nowrap; }
+.moves-note { margin: 0 0 8px; font-size: 12.5px; color: var(--muted); }
+.rank-sum { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 12px; }
+.rank-sum > div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; min-width: 0; }
+.rank-sum dt { font: 600 11px/1.3 var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.rank-sum dd { margin: 4px 0 0; font: 700 22px/1.1 var(--f-num); }
+.rank-sum dd.rank-sum-sub { font: 400 12.5px/1.35 var(--f-body); color: var(--muted); }
+@media (max-width: 640px) { .rank-sum { grid-template-columns: minmax(0, 1fr); } }
+.style-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 2px 0; }
+.style-tag { display: inline-block; padding: 1px 7px; border: 1px solid var(--line-2); border-radius: 999px; font-size: 11.5px; line-height: 1.5; color: var(--ink-2); white-space: nowrap; }
+.shop-sep { margin: 0 0 10px; }
+.mj-totals { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+.mj-style { margin-left: auto; max-width: 9.5rem; min-height: 28px; padding: 2px 6px; border: 1px solid var(--line-2); border-radius: 6px; background: var(--surface-2); color: var(--ink-2); font: inherit; font-size: 12px; }
+.mj-item-name { min-width: 0; overflow-wrap: anywhere; }
+a.mj-item-name { color: inherit; text-decoration: underline; text-underline-offset: 2px; }

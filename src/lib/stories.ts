@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
-import { getAppearances, getPlayer, getPlayers, getProducts, teamPlayers } from "./data";
+import { getLatestAppearance, getPlayer, getPlayers, getProducts, teamPlayers } from "./data";
 import type { Player, Product } from "./schema";
 
 const url = z.string().url();
@@ -86,7 +86,7 @@ export function storyJersey(s: Pick<Story, "playerId" | "subject" | "teamId">): 
     return product ? { product, player: own } : undefined;
   }
   if (!s.teamId) return undefined;
-  const best = (p: Player) => getAppearances(p.id)[0]?.rank ?? 999;
+  const best = (p: Player) => getLatestAppearance(p.id)?.rank ?? 999;
   for (const p of teamPlayers(s.teamId).filter((p) => p.teamId === s.teamId).sort((a, b) => best(a) - best(b))) {
     const product = pick(p);
     if (product) return { product, player: p };

@@ -10,6 +10,7 @@ import { ShopButton } from "@/components/ShopButton";
 import { StatsPanel } from "@/components/PlayerBits";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { PriceTag } from "@/components/PriceTag";
+import { productStyle, styleTags } from "@/lib/productStyle";
 import { TrustNote } from "@/components/TrustNote";
 import { TeamLink } from "@/components/TeamLink";
 import { HaveJersey } from "@/components/HaveJersey";
@@ -24,7 +25,7 @@ import { RotatingSlot } from "@/components/SideRail";
 import { rectFor } from "@/lib/lidsAds";
 import { adsFor } from "@/lib/houseAds";
 import {
-  getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getStatLine, getProducts, getPlayer,
+  getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getLatestAppearance, getStatLine, getProducts, getPlayer,
   isIndexable, teamLabel, teamPlayers, loadStore, reportStatus,
 } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
@@ -44,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = getPlayerBySlug((await params).slug);
   if (!p) return {};
   const league = getLeague(p.leagues[0])!;
-  const top = getAppearances(p.id)[0];
+  const top = getLatestAppearance(p.id);
   const team = getTeam(p.teamId ?? p.lastTeamId);
   const ctx = { player: p, league, team, latest: top, line: getStatLine(p.id) };
   const title = playerTitle(ctx);
@@ -58,7 +59,8 @@ export default async function PlayerPage({ params }: Props) {
   const league = getLeague(player.leagues[0])!;
   const team = getTeam(player.teamId ?? player.lastTeamId);
   const appearances = getAppearances(player.id);
-  const latest = appearances[0];
+  // Only a place on the league's latest report counts as the player's current ranking.
+  const latest = getLatestAppearance(player.id);
   const line = getStatLine(player.id);
   const allLines = loadStore().stats.filter((s) => s.playerId === player.id && !s.isDemo).sort((a, b) => (b.throughDate ?? "").localeCompare(a.throughDate ?? ""));
   const products = getProducts(player.id);
@@ -224,15 +226,26 @@ export default async function PlayerPage({ params }: Props) {
 
             <section className="block" aria-labelledby="shop-h">
               <h2 id="shop-h">Where to buy {player.name} jerseys</h2>
+              {products.length > 0 && (
+                <p className="shop-note shop-sep">These are listings the retailer carries right now. They are separate from {player.name}&apos;s sales ranking, which comes only from the published sales reports.</p>
+              )}
               {products.length > 0 ? (
                 <div className="products">
                   {products.map((p) => {
                     const o = productOffer(p);
+                    const tags = styleTags(productStyle(p));
+                    const pTeam = getTeam(p.teamId);
                     return (
                       <article className="product" key={p.id}>
                         <ProductImage player={player} team={team} product={p} />
                         <div className="product-body">
                           <strong>{p.title}</strong>
+                          {(tags.length > 0 || pTeam) && (
+                            <span className="style-tags">
+                              {pTeam && <span className="style-tag">{pTeam.name}</span>}
+                              {tags.map((t) => <span key={t} className="style-tag">{t}</span>)}
+                            </span>
+                          )}
                           {p.price !== null && p.currency && <span>{new Intl.NumberFormat("en-US", { style: "currency", currency: p.currency }).format(p.price)}</span>}
                           <span className="shop-note">
                             {p.availability === "in-stock" ? "In stock" : p.availability === "out-of-stock" ? "Out of stock" : p.availability === "preorder" ? "Preorder" : "Availability not confirmed"}
@@ -259,6 +272,18 @@ export default async function PlayerPage({ params }: Props) {
 
             <section className="block" aria-labelledby="rh-h">
               <h2 id="rh-h">Ranking history</h2>
+              {appearances.length > 0 && (() => {
+                const best = [...appearances].sort((a, b) => a.rank - b.rank || b.ranking.publishedDate.localeCompare(a.ranking.publishedDate))[0];
+                const recent = appearances[0];
+                const prior = appearances.find((a) => a.ranking.series === recent.ranking.series && a.ranking.publishedDate < recent.ranking.publishedDate);
+                return (
+                  <dl className="rank-sum">
+                    <div><dt>Most recent rank</dt><dd>No. {recent.rank}</dd><dd className="rank-sum-sub">{recent.ranking.title}</dd></div>
+                    <div><dt>Highest rank</dt><dd>No. {best.rank}</dd><dd className="rank-sum-sub">{best.ranking.title}</dd></div>
+                    <div><dt>Reports listed in</dt><dd>{appearances.length}</dd><dd className="rank-sum-sub">{prior ? `No. ${prior.rank} in the previous comparable report` : appearances.length === 1 ? "Only report on this site so far" : "From different report series"}</dd></div>
+                  </dl>
+                );
+              })()}
               <div className="table-wrap">
                 <table className="table">
                   <thead><tr><th>Rank</th><th>Report</th><th>Team in report</th><th>Published</th><th>Sales period</th><th>Status</th><th>Source</th></tr></thead>

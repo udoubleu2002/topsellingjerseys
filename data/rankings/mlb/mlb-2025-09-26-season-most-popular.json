@@ -1,0 +1,123 @@
+{
+  "id": "mlb-2025-09-26-season-most-popular",
+  "series": "mlb-season",
+  "title": "MLB's Most Popular Player Jerseys of the 2025 Season",
+  "publisher": "MLB (via MLB.com)",
+  "periodStart": null,
+  "periodEnd": null,
+  "scope": "Nike MLB jersey sales on MLBShop.com and the Fanatics network since Opening Day 2025.",
+  "methodology": "Based on online sales through MLBShop.com and the Fanatics network. Unit counts are not published.",
+  "limitations": [
+    "Online sales through MLBShop.com and the Fanatics network only.",
+    "Released before the end of the regular season; it does not include late-season or postseason sales."
+  ],
+  "league": "mlb",
+  "sourceUrl": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season",
+  "publishedDate": "2025-09-26",
+  "periodLabel": "Nike jersey sales on MLBShop.com and the Fanatics network, Opening Day 2025 to late September 2025",
+  "retrievedDate": "2026-10-31",
+  "lastVerified": "2026-10-31",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "shohei-ohtani",
+      "teamIdAtReport": "los-angeles-dodgers"
+    },
+    {
+      "rank": 2,
+      "playerId": "aaron-judge",
+      "teamIdAtReport": "new-york-yankees"
+    },
+    {
+      "rank": 3,
+      "playerId": "freddie-freeman",
+      "teamIdAtReport": "los-angeles-dodgers"
+    },
+    {
+      "rank": 4,
+      "playerId": "mookie-betts",
+      "teamIdAtReport": "los-angeles-dodgers"
+    },
+    {
+      "rank": 5,
+      "playerId": "francisco-lindor",
+      "teamIdAtReport": "new-york-mets"
+    },
+    {
+      "rank": 6,
+      "playerId": "juan-soto",
+      "teamIdAtReport": "new-york-mets"
+    },
+    {
+      "rank": 7,
+      "playerId": "rafael-devers",
+      "teamIdAtReport": "san-francisco-giants"
+    },
+    {
+      "rank": 8,
+      "playerId": "bryce-harper",
+      "teamIdAtReport": "philadelphia-phillies"
+    },
+    {
+      "rank": 9,
+      "playerId": "jose-altuve",
+      "teamIdAtReport": "houston-astros"
+    },
+    {
+      "rank": 10,
+      "playerId": "fernando-tatis-jr",
+      "teamIdAtReport": "san-diego-padres"
+    },
+    {
+      "rank": 11,
+      "playerId": "ronald-acuna-jr",
+      "teamIdAtReport": "atlanta-braves"
+    },
+    {
+      "rank": 12,
+      "playerId": "clayton-kershaw",
+      "teamIdAtReport": "los-angeles-dodgers"
+    },
+    {
+      "rank": 13,
+      "playerId": "jarren-duran",
+      "teamIdAtReport": "boston-red-sox"
+    },
+    {
+      "rank": 14,
+      "playerId": "elly-de-la-cruz",
+      "teamIdAtReport": "cincinnati-reds"
+    },
+    {
+      "rank": 15,
+      "playerId": "vladimir-guerrero-jr",
+      "teamIdAtReport": "toronto-blue-jays"
+    },
+    {
+      "rank": 16,
+      "playerId": "pete-crow-armstrong",
+      "teamIdAtReport": "chicago-cubs"
+    },
+    {
+      "rank": 17,
+      "playerId": "pete-alonso",
+      "teamIdAtReport": "new-york-mets"
+    },
+    {
+      "rank": 18,
+      "playerId": "paul-skenes",
+      "teamIdAtReport": "pittsburgh-pirates"
+    },
+    {
+      "rank": 19,
+      "playerId": "manny-machado",
+      "teamIdAtReport": "san-diego-padres"
+    },
+    {
+      "rank": 20,
+      "playerId": "cal-raleigh",
+      "teamIdAtReport": "seattle-mariners"
+    }
+  ]
+}

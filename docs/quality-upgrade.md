@@ -43,6 +43,41 @@ SEO baseline: `docs/seo-baseline-2026-10-31.md`. Every PR is checked with `scrip
 - Player titles and meta descriptions mention the current team, which is correct for a "where to buy" page; changing them is
   a medium-risk title change with no clear benefit.
 
+## Phase 2: movement, discovery, shopping, collections
+
+### Added
+- **Earlier comparable reports:** NFLPA year-end 2024-25 (all 50 ranks, nflpa.com) and MLB's most popular jerseys of the
+  2025 season (top 20, mlb.com). Each is in the same series as the latest report (same publisher, method and period length).
+  Both are now Superseded Reports with their own pages and sitemap entries.
+- **Players added to support them (8):** Tyreek Hill (free agent), Tua Tagovailoa (Falcons), Nick Bosa (49ers),
+  Russell Wilson (retired), Isiah Pacheco (Lions), J.J. McCarthy (Giants), Sauce Gardner (Colts), Clayton Kershaw (retired),
+  each with sourced status, three sourced highlights and Oct 31, 2026 verification. These are 8 new indexed player pages.
+- **How the list changed** (NFL and MLB league pages and report pages): biggest risers and fallers, new entries, players
+  back on the list, players out of the ranks shown, players who held their spot, and teams with two or more players.
+  Shown only when a comparable earlier report exists; the NBA, NHL, MLS and WNBA pages are unchanged until one does.
+- **Player pages:** most recent rank, highest rank and the previous comparable rank above the ranking history.
+- **Shopping:** style tags on each listing (Authentic, Replica, Swingman, Game, Limited; Home, Away, Alternate, City, Throwback;
+  Men's, Women's, Youth), read only from the retailer's title and edition field. A note separates retailer listings from the ranking.
+- **My Jerseys:** optional jersey style on each owned jersey, links from list entries to player pages, totals (owned,
+  wishlist, leagues, styles), GA4 events `jersey_added`, `wishlist_added` (from search), `jersey_style_set`, `collection_shared`.
+  Existing lists load unchanged; the style is an optional field that older lists simply do not have.
+- **Related reports** links on every report page.
+
+### Checked and fixed before shipping
+- The SEO diff caught that 26 player pages (e.g. Travis Kelce, Joe Burrow) would have changed their titles to quote a rank
+  from the superseded 2024-25 list. Titles, intros, "No. X" labels and the search page now use only a player's place on the
+  league's latest report. Result: 0 regressions against the baseline.
+
+### Not done, and why
+- **NBA, NHL, MLS, WNBA movement:** no comparable earlier report. NBA's 2024-25 list covered NBAStore.com only for the
+  second half of the season (the 2025-26 list covers the full season on NBA Store and Fanatics). NHL's 2024-25 list is
+  available only as a top 5 from a social post. MLS's earlier lists cover partial seasons. WNBA has one list.
+- **Rookies entering the rankings:** needs reliable draft-year data per player, which the data model does not hold yet.
+- **Shopping category pages:** no new indexed pages until there is clear search demand and real inventory per category.
+- **MLS source link:** the MLS 2025 report links to an MLSsoccer.com article that now shows a January-May 2025 list. The
+  season top 10 on the site matches Sports Illustrated's Oct 25, 2025 report of the season list. The link should be pointed
+  at the season announcement once it is confirmed.
+
 ## Later phases (separate PRs)
 
 | Change | Risk | Plan |

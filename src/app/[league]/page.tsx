@@ -10,6 +10,7 @@ import { Faq } from "@/components/Faq";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
 import { TeamRosters } from "@/components/TeamRosters";
+import { Movement } from "@/components/Movement";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getLeagueBySlug, getCurrentRanking, getRankings, getPlayer, commonStatsThrough } from "@/lib/data";
 import { leagueCopy } from "@/lib/content";
@@ -97,6 +98,8 @@ export default async function LeaguePage({ params }: Props) {
             </ol>
           </section>
         )}
+
+        {ranking && <Movement ranking={ranking} leagueName={league.name} />}
 
         <TeamRosters league={league} />
 

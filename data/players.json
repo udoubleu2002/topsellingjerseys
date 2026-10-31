@@ -37991,5 +37991,302 @@
       "https://www.statmuse.com/nfl/player/chig-okonkwo-29674"
     ],
     "lastVerified": "2026-10-29"
+  },
+  {
+    "id": "tyreek-hill",
+    "slug": "tyreek-hill",
+    "name": "Tyreek Hill",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": null,
+    "lastTeamId": "miami-dolphins",
+    "status": "Free agent",
+    "position": "WR",
+    "number": null,
+    "birthday": "1994-03-01",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Tyreek_Hill",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Released by Miami before the 2026 season and unsigned as of October 2026 while recovering from a knee injury",
+        "source": "https://www.newsweek.com/sports/nfl/tyreek-hill-posts-cryptic-message-amid-swirling-nfl-speculation-12508295"
+      },
+      {
+        "text": "Ranked No. 25 on the NFLPA's 2024-25 year-end player sales list as a Dolphin",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "Five-time All-Pro receiver with Kansas City and Miami",
+        "source": "https://www.nfl.com/_amp/dolphins-releasing-five-time-all-pro-wr-tyreek-hill"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tyreek_Hill",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+      "https://www.newsweek.com/sports/nfl/tyreek-hill-posts-cryptic-message-amid-swirling-nfl-speculation-12508295",
+      "https://www.nfl.com/_amp/dolphins-releasing-five-time-all-pro-wr-tyreek-hill"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "tua-tagovailoa",
+    "slug": "tua-tagovailoa",
+    "name": "Tua Tagovailoa",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "atlanta-falcons",
+    "lastTeamId": "atlanta-falcons",
+    "status": "Active",
+    "position": "QB",
+    "number": null,
+    "birthday": "1998-03-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Tua_Tagovailoa",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Signed with Atlanta in March 2026 after his release by Miami and was named the Falcons' Week 1 starter",
+        "source": "https://fantasynerds.com/news/story/2026/09/08/tua-tagovailoa-named-falcons-starter-michael-penix-jr-waits-in-wings-1617651"
+      },
+      {
+        "text": "Ranked No. 38 on the NFLPA's 2024-25 year-end player sales list as a Dolphin",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "Led the NFL with 4,624 passing yards in 2023",
+        "source": "https://en.wikipedia.org/wiki/Tua_Tagovailoa"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tua_Tagovailoa",
+      "https://fantasynerds.com/news/story/2026/09/08/tua-tagovailoa-named-falcons-starter-michael-penix-jr-waits-in-wings-1617651",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "nick-bosa",
+    "slug": "nick-bosa",
+    "name": "Nick Bosa",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
+    "status": "Injured",
+    "position": "DE",
+    "number": "97",
+    "birthday": "1997-10-23",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Nick_Bosa",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Sidelined in October 2026 by a calf injury expected to cost him multiple weeks",
+        "source": "https://tixel.com/us/news/2026/10/12/49ers-nick-bosa-sidelined-with-calf-injury"
+      },
+      {
+        "text": "Ranked No. 40 on the NFLPA's 2024-25 year-end player sales list",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "2022 NFL Defensive Player of the Year",
+        "source": "https://en.wikipedia.org/wiki/Nick_Bosa"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Bosa",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+      "https://tixel.com/us/news/2026/10/12/49ers-nick-bosa-sidelined-with-calf-injury"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "russell-wilson",
+    "slug": "russell-wilson",
+    "name": "Russell Wilson",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": null,
+    "lastTeamId": "new-york-giants",
+    "status": "Retired",
+    "position": "QB",
+    "number": null,
+    "birthday": "1988-11-29",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Russell_Wilson",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Retired in June 2026 to join CBS Sports as a studio analyst",
+        "source": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/06/04/russell-wilson-confirms-hes-retiring-from-the-nfl-to-join-cbs-sports"
+      },
+      {
+        "text": "Ranked No. 41 on the NFLPA's 2024-25 year-end player sales list as a Steeler",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "Won Super Bowl XLVIII with Seattle",
+        "source": "https://en.wikipedia.org/wiki/Russell_Wilson"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Russell_Wilson",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+      "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/06/04/russell-wilson-confirms-hes-retiring-from-the-nfl-to-join-cbs-sports"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "isiah-pacheco",
+    "slug": "isiah-pacheco",
+    "name": "Isiah Pacheco",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "detroit-lions",
+    "lastTeamId": "detroit-lions",
+    "status": "Injured",
+    "position": "RB",
+    "number": null,
+    "birthday": "1999-03-02",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Isiah_Pacheco",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Signed with Detroit in March 2026 and was placed on injured reserve with a back injury on Sept. 1",
+        "source": "https://www.clickondetroit.com/sports/2026/09/01/isiah-pacheco-placed-on-injury-reserved/"
+      },
+      {
+        "text": "Ranked No. 46 on the NFLPA's 2024-25 year-end player sales list as a Chief",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "Won two Super Bowls with Kansas City (LVII and LVIII)",
+        "source": "https://en.wikipedia.org/wiki/Isiah_Pacheco"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Isiah_Pacheco",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+      "https://www.clickondetroit.com/sports/2026/09/01/isiah-pacheco-placed-on-injury-reserved/"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "j-j-mccarthy",
+    "slug": "j-j-mccarthy",
+    "name": "J.J. McCarthy",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "new-york-giants",
+    "lastTeamId": "new-york-giants",
+    "status": "Active",
+    "position": "QB",
+    "number": null,
+    "birthday": "2003-01-20",
+    "birthdaySource": "https://en.wikipedia.org/wiki/J._J._McCarthy",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Traded by Minnesota to the New York Giants for a 2027 fifth-round pick on Sept. 28, 2026",
+        "source": "https://www.giants.com/news/j-j-mccarthy-trade-details-minnesota-vikings-quarterback-2027-nfl-draft-michigan-wolverines"
+      },
+      {
+        "text": "Ranked No. 48 on the NFLPA's 2024-25 year-end player sales list as a Viking",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "Won the 2023 national championship at Michigan before going 10th overall in the 2024 draft",
+        "source": "https://en.wikipedia.org/wiki/J._J._McCarthy"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/J._J._McCarthy",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+      "https://www.giants.com/news/j-j-mccarthy-trade-details-minnesota-vikings-quarterback-2027-nfl-draft-michigan-wolverines"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "sauce-gardner",
+    "slug": "sauce-gardner",
+    "name": "Sauce Gardner",
+    "leagues": [
+      "nfl"
+    ],
+    "teamId": "indianapolis-colts",
+    "lastTeamId": "indianapolis-colts",
+    "status": "Active",
+    "position": "CB",
+    "number": "1",
+    "birthday": "2000-08-31",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Opened his first full season with Indianapolis in 2026 after a trade from the Jets",
+        "source": "https://www.axios.com/local/indianapolis/2026/09/10/colts-open-2026-season-with-plenty-to-prove"
+      },
+      {
+        "text": "Ranked No. 50 on the NFLPA's 2024-25 year-end player sales list as a Jet",
+        "source": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025"
+      },
+      {
+        "text": "2022 NFL Defensive Rookie of the Year",
+        "source": "https://en.wikipedia.org/wiki/Sauce_Gardner"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sauce_Gardner",
+      "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+      "https://www.axios.com/local/indianapolis/2026/09/10/colts-open-2026-season-with-plenty-to-prove"
+    ],
+    "lastVerified": "2026-10-31"
+  },
+  {
+    "id": "clayton-kershaw",
+    "slug": "clayton-kershaw",
+    "name": "Clayton Kershaw",
+    "leagues": [
+      "mlb"
+    ],
+    "teamId": null,
+    "lastTeamId": "los-angeles-dodgers",
+    "status": "Retired",
+    "position": "SP",
+    "number": "22",
+    "birthday": "1988-03-19",
+    "birthdaySource": "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+    "portrait": null,
+    "overview": null,
+    "highlights": [
+      {
+        "text": "Retired after the 2025 season, his 18th, all with the Dodgers",
+        "source": "https://www.mlb.com/press-release/clayton-kershaw-to-retire-at-end-of-2025-season"
+      },
+      {
+        "text": "Ranked No. 12 among the most popular MLB player jerseys of the 2025 season",
+        "source": "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season"
+      },
+      {
+        "text": "Three-time Cy Young Award winner and 2014 NL MVP",
+        "source": "https://en.wikipedia.org/wiki/Clayton_Kershaw"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Clayton_Kershaw",
+      "https://www.mlb.com/news/most-popular-mlb-jerseys-in-2025-season",
+      "https://www.mlb.com/press-release/clayton-kershaw-to-retire-at-end-of-2025-season"
+    ],
+    "lastVerified": "2026-10-31"
   }
 ]

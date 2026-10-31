@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SearchClient, type SearchItem } from "@/components/SearchClient";
-import { getPlayers, getLeague, getLeagues, getAppearances, loadStore, teamPlayers, teamLabel } from "@/lib/data";
+import { getPlayers, getLeague, getLeagues, getLatestAppearance, loadStore, teamPlayers, teamLabel } from "@/lib/data";
 
 export const metadata: Metadata = pageMeta({ title: "Search Players and Teams", description: "Search every ranked player and team across the NFL, NBA, WNBA, MLB, NHL and MLS top-selling jersey lists, and jump to their profiles and shop links.", path: "/search/", noindex: true });
 
 export default function SearchPage() {
   const items: SearchItem[] = getPlayers().map((p) => {
-    const a = getAppearances(p.id)[0];
+    const a = getLatestAppearance(p.id);
     const l = getLeague(p.leagues[0])!;
     return { name: p.name, sub: `${teamLabel(p)} · ${l.name} · ${p.position}`, href: `/players/${p.slug}/`, rank: a ? `No. ${a.rank} ${l.name}` : "", terms: `${p.name} ${teamLabel(p)} ${l.name} ${p.position}`.toLowerCase() };
   });

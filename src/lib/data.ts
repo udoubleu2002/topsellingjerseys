@@ -153,6 +153,14 @@ export function getAppearances(playerId: string) {
     .sort((a, b) => b.ranking.publishedDate.localeCompare(a.ranking.publishedDate));
 }
 
+/**
+ * The player's place on a league's latest published report, or undefined. Titles, intros and "No. X" labels use only this,
+ * so a rank from a superseded report is never presented as the player's current ranking.
+ */
+export function getLatestAppearance(playerId: string) {
+  return getAppearances(playerId).find((a) => getCurrentRanking(a.ranking.league)?.id === a.ranking.id);
+}
+
 /** Latest regular-season stat line for the player, unless it is demo data. */
 export function getStatLine(playerId: string): StatLine | undefined {
   return loadStore()
@@ -204,4 +212,53 @@ export function commonStatsThrough(r: Ranking): string | null {
 /** Promotions running on the given date (defaults to the build's review date), optionally for one league. */
 export function getActivePromotions(leagueId?: string, on = new Date().toISOString().slice(0, 10)) {
   return loadStore().promotions.filter((p) => p.startDate <= on && p.endDate >= on && (!leagueId || p.leagues.length === 0 || p.leagues.includes(leagueId)));
+}
+
+export type MovementRow = { playerId: string; rank: number; previousRank: number | null; delta: number | null; teamIdAtReport: string | null };
+
+/**
+ * Report-to-report changes within one series (same publisher, method and period length). Returns null when there is no
+ * earlier report in the series, so different periods or methods are never compared. Only ranks actually listed on the site
+ * are compared: when a report is shown in part, "left the list" means "not in the ranks shown".
+ */
+export function getMovement(r: Ranking) {
+  const prev = getPreviousInSeries(r);
+  if (!prev) return null;
+  const earlier = getRankings(r.league).filter((x) => x.series === r.series && x.publishedDate < prev.publishedDate);
+  const rows: MovementRow[] = r.entries.map((e) => {
+    const before = prev.entries.find((x) => x.playerId === e.playerId);
+    return { playerId: e.playerId, rank: e.rank, previousRank: before?.rank ?? null, delta: before ? before.rank - e.rank : null, teamIdAtReport: e.teamIdAtReport };
+  });
+  const isNew = rows.filter((x) => x.previousRank === null);
+  const returning = isNew.filter((x) => earlier.some((er) => er.entries.some((e) => e.playerId === x.playerId)));
+  const depth = r.entries.length;
+  const left = prev.entries
+    .filter((e) => e.rank <= depth && !r.entries.some((x) => x.playerId === e.playerId))
+    .map((e) => ({ playerId: e.playerId, previousRank: e.rank, teamIdAtReport: e.teamIdAtReport }));
+  // Team counts compare the same number of ranks in both reports.
+  const same = Math.min(depth, prev.entries.length);
+  const count = (list: Ranking["entries"]) => {
+    const m = new Map<string, number>();
+    for (const e of list.filter((x) => x.rank <= same)) if (e.teamIdAtReport) m.set(e.teamIdAtReport, (m.get(e.teamIdAtReport) ?? 0) + 1);
+    return m;
+  };
+  const nowTeams = count(r.entries), prevTeams = count(prev.entries);
+  const teams = [...new Set([...nowTeams.keys(), ...prevTeams.keys()])]
+    .map((teamId) => ({ teamId, now: nowTeams.get(teamId) ?? 0, before: prevTeams.get(teamId) ?? 0 }))
+    .filter((t) => t.now >= 2 || t.before >= 2)
+    .sort((a, b) => b.now - a.now || b.before - a.before);
+  return {
+    previous: prev,
+    depth,
+    previousDepth: prev.entries.length,
+    risers: rows.filter((x) => (x.delta ?? 0) > 0).sort((a, b) => b.delta! - a.delta! || a.rank - b.rank),
+    fallers: rows.filter((x) => (x.delta ?? 0) < 0).sort((a, b) => a.delta! - b.delta! || a.rank - b.rank),
+    held: rows.filter((x) => x.delta === 0),
+    newEntries: isNew.filter((x) => !returning.includes(x)),
+    returning,
+    stayed: rows.filter((x) => x.previousRank !== null),
+    left,
+    teams,
+    teamDepth: same,
+  };
 }

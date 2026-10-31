@@ -1,0 +1,272 @@
+{
+  "id": "nfl-2025-06-11-nflpa-year-end",
+  "series": "nflpa-year-end",
+  "title": "NFLPA Year-End Top 50 NFL Player Sales List, 2024-25",
+  "publisher": "NFL Players Association (NFLPA)",
+  "periodStart": "2024-03-01",
+  "periodEnd": "2025-02-28",
+  "scope": "All licensed NFL player merchandise (jerseys, apparel and other products) sold through licensees, online and at retail.",
+  "methodology": "Compiled by NFL Players Inc. from royalty reports of more than 85 NFLPA licensees. Unit counts are not published.",
+  "limitations": [
+    "The NFLPA list measures all licensed player merchandise, not jerseys alone."
+  ],
+  "league": "nfl",
+  "sourceUrl": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2025",
+  "publishedDate": "2025-06-11",
+  "periodLabel": "Licensed player merchandise led by jerseys, March 1, 2024 to February 28, 2025",
+  "retrievedDate": "2026-10-31",
+  "lastVerified": "2026-10-31",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "saquon-barkley",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 2,
+      "playerId": "patrick-mahomes",
+      "teamIdAtReport": "kansas-city-chiefs"
+    },
+    {
+      "rank": 3,
+      "playerId": "jalen-hurts",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 4,
+      "playerId": "jayden-daniels",
+      "teamIdAtReport": "washington-commanders"
+    },
+    {
+      "rank": 5,
+      "playerId": "c-j-stroud",
+      "teamIdAtReport": "houston-texans"
+    },
+    {
+      "rank": 6,
+      "playerId": "josh-allen",
+      "teamIdAtReport": "buffalo-bills"
+    },
+    {
+      "rank": 7,
+      "playerId": "aidan-hutchinson",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 8,
+      "playerId": "amon-ra-st-brown",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 9,
+      "playerId": "micah-parsons",
+      "teamIdAtReport": "dallas-cowboys"
+    },
+    {
+      "rank": 10,
+      "playerId": "justin-jefferson",
+      "teamIdAtReport": "minnesota-vikings"
+    },
+    {
+      "rank": 11,
+      "playerId": "travis-kelce",
+      "teamIdAtReport": "kansas-city-chiefs"
+    },
+    {
+      "rank": 12,
+      "playerId": "jordan-love",
+      "teamIdAtReport": "green-bay-packers"
+    },
+    {
+      "rank": 13,
+      "playerId": "caleb-williams",
+      "teamIdAtReport": "chicago-bears"
+    },
+    {
+      "rank": 14,
+      "playerId": "joe-burrow",
+      "teamIdAtReport": "cincinnati-bengals"
+    },
+    {
+      "rank": 15,
+      "playerId": "christian-mccaffrey",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 16,
+      "playerId": "t-j-watt",
+      "teamIdAtReport": "pittsburgh-steelers"
+    },
+    {
+      "rank": 17,
+      "playerId": "ceedee-lamb",
+      "teamIdAtReport": "dallas-cowboys"
+    },
+    {
+      "rank": 18,
+      "playerId": "lamar-jackson",
+      "teamIdAtReport": "baltimore-ravens"
+    },
+    {
+      "rank": 19,
+      "playerId": "brock-purdy",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 20,
+      "playerId": "jahmyr-gibbs",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 21,
+      "playerId": "bo-nix",
+      "teamIdAtReport": "denver-broncos"
+    },
+    {
+      "rank": 22,
+      "playerId": "jared-goff",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 23,
+      "playerId": "maxx-crosby",
+      "teamIdAtReport": "las-vegas-raiders"
+    },
+    {
+      "rank": 24,
+      "playerId": "a-j-brown",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 25,
+      "playerId": "tyreek-hill",
+      "teamIdAtReport": "miami-dolphins"
+    },
+    {
+      "rank": 26,
+      "playerId": "pat-surtain-ii",
+      "teamIdAtReport": "denver-broncos"
+    },
+    {
+      "rank": 27,
+      "playerId": "george-kittle",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 28,
+      "playerId": "aaron-rodgers",
+      "teamIdAtReport": "new-york-jets"
+    },
+    {
+      "rank": 29,
+      "playerId": "devonta-smith",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 30,
+      "playerId": "derrick-henry",
+      "teamIdAtReport": "baltimore-ravens"
+    },
+    {
+      "rank": 31,
+      "playerId": "justin-herbert",
+      "teamIdAtReport": "los-angeles-chargers"
+    },
+    {
+      "rank": 32,
+      "playerId": "drake-maye",
+      "teamIdAtReport": "new-england-patriots"
+    },
+    {
+      "rank": 33,
+      "playerId": "dak-prescott",
+      "teamIdAtReport": "dallas-cowboys"
+    },
+    {
+      "rank": 34,
+      "playerId": "jamarr-chase",
+      "teamIdAtReport": "cincinnati-bengals"
+    },
+    {
+      "rank": 35,
+      "playerId": "baker-mayfield",
+      "teamIdAtReport": "tampa-bay-buccaneers"
+    },
+    {
+      "rank": 36,
+      "playerId": "malik-nabers",
+      "teamIdAtReport": "new-york-giants"
+    },
+    {
+      "rank": 37,
+      "playerId": "dk-metcalf",
+      "teamIdAtReport": "seattle-seahawks"
+    },
+    {
+      "rank": 38,
+      "playerId": "tua-tagovailoa",
+      "teamIdAtReport": "miami-dolphins"
+    },
+    {
+      "rank": 39,
+      "playerId": "mike-evans",
+      "teamIdAtReport": "tampa-bay-buccaneers"
+    },
+    {
+      "rank": 40,
+      "playerId": "nick-bosa",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 41,
+      "playerId": "russell-wilson",
+      "teamIdAtReport": "pittsburgh-steelers"
+    },
+    {
+      "rank": 42,
+      "playerId": "cooper-dejean",
+      "teamIdAtReport": "philadelphia-eagles"
+    },
+    {
+      "rank": 43,
+      "playerId": "trevor-lawrence",
+      "teamIdAtReport": "jacksonville-jaguars"
+    },
+    {
+      "rank": 44,
+      "playerId": "puka-nacua",
+      "teamIdAtReport": "los-angeles-rams"
+    },
+    {
+      "rank": 45,
+      "playerId": "terry-mclaurin",
+      "teamIdAtReport": "washington-commanders"
+    },
+    {
+      "rank": 46,
+      "playerId": "isiah-pacheco",
+      "teamIdAtReport": "kansas-city-chiefs"
+    },
+    {
+      "rank": 47,
+      "playerId": "sam-laporta",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 48,
+      "playerId": "j-j-mccarthy",
+      "teamIdAtReport": "minnesota-vikings"
+    },
+    {
+      "rank": 49,
+      "playerId": "bijan-robinson",
+      "teamIdAtReport": "atlanta-falcons"
+    },
+    {
+      "rank": 50,
+      "playerId": "sauce-gardner",
+      "teamIdAtReport": "new-york-jets"
+    }
+  ]
+}
