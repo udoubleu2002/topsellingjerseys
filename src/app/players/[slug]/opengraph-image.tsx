@@ -1,5 +1,5 @@
 import { renderOg, ogSize } from "@/lib/og";
-import { getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, teamLabel } from "@/lib/data";
+import { getPlayers, getPlayerBySlug, getLeague, getTeam, getLatestAppearance, teamLabel } from "@/lib/data";
 
 export const size = ogSize;
 export const contentType = "image/png";
@@ -13,7 +13,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const p = getPlayerBySlug((await params).slug)!;
   const league = getLeague(p.leagues[0])!;
   const team = getTeam(p.teamId ?? p.lastTeamId);
-  const top = getAppearances(p.id)[0];
+  const top = getLatestAppearance(p.id);
   const c = team?.colors ?? { primary: "#334155", secondary: "#ffffff", accent: "#94a3b8" };
   return renderOg({
     kicker: `Top Selling ${league.name} Jerseys`,

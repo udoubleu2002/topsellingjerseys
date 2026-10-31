@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { site, backendEnabled } from "@/lib/config";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getLeagues } from "@/lib/data";
+import { getLeagues, getPlayers, isIndexable } from "@/lib/data";
 import type { League } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
@@ -16,6 +16,10 @@ export const metadata: Metadata = pageMeta({
 /** Server-rendered shell; public/my-jerseys.js runs it, so it also works on the static preview. */
 export default function MyJerseysPage() {
   const leagues = getLeagues();
+  // Name -> slug for players with an indexable page, so list entries can link to them. Matched on the exact name.
+  const pages: Record<string, Record<string, string>> = {};
+  for (const p of getPlayers().filter(isIndexable)) for (const l of p.leagues) (pages[l] ??= {})[p.name] = p.slug;
+  const pagesJson = JSON.stringify(pages).replace(/</g, "\\u003c");
   return (
     <>
       <SiteHeader />
@@ -28,6 +32,7 @@ export default function MyJerseysPage() {
           </div>
         </section>
         {/* The builder's markup is handed to React as HTML so public/my-jerseys.js can change it without hydration errors. */}
+        <script type="application/json" id="mj-pages" dangerouslySetInnerHTML={{ __html: pagesJson }} />
         <div className="wrap mj-app" id="mj-app" data-site={site.url} dangerouslySetInnerHTML={{ __html: appHtml(leagues, backendEnabled) }} />
       </main>
     </>
@@ -52,6 +57,7 @@ function appHtml(leagues: League[], accounts: boolean) {
 <aside class="mj-collection" aria-labelledby="mj-count">
   <div class="mj-card">
     <div class="mj-card-head"><svg class="mj-card-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="${JERSEY_PATH}" fill="currentColor"/></svg><h2 id="mj-count">Your jersey count is: 0</h2></div>
+    <p id="mj-totals" class="mj-totals" hidden></p>
     <div id="mj-groups" class="mj-groups"><p class="mj-empty">No jerseys yet. Search for a player and tap Add.</p></div>
     <div class="mj-share" id="mj-share" hidden>
       <button type="button" class="btn-shop" id="mj-share-btn"><span class="cta-text">Share my jerseys</span></button>
