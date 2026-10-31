@@ -62,7 +62,9 @@ export function Analytics({ pageType }: { pageType?: string }) {
         if (!e.isIntersecting || seen.has(e.target)) continue;
         seen.add(e.target);
         const d = (e.target as HTMLElement).dataset;
-        track(d.impression === "product" ? "product_impression" : "player_card_impression", { league: d.league, player: d.player, rank: d.rank, offer: d.offer, path: pathname });
+        // Products and player rows keep their event names; other sections (e.g. "movement", "report_status") report "<name>_view".
+        const ev = d.impression === "product" ? "product_impression" : d.impression === "player_card" || d.impression === "home_list" ? "player_card_impression" : `${d.impression}_view`;
+        track(ev, { league: d.league, player: d.player, rank: d.rank, offer: d.offer, report: d.report, path: pathname });
       }
     }, { threshold: 0.5 });
     document.querySelectorAll("[data-impression]").forEach((el) => io.observe(el));
@@ -71,7 +73,7 @@ export function Analytics({ pageType }: { pageType?: string }) {
       const a = (ev.target as HTMLElement).closest<HTMLElement>("[data-track]");
       if (!a) return;
       const d = a.dataset;
-      track(d.track!, { offer: d.offer, offer_kind: d.offerKind, merchant: d.merchant, league: d.league, player: d.player, rank: d.rank, placement: d.placement, page: d.page, cta_variant: cta, path: pathname });
+      track(d.track!, { report: d.report, offer: d.offer, offer_kind: d.offerKind, merchant: d.merchant, league: d.league, player: d.player, rank: d.rank, placement: d.placement, page: d.page, cta_variant: cta, path: pathname });
     };
     document.addEventListener("click", onClick);
 

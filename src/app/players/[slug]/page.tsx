@@ -291,7 +291,7 @@ export default async function PlayerPage({ params }: Props) {
                     {appearances.map(({ ranking, rank, reportTeam }) => (
                       <tr key={ranking.id}>
                         <td className="num" style={{ fontSize: 18, fontWeight: 700 }}>{rank}</td>
-                        <td><Link href={`/rankings/${ranking.league}/${ranking.id}/`}>{ranking.title}</Link></td>
+                        <td><Link href={`/rankings/${ranking.league}/${ranking.id}/`} data-track="report_link_click" data-placement="player_history" data-league={ranking.league} data-report={ranking.id} data-player={player.id}>{ranking.title}</Link></td>
                         <td>{reportTeam?.name ?? "—"}</td>
                         <td>{fmtShortDate(ranking.publishedDate)}</td>
                         <td>{period(ranking.periodStart, ranking.periodEnd, ranking.periodLabel)}</td>

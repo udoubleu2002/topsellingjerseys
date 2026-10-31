@@ -78,6 +78,33 @@ SEO baseline: `docs/seo-baseline-2026-10-31.md`. Every PR is checked with `scrip
   season top 10 on the site matches Sports Illustrated's Oct 25, 2025 report of the season list. The link should be pointed
   at the season announcement once it is confirmed.
 
+## Phase 3: archive depth, collection suggestions, measurement
+
+### Done
+- **MLS 2025 source corrected.** The report linked to an MLSsoccer.com article that holds MLS's January 1 to May 1, 2025
+  list. The season top 10 shown on the site comes from MLS's 2025 regular-season review, published Oct. 23, 2025, which now
+  is the source. The publication date (was an approximate Oct. 27), scope and method text were corrected: MLS did not name the
+  retailers for the season list. The MLS league intro, its FAQ and the Oct. 29 Messi story no longer say MLSstore.com.
+  The report URL is unchanged.
+- **MLB 2024 season list** (MLB and MLB Players, Inc., Sept. 30, 2024, MLBShop.com only) added as a Historical Report in its
+  own series. It is not compared rank by rank with 2025 and 2026, which cover MLBShop.com plus the Fanatics network.
+- **My Jerseys suggestions:** "Top sellers you don't have yet" shows up to three players from the top 10 of each league the
+  visitor collects, with one-tap "I have it" and "Want it".
+- **Measurement:** new GA4 events `movement_view`, `movement_player_click`, `report_link_click` (with `report` and
+  `placement`), suggestion adds tagged `placement=my_jerseys_suggest`, and `docs/analytics.md` with the key events, custom
+  dimensions and reports to set up in GA4.
+
+### Looked at and not done
+- **NFLPA 2023-24 year-end list:** only the top 10 is retrievable from nflpa.com, and several players have no record yet.
+  A partial list would make "new to the list" claims for 2024-25 unreliable, so it was not imported.
+- **MLS January-May 2025 list:** 11 of its 25 players have no verified record on the site. Importing it would mean adding 11
+  player pages for one partial-season list.
+- **NBA 2024-25 (NBAStore.com, second half only):** only the top 5 is published on nba.com.
+- **New SEO landing pages:** the existing league pages, best-selling guides, player pages and jersey guides already cover the
+  main searches ("top selling NFL jerseys", "best selling jersey", "<player> jersey"). No new page type has both clear search
+  demand and content that is not already on an existing page, so none were added.
+- **Public collection pages stay out of search:** shared `/j/` links remain noindex.
+
 ## Later phases (separate PRs)
 
 | Change | Risk | Plan |

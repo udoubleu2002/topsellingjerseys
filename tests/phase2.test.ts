@@ -39,3 +39,18 @@ describe("product style", () => {
     expect(productStyle({ title: "Josh Allen Jersey", edition: null })).toEqual({ fit: null, tier: null, edition: null });
   });
 });
+
+describe("phase 3 archive", () => {
+  it("keeps the MLBShop.com-only 2024 list historical and out of rank comparisons", () => {
+    const r = getRanking("mlb-2024-09-30-season-most-popular")!;
+    expect(reportStatus(r).kind).toBe("historical");
+    expect(getMovement(r)).toBeNull();
+    // The 2026 list still compares with 2025, not 2024.
+    expect(getMovement(getCurrentRanking("mlb")!)!.previous.id).toBe("mlb-2025-09-26-season-most-popular");
+  });
+  it("points the MLS 2025 report at the season announcement", () => {
+    const r = getCurrentRanking("mls")!;
+    expect(r.sourceUrl).toContain("30th-regular-season");
+    expect(r.publishedDate).toBe("2025-10-23");
+  });
+});

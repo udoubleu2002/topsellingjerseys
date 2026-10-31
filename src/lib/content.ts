@@ -72,11 +72,11 @@ export const leagueCopy: Record<string, { keyword: string; title: (r: Ranking) =
     keyword: "most popular MLS jerseys",
     title: (r) => `Most Popular MLS Jerseys: Top ${r.entries.length} Best-Sellers of ${seasonLabel(r)}`,
     intro:
-      "Major League Soccer publishes its best-selling player jerseys from MLSstore.com at the end of each season. Below are the most popular MLS jerseys on the latest official list, in its published order, with each player's 2026 season numbers.",
+      "Major League Soccer announces its best-selling player jerseys at the end of each regular season. Below are the most popular MLS jerseys on the latest official list, in its published order, with each player's 2026 season numbers.",
     meta: "The most popular MLS jerseys on the league's latest best-selling jerseys list (2025), in published order. Best selling soccer jerseys in MLS, stats and where to shop.",
     faq: [
       { q: "Why is the MLS list from 2025?", a: "It is the most recent list MLS has published. MLS usually releases its list near the end of the regular season, and we will add the 2026 list when it appears." },
-      { q: "Does this include club jerseys sold by other retailers?", a: "No. The ranking reflects player jersey sales on MLSstore.com." },
+      { q: "Does this include club jerseys sold by other retailers?", a: "MLS has not said which retailers its 2025 season list covers. Its earlier 2025 list, covering January 1 to May 1, counted player jersey sales on MLSstore.com only." },
     ],
   },
 };
