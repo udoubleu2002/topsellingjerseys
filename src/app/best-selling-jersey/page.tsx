@@ -18,7 +18,7 @@ export default function BestSellingJersey() {
   const data = bestSellingByLeague(3);
   const answer = ({ league, ranking, entries, published }: (typeof data)[number]) => {
     const [first, ...rest] = entries;
-    const num = first.player.number ? `No. ${first.player.number} ` : "";
+    const num = first.number ? `No. ${first.number} ` : "";
     return `${first.player.name}'s ${num}${first.team?.name ?? ""} jersey is No. 1 on ${ranking.title}, published by ${ranking.publisher} on ${published}.${rest.length ? ` ${leagueList(rest.map((e) => `${e.player.name} (No. ${e.rank})`))} follow.` : ""}`.replace(/  +/g, " ");
   };
   const faq = data.map((d) => ({ q: `What is the best selling ${d.league.name} jersey?`, a: answer(d) }));

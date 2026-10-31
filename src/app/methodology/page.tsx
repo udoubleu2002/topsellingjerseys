@@ -21,6 +21,15 @@ export default function Methodology() {
         <li>Rank movement (▲ ▼) appears only when an earlier report from the same series exists, so different periods or methods are never compared.</li>
         <li>When a report&apos;s sales period ended more than four months ago, the page says it is the latest available rather than current sales.</li>
       </ul>
+      <h2>Report status</h2>
+      <p>Every report carries one of three labels. We never call a report &quot;current&quot; just because it is the newest one on the site.</p>
+      <ul>
+        <li><strong>Latest Published Report:</strong> the newest report for a league, shown on its league page. If its sales period ended long ago, the page says that no newer report has been published and that the list reflects that period, not sales right now.</li>
+        <li><strong>Superseded Report:</strong> an older report replaced by a newer report from the same publisher and method. It stays online, unchanged, with a link to its replacement.</li>
+        <li><strong>Historical Report:</strong> an older report from a different series or method. It stays online for reference but is never compared rank by rank with other series.</li>
+      </ul>
+      <h2>Teams in historical rankings</h2>
+      <p>A ranking always shows the team the report credited the sale to. When a player has moved since, the list keeps that original team and adds a &quot;now with&quot; note, while the player page shows the player&apos;s current, verified team. Rankings are never rewritten after a trade or signing.</p>
       <h2>Dates we track</h2>
       <ul>
         <li><strong>Report published:</strong> when the source released the list.</li>

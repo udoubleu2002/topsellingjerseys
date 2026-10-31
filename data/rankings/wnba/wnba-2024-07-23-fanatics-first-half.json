@@ -10,7 +10,7 @@
   "limitations": [
     "This is not an official WNBA list. The league has not published a top-selling jersey list since 2021, so this is the newest ranked list from a major licensed retailer.",
     "The report describes player merchandise in general, not jerseys alone.",
-    "Teams shown are current. At the time of the report, Angel Reese played for the Chicago Sky and Kate Martin for the Las Vegas Aces.",
+    "Teams shown are the teams credited at the time of the report. Angel Reese (then Chicago Sky, now Atlanta Dream) and Kate Martin (then Las Vegas Aces, now Chicago Sky) have moved since; their current teams are on their player pages.",
     "Publication date is approximate (late July 2024)."
   ],
   "league": "wnba",
@@ -29,7 +29,8 @@
     {
       "rank": 2,
       "playerId": "angel-reese",
-      "teamIdAtReport": "chicago-sky"
+      "teamIdAtReport": "chicago-sky",
+      "numberAtReport": "5"
     },
     {
       "rank": 3,
@@ -39,7 +40,8 @@
     {
       "rank": 4,
       "playerId": "kate-martin",
-      "teamIdAtReport": "las-vegas-aces"
+      "teamIdAtReport": "las-vegas-aces",
+      "numberAtReport": "20"
     },
     {
       "rank": 5,

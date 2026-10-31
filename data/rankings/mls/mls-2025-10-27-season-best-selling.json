@@ -32,7 +32,8 @@
     {
       "rank": 3,
       "playerId": "hirving-lozano",
-      "teamIdAtReport": "san-diego-fc"
+      "teamIdAtReport": "san-diego-fc",
+      "numberAtReport": "11"
     },
     {
       "rank": 4,
@@ -57,12 +58,14 @@
     {
       "rank": 8,
       "playerId": "darlington-nagbe",
-      "teamIdAtReport": "columbus-crew"
+      "teamIdAtReport": "columbus-crew",
+      "numberAtReport": "6"
     },
     {
       "rank": 9,
       "playerId": "wilfried-zaha",
-      "teamIdAtReport": "charlotte-fc"
+      "teamIdAtReport": "charlotte-fc",
+      "numberAtReport": "10"
     },
     {
       "rank": 10,
