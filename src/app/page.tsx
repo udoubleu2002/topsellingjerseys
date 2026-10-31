@@ -37,7 +37,7 @@ export default function Home() {
               {leagues.map(({ league, ranking }) => {
                 const first = ranking!.entries[0];
                 const p = getPlayer(first.playerId)!;
-                const team = getTeam(p.teamId ?? p.lastTeamId);
+                const team = getTeam(first.teamIdAtReport ?? p.teamId ?? p.lastTeamId);
                 return (
                   <a key={league.id} href={`#${league.id}`} style={{ "--lg": league.accent } as React.CSSProperties}>
                     <span className="top1-lg">{league.name} · No. 1</span>

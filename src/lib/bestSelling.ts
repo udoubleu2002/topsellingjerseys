@@ -1,4 +1,4 @@
-import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "./data";
+import { getLeagues, getCurrentRanking, getPlayer, entryTeams } from "./data";
 import { fmtDate, period } from "./format";
 
 /** Each league's current published list with its top players resolved, for the "best selling" guide pages. */
@@ -8,7 +8,9 @@ export function bestSellingByLeague(top = 5) {
     if (!ranking) return [];
     const entries = ranking.entries.slice(0, top).map((e) => {
       const player = getPlayer(e.playerId)!;
-      return { rank: e.rank, player, team: getTeam(player.teamId ?? player.lastTeamId) };
+      // Team and number as credited in the report; `now` notes a later move.
+      const { reportTeam, number, now } = entryTeams(e, player);
+      return { rank: e.rank, player, team: reportTeam, number, now };
     });
     return [{
       league, ranking, entries, total: ranking.entries.length,

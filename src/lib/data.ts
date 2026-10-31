@@ -10,6 +10,8 @@ import {
   type League, type Team, type Player, type StatLine, type Ranking, type Merchant, type Product, type Promotion,
 } from "./schema";
 import { getProfile } from "./profiles";
+import { site } from "./config";
+import { daysBetween } from "./format";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -91,9 +93,40 @@ export function getRankings(leagueId?: string): Ranking[] {
     .sort((a, b) => b.publishedDate.localeCompare(a.publishedDate));
 }
 
-/** The current ranking is the newest published report for the league. */
+/** The newest published report for the league (the list its league page shows). It is the latest report, not necessarily current sales. */
 export function getCurrentRanking(leagueId: string): Ranking | undefined {
   return getRankings(leagueId).find((r) => r.status === "published");
+}
+
+/** Sales periods that ended more than this many days before the content review date are labeled as dated. */
+export const STALE_AFTER_DAYS = 120;
+
+export type ReportStatus = {
+  kind: "latest" | "superseded" | "historical";
+  /** "Latest Published Report", "Superseded Report" or "Historical Report". */
+  label: string;
+  /** The newer report that replaces this one in the same series (superseded) or the league's latest report (historical). */
+  newer?: Ranking;
+  /** For the latest report: its sales period ended long ago and no newer report has been published. */
+  dated: boolean;
+  periodEnd: string;
+};
+
+/**
+ * One status system for every report. A report is never called "current": the newest one is the latest published
+ * report, an older one in the same series is superseded by its successor, and an older one from another series is historical.
+ */
+export function reportStatus(r: Ranking, today = site.lastReviewed): ReportStatus {
+  const latest = getCurrentRanking(r.league);
+  const periodEnd = r.periodEnd ?? r.publishedDate;
+  if (latest?.id === r.id) {
+    return { kind: "latest", label: "Latest Published Report", dated: daysBetween(periodEnd, today) >= STALE_AFTER_DAYS, periodEnd };
+  }
+  const successor = getRankings(r.league)
+    .filter((x) => x.series === r.series && x.publishedDate > r.publishedDate)
+    .sort((a, b) => a.publishedDate.localeCompare(b.publishedDate))[0];
+  if (successor) return { kind: "superseded", label: "Superseded Report", newer: successor, dated: false, periodEnd };
+  return { kind: "historical", label: "Historical Report", newer: latest, dated: false, periodEnd };
 }
 
 export const getRanking = (id: string) => loadStore().rankings.find((r) => r.id === id && r.status !== "draft");
@@ -116,7 +149,7 @@ export function rankMovement(r: Ranking, playerId: string): { previousRank: numb
 /** Every ranking appearance for a player, newest first. */
 export function getAppearances(playerId: string) {
   return getRankings()
-    .flatMap((r) => r.entries.filter((e) => e.playerId === playerId).map((e) => ({ ranking: r, rank: e.rank })))
+    .flatMap((r) => r.entries.filter((e) => e.playerId === playerId).map((e) => ({ ranking: r, rank: e.rank, reportTeam: getTeam(e.teamIdAtReport), entry: e })))
     .sort((a, b) => b.ranking.publishedDate.localeCompare(a.ranking.publishedDate));
 }
 
@@ -137,6 +170,22 @@ export function isIndexable(p: Player) {
 
 export function teamPlayers(teamId: string) {
   return getPlayers().filter((p) => (p.teamId ?? p.lastTeamId) === teamId);
+}
+
+/**
+ * Teams for one ranking entry. The report's team is what the sales were credited to and is never rewritten; the current
+ * line is set only when the player has since moved, retired or become a free agent, so lists can say "now with ...".
+ */
+export function entryTeams(entry: Ranking["entries"][number], p: Player): { reportTeam: Team | undefined; number: string | null; now: string | null } {
+  const reportTeam = getTeam(entry.teamIdAtReport) ?? getTeam(p.teamId ?? p.lastTeamId);
+  const moved = !!entry.teamIdAtReport && entry.teamIdAtReport !== p.teamId;
+  const number = entry.numberAtReport !== undefined ? entry.numberAtReport : p.number;
+  let now: string | null = null;
+  if (moved) {
+    if (p.teamId) now = `Now with ${getTeam(p.teamId)?.name ?? "a new team"}`;
+    else now = p.status === "Retired" ? "Now retired" : p.status === "Free agent" ? "Now a free agent" : `Now ${p.status.toLowerCase()}`;
+  }
+  return { reportTeam, number, now };
 }
 
 /** Team line for a player: current team, or status plus last team for retired players and free agents. */

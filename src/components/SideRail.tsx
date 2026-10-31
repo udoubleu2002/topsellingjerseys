@@ -57,7 +57,7 @@ export function SideRail({ active }: { active?: string }) {
                     <li key={p.id}>
                       <span className="rail-rank">{e.rank}</span>
                       <Link href={`/players/${p.slug}/`}>{p.name}</Link>
-                      <span className="rail-team">{getTeam(p.teamId ?? p.lastTeamId)?.name.split(" ").pop() ?? ""}</span>
+                      <span className="rail-team">{getTeam(e.teamIdAtReport ?? p.teamId ?? p.lastTeamId)?.name.split(" ").pop() ?? ""}</span>
                     </li>
                   );
                 })}

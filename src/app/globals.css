@@ -1188,3 +1188,14 @@ h3.lrow-name { display: inline; }
   .story-jersey .pframe.photo { grid-row: span 3; }
   .story-jersey .btn-shop { grid-column: 1 / -1; }
 }
+
+/* Report status line (Latest Published / Superseded / Historical) above each report's dates. */
+.report-status { margin: 0 0 10px; padding: 9px 14px; border: 1px solid var(--line); border-left: 4px solid #16a34a; border-radius: var(--radius); background: var(--surface); font-size: 14px; line-height: 1.45; }
+.report-status-label { display: inline-block; margin-right: 6px; font: 700 11px/1.6 var(--f-body); letter-spacing: .08em; text-transform: uppercase; }
+.report-status.is-dated { border-left-color: #d97706; }
+.report-status.is-superseded, .report-status.is-historical { border-left-color: #64748b; }
+.rank-now { color: var(--muted); font-weight: 500; }
+.lrow-now { display: block; font-size: 12px; line-height: 1.4; color: #fbbf24; font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+.status-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font: 600 12px/1.6 var(--f-body); background: #e2e8f0; color: #1e293b; white-space: nowrap; }
+.status-pill.is-latest { background: #dcfce7; color: #14532d; }
+.status-pill.is-dated { background: #fef3c7; color: #78350f; }

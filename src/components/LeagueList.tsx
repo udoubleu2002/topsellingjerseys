@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { League, Ranking } from "@/lib/schema";
-import { getPlayer, getTeam, getProducts, getStatLine, teamLabel } from "@/lib/data";
+import { getPlayer, getTeam, getProducts, getStatLine, entryTeams } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { HaveJersey } from "./HaveJersey";
 import { ShopButton } from "./ShopButton";
@@ -24,19 +24,20 @@ export function LeagueList({ league, ranking }: { league: League; ranking: Ranki
         {ranking.entries.map((e) => {
           const p = getPlayer(e.playerId)!;
           const team = getTeam(p.teamId ?? p.lastTeamId);
+          const { reportTeam, number, now } = entryTeams(e, p);
           const product = getProducts(p.id).find((x) => x.productType === "jersey");
           const offer = product ? productOffer(product) : searchOffer(p, team);
           // "G" is games played in the NFL, NBA and MLB but goals in the NHL and MLS.
           const skip = league.id === "nhl" || league.id === "mls" ? ["GP", "GS", "MIN"] : ["GP", "G", "GS", "MIN"];
           const stats = getStatLine(p.id)?.statistics.filter((s) => !skip.includes(s.label)).slice(0, 3) ?? [];
-          const c = team?.colors ?? { primary: "#e5e7eb", secondary: "#334155", accent: "#94a3b8" };
+          const c = reportTeam?.colors ?? { primary: "#e5e7eb", secondary: "#334155", accent: "#94a3b8" };
           return (
             <li key={p.id} className={`lrow${e.rank === 1 ? " is-first" : ""}`} data-impression="home_list" data-league={league.id} data-player={p.id} data-rank={e.rank}>
               <span className="lrow-rank">{e.rank}</span>
-              <span className="lrow-tile" style={{ backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }} aria-hidden="true">{p.number ?? ""}</span>
+              <span className="lrow-tile" style={{ backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }} aria-hidden="true">{number ?? ""}</span>
               <span className="lrow-who">
                 <Link className="lrow-name" href={`/players/${p.slug}/`}>{p.name}</Link>
-                <span className="lrow-team">{teamLabel(p)} · {p.position}</span>
+                <span className="lrow-team">{reportTeam?.name ?? p.status} · {p.position}{now && <span className="lrow-now">{now}</span>}</span>
                 {stats.length > 0 && <span className="lrow-stats" title={stats.map((s) => `${s.value} ${s.label}`).join(" · ")}>{stats.map((s) => `${s.value} ${s.label}`).join(" · ")}</span>}
               </span>
               <span className="lrow-acts">

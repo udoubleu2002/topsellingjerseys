@@ -79,7 +79,14 @@ export const RankingSchema = z.object({
   lastVerified: isoDate,
   limitations: z.array(z.string()),
   status: z.enum(["draft", "published", "archived"]),
-  entries: z.array(z.object({ rank: z.number().int().positive(), playerId: z.string(), teamIdAtReport: z.string().nullable() })).min(1),
+  entries: z.array(z.object({
+    rank: z.number().int().positive(),
+    playerId: z.string(),
+    /** Team the report credited the sale to. Never changed when the player later moves. */
+    teamIdAtReport: z.string().nullable(),
+    /** Jersey number at the time of the report, when it differs from (or must not be inferred from) the player's current number. */
+    numberAtReport: z.string().nullable().optional(),
+  })).min(1),
 });
 
 export const MerchantSchema = z.object({

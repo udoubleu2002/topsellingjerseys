@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Ranking } from "@/lib/schema";
-import { getPlayer, getTeam, getStatLine, getProducts, rankMovement, teamLabel as labelFor } from "@/lib/data";
+import { getPlayer, getTeam, getStatLine, getProducts, rankMovement, entryTeams } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { ProductImage } from "./ProductImage";
 import { ShopButton } from "./ShopButton";
@@ -14,15 +14,18 @@ import { fmtShortDate } from "@/lib/format";
 export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ranking: Ranking; rank: number; playerId: string; leagueName: string; page: string }) {
   const player = getPlayer(playerId)!;
   const team = getTeam(player.teamId ?? player.lastTeamId);
+  // The row shows the team (and number) the report credited the sale to; a player who has moved since gets a "now with" note.
+  const entry = ranking.entries.find((e) => e.playerId === playerId)!;
+  const { reportTeam, number, now } = entryTeams(entry, player);
   const products = getProducts(player.id).filter((p) => p.productType === "jersey");
   const offer = products.length ? productOffer(products[0]) : searchOffer(player, team);
   const move = rankMovement(ranking, player.id);
   const href = `/players/${player.slug}/`;
-  const teamLabel = labelFor(player);
+  const teamLabel = reportTeam?.name ?? player.status;
   // Same stats as the homepage list: "G" is games played in the NFL, NBA and MLB but goals in the NHL and MLS.
   const skip = ranking.league === "nhl" || ranking.league === "mls" ? ["GP", "GS", "MIN"] : ["GP", "G", "GS", "MIN"];
   const quick = getStatLine(player.id)?.statistics.filter((s) => !skip.includes(s.label)).slice(0, 4) ?? [];
-  const c = team?.colors ?? { primary: "#e5e7eb", secondary: "#334155", accent: "#94a3b8" };
+  const c = reportTeam?.colors ?? { primary: "#e5e7eb", secondary: "#334155", accent: "#94a3b8" };
   const photo = products[0]?.image ? products[0] : undefined;
   // A compact row that opens to the full card; the name goes straight to the player page.
   return (
@@ -30,12 +33,12 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
       <details className="rdet">
         <summary className="lrow">
           <span className="lrow-rank" aria-label={`Rank ${rank}`}>{rank}</span>
-          <span className="lrow-tile" style={{ backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }} aria-hidden="true">{player.number ?? ""}</span>
+          <span className="lrow-tile" style={{ backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }} aria-hidden="true">{number ?? ""}</span>
           <span className="lrow-who">
             <span><h3 className="lrow-name" id={`p-${player.id}`}>{player.name}</h3>
               {move && move.delta !== null && move.delta !== 0 && <span className={`rank-move ${move.delta > 0 ? "up" : "down"}`}>{move.delta > 0 ? ` ▲ ${move.delta}` : ` ▼ ${-move.delta}`}</span>}
               {move && move.previousRank === null && <span className="rank-move"> New</span>}</span>
-            <span className="lrow-team">{teamLabel} · {player.position}{player.number ? <span className="lrow-no"> · No. {player.number}</span> : null}</span>
+            <span className="lrow-team">{teamLabel} · {player.position}{number ? <span className="lrow-no"> · No. {number}</span> : null}{now && <span className="lrow-now">{now}</span>}</span>
             {quick.length > 0 && <span className="lrow-stats">{quick.map((s) => `${s.value} ${s.label}`).join(" · ")}</span>}
           </span>
           <span className="rrow-end">
@@ -53,10 +56,11 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
           {photo && <Link href={href} tabIndex={-1} aria-hidden="true"><ProductImage player={player} team={team} product={photo} priority={rank <= 2} /></Link>}
           <div className="body-col">
             <p className="p-meta">
-              <span><strong>{teamLabel}</strong></span>
+              <span><strong>{teamLabel}</strong>{now ? " (in this report)" : ""}</span>
+              {now && <span>{now}</span>}
               <span>{leagueName}</span>
               <span>{player.position}</span>
-              {player.number && <span>No. {player.number}</span>}
+              {number && <span>No. {number}</span>}
               {player.birthday && <span>Born {fmtShortDate(player.birthday)}</span>}
             </p>
             <Highlights player={player} />

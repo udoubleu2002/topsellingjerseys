@@ -41,7 +41,8 @@
     {
       "rank": 5,
       "playerId": "lebron-james",
-      "teamIdAtReport": "los-angeles-lakers"
+      "teamIdAtReport": "los-angeles-lakers",
+      "numberAtReport": "23"
     },
     {
       "rank": 6,
@@ -91,7 +92,8 @@
     {
       "rank": 15,
       "playerId": "lamelo-ball",
-      "teamIdAtReport": "charlotte-hornets"
+      "teamIdAtReport": "charlotte-hornets",
+      "numberAtReport": "1"
     }
   ]
 }

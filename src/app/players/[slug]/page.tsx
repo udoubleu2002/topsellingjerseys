@@ -25,7 +25,7 @@ import { rectFor } from "@/lib/lidsAds";
 import { adsFor } from "@/lib/houseAds";
 import {
   getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getStatLine, getProducts, getPlayer,
-  isIndexable, teamLabel, teamPlayers, loadStore,
+  isIndexable, teamLabel, teamPlayers, loadStore, reportStatus,
 } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { abs, site } from "@/lib/config";
@@ -261,14 +261,16 @@ export default async function PlayerPage({ params }: Props) {
               <h2 id="rh-h">Ranking history</h2>
               <div className="table-wrap">
                 <table className="table">
-                  <thead><tr><th>Rank</th><th>Report</th><th>Published</th><th>Sales period</th><th>Source</th></tr></thead>
+                  <thead><tr><th>Rank</th><th>Report</th><th>Team in report</th><th>Published</th><th>Sales period</th><th>Status</th><th>Source</th></tr></thead>
                   <tbody>
-                    {appearances.map(({ ranking, rank }) => (
+                    {appearances.map(({ ranking, rank, reportTeam }) => (
                       <tr key={ranking.id}>
                         <td className="num" style={{ fontSize: 18, fontWeight: 700 }}>{rank}</td>
                         <td><Link href={`/rankings/${ranking.league}/${ranking.id}/`}>{ranking.title}</Link></td>
+                        <td>{reportTeam?.name ?? "—"}</td>
                         <td>{fmtShortDate(ranking.publishedDate)}</td>
                         <td>{period(ranking.periodStart, ranking.periodEnd, ranking.periodLabel)}</td>
+                        <td>{(() => { const st = reportStatus(ranking); return <span className={`status-pill is-${st.kind}${st.dated ? " is-dated" : ""}`}>{st.label}</span>; })()}</td>
                         <td><a href={ranking.sourceUrl} target="_blank" rel="noopener">{ranking.publisher}</a></td>
                       </tr>
                     ))}

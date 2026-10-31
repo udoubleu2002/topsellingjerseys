@@ -46,7 +46,7 @@ export default function BestSellingJerseys() {
                 <span className="bs-rank">{e.rank}</span>
                 <span className="bs-who">
                   <Link href={`/players/${e.player.slug}/`}>{e.player.name} jersey</Link>
-                  <span className="bs-team">{[e.team?.name, e.player.number && `No. ${e.player.number}`].filter(Boolean).join(" · ")}</span>
+                  <span className="bs-team">{[e.team?.name, e.number && `No. ${e.number}`, e.now].filter(Boolean).join(" · ")}</span>
                 </span>
                 <HaveJersey name={e.player.name} league={league.id} className="have-sm" />
               </li>

@@ -5,7 +5,7 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Freshness } from "@/components/RankingHeader";
-import { getRankings, getRanking, getLeague, getPlayer, getTeam, getCurrentRanking, rankMovement, getPreviousInSeries } from "@/lib/data";
+import { getRankings, getRanking, getLeague, getPlayer, getTeam, getCurrentRanking, rankMovement, getPreviousInSeries, reportStatus, entryTeams } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 
 export const dynamicParams = false;
@@ -36,16 +36,17 @@ export default async function ReportPage({ params }: Props) {
   if (!r || !league || r.league !== lid) notFound();
   const isCurrent = getCurrentRanking(lid)?.id === r.id;
   const prev = getPreviousInSeries(r);
+  const status = reportStatus(r);
   return (
     <>
       <SiteHeader active={lid} />
       <main id="main" data-page-type="report" data-league={lid}>
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Reports", href: "/rankings/" }, { name: r.title, href: `/rankings/${lid}/${id}/` }]} />
         <header className="wrap page-head">
-          <p className="eyebrow">{league.name} report · {isCurrent ? "Current" : "Archived"}</p>
+          <p className="eyebrow">{league.name} report · {status.label}</p>
           <h1>{r.title}</h1>
           <Freshness ranking={r} />
-          {isCurrent && <p>This is the report shown on <Link href={`/${league.slug}/`}>Top Selling {league.name} Jerseys</Link>.</p>}
+          {isCurrent && <p>This is the latest report, shown on <Link href={`/${league.slug}/`}>Top Selling {league.name} Jerseys</Link>.</p>}
         </header>
         <div className="wrap cols" style={{ paddingTop: 0 }}>
           <section className="block" aria-labelledby="list-h">
@@ -57,11 +58,12 @@ export default async function ReportPage({ params }: Props) {
                   {r.entries.map((e) => {
                     const p = getPlayer(e.playerId)!;
                     const m = rankMovement(r, p.id);
+                    const { now } = entryTeams(e, p);
                     return (
                       <tr key={e.playerId}>
                         <td className="num" style={{ fontSize: 18, fontWeight: 700 }}>{e.rank}</td>
                         <td><Link href={`/players/${p.slug}/`}>{p.name}</Link></td>
-                        <td>{getTeam(e.teamIdAtReport)?.name ?? "—"}</td>
+                        <td>{getTeam(e.teamIdAtReport)?.name ?? "—"}{now && <span className="rank-now"> ({now.charAt(0).toLowerCase() + now.slice(1)})</span>}</td>
                         {prev && <td>{m?.previousRank ?? "New"}</td>}
                       </tr>
                     );
