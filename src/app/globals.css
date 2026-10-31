@@ -1224,3 +1224,79 @@ h3.lrow-name { display: inline; }
 .mj-item-name { min-width: 0; overflow-wrap: anywhere; }
 a.mj-item-name { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .mj-rank { font: 700 12px/1 var(--f-num); color: var(--muted); }
+
+/* ---------- Sharper finish (Oct 31, 2026) ----------
+   Condensed jersey lettering is kept for what is actually on a jersey or a scoreboard: page H1s, rank numerals, number
+   tiles and stats. Everything else (section heads, sidebar heads, buttons, labels) moves to the text face in normal case,
+   the shopping red is deeper and less orange, corners are tighter and decorative underlines are gone. Text, markup and
+   headings are unchanged, so nothing here touches SEO. */
+:root {
+  --accent: #d8313a;
+  --accent-hover: #e8434b;
+  --accent-tint: #2a1215;
+  --radius: 4px;
+  --line: #1e2638;
+  --line-2: #2c3750;
+}
+
+/* Brand: upright lettering, the second word in the shopping red. */
+.brand-name em { font-style: normal; }
+.brand-name { letter-spacing: .02em; }
+
+/* H1s keep the jersey lettering but lose some weight and spacing. */
+.page-head h1, .phero h1, .hero h1, .mj-hero h1, .article-head h1 { font-weight: 700; letter-spacing: .005em; line-height: 1; }
+
+/* Section and sidebar heads: text face, normal case, tight tracking. */
+.section-head h2, .block > h2, .side-box h2, .buybox h2, .info h2, .llist-head h2, .list-h, .mj-card-head h2, .mj-account-h,
+.bs-one h2, .article-body h2, .article-shop h2, .article-foot h2, .article-chart h2 {
+  font-family: var(--f-body); font-weight: 700; text-transform: none; letter-spacing: -.015em;
+}
+.section-head h2, .block > h2 { font-size: 24px; line-height: 1.2; }
+.block > h2 { padding-bottom: 10px; border-bottom-color: var(--line); }
+.llist-head h2 { font-size: clamp(22px, 2.6vw, 28px); line-height: 1.15; }
+.side-box h2, .buybox h2 { font-size: 16px; line-height: 1.3; }
+.mj-card-head h2 { font-size: clamp(20px, 2.8vw, 26px); line-height: 1.15; }
+.mj-account-h { font-size: 20px; }
+.bs-one h2 { font-size: 22px; line-height: 1.15; }
+.report h3, .explainer h3, .moves-box h3, .troster h3, .profile h3, .team-group h3, .pcard-name, .hads-name, .deal-body strong,
+.mj-add-name, .mj-cta p, .sticky-who strong {
+  font-family: var(--f-body); text-transform: none; letter-spacing: -.01em; font-weight: 700;
+}
+.moves-box h3, .troster h3 { font-size: 15px; }
+.team-group h3 { font-size: 16px; color: var(--ink); }
+.mj-cta p { font-size: 22px; line-height: 1.2; }
+.pcard-name { font-size: 15px; line-height: 1.35; }
+
+/* Small labels: one consistent style, text face, small caps-like tracking. */
+.rail-h, .rail-news-who, .ad-label, .hads-tag, .hero-kicker, .mj-hero .kicker, .mj-field > span, .bs-one-lg, .footer h2, .dt-tag, .deal-tag, .sale-badge {
+  font-family: var(--f-body) !important; font-weight: 700; letter-spacing: .1em;
+}
+.rail-h { font-size: 12px; color: var(--muted); }
+.rail-news-who { font-size: 11px; color: #ef7c80; }
+.hero-kicker, .mj-hero .kicker { font-size: 12px; }
+.bs-one-lg { font-size: 11px !important; }
+.dt-tag, .deal-tag, .sale-badge { font-size: 11px; padding: 4px 6px; border-radius: 2px; }
+
+/* Buttons: text face, normal case, crisp corners. The red stays reserved for shopping. */
+.btn-shop, .mj-share .btn-shop, .mj-cta .btn-shop, .pcard .btn-shop {
+  font-family: var(--f-body); font-weight: 600; font-size: 14px; text-transform: none; letter-spacing: 0; border-radius: 4px; box-shadow: none;
+}
+.btn-ghost, .llist-more, .alert-row button, .mj-add-plus {
+  font-family: var(--f-body); font-weight: 600; font-size: 13.5px; text-transform: none; letter-spacing: 0; border-radius: 4px;
+}
+.llist-more { border-color: var(--line-2); color: var(--ink-2); }
+.llist-more:hover { color: #fff; border-color: #4a5875; }
+.mj-link { border-radius: 4px; font-family: var(--f-body); font-weight: 700; font-size: 13.5px; text-transform: none; letter-spacing: 0; }
+.lrow .btn-shop, .lrow-acts > .btn-shop { border-radius: 4px; font-size: 13px; }
+.have-btn, .mj-wish-add { border-radius: 4px; color: var(--muted); background: transparent; }
+.have-btn:hover, .mj-wish-add:hover { color: var(--ink); border-color: var(--line-2); }
+.related a, .team-chip, .mj-group li, .mj-got, .status-pill, .style-tag { border-radius: 4px; }
+
+/* Links: plain underlines instead of the red rule. */
+.llist-meta a, .fresh dd a { text-decoration-color: rgba(197, 204, 217, .45); text-decoration-thickness: 1px; }
+.llist-meta a:hover, .fresh dd a:hover { text-decoration-color: currentColor; }
+
+/* Surfaces: flat, no gradients. */
+.mj-card { border-radius: 6px; background: var(--surface); box-shadow: none; border-color: var(--line); }
+.lrow.is-first { background: rgba(243, 185, 64, .045); }
+.top1 a { background: var(--surface); }
