@@ -6,16 +6,22 @@ They are also listed in the side rail (home and league pages), on the player pag
 
 ## What to write each day
 
+Each story is a **player feature**, not a game recap. A recent event is the hook; the player is the subject; the close makes the case for owning that player's jersey.
+
 - **One story per league** the live site covers (today: NFL, NBA, WNBA, MLB, NHL, MLS). Check the homepage first; cover only leagues the site lists. No college sports.
-- **The biggest positive story in that league** from the past 24 to 72 hours: a champion crowned, a big game, a record, a milestone, a huge individual moment. Not injuries, arrests, firings or losing streaks.
-- If a league is quiet (offseason, no games), pick the most meaningful positive current development, such as an award, a signing or a milestone. Never invent news.
-- 300 to 400 words of body copy. Short paragraphs, two or three `## ` subheadings, a strong specific opening, and a forward-looking close.
+- **Find the hook:** the biggest positive moment in that league from the past 24 to 72 hours (a title, a big game, a record, a milestone, an award, a signing). Not injuries, arrests, firings or losing streaks. If a league is quiet, use its most meaningful positive current development. Never invent news.
+- **Pick one player from that moment** and make them the story. Prefer a player with a page in `data/players.json` (set `playerId`), and one not featured in the last week of stories unless there is a big new reason.
+- **Shape of the story** (300 to 400 words, short paragraphs, two or three `## ` subheadings):
+  1. Open with the player, using the recent moment as the hook in two or three sentences. Keep the event itself brief: the key line or stat, not a play-by-play or full box score.
+  2. Feature the player: who they are, how they got here, their season so far, what makes their game distinctive, and what they mean to their team and its fans.
+  3. **Why their jersey**: a closing section (for example `## Why fans want the [Name] jersey`) that makes the case from facts: their role as the face of a team, a breakout or milestone season, a fresh start with a new team, a rookie arriving, a championship. Link to `/players/<slug>/` and end with what to watch next.
+- The headline, title and description lead with the player, not the score.
 
 ## Writing rules
 
 - **Original writing only.** Take facts from sources, never their wording. Do not quote players, coaches or outlets, and do not reuse a headline or a distinctive phrase. Paraphrase what someone said as a fact ("Keefe praised his new goalie") or leave it out.
 - Verify every number, date, score and team against a dated source, and list it in `sources` (with `date` when known).
-- Sales claims only from a published list, named with its sales period. With no list, write about performance and popularity without implying sales.
+- Sales claims only from a published list, named with its sales period. With no list, the jersey case rests on performance, role and popularity; never say or imply a jersey is selling well, selling out, or in short supply.
 - No invented quotes, prices, availability or rankings. Mark analysis and speculation as such.
 
 ## SEO fields
