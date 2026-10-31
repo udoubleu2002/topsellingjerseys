@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { site, backendEnabled } from "@/lib/config";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getLeagues, getPlayers, isIndexable } from "@/lib/data";
+import { getLeagues, getPlayers, isIndexable, getCurrentRanking, getPlayer } from "@/lib/data";
 import type { League } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
@@ -20,6 +20,9 @@ export default function MyJerseysPage() {
   const pages: Record<string, Record<string, string>> = {};
   for (const p of getPlayers().filter(isIndexable)) for (const l of p.leagues) (pages[l] ??= {})[p.name] = p.slug;
   const pagesJson = JSON.stringify(pages).replace(/</g, "\\u003c");
+  // The top 10 of each league's latest report, for "top sellers you don't have yet" suggestions.
+  const top = leagues.flatMap((l) => (getCurrentRanking(l.id)?.entries.slice(0, 10) ?? []).map((e) => ({ l: l.id, n: getPlayer(e.playerId)!.name, r: e.rank })));
+  const topJson = JSON.stringify(top).replace(/</g, "\\u003c");
   return (
     <>
       <SiteHeader />
@@ -33,6 +36,7 @@ export default function MyJerseysPage() {
         </section>
         {/* The builder's markup is handed to React as HTML so public/my-jerseys.js can change it without hydration errors. */}
         <script type="application/json" id="mj-pages" dangerouslySetInnerHTML={{ __html: pagesJson }} />
+        <script type="application/json" id="mj-top" dangerouslySetInnerHTML={{ __html: topJson }} />
         <div className="wrap mj-app" id="mj-app" data-site={site.url} dangerouslySetInnerHTML={{ __html: appHtml(leagues, backendEnabled) }} />
       </main>
     </>
@@ -69,6 +73,11 @@ function appHtml(leagues: League[], accounts: boolean) {
   <div class="mj-card mj-wish-card">
     <div class="mj-card-head"><span class="mj-wish-icon" aria-hidden="true">★</span><h2 id="mj-wish-count">My wishlist: 0</h2></div>
     <div id="mj-wish" class="mj-groups"><p class="mj-empty">Nothing on your wishlist yet.</p></div>
+  </div>
+  <div class="mj-card mj-suggest-card" id="mj-suggest-card" hidden>
+    <h2 class="mj-account-h">Top sellers you don’t have yet</h2>
+    <p class="mj-note">From each league’s latest published sales list, in the leagues you collect.</p>
+    <div id="mj-suggest" class="mj-groups"></div>
   </div>
   <div class="mj-card mj-account" id="mj-account">
     <h2 class="mj-account-h">Save your list for good</h2>

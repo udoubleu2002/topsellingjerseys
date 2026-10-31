@@ -41,7 +41,7 @@ export default async function ReportPage({ params }: Props) {
   return (
     <>
       <SiteHeader active={lid} />
-      <main id="main" data-page-type="report" data-league={lid}>
+      <main id="main" data-page-type="report" data-league={lid} data-report-status={status.kind}>
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Reports", href: "/rankings/" }, { name: r.title, href: `/rankings/${lid}/${id}/` }]} />
         <header className="wrap page-head">
           <p className="eyebrow">{league.name} report · {status.label}</p>
@@ -97,7 +97,7 @@ export default async function ReportPage({ params }: Props) {
           <div className="section-head"><h2 id="related-reports-h">Related reports</h2></div>
           <nav className="related" aria-labelledby="related-reports-h">
             {getRankings(lid).filter((x) => x.id !== r.id).map((x) => (
-              <Link key={x.id} href={getCurrentRanking(lid)?.id === x.id ? `/${league.slug}/` : `/rankings/${lid}/${x.id}/`}>{x.title}</Link>
+              <Link key={x.id} href={getCurrentRanking(lid)?.id === x.id ? `/${league.slug}/` : `/rankings/${lid}/${x.id}/`} data-track="report_link_click" data-placement="related_reports" data-league={lid} data-report={x.id}>{x.title}</Link>
             ))}
             <Link href={`/${league.slug}/`}>Top Selling {league.name} Jerseys</Link>
             <Link href="/rankings/">All reports</Link>

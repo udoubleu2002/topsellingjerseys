@@ -7,7 +7,7 @@ const name = (id: string) => getPlayer(id);
 
 function PlayerLink({ id }: { id: string }) {
   const p = name(id);
-  return p ? <Link href={`/players/${p.slug}/`}>{p.name}</Link> : <>{id}</>;
+  return p ? <Link href={`/players/${p.slug}/`} data-track="movement_player_click" data-placement="movement" data-player={p.id} data-league={p.leagues[0]}>{p.name}</Link> : <>{id}</>;
 }
 
 /**
@@ -28,10 +28,10 @@ export function Movement({ ranking, leagueName, id = "moves-h" }: { ranking: Ran
   ].filter(Boolean).join(" ");
 
   return (
-    <section className="wrap section moves" aria-labelledby={id} data-section="movement">
+    <section className="wrap section moves" aria-labelledby={id} data-section="movement" data-impression="movement" data-league={ranking.league} data-report={ranking.id}>
       <div className="section-head"><h2 id={id}>How the {leagueName} list changed</h2></div>
       <p className="moves-lede">
-        Compared with <Link href={`/rankings/${prev.league}/${prev.id}/`}>{prev.title}</Link> ({prevPeriod}, published {fmtShortDate(prev.publishedDate)}).
+        Compared with <Link href={`/rankings/${prev.league}/${prev.id}/`} data-track="report_link_click" data-placement="movement" data-league={prev.league} data-report={prev.id}>{prev.title}</Link> ({prevPeriod}, published {fmtShortDate(prev.publishedDate)}).
         Both come from {prev.publisher} and use the same method and length of sales period, so ranks can be compared directly. {summary}
       </p>
       <div className="moves-grid">

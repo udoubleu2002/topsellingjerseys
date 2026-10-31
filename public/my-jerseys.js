@@ -314,9 +314,52 @@
       search.focus();
     }
 
+    var top = [];
+    try { top = JSON.parse((document.getElementById("mj-top") || {}).textContent || "[]"); } catch (e) {}
+    // Suggestions: the highest-ranked players on each collected league's latest list that are in neither list yet.
+    function renderSuggest() {
+      var card = app.querySelector("#mj-suggest-card"), box = app.querySelector("#mj-suggest");
+      if (!card || !box) return;
+      box.innerHTML = "";
+      var leagues = {};
+      state.items.concat(state.wish).forEach(function (i) { leagues[i.l] = 1; });
+      var any = false;
+      LEAGUES.forEach(function (l) {
+        if (!leagues[l]) return;
+        var picks = top.filter(function (t) { return t.l === l && find(state.items, l, t.n) < 0 && find(state.wish, l, t.n) < 0; }).slice(0, 3);
+        if (!picks.length) return;
+        any = true;
+        var sec = el("section", "mj-group");
+        var tab = app.querySelector('.mj-tab[data-league="' + l + '"]');
+        if (tab) sec.style.setProperty("--lg", getComputedStyle(tab).getPropertyValue("--lg"));
+        sec.appendChild(el("h3", null, NAMES[l]));
+        var ul = el("ul");
+        picks.forEach(function (t) {
+          var li = el("li");
+          li.appendChild(el("span", "mj-rank", "No. " + t.r));
+          li.appendChild(nameNode({ l: l, n: t.n }));
+          var have = el("button", "mj-got", "I have it");
+          have.type = "button";
+          have.setAttribute("aria-label", "Add " + t.n + " to My Jerseys");
+          have.addEventListener("click", function () { state.items.push({ l: l, n: t.n }); save(state); render(); track("jersey_added", { league: l, player: t.n, placement: "my_jerseys_suggest" }); });
+          var want = el("button", "mj-got", "Want it");
+          want.type = "button";
+          want.setAttribute("aria-label", "Add " + t.n + " to your wishlist");
+          want.addEventListener("click", function () { state.wish.push({ l: l, n: t.n }); save(state); render(); track("wishlist_added", { league: l, player: t.n, placement: "my_jerseys_suggest" }); });
+          li.appendChild(have);
+          li.appendChild(want);
+          ul.appendChild(li);
+        });
+        sec.appendChild(ul);
+        box.appendChild(sec);
+      });
+      card.hidden = !any;
+    }
+
     function render() {
       renderWish();
       totals();
+      renderSuggest();
       countH.textContent = headline(state.name, state.items.length);
       groups.innerHTML = "";
       share.hidden = state.items.length === 0;

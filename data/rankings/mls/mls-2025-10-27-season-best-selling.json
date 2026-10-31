@@ -5,18 +5,19 @@
   "publisher": "Major League Soccer (via MLSsoccer.com)",
   "periodStart": "2025-02-22",
   "periodEnd": "2025-10-18",
-  "scope": "Player jersey sales on MLSstore.com during the 2025 MLS season.",
-  "methodology": "Based on sales through MLSstore.com. Unit counts are not published.",
+  "scope": "Player jersey sales during the 2025 MLS regular season, as announced by Major League Soccer in its season review.",
+  "methodology": "MLS published the top 10 without naming the retailers included or publishing unit counts.",
   "limitations": [
     "This is the most recent official MLS list; no 2026 list has been published yet.",
-    "Publication date is approximate (late October 2025)."
+    "MLS announced the list in its 2025 regular-season review on Oct. 23, 2025 and did not name the retailers covered.",
+    "An earlier MLS list (June 18, 2025) covered only January 1 to May 1, 2025 on MLSstore.com, so the two are not compared."
   ],
   "league": "mls",
-  "sourceUrl": "https://www.mlssoccer.com/news/lionel-messi-leads-mls-best-selling-jerseys-in-2025",
-  "publishedDate": "2025-10-27",
-  "periodLabel": "2025 MLS season sales on MLSstore.com (the newest official MLS list)",
+  "sourceUrl": "https://www.mlssoccer.com/news/major-league-soccer-s-30th-regular-season-brings-unmatched-fan-engagement",
+  "publishedDate": "2025-10-23",
+  "periodLabel": "2025 MLS regular season (the newest official MLS list)",
   "retrievedDate": "2026-10-20",
-  "lastVerified": "2026-10-27",
+  "lastVerified": "2026-10-31",
   "status": "published",
   "entries": [
     {

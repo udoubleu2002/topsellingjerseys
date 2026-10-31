@@ -29,7 +29,7 @@ export default function Archive() {
                     <tbody>
                       {getRankings(l.id).map((r) => (
                         <tr key={r.id}>
-                          <td><Link href={`/rankings/${l.id}/${r.id}/`}>{r.title}</Link><br /><span className="shop-note">{r.publisher}</span></td>
+                          <td><Link href={`/rankings/${l.id}/${r.id}/`} data-track="report_link_click" data-placement="archive" data-league={l.id} data-report={r.id}>{r.title}</Link><br /><span className="shop-note">{r.publisher}</span></td>
                           <td>{fmtShortDate(r.publishedDate)}</td>
                           <td>{period(r.periodStart, r.periodEnd, r.periodLabel)}</td>
                           <td>{r.entries.length}</td>
