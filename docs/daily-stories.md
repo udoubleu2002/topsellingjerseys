@@ -6,22 +6,25 @@ They are also listed in the side rail (home and league pages), on the player pag
 
 ## What to write each day
 
-Each story is a **player feature**, not a game recap. A recent event is the hook; the player is the subject; the close makes the case for owning that player's jersey.
+**Three stories a day in total, not one per league.** This overrides any older instruction (including in the scheduled task's prompt) to write one story per league. Files dated before 2026-11-02 use the old game-recap angle; do not copy their shape.
 
-- **One story per league** the live site covers (today: NFL, NBA, WNBA, MLB, NHL, MLS). Check the homepage first; cover only leagues the site lists. No college sports.
-- **Find the hook:** the biggest positive moment in that league from the past 24 to 72 hours (a title, a big game, a record, a milestone, an award, a signing). Not injuries, arrests, firings or losing streaks. If a league is quiet, use its most meaningful positive current development. Never invent news.
-- **Pick one player from that moment** and make them the story. Prefer a player with a page in `data/players.json` (set `playerId`), and one not featured in the last week of stories unless there is a big new reason.
+Each story is about **why one player's jersey is growing in popularity and is going to be a jersey people want**. Think of rising names like Yaxel in Golden State or Boozer in Memphis. A story is never a game recap.
+
+- **Pick the 3 biggest sports news stories** from the past 24 to 72 hours across the leagues the live site covers (today: NFL, NBA, WNBA, MLB, NHL, MLS). Any mix of leagues is fine, including two from one league. Check the homepage first; no college sports.
+- **Pick the one player at the center of each story** whose jersey is the angle. Skip a story with no clear player. Prefer rising and breakout players (rookies, young stars, players in a new role or on a new team) over established stars who already top every list, unless the news is really about that star. Skip injuries, arrests, firings and other negative news. Never invent news.
+- Prefer a player with a page in `data/players.json` (set `playerId`), and one not featured in the last 7 days of stories unless there is a big new reason.
+- Use `kind` "rising-star" for a breakout or young player, "trending" for a player suddenly in the spotlight, "fan-favorite" for an established crowd favorite, "big-moment" for a title or milestone.
 - **Shape of the story** (300 to 400 words, short paragraphs, two or three `## ` subheadings):
-  1. Open with the player, using the recent moment as the hook in two or three sentences. Keep the event itself brief: the key line or stat, not a play-by-play or full box score.
-  2. Feature the player: who they are, how they got here, their season so far, what makes their game distinctive, and what they mean to their team and its fans.
-  3. **Why their jersey**: a closing section (for example `## Why fans want the [Name] jersey`) that makes the case from facts: their role as the face of a team, a breakout or milestone season, a fresh start with a new team, a rookie arriving, a championship. Link to `/players/<slug>/` and end with what to watch next.
-- The headline, title and description lead with the player, not the score.
+  1. **The hook, briefly.** Open with the player and the news in one or two short paragraphs: the key line or stat only. No play-by-play, no score sequence, no box score walk-through.
+  2. **Why this jersey is on the rise.** This is most of the story. Make the case from facts: the breakout or rising role, a new team or fresh start, rookie or young-star appeal, what the player means to the fan base and market, the team's momentum, the jersey's look (home, away, alternate or City Edition colorways, a new number), and where the player stands on our best-seller lists in `data/rankings/` (only if they actually appear there).
+  3. **The close.** Why this is a jersey to get now and what to watch next, with a link to `/players/<slug>/`.
+- **The headline, title and description are about the jersey**, not the score. Examples: "Why [Player]'s [Team] Jersey Is the One to Get", "[Player]'s [Team] Jersey Is on the Rise". Suggested subheadings: `## Why fans are buying in`, `## The look`, `## Why this jersey will last`.
 
 ## Writing rules
 
 - **Original writing only.** Take facts from sources, never their wording. Do not quote players, coaches or outlets, and do not reuse a headline or a distinctive phrase. Paraphrase what someone said as a fact ("Keefe praised his new goalie") or leave it out.
 - Verify every number, date, score and team against a dated source, and list it in `sources` (with `date` when known).
-- Sales claims only from a published list, named with its sales period. With no list, the jersey case rests on performance, role and popularity; never say or imply a jersey is selling well, selling out, or in short supply.
+- Sales claims only from a published list, named with its sales period. With no list, write about popularity signals and why demand is rising (role, breakout, market, fan buzz, the look) and mark that as analysis; never state or imply actual sales figures, a sales rank, selling out, or short supply.
 - No invented quotes, prices, availability or rankings. Mark analysis and speculation as such.
 
 ## SEO fields
