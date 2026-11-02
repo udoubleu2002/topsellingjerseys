@@ -1,0 +1,46 @@
+# Merges daily story PRs (and so publishes them) as soon as "PR checks" passes, with no manual step.
+# The scheduled story-writing session can't merge on its own, so GitHub does it here.
+# It only merges a PR when all of these hold:
+#   - the head branch is daily-stories-YYYY-MM-DD in this repository (not a fork)
+#   - the PR is open and was opened by the repo owner
+#   - every changed file is under data/stories/ and ends in .json
+#   - "PR checks" passed on the PR's current head commit
+name: Auto-merge daily stories
+on:
+  workflow_run:
+    workflows: ["PR checks"]
+    types: [completed]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  merge:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      startsWith(github.event.workflow_run.head_branch, 'daily-stories-') &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge the daily stories PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          BRANCH: ${{ github.event.workflow_run.head_branch }}
+          SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -euo pipefail
+          if ! [[ "$BRANCH" =~ ^daily-stories-[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "Branch $BRANCH is not a dated daily-stories branch; skipping."; exit 0
+          fi
+          pr=$(gh api "repos/$REPO/pulls?state=open&head=$OWNER:$BRANCH" --jq '.[0].number // empty')
+          if [ -z "$pr" ]; then echo "No open PR for $BRANCH; skipping."; exit 0; fi
+          read -r author head <<<"$(gh api "repos/$REPO/pulls/$pr" --jq '[.user.login, .head.sha] | @tsv')"
+          if [ "$author" != "$OWNER" ]; then echo "PR #$pr was opened by $author, not $OWNER; skipping."; exit 0; fi
+          if [ "$head" != "$SHA" ]; then echo "PR #$pr has newer commits than the checked one; skipping."; exit 0; fi
+          others=$(gh api --paginate "repos/$REPO/pulls/$pr/files" --jq '.[].filename' | grep -Ev '^data/stories/[^/]+\.json$' || true)
+          if [ -n "$others" ]; then
+            echo "PR #$pr changes files outside data/stories/, so it needs a manual merge:"; echo "$others"; exit 0
+          fi
+          gh api -X PUT "repos/$REPO/pulls/$pr/merge" -f merge_method=merge -f sha="$SHA" --jq '.message'
