@@ -39,4 +39,4 @@ Each story is about **why one player's jersey is growing in popularity and is go
 
 ## Checks before opening the PR
 
-`npm run validate`, `npm test`, `npm run build`. Open a PR titled "Daily stories: <date>"; it merges automatically once the PR checks pass.
+`npm run validate`, `npm test`, `npm run build`. Open a PR titled "Daily stories: <date>" from a branch named `daily-stories-<YYYY-MM-DD>`, changing only `data/stories/*.json`. The "Auto-merge daily stories" workflow merges it, and so publishes it, as soon as "PR checks" passes. Do not try to merge it yourself, and do not ask Joe to merge it; if checks fail, fix and push again. A PR that touches any other file is not auto-merged.
