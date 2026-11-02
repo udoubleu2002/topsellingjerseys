@@ -1190,6 +1190,23 @@ h3.lrow-name { display: inline; }
   .story-jersey .btn-shop { grid-column: 1 / -1; }
 }
 
+/* Jersey banner under a story's headline: the subject's jerseys side by side, one per style, each a compact
+   photo-plus-details tile. Scrolls sideways on phones. */
+.jersey-banner { margin-top: 18px; padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.jersey-banner h2 { margin: 0 0 10px; font-size: 18px; }
+.jersey-banner-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.jersey-banner-item { display: grid; grid-template-columns: 104px minmax(0, 1fr); grid-template-rows: auto auto 1fr; column-gap: 12px; row-gap: 4px; align-items: start; min-width: 0; padding: 8px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); }
+.jersey-banner-item .pframe { grid-row: 1 / span 3; max-width: 104px; }
+.jersey-banner-style { margin: 0; font-weight: 700; font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--ink); }
+.jersey-banner-item .price { margin: 0; }
+.jersey-banner-item .btn-shop { align-self: end; width: 100%; justify-content: center; padding-top: 8px; padding-bottom: 8px; }
+@media (max-width: 640px) {
+  .jersey-banner { padding: 12px; }
+  .jersey-banner-row { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .jersey-banner-item { flex: 0 0 84%; scroll-snap-align: start; }
+  .jersey-banner-row[data-count="1"] .jersey-banner-item { flex-basis: 100%; }
+}
+
 /* Report status line (Latest Published / Superseded / Historical) above each report's dates. */
 .report-status { margin: 0 0 10px; padding: 9px 14px; border: 1px solid var(--line); border-left: 4px solid #16a34a; border-radius: var(--radius); background: var(--surface); font-size: 14px; line-height: 1.45; }
 .report-status-label { display: inline-block; margin-right: 6px; font: 700 11px/1.6 var(--f-body); letter-spacing: .08em; text-transform: uppercase; }

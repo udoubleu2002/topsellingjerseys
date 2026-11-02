@@ -3,7 +3,7 @@ import type { Ranking } from "./schema";
 import { type Article, articlePath, linksIn, plain, wordCount } from "./articles";
 import { type Profile } from "./profiles";
 import { type NewsItem } from "./news";
-import { type Story, storyPath } from "./stories";
+import { type Story, promotableJerseys, storyPath } from "./stories";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -188,6 +188,15 @@ export function checkStories(stories: Story[], s: Store, articles: Article[]) {
     for (const l of [...links, ...st.related.map((r) => r.href)]) if (!pages.has(l)) errors.push(`${id}: internal link ${l} does not match a page on the site`);
     if (st.title.length < 50 || st.title.length > 60) warnings.push(`${id}: title is ${st.title.length} characters (aim for 50-60)`);
     if (st.description.length < 140 || st.description.length > 160) warnings.push(`${id}: description is ${st.description.length} characters (aim for 140-160)`);
+    // From Nov. 2, 2026, a new story must be about a player whose jersey we can show and link to (data/products.json).
+    // Checked only in a story's first two days, since the product feed changes daily and older stories shouldn't break the build.
+    if (st.status === "published" && st.publishedDate >= "2026-11-02" && Date.now() - Date.parse(st.publishedDate) < 2 * 86400000) {
+      const fold = (t: string) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      const player = st.playerId ? s.players.find((p) => p.id === st.playerId) : s.players.find((p) => fold(p.name) === fold(st.subject));
+      if (!player) errors.push(`${id}: must be about one player with a page in data/players.json (set playerId)`);
+      else if (promotableJerseys(s.products, player, st.teamId).length === 0)
+        errors.push(`${id}: no Lids jersey with a photo for ${player.name}${st.teamId ? ` (${st.teamId})` : ""} in data/products.json; pick a player whose jersey we can promote`);
+    }
     if (st.status === "draft") warnings.push(`${id}: draft, not published until reviewed`);
     for (const r of st.reviewNotes) warnings.push(`${id}: review: ${r}`);
   }

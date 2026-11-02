@@ -1,3 +1,8 @@
+import { readFileSync } from "node:fs";
+
+// Daily stories taken down (for example game recaps); their URLs redirect to the player's page or /news/.
+const retiredStories = JSON.parse(readFileSync(new URL("./data/retired-stories.json", import.meta.url), "utf8"));
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
@@ -31,10 +36,13 @@ const nextConfig = {
   async redirects() {
     // Permanent redirects for URLs used by the first version of the site.
     const leagues = ["nfl", "nba", "mlb", "nhl", "mls"];
-    return leagues.flatMap((l) => [
-      { source: `/${l}`, destination: `/top-selling-${l}-jerseys/`, permanent: true },
-      { source: `/${l}/:player`, destination: `/players/:player/`, permanent: true },
-    ]);
+    return [
+      ...leagues.flatMap((l) => [
+        { source: `/${l}`, destination: `/top-selling-${l}-jerseys/`, permanent: true },
+        { source: `/${l}/:player`, destination: `/players/:player/`, permanent: true },
+      ]),
+      ...retiredStories.map((r) => ({ source: `/news/${r.slug}`, destination: r.to, permanent: true })),
+    ];
   },
 };
 export default nextConfig;

@@ -82,9 +82,46 @@ export function storyJersey(s: Pick<Story, "playerId" | "subject" | "teamId">): 
   const own = storyPlayer(s);
   const pick = (p: Player) => getProducts(p.id).find((x) => x.productType === "jersey" && x.image);
   if (own) {
-    const product = pick(own);
+    const product = promotableJerseys(getProducts(own.id), own, s.teamId)[0];
     return product ? { product, player: own } : undefined;
   }
+  return teamJersey(s, pick);
+}
+
+/**
+ * The jerseys we can promote for a player: Lids jerseys with a photo, for the player's current team (or the story's
+ * team), leaving out plaques and other non-wearables that the feed sometimes files as jerseys.
+ */
+export function promotableJerseys(products: Product[], player: Pick<Player, "id" | "teamId">, teamId?: string | null): Product[] {
+  const team = teamId ?? player.teamId;
+  return products.filter((x) =>
+    x.playerId === player.id && x.productType === "jersey" && x.image && (!team || !x.teamId || x.teamId === team) && !/plaque|frame|canvas|print/i.test(x.title));
+}
+
+/** "Women's · Alternate" from a product's title and edition, for the jersey banner. */
+export function jerseyLabel(p: Product): string {
+  const who = p.title.match(/\b(Men's|Women's|Youth|Unisex|Kids'|Toddler|Preschool)/i)?.[1];
+  return [who, p.edition ?? (/custom/i.test(p.title) ? "Custom" : undefined)].filter(Boolean).join(" · ") || "Jersey";
+}
+
+/**
+ * Up to `max` promotable jerseys for the story's subject, one per style (home, away, alternate...) first,
+ * for the jersey banner on story pages. Empty when the subject has none.
+ */
+export function storyJerseys(s: Pick<Story, "playerId" | "subject" | "teamId">, max = 4): { product: Product; player: Player }[] {
+  const own = storyPlayer(s);
+  if (!own) return [];
+  const all = promotableJerseys(getProducts(own.id), own, s.teamId);
+  const styles = new Set<string>();
+  const first = all.filter((x) => {
+    const k = jerseyLabel(x);
+    return styles.has(k) ? false : (styles.add(k), true);
+  });
+  const rest = all.filter((x) => !first.includes(x));
+  return [...first, ...rest].slice(0, max).map((product) => ({ product, player: own }));
+}
+
+function teamJersey(s: Pick<Story, "teamId">, pick: (p: Player) => Product | undefined) {
   if (!s.teamId) return undefined;
   const best = (p: Player) => getLatestAppearance(p.id)?.rank ?? 999;
   for (const p of teamPlayers(s.teamId).filter((p) => p.teamId === s.teamId).sort((a, b) => best(a) - best(b))) {
