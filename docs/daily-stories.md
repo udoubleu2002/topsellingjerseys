@@ -12,7 +12,9 @@ Each story is about **why one player's jersey is growing in popularity and is go
 
 - **Pick the 3 biggest sports news stories** from the past 24 to 72 hours across the leagues the live site covers (today: NFL, NBA, WNBA, MLB, NHL, MLS). Any mix of leagues is fine, including two from one league. Check the homepage first; no college sports.
 - **Pick the one player at the center of each story** whose jersey is the angle. Skip a story with no clear player. Prefer rising and breakout players (rookies, young stars, players in a new role or on a new team) over established stars who already top every list, unless the news is really about that star. Skip injuries, arrests, firings and other negative news. Never invent news.
-- Prefer a player with a page in `data/players.json` (set `playerId`), and one not featured in the last 7 days of stories unless there is a big new reason.
+- **Only write about a player whose jersey we can promote.** The player must have a page in `data/players.json` (set `playerId`) and at least one Lids jersey with a photo for their current team in `data/products.json` (refreshed every morning before the run). Check this before writing; if the player has none, pick the next biggest story. `npm run validate` rejects a new story that fails this. Team-only stories are out.
+- Avoid a player featured in the last 7 days of stories unless there is a big new reason.
+- The story page shows a banner of up to four of the player's jerseys (one per style) under the headline automatically, so the body can mention the different looks (home, away, alternate, City Edition) the reader can see right there.
 - Use `kind` "rising-star" for a breakout or young player, "trending" for a player suddenly in the spotlight, "fan-favorite" for an established crowd favorite, "big-moment" for a title or milestone.
 - **Shape of the story** (300 to 400 words, short paragraphs, two or three `## ` subheadings):
   1. **The hook, briefly.** Open with the player and the news in one or two short paragraphs: the key line or stat only. No play-by-play, no score sequence, no box score walk-through.

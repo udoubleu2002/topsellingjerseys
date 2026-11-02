@@ -14,7 +14,7 @@ import { PriceTag } from "@/components/PriceTag";
 import { abs, site } from "@/lib/config";
 import { fmtDate } from "@/lib/format";
 import { inline, isHeading, plain, wordCount } from "@/lib/articles";
-import { getStories, getStory, storyJersey, storyPath } from "@/lib/stories";
+import { getStories, getStory, jerseyLabel, storyJersey, storyJerseys, storyPath } from "@/lib/stories";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -56,6 +56,8 @@ export default async function StoryPage({ params }: Props) {
       </div>
     );
   const page = `story_${s.slug}`;
+  // Banner of the subject's jerseys (one per style) under the headline, on every screen size.
+  const lineup = storyJerseys(s).map((j) => ({ ...j, offer: productOffer(j.product) })).filter((j) => j.offer);
   const more = getStories(s.league).filter((x) => x.slug !== s.slug).slice(0, 4);
   const url = abs(storyPath(s));
   const ld = {
@@ -92,7 +94,23 @@ export default async function StoryPage({ params }: Props) {
               <span>Published {fmtDate(s.publishedDate)}</span>
               {s.lastVerified !== s.publishedDate && <span>Updated {fmtDate(s.lastVerified)}</span>}
             </p>
-            {jerseyCard("story_jersey_top", "story-jersey story-jersey-top")}
+            {lineup.length > 0 ? (
+              <section className="jersey-banner" aria-labelledby="jb-h">
+                <h2 id="jb-h">Shop the {s.subject} jersey{lineup.length > 1 ? "s" : ""}</h2>
+                <ul className="jersey-banner-row" data-count={lineup.length}>
+                  {lineup.map(({ product, player, offer }) => (
+                    <li key={product.id} className="jersey-banner-item">
+                      <ProductImage player={player} product={product} priority />
+                      <p className="jersey-banner-style">{jerseyLabel(product)}</p>
+                      <PriceTag product={product} />
+                      <ShopButton offer={offer!} ctx={{ league: league.id, playerId: player.id, placement: "story_jersey_banner", page }}>View at {offer!.merchantName}</ShopButton>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ) : (
+              jerseyCard("story_jersey_top", "story-jersey story-jersey-top")
+            )}
           </header>
 
           <div className="article-cols">
