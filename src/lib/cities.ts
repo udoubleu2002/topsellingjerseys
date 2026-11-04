@@ -17,6 +17,11 @@ const CitySchema = z.object({
   country: z.enum(["US", "CA"]),
   area: z.string().optional(),
   teams: z.array(z.string()).min(1),
+  /** One factual line about the city's teams and venues, for cards and the city page. */
+  blurb: z.string().min(10).optional(),
+  /** City center, used only to find nearby cities. */
+  lat: z.number().min(-90).max(90).optional(),
+  lon: z.number().min(-180).max(180).optional(),
 });
 export type City = z.infer<typeof CitySchema>;
 
@@ -192,4 +197,40 @@ export function cityFeatured(c: City): { player: Player; product: Product; ranke
   if (r) return { player: r.player, product: r.product!, ranked: true };
   const p = cityPicks(c, new Set(), 1)[0];
   return p ? { player: p.player, product: p.product, ranked: false } : undefined;
+}
+
+/** Distance in km between two cities (great circle), or Infinity when either has no coordinates. */
+function km(a: City, b: City): number {
+  if (a.lat == null || a.lon == null || b.lat == null || b.lon == null) return Infinity;
+  const r = (d: number) => (d * Math.PI) / 180;
+  const h = Math.sin(r(b.lat - a.lat) / 2) ** 2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(r(b.lon - a.lon) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+
+/** The `n` closest other cities, nearest first. */
+export function nearbyCities(c: City, n = 4): City[] {
+  return getCities()
+    .filter((x) => x.slug !== c.slug)
+    .map((x) => ({ x, d: km(c, x) }))
+    .sort((a, b) => a.d - b.d || a.x.name.localeCompare(b.x.name))
+    .slice(0, n)
+    .map((v) => v.x);
+}
+
+const WORDS = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
+const count = (n: number) => WORDS[n] ?? String(n);
+
+/** A data-only introduction: team count, leagues and how many local players are on the latest sales lists. */
+export function cityIntro(c: City, opts: { teams?: boolean } = {}): string {
+  const teams = cityTeams(c);
+  const leagues = cityLeagues(c).map((l) => l.name);
+  const ranked = cityRanked(c);
+  const list = leagues.length < 2 ? leagues.join("") : `${leagues.slice(0, -1).join(", ")} and ${leagues[leagues.length - 1]}`;
+  const top = ranked[0];
+  return (
+    (opts.teams === false ? "" : `${c.name} is home to ${teams.length} ${teams.length === 1 ? "team" : "teams"} in the ${list}.`) +
+    (ranked.length
+      ? `${opts.teams === false ? "" : " "}${count(ranked.length)} ${c.name} ${ranked.length === 1 ? "player is" : "players are"} on the latest published sales lists, led by ${top.player.name} at No. ${top.rank} in the ${top.ranking.league.toUpperCase()}.`
+      : `${opts.teams === false ? "" : " "}No ${c.name} players are on the latest published sales lists right now.`)
+  );
 }

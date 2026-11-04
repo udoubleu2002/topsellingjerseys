@@ -8,8 +8,10 @@ import { SideRail } from "@/components/SideRail";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { CityList, CityPicks, CityPodium, CityStories, PlayerBanner } from "@/components/CityBits";
-import { CityArt } from "@/components/CityCards";
-import { getCities, getCity, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured } from "@/lib/cities";
+import { CityArt, CityCard } from "@/components/CityCards";
+import { getCurrentRanking } from "@/lib/data";
+import { fmtShortDate } from "@/lib/format";
+import { getCities, getCity, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured, cityIntro, nearbyCities, teamNickname } from "@/lib/cities";
 import { teamOffer, outPath } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
@@ -24,6 +26,7 @@ export function generateStaticParams() {
 type Props = { params: Promise<{ slug: string }> };
 
 const OVERALL = 10;
+const VIBE: Record<string, string> = { nfl: "On the gridiron", nba: "On the hardwood", wnba: "On the hardwood", mlb: "On the diamond", nhl: "On the ice", mls: "On the pitch" };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getCity((await params).slug);
@@ -68,13 +71,14 @@ export default async function CityPage({ params }: Props) {
           <span className="city-hero-art" aria-hidden="true"><CityArt city={city} eager /></span>
           <div className="wrap city-hero-in">
             <div className="city-hero-text">
+              <Link href="/cities/" className="city-back"><span aria-hidden="true">←</span> All {getCities().length} cities</Link>
               <p className="eyebrow">{city.area ?? `${city.name}, ${city.region}`}{city.country === "CA" ? " · Canada" : ""}</p>
               <h1>Top Selling <span>{city.name}</span> Jerseys</h1>
               <p className="lede">The most popular {city.name} jerseys from the latest sales lists, overall and by sport.</p>
-              <nav className="city-jump" aria-label="Jump to a sport">
-                <a href="#overall">Overall</a>
-                {leagues.map((l) => <a key={l.id} href={`#${l.id}`}>{l.name}</a>)}
-              </nav>
+              <p className="city-intro">{city.blurb ? <>{city.blurb} {cityIntro(city, { teams: false })}</> : cityIntro(city)}</p>
+              <ul className="city-roster" aria-label={`${city.name} teams, jump to a sport`}>
+                {teams.map((t) => <li key={t.id}><a href={`#${t.league}`} title={t.name}><span>{t.league.toUpperCase()}</span>{teamNickname(t)}</a></li>)}
+              </ul>
             </div>
             {lead?.product.image && (
               <Link href={`/players/${lead.player.slug}/`} className="city-hero-lead">
@@ -90,11 +94,11 @@ export default async function CityPage({ params }: Props) {
           <div className="rail-main">
 
             <section className="section city-sec" id="overall" aria-labelledby="overall-h">
-              <p className="cx-kicker">Overall · every sport</p>
+              <p className="cx-kicker">Hometown heroes · every sport</p>
               <div className="section-head"><h2 id="overall-h">Top {city.name} jerseys overall</h2></div>
               {overall.length > 0 ? (
                 <>
-                  <p className="city-sub">Ranked by each player&apos;s place on their league&apos;s latest sales list.</p>
+                  <p className="city-sub">Ranked by each player&apos;s place on their league&apos;s latest national sales list. <a href="#how">How city lists work</a></p>
                   <CityPodium rows={overall} page={page} at="city_overall" />
                   {overall.length > 3 && <CityList rows={overall.slice(3)} page={page} at="city_overall" showLeague start={4} />}
                 </>
@@ -111,14 +115,20 @@ export default async function CityPage({ params }: Props) {
               const lTeams = teams.filter((t) => t.league === l.id);
               const more = cityPicks(city, rankedIds, rows.length ? 4 : 5, l.id);
               const star = rows[0] ?? more[0];
+              const rk = getCurrentRanking(l.id);
               return (
                 <div key={l.id}>
                   <section className="section city-sec city-sec-lg" id={l.id} aria-labelledby={`${l.id}-h`}>
-                    <p className="cx-kicker">By sport · {l.name}</p>
+                    <p className="cx-kicker">{VIBE[l.id] ?? "By sport"} · {l.name}</p>
                     <div className="section-head">
                       <h2 id={`${l.id}-h`}>{city.name} {l.name} jerseys</h2>
                       <Link href={`/${l.slug}/`}>Full {l.name} list →</Link>
                     </div>
+                    {rk && (
+                      <p className="city-src">
+                        From <a href={rk.sourceUrl} target="_blank" rel="noopener">{rk.title}</a> ({rk.publisher}) · {rk.periodLabel} · published {fmtShortDate(rk.publishedDate)}
+                      </p>
+                    )}
                     {star && <PlayerBanner row={star} league={l} cityName={city.name} page={page} />}
                     {rows.length > 1 ? (
                       <CityList rows={rows.slice(1)} page={page} at={`city_${l.id}`} start={2} />
@@ -145,6 +155,25 @@ export default async function CityPage({ params }: Props) {
               );
             })}
 
+
+            <section className="section city-sec city-near" aria-labelledby="near-h">
+              <p className="cx-kicker">Road trip</p>
+              <div className="section-head"><h2 id="near-h">Cities near {city.name}</h2><Link href="/cities/">All cities →</Link></div>
+              <div className="city-near-grid">
+                {nearbyCities(city, 4).map((c) => <CityCard key={c.slug} city={c} size="sm" />)}
+              </div>
+            </section>
+
+            <aside className="city-how" id="how" aria-labelledby="how-h">
+              <h2 id="how-h">How city lists work</h2>
+              <p>
+                The jersey sales lists we use are national; none of them break sales down by city. Each city list takes the latest list for
+                every league and groups the players by the city of their current team, or the team the report credited when they have no team
+                now. &quot;No. 3 on the NBA list&quot; is the player&apos;s national rank, not a local sales figure. Jerseys shown for
+                players who aren&apos;t on a list come from the Lids catalog and aren&apos;t ranked.
+              </p>
+              <p><Link href="/methodology/">Methodology</Link> · <Link href="/sources/">Sources</Link> · <Link href="/affiliate-disclosure/">Affiliate disclosure</Link></p>
+            </aside>
 
             <nav className="city-others" aria-label="Other cities">
               <Link href="/cities/" className="city-others-all">All cities →</Link>
