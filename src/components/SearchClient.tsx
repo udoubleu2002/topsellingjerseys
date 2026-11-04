@@ -23,14 +23,22 @@ export function SearchClient({ items }: { items: SearchItem[] }) {
   return (
     <div>
       <form className="search-box" role="search" onSubmit={(e) => { e.preventDefault(); track("search", { query: q }); history.replaceState(null, "", `?q=${encodeURIComponent(q)}`); }}>
-        <label htmlFor="q-page" className="sr-only">Search players and teams</label>
-        <input id="q-page" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Try Ohtani, Lakers or NHL" autoFocus />
+        <label htmlFor="q-page" className="sr-only">Search players, teams, cities and leagues</label>
+        <input id="q-page" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Try Ohtani, Lakers, Boston or NHL" autoFocus />
         <button type="submit">Search</button>
       </form>
       {q && (
         <p className="shop-note" style={{ marginTop: 10 }} aria-live="polite">
-          {results.length ? `${results.length} result${results.length === 1 ? "" : "s"}` : `No ranked players or teams match "${q}".`}
+          {results.length ? `${results.length} result${results.length === 1 ? "" : "s"}` : `Nothing matches "${q}". Only ranked players, their teams, our cities and the six leagues are searchable.`}
         </p>
+      )}
+      {(!q || !results.length) && (
+        <div className="search-try">
+          <span>Try</span>
+          {["Ohtani", "Caitlin Clark", "Cowboys", "Chicago", "NHL", "Messi"].map((t) => (
+            <button key={t} type="button" onClick={() => { setQ(t); history.replaceState(null, "", `?q=${encodeURIComponent(t)}`); track("search", { query: t }); }}>{t}</button>
+          ))}
+        </div>
       )}
       <ul className="results">
         {results.map((r) => (

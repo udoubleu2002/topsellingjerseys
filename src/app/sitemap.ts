@@ -25,6 +25,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const c of getCities()) out.push({ url: abs(cityPath(c)), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.7 });
   out.push({ url: abs("/my-jerseys/"), changeFrequency: "monthly", priority: 0.6 });
   out.push({ url: abs("/players/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
+  out.push({ url: abs("/trending/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
+  out.push({ url: abs("/shop/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
   out.push({ url: abs("/rankings/"), lastModified: site.lastReviewed, changeFrequency: "monthly", priority: 0.5 });
   // A league's current report is canonical to its league page, so only archived reports are listed here.
   for (const r of getRankings().filter((r) => getCurrentRanking(r.league)?.id !== r.id)) out.push({ url: abs(`/rankings/${r.league}/${r.id}/`), lastModified: r.lastVerified, changeFrequency: "yearly", priority: 0.4 });

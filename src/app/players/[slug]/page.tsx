@@ -122,7 +122,8 @@ export default async function PlayerPage({ params }: Props) {
       <SiteHeader active={league.id} />
       <main id="main" className="has-sticky" data-page-type="player" data-league={league.id} data-player={player.id}>
         <DealsBar league={league.id} page={page} />
-        <section className="phero">
+        <section className="phero gd-phero" style={{ "--tc": team?.colors.primary ?? league.accent, "--tc2": team?.colors.secondary ?? "#20252b" } as React.CSSProperties}>
+          {latest && <span className="gd-phero-no" aria-hidden="true">{latest.rank}</span>}
           <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: `Top Selling ${league.name} Jerseys`, href: `/${league.slug}/` }, { name: player.name, href: `/players/${player.slug}/` }]} />
           <div className={`wrap phero-in${jersey?.image ? "" : " no-img"}`} style={{ marginTop: 14 }}>
             {jersey?.image && <ProductImage player={player} team={team} product={jersey} priority />}

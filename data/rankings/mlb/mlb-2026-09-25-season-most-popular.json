@@ -4,17 +4,18 @@
   "title": "MLB's Most Popular Player Jerseys of the 2026 Season",
   "publisher": "MLB (via MLB.com)",
   "periodStart": "2026-03-26",
-  "periodEnd": "2026-09-27",
+  "periodEnd": "2026-09-25",
   "scope": "Nike MLB jersey sales on MLBShop.com and the Fanatics network since Opening Day 2026.",
   "methodology": "Based on online sales through MLBShop.com and the Fanatics network. Unit counts are not published.",
   "limitations": [
     "Online sales through MLBShop.com and the Fanatics network only.",
-    "Released before the end of the regular season; it does not include postseason sales."
+    "Released before the end of the regular season; it does not include postseason sales.",
+    "MLB did not state the exact sales cutoff. We show the release date, Sept. 25, 2026, as the latest possible end of the sales period; the regular season itself ended Sept. 27."
   ],
   "league": "mlb",
   "sourceUrl": "https://www.mlb.com/news/most-popular-mlb-players-jerseys-for-2026-season",
   "publishedDate": "2026-09-25",
-  "periodLabel": "Nike jersey sales on MLBShop.com and the Fanatics network, Opening Day through the end of the 2026 regular season",
+  "periodLabel": "Nike jersey sales on MLBShop.com and the Fanatics network, Opening Day (March 26) until the list was released on Sept. 25, 2026",
   "retrievedDate": "2026-10-20",
   "lastVerified": "2026-11-04",
   "status": "published",

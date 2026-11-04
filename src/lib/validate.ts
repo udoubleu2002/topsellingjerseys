@@ -19,6 +19,7 @@ export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
     seen.add(e.playerId);
   }
   if (r.periodStart && r.periodEnd && r.periodStart > r.periodEnd) errs.push(`${r.id}: sales period starts after it ends`);
+  if (r.periodEnd && r.periodEnd > r.publishedDate) errs.push(`${r.id}: sales period ends (${r.periodEnd}) after the report was published (${r.publishedDate})`);
   return errs;
 }
 

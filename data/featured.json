@@ -1,13 +1,34 @@
 {
   "note": "Homepage 'Player of the week' module. An editor's pick, not a sales ranking: the jersey rank shown comes from the player's league's latest published report, and stats come from data/stats.json with their own through-date. To change the pick, set playerId, weekOf, headline, dek and why (each reason with a source URL), then run npm run validate.",
+  "hero": {
+    "note": "Homepage hero story. Editorial copy that points into a published ranking; change the headline, dek, link and photo player whenever a new list lands. The photo is that player's retailer jersey photo, and the rank shown under it comes from the latest published report.",
+    "kicker": "What's selling · Who's trending · Where to buy",
+    "headline": "The jerseys everyone wants right now",
+    "dek": "Discover the most popular jerseys across professional sports, from breakout rookies to established superstars, ranked in the exact order the leagues and players associations publish.",
+    "cta": {
+      "label": "See the new MLS top 10",
+      "href": "/mls/"
+    },
+    "photoPlayerId": "lionel-messi",
+    "updated": "2026-11-04"
+  },
   "playerId": "lionel-messi",
   "weekOf": "2026-11-02",
   "headline": "Messi's jersey leads MLS for a fourth straight year",
   "dek": "Major League Soccer's 2026 list, published Nov. 3, puts Lionel Messi's Inter Miami jersey at No. 1 on the MLS online store again, ahead of Son Heung-Min and Thomas Müller.",
   "why": [
-    { "text": "No. 1 on MLS's top-selling jersey list for 2026, covering MLS Store sales from January 1 to October 30.", "source": "https://www.mlssoccer.com/news/lionel-messi-son-heung-min-lead-top-mls-jerseys-in-2026" },
-    { "text": "It is the fourth year in a row that Messi has topped the league's jersey list.", "source": "https://www.espn.com/soccer/story/_/id/50370651/mls-jersey-sales-lionel-messi-robert-lewandowski-chicago" },
-    { "text": "Three Inter Miami players made the 2026 top 10: Messi, Luis Suárez (No. 8) and Rodrigo De Paul (No. 10).", "source": "https://www.mlssoccer.com/news/lionel-messi-son-heung-min-lead-top-mls-jerseys-in-2026" }
+    {
+      "text": "No. 1 on MLS's top-selling jersey list for 2026, covering MLS Store sales from January 1 to October 30.",
+      "source": "https://www.mlssoccer.com/news/lionel-messi-son-heung-min-lead-top-mls-jerseys-in-2026"
+    },
+    {
+      "text": "It is the fourth year in a row that Messi has topped the league's jersey list.",
+      "source": "https://www.espn.com/soccer/story/_/id/50370651/mls-jersey-sales-lionel-messi-robert-lewandowski-chicago"
+    },
+    {
+      "text": "Three Inter Miami players made the 2026 top 10: Messi, Luis Suárez (No. 8) and Rodrigo De Paul (No. 10).",
+      "source": "https://www.mlssoccer.com/news/lionel-messi-son-heung-min-lead-top-mls-jerseys-in-2026"
+    }
   ],
   "lastVerified": "2026-11-04"
 }

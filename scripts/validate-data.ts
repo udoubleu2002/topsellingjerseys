@@ -29,6 +29,9 @@ try {
   // Homepage player of the week: must name a known player; flag it once it is more than two weeks old.
   const featured = loadFeatured();
   if (featured && !store.players.some((p) => p.id === featured.playerId)) errors.push(`data/featured.json: unknown player ${featured.playerId}`);
+  const hero = featured?.hero;
+  if (hero?.photoPlayerId && !store.players.some((p) => p.id === hero.photoPlayerId)) errors.push(`data/featured.json: hero photo player ${hero.photoPlayerId} is unknown`);
+  if (hero && daysBetween(hero.updated, site.lastReviewed) > 21) warnings.push(`data/featured.json: the homepage hero was last updated ${hero.updated}; refresh it`);
   if (featured && daysBetween(featured.weekOf, site.lastReviewed) > 14) warnings.push(`data/featured.json: player of the week is from ${featured.weekOf}; pick a new one`);
   // Rankings whose copy has not been checked against the source in 45 days.
   for (const r of store.rankings) if (r.status === "published" && daysBetween(r.lastVerified, site.lastReviewed) > 45) warnings.push(`${r.id}: last verified ${r.lastVerified}; re-check it against ${r.sourceUrl}`);
