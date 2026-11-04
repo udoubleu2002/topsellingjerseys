@@ -10,7 +10,7 @@ import { ShopButton } from "@/components/ShopButton";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { CityList, CityPicks, CityStories, PlayerBanner } from "@/components/CityBits";
-import { getCities, getCity, cityBanners, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams } from "@/lib/cities";
+import { getCities, getCity, cityBanners, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured } from "@/lib/cities";
 import { teamOffer } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
@@ -45,7 +45,7 @@ export default async function CityPage({ params }: Props) {
   const leagues = cityLeagues(city);
   const ranked = cityRanked(city);
   const overall = ranked.slice(0, OVERALL);
-  const lead = ranked.find((r) => r.product?.image);
+  const lead = cityFeatured(city);
   const rankedIds = new Set(ranked.map((r) => r.player.id));
   const banners = cityBanners(city);
   const banner = (i: number) => banners[i % banners.length];
@@ -66,9 +66,6 @@ export default async function CityPage({ params }: Props) {
       <main id="main" data-page-type="city" data-city={city.slug}>
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Cities", href: "/cities/" }, { name: city.name, href: cityPath(city) }]} />
         <header className="city-hero">
-          <div className="city-stripes" aria-hidden="true">
-            {teams.map((t) => <span key={t.id} style={{ background: t.team?.colors.primary ?? "#334155", borderBottomColor: t.team?.colors.accent ?? "#64748b" }} />)}
-          </div>
           <div className="wrap city-hero-in">
             <div className="city-hero-text">
               <p className="eyebrow">{city.area ?? `${city.name}, ${city.region}`}{city.country === "CA" ? " · Canada" : ""}</p>
@@ -80,17 +77,17 @@ export default async function CityPage({ params }: Props) {
               <dl className="city-stats">
                 <div><dt>Teams</dt><dd>{teams.length}</dd></div>
                 <div><dt>Leagues</dt><dd>{leagues.length}</dd></div>
-                <div><dt>On the sales lists</dt><dd>{ranked.length}</dd></div>
+                {ranked.length > 0 && <div><dt>On the sales lists</dt><dd>{ranked.length}</dd></div>}
               </dl>
               <nav className="city-jump" aria-label="Jump to a sport">
                 <a href="#overall">Overall</a>
-                {leagues.map((l) => <a key={l.id} href={`#${l.id}`} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</a>)}
+                {leagues.map((l) => <a key={l.id} href={`#${l.id}`}>{l.name}</a>)}
               </nav>
             </div>
-            {lead?.product?.image && (
+            {lead?.product.image && (
               <Link href={`/players/${lead.player.slug}/`} className="city-hero-lead">
                 <img src={lead.product.image.url} alt={lead.product.image.alt} width={320} height={320} />
-                <span><small>{lead === ranked[0] ? `No. 1 in ${city.name}` : `${city.name} favorite`}</small>{lead.player.name}</span>
+                <span><small>{lead.ranked && lead.player.id === ranked[0]?.player.id ? `No. 1 in ${city.name}` : `${city.name} favorite`}</small>{lead.player.name}</span>
               </Link>
             )}
           </div>
@@ -109,7 +106,10 @@ export default async function CityPage({ params }: Props) {
                   <CityList rows={overall} page={page} at="city_overall" showLeague />
                 </>
               ) : (
-                <p className="shop-note">No {city.name} players are on the latest published sales lists yet. Shop every team below.</p>
+                <>
+                  <p className="shop-note">No {city.name} players are on the latest published sales lists yet, so here is a Lids jersey for each team.</p>
+                  <CityPicks picks={cityPicks(city, new Set(), 8)} page={page} at="city_overall_picks" />
+                </>
               )}
             </section>
 
@@ -120,7 +120,7 @@ export default async function CityPage({ params }: Props) {
               const star = rows[0] ?? more[0];
               return (
                 <div key={l.id}>
-                  <section className="section city-sec" id={l.id} aria-labelledby={`${l.id}-h`} style={{ "--lg": l.accent } as React.CSSProperties}>
+                  <section className="section city-sec" id={l.id} aria-labelledby={`${l.id}-h`}>
                     <div className="section-head">
                       <h2 id={`${l.id}-h`}>{city.name} {l.name} jerseys</h2>
                       <Link href={`/${l.slug}/`}>Full {l.name} list →</Link>
@@ -158,7 +158,7 @@ export default async function CityPage({ params }: Props) {
               </nav>
             </section>
           </div>
-          <SideRail lead={<CityStories cityName={city.name} stories={cityStories(city)} />} hideStories hideNews />
+          <SideRail lead={<CityStories cityName={city.name} stories={cityStories(city)} />} hideStories hideNews cityAds />
         </div>
         {overall.length > 0 && <JsonLd data={ld} />}
       </main>

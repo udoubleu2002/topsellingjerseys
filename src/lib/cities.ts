@@ -23,7 +23,7 @@ export type City = z.infer<typeof CitySchema>;
 
 let cache: City[] | null = null;
 
-/** Every city, biggest sports markets first. Throws on an unknown team or a team listed in two cities, so the build fails. */
+/** Every city, in alphabetical order. Throws on an unknown team or a team listed in two cities, so the build fails. */
 export function getCities(): City[] {
   if (cache) return cache;
   const raw = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "cities.json"), "utf8"));
@@ -37,8 +37,8 @@ export function getCities(): City[] {
     }
   }
   if (new Set(cities.map((c) => c.slug)).size !== cities.length) throw new Error("data/cities.json: duplicate city slug");
-  cache = cities;
-  return cities;
+  cache = [...cities].sort((a, b) => a.name.localeCompare(b.name));
+  return cache;
 }
 
 export const getCity = (slug: string) => getCities().find((c) => c.slug === slug);
@@ -119,18 +119,10 @@ export function teamStars(teamId: string, max = 3): Player[] {
     .map((x) => x.p);
 }
 
-/**
- * Lids banners for a city page, in slot order: the city's own banner first where Lids has one (the Ohtani Dodgers banner in
- * Los Angeles, the Brewers banner in Milwaukee), then the all-jerseys banner, the NHL banner in hockey cities, and the Ohtani banner.
- */
-export function cityBanners(c: City): LidsBanner[] {
-  const ids: string[] = [];
-  if (c.teams.includes("los-angeles-dodgers")) ids.push("1907269");
-  if (c.teams.includes("milwaukee-brewers")) ids.push("4114444");
-  ids.push("4114443");
-  if (cityTeams(c).some((t) => t.league === "nhl")) ids.push("2159657");
-  ids.push("1907269");
-  return [...new Set(ids)].map((id) => lidsBanner(id)!).filter(Boolean);
+/** Lids banners for the Cities pages: only the all-jerseys banner (no Brewers, NHL or Ohtani banners on city pages). */
+export const CITY_BANNER_ID = "4114443";
+export function cityBanners(_c?: City): LidsBanner[] {
+  return [lidsBanner(CITY_BANNER_ID)!];
 }
 
 export type CityStory = { href: string; headline: string; league: string; date: string; image?: string; local: boolean };
@@ -161,4 +153,15 @@ export function cityStories(c: City): CityStory[] {
     });
   const byDate = (a: CityStory, b: CityStory) => b.date.localeCompare(a.date);
   return [...stories, ...articles].filter((s) => s.local).sort(byDate);
+}
+
+/**
+ * The jersey a city leads with (hero photo and index card): the best-ranked local player with a Lids jersey photo, or when
+ * no local player is ranked, a Lids jersey from the city's first team that has one. Every city has at least one.
+ */
+export function cityFeatured(c: City): { player: Player; product: Product; ranked: boolean } | undefined {
+  const r = cityRanked(c).find((x) => x.product?.image);
+  if (r) return { player: r.player, product: r.product!, ranked: true };
+  const p = cityPicks(c, new Set(), 1)[0];
+  return p ? { player: p.player, product: p.product, ranked: false } : undefined;
 }

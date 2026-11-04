@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getCities, cityRanked, cityStories, cityBanners, cityTeams } from "../src/lib/cities";
+import { getCities, cityRanked, cityStories, cityBanners, cityTeams, cityFeatured } from "../src/lib/cities";
 
 describe("cities", () => {
   it("has 30-40 cities, every team known and in one city only", () => {
@@ -21,7 +21,16 @@ describe("cities", () => {
     for (const c of getCities()) for (const s of cityStories(c)) expect(s.local).toBe(true);
   });
 
-  it("always has at least one Lids banner", () => {
-    for (const c of getCities()) expect(cityBanners(c).length).toBeGreaterThan(0);
+  it("runs only the all-jerseys Lids banner", () => {
+    for (const c of getCities()) expect(cityBanners(c).map((b) => b.id)).toEqual(["4114443"]);
+  });
+
+  it("lists cities A to Z", () => {
+    const names = getCities().map((c) => c.name);
+    expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
+  });
+
+  it("gives every city a jersey with a photo", () => {
+    for (const c of getCities()) expect(cityFeatured(c)?.product.image, c.name).toBeTruthy();
   });
 });
