@@ -20,10 +20,17 @@ export function SiteHeader({ active }: { active?: string }) {
               {l.name}
             </Link>
           ))}
+          <span className="nav-sep" aria-hidden="true" />
           <Link href="/cities/" className="nav-cities" aria-current={active === "cities" ? "page" : undefined}>Cities</Link>
+          <Link href="/players/" className="nav-x" aria-current={active === "players" ? "page" : undefined}>Players</Link>
+          <Link href="/trending/" className="nav-x" aria-current={active === "trending" ? "page" : undefined}>Trending</Link>
+          <Link href="/shop/" className="nav-x nav-shop" aria-current={active === "shop" ? "page" : undefined}>Shop</Link>
         </nav>
+        <Link className="mast-search-icon" href="/search/" aria-label="Search players, teams, cities and leagues">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" strokeWidth="2.2" /><path d="m13 13 4.5 4.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" /></svg>
+        </Link>
         <form className="mast-search" action="/search/" role="search">
-          <label htmlFor="q-desktop" className="sr-only">Search players and teams</label>
+          <label htmlFor="q-desktop" className="sr-only">Search players, teams, cities and leagues</label>
           <input id="q-desktop" name="q" type="search" placeholder="Search players or teams" autoComplete="off" />
           <button type="submit">Search</button>
         </form>
@@ -35,16 +42,21 @@ export function SiteHeader({ active }: { active?: string }) {
         <details className="mobile-menu">
           <summary>Menu</summary>
           <nav className="mobile-panel" aria-label="Mobile">
-            {leagues.map((l) => (
-              <Link key={l.id} href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link>
-            ))}
-            <Link href="/cities/">Top jerseys by city</Link>
-            <Link href="/news/">Jersey news</Link>
             <form action="/search/" role="search">
-              <label htmlFor="q-mobile" className="sr-only">Search players and teams</label>
-              <input id="q-mobile" name="q" type="search" placeholder="Search players or teams" />
+              <label htmlFor="q-mobile" className="sr-only">Search players, teams, cities and leagues</label>
+              <input id="q-mobile" name="q" type="search" placeholder="Search players, teams or cities" />
               <button type="submit">Search</button>
             </form>
+            <div className="mp-leagues">
+              {leagues.map((l) => (
+                <Link key={l.id} href={`/${l.slug}/`} style={{ "--lg": l.accent } as React.CSSProperties}><b>{l.name}</b><span>Top sellers</span></Link>
+              ))}
+            </div>
+            <Link href="/cities/">Top jerseys by city</Link>
+            <Link href="/trending/">Trending: biggest risers</Link>
+            <Link href="/shop/">Shop jerseys</Link>
+            <Link href="/players/">All players</Link>
+            <Link href="/news/">Jersey news</Link>
             {backendEnabled && <a href="#newsletter">Newsletter</a>}
           </nav>
         </details>

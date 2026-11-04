@@ -2,14 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
-import { LeaderCard, FeaturedPlayer, LeagueTopFive } from "@/components/HomeBits";
+import { LeaderCard, FeaturedPlayer, LeagueTopFive, HeroStory, TrendingNow } from "@/components/HomeBits";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
-import { getLeagues, getCurrentRanking, getTeamDirectory, getRankings, getPlayers, reportStatus } from "@/lib/data";
-import { getCity, cityPath, cityRanked, cityLeagues, getCities } from "@/lib/cities";
+import { getLeagues, getCurrentRanking, getRankings, reportStatus } from "@/lib/data";
+import { getCity, cityPath, cityRanked, cityLeagues, getCities, cityArt } from "@/lib/cities";
 import { getStories, storyPath } from "@/lib/stories";
-import { fmtShortDate, fmtDate } from "@/lib/format";
-import { teamOffer, outPath } from "@/lib/affiliate";
+import { fmtShortDate } from "@/lib/format";
+import { TeamShopDirectory } from "@/components/ShopBits";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
 import { site, abs } from "@/lib/config";
@@ -37,33 +37,38 @@ export default function Home() {
     <>
       <SiteHeader />
       <main id="main" data-page-type="home">
-        <section className="hero hero-top hero-ed">
-          <div className="wrap hero-in">
-            <div className="hero-head">
-              <p className="kicker">Jersey sales intelligence · Six leagues · Every list sourced</p>
-              <h1>Top selling sports jerseys in every league</h1>
-              <p className="hero-dek">America&apos;s top-selling jerseys, straight from the lists leagues, players associations and official retailers publish. Every ranking is kept in its published order, dated and linked to its source.</p>
-              <dl className="hero-stats">
-                <div><dt>Leagues</dt><dd>{leagues.length}</dd></div>
-                <div><dt>Ranked players</dt><dd>{ranked}</dd></div>
-                <div><dt>Published reports</dt><dd>{reports.length}</dd></div>
-                <div><dt>Lists verified</dt><dd>{fmtShortDate(verified)}</dd></div>
-              </dl>
+        <HeroStory leagues={leagues.map(({ league, ranking }) => ({ league, ranking: ranking! }))} />
+        <div className="gd-trust">
+          <div className="wrap gd-trust-in">
+            <span><b>{leagues.length}</b> leagues</span>
+            <span><b>{ranked}</b> ranked players</span>
+            <span><b>{reports.length}</b> published reports</span>
+            <span>Lists verified <b>{fmtShortDate(verified)}</b></span>
+            {newest && newestLeague && <span className="gd-trust-new">Newest: <Link href={`/${newestLeague.slug}/`}>{newest.title}</Link>, {fmtShortDate(newest.publishedDate)}</span>}
+          </div>
+        </div>
+
+        <section className="cities-sec" aria-labelledby="cities-h">
+          <div className="wrap">
+            <div className="sec-head on-dark">
+              <p className="sec-k">Which cities are represented</p>
+              <h2 id="cities-h" className="sec-h">Explore jerseys by city</h2>
+              <Link className="sec-more" href="/cities/">All {getCities().length} cities →</Link>
             </div>
-            {newest && newestLeague && (
-              <aside className="hero-new" aria-label="Newest report">
-                <p className="hero-new-k">Newest report</p>
-                <p className="hero-new-t"><Link href={`/${newestLeague.slug}/`}>{newest.title}</Link></p>
-                <p className="hero-new-m">{newest.publisher} · published {fmtDate(newest.publishedDate)}</p>
-                <ol className="hero-new-l">
-                  {newest.entries.slice(0, 3).map((e) => {
-                    const p = getPlayers().find((x) => x.id === e.playerId)!;
-                    return <li key={p.id}><span>{e.rank}</span><Link href={`/players/${p.slug}/`}>{p.name}</Link></li>;
-                  })}
-                </ol>
-                <p className="hero-new-links"><Link href="/rankings/">Report archive</Link><Link href="/sources/">Sources</Link><Link href="/methodology/">Methodology</Link></p>
-              </aside>
-            )}
+            <div className="citycards">
+              {cities.map((c) => {
+                const rows = cityRanked(c);
+                return (
+                  <Link key={c.slug} className="citycard has-art" href={cityPath(c)}>
+                    <img className="citycard-art" src={cityArt(c).src} alt={cityArt(c).alt} width={1600} height={1000} loading="lazy" decoding="async" />
+                    <span className="citycard-name">{c.name}</span>
+                    <span className="citycard-meta">{c.teams.length} teams · {rows.length} ranked {rows.length === 1 ? "player" : "players"}</span>
+                    <span className="citycard-lgs">{cityLeagues(c).map((l) => <span key={l.id} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</span>)}</span>
+                    {rows[0] && <span className="citycard-top">Top seller: {rows[0].player.name}, No. {rows[0].rank} {rows[0].ranking.league.toUpperCase()}</span>}
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </section>
 
@@ -76,6 +81,8 @@ export default function Home() {
             {leagues.map(({ league, ranking }, i) => <LeaderCard key={league.id} league={league} ranking={ranking!} priority={i < 3} />)}
           </div>
         </section>
+
+        <TrendingNow />
 
         <FeaturedPlayer />
 
@@ -90,29 +97,6 @@ export default function Home() {
           </div>
           <SideRail hideStories />
         </div>
-
-        <section className="cities-sec" aria-labelledby="cities-h">
-          <div className="wrap">
-            <div className="sec-head on-dark">
-              <p className="sec-k">Which cities are represented</p>
-              <h2 id="cities-h" className="sec-h">Explore jerseys by city</h2>
-              <Link className="sec-more" href="/cities/">All {getCities().length} cities →</Link>
-            </div>
-            <div className="citycards">
-              {cities.map((c) => {
-                const rows = cityRanked(c);
-                return (
-                  <Link key={c.slug} className="citycard" href={cityPath(c)}>
-                    <span className="citycard-name">{c.name}</span>
-                    <span className="citycard-meta">{c.teams.length} teams · {rows.length} ranked {rows.length === 1 ? "player" : "players"}</span>
-                    <span className="citycard-lgs">{cityLeagues(c).map((l) => <span key={l.id} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</span>)}</span>
-                    {rows[0] && <span className="citycard-top">Top seller: {rows[0].player.name}, No. {rows[0].rank} {rows[0].ranking.league.toUpperCase()}</span>}
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        </section>
 
         <section className="wrap section" aria-labelledby="news-h">
           <div className="sec-head">
@@ -149,34 +133,13 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="wrap section" aria-labelledby="teams-h">
+        <section className="wrap section" id="shop" aria-labelledby="teams-h">
           <div className="sec-head">
             <p className="sec-k">Where to buy these jerseys</p>
             <h2 id="teams-h" className="sec-h">Shop by team</h2>
           </div>
           <p className="teams-note">Every team in every league. Each link opens that team&apos;s jersey shop at the retailer.</p>
-          <div className="team-dir">
-            {getLeagues().map((league) => {
-              const teams = getTeamDirectory(league.id);
-              return teams.length > 0 && (
-                <details className="team-league" key={league.id} style={{ ["--lg" as string]: league.accent }}>
-                  <summary><span>{league.name}</span><span className="team-count">{teams.length} teams</span></summary>
-                  <ul>
-                    {teams.map((t) => {
-                      const o = teamOffer(t);
-                      return o && (
-                        <li key={t.id}>
-                          <a href={`${outPath(o.id)}?at=home_team_directory`} target="_blank" rel="sponsored nofollow noopener" data-track="affiliate_click" data-offer={o.id} data-offer-kind="team" data-merchant={o.merchantId} data-league={league.id} data-placement="home_team_directory" data-page="home">
-                            {t.name}
-                          </a>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </details>
-              );
-            })}
-          </div>
+          <TeamShopDirectory placement="home_team_directory" page="home" />
           <div style={{ marginTop: 18 }}><AffiliateNote /></div>
         </section>
 

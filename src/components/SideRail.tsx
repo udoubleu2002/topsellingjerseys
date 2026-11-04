@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { getLeagues, getCurrentRanking, getPlayer, getTeam } from "@/lib/data";
+import type { League, Ranking } from "@/lib/schema";
+import { getLeagues, getCurrentRanking, getPlayer, getTeam, getProducts, entryTeams, reportStatus } from "@/lib/data";
+import { productOffer, searchOffer } from "@/lib/affiliate";
+import { jerseyImg } from "@/lib/img";
+import { topRisers } from "@/lib/trending";
+import { getCities, cityPath, cityRanked } from "@/lib/cities";
+import { ShopButton } from "./ShopButton";
 import { fmtShortDate } from "@/lib/format";
 import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
@@ -39,11 +45,30 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
   const stories = getStories(active).slice(0, active ? 3 : 6);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   const pinned = cityAds ? null : pinnedRailBanner();
+  // Risers come only from leagues with a comparable earlier report; on a league page, that league's risers first.
+  const allRisers = minimal ? [] : topRisers(20);
+  const risers = [...allRisers.filter((r) => r.league.id === active), ...allRisers.filter((r) => r.league.id !== active)].slice(0, 4);
+  const riserNote = [...new Set(risers.map((r) => `${r.league.name} list of ${fmtShortDate(r.previous.publishedDate)}`))].join(" and the ");
+  // "Shop the No. 1": the active league's leader, or on the homepage the leader of the newest list.
+  const shopLeague = leagues.find((x) => x.league.id === active) ?? leagues.slice().sort((a, b) => b.ranking!.publishedDate.localeCompare(a.ranking!.publishedDate))[0];
+  const shop = shopLeague ? { league: shopLeague.league, ranking: shopLeague.ranking!, page: active ? `league_${active}` : "home" } : null;
+  // Cities with the most ranked players, as a quick way into the city pages.
+  const cities = minimal ? [] : getCities().map((c) => ({ c, n: cityRanked(c).length })).sort((a, b) => b.n - a.n).slice(0, 10).map((x) => x.c);
   return (
     <aside className="rail" aria-label="Browse the lists">
       {pinned && <ShowUntil until={pinned.until}><LidsAd banner={pinned.banner} at="rail_pinned" /></ShowUntil>}
 
       {lead}
+
+      {!minimal && (
+        <form className="rail-find" action="/search/" role="search">
+          <label htmlFor="q-rail" className="sr-only">Find a player, team or city</label>
+          <input id="q-rail" name="q" type="search" placeholder="Find a player, team or city" autoComplete="off" />
+          <button type="submit" aria-label="Search">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" strokeWidth="2.2" /><path d="m13 13 4.5 4.5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" /></svg>
+          </button>
+        </form>
+      )}
 
       {!minimal && <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
@@ -51,8 +76,11 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
           {leagues.map(({ league, ranking }) => (
             <details key={league.id} className="rail-league" open={active ? active === league.id : league.id === leagues[0].league.id} style={{ "--lg": league.accent } as React.CSSProperties}>
               <summary>
-                <span className="rail-lg">{league.name}</span>
-                <span className="rail-lead">{getPlayer(ranking!.entries[0].playerId)?.name}</span>
+                <RailThumb ranking={ranking!} />
+                <span className="rail-sum">
+                  <span className="rail-lg">{league.name}</span>
+                  <span className="rail-lead">No. 1 {getPlayer(ranking!.entries[0].playerId)?.name}</span>
+                </span>
               </summary>
               <ol>
                 {ranking!.entries.slice(0, 5).map((e) => {
@@ -66,6 +94,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
                   );
                 })}
               </ol>
+              <p className="rail-asof">{reportStatus(ranking!).dated ? "Latest available list" : "Latest list"} · published {fmtShortDate(ranking!.publishedDate)}</p>
               <Link className="rail-more" href={`/${league.slug}/`}>All {ranking!.entries.length} {league.name} jerseys →</Link>
             </details>
           ))}
@@ -73,6 +102,28 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
       </section>}
 
       {!cityAds && <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>}
+
+      {!minimal && risers.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">Trending: biggest risers</h2>
+          <ol className="rail-trend">
+            {risers.map((r) => {
+              const p = getPlayer(r.playerId)!;
+              return (
+                <li key={r.league.id + p.id} style={{ "--lg": r.league.accent } as React.CSSProperties}>
+                  <span className="rail-trend-up">▲{r.delta}</span>
+                  <Link href={`/players/${p.slug}/`}>{p.name}</Link>
+                  <span className="rail-team">{r.league.name} · {r.previousRank} → {r.rank}</span>
+                </li>
+              );
+            })}
+          </ol>
+          <p className="rail-asof">Change since the {riserNote}.</p>
+          <Link className="rail-more" href="/trending/">All risers and new entries →</Link>
+        </section>
+      )}
+
+      {!minimal && shop && <RailShop {...shop} />}
 
       {!hideNews && news.length > 0 && (
         <section className="rail-box">
@@ -112,6 +163,16 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
 
       {cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
 
+      {!minimal && cities.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">Jerseys by city</h2>
+          <ul className="rail-cities">
+            {cities.map((c) => <li key={c.slug}><Link href={cityPath(c)}>{c.name}</Link></li>)}
+          </ul>
+          <Link className="rail-more" href="/cities/">All {getCities().length} cities →</Link>
+        </section>
+      )}
+
       {!minimal && <section className="rail-box">
         <h2 className="rail-h">Latest reports</h2>
         <ul className="rail-updates">
@@ -130,5 +191,45 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
 
       {minimal ? null : cityAds ? <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /> : <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>}
     </aside>
+  );
+}
+
+/** The No. 1 player's jersey photo for the league summary, or the number tile in team colors when no photo is on file. */
+function RailThumb({ ranking }: { ranking: Ranking }) {
+  const e = ranking.entries[0];
+  const p = getPlayer(e.playerId)!;
+  const { reportTeam, number } = entryTeams(e, p);
+  const photo = getProducts(p.id).find((x) => x.productType === "jersey" && x.image && x.teamId === e.teamIdAtReport) ?? getProducts(p.id).find((x) => x.productType === "jersey" && x.image);
+  if (photo?.image) return <span className="rail-thumb"><img {...jerseyImg(photo.image.url, 80)} alt="" width={40} height={40} loading="lazy" decoding="async" /></span>;
+  const c = reportTeam?.colors ?? { primary: "#dfe3e8", secondary: "#20252b", accent: "#9aa3ad" };
+  return <span className="rail-thumb is-tile" style={{ backgroundColor: c.primary, color: c.secondary }} aria-hidden="true">{number ?? ""}</span>;
+}
+
+/** One shopping card in the rail: the No. 1 jersey with the retailer's photo, verified price only, and a tracked link. */
+function RailShop({ league, ranking, page }: { league: League; ranking: Ranking; page: string }) {
+  const e = ranking.entries[0];
+  const p = getPlayer(e.playerId)!;
+  const jerseys = getProducts(p.id).filter((x) => x.productType === "jersey");
+  const product = jerseys.find((x) => x.image && x.teamId === (p.teamId ?? e.teamIdAtReport)) ?? jerseys.find((x) => x.image) ?? jerseys[0];
+  const offer = product ? productOffer(product) : searchOffer(p, getTeam(p.teamId ?? p.lastTeamId));
+  if (!offer) return null;
+  const team = getTeam(product?.teamId ?? p.teamId ?? p.lastTeamId);
+  const price = product?.price && product.currency ? new Intl.NumberFormat("en-US", { style: "currency", currency: product.currency }).format(product.price) : null;
+  return (
+    <section className="rail-box rail-shop" style={{ "--tc": team?.colors.primary ?? league.accent } as React.CSSProperties}>
+      <h2 className="rail-h">Shop the No. 1 {league.name} jersey</h2>
+      <div className="rail-shop-in">
+        {product?.image && <img {...jerseyImg(product.image.url, 200)} alt={product.image.alt} width={100} height={100} loading="lazy" decoding="async" />}
+        <div>
+          <Link className="rail-shop-name" href={`/players/${p.slug}/`}>{p.name}</Link>
+          <span className="rail-team">{team?.name}</span>
+          {price && <span className="rail-shop-price">{price} <small>checked {fmtShortDate(product!.lastVerified)}</small></span>}
+        </div>
+      </div>
+      <ShopButton offer={offer} variant="small" ctx={{ league: league.id, playerId: p.id, rank: 1, placement: "rail_shop", page }}>
+        {product ? "Shop this jersey" : "Find this jersey"}
+      </ShopButton>
+      <Link className="rail-more" href="/shop/">Shop every league&apos;s top sellers →</Link>
+    </section>
   );
 }

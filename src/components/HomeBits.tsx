@@ -4,7 +4,8 @@ import { getPlayer, getTeam, getProducts, getStatLine, entryTeams, reportStatus 
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { jerseyImg } from "@/lib/img";
 import { fmtShortDate, fmtDate } from "@/lib/format";
-import { getFeatured } from "@/lib/featured";
+import { getFeatured, getHero } from "@/lib/featured";
+import { topRisers, newEntries, repeatLeaders, getTrends } from "@/lib/trending";
 import { ShopButton } from "./ShopButton";
 import { HaveJersey } from "./HaveJersey";
 
@@ -144,9 +145,9 @@ export function LeagueTopFive({ league, ranking }: { league: League; ranking: Ra
         {top.map((e) => <PlayerRankCard key={e.playerId} league={league} ranking={ranking} rank={e.rank} />)}
       </ol>
       {rest.length > 0 && (
-        <details className="lt5-rest">
-          <summary>Ranks 6 to {ranking.entries.length} <span className="lt5-count">{rest.length} more players</span></summary>
-          <ol className="lt5-rows" start={6}>
+        <div className="lt5-rest is-open">
+          <p className="lt5-rest-h">Ranks 6 to {ranking.entries.length}</p>
+          <ol className={`lt5-rows${rest.length > 12 ? " is-cols" : ""}`} start={6}>
             {rest.map((e) => {
               const p = getPlayer(e.playerId)!;
               const { reportTeam, now } = entryTeams(e, p);
@@ -166,7 +167,7 @@ export function LeagueTopFive({ league, ranking }: { league: League; ranking: Ra
               );
             })}
           </ol>
-        </details>
+        </div>
       )}
     </section>
   );
@@ -207,5 +208,100 @@ export function PlayerRankCard({ league, ranking, rank }: { league: League; rank
         <HaveJersey name={p.name} league={league.id} className="have-sm" />
       </div>
     </li>
+  );
+}
+
+/**
+ * Homepage hero: the configurable story from data/featured.json (headline, dek, link), a real retailer photo of the named
+ * player's jersey with the rank from the latest report, and quick routes to what's selling, who's trending and where to buy.
+ * The H1 stays the site's long-standing title.
+ */
+export function HeroStory({ leagues }: { leagues: { league: League; ranking: Ranking }[] }) {
+  const h = getHero();
+  if (!h) return null;
+  const { player, product, team, league, appearance } = h;
+  const tc = team?.colors ?? { primary: "#d7a849", secondary: "#20252b", accent: "#ffffff" };
+  return (
+    <section className="gd-hero" aria-labelledby="home-h1" style={{ "--tc": tc.primary, "--tc2": tc.secondary } as React.CSSProperties}>
+      <div className="wrap gd-hero-in">
+        <div className="gd-hero-copy">
+          <p className="gd-kicker">{h.kicker}</p>
+          <p className="gd-display">{h.headline}</p>
+          <h1 id="home-h1" className="gd-h1">Top selling sports jerseys in every league</h1>
+          <p className="gd-dek">{h.dek}</p>
+          <div className="gd-ctas">
+            <Link className="gd-btn" href={h.cta.href}>{h.cta.label} <span aria-hidden="true">→</span></Link>
+            <Link className="gd-btn is-line" href="/trending/">Who&apos;s trending</Link>
+            <Link className="gd-btn is-line" href="/shop/">Where to buy</Link>
+          </div>
+          <nav className="gd-chips" aria-label="Jump to a league">
+            {leagues.map(({ league: l }) => <Link key={l.id} href={`/${l.slug}/`} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</Link>)}
+            <Link href="/cities/" className="is-city">Jerseys by city</Link>
+          </nav>
+          <p className="gd-updated"><span className="gd-dot" aria-hidden="true" />Updated {fmtShortDate(h.updated)}</p>
+        </div>
+        {player && product?.image && (
+          <figure className="gd-photo">
+            <span className="gd-bignum" aria-hidden="true">{appearance?.rank ?? ""}</span>
+            <img {...jerseyImg(product.image.url, 560)} alt={product.image.alt} width={560} height={560} loading="eager" fetchPriority="high" decoding="async" />
+            <figcaption>
+              {appearance && league && <span className="gd-rank">No. {appearance.rank} · {league.name}</span>}
+              <Link href={`/players/${player.slug}/`} className="gd-who">{player.name}</Link>
+              <span className="gd-team">{team?.name} jersey{appearance ? ` · ${appearance.ranking.title}` : ""}</span>
+            </figcaption>
+          </figure>
+        )}
+      </div>
+    </section>
+  );
+}
+
+/** Rank changes between two comparable published reports. Leagues without an earlier comparable report are named, not guessed. */
+export function TrendingNow() {
+  const risers = topRisers(5);
+  const fresh = newEntries(5);
+  const repeat = repeatLeaders();
+  const { compared, uncompared } = getTrends();
+  if (!compared.length) return null;
+  const row = (league: League, playerId: string, right: React.ReactNode, key: string) => {
+    const p = getPlayer(playerId)!;
+    return (
+      <li key={key}>
+        <span className="tr-lg" style={{ "--lg": league.accent } as React.CSSProperties}>{league.name}</span>
+        <Link href={`/players/${p.slug}/`}>{p.name}</Link>
+        {right}
+      </li>
+    );
+  };
+  return (
+    <section className="wrap section trend-light" id="trending" aria-labelledby="trend-h">
+      <div>
+        <div className="sec-head">
+          <p className="sec-k">Who&apos;s moving up</p>
+          <h2 id="trend-h" className="sec-h">Trending now</h2>
+          <Link className="sec-more" href="/trending/">All movers →</Link>
+        </div>
+        <div className="trend-grid is-light is-3">
+          <div className="trend-box is-hot">
+            <h3>Biggest risers</h3>
+            <ol>{risers.map((r) => row(r.league, r.playerId, <span className="tr-mv"><s>{r.previousRank}</s> → <b>{r.rank}</b> <em className="up">▲{r.delta}</em></span>, r.league.id + r.playerId))}</ol>
+          </div>
+          <div className="trend-box">
+            <h3>New to the lists</h3>
+            <ol>{fresh.map((r) => row(r.league, r.playerId, <span className="tr-mv"><b>No. {r.rank}</b> <em className="new">New</em></span>, r.league.id + r.playerId))}</ol>
+          </div>
+          <div className="trend-box">
+            <h3>Still No. 1</h3>
+            {repeat.length ? (
+              <ol>{repeat.map((r) => row(r.league, r.playerId, <span className="tr-mv"><b>No. 1</b> again</span>, r.league.id))}</ol>
+            ) : <p className="trend-empty">No league has the same No. 1 on its last two comparable lists.</p>}
+            <p className="trend-note">
+              Compared: {compared.map((c) => `${c.league.name}, the ${fmtShortDate(c.ranking.publishedDate)} list against the ${fmtShortDate(c.movement.previous.publishedDate)} list`).join("; ")}.
+              {" "}{uncompared.map((u) => u.league.name).join(", ")} {uncompared.length === 1 ? "has" : "have"} no comparable earlier list yet, so no movement is shown.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
