@@ -352,3 +352,6 @@
 .cx-dir:has(#cf-mlb:checked) .cgrid > .ccard:not(.has-mlb) { display: none; }
 .cx-dir:has(#cf-nhl:checked) .cgrid > .ccard:not(.has-nhl) { display: none; }
 .cx-dir:has(#cf-mls:checked) .cgrid > .ccard:not(.has-mls) { display: none; }
+
+/* Homepage "Explore jerseys by city": the same cards as the Cities directory, so it needs the directory's colors. */
+.cities-sec { --cx-navy: #142b45; --cx-navy-2: #0f2236; --cx-gold: #d7a849; --cx-gold-ink: #8a6719; }

@@ -6,7 +6,9 @@ import { LeaderCard, FeaturedPlayer, LeagueTopFive, HeroStory, TrendingNow, TopT
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getCurrentRanking, getRankings, reportStatus } from "@/lib/data";
-import { getCity, cityPath, cityRanked, cityLeagues, getCities, cityArt } from "@/lib/cities";
+import { getCity, getCities } from "@/lib/cities";
+import { CityCard } from "@/components/CityCards";
+import "./cities.css";
 import { getStories, storyPath } from "@/lib/stories";
 import { fmtShortDate } from "@/lib/format";
 import { TeamShopDirectory } from "@/components/ShopBits";
@@ -24,7 +26,7 @@ export default function Home() {
   const newestLeague = getLeagues().find((l) => l.id === newest?.league);
   const ranked = new Set(leagues.flatMap(({ ranking }) => ranking!.entries.map((e) => e.playerId))).size;
   const verified = leagues.map(({ ranking }) => ranking!.lastVerified).sort().pop();
-  const cities = ["new-york", "los-angeles", "chicago", "dallas", "boston", "bay-area", "philadelphia", "washington-dc"].map(getCity).filter((c) => !!c);
+  const cities = ["new-york", "los-angeles", "chicago", "dallas", "boston", "bay-area", "philadelphia", "washington-dc", "toronto"].map(getCity).filter((c) => !!c);
   const stories = getStories().slice(0, 5);
   const ld = {
     "@context": "https://schema.org",
@@ -62,19 +64,8 @@ export default function Home() {
               <h2 id="cities-h" className="sec-h">Explore jerseys by city</h2>
               <Link className="sec-more" href="/cities/">All {getCities().length} cities →</Link>
             </div>
-            <div className="citycards">
-              {cities.map((c) => {
-                const rows = cityRanked(c);
-                return (
-                  <Link key={c.slug} className="citycard has-art" href={cityPath(c)}>
-                    <img className="citycard-art" src={cityArt(c).src} alt={cityArt(c).alt} width={1600} height={1000} loading="lazy" decoding="async" />
-                    <span className="citycard-name">{c.name}</span>
-                    <span className="citycard-meta">{c.teams.length} teams · {rows.length} ranked {rows.length === 1 ? "player" : "players"}</span>
-                    <span className="citycard-lgs">{cityLeagues(c).map((l) => <span key={l.id} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</span>)}</span>
-                    {rows[0] && <span className="citycard-top">Top seller: {rows[0].player.name}, No. {rows[0].rank} {rows[0].ranking.league.toUpperCase()}</span>}
-                  </Link>
-                );
-              })}
+            <div className="cgrid">
+              {cities.map((c) => <CityCard key={c.slug} city={c} />)}
             </div>
           </div>
         </section>

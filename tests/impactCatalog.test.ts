@@ -71,6 +71,14 @@ describe("Impact Lids catalog", () => {
     expect(pickJerseys([item({ Name: "Men's Nike Aaron Judge Fresno State Jersey" })], judge, yankees)).toEqual([]);
   });
 
+  it("puts a current jersey ahead of a throwback for an active player", () => {
+    const picks = pickJerseys([
+      item({ Name: "Men's Mitchell & Ness Aaron Judge Navy New York Yankees Cooperstown Collection Jersey", CurrentPrice: "150.00" }),
+      item({ Name: "Unisex Nike Aaron Judge New York Yankees Home Limited Jersey", CurrentPrice: "174.99" }),
+    ], judge, yankees);
+    expect(picks[0].Name).toBe("Unisex Nike Aaron Judge New York Yankees Home Limited Jersey");
+  });
+
   it("does not drop items when Impact leaves out the catalog or campaign fields", () => {
     const picks = pickJerseys([item({ CampaignId: undefined, CatalogId: undefined })], judge, yankees, { campaignId: "9679", catalogId: "5267" });
     expect(picks).toHaveLength(1);
