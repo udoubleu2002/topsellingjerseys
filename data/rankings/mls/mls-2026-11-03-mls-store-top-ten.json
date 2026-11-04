@@ -1,0 +1,74 @@
+{
+  "id": "mls-2026-11-03-mls-store-top-ten",
+  "series": "mls-store-calendar",
+  "title": "MLS Top-Selling Jerseys of 2026",
+  "publisher": "Major League Soccer (via MLSsoccer.com)",
+  "periodStart": "2026-01-01",
+  "periodEnd": "2026-10-30",
+  "scope": "Player jersey sales on the official MLS online store (MLSstore.com) from January 1 to October 30, 2026.",
+  "methodology": "MLS published the top 10 by sales on its online store. Unit counts are not published.",
+  "limitations": [
+    "Covers sales on the MLS online store only; other retailers and in-stadium sales are not included.",
+    "The 2025 list was announced in MLS's season review without naming the retailers covered, so the two lists are not compared rank by rank.",
+    "MLSsoccer.com does not print a date on the article; the Nov. 3, 2026 date comes from same-day coverage by ESPN and Yardbarker."
+  ],
+  "league": "mls",
+  "sourceUrl": "https://www.mlssoccer.com/news/lionel-messi-son-heung-min-lead-top-mls-jerseys-in-2026",
+  "publishedDate": "2026-11-03",
+  "periodLabel": "MLS Store sales, January 1 to October 30, 2026",
+  "retrievedDate": "2026-11-04",
+  "lastVerified": "2026-11-04",
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "lionel-messi",
+      "teamIdAtReport": "inter-miami-cf"
+    },
+    {
+      "rank": 2,
+      "playerId": "son-heung-min",
+      "teamIdAtReport": "lafc"
+    },
+    {
+      "rank": 3,
+      "playerId": "thomas-muller",
+      "teamIdAtReport": "vancouver-whitecaps-fc"
+    },
+    {
+      "rank": 4,
+      "playerId": "robert-lewandowski",
+      "teamIdAtReport": "chicago-fire-fc"
+    },
+    {
+      "rank": 5,
+      "playerId": "antoine-griezmann",
+      "teamIdAtReport": "orlando-city-sc"
+    },
+    {
+      "rank": 6,
+      "playerId": "cavan-sullivan",
+      "teamIdAtReport": "philadelphia-union"
+    },
+    {
+      "rank": 7,
+      "playerId": "denis-bouanga",
+      "teamIdAtReport": "lafc"
+    },
+    {
+      "rank": 8,
+      "playerId": "luis-suarez",
+      "teamIdAtReport": "inter-miami-cf"
+    },
+    {
+      "rank": 9,
+      "playerId": "hany-mukhtar",
+      "teamIdAtReport": "nashville-sc"
+    },
+    {
+      "rank": 10,
+      "playerId": "rodrigo-de-paul",
+      "teamIdAtReport": "inter-miami-cf"
+    }
+  ]
+}

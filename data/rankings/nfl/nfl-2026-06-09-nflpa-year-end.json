@@ -9,14 +9,14 @@
   "methodology": "Compiled by NFL Players Inc. from licensee royalty reports. Unit counts are not published.",
   "limitations": [
     "The NFLPA list measures all licensed player merchandise, not jerseys alone.",
-    "The source report ranks 50 players. This site currently lists ranks 1-25; ranks 26-50 have not yet been verified for import."
+    "Teams are those the NFLPA credited for sales during the period. Players who have moved since (Tyreek Hill, Mike Evans, A.J. Brown) show their current status on their player pages."
   ],
   "league": "nfl",
   "sourceUrl": "https://nflpa.com/partners/posts/top-50-nfl-player-sales-list-march-1-february-28-2026",
   "publishedDate": "2026-06-09",
-  "periodLabel": "Licensed player merchandise led by jerseys, March 1, 2025 to February 28, 2026 (top 25 shown)",
+  "periodLabel": "Licensed player merchandise led by jerseys, March 1, 2025 to February 28, 2026",
   "retrievedDate": "2026-10-20",
-  "lastVerified": "2026-10-27",
+  "lastVerified": "2026-11-04",
   "status": "published",
   "entries": [
     {
@@ -143,6 +143,134 @@
       "rank": 25,
       "playerId": "fred-warner",
       "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 26,
+      "playerId": "joe-burrow",
+      "teamIdAtReport": "cincinnati-bengals"
+    },
+    {
+      "rank": 27,
+      "playerId": "jaxson-dart",
+      "teamIdAtReport": "new-york-giants"
+    },
+    {
+      "rank": 28,
+      "playerId": "baker-mayfield",
+      "teamIdAtReport": "tampa-bay-buccaneers"
+    },
+    {
+      "rank": 29,
+      "playerId": "travis-kelce",
+      "teamIdAtReport": "kansas-city-chiefs"
+    },
+    {
+      "rank": 30,
+      "playerId": "maxx-crosby",
+      "teamIdAtReport": "las-vegas-raiders"
+    },
+    {
+      "rank": 31,
+      "playerId": "shedeur-sanders",
+      "teamIdAtReport": "cleveland-browns"
+    },
+    {
+      "rank": 32,
+      "playerId": "justin-herbert",
+      "teamIdAtReport": "los-angeles-chargers"
+    },
+    {
+      "rank": 33,
+      "playerId": "pat-surtain-ii",
+      "teamIdAtReport": "denver-broncos"
+    },
+    {
+      "rank": 34,
+      "playerId": "ashton-jeanty",
+      "teamIdAtReport": "las-vegas-raiders"
+    },
+    {
+      "rank": 35,
+      "playerId": "cam-skattebo",
+      "teamIdAtReport": "new-york-giants"
+    },
+    {
+      "rank": 36,
+      "playerId": "jared-goff",
+      "teamIdAtReport": "detroit-lions"
+    },
+    {
+      "rank": 37,
+      "playerId": "cam-ward",
+      "teamIdAtReport": "tennessee-titans"
+    },
+    {
+      "rank": 38,
+      "playerId": "malik-nabers",
+      "teamIdAtReport": "new-york-giants"
+    },
+    {
+      "rank": 39,
+      "playerId": "tyreek-hill",
+      "teamIdAtReport": "miami-dolphins",
+      "numberAtReport": "10"
+    },
+    {
+      "rank": 40,
+      "playerId": "mike-evans",
+      "teamIdAtReport": "tampa-bay-buccaneers",
+      "numberAtReport": "13"
+    },
+    {
+      "rank": 41,
+      "playerId": "cooper-kupp",
+      "teamIdAtReport": "seattle-seahawks"
+    },
+    {
+      "rank": 42,
+      "playerId": "travis-hunter",
+      "teamIdAtReport": "jacksonville-jaguars"
+    },
+    {
+      "rank": 43,
+      "playerId": "dk-metcalf",
+      "teamIdAtReport": "pittsburgh-steelers"
+    },
+    {
+      "rank": 44,
+      "playerId": "aaron-rodgers",
+      "teamIdAtReport": "pittsburgh-steelers"
+    },
+    {
+      "rank": 45,
+      "playerId": "jamarr-chase",
+      "teamIdAtReport": "cincinnati-bengals"
+    },
+    {
+      "rank": 46,
+      "playerId": "derrick-henry",
+      "teamIdAtReport": "baltimore-ravens"
+    },
+    {
+      "rank": 47,
+      "playerId": "bijan-robinson",
+      "teamIdAtReport": "atlanta-falcons"
+    },
+    {
+      "rank": 48,
+      "playerId": "nick-bosa",
+      "teamIdAtReport": "san-francisco-49ers"
+    },
+    {
+      "rank": 49,
+      "playerId": "sam-darnold",
+      "teamIdAtReport": "seattle-seahawks"
+    },
+    {
+      "rank": 50,
+      "playerId": "a-j-brown",
+      "teamIdAtReport": "philadelphia-eagles",
+      "numberAtReport": "11"
     }
   ]
 }

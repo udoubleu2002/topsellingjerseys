@@ -5,7 +5,7 @@ export const site = {
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "hello@topsellingjerseys.net",
   googleVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
   /** Date the site content was last reviewed as a whole. */
-  lastReviewed: "2026-10-21",
+  lastReviewed: "2026-11-04",
 };
 
 /**

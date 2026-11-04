@@ -246,6 +246,7 @@ export default async function PlayerPage({ params }: Props) {
                               {tags.map((t) => <span key={t} className="style-tag">{t}</span>)}
                             </span>
                           )}
+                          {pTeam && p.teamId !== player.teamId && <span className="jersey-team-note">Jersey shows the {pTeam.name}{player.teamId ? `; ${player.name} now plays for the ${team?.name ?? "another team"}` : player.status === "Retired" ? `; ${player.name} has retired` : `; ${player.name} is a ${player.status.toLowerCase()}`}.</span>}
                           {p.price !== null && p.currency && <span>{new Intl.NumberFormat("en-US", { style: "currency", currency: p.currency }).format(p.price)}</span>}
                           <span className="shop-note">
                             {p.availability === "in-stock" ? "In stock" : p.availability === "out-of-stock" ? "Out of stock" : p.availability === "preorder" ? "Preorder" : "Availability not confirmed"}

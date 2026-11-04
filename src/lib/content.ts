@@ -10,7 +10,7 @@ const pubYear = (r: Pick<Ranking, "publishedDate">) => r.publishedDate.slice(0, 
 /**
  * League-specific editorial copy. The "who is No. 1" FAQ is generated from ranking data so it can never go stale.
  * `keyword` is the page's primary search phrase; no other page targets it. Titles take their year from the report
- * itself, so an older list (WNBA 2024, MLS 2025) is never labeled with the current year.
+ * itself, so an older list (e.g. WNBA 2024) is never labeled with the current year.
  */
 export const leagueCopy: Record<string, { keyword: string; title: (r: Ranking) => string; intro: string; meta: string; faq: { q: string; a: string }[] }> = {
   nfl: {
@@ -21,7 +21,7 @@ export const leagueCopy: Record<string, { keyword: string; title: (r: Ranking) =
     meta: "The best selling NFL jerseys on the NFLPA's latest year-end sales list, in published order. See the most popular NFL jerseys, 2026 stats and where to shop.",
     faq: [
       { q: "How often does the NFLPA publish its sales list?", a: "The NFLPA usually releases a midseason list covering March through August and a year-end list covering March through February. We add each new list as a dated report and keep earlier lists in the archive." },
-      { q: "Why does this page show 25 players when the NFLPA ranks 50?", a: "We publish entries only after checking them against the source report. Ranks 26 to 50 have not finished that check yet, so they are not shown." },
+      { q: "Why are some players shown with a team they no longer play for?", a: "The NFLPA credits each player's sales to the team he played for during the sales period. We keep that team on the list and note a later move, so the published ranking is never rewritten." },
     ],
   },
   nba: {
@@ -72,11 +72,11 @@ export const leagueCopy: Record<string, { keyword: string; title: (r: Ranking) =
     keyword: "most popular MLS jerseys",
     title: (r) => `Most Popular MLS Jerseys: Top ${r.entries.length} Best-Sellers of ${seasonLabel(r)}`,
     intro:
-      "Major League Soccer announces its best-selling player jerseys at the end of each regular season. Below are the most popular MLS jerseys on the latest official list, in its published order, with each player's 2026 season numbers.",
-    meta: "The most popular MLS jerseys on the league's latest best-selling jerseys list (2025), in published order. Best selling soccer jerseys in MLS, stats and where to shop.",
+      "Major League Soccer announces its best-selling player jerseys near the end of each season. The newest list ranks jersey sales on the official MLS online store from January 1 to October 30, 2026. Below are the most popular MLS jerseys on it, in its published order, with each player's 2026 season numbers.",
+    meta: "The most popular MLS jerseys on the league's latest best-selling jerseys list (2026), in published order. Best selling soccer jerseys in MLS, stats and where to shop.",
     faq: [
-      { q: "Why is the MLS list from 2025?", a: "It is the most recent list MLS has published. MLS usually releases its list near the end of the regular season, and we will add the 2026 list when it appears." },
-      { q: "Does this include club jerseys sold by other retailers?", a: "MLS has not said which retailers its 2025 season list covers. Its earlier 2025 list, covering January 1 to May 1, counted player jersey sales on MLSstore.com only." },
+      { q: "What sales does the 2026 MLS list count?", a: "Player jersey sales on the official MLS online store from January 1 to October 30, 2026, as announced by MLS on November 3, 2026. Other retailers and in-stadium sales are not included." },
+      { q: "Where is the 2025 MLS list?", a: "It stays in the ranking archive as a historical report. MLS did not name the retailers behind its 2025 season list, so the two years are not compared rank by rank." },
     ],
   },
 };

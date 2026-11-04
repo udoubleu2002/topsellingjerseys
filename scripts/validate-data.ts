@@ -8,6 +8,9 @@ import { loadArticles } from "../src/lib/articles";
 import { loadProfiles } from "../src/lib/profiles";
 import { loadNews } from "../src/lib/news";
 import { loadStories } from "../src/lib/stories";
+import { loadFeatured } from "../src/lib/featured";
+import { site } from "../src/lib/config";
+import { daysBetween } from "../src/lib/format";
 
 try {
   const store = loadStore();
@@ -23,6 +26,12 @@ try {
   const news = checkNews(loadNews(), store);
   errors.push(...news.errors);
   warnings.push(...news.warnings);
+  // Homepage player of the week: must name a known player; flag it once it is more than two weeks old.
+  const featured = loadFeatured();
+  if (featured && !store.players.some((p) => p.id === featured.playerId)) errors.push(`data/featured.json: unknown player ${featured.playerId}`);
+  if (featured && daysBetween(featured.weekOf, site.lastReviewed) > 14) warnings.push(`data/featured.json: player of the week is from ${featured.weekOf}; pick a new one`);
+  // Rankings whose copy has not been checked against the source in 45 days.
+  for (const r of store.rankings) if (r.status === "published" && daysBetween(r.lastVerified, site.lastReviewed) > 45) warnings.push(`${r.id}: last verified ${r.lastVerified}; re-check it against ${r.sourceUrl}`);
   for (const w of warnings) console.warn(`warn  ${w}`);
   // In GitHub Actions, errors also show as annotations on the run, so they can be read without the full log.
   for (const e of errors) console.error(process.env.GITHUB_ACTIONS ? `::error::${e}` : `error ${e}`);

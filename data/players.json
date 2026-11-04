@@ -29721,11 +29721,11 @@
     "leagues": [
       "nfl"
     ],
-    "teamId": "indianapolis-colts",
-    "lastTeamId": "indianapolis-colts",
+    "teamId": "san-francisco-49ers",
+    "lastTeamId": "san-francisco-49ers",
     "status": "Active",
     "position": "DT",
-    "number": "99",
+    "number": null,
     "birthday": "1994-03-17",
     "birthdaySource": "https://www.statmuse.com/nfl/player/deforest-buckner-25548",
     "portrait": null,
@@ -29740,14 +29740,15 @@
         "source": "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
       },
       {
-        "text": "Wears No. 99 for the Colts",
-        "source": "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
+        "text": "Traded from Indianapolis to San Francisco on Oct. 27, 2026, after wearing No. 99 for the Colts",
+        "source": "https://www.nfl.com/news/nfl-trade-deadline-track-every-move-since-start-of-2026-regular-season"
       }
     ],
     "sources": [
-      "https://www.statmuse.com/nfl/player/deforest-buckner-25548"
+      "https://www.statmuse.com/nfl/player/deforest-buckner-25548",
+      "https://www.nfl.com/news/nfl-trade-deadline-track-every-move-since-start-of-2026-regular-season"
     ],
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-11-04"
   },
   {
     "id": "trevor-lawrence",
@@ -31191,11 +31192,11 @@
     "leagues": [
       "nfl"
     ],
-    "teamId": "tennessee-titans",
-    "lastTeamId": "tennessee-titans",
+    "teamId": "chicago-bears",
+    "lastTeamId": "chicago-bears",
     "status": "Active",
     "position": "DT",
-    "number": "98",
+    "number": null,
     "birthday": "1997-07-28",
     "birthdaySource": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580",
     "portrait": null,
@@ -31210,14 +31211,15 @@
         "source": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
       },
       {
-        "text": "Wears No. 98 for the Titans",
-        "source": "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
+        "text": "Traded from Tennessee to Chicago on Oct. 29, 2026 for two first-round picks, after wearing No. 98 for the Titans",
+        "source": "https://www.nfl.com/news/nfl-trade-deadline-track-every-move-since-start-of-2026-regular-season"
       }
     ],
     "sources": [
-      "https://www.statmuse.com/nfl/player/jeffery-simmons-27580"
+      "https://www.statmuse.com/nfl/player/jeffery-simmons-27580",
+      "https://www.nfl.com/news/nfl-trade-deadline-track-every-move-since-start-of-2026-regular-season"
     ],
-    "lastVerified": "2026-10-27"
+    "lastVerified": "2026-11-04"
   },
   {
     "id": "tony-pollard",

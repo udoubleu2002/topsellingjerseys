@@ -105,7 +105,6 @@ Vercel: import the repo, set the env vars from `.env.example`, deploy. Any Node 
 
 - No admin UI: data is edited as JSON with the validated CLI workflow above.
 - No team pages; teams are searchable and linked from player pages.
-- NFL ranks 26 to 50 from the NFLPA list are not yet verified for import.
 - Stats are maintained by hand from cited sources, not a live feed. A stats provider (for example Sportradar or SportsDataIO) would plug into `stats.json` generation.
 - Product photos and player portraits need licensed sources; placeholders are clearly labeled until then.
 - Privacy policy and terms are templates that need legal review.
