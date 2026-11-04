@@ -7,7 +7,6 @@ import path from "node:path";
 import { z } from "zod";
 import type { Player, Product, Ranking, Team } from "./schema";
 import { getAnyTeam, getCurrentRanking, getLeagues, getPlayer, getPlayers, getProducts, getTeam } from "./data";
-import { lidsBanner, type LidsBanner } from "./lidsAds";
 import { getStories, storyJersey, storyPath, storyPlayer } from "./stories";
 import { articlePath, getArticles } from "./articles";
 
@@ -119,11 +118,6 @@ export function teamStars(teamId: string, max = 3): Player[] {
     .map((x) => x.p);
 }
 
-/** Lids banners for the Cities pages: only the all-jerseys banner (no Brewers, NHL or Ohtani banners on city pages). */
-export const CITY_BANNER_ID = "4114443";
-export function cityBanners(_c?: City): LidsBanner[] {
-  return [lidsBanner(CITY_BANNER_ID)!];
-}
 
 export type CityStory = { href: string; headline: string; league: string; date: string; image?: string; local: boolean };
 
