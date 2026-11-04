@@ -30,7 +30,10 @@
     "new-jersey-devils",
     "new-york-city-fc",
     "new-york-red-bulls"
-   ]
+   ],
+   "blurb": "Twelve teams across the five boroughs, Long Island and New Jersey, from Yankee Stadium to Madison Square Garden.",
+   "lat": 40.71,
+   "lon": -74.01
   },
   {
    "slug": "los-angeles",
@@ -50,7 +53,10 @@
     "anaheim-ducks",
     "la-galaxy",
     "lafc"
-   ]
+   ],
+   "blurb": "Eleven teams from Dodger Stadium to SoFi Stadium and the beaches of Orange County.",
+   "lat": 34.05,
+   "lon": -118.24
   },
   {
    "slug": "chicago",
@@ -65,7 +71,10 @@
     "chicago-white-sox",
     "chicago-blackhawks",
     "chicago-fire-fc"
-   ]
+   ],
+   "blurb": "Wrigley Field, the United Center and Soldier Field on the lakefront.",
+   "lat": 41.88,
+   "lon": -87.63
   },
   {
    "slug": "dallas",
@@ -80,7 +89,10 @@
     "texas-rangers",
     "dallas-stars",
     "fc-dallas"
-   ]
+   ],
+   "blurb": "AT&T Stadium in Arlington and the American Airlines Center downtown.",
+   "lat": 32.78,
+   "lon": -96.8
   },
   {
    "slug": "philadelphia",
@@ -93,7 +105,10 @@
     "philadelphia-phillies",
     "philadelphia-flyers",
     "philadelphia-union"
-   ]
+   ],
+   "blurb": "The South Philadelphia sports complex puts the Eagles, Phillies, 76ers and Flyers side by side.",
+   "lat": 39.95,
+   "lon": -75.17
   },
   {
    "slug": "boston",
@@ -107,7 +122,10 @@
     "boston-red-sox",
     "boston-bruins",
     "new-england-revolution"
-   ]
+   ],
+   "blurb": "Fenway Park, TD Garden and Gillette Stadium, the home of New England sports.",
+   "lat": 42.36,
+   "lon": -71.06
   },
   {
    "slug": "bay-area",
@@ -122,7 +140,10 @@
     "san-francisco-giants",
     "san-jose-sharks",
     "san-jose-earthquakes"
-   ]
+   ],
+   "blurb": "From Oracle Park on the San Francisco waterfront to Levi's Stadium in Santa Clara.",
+   "lat": 37.77,
+   "lon": -122.42
   },
   {
    "slug": "washington-dc",
@@ -137,7 +158,10 @@
     "washington-nationals",
     "washington-capitals",
     "d-c-united"
-   ]
+   ],
+   "blurb": "Nationals Park on the Anacostia and Capital One Arena in Chinatown.",
+   "lat": 38.91,
+   "lon": -77.04
   },
   {
    "slug": "toronto",
@@ -150,7 +174,10 @@
     "toronto-blue-jays",
     "toronto-maple-leafs",
     "toronto-fc"
-   ]
+   ],
+   "blurb": "Canada's largest city, from Rogers Centre beneath the CN Tower to Scotiabank Arena.",
+   "lat": 43.65,
+   "lon": -79.38
   },
   {
    "slug": "houston",
@@ -162,7 +189,10 @@
     "houston-rockets",
     "houston-astros",
     "houston-dynamo-fc"
-   ]
+   ],
+   "blurb": "Space City, home of the Texans, Rockets, Astros and Dynamo.",
+   "lat": 29.76,
+   "lon": -95.37
   },
   {
    "slug": "atlanta",
@@ -175,7 +205,10 @@
     "atlanta-dream",
     "atlanta-braves",
     "atlanta-united"
-   ]
+   ],
+   "blurb": "Mercedes-Benz Stadium downtown is home to both the Falcons and Atlanta United.",
+   "lat": 33.75,
+   "lon": -84.39
   },
   {
    "slug": "miami",
@@ -189,7 +222,10 @@
     "miami-marlins",
     "florida-panthers",
     "inter-miami-cf"
-   ]
+   ],
+   "blurb": "South Florida sports, from Hard Rock Stadium to the Heat's arena on Biscayne Bay.",
+   "lat": 25.76,
+   "lon": -80.19
   },
   {
    "slug": "seattle",
@@ -202,7 +238,10 @@
     "seattle-mariners",
     "seattle-kraken",
     "seattle-sounders-fc"
-   ]
+   ],
+   "blurb": "Lumen Field and T-Mobile Park side by side, and Climate Pledge Arena beneath the Space Needle.",
+   "lat": 47.61,
+   "lon": -122.33
   },
   {
    "slug": "detroit",
@@ -214,7 +253,10 @@
     "detroit-pistons",
     "detroit-tigers",
     "detroit-red-wings"
-   ]
+   ],
+   "blurb": "Ford Field, Comerica Park and Little Caesars Arena, all within a few blocks downtown.",
+   "lat": 42.33,
+   "lon": -83.05
   },
   {
    "slug": "minneapolis",
@@ -228,7 +270,10 @@
     "minnesota-twins",
     "minnesota-wild",
     "minnesota-united-fc"
-   ]
+   ],
+   "blurb": "The Twin Cities: U.S. Bank Stadium and Target Field in Minneapolis, the Wild in St. Paul.",
+   "lat": 44.98,
+   "lon": -93.27
   },
   {
    "slug": "denver",
@@ -241,7 +286,10 @@
     "colorado-rockies",
     "colorado-avalanche",
     "colorado-rapids"
-   ]
+   ],
+   "blurb": "Five teams under the Rockies, from Empower Field at Mile High to Coors Field.",
+   "lat": 39.74,
+   "lon": -104.99
   },
   {
    "slug": "phoenix",
@@ -253,7 +301,10 @@
     "phoenix-suns",
     "phoenix-mercury",
     "arizona-diamondbacks"
-   ]
+   ],
+   "blurb": "The Valley of the Sun, home of the Suns, Mercury, Cardinals and Diamondbacks.",
+   "lat": 33.45,
+   "lon": -112.07
   },
   {
    "slug": "tampa-bay",
@@ -265,7 +316,10 @@
     "tampa-bay-buccaneers",
     "tampa-bay-rays",
     "tampa-bay-lightning"
-   ]
+   ],
+   "blurb": "Raymond James Stadium and the Lightning's arena on the Tampa waterfront.",
+   "lat": 27.95,
+   "lon": -82.46
   },
   {
    "slug": "pittsburgh",
@@ -276,7 +330,10 @@
     "pittsburgh-steelers",
     "pittsburgh-pirates",
     "pittsburgh-penguins"
-   ]
+   ],
+   "blurb": "Three rivers and three teams, all in black and gold.",
+   "lat": 40.44,
+   "lon": -80.0
   },
   {
    "slug": "kansas-city",
@@ -287,7 +344,10 @@
     "kansas-city-chiefs",
     "kansas-city-royals",
     "sporting-kansas-city"
-   ]
+   ],
+   "blurb": "Arrowhead and Kauffman Stadium share the Truman Sports Complex.",
+   "lat": 39.1,
+   "lon": -94.58
   },
   {
    "slug": "montreal",
@@ -297,7 +357,10 @@
    "teams": [
     "montreal-canadiens",
     "cf-montreal"
-   ]
+   ],
+   "blurb": "Home of the Canadiens, the NHL's most decorated franchise, and CF Montréal.",
+   "lat": 45.5,
+   "lon": -73.57
   },
   {
    "slug": "st-louis",
@@ -308,7 +371,10 @@
     "st-louis-cardinals",
     "st-louis-blues",
     "st-louis-city-sc"
-   ]
+   ],
+   "blurb": "Busch Stadium and the Blues' downtown arena, in sight of the Gateway Arch.",
+   "lat": 38.63,
+   "lon": -90.2
   },
   {
    "slug": "baltimore",
@@ -318,7 +384,10 @@
    "teams": [
     "baltimore-ravens",
     "baltimore-orioles"
-   ]
+   ],
+   "blurb": "Camden Yards and M&T Bank Stadium stand next to each other near the Inner Harbor.",
+   "lat": 39.29,
+   "lon": -76.61
   },
   {
    "slug": "cleveland",
@@ -329,7 +398,10 @@
     "cleveland-browns",
     "cleveland-cavaliers",
     "cleveland-guardians"
-   ]
+   ],
+   "blurb": "The Browns on the lakefront, with the Cavaliers and Guardians at the Gateway complex downtown.",
+   "lat": 41.5,
+   "lon": -81.69
   },
   {
    "slug": "las-vegas",
@@ -340,7 +412,10 @@
     "las-vegas-raiders",
     "las-vegas-aces",
     "vegas-golden-knights"
-   ]
+   ],
+   "blurb": "Allegiant Stadium and T-Mobile Arena, just off the Strip.",
+   "lat": 36.17,
+   "lon": -115.14
   },
   {
    "slug": "san-diego",
@@ -350,7 +425,10 @@
    "teams": [
     "san-diego-padres",
     "san-diego-fc"
-   ]
+   ],
+   "blurb": "Petco Park in the Gaslamp Quarter and San Diego FC at Snapdragon Stadium.",
+   "lat": 32.72,
+   "lon": -117.16
   },
   {
    "slug": "vancouver",
@@ -360,7 +438,10 @@
    "teams": [
     "vancouver-canucks",
     "vancouver-whitecaps-fc"
-   ]
+   ],
+   "blurb": "Rogers Arena and BC Place stand side by side on False Creek.",
+   "lat": 49.28,
+   "lon": -123.12
   },
   {
    "slug": "milwaukee",
@@ -370,7 +451,10 @@
    "teams": [
     "milwaukee-bucks",
     "milwaukee-brewers"
-   ]
+   ],
+   "blurb": "The Bucks downtown and the Brewers at American Family Field.",
+   "lat": 43.04,
+   "lon": -87.91
   },
   {
    "slug": "green-bay",
@@ -379,7 +463,10 @@
    "country": "US",
    "teams": [
     "green-bay-packers"
-   ]
+   ],
+   "blurb": "The smallest market in major league sports, where the Packers are owned by their fans.",
+   "lat": 44.51,
+   "lon": -88.02
   },
   {
    "slug": "cincinnati",
@@ -390,7 +477,10 @@
     "cincinnati-bengals",
     "cincinnati-reds",
     "fc-cincinnati"
-   ]
+   ],
+   "blurb": "The Bengals and Reds on the Ohio River, with FC Cincinnati in the West End.",
+   "lat": 39.1,
+   "lon": -84.51
   },
   {
    "slug": "indianapolis",
@@ -401,7 +491,10 @@
     "indianapolis-colts",
     "indiana-pacers",
     "indiana-fever"
-   ]
+   ],
+   "blurb": "Lucas Oil Stadium and Gainbridge Fieldhouse downtown, home of the Colts, Pacers and Fever.",
+   "lat": 39.77,
+   "lon": -86.16
   },
   {
    "slug": "nashville",
@@ -412,7 +505,10 @@
     "tennessee-titans",
     "nashville-predators",
     "nashville-sc"
-   ]
+   ],
+   "blurb": "Music City: the Titans, the Predators on Broadway and Nashville SC.",
+   "lat": 36.16,
+   "lon": -86.78
   },
   {
    "slug": "charlotte",
@@ -423,7 +519,10 @@
     "carolina-panthers",
     "charlotte-hornets",
     "charlotte-fc"
-   ]
+   ],
+   "blurb": "Bank of America Stadium uptown hosts both the Panthers and Charlotte FC.",
+   "lat": 35.23,
+   "lon": -80.84
   },
   {
    "slug": "orlando",
@@ -433,7 +532,10 @@
    "teams": [
     "orlando-magic",
     "orlando-city-sc"
-   ]
+   ],
+   "blurb": "The Magic downtown and Orlando City at Inter&Co Stadium.",
+   "lat": 28.54,
+   "lon": -81.38
   },
   {
    "slug": "portland",
@@ -444,7 +546,10 @@
     "portland-trail-blazers",
     "portland-fire",
     "portland-timbers"
-   ]
+   ],
+   "blurb": "Rip City: the Trail Blazers, the Timbers and the WNBA's Portland Fire.",
+   "lat": 45.52,
+   "lon": -122.68
   },
   {
    "slug": "salt-lake-city",
@@ -455,7 +560,10 @@
     "utah-jazz",
     "utah-mammoth",
     "real-salt-lake"
-   ]
+   ],
+   "blurb": "The Jazz, the NHL's Utah Mammoth and Real Salt Lake beneath the Wasatch Range.",
+   "lat": 40.76,
+   "lon": -111.89
   },
   {
    "slug": "buffalo",
@@ -465,7 +573,10 @@
    "teams": [
     "buffalo-bills",
     "buffalo-sabres"
-   ]
+   ],
+   "blurb": "Bills country, with the Sabres on the waterfront.",
+   "lat": 42.89,
+   "lon": -78.88
   },
   {
    "slug": "new-orleans",
@@ -475,7 +586,10 @@
    "teams": [
     "new-orleans-saints",
     "new-orleans-pelicans"
-   ]
+   ],
+   "blurb": "The Superdome and the Smoothie King Center stand side by side downtown.",
+   "lat": 29.95,
+   "lon": -90.07
   },
   {
    "slug": "columbus",
@@ -485,7 +599,10 @@
    "teams": [
     "columbus-blue-jackets",
     "columbus-crew"
-   ]
+   ],
+   "blurb": "Ohio's capital, with the Blue Jackets and the Crew downtown.",
+   "lat": 39.96,
+   "lon": -83.0
   },
   {
    "slug": "edmonton",
@@ -494,7 +611,10 @@
    "country": "CA",
    "teams": [
     "edmonton-oilers"
-   ]
+   ],
+   "blurb": "The City of Champions, home of the Oilers at Rogers Place.",
+   "lat": 53.55,
+   "lon": -113.49
   }
  ]
 }

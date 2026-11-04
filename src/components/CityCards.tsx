@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { City } from "@/lib/cities";
-import { cityArt, cityFeatured, cityLeagues, cityPath, cityRanked, cityTeams, teamNickname } from "@/lib/cities";
-import { leagueList } from "@/lib/bestSelling";
+import { cityArt, cityFeatured, cityIntro, cityPath, cityRanked, cityTeams, teamNickname } from "@/lib/cities";
 import { jerseyImg } from "@/lib/img";
 
 /** The city's poster illustration (a local SVG with fixed dimensions). */
@@ -50,6 +49,7 @@ export function CityCard({ city, eager, size = "md" }: { city: City; eager?: boo
         <span className="ccard-place">{place(city)} · {teams.length} {teams.length === 1 ? "team" : "teams"}</span>
         <span className="ccard-name">{city.name}</span>
         <span className="ccard-teams">{teamLine(city, size === "sm" ? 3 : 4)}</span>
+        {size === "md" && city.blurb && <span className="ccard-blurb">{city.blurb}</span>}
         {top && <span className="ccard-top">{top.label}: <strong>{top.name}</strong>{top.detail && <em>{top.detail}</em>}</span>}
       </span>
     </Link>
@@ -62,15 +62,10 @@ export function CityCard({ city, eager, size = "md" }: { city: City; eager?: boo
  */
 export function FeaturedCity({ city }: { city: City }) {
   const teams = cityTeams(city);
-  const leagues = cityLeagues(city);
   const ranked = cityRanked(city);
   const lead = cityFeatured(city);
   const top = ranked[0];
-  const intro =
-    `${city.name} is home to ${teams.length} ${teams.length === 1 ? "team" : "teams"} across the ${leagueList(leagues.map((l) => l.name))}.` +
-    (ranked.length
-      ? ` ${ranked.length} ${city.name} ${ranked.length === 1 ? "player is" : "players are"} on the latest published sales lists${top ? `, led by ${top.player.name} at No. ${top.rank} in the ${top.ranking.league.toUpperCase()}` : ""}.`
-      : "");
+  const intro = cityIntro(city);
   const leadTeam = lead ? teams.find((t) => t.id === lead.player.teamId) : undefined;
   const leadRank = lead && ranked.find((r) => r.player.id === lead.player.id);
   return (
