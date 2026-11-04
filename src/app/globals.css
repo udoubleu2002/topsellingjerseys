@@ -2110,3 +2110,57 @@ a { text-underline-offset: 3px; }
 .gd-phero .buybox { border-top: 5px solid var(--gold); border-radius: 12px; box-shadow: 0 14px 30px rgba(20, 43, 69, .1); }
 .gd-phero .phero-h { font: 800 18px/1 var(--f-head); letter-spacing: .06em; }
 @media (prefers-reduced-motion: reduce) { .gd-phero .pframe { transform: none; } }
+
+/* ==========================================================================
+   Dark foundation (Joe, Nov 4): dark is the brand. Near-black page, charcoal cards with clear edges, white type,
+   gold for ranks and actions. Product photos stay on white tiles, which gives the dark pages their contrast.
+   ========================================================================== */
+:root {
+  --bg: #0b1017;
+  --surface: #151c26;
+  --surface-2: #1a2330;
+  --ink: #f1f4f8;
+  --ink-2: #c9d2dc;
+  --muted: #98a4b3;
+  --line: #263140;
+  --line-2: #354253;
+  --accent: #d7a849;
+  --accent-hover: #e6bb62;
+  --accent-tint: #1c2530;
+  --gold-ink: #e2bb66;
+  --gold-tint: #2a2416;
+  --warn-tint: #2a2416;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 26px rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); }
+a { color: inherit; }
+.btn-shop { background: var(--gold); color: #17110a; box-shadow: 0 4px 0 #9d7a2c; }
+.btn-shop:hover { background: var(--accent-hover); color: #17110a; }
+.btn-ghost { background: transparent; color: var(--ink); border-color: var(--line-2); }
+.btn-ghost:hover { border-color: var(--gold); color: #fff; }
+.masthead { background: #070b11; border-bottom-color: #1b2531; }
+.gd-hero, .gd-band, .lg-hero, .trend-sec { background: var(--stripe), linear-gradient(135deg, #070b11 0%, #10213a 70%, #0b1622 100%); }
+.gd-trust { background: #070b11; }
+.phero, .gd-phero { background: linear-gradient(180deg, #111926, var(--bg)); }
+.gd-phero-no { opacity: .16; }
+.gd-phero .pframe { box-shadow: 0 0 0 1px var(--line), 0 18px 40px rgba(0, 0, 0, .5); }
+.rail-find { background: var(--surface); border-color: var(--line-2); }
+.rail-find input { color: var(--ink); }
+.rail-find button { background: var(--gold); color: #17110a; }
+.rfilter input, .rfilter select { background: var(--surface-2); color: var(--ink); border-color: var(--line-2); }
+.rfilter-n button, .search-try button { background: var(--surface-2); color: var(--ink); border-color: var(--line-2); }
+.trend-grid.is-light .trend-box.is-hot { background: linear-gradient(160deg, rgba(215, 168, 73, .2), var(--surface)); border-color: rgba(215, 168, 73, .45); }
+.shopcard:hover { box-shadow: 0 16px 34px rgba(0, 0, 0, .45); }
+.sec-k { color: var(--gold); }
+.lt5-meta a, .prose a, .faq a { color: var(--ink); }
+/* Breathing room between homepage sections. */
+[data-page-type="home"] > section, [data-page-type="home"] > .with-rail { margin-top: 0; }
+[data-page-type="home"] .leaders-sec, [data-page-type="home"] .trend-light, [data-page-type="home"] .home-main { padding-top: 56px; }
+.cities-sec { padding-block: 56px 60px; }
+.gd-chips a.is-city { background: var(--gold); color: #17110a; border-color: var(--gold); }
+/* Homepage lists: every rank visible, no expand step. Ranks 6+ in compact columns. */
+.lt5-rest.is-open { padding-top: 10px; }
+.lt5-rest-h { margin: 0 0 4px; font: 800 15px/1 var(--f-head); letter-spacing: .12em; text-transform: uppercase; color: var(--gold); }
+.lt5-rows li { padding: 6px 0; }
+@media (min-width: 1280px) { .lt5-rows.is-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 20px; } }

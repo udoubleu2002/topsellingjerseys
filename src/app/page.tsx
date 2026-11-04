@@ -48,16 +48,6 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="wrap leaders-sec" aria-labelledby="leaders-h">
-          <div className="sec-head">
-            <p className="sec-k">The No. 1 jersey in each league</p>
-            <h2 id="leaders-h" className="sec-h">League leaders</h2>
-          </div>
-          <div className="leaders">
-            {leagues.map(({ league, ranking }, i) => <LeaderCard key={league.id} league={league} ranking={ranking!} priority={i < 3} />)}
-          </div>
-        </section>
-
         <section className="cities-sec" aria-labelledby="cities-h">
           <div className="wrap">
             <div className="sec-head on-dark">
@@ -79,6 +69,16 @@ export default function Home() {
                 );
               })}
             </div>
+          </div>
+        </section>
+
+        <section className="wrap leaders-sec" aria-labelledby="leaders-h">
+          <div className="sec-head">
+            <p className="sec-k">The No. 1 jersey in each league</p>
+            <h2 id="leaders-h" className="sec-h">League leaders</h2>
+          </div>
+          <div className="leaders">
+            {leagues.map(({ league, ranking }, i) => <LeaderCard key={league.id} league={league} ranking={ranking!} priority={i < 3} />)}
           </div>
         </section>
 

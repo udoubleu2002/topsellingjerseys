@@ -145,9 +145,9 @@ export function LeagueTopFive({ league, ranking }: { league: League; ranking: Ra
         {top.map((e) => <PlayerRankCard key={e.playerId} league={league} ranking={ranking} rank={e.rank} />)}
       </ol>
       {rest.length > 0 && (
-        <details className="lt5-rest">
-          <summary>Ranks 6 to {ranking.entries.length} <span className="lt5-count">{rest.length} more players</span></summary>
-          <ol className="lt5-rows" start={6}>
+        <div className="lt5-rest is-open">
+          <p className="lt5-rest-h">Ranks 6 to {ranking.entries.length}</p>
+          <ol className={`lt5-rows${rest.length > 12 ? " is-cols" : ""}`} start={6}>
             {rest.map((e) => {
               const p = getPlayer(e.playerId)!;
               const { reportTeam, now } = entryTeams(e, p);
@@ -167,7 +167,7 @@ export function LeagueTopFive({ league, ranking }: { league: League; ranking: Ra
               );
             })}
           </ol>
-        </details>
+        </div>
       )}
     </section>
   );
@@ -236,6 +236,7 @@ export function HeroStory({ leagues }: { leagues: { league: League; ranking: Ran
           </div>
           <nav className="gd-chips" aria-label="Jump to a league">
             {leagues.map(({ league: l }) => <Link key={l.id} href={`/${l.slug}/`} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</Link>)}
+            <Link href="/cities/" className="is-city">Jerseys by city</Link>
           </nav>
           <p className="gd-updated"><span className="gd-dot" aria-hidden="true" />Updated {fmtShortDate(h.updated)}</p>
         </div>
