@@ -1,5 +1,15 @@
 {
  "note": "Top sports cities in the US and Canada for the Cities pages, biggest sports markets first. Each team appears in one city; team ids match data/team-directory.json.",
+ "featured": {
+  "note": "The Cities page feature: one lead city and four smaller ones. Change these slugs to rotate the feature by hand.",
+  "city": "new-york",
+  "more": [
+   "los-angeles",
+   "philadelphia",
+   "bay-area",
+   "chicago"
+  ]
+ },
  "cities": [
   {
    "slug": "new-york",
