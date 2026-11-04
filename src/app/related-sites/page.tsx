@@ -3,7 +3,7 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
-export const metadata: Metadata = pageMeta({ title: "Related Sites", description: "Sister sites to Top Selling Jerseys: guides to ballparks, football stadiums, basketball arenas, hockey rinks and horse racing tracks, lost stadiums and sports history.", path: "/related-sites/" });
+export const metadata: Metadata = pageMeta({ title: "Related Sites", description: "Sister sites to Top Selling Jerseys: guides to ballparks, football stadiums, basketball arenas, hockey rinks and horse racing tracks, plus lost stadiums.", path: "/related-sites/" });
 
 type Site = { kind: string; name: string; url: string; desc: string; accent: string; mark: string };
 
@@ -14,7 +14,6 @@ const SITES: Site[] = [
   { kind: "Hockey", name: "RinkGuide.com", url: "https://rinkguide.com/", desc: "A guide to NHL, minor league and college hockey rinks across the United States and Canada.", accent: "#5aa9d6", mark: "🏒" },
   { kind: "Horse racing", name: "HorseTrackAtlas.com", url: "https://horsetrackatlas.com/", desc: "A guide to horse racing tracks across the United States and internationally.", accent: "#b0884f", mark: "🏇" },
   { kind: "Lost venues", name: "LostStadiums.com", url: "https://loststadiums.com/", desc: "A map of demolished and repurposed ballparks, stadiums, arenas and racetracks, and what stands on the land now.", accent: "#8b93a1", mark: "🏟️" },
-  { kind: "Sports history", name: "SportsOnThisDay.com", url: "https://sportsonthisday.com/", desc: "The biggest moments in sports history, day by day, from championships to records.", accent: "#c0443a", mark: "📅" },
 ];
 
 export default function RelatedSites() {
@@ -26,7 +25,7 @@ export default function RelatedSites() {
         <header className="wrap page-head">
           <p className="rs-kicker">The Top Selling Jerseys family</p>
           <h1>Related sites</h1>
-          <p className="lede">Top Selling Jerseys tracks the players fans are buying. Our sister sites cover the places they go to watch them play, and the moments they remember.</p>
+          <p className="lede">Top Selling Jerseys tracks the players fans are buying. Our sister sites cover the places they go to watch them play.</p>
         </header>
         <section className="wrap rs-sec" aria-labelledby="rs-h">
           <h2 id="rs-h" className="rs-h">Our sister sites</h2>
