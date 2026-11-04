@@ -5,12 +5,11 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SideRail } from "@/components/SideRail";
-import { ShopButton } from "@/components/ShopButton";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { CityList, CityPicks, CityStories, PlayerBanner } from "@/components/CityBits";
 import { getCities, getCity, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured } from "@/lib/cities";
-import { teamOffer } from "@/lib/affiliate";
+import { teamOffer, outPath } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
 
@@ -67,15 +66,7 @@ export default async function CityPage({ params }: Props) {
             <div className="city-hero-text">
               <p className="eyebrow">{city.area ?? `${city.name}, ${city.region}`}{city.country === "CA" ? " · Canada" : ""}</p>
               <h1>Top Selling <span>{city.name}</span> Jerseys</h1>
-              <p className="lede">
-                The most popular jerseys in {city.name}, from the latest published jersey sales lists for the {leagueList(leagues.map((l) => l.name))}.
-                First the city&apos;s top {overall.length > 1 ? overall.length : ""} overall, then a list for each sport.
-              </p>
-              <dl className="city-stats">
-                <div><dt>Teams</dt><dd>{teams.length}</dd></div>
-                <div><dt>Leagues</dt><dd>{leagues.length}</dd></div>
-                {ranked.length > 0 && <div><dt>On the sales lists</dt><dd>{ranked.length}</dd></div>}
-              </dl>
+              <p className="lede">The most popular {city.name} jerseys from the latest sales lists, overall and by sport.</p>
               <nav className="city-jump" aria-label="Jump to a sport">
                 <a href="#overall">Overall</a>
                 {leagues.map((l) => <a key={l.id} href={`#${l.id}`}>{l.name}</a>)}
@@ -84,7 +75,7 @@ export default async function CityPage({ params }: Props) {
             {lead?.product.image && (
               <Link href={`/players/${lead.player.slug}/`} className="city-hero-lead">
                 <img src={lead.product.image.url} alt={lead.product.image.alt} width={320} height={320} />
-                <span><small>{lead.ranked && lead.player.id === ranked[0]?.player.id ? `No. 1 in ${city.name}` : `${city.name} favorite`}</small>{lead.player.name}</span>
+                <span className="city-hero-cap"><small>{lead.ranked && lead.player.id === ranked[0]?.player.id ? `No. 1 in ${city.name}` : `${city.name} favorite`}</small>{lead.player.name}</span>
               </Link>
             )}
           </div>
@@ -98,13 +89,13 @@ export default async function CityPage({ params }: Props) {
               <div className="section-head"><h2 id="overall-h">Top {city.name} jerseys overall</h2></div>
               {overall.length > 0 ? (
                 <>
-                  <p className="shop-note">Ordered by each player&apos;s place on his or her league&apos;s latest sales list, so a No. 1 in any league comes first.</p>
+                  <p className="city-sub">Ranked by each player&apos;s place on their league&apos;s latest sales list.</p>
                   <CityList rows={overall} page={page} at="city_overall" showLeague />
                 </>
               ) : (
                 <>
-                  <p className="shop-note">No {city.name} players are on the latest published sales lists yet, so here is a Lids jersey for each team.</p>
-                  <CityPicks picks={cityPicks(city, new Set(), 8)} page={page} at="city_overall_picks" />
+                  <p className="city-sub">No {city.name} players are on the latest sales lists yet. Here is a jersey for each team.</p>
+                  <CityPicks picks={cityPicks(city, new Set(), 4)} page={page} at="city_overall_picks" />
                 </>
               )}
             </section>
@@ -112,7 +103,7 @@ export default async function CityPage({ params }: Props) {
             {leagues.map((l, i) => {
               const rows = ranked.filter((r) => r.ranking.league === l.id);
               const lTeams = teams.filter((t) => t.league === l.id);
-              const more = cityPicks(city, rankedIds, rows.length ? 4 : 9, l.id);
+              const more = cityPicks(city, rankedIds, rows.length ? 4 : 5, l.id);
               const star = rows[0] ?? more[0];
               return (
                 <div key={l.id}>
@@ -122,37 +113,38 @@ export default async function CityPage({ params }: Props) {
                       <Link href={`/${l.slug}/`}>Full {l.name} list →</Link>
                     </div>
                     {star && <PlayerBanner row={star} league={l} cityName={city.name} page={page} />}
-                    {rows.length > 0 ? (
-                      <CityList rows={rows} page={page} at={`city_${l.id}`} />
-                    ) : (
-                      <p className="shop-note">No {lTeams.map((t) => t.name).join(" or ")} players are on the latest {l.name} sales list, so here are their jerseys at Lids.</p>
+                    {rows.length > 1 ? (
+                      <CityList rows={rows.slice(1)} page={page} at={`city_${l.id}`} start={2} />
+                    ) : rows.length === 1 ? null : (
+                      <p className="city-sub">No {city.name} players are on the latest {l.name} sales list.</p>
                     )}
                     {(rows.length ? more : more.filter((m) => m !== star)).length > 0 && (
-                      <>
-                        {rows.length > 0 && <h3 className="city-more-h">More {city.name} {l.name} jerseys at Lids</h3>}
-                        <CityPicks picks={rows.length ? more : more.filter((m) => m !== star)} page={page} at={`city_picks_${l.id}`} />
-                      </>
+                      <CityPicks picks={(rows.length ? more : more.filter((m) => m !== star)).slice(0, 4)} page={page} at={`city_picks_${l.id}`} />
                     )}
-                    <div className="city-teams">
-                      {lTeams.map((t) => {
+                    <p className="city-teams">
+                      Shop all at Lids:{" "}
+                      {lTeams.map((t, j) => {
                         const o = teamOffer(t);
-                        return o ? <ShopButton key={t.id} offer={o} variant="ghost" ctx={{ league: l.id, playerId: "", placement: `city_team_${l.id}`, page }}>Shop all {t.name} at Lids</ShopButton> : null;
+                        return o ? (
+                          <span key={t.id}>
+                            {j > 0 && " · "}
+                            <a href={`${outPath(o.id)}?at=city_team_${l.id}`} target="_blank" rel="sponsored nofollow noopener" data-track="affiliate_click" data-offer={o.id} data-offer-kind={o.kind} data-merchant={o.merchantId} data-league={l.id} data-placement={`city_team_${l.id}`} data-page={page}>{t.name}</a>
+                          </span>
+                        ) : null;
                       })}
-                    </div>
+                    </p>
                   </section>
                 </div>
               );
             })}
 
 
-            <section className="section" aria-labelledby="more-h">
-              <div className="section-head"><h2 id="more-h">More sports cities</h2><Link href="/cities/">All cities →</Link></div>
-              <nav className="related" aria-labelledby="more-h">
-                {others.map((c) => <Link key={c.slug} href={cityPath(c)}>{c.name}</Link>)}
-              </nav>
-            </section>
+            <nav className="city-others" aria-label="Other cities">
+              <Link href="/cities/" className="city-others-all">All cities →</Link>
+              <p>{others.map((c, j) => <span key={c.slug}>{j > 0 && " · "}<Link href={cityPath(c)}>{c.name}</Link></span>)}</p>
+            </nav>
           </div>
-          <SideRail lead={<CityStories cityName={city.name} stories={cityStories(city)} />} hideStories hideNews cityAds />
+          <SideRail lead={<CityStories cityName={city.name} stories={cityStories(city)} />} hideStories hideNews cityAds minimal />
         </div>
         {overall.length > 0 && <JsonLd data={ld} />}
       </main>
