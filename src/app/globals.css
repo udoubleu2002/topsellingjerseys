@@ -2270,3 +2270,4 @@ a { color: inherit; }
 .feature-art .jart { transform: rotate(-2deg); box-shadow: 0 24px 50px rgba(0, 0, 0, .45); }
 .feature { background: var(--stripe), linear-gradient(135deg, #070b11 0%, #10213a 70%, #0b1622 100%); border-block: 6px solid var(--gold); }
 @media (prefers-reduced-motion: reduce) { .feature-art .jart { transform: none; } }
+.gd-trust a.gd-fresh-l { color: #fff; }
