@@ -3,6 +3,7 @@ import { getLeagues, getPlayers, getRankings, getCurrentRanking, isIndexable } f
 import { abs, site } from "@/lib/config";
 import { articlePath, getArticles } from "@/lib/articles";
 import { getStories, storyPath } from "@/lib/stories";
+import { getCities, cityPath } from "@/lib/cities";
 
 export const dynamic = "force-static";
 
@@ -20,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const stories = getStories();
   if (stories.length) out.push({ url: abs("/news/"), lastModified: stories[0].lastVerified, changeFrequency: "daily", priority: 0.8 });
   for (const s of stories) out.push({ url: abs(storyPath(s)), lastModified: s.lastVerified, changeFrequency: "weekly", priority: 0.7 });
+  out.push({ url: abs("/cities/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.8 });
+  for (const c of getCities()) out.push({ url: abs(cityPath(c)), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.7 });
   out.push({ url: abs("/my-jerseys/"), changeFrequency: "monthly", priority: 0.6 });
   out.push({ url: abs("/players/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
   out.push({ url: abs("/rankings/"), lastModified: site.lastReviewed, changeFrequency: "monthly", priority: 0.5 });

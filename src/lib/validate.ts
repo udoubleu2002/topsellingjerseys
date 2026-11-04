@@ -4,6 +4,7 @@ import { type Article, articlePath, linksIn, plain, wordCount } from "./articles
 import { type Profile } from "./profiles";
 import { type NewsItem } from "./news";
 import { type Story, promotableJerseys, storyPath } from "./stories";
+import { getCities, cityPath } from "./cities";
 
 /** Checks a single ranking: contiguous ranks from 1, no duplicate players, every player known. */
 export function checkRanking(r: Ranking, playerIds: Set<string>): string[] {
@@ -80,6 +81,8 @@ export function checkArticles(articles: Article[], s: Store) {
   const warnings: string[] = [];
   const pages = new Set<string>(["/", "/jerseys/", "/rankings/", "/my-jerseys/", "/best-selling-jerseys/", "/best-selling-jersey/", "/best-selling-sports-jerseys/"]);
   for (const l of s.leagues) pages.add(`/${l.slug}/`);
+  for (const c of getCities()) pages.add(cityPath(c));
+  pages.add("/cities/");
   for (const p of s.players) pages.add(`/players/${p.slug}/`);
   for (const r of s.rankings) pages.add(`/rankings/${r.league}/${r.id}/`);
   for (const a of articles) if (a.status === "published") pages.add(articlePath(a));
@@ -162,6 +165,8 @@ export function checkStories(stories: Story[], s: Store, articles: Article[]) {
   const warnings: string[] = [];
   const pages = new Set<string>(["/", "/news/", "/jerseys/", "/rankings/", "/players/", "/my-jerseys/", "/best-selling-jerseys/", "/best-selling-jersey/", "/best-selling-sports-jerseys/"]);
   for (const l of s.leagues) pages.add(`/${l.slug}/`);
+  for (const c of getCities()) pages.add(cityPath(c));
+  pages.add("/cities/");
   for (const p of s.players) pages.add(`/players/${p.slug}/`);
   for (const r of s.rankings) pages.add(`/rankings/${r.league}/${r.id}/`);
   for (const a of articles) if (a.status === "published") pages.add(articlePath(a));
