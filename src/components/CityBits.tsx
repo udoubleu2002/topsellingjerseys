@@ -4,6 +4,7 @@ import { getAnyTeam, getTeam } from "@/lib/data";
 import { productOffer, searchOffer, outPath, type Offer } from "@/lib/affiliate";
 import type { CityPick, CityRow, CityStory } from "@/lib/cities";
 import { fmtShortDate } from "@/lib/format";
+import { jerseyImg } from "@/lib/img";
 
 const money = (n: number, c: string) => new Intl.NumberFormat("en-US", { style: "currency", currency: c, maximumFractionDigits: n % 1 ? 2 : 0 }).format(n);
 const FALLBACK = { primary: "#334155", secondary: "#ffffff", accent: "#94a3b8" };
@@ -60,7 +61,7 @@ export function PlayerBanner({ row, league, cityName, page }: { row: Pick<CityRo
       >
         <span className="pbanner-bg" style={{ "--c1": c.primary, "--c2": c.accent } as React.CSSProperties} aria-hidden="true" />
         <span className="pbanner-img">
-          {img ? <img src={img.url} alt="" loading="lazy" decoding="async" width={240} height={240} /> : <span className="pbanner-num" style={{ color: c.secondary }}>{row.player.number ?? ""}</span>}
+          {img ? <img {...jerseyImg(img.url, 120)} alt="" loading="lazy" decoding="async" width={120} height={120} /> : <span className="pbanner-num" style={{ color: c.secondary }}>{row.player.number ?? ""}</span>}
         </span>
         <span className="pbanner-copy">
           <span className="pbanner-kicker">{row.rank ? `${cityName}'s No. 1 ${league.name} jersey` : `${cityName} ${league.name} spotlight`}</span>
@@ -91,7 +92,7 @@ export function CityList({ rows, page, at, showLeague, start = 1 }: { rows: City
           <li key={r.player.id} className={`crow${pos === 1 ? " is-first" : ""}`}>
             <span className="crow-rank">{pos}</span>
             <Link href={`/players/${r.player.slug}/`} className="crow-img" tabIndex={-1} aria-hidden="true" style={img ? undefined : { backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }}>
-              {img ? <img src={img.url} alt="" loading="lazy" decoding="async" width={64} height={64} /> : <span>{r.player.number ?? ""}</span>}
+              {img ? <img {...jerseyImg(img.url, 64)} alt="" loading="lazy" decoding="async" width={64} height={64} /> : <span>{r.player.number ?? ""}</span>}
             </Link>
             <span className="crow-who">
               <Link href={`/players/${r.player.slug}/`} className="crow-name">{r.player.name}</Link>
@@ -123,7 +124,7 @@ export function CityPicks({ picks, page, at = "city_picks" }: { picks: CityPick[
         if (!o) return null;
         return (
           <OutLink key={p.product.id} offer={o} at={at} page={page} league={p.product.league} playerId={p.player.id} className="cpick" label={`${p.product.title} at Lids`}>
-            <span className="cpick-img"><img src={p.product.image!.url} alt="" loading="lazy" decoding="async" width={300} height={300} /></span>
+            <span className="cpick-img"><img {...jerseyImg(p.product.image!.url, 240)} alt="" loading="lazy" decoding="async" width={240} height={240} /></span>
             <span className="cpick-body">
               <span className="cpick-name">{p.player.name}</span>
               <span className="cpick-team">{getAnyTeam(p.teamId)?.name}</span>
@@ -149,7 +150,7 @@ export function CityStories({ cityName, stories }: { cityName: string; stories: 
         {stories.map((s) => (
           <li key={s.href}>
             <Link href={s.href} className="cstory">
-              <span className="cstory-img">{s.image ? <img src={s.image} alt="" loading="lazy" decoding="async" width={72} height={72} /> : <span>{s.league.toUpperCase()}</span>}</span>
+              <span className="cstory-img">{s.image ? <img {...jerseyImg(s.image, 64)} alt="" loading="lazy" decoding="async" width={64} height={64} /> : <span>{s.league.toUpperCase()}</span>}</span>
               <span className="cstory-text">
                 <span className="cstory-hl">{s.headline}</span>
                 <span className="rail-news-meta">{s.league.toUpperCase()} · {fmtShortDate(s.date)}</span>

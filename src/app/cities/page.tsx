@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SideRail } from "@/components/SideRail";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { getCities, cityLeagues, cityPath, cityRanked, cityTeams, cityFeatured } from "@/lib/cities";
+import { jerseyImg } from "@/lib/img";
 
 export const metadata: Metadata = pageMeta({
   title: "Top Selling Jerseys by City",
@@ -42,7 +43,7 @@ export default function CitiesPage() {
                         <span className="city-card-lgs">{leagues.map((l) => <span key={l.id}>{l.name}</span>)}</span>
                         {lead ? <span className="city-card-lead">Top jersey: <strong>{lead.player.name}</strong></span> : <span className="city-card-lead">Shop {teams.length === 1 ? "the team" : `all ${teams.length} teams`} at Lids</span>}
                       </span>
-                      {photo && <span className="city-card-img"><img src={photo.url} alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" width={120} height={120} /></span>}
+                      {photo && <span className="city-card-img"><img {...jerseyImg(photo.url, 120)} alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" width={120} height={120} /></span>}
                     </Link>
                   </Fragment>
                 );

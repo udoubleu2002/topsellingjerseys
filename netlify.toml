@@ -6,3 +6,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Jersey photos from the Lids feed are resized and cached by the Netlify Image CDN (see src/lib/img.ts).
+[images]
+  remote_images = ["https://feeds\\.frgimages\\.com/.*"]
