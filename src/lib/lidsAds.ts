@@ -11,9 +11,12 @@ export const LIDS_BANNERS: LidsBanner[] = [
   { id: "4114444", width: 300, height: 250, alt: "Shop Milwaukee Brewers jerseys and gear at Lids.com" },
 ];
 
-/** The Lids banner that rotates into about a quarter of all ad slots (see AdRotation). */
+/**
+ * The Lids banner that rotates into a share of ad slots (see AdRotation). Off: 4114443 shows the Brewers championship
+ * creative, which was taken down sitewide on Nov 4. Set a banner id and a share above 0 to turn rotation back on.
+ */
 export const ROTATION_BANNER_ID = "4114443";
-export const ROTATION_SHARE = 0.25;
+export const ROTATION_SHARE = 0;
 
 export const lidsBanner = (id: string) => LIDS_BANNERS.find((b) => b.id === id);
 export const bannerImage = (b: LidsBanner) => `https://a.impactradius-go.com/display-ad/${CAMPAIGN}-${b.id}`;
@@ -27,7 +30,7 @@ export function rectFor(league?: string, alt = false): LidsBanner {
 }
 
 /** A banner pinned to the top of the sidebar through the end of `until` (UTC), or null when nothing is pinned. */
-export const PINNED_RAIL_TOP: { bannerId: string; until: string } | null = { bannerId: "4114444", until: "2026-11-28" }; // Brewers, from Oct 29
+export const PINNED_RAIL_TOP: { bannerId: string; until: string } | null = null; // The Brewers pin (4114444) was taken down on Nov 4.
 
 /** The pinned sidebar banner while its run lasts. Pages are built ahead of time, so `ShowUntil` also hides it in the browser once the run ends. */
 export function pinnedRailBanner(now = new Date()): { banner: LidsBanner; until: string } | null {
