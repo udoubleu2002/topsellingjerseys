@@ -2177,3 +2177,97 @@ a { color: inherit; }
 .pill.is-latest { background: #1f8a4c; color: #fff; }
 .pill.is-superseded { background: var(--surface-2); color: var(--muted); }
 .masthead { background: #070b11; }
+
+/* ==========================================================================
+   Final upgrade: a jersey on every list row.
+   Photo = the retailer's own product photo of that player's jersey. No photo on file = a drawn jersey shape in team
+   colors with the number, which reads as an illustration, never as a product.
+   ========================================================================== */
+.jthumb { flex: none; display: inline-grid; place-items: center; width: var(--js, 40px); height: var(--js, 40px); border-radius: 8px; overflow: hidden; background: #fff; border: 1px solid var(--line); }
+.jthumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.jthumb.is-tile, .lrow-tile:not(.is-photo) {
+  border: 0; border-radius: 0; font: 800 15px/1 var(--f-num); padding-top: 18%;
+  clip-path: polygon(30% 4%, 40% 10%, 60% 10%, 70% 4%, 98% 18%, 92% 38%, 80% 34%, 80% 98%, 20% 98%, 20% 34%, 8% 38%, 2% 18%);
+  box-shadow: none; background-image: none;
+}
+/* League list rows: every rank shows its jersey. */
+.lrow-tile.is-photo { background: #fff; }
+@media (min-width: 641px) {
+  .rrow:not(.is-top5) .rdet > summary.lrow { grid-template-columns: 44px 52px minmax(0, 1fr) auto; }
+  .rrow:not(.is-top5) .lrow-tile { width: 52px; height: 52px; }
+}
+@media (max-width: 640px) {
+  .rrow:not(.is-top5) .rdet > summary.lrow { grid-template-columns: 24px 40px minmax(0, 1fr) auto 10px; }
+  .rrow:not(.is-top5) .lrow-tile { width: 40px; height: 40px; }
+}
+/* Homepage ranks 6+ */
+.lt5-rows li { grid-template-columns: 26px 40px minmax(0, 1fr) auto; grid-template-areas: "r i n s" "r i t s"; }
+.lt5-rows .lt5-i { grid-area: i; --js: 40px; }
+/* Trending rows */
+.trend-box li { grid-template-columns: 36px auto minmax(0, 1fr) auto; }
+.trend-box .jthumb { --js: 36px; }
+/* Sidebar */
+.rail-league li { grid-template-columns: 22px 30px minmax(0, 1fr) auto; align-items: center; }
+.rail-ji { --js: 30px; border-radius: 6px; }
+.rail-trend li { grid-template-columns: 46px 34px minmax(0, 1fr); }
+.rail-trend li > :not(.rail-trend-up):not(.rail-ti) { grid-column: 3; }
+.rail-ti { grid-column: 2; grid-row: 1 / span 2; align-self: center; --js: 34px; }
+/* Player page side lists */
+.linklist .has-thumb { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; }
+.linklist .has-thumb .jthumb { --js: 34px; }
+.all-list .has-thumb .jthumb { --js: 30px; }
+/* Freshness badges */
+.fresh-badge { display: inline-flex; align-items: center; gap: 7px; padding: 5px 10px; border-radius: 999px; font: 800 12.5px/1.2 var(--f-num); letter-spacing: .08em; text-transform: uppercase; border: 1px solid; }
+.fresh-dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex: none; }
+.fresh-badge.is-current { color: #4ade80; border-color: rgba(74, 222, 128, .45); background: rgba(74, 222, 128, .1); }
+.fresh-badge.is-current .fresh-dot { box-shadow: 0 0 0 3px rgba(74, 222, 128, .25); }
+.fresh-badge.is-dated { color: #f5c25b; border-color: rgba(245, 194, 91, .45); background: rgba(245, 194, 91, .1); }
+.fresh-badge.is-outdated { color: #ff8a7a; border-color: rgba(255, 138, 122, .5); background: rgba(255, 138, 122, .12); }
+.fresh-badge.is-old { color: var(--muted); border-color: var(--line-2); }
+.lg-hero-fresh { margin-top: 16px; }
+.lg-hero-fresh .fresh-badge { font-size: 14px; padding: 7px 12px; }
+.leader-date { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.leader-date .fresh-badge { font-size: 11px; padding: 4px 8px; }
+.gd-fresh { display: inline-flex; flex-wrap: wrap; gap: 4px 12px; }
+.gd-fresh-l { display: inline-flex; align-items: center; gap: 5px; color: #fff; text-decoration: none; font-weight: 800; }
+.gd-fresh-l.is-current .fresh-dot { color: #4ade80; }
+.gd-fresh-l.is-dated .fresh-dot { color: #f5c25b; }
+.gd-fresh-l.is-outdated .fresh-dot { color: #ff8a7a; }
+.gd-fresh-l .fresh-dot { background: currentColor; }
+/* Style comparison on player pages */
+.compare { margin: 6px 0 18px; overflow-x: auto; }
+.compare-t { width: 100%; border-collapse: collapse; font-size: 14px; }
+.compare-t caption { text-align: left; font: 800 18px/1 var(--f-head); text-transform: uppercase; letter-spacing: .04em; padding-bottom: 10px; }
+.compare-t th, .compare-t td { padding: 9px 10px; border-top: 1px solid var(--line); text-align: left; vertical-align: middle; }
+.compare-t thead th { font: 700 12px/1 var(--f-num); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border-top: 0; }
+.compare-t tbody th { font-weight: 700; }
+.compare-t td:last-child { text-align: right; white-space: nowrap; }
+.compare-t .btn-shop { display: inline-flex; min-height: 34px; padding: 0 12px; font-size: 13px; }
+.compare-t .muted { color: var(--muted); }
+.buy-range, .shopcard-range { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.buy-range a { color: var(--gold); }
+@media (max-width: 560px) { .compare-t td:nth-child(2), .compare-t thead th:nth-child(2) { display: none; } }
+/* My Jerseys confirmation toast */
+.mj-toast { position: fixed; left: 50%; bottom: 20px; z-index: 80; max-width: min(92vw, 520px); padding: 12px 16px; border-radius: 10px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--gold); box-shadow: 0 16px 40px rgba(0, 0, 0, .5); font-size: 14px; transform: translate(-50%, 140%); opacity: 0; transition: transform .2s ease, opacity .2s ease; }
+.mj-toast.is-on { transform: translate(-50%, 0); opacity: 1; }
+.mj-toast a { color: var(--gold); font-weight: 700; white-space: nowrap; }
+.has-sticky .mj-toast { bottom: 96px; }
+@media (prefers-reduced-motion: reduce) { .mj-toast { transition: none; } }
+/* Teams fans are buying */
+.tteams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.tteams > li { padding: 16px; background: var(--surface); border: 1px solid var(--line); border-top: 5px solid var(--tc); border-radius: 12px; display: grid; gap: 4px; align-content: start; }
+.tteam-k { margin: 0; font: 800 12px/1 var(--f-num); letter-spacing: .12em; color: var(--gold); text-transform: uppercase; }
+.tteam-n { margin: 0; font: 800 26px/1 var(--f-head); text-transform: uppercase; }
+.tteam-c { margin: 0 0 6px; font-size: 13px; color: var(--muted); }
+.tteam-c b { color: var(--ink); }
+.tteam-p { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.tteam-p a { display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 5px 0; text-decoration: none; font-weight: 600; font-size: 14px; }
+.tteam-p a:hover span { text-decoration: underline; }
+.tteam-p em { font-style: normal; font: 700 14px/1 var(--f-head); color: var(--muted); }
+.tteam-more { margin-top: 6px; font: 700 13px/1 var(--f-num); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); text-decoration: none; }
+@media (max-width: 900px) { .tteams { grid-template-columns: 1fr; } }
+.feature-fresh { margin-top: 10px; }
+.feature-art .jart { transform: rotate(-2deg); box-shadow: 0 24px 50px rgba(0, 0, 0, .45); }
+.feature { background: var(--stripe), linear-gradient(135deg, #070b11 0%, #10213a 70%, #0b1622 100%); border-block: 6px solid var(--gold); }
+@media (prefers-reduced-motion: reduce) { .feature-art .jart { transform: none; } }
+.gd-trust a.gd-fresh-l { color: #fff; }

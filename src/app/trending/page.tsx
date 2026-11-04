@@ -4,6 +4,7 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Movement } from "@/components/Movement";
+import { JerseyThumb, TopTeams } from "@/components/HomeBits";
 import { getTrends, topRisers, newEntries } from "@/lib/trending";
 import { getPlayer } from "@/lib/data";
 import { fmtShortDate } from "@/lib/format";
@@ -35,14 +36,15 @@ export default function TrendingPage() {
           <div className="trend-grid is-light">
             <div className="trend-box is-hot">
               <h3>Biggest risers</h3>
-              <ol>{risers.map((r) => { const p = getPlayer(r.playerId)!; return <li key={r.league.id + p.id}><span className="tr-lg" style={{ "--lg": r.league.accent } as React.CSSProperties}>{r.league.name}</span><Link href={`/players/${p.slug}/`}>{p.name}</Link><span className="tr-mv"><s>{r.previousRank}</s> → <b>{r.rank}</b> <em className="up">▲{r.delta}</em></span></li>; })}</ol>
+              <ol>{risers.map((r) => { const p = getPlayer(r.playerId)!; return <li key={r.league.id + p.id}><JerseyThumb player={p} teamId={p.teamId} size={36} /><span className="tr-lg" style={{ "--lg": r.league.accent } as React.CSSProperties}>{r.league.name}</span><Link href={`/players/${p.slug}/`}>{p.name}</Link><span className="tr-mv"><s>{r.previousRank}</s> → <b>{r.rank}</b> <em className="up">▲{r.delta}</em></span></li>; })}</ol>
             </div>
             <div className="trend-box">
               <h3>New to the lists</h3>
-              <ol>{fresh.map((r) => { const p = getPlayer(r.playerId)!; return <li key={r.league.id + p.id}><span className="tr-lg" style={{ "--lg": r.league.accent } as React.CSSProperties}>{r.league.name}</span><Link href={`/players/${p.slug}/`}>{p.name}</Link><span className="tr-mv"><b>No. {r.rank}</b> <em className="new">New</em></span></li>; })}</ol>
+              <ol>{fresh.map((r) => { const p = getPlayer(r.playerId)!; return <li key={r.league.id + p.id}><JerseyThumb player={p} teamId={p.teamId} size={36} /><span className="tr-lg" style={{ "--lg": r.league.accent } as React.CSSProperties}>{r.league.name}</span><Link href={`/players/${p.slug}/`}>{p.name}</Link><span className="tr-mv"><b>No. {r.rank}</b> <em className="new">New</em></span></li>; })}</ol>
             </div>
           </div>
         </section>
+        <TopTeams />
         {compared.map(({ league, ranking }) => <Movement key={league.id} ranking={ranking} leagueName={league.name} id={`mv-${league.id}`} />)}
         {uncompared.length > 0 && (
           <section className="wrap section" aria-labelledby="nc-h">

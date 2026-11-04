@@ -16,6 +16,7 @@ import { getLeagues, getLeagueBySlug, getCurrentRanking, getRankings, getPlayer,
 import { JerseyArt, rankedJersey } from "@/components/HomeBits";
 import { ShopButton } from "@/components/ShopButton";
 import { RankFilter } from "@/components/RankFilter";
+import { FreshBadge } from "@/components/Freshness";
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { getCities, cityPath } from "@/lib/cities";
 import { leagueCopy } from "@/lib/content";
@@ -94,11 +95,15 @@ export default async function LeaguePage({ params }: Props) {
               <h1>Top Selling {league.name} Jerseys</h1>
               {copy && <p className="lede">{copy.intro}</p>}
               {ranking && (
-                <p className="lg-hero-meta">
-                  <span>{ranking.publisher}</span>
-                  <span>Published {fmtShortDate(ranking.publishedDate)}</span>
-                  <span>Updated {fmtShortDate(ranking.lastVerified)}</span>
-                </p>
+                <>
+                  <p className="lg-hero-fresh"><FreshBadge ranking={ranking} long /></p>
+                  <p className="lg-hero-meta">
+                    <span>{ranking.publisher}</span>
+                    <span>Published {fmtShortDate(ranking.publishedDate)}</span>
+                    <span>Sales {period(ranking.periodStart, ranking.periodEnd, ranking.periodLabel)}</span>
+                    <span>Checked {fmtShortDate(ranking.lastVerified)}</span>
+                  </p>
+                </>
               )}
             </div>
             {ranking && leader && (

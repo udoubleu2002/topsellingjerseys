@@ -28,15 +28,15 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
   const quick = getStatLine(player.id)?.statistics.filter((s) => !skip.includes(s.label)).slice(0, 4) ?? [];
   const c = reportTeam?.colors ?? { primary: "#e5e7eb", secondary: "#334155", accent: "#94a3b8" };
   const photo = products[0]?.image ? products[0] : undefined;
-  // Ranks 1 to 5 show the jersey photo in the row itself, preferring the team the report credited.
-  const topPhoto = rank <= 5 ? products.find((p) => p.image && p.teamId === entry.teamIdAtReport) ?? products.find((p) => p.image && p.teamId === player.teamId) : undefined;
+  // Every row shows the jersey photo, preferring the team the report credited; ranks 1 to 5 show it larger.
+  const topPhoto = products.find((p) => p.image && p.teamId === entry.teamIdAtReport) ?? products.find((p) => p.image && p.teamId === player.teamId) ?? products.find((p) => p.image);
   // A compact row that opens to the full card; the name goes straight to the player page.
   return (
     <li className={`rrow${rank === 1 ? " is-first" : ""}${rank <= 5 ? " is-top5" : ""}`} id={`rank-${rank}`} data-team={entry.teamIdAtReport ?? ""} data-name={player.name.toLowerCase()} data-impression="player_card" data-league={ranking.league} data-player={player.id} data-rank={rank}>
       <details className="rdet">
         <summary className="lrow">
           <span className="lrow-rank" aria-label={`Rank ${rank}`}>{rank}</span>
-          {rank <= 5 && topPhoto?.image
+          {topPhoto?.image
             ? <span className="lrow-tile is-photo" aria-hidden="true"><img {...jerseyImg(topPhoto.image.url, 120)} alt="" width={120} height={120} loading={rank <= 2 ? "eager" : "lazy"} decoding="async" /></span>
             : <span className="lrow-tile" style={{ backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }} aria-hidden="true">{number ?? ""}</span>}
           <span className="lrow-who">

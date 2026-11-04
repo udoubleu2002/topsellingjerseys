@@ -633,6 +633,24 @@
   // Pages change without a full reload on the live site, so re-check when the page content changes.
   new MutationObserver(function () { scan(); }).observe(document.body, { childList: true, subtree: true });
   window.addEventListener("storage", badges);
+  // A short confirmation after adding from any page, with a way to see and share the list.
+  var toastTimer;
+  function toast(msg) {
+    if (location.pathname.indexOf("/my-jerseys") === 0) return;
+    var t = document.getElementById("mj-toast");
+    if (!t) {
+      t = document.createElement("div");
+      t.id = "mj-toast"; t.className = "mj-toast"; t.setAttribute("role", "status"); t.setAttribute("aria-live", "polite");
+      document.body.appendChild(t);
+    }
+    t.textContent = "";
+    t.appendChild(document.createTextNode(msg + " "));
+    var a = document.createElement("a"); a.href = new URL("my-jerseys/", BASE).href; a.textContent = "View and share →";
+    t.appendChild(a);
+    t.classList.add("is-on");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove("is-on"); }, 4500);
+  }
   document.addEventListener("click", function (e) {
     var w = e.target.closest && e.target.closest("[data-mj-wish]");
     // In a ranking row the buttons sit inside <summary>; keep a tap from also opening the row.
@@ -642,6 +660,7 @@
       var ws = load(), wl = w.dataset.league, wn = w.dataset.name, wat = find(ws.wish, wl, wn);
       if (wat > -1) ws.wish.splice(wat, 1); else ws.wish.push({ l: wl, n: wn });
       save(ws);
+      if (wat < 0) toast(wn + " is on your wishlist (" + ws.wish.length + ").");
       try { if (window.gtag) window.gtag("event", wat > -1 ? "wishlist_removed" : "wishlist_added", { league: wl, player: wn, placement: "wish_button" }); } catch (err) {}
       return;
     }
@@ -657,6 +676,7 @@
       if (wi > -1) s.wish.splice(wi, 1);
     }
     save(s);
+    if (at < 0) toast("Added " + n + ". You have " + s.items.length + (s.items.length === 1 ? " jersey" : " jerseys") + " in My Jerseys.");
     document.querySelectorAll("[data-mj-count]").forEach(function (c) { c.classList.remove("bump"); void c.offsetWidth; c.classList.add("bump"); });
     try { if (window.gtag) window.gtag("event", at > -1 ? "jersey_removed" : "jersey_added", { league: l, player: n, placement: "have_button" }); } catch (err) {}
   });
