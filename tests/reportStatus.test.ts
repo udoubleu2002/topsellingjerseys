@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { loadStore, getCurrentRanking, reportStatus, entryTeams, getPlayer, getLeagues, getAppearances } from "@/lib/data";
+import { loadStore, getCurrentRanking, getRanking, reportStatus, entryTeams, getPlayer, getLeagues, getAppearances } from "@/lib/data";
 import { playerIntro, playerFaq } from "@/lib/playerSeo";
 import type { Ranking } from "@/lib/schema";
 
@@ -12,9 +12,9 @@ describe("report status", () => {
       expect(s.label).toBe("Latest Published Report");
     }
   });
-  it("flags old latest reports (WNBA 2024, MLS 2025) as dated", () => {
+  it("flags old latest reports (WNBA 2024) as dated and fresh ones (MLS 2026) as not", () => {
     expect(reportStatus(getCurrentRanking("wnba")!).dated).toBe(true);
-    expect(reportStatus(getCurrentRanking("mls")!).dated).toBe(true);
+    expect(reportStatus(getCurrentRanking("mls")!).dated).toBe(false);
   });
   it("marks an older report in the same series as superseded and other series as historical", () => {
     const latest = getCurrentRanking("nba")!;
@@ -51,7 +51,7 @@ describe("historical team attribution", () => {
     expect(entryTeams(entry("stephen-curry"), getPlayer("stephen-curry")!).now).toBeNull();
   });
   it("describes retired players without inventing a team", () => {
-    const mls = getCurrentRanking("mls")!;
+    const mls = getRanking("mls-2025-10-27-season-best-selling")!;
     const e = mls.entries.find((x) => x.playerId === "darlington-nagbe")!;
     expect(entryTeams(e, getPlayer("darlington-nagbe")!).now).toBe("Now retired");
   });

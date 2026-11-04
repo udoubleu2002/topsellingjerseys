@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   verification: site.googleVerification ? { google: site.googleVerification } : undefined,
 };
 
-export const viewport: Viewport = { themeColor: "#0e1726", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#142b45", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   for (const f of PRELOAD_FONTS) preload(`/fonts/${f}`, { as: "font", type: "font/woff2", crossOrigin: "anonymous" });

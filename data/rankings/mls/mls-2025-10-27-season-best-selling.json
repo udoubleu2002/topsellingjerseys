@@ -8,16 +8,16 @@
   "scope": "Player jersey sales during the 2025 MLS regular season, as announced by Major League Soccer in its season review.",
   "methodology": "MLS published the top 10 without naming the retailers included or publishing unit counts.",
   "limitations": [
-    "This is the most recent official MLS list; no 2026 list has been published yet.",
+    "Replaced as the latest MLS list by the 2026 list MLS published on Nov. 3, 2026. The 2026 list covers MLS Store sales from January 1 to October 30, a different period and retailer scope, so the two are not compared rank by rank.",
     "MLS announced the list in its 2025 regular-season review on Oct. 23, 2025 and did not name the retailers covered.",
     "An earlier MLS list (June 18, 2025) covered only January 1 to May 1, 2025 on MLSstore.com, so the two are not compared."
   ],
   "league": "mls",
   "sourceUrl": "https://www.mlssoccer.com/news/major-league-soccer-s-30th-regular-season-brings-unmatched-fan-engagement",
   "publishedDate": "2025-10-23",
-  "periodLabel": "2025 MLS regular season (the newest official MLS list)",
+  "periodLabel": "2025 MLS regular season",
   "retrievedDate": "2026-10-20",
-  "lastVerified": "2026-10-31",
+  "lastVerified": "2026-11-04",
   "status": "published",
   "entries": [
     {

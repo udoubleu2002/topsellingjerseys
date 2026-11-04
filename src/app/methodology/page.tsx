@@ -8,6 +8,19 @@ export const metadata: Metadata = pageMeta({ title: "Jersey Ranking Methodology"
 export default function Methodology() {
   return (
     <InfoPage title="Ranking Methodology" path="/methodology/" lede="We publish rankings other organizations release. We never create, reorder or estimate a ranking ourselves.">
+      <div className="principles" aria-label="Our principles">
+        <h2>Our principles at a glance</h2>
+        <ol>
+          <li><strong>Identified sources only.</strong> Every ranking comes from a named external report: a league, a players association or an official retail partner.</li>
+          <li><strong>We do not manufacture rankings.</strong> We never build a sales ranking of our own, estimate one or fill gaps.</li>
+          <li><strong>Published order is preserved.</strong> Players appear exactly as the source ranked them, and a list is never padded.</li>
+          <li><strong>Historical is not current.</strong> An older sales ranking is labeled with its period and status, never presented as today&apos;s sales.</li>
+          <li><strong>Stats have their own dates.</strong> Player statistics carry a through-date and source separate from the sales period.</li>
+          <li><strong>Shopping links do not influence rankings.</strong> Where a jersey is sold has no effect on where a player ranks.</li>
+          <li><strong>Commissions do not influence rankings.</strong> Some links earn us a commission; that never changes any order, label or date.</li>
+        </ol>
+        <p>Every report and its status is listed on the <Link href="/sources/">sources page</Link>, and every earlier report is in the <Link href="/rankings/">ranking archive</Link>.</p>
+      </div>
       <h2>Which reports qualify</h2>
       <ul>
         <li>Lists released by a league, a players association, or a league&apos;s official retail partner.</li>
@@ -39,6 +52,8 @@ export default function Methodology() {
       </ul>
       <h2>Player details and stats</h2>
       <p>Player details, highlights and statistics are stored separately from rankings and carry their own sources and dates. A stat we cannot confirm is left out rather than estimated. Where a season total adds a verified game line to a verified earlier total, the stat note says so.</p>
+      <h2>Three different teams</h2>
+      <p>We keep three things apart: the <strong>team in the report</strong> (the team the sales were credited to), the player&apos;s <strong>current verified team</strong> (shown on the player page), and the <strong>team on the jersey being sold</strong> (taken from the retailer&apos;s listing, which can be an earlier team after a trade). Retired players and free agents are labeled as such.</p>
       <h2>Shopping links</h2>
       <p>Shopping links never influence ranking order. Prices and stock are shown only for listings we have verified, with the date we checked. See the <Link href="/affiliate-disclosure/">affiliate disclosure</Link>.</p>
     </InfoPage>

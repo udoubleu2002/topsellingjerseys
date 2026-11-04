@@ -10,8 +10,10 @@ describe("rank movement", () => {
     expect([maye.previousRank, maye.rank]).toEqual([32, 2]);
     // Jaxon Smith-Njigba was not in the 2024-25 top 50.
     expect(m.newEntries.some((x) => x.playerId === "jaxon-smith-njigba")).toBe(true);
-    // Travis Kelce was No. 11 and is not in the 2025-26 ranks shown.
-    expect(m.left.find((x) => x.playerId === "travis-kelce")?.previousRank).toBe(11);
+    // Travis Kelce fell from No. 11 to No. 29 once ranks 26-50 were imported; every 2024-25 player is compared on the full list.
+    const kelce = m.fallers.find((x) => x.playerId === "travis-kelce")!;
+    expect([kelce.previousRank, kelce.rank]).toEqual([11, 29]);
+    expect(getCurrentRanking("nfl")!.entries).toHaveLength(50);
   });
   it("compares MLB 2025 and 2026 season lists", () => {
     const m = getMovement(getCurrentRanking("mlb")!)!;
@@ -49,8 +51,15 @@ describe("phase 3 archive", () => {
     expect(getMovement(getCurrentRanking("mlb")!)!.previous.id).toBe("mlb-2025-09-26-season-most-popular");
   });
   it("points the MLS 2025 report at the season announcement", () => {
-    const r = getCurrentRanking("mls")!;
+    const r = getRanking("mls-2025-10-27-season-best-selling")!;
     expect(r.sourceUrl).toContain("30th-regular-season");
     expect(r.publishedDate).toBe("2025-10-23");
+  });
+  it("keeps MLS 2025 as a historical report after the 2026 MLS Store list", () => {
+    const latest = getCurrentRanking("mls")!;
+    expect(latest.id).toBe("mls-2026-11-03-mls-store-top-ten");
+    expect(latest.entries.map((e) => e.playerId).slice(0, 3)).toEqual(["lionel-messi", "son-heung-min", "thomas-muller"]);
+    expect(reportStatus(getRanking("mls-2025-10-27-season-best-selling")!).kind).toBe("historical");
+    expect(getMovement(latest)).toBeNull();
   });
 });
