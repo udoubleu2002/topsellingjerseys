@@ -1435,3 +1435,60 @@ a.mj-item-name { color: inherit; text-decoration: underline; text-underline-offs
 }
 @media (prefers-reduced-motion: reduce) { .cpick, .city-card { transition: none; } }
 .city-more-h { font: 700 15px/1.2 var(--f-body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 18px 0 10px; }
+
+/* Cities, sleek pass: quieter hero, neutral player banners, plain-text team and city links. */
+.city-hero { border-bottom: 1px solid var(--line); }
+.city-hero-in { grid-template-columns: minmax(0, 1fr) 180px; gap: 32px; padding-block: 20px 28px; }
+.city-hero-text { gap: 12px; }
+.city-hero h1 { font-size: clamp(36px, 5vw, 60px); }
+.city-hero .lede { font-size: 17px; }
+.city-jump { gap: 6px; }
+.city-jump a { padding: 6px 11px; border-color: var(--line); background: transparent; color: var(--ink-2); font-size: 13px; }
+.city-jump a:hover { color: var(--ink); }
+.city-hero-lead { box-shadow: none; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.city-hero-lead img { background: #fff; }
+.city-hero-lead .city-hero-cap { position: static; display: block; padding: 8px 10px 10px; background: none; font-size: 17px; }
+.city-note { padding-block: 10px 0; }
+.city-sec { padding-top: 36px; }
+.city-sec .section-head { margin-bottom: 14px; }
+.city-sub { font-size: 13px; color: var(--muted); margin: -4px 0 12px; }
+.crow { padding: 6px 12px 6px 4px; border-color: transparent; background: transparent; border-bottom: 1px solid var(--line); border-radius: 0; }
+.crow.is-first { background: transparent; border-color: transparent; border-bottom-color: var(--line); }
+.crow-img { width: 56px; height: 56px; }
+.crow { grid-template-columns: 36px 56px minmax(0, 1fr) auto; }
+.clist { gap: 0; }
+.pbanner { min-height: 0; padding: 12px 18px 12px 12px; grid-template-columns: 104px minmax(0, 1fr) auto; box-shadow: none; border: 1px solid var(--line); }
+.pbanner-bg { background: var(--surface); border-left: 4px solid var(--c1); }
+.pbanner-bg::after { display: none; }
+.pbanner-img { width: 104px; height: 104px; box-shadow: none; }
+.pbanner-copy { text-shadow: none; gap: 4px; }
+.pbanner-kicker { color: var(--gold); font-size: 11px; }
+.pbanner-name { font-size: clamp(24px, 3vw, 34px); color: var(--ink); }
+.pbanner-meta { color: var(--muted); font-size: 13px; }
+.pbanner-price { font-size: 22px; color: var(--ink); text-shadow: none; }
+.pbanner-btn { box-shadow: none; padding: 10px 16px; font-size: 14px; }
+.cpicks { margin-top: 14px; gap: 10px; }
+.cpick { border-color: var(--line); }
+.cpick:hover { transform: none; }
+.cpick-body { padding: 8px 10px 10px; }
+.cpick-name { font-size: 14px; }
+.city-teams { display: block; margin-top: 12px; font-size: 13px; color: var(--muted); }
+.city-teams a { color: var(--ink-2); text-decoration-color: rgba(197, 204, 217, .4); }
+.city-teams a:hover { color: var(--ink); }
+.city-others { margin: 44px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+.city-others-all { font-weight: 700; font-size: 14px; text-decoration: none; color: var(--ink); }
+.city-others p { font-size: 13px; color: var(--muted); line-height: 1.8; }
+.city-others p a { color: var(--ink-2); text-decoration: none; }
+.city-others p a:hover { color: var(--ink); text-decoration: underline; }
+@media (max-width: 900px) { .city-hero-in { grid-template-columns: minmax(0, 1fr) 150px; } }
+@media (max-width: 640px) {
+  .city-hero-in { grid-template-columns: 1fr; }
+  .city-hero-lead { display: none; }
+  .city-hero h1 { font-size: 40px; }
+  .crow { grid-template-columns: 24px 48px minmax(0, 1fr); padding: 8px 0; }
+  .crow-img { width: 48px; height: 48px; }
+  .pbanner { grid-template-columns: 80px minmax(0, 1fr); padding: 10px; }
+  .pbanner-img { width: 80px; height: 80px; }
+  .pbanner-name { font-size: 24px; }
+}
+.cpick-img { aspect-ratio: 4 / 3; }

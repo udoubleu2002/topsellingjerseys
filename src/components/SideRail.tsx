@@ -24,6 +24,7 @@ export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x60
 
 /** A slot's own ad, swapped for the rotating Lids banner on about a quarter of page views. */
 export function RotatingSlot({ at, className, children }: { at: string; className?: string; children: React.ReactNode }) {
+  if (ROTATION_SHARE <= 0) return <>{children}</>;
   return <AdRotation share={ROTATION_SHARE} alt={<LidsAd banner={lidsBanner(ROTATION_BANNER_ID)!} at={`${at}_rot`} className={className} />}>{children}</AdRotation>;
 }
 
@@ -31,8 +32,8 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean }) {
-  // Cities pages run no Lids display banners (the pinned and rotating ones are Brewers creatives); only their own player ads.
+export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean }) {
+  // Cities pages run no Lids display banners; their Lids ads are the player banners and jersey tiles.
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
@@ -44,7 +45,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
 
       {lead}
 
-      <section className="rail-box">
+      {!minimal && <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
         <div className="rail-lists">
           {leagues.map(({ league, ranking }) => (
@@ -69,7 +70,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
             </details>
           ))}
         </div>
-      </section>
+      </section>}
 
       {!cityAds && <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>}
 
@@ -111,7 +112,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
 
       {cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
 
-      <section className="rail-box">
+      {!minimal && <section className="rail-box">
         <h2 className="rail-h">Latest reports</h2>
         <ul className="rail-updates">
           {leagues
@@ -125,9 +126,9 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
             ))}
         </ul>
         <Link className="rail-more" href="/rankings/">Report archive →</Link>
-      </section>
+      </section>}
 
-      {cityAds ? <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /> : <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>}
+      {minimal ? null : cityAds ? <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /> : <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>}
     </aside>
   );
 }
