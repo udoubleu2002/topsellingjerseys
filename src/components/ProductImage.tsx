@@ -1,4 +1,5 @@
 import type { Player, Product, Team } from "@/lib/schema";
+import { jerseyImg } from "@/lib/img";
 
 /**
  * Shows a verified product photo when one exists. Otherwise a labeled placeholder in team colors:
@@ -8,7 +9,7 @@ export function ProductImage({ player, team, product, priority = false }: { play
   if (product?.image) {
     return (
       <div className="pframe photo">
-        <img src={product.image.url} alt={product.image.alt} loading={priority ? "eager" : "lazy"} decoding="async" width={500} height={500} />
+        <img {...jerseyImg(product.image.url, 360)} alt={product.image.alt} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : undefined} decoding="async" width={360} height={360} />
       </div>
     );
   }

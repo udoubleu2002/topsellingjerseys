@@ -12,6 +12,7 @@ import { getCities, getCity, cityLeagues, cityPath, cityPicks, cityRanked, cityS
 import { teamOffer, outPath } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
+import { jerseyImg } from "@/lib/img";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -74,7 +75,7 @@ export default async function CityPage({ params }: Props) {
             </div>
             {lead?.product.image && (
               <Link href={`/players/${lead.player.slug}/`} className="city-hero-lead">
-                <img src={lead.product.image.url} alt={lead.product.image.alt} width={320} height={320} />
+                <img {...jerseyImg(lead.product.image.url, 200)} alt={lead.product.image.alt} width={200} height={200} fetchPriority="high" />
                 <span className="city-hero-cap"><small>{lead.ranked && lead.player.id === ranked[0]?.player.id ? `No. 1 in ${city.name}` : `${city.name} favorite`}</small>{lead.player.name}</span>
               </Link>
             )}
