@@ -7,12 +7,14 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SideRail } from "@/components/SideRail";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
-import { CityList, CityPicks, CityStories, PlayerBanner } from "@/components/CityBits";
+import { CityList, CityPicks, CityPodium, CityStories, PlayerBanner } from "@/components/CityBits";
+import { CityArt } from "@/components/CityCards";
 import { getCities, getCity, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured } from "@/lib/cities";
 import { teamOffer, outPath } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
 import { jerseyImg } from "@/lib/img";
+import "../../cities.css";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -60,9 +62,10 @@ export default async function CityPage({ params }: Props) {
   return (
     <>
       <SiteHeader active="cities" />
-      <main id="main" data-page-type="city" data-city={city.slug}>
+      <main id="main" className="cx" data-page-type="city" data-city={city.slug}>
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Cities", href: "/cities/" }, { name: city.name, href: cityPath(city) }]} />
         <header className="city-hero">
+          <span className="city-hero-art" aria-hidden="true"><CityArt city={city} eager /></span>
           <div className="wrap city-hero-in">
             <div className="city-hero-text">
               <p className="eyebrow">{city.area ?? `${city.name}, ${city.region}`}{city.country === "CA" ? " · Canada" : ""}</p>
@@ -87,11 +90,13 @@ export default async function CityPage({ params }: Props) {
           <div className="rail-main">
 
             <section className="section city-sec" id="overall" aria-labelledby="overall-h">
+              <p className="cx-kicker">Overall · every sport</p>
               <div className="section-head"><h2 id="overall-h">Top {city.name} jerseys overall</h2></div>
               {overall.length > 0 ? (
                 <>
                   <p className="city-sub">Ranked by each player&apos;s place on their league&apos;s latest sales list.</p>
-                  <CityList rows={overall} page={page} at="city_overall" showLeague />
+                  <CityPodium rows={overall} page={page} at="city_overall" />
+                  {overall.length > 3 && <CityList rows={overall.slice(3)} page={page} at="city_overall" showLeague start={4} />}
                 </>
               ) : (
                 <>
@@ -108,7 +113,8 @@ export default async function CityPage({ params }: Props) {
               const star = rows[0] ?? more[0];
               return (
                 <div key={l.id}>
-                  <section className="section city-sec" id={l.id} aria-labelledby={`${l.id}-h`}>
+                  <section className="section city-sec city-sec-lg" id={l.id} aria-labelledby={`${l.id}-h`}>
+                    <p className="cx-kicker">By sport · {l.name}</p>
                     <div className="section-head">
                       <h2 id={`${l.id}-h`}>{city.name} {l.name} jerseys</h2>
                       <Link href={`/${l.slug}/`}>Full {l.name} list →</Link>

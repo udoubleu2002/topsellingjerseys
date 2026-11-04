@@ -1,13 +1,13 @@
-import { Fragment } from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { SideRail } from "@/components/SideRail";
 import { AffiliateNote } from "@/components/RankingHeader";
-import { getCities, cityLeagues, cityPath, cityRanked, cityTeams, cityFeatured } from "@/lib/cities";
-import { jerseyImg } from "@/lib/img";
+import { CityCard, FeaturedCity } from "@/components/CityCards";
+import { getCities, featuredCities } from "@/lib/cities";
+import { getLeagues } from "@/lib/data";
+import "../cities.css";
 
 export const metadata: Metadata = pageMeta({
   title: "Top Selling Jerseys by City",
@@ -15,43 +15,50 @@ export const metadata: Metadata = pageMeta({
   path: "/cities/",
 });
 
-
 export default function CitiesPage() {
-  const cities = getCities().map((c) => ({ city: c, teams: cityTeams(c), leagues: cityLeagues(c), ranked: cityRanked(c) }));
+  const cities = getCities();
+  const feat = featuredCities();
   return (
     <>
       <SiteHeader active="cities" />
-      <main id="main" data-page-type="cities">
-        <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Cities", href: "/cities/" }]} />
-        <header className="wrap page-head">
-          <h1>Top Selling Jerseys by City</h1>
-          <p className="lede">The top {cities.length} sports cities in the US and Canada, A to Z, each with its top jerseys overall and a list for every sport, taken from the latest published jersey sales lists.</p>
-          <AffiliateNote />
-        </header>
-        <div className="wrap with-rail">
-          <div className="rail-main">
-            <div className="city-grid">
-              {cities.map(({ city, teams, leagues, ranked }, i) => {
-                const lead = ranked[0];
-                const photo = cityFeatured(city)?.product.image;
-                return (
-                  <Fragment key={city.slug}>
-                    <Link href={cityPath(city)} className="city-card">
-                      <span className="city-card-body">
-                        <span className="city-card-name">{city.name}</span>
-                        <span className="city-card-meta">{city.region}{city.country === "CA" ? ", Canada" : ""} · {teams.length} {teams.length === 1 ? "team" : "teams"}</span>
-                        <span className="city-card-lgs">{leagues.map((l) => <span key={l.id}>{l.name}</span>)}</span>
-                        {lead ? <span className="city-card-lead">Top jersey: <strong>{lead.player.name}</strong></span> : <span className="city-card-lead">Shop {teams.length === 1 ? "the team" : `all ${teams.length} teams`} at Lids</span>}
-                      </span>
-                      {photo && <span className="city-card-img"><img {...jerseyImg(photo.url, 120)} alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" width={120} height={120} /></span>}
-                    </Link>
-                  </Fragment>
-                );
-              })}
-            </div>
+      <main id="main" className="cx" data-page-type="cities">
+        <section className="cx-top">
+          <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Cities", href: "/cities/" }]} />
+          <div className="wrap">
+            <header className="cx-head">
+              <h1 className="cx-eyebrow">Top Selling Jerseys by City</h1>
+              <p className="cx-display">America&apos;s Best-Selling Jerseys, City by City</p>
+              <p className="cx-lede">Explore the teams, athletes and jerseys capturing the attention of sports fans across America&apos;s biggest cities.</p>
+              <AffiliateNote />
+            </header>
+            {feat && (
+              <>
+                <FeaturedCity city={feat.lead} />
+                {feat.more.length > 0 && (
+                  <div className="cfeat-more">
+                    {feat.more.map((c) => <CityCard key={c.slug} city={c} size="sm" />)}
+                  </div>
+                )}
+              </>
+            )}
           </div>
-          <SideRail cityAds />
-        </div>
+        </section>
+
+        <section className="wrap cx-dir" aria-labelledby="all-cities-h">
+          <div className="cx-dir-head">
+            <h2 id="all-cities-h">All {cities.length} cities, A to Z</h2>
+            <p>The top sports cities in the US and Canada, each with its top jerseys overall and a list for every sport, taken from the latest published jersey sales lists.</p>
+          </div>
+          <div className="cgrid">
+            {cities.map((c, i) => <CityCard key={c.slug} city={c} eager={i < 3 && !feat} />)}
+          </div>
+          <div className="cx-foot">
+            <nav className="cx-leagues" aria-label="League lists">
+              <span>Full league lists:</span>
+              {getLeagues().map((l) => <Link key={l.id} href={`/${l.slug}/`}>{l.name}</Link>)}
+            </nav>
+          </div>
+        </section>
       </main>
     </>
   );

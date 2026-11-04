@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { getCities, cityRanked, cityStories, cityTeams, cityFeatured } from "../src/lib/cities";
+import fs from "node:fs";
+import path from "node:path";
+import { getCities, cityRanked, cityStories, cityTeams, cityFeatured, cityArt, featuredCities, teamNickname } from "../src/lib/cities";
 
 describe("cities", () => {
   it("has 30-40 cities, every team known and in one city only", () => {
@@ -28,5 +30,26 @@ describe("cities", () => {
 
   it("gives every city a jersey with a photo", () => {
     for (const c of getCities()) expect(cityFeatured(c)?.product.image, c.name).toBeTruthy();
+  });
+
+  it("gives every city its own illustration with a description", () => {
+    for (const c of getCities()) {
+      const art = cityArt(c);
+      expect(fs.existsSync(path.join(process.cwd(), "public", art.src)), c.slug).toBe(true);
+      expect(art.alt).not.toBe(`Illustration of ${c.name}`);
+    }
+  });
+
+  it("features a lead city and up to four more, all real cities", () => {
+    const f = featuredCities();
+    expect(f).not.toBeNull();
+    expect(f!.more.length).toBeLessThanOrEqual(4);
+    for (const c of [f!.lead, ...f!.more]) expect(c).toBeTruthy();
+  });
+
+  it("shortens team names for cards", () => {
+    expect(teamNickname({ name: "Boston Red Sox", league: "mlb" })).toBe("Red Sox");
+    expect(teamNickname({ name: "New York Yankees", league: "mlb" })).toBe("Yankees");
+    expect(teamNickname({ name: "Inter Miami CF", league: "mls" })).toBe("Inter Miami CF");
   });
 });

@@ -37,7 +37,41 @@ export function getCities(): City[] {
   }
   if (new Set(cities.map((c) => c.slug)).size !== cities.length) throw new Error("data/cities.json: duplicate city slug");
   cache = [...cities].sort((a, b) => a.name.localeCompare(b.name));
+  const f = z.object({ featured: z.object({ city: z.string(), more: z.array(z.string()).max(4) }).optional() }).parse(raw).featured;
+  for (const slug of f ? [f.city, ...f.more] : []) if (!cache.some((c) => c.slug === slug)) throw new Error(`data/cities.json: featured city ${slug} is not a city`);
+  featuredCfg = f ?? null;
   return cache;
+}
+
+let featuredCfg: { city: string; more: string[] } | null = null;
+
+/** The hand-picked feature for the Cities page (data/cities.json "featured"): a lead city and up to four more. */
+export function featuredCities(): { lead: City; more: City[] } | null {
+  getCities();
+  if (!featuredCfg) return null;
+  return { lead: getCity(featuredCfg.city)!, more: featuredCfg.more.map((s) => getCity(s)!) };
+}
+
+const ART_ALT: Record<string, string> = (() => {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "public", "cities", "art", "alt.json"), "utf8"));
+  } catch {
+    return {};
+  }
+})();
+
+/** The city's illustration (public/cities/art, drawn by scripts/city-art.py) and its description. */
+export function cityArt(c: Pick<City, "slug" | "name">): { src: string; alt: string } {
+  return { src: `/cities/art/${c.slug}.svg`, alt: ART_ALT[c.slug] ? `Illustration of ${ART_ALT[c.slug]}` : `Illustration of ${c.name}` };
+}
+
+const MULTI = ["Red Sox", "White Sox", "Blue Jays", "Maple Leafs", "Red Wings", "Golden Knights", "Trail Blazers", "Blue Jackets", "Red Bulls"];
+
+/** A team's short name for compact lists: "Yankees", "Red Sox"; MLS clubs keep their full name. */
+export function teamNickname(t: Pick<CityTeam, "name" | "league">): string {
+  if (t.league === "mls") return t.name;
+  const multi = MULTI.find((m) => t.name.endsWith(` ${m}`));
+  return multi ?? t.name.split(" ").pop()!;
 }
 
 export const getCity = (slug: string) => getCities().find((c) => c.slug === slug);

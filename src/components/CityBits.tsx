@@ -162,3 +162,44 @@ export function CityStories({ cityName, stories }: { cityName: string; stories: 
     </section>
   );
 }
+
+/**
+ * The top three of a city list as editorial cards: a large position number, the jersey photo, the player, team and
+ * league rank from the latest sales list, and a quiet Lids link. No. 1 is the largest card.
+ */
+export function CityPodium({ rows, page, at }: { rows: CityRow[]; page: string; at: string }) {
+  return (
+    <ol className="cpod">
+      {rows.slice(0, 3).map((r, i) => {
+        const offer = offerFor(r);
+        const team = getAnyTeam(r.teamId);
+        const c = getTeam(r.teamId)?.colors ?? FALLBACK;
+        const img = r.product?.image;
+        const price = r.product?.price != null && r.product.currency ? money(r.product.price, r.product.currency) : null;
+        const w = i === 0 ? 260 : 160;
+        return (
+          <li key={r.player.id} className={`cpod-item${i === 0 ? " is-first" : ""}`}>
+            <span className="cpod-num" aria-hidden="true">{i + 1}</span>
+            <Link href={`/players/${r.player.slug}/`} className="cpod-img" tabIndex={-1} aria-hidden="true" style={img ? undefined : { backgroundColor: c.primary, color: c.secondary }}>
+              {img ? <img {...jerseyImg(img.url, w)} alt="" loading="lazy" decoding="async" width={w} height={w} /> : <span>{r.player.number ?? ""}</span>}
+            </Link>
+            <span className="cpod-body">
+              <span className="cpod-pos">No. {i + 1} in the city</span>
+              <Link href={`/players/${r.player.slug}/`} className="cpod-name">{r.player.name}</Link>
+              <span className="cpod-meta">{team?.name}</span>
+              <span className="cpod-rank">No. {r.rank} on the {r.ranking.league.toUpperCase()} sales list</span>
+              <span className="cpod-foot">
+                {price && <span className="cpod-price">{price}</span>}
+                {offer && (
+                  <OutLink offer={offer} at={at} page={page} league={r.ranking.league} playerId={r.player.id} className="cpod-shop" label={`Shop ${r.player.name} jerseys at Lids`}>
+                    Shop at Lids <span aria-hidden="true">→</span>
+                  </OutLink>
+                )}
+              </span>
+            </span>
+          </li>
+        );
+      })}
+    </ol>
+  );
+}
