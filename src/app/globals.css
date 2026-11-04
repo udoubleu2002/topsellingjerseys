@@ -1320,9 +1320,7 @@ a.mj-item-name { color: inherit; text-decoration: underline; text-underline-offs
 
 /* ---------- Cities ---------- */
 .league-nav .nav-cities { color: var(--gold); }
-.city-hero { position: relative; background: radial-gradient(120% 140% at 85% 0%, #1b2540 0%, var(--navy) 60%); border-bottom: 1px solid var(--navy-line); overflow: hidden; }
-.city-stripes { display: flex; height: 10px; }
-.city-stripes span { flex: 1; border-bottom: 3px solid; }
+.city-hero { position: relative; background: var(--navy); border-bottom: 1px solid var(--navy-line); overflow: hidden; }
 .city-hero-in { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 36px; align-items: center; padding-block: 28px 32px; }
 .city-hero-text { display: grid; gap: 14px; min-width: 0; }
 .city-hero h1 { font: 800 clamp(40px, 6.2vw, 76px)/.92 var(--f-head); text-transform: uppercase; letter-spacing: .005em; }
@@ -1332,16 +1330,15 @@ a.mj-item-name { color: inherit; text-decoration: underline; text-underline-offs
 .city-stats dt { font: 700 11px/1.2 var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .city-stats dd { margin: 2px 0 0; font: 800 30px/1 var(--f-num); color: var(--ink); }
 .city-jump { display: flex; flex-wrap: wrap; gap: 8px; }
-.city-jump a { padding: 7px 13px; border-radius: 4px; border: 1px solid var(--line-2); border-left: 4px solid var(--lg, var(--gold)); background: var(--surface); text-decoration: none; font: 700 14px/1 var(--f-num); letter-spacing: .08em; }
-.city-jump a:hover { border-color: var(--ink-2); border-left-color: var(--lg, var(--gold)); }
-.city-hero-lead { position: relative; display: block; border-radius: 10px; overflow: hidden; background: #fff; box-shadow: 0 18px 40px rgba(0, 0, 0, .45); text-decoration: none; transform: rotate(2deg); }
+.city-jump a { padding: 7px 13px; border-radius: 4px; border: 1px solid var(--line-2); background: var(--surface); text-decoration: none; font: 700 14px/1 var(--f-num); letter-spacing: .08em; }
+.city-jump a:hover { border-color: var(--ink-2); }
+.city-hero-lead { position: relative; display: block; border-radius: 10px; overflow: hidden; background: #fff; box-shadow: 0 18px 40px rgba(0, 0, 0, .45); text-decoration: none; }
 .city-hero-lead img { width: 100%; aspect-ratio: 1; object-fit: contain; }
 .city-hero-lead span { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 12px 10px; background: linear-gradient(transparent, rgba(7, 10, 17, .92) 45%); color: #fff; font: 800 22px/1 var(--f-head); text-transform: uppercase; }
 .city-hero-lead small { display: block; font: 700 11px/1.2 var(--f-body); letter-spacing: .1em; color: var(--gold); margin-bottom: 4px; }
 .city-note { padding-block: 14px 0; }
 .city-ad { margin-block: 28px 4px; }
 .city-sec { padding-top: 32px; }
-.city-sec .section-head { border-bottom: 3px solid var(--lg, var(--line-2)); }
 .city-sec > .shop-note { margin-bottom: 10px; }
 
 .clist { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
@@ -1400,15 +1397,13 @@ a.mj-item-name { color: inherit; text-decoration: underline; text-underline-offs
 .cstories.is-local .rail-h { color: var(--gold); }
 
 .city-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.city-card { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto 1fr; height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; text-decoration: none; transition: border-color .15s ease, transform .15s ease; }
+.city-card { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; text-decoration: none; transition: border-color .15s ease, transform .15s ease; }
 .city-card:hover { border-color: var(--ink-2); transform: translateY(-2px); }
-.city-card-stripes { grid-column: 1 / -1; display: flex; height: 6px; }
-.city-card-stripes span { flex: 1; }
 .city-card-body { display: grid; gap: 6px; padding: 12px 14px 14px; align-content: start; min-width: 0; }
 .city-card-name { font: 800 26px/1 var(--f-head); text-transform: uppercase; }
 .city-card-meta { font-size: 13px; color: var(--muted); }
 .city-card-lgs { display: flex; flex-wrap: wrap; gap: 4px; }
-.city-card-lgs span { font: 700 11px/1 var(--f-num); letter-spacing: .08em; padding: 4px 6px; border-radius: 3px; background: var(--surface-2); border-left: 3px solid var(--lg); }
+.city-card-lgs span { font: 700 11px/1 var(--f-num); letter-spacing: .08em; padding: 4px 6px; border-radius: 3px; background: var(--surface-2); color: var(--ink-2); }
 .city-card-lead { font-size: 13px; color: var(--ink-2); }
 .city-card-lead strong { color: var(--ink); }
 .city-card-img { width: 104px; align-self: stretch; background: #fff; display: grid; place-items: center; }

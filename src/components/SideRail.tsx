@@ -31,12 +31,14 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active, lead, hideStories = false, hideNews = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean }) {
+export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean }) {
+  // Cities pages run only the all-jerseys Lids banner: no pinned Brewers banner, no NHL or Ohtani banner.
+  const cityBanner = lidsBanner(ROTATION_BANNER_ID)!;
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
-  const pinned = pinnedRailBanner();
+  const pinned = cityAds ? null : pinnedRailBanner();
   return (
     <aside className="rail" aria-label="Browse the lists">
       {pinned && <ShowUntil until={pinned.until}><LidsAd banner={pinned.banner} at="rail_pinned" /></ShowUntil>}
@@ -70,7 +72,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false }
         </div>
       </section>
 
-      <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>
+      {cityAds ? <LidsAd banner={cityBanner} at="rail_lids" /> : <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>}
 
       {!hideNews && news.length > 0 && (
         <section className="rail-box">

@@ -5,9 +5,9 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { LidsAd } from "@/components/LidsAd";
-import { SideRail, RotatingSlot } from "@/components/SideRail";
+import { SideRail } from "@/components/SideRail";
 import { AffiliateNote } from "@/components/RankingHeader";
-import { getCities, cityLeagues, cityPath, cityRanked, cityTeams } from "@/lib/cities";
+import { getCities, cityLeagues, cityPath, cityRanked, cityTeams, cityFeatured, CITY_BANNER_ID } from "@/lib/cities";
 import { lidsBanner } from "@/lib/lidsAds";
 
 export const metadata: Metadata = pageMeta({
@@ -18,7 +18,6 @@ export const metadata: Metadata = pageMeta({
 
 /** After this many city cards, a Lids banner runs across the grid. */
 const AD_EVERY = 12;
-const AD_IDS = ["4114443", "1907269", "2159657"];
 
 export default function CitiesPage() {
   const cities = getCities().map((c) => ({ city: c, teams: cityTeams(c), leagues: cityLeagues(c), ranked: cityRanked(c) }));
@@ -29,7 +28,7 @@ export default function CitiesPage() {
         <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Cities", href: "/cities/" }]} />
         <header className="wrap page-head">
           <h1>Top Selling Jerseys by City</h1>
-          <p className="lede">The {cities.length} biggest sports cities in the US and Canada, each with its top jerseys overall and a list for every sport, taken from the latest published jersey sales lists.</p>
+          <p className="lede">The top {cities.length} sports cities in the US and Canada, A to Z, each with its top jerseys overall and a list for every sport, taken from the latest published jersey sales lists.</p>
           <AffiliateNote />
         </header>
         <div className="wrap with-rail">
@@ -37,25 +36,22 @@ export default function CitiesPage() {
             <div className="city-grid">
               {cities.map(({ city, teams, leagues, ranked }, i) => {
                 const lead = ranked[0];
-                const photo = ranked.find((r) => r.product?.image)?.product?.image;
-                const ad = (i + 1) % AD_EVERY === 0 && i < cities.length - 1 ? lidsBanner(AD_IDS[Math.floor(i / AD_EVERY) % AD_IDS.length]) : undefined;
+                const photo = cityFeatured(city)?.product.image;
+                const ad = (i + 1) % AD_EVERY === 0 && i < cities.length - 1 ? lidsBanner(CITY_BANNER_ID) : undefined;
                 return (
                   <Fragment key={city.slug}>
                     <Link href={cityPath(city)} className="city-card">
-                      <span className="city-card-stripes" aria-hidden="true">
-                        {teams.map((t) => <span key={t.id} style={{ background: t.team?.colors.primary ?? "#334155" }} />)}
-                      </span>
                       <span className="city-card-body">
                         <span className="city-card-name">{city.name}</span>
                         <span className="city-card-meta">{city.region}{city.country === "CA" ? ", Canada" : ""} · {teams.length} {teams.length === 1 ? "team" : "teams"}</span>
-                        <span className="city-card-lgs">{leagues.map((l) => <span key={l.id} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</span>)}</span>
-                        {lead && <span className="city-card-lead">Top jersey: <strong>{lead.player.name}</strong></span>}
+                        <span className="city-card-lgs">{leagues.map((l) => <span key={l.id}>{l.name}</span>)}</span>
+                        {lead ? <span className="city-card-lead">Top jersey: <strong>{lead.player.name}</strong></span> : <span className="city-card-lead">Shop {teams.length === 1 ? "the team" : `all ${teams.length} teams`} at Lids</span>}
                       </span>
                       {photo && <span className="city-card-img"><img src={photo.url} alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" width={120} height={120} /></span>}
                     </Link>
                     {ad && (
                       <div className="city-grid-ad">
-                        <RotatingSlot at={`cities_grid_${i + 1}`}><LidsAd banner={ad} at={`cities_grid_${i + 1}`} /></RotatingSlot>
+                        <LidsAd banner={ad} at={`cities_grid_${i + 1}`} />
                       </div>
                     )}
                   </Fragment>
@@ -63,7 +59,7 @@ export default function CitiesPage() {
               })}
             </div>
           </div>
-          <SideRail />
+          <SideRail cityAds />
         </div>
       </main>
     </>
