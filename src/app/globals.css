@@ -1836,3 +1836,9 @@ a { text-underline-offset: 3px; }
 .principles a { color: var(--gold); }
 @media (max-width: 640px) { .src-cards { grid-template-columns: 1fr; } }
 .jersey-team-note { font-size: 12.5px; color: var(--gold-ink); background: var(--gold-tint); padding: 4px 8px; border-radius: 4px; }
+/* Homepage city cards with the illustrated posters from /cities/art/. */
+.citycard.has-art { padding: 0 0 16px; }
+.citycard.has-art::after { display: none; }
+.citycard-art { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; display: block; margin-bottom: 10px; }
+.citycard.has-art > span { padding-inline: 16px; }
+.citycard.has-art .citycard-lgs { padding-inline: 16px; }

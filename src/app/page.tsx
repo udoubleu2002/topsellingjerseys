@@ -6,7 +6,7 @@ import { LeaderCard, FeaturedPlayer, LeagueTopFive } from "@/components/HomeBits
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getCurrentRanking, getTeamDirectory, getRankings, getPlayers, reportStatus } from "@/lib/data";
-import { getCity, cityPath, cityRanked, cityLeagues, getCities } from "@/lib/cities";
+import { getCity, cityPath, cityRanked, cityLeagues, getCities, cityArt } from "@/lib/cities";
 import { getStories, storyPath } from "@/lib/stories";
 import { fmtShortDate, fmtDate } from "@/lib/format";
 import { teamOffer, outPath } from "@/lib/affiliate";
@@ -102,7 +102,8 @@ export default function Home() {
               {cities.map((c) => {
                 const rows = cityRanked(c);
                 return (
-                  <Link key={c.slug} className="citycard" href={cityPath(c)}>
+                  <Link key={c.slug} className="citycard has-art" href={cityPath(c)}>
+                    <img className="citycard-art" src={cityArt(c).src} alt={cityArt(c).alt} width={1600} height={1000} loading="lazy" decoding="async" />
                     <span className="citycard-name">{c.name}</span>
                     <span className="citycard-meta">{c.teams.length} teams · {rows.length} ranked {rows.length === 1 ? "player" : "players"}</span>
                     <span className="citycard-lgs">{cityLeagues(c).map((l) => <span key={l.id} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</span>)}</span>
