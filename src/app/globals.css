@@ -2164,3 +2164,16 @@ a { color: inherit; }
 .lt5-rest-h { margin: 0 0 4px; font: 800 15px/1 var(--f-head); letter-spacing: .12em; text-transform: uppercase; color: var(--gold); }
 .lt5-rows li { padding: 6px 0; }
 @media (min-width: 1280px) { .lt5-rows.is-cols { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 20px; } }
+/* Dark fixes: text that was navy or charcoal on the light theme. */
+.jart.is-photo { background: #fff; }
+.leader-lg { color: var(--lg, var(--gold)); }
+.leader-more, .lt5-more { color: var(--gold); }
+.leader:hover .leader-more { color: #fff; }
+.lt5-more:hover { border-color: var(--gold); }
+.list-h { text-transform: uppercase; }
+.sec-more, .rail .rail-more, .rail-more, .src-links a, .hero-new-links a { color: var(--gold); }
+.btn-ghost { background: transparent; }
+.pill { color: var(--ink); }
+.pill.is-latest { background: #1f8a4c; color: #fff; }
+.pill.is-superseded { background: var(--surface-2); color: var(--muted); }
+.masthead { background: #070b11; }

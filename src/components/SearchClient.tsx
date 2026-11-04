@@ -18,7 +18,12 @@ export function SearchClient({ items }: { items: SearchItem[] }) {
     return items.filter((i) => {
       const t = i.terms.normalize("NFD").replace(/[̀-ͯ]/g, "");
       return words.every((w) => t.includes(w));
-    }).slice(0, 30);
+    })
+      // Names that match the query come first, so "Boston" leads with the city page and "NFL" with the league.
+      .map((i, n) => ({ i, n, hit: words.every((w) => i.name.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").includes(w)) }))
+      .sort((a, b) => Number(b.hit) - Number(a.hit) || a.n - b.n)
+      .map((x) => x.i)
+      .slice(0, 30);
   }, [q, items]);
   return (
     <div>
