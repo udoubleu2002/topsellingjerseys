@@ -234,3 +234,22 @@ export function cityIntro(c: City, opts: { teams?: boolean } = {}): string {
       : `${opts.teams === false ? "" : " "}No ${c.name} players are on the latest published sales lists right now.`)
   );
 }
+
+export type CityJersey = { player: Player; product: Product; teamId: string; rank?: number; league?: string };
+
+/**
+ * Jerseys to show on a city's directory card: local players on the latest sales lists first (by rank), then Lids
+ * jerseys for the city's other players, one team at a time. Only jerseys with a Lids photo, one per player.
+ */
+export function cityJerseys(c: City, n = 4): CityJersey[] {
+  const out: CityJersey[] = [];
+  const seen = new Set<string>();
+  for (const r of cityRanked(c)) {
+    if (out.length >= n) break;
+    if (!r.product?.image || seen.has(r.player.id)) continue;
+    seen.add(r.player.id);
+    out.push({ player: r.player, product: r.product, teamId: r.teamId, rank: r.rank, league: r.ranking.league });
+  }
+  for (const p of cityPicks(c, seen, n - out.length)) out.push({ player: p.player, product: p.product, teamId: p.teamId });
+  return out;
+}

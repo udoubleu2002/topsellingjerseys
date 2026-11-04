@@ -13,6 +13,22 @@ function offerFor(row: Pick<CityRow, "player" | "teamId" | "product">): Offer | 
   return row.product ? productOffer(row.product) : searchOffer(row.player, getTeam(row.teamId));
 }
 
+/**
+ * A drawn jersey in team colors with the player's number, for players the Lids feed has no photo for.
+ * It is an illustration, never presented as a product photo (no price or product link comes with it).
+ */
+export function JerseyGlyph({ number, colors, size = 64 }: { number?: string | number | null; colors: { primary: string; secondary: string; accent: string }; size?: number }) {
+  return (
+    <svg className="jglyph" viewBox="0 0 100 100" width={size} height={size} role="img" aria-label={number != null && number !== "" ? `Jersey number ${number}` : "Jersey"}>
+      <path d="M35 10 L20 16 L6 34 L18 44 L26 36 L26 92 L74 92 L74 36 L82 44 L94 34 L80 16 L65 10 Q50 22 35 10 Z" fill={colors.primary} stroke={colors.accent} strokeWidth="2.5" strokeLinejoin="round" />
+      <path d="M35 10 Q50 22 65 10" fill="none" stroke={colors.secondary} strokeWidth="3" />
+      {number != null && number !== "" && (
+        <text x="50" y="72" textAnchor="middle" fontSize={String(number).length > 1 ? 30 : 36} fontWeight="800" fill={colors.secondary} fontFamily="var(--f-num), Arial Narrow, sans-serif">{number}</text>
+      )}
+    </svg>
+  );
+}
+
 /** Outbound Lids link with the same tracking attributes as ShopButton. */
 function OutLink({ offer, at, page, league, playerId, className, children, label }: { offer: Offer; at: string; page: string; league: string; playerId?: string; className?: string; children: React.ReactNode; label?: string }) {
   return (
@@ -61,7 +77,7 @@ export function PlayerBanner({ row, league, cityName, page }: { row: Pick<CityRo
       >
         <span className="pbanner-bg" style={{ "--c1": c.primary, "--c2": c.accent } as React.CSSProperties} aria-hidden="true" />
         <span className="pbanner-img">
-          {img ? <img {...jerseyImg(img.url, 120)} alt="" loading="lazy" decoding="async" width={120} height={120} /> : <span className="pbanner-num" style={{ color: c.secondary }}>{row.player.number ?? ""}</span>}
+          {img ? <img {...jerseyImg(img.url, 120)} alt="" loading="lazy" decoding="async" width={120} height={120} /> : <JerseyGlyph number={row.player.number} colors={c} size={110} />}
         </span>
         <span className="pbanner-copy">
           <span className="pbanner-kicker">{row.rank ? `${cityName}'s No. 1 ${league.name} jersey` : `${cityName} ${league.name} spotlight`}</span>
@@ -91,8 +107,8 @@ export function CityList({ rows, page, at, showLeague, start = 1 }: { rows: City
         return (
           <li key={r.player.id} className={`crow${pos === 1 ? " is-first" : ""}`}>
             <span className="crow-rank">{pos}</span>
-            <Link href={`/players/${r.player.slug}/`} className="crow-img" tabIndex={-1} aria-hidden="true" style={img ? undefined : { backgroundColor: c.primary, color: c.secondary, borderBottomColor: c.accent }}>
-              {img ? <img {...jerseyImg(img.url, 64)} alt="" loading="lazy" decoding="async" width={64} height={64} /> : <span>{r.player.number ?? ""}</span>}
+            <Link href={`/players/${r.player.slug}/`} className="crow-img" tabIndex={-1} aria-hidden="true" >
+              {img ? <img {...jerseyImg(img.url, 64)} alt="" loading="lazy" decoding="async" width={64} height={64} /> : <JerseyGlyph number={r.player.number} colors={c} size={52} />}
             </Link>
             <span className="crow-who">
               <Link href={`/players/${r.player.slug}/`} className="crow-name">{r.player.name}</Link>
@@ -180,8 +196,8 @@ export function CityPodium({ rows, page, at }: { rows: CityRow[]; page: string; 
         return (
           <li key={r.player.id} className={`cpod-item${i === 0 ? " is-first" : ""}`}>
             <span className="cpod-num" aria-hidden="true">{i + 1}</span>
-            <Link href={`/players/${r.player.slug}/`} className="cpod-img" tabIndex={-1} aria-hidden="true" style={img ? undefined : { backgroundColor: c.primary, color: c.secondary }}>
-              {img ? <img {...jerseyImg(img.url, w)} alt="" loading="lazy" decoding="async" width={w} height={w} /> : <span>{r.player.number ?? ""}</span>}
+            <Link href={`/players/${r.player.slug}/`} className="cpod-img" tabIndex={-1} aria-hidden="true" >
+              {img ? <img {...jerseyImg(img.url, w)} alt="" loading="lazy" decoding="async" width={w} height={w} /> : <JerseyGlyph number={r.player.number} colors={c} size={i === 0 ? 200 : 100} />}
             </Link>
             <span className="cpod-body">
               <span className="cpod-pos">No. {i + 1} in the city</span>

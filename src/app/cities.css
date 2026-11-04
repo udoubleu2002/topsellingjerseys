@@ -47,8 +47,6 @@
 
 .cfeat { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); background: var(--cx-navy-2); border: 1px solid rgba(255, 255, 255, .08); border-radius: 14px; overflow: hidden; box-shadow: 0 24px 60px rgba(4, 12, 22, .45); }
 .cfeat-art { display: block; min-height: 100%; overflow: hidden; background: var(--cx-navy); }
-.cfeat-art img { width: 100%; height: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .6s ease; }
-.cfeat-art:hover img { transform: scale(1.03); }
 .cfeat-body { display: grid; gap: 14px; align-content: center; padding: 28px 32px; min-width: 0; }
 .cfeat-kicker { font: 700 12px/1.2 var(--f-num); letter-spacing: .16em; text-transform: uppercase; color: var(--cx-gold); }
 .cfeat-name { font: 800 clamp(40px, 4.8vw, 64px)/.92 var(--f-head); text-transform: uppercase; }
@@ -68,29 +66,6 @@
 .cfeat-more { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
 
 /* ---------- Illustrated city cards ---------- */
-.ccard { position: relative; display: block; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; isolation: isolate; background: var(--cx-navy); color: #fff; text-decoration: none; box-shadow: 0 1px 2px rgba(20, 43, 69, .12), 0 8px 24px rgba(20, 43, 69, .12); transition: box-shadow .25s ease, transform .25s ease; }
-.ccard:hover { box-shadow: 0 2px 4px rgba(20, 43, 69, .16), 0 16px 36px rgba(20, 43, 69, .24); transform: translateY(-2px); }
-.ccard:focus-visible { outline: 3px solid var(--cx-gold); outline-offset: 3px; }
-.ccard-art { position: absolute; inset: 0 0 20% 0; z-index: -2; }
-.ccard-art img { width: 100%; height: 100%; object-fit: cover; object-position: center 70%; transition: transform .6s ease; }
-.ccard:hover .ccard-art img, .ccard:focus-visible .ccard-art img { transform: scale(1.06); }
-.ccard { background: #0b1828; }
-.ccard-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(11, 24, 40, 0) 48%, rgba(11, 24, 40, .7) 64%, #0b1828 80%); }
-.ccard-body { position: absolute; left: 0; right: 0; bottom: 0; display: grid; gap: 3px; padding: 14px 18px 16px; }
-.ccard-place { font: 700 11px/1.2 var(--f-num); letter-spacing: .14em; text-transform: uppercase; color: var(--cx-gold); }
-.ccard-name { font: 800 32px/.95 var(--f-head); text-transform: uppercase; text-shadow: 0 2px 10px rgba(0, 0, 0, .35); }
-.ccard-teams { font-size: 13px; color: rgba(255, 255, 255, .85); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.ccard-top { font-size: 13px; color: rgba(255, 255, 255, .78); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.ccard-top strong { color: #fff; font-weight: 700; }
-.ccard-top em { font-style: normal; font: 700 11px/1 var(--f-num); letter-spacing: .06em; color: var(--cx-gold); margin-left: 4px; }
-.ccard-go { position: absolute; top: 12px; right: 12px; padding: 7px 11px; border-radius: 999px; background: rgba(11, 24, 40, .62); border: 1px solid rgba(255, 255, 255, .16); backdrop-filter: blur(4px); font: 700 12px/1 var(--f-body); letter-spacing: .02em; color: #fff; display: inline-flex; gap: 6px; transition: background .2s ease, border-color .2s ease; }
-.ccard:hover .ccard-go { background: rgba(11, 24, 40, .85); border-color: var(--cx-gold); }
-.ccard-go span { color: var(--cx-gold); transition: transform .2s ease; }
-.ccard:hover .ccard-go span { transform: translateX(4px); }
-.ccard-sm .ccard-body { padding: 12px 14px 14px; }
-.ccard-sm .ccard-go { top: 10px; right: 10px; padding: 6px 9px; font-size: 11px; }
-.ccard-sm .ccard-name { font-size: 26px; }
-.ccard-sm .ccard-top { display: none; }
 
 .cx-dir { padding-block: 44px 0; }
 .cx-dir-head { display: grid; gap: 6px; margin-bottom: 22px; }
@@ -182,25 +157,16 @@
   .cgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cfeat-more { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cfeat { grid-template-columns: 1fr; }
-  .cfeat-art img { aspect-ratio: 16 / 8; }
 }
 @media (max-width: 640px) {
   .cx-top { padding-bottom: 28px; }
   .cx-head { padding-block: 12px 22px; }
   .cx-lede { font-size: 16px; }
   .cfeat-body { padding: 20px 18px 22px; gap: 12px; }
-  .cfeat-art img { aspect-ratio: 16 / 10; }
   .cfeat-player img { width: 68px; height: 68px; }
   .cfeat-player strong { font-size: 20px; }
   .cfeat-more { gap: 12px; }
-  .ccard-sm { aspect-ratio: 1 / 1; }
-  .ccard-sm .ccard-name { font-size: 21px; }
-  .ccard-sm .ccard-body { padding: 12px; gap: 3px; }
-  .ccard-sm .ccard-teams { white-space: normal; font-size: 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-  .ccard-sm .ccard-place { font-size: 10px; letter-spacing: .1em; }
   .cgrid { grid-template-columns: 1fr; gap: 14px; }
-  .ccard { aspect-ratio: 16 / 11; }
-  .ccard-name { font-size: 28px; }
   .cx .city-hero-in { padding-block: 24px 28px; grid-template-columns: 1fr; }
   .city-hero-art img { object-position: 60% 70%; }
   .city-hero-art::after { background: linear-gradient(180deg, rgba(15, 34, 54, .55) 0%, rgba(15, 34, 54, .92) 70%); }
@@ -213,11 +179,8 @@
   .cpod-name { font-size: 19px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .ccard, .ccard-art img, .cfeat-art img, .ccard-go span { transition: none; }
-  .ccard:hover, .ccard:hover .ccard-art img, .cfeat-art:hover img { transform: none; }
 }
 @media (max-width: 640px) {
-  .ccard-sm .ccard-go { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); border: 0; white-space: nowrap; }
 }
 /* A city with only one ranked player: one wide No. 1 card. */
 .cpod-item.is-first:only-child { grid-row: auto; grid-column: 1 / -1; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); grid-template-rows: none; align-items: center; }
@@ -250,13 +213,11 @@
 .city-src { font-size: 12.5px; color: var(--muted); margin: -8px 0 14px; }
 .city-src a { color: var(--ink-2); }
 .city-near-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
-.city-near .ccard-sm .ccard-name { font-size: 22px; }
 .city-how { margin-top: 40px; padding: 18px 20px; border-radius: 12px; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--cx-gold); display: grid; gap: 8px; }
 .city-how h2 { font: 800 18px/1.1 var(--f-head); text-transform: uppercase; letter-spacing: .03em; color: var(--cx-char); }
 .city-how p { font-size: 14px; color: var(--ink-2); line-height: 1.55; }
 .city-how a { color: var(--cx-navy); font-weight: 600; }
 .cx .city-sub a { color: var(--cx-navy); }
-.ccard-blurb { font-size: 12.5px; line-height: 1.35; color: rgba(255, 255, 255, .72); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 @media (max-width: 1020px) { .city-near-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 640px) {
   .city-roster a { font-size: 13px; }
@@ -266,10 +227,6 @@
 /* Sporty display type for city headings, whatever the sitewide heading font is. */
 .cx .section-head h2, .cx .cx-dir-head h2 { font-family: var(--f-head); text-transform: uppercase; letter-spacing: .02em; font-weight: 800; line-height: 1; font-size: clamp(26px, 3vw, 34px); }
 /* Directory cards carry a blurb, so they are taller and the art sits above the text. */
-.ccard-md { aspect-ratio: 10 / 9; }
-.ccard-md .ccard-art { bottom: 30%; }
-.ccard-md .ccard-shade { background: linear-gradient(180deg, rgba(11, 24, 40, 0) 44%, rgba(11, 24, 40, .75) 58%, #0b1828 70%); }
-@media (max-width: 640px) { .ccard.ccard-md { aspect-ratio: 10 / 9; } }
 
 /* ---------- Dark pass: Joe wants the dark sports look kept, with contrast and breathing room. ---------- */
 .cx {
@@ -322,10 +279,76 @@
 .cx-dir { padding-top: 64px; }
 .cx-dir-head { margin-bottom: 28px; }
 .cgrid { gap: 24px; }
-.ccard { box-shadow: 0 1px 0 rgba(255, 255, 255, .06) inset, 0 12px 30px rgba(0, 0, 0, .4); }
-.ccard:hover { box-shadow: 0 0 0 1px rgba(215, 168, 73, .55), 0 18px 40px rgba(0, 0, 0, .5); }
 @media (max-width: 640px) {
   .cx #overall { padding: 18px 14px 14px; }
   .cx .city-sec-lg { padding-top: 40px; }
   .cgrid { gap: 16px; }
 }
+
+/* ---------- Directory league filter (radio buttons + :has, no JavaScript; every card stays in the HTML) ---------- */
+.cfilter { border: 0; margin: 0 0 22px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.cfilter legend { float: left; margin-right: 6px; font: 700 12px/1 var(--f-num); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding: 10px 0; }
+.cfilter-opt { display: contents; }
+.cfilter input { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
+.cfilter label { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: #fff; font: 700 14px/1 var(--f-head); letter-spacing: .06em; text-transform: uppercase; cursor: pointer; transition: border-color .15s ease, background .15s ease; }
+.cfilter label small { font: 700 11px/1 var(--f-num); color: var(--muted); }
+.cfilter label:hover { border-color: rgba(215, 168, 73, .6); }
+.cfilter input:checked + label { background: var(--cx-gold); border-color: var(--cx-gold); color: var(--cx-navy-2); }
+.cfilter input:checked + label small { color: var(--cx-navy-2); }
+.cfilter input:focus-visible + label { outline: 3px solid var(--cx-gold); outline-offset: 2px; }
+.jglyph { display: block; width: 82%; height: 82%; }
+.crow-img .jglyph, .pbanner-img .jglyph { width: 88%; height: 88%; }
+@media (max-width: 640px) { .cfilter label { min-height: 38px; padding: 7px 11px; font-size: 13px; } .cfilter legend { width: 100%; padding: 0 0 4px; } }
+
+/* ---------- City cards: each city's top jerseys (skyline art is kept for the city pages) ---------- */
+.ccard { position: relative; display: grid; gap: 10px; align-content: start; padding: 18px 18px 16px; border-radius: 14px; background: linear-gradient(165deg, #1b2c43 0%, #131c28 60%); border: 1px solid var(--line-2); color: #fff; text-decoration: none; box-shadow: 0 12px 30px rgba(0, 0, 0, .35); transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease; }
+.ccard:hover { border-color: rgba(215, 168, 73, .7); transform: translateY(-2px); box-shadow: 0 18px 40px rgba(0, 0, 0, .45); }
+.ccard:focus-visible { outline: 3px solid var(--cx-gold); outline-offset: 3px; }
+.ccard-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.ccard-place { font: 700 11px/1.2 var(--f-num); letter-spacing: .14em; text-transform: uppercase; color: var(--cx-gold); white-space: nowrap; }
+.ccard-lgs { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px; }
+.ccard-lgs span { font: 800 10px/1 var(--f-num); letter-spacing: .08em; padding: 4px 5px; border-radius: 3px; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .14); color: #dfe6ee; }
+.ccard-name { font: 800 32px/.95 var(--f-head); text-transform: uppercase; letter-spacing: .01em; }
+.ccard-teams { font-size: 13px; color: rgba(255, 255, 255, .75); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: -4px; }
+.ccard-blurb { font-size: 12.5px; line-height: 1.4; color: rgba(255, 255, 255, .62); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.ccard-go { font: 700 13px/1 var(--f-body); color: #fff; display: inline-flex; gap: 6px; margin-top: 2px; }
+.ccard-go span { color: var(--cx-gold); transition: transform .2s ease; }
+.ccard:hover .ccard-go span { transform: translateX(4px); }
+
+.cj-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.cj-row.cj-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.cj-row.cj-6 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.cj { display: grid; gap: 3px; min-width: 0; }
+.cj-img { display: block; aspect-ratio: 1; border-radius: 8px; overflow: hidden; background: #fff; }
+.cj-img img { width: 100%; height: 100%; object-fit: contain; transition: transform .35s ease; }
+.ccard:hover .cj-img img, .cfeat-art:hover .cj-img img { transform: scale(1.05); }
+.cj-name { font: 700 12px/1.15 var(--f-body); color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cj-rank { font: 700 10.5px/1 var(--f-num); letter-spacing: .06em; text-transform: uppercase; color: var(--cx-gold); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ccard-sm { padding: 14px; gap: 8px; }
+.ccard-sm .ccard-name { font-size: 24px; }
+.ccard-sm .ccard-lgs { display: none; }
+
+/* Featured city: a jersey wall in place of the skyline. */
+.cfeat-art { padding: 26px; background: radial-gradient(120% 100% at 0% 0%, #22436a, var(--cx-navy) 60%, var(--cx-navy-2)); display: grid; align-content: center; }
+.cfeat-art .cj-name { font-size: 14px; }
+.cfeat-art .cj-rank { font-size: 12px; }
+.cfeat-art .cj-img { border-radius: 10px; box-shadow: 0 10px 24px rgba(0, 0, 0, .35); }
+
+@media (max-width: 640px) {
+  .ccard { padding: 14px; }
+  .ccard-name { font-size: 26px; }
+  .cj-row { gap: 6px; }
+  .cfeat-more { grid-template-columns: 1fr; }
+  .cfeat-art { padding: 16px; }
+  .cj-row.cj-6 { gap: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ccard, .cj-img img, .ccard-go span { transition: none; }
+  .ccard:hover, .ccard:hover .cj-img img, .cfeat-art:hover .cj-img img { transform: none; }
+}
+.cx-dir:has(#cf-nfl:checked) .cgrid > .ccard:not(.has-nfl) { display: none; }
+.cx-dir:has(#cf-nba:checked) .cgrid > .ccard:not(.has-nba) { display: none; }
+.cx-dir:has(#cf-wnba:checked) .cgrid > .ccard:not(.has-wnba) { display: none; }
+.cx-dir:has(#cf-mlb:checked) .cgrid > .ccard:not(.has-mlb) { display: none; }
+.cx-dir:has(#cf-nhl:checked) .cgrid > .ccard:not(.has-nhl) { display: none; }
+.cx-dir:has(#cf-mls:checked) .cgrid > .ccard:not(.has-mls) { display: none; }
