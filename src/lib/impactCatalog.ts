@@ -71,8 +71,14 @@ export function priceFit(price: number | null): number {
   return 0 - Math.abs(price - MID_TIER.ideal) / 5;
 }
 
-/** Higher is better: current team, in stock, adult men's (the most common "player jersey" shoppers mean), a mid-tier price. */
-function score(item: ImpactItem, team: Team | undefined): number {
+/** Throwback lines (e.g. Mitchell & Ness Hardwood Classics): a retired player's look, not what an active player wears now. */
+const THROWBACK = / (hardwood classics|mitchell ness|mitchell and ness|throwback|cooperstown) /;
+
+/**
+ * Higher is better: current team, in stock, adult men's (the most common "player jersey" shoppers mean), a mid-tier price,
+ * and for an active player a current-era jersey ahead of a throwback.
+ */
+function score(item: ImpactItem, team: Team | undefined, active = false): number {
   const name = item.Name ?? "";
   let s = 0;
   if (team && has(name, team.name)) s += 100;
@@ -84,6 +90,7 @@ function score(item: ImpactItem, team: Team | undefined): number {
   if (/ men s | mens /.test(n)) s += 10;
   // "Custom" listings are build-your-own name and number jerseys, often pictured blank; use them only as a last resort.
   if (n.includes(" custom ")) s -= 60;
+  if (active && THROWBACK.test(n)) s -= 50;
   return s + priceFit(num(item.CurrentPrice));
 }
 
@@ -110,7 +117,7 @@ export function pickJerseys(
     i.Name && has(i.Name, player.name) && isJersey(i.Name) && https(i.ImageUrl) && https(i.Url));
   // A current player shows only their current team's jersey; a retired player's last team is preferred when listed.
   if (team && (player.teamId || ok.some((i) => has(i.Name!, team.name)))) ok = ok.filter((i) => has(i.Name!, team.name));
-  ok.sort((a, b) => score(b, team) - score(a, team));
+  ok.sort((a, b) => score(b, team, !!player.teamId) - score(a, team, !!player.teamId));
   const groups = new Set<string>();
   const images = new Set<string>();
   const out: ImpactItem[] = [];
