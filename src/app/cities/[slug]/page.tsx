@@ -5,12 +5,11 @@ import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SideRail } from "@/components/SideRail";
-import { LidsAd } from "@/components/LidsAd";
 import { ShopButton } from "@/components/ShopButton";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { CityList, CityPicks, CityStories, PlayerBanner } from "@/components/CityBits";
-import { getCities, getCity, cityBanners, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured } from "@/lib/cities";
+import { getCities, getCity, cityLeagues, cityPath, cityPicks, cityRanked, cityStories, cityTeams, cityFeatured } from "@/lib/cities";
 import { teamOffer } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
@@ -47,8 +46,6 @@ export default async function CityPage({ params }: Props) {
   const overall = ranked.slice(0, OVERALL);
   const lead = cityFeatured(city);
   const rankedIds = new Set(ranked.map((r) => r.player.id));
-  const banners = cityBanners(city);
-  const banner = (i: number) => banners[i % banners.length];
   const others = getCities().filter((c) => c.slug !== city.slug);
 
   const ld = {
@@ -96,7 +93,6 @@ export default async function CityPage({ params }: Props) {
 
         <div className="wrap with-rail">
           <div className="rail-main">
-            <LidsAd banner={banner(0)} at={`city_top`} className="city-ad" />
 
             <section className="section city-sec" id="overall" aria-labelledby="overall-h">
               <div className="section-head"><h2 id="overall-h">Top {city.name} jerseys overall</h2></div>
@@ -144,12 +140,10 @@ export default async function CityPage({ params }: Props) {
                       })}
                     </div>
                   </section>
-                  {i % 2 === 1 && i < leagues.length - 1 && <LidsAd banner={banner(1 + Math.floor(i / 2))} at={`city_mid_${l.id}`} className="city-ad" />}
                 </div>
               );
             })}
 
-            <LidsAd banner={banner(banners.length - 1)} at="city_bottom" className="city-ad" />
 
             <section className="section" aria-labelledby="more-h">
               <div className="section-head"><h2 id="more-h">More sports cities</h2><Link href="/cities/">All cities →</Link></div>

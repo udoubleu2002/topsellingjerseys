@@ -32,8 +32,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
 export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean }) {
-  // Cities pages run only the all-jerseys Lids banner: no pinned Brewers banner, no NHL or Ohtani banner.
-  const cityBanner = lidsBanner(ROTATION_BANNER_ID)!;
+  // Cities pages run no Lids display banners (the pinned and rotating ones are Brewers creatives); only their own player ads.
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
@@ -72,7 +71,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         </div>
       </section>
 
-      {cityAds ? <LidsAd banner={cityBanner} at="rail_lids" /> : <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>}
+      {!cityAds && <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>}
 
       {!hideNews && news.length > 0 && (
         <section className="rail-box">
@@ -110,7 +109,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         </section>
       )}
 
-      <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>
+      {cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
 
       <section className="rail-box">
         <h2 className="rail-h">Latest reports</h2>
@@ -128,7 +127,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         <Link className="rail-more" href="/rankings/">Report archive →</Link>
       </section>
 
-      <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>
+      {cityAds ? <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /> : <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>}
     </aside>
   );
 }

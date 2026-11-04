@@ -4,11 +4,9 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { LidsAd } from "@/components/LidsAd";
 import { SideRail } from "@/components/SideRail";
 import { AffiliateNote } from "@/components/RankingHeader";
-import { getCities, cityLeagues, cityPath, cityRanked, cityTeams, cityFeatured, CITY_BANNER_ID } from "@/lib/cities";
-import { lidsBanner } from "@/lib/lidsAds";
+import { getCities, cityLeagues, cityPath, cityRanked, cityTeams, cityFeatured } from "@/lib/cities";
 
 export const metadata: Metadata = pageMeta({
   title: "Top Selling Jerseys by City",
@@ -16,8 +14,6 @@ export const metadata: Metadata = pageMeta({
   path: "/cities/",
 });
 
-/** After this many city cards, a Lids banner runs across the grid. */
-const AD_EVERY = 12;
 
 export default function CitiesPage() {
   const cities = getCities().map((c) => ({ city: c, teams: cityTeams(c), leagues: cityLeagues(c), ranked: cityRanked(c) }));
@@ -37,7 +33,6 @@ export default function CitiesPage() {
               {cities.map(({ city, teams, leagues, ranked }, i) => {
                 const lead = ranked[0];
                 const photo = cityFeatured(city)?.product.image;
-                const ad = (i + 1) % AD_EVERY === 0 && i < cities.length - 1 ? lidsBanner(CITY_BANNER_ID) : undefined;
                 return (
                   <Fragment key={city.slug}>
                     <Link href={cityPath(city)} className="city-card">
@@ -49,11 +44,6 @@ export default function CitiesPage() {
                       </span>
                       {photo && <span className="city-card-img"><img src={photo.url} alt="" loading={i < 6 ? "eager" : "lazy"} decoding="async" width={120} height={120} /></span>}
                     </Link>
-                    {ad && (
-                      <div className="city-grid-ad">
-                        <LidsAd banner={ad} at={`cities_grid_${i + 1}`} />
-                      </div>
-                    )}
                   </Fragment>
                 );
               })}
