@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
-import { LeaderCard, FeaturedPlayer, LeagueTopFive, HeroStory, TrendingNow } from "@/components/HomeBits";
+import { LeaderCard, FeaturedPlayer, LeagueTopFive, HeroStory, TrendingNow, TopTeams } from "@/components/HomeBits";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getCurrentRanking, getRankings, reportStatus } from "@/lib/data";
@@ -10,6 +10,7 @@ import { getCity, cityPath, cityRanked, cityLeagues, getCities, cityArt } from "
 import { getStories, storyPath } from "@/lib/stories";
 import { fmtShortDate } from "@/lib/format";
 import { TeamShopDirectory } from "@/components/ShopBits";
+import { freshness } from "@/components/Freshness";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
 import { site, abs } from "@/lib/config";
@@ -44,6 +45,12 @@ export default function Home() {
             <span><b>{ranked}</b> ranked players</span>
             <span><b>{reports.length}</b> published reports</span>
             <span>Lists verified <b>{fmtShortDate(verified)}</b></span>
+            <span className="gd-fresh" aria-label="How current each league's list is">
+              {leagues.map(({ league, ranking }) => {
+                const f = freshness(ranking!);
+                return <Link key={league.id} href={`/${league.slug}/`} className={`gd-fresh-l is-${f.kind}`} title={f.long}><span className="fresh-dot" aria-hidden="true" />{league.name}<span className="sr-only">: {f.long}</span></Link>;
+              })}
+            </span>
             {newest && newestLeague && <span className="gd-trust-new">Newest: <Link href={`/${newestLeague.slug}/`}>{newest.title}</Link>, {fmtShortDate(newest.publishedDate)}</span>}
           </div>
         </div>
@@ -83,6 +90,7 @@ export default function Home() {
         </section>
 
         <TrendingNow />
+        <TopTeams />
 
         <FeaturedPlayer />
 

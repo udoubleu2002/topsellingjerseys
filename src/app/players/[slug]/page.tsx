@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { JerseyThumb } from "@/components/HomeBits";
+import { cityOfTeam, cityPath } from "@/lib/cities";
+import { StyleCompare, priceRange } from "@/components/ShopBits";
 import { getStories, storyPath } from "@/lib/stories";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -117,6 +120,9 @@ export default async function PlayerPage({ params }: Props) {
     ],
   };
 
+  const city = player.teamId ? cityOfTeam(player.teamId) : undefined;
+  const range = priceRange(products);
+  const money = (n: number) => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
   return (
     <>
       <SiteHeader active={league.id} />
@@ -150,6 +156,9 @@ export default async function PlayerPage({ params }: Props) {
             <aside className="buybox" aria-labelledby="buy-h">
               <h2 id="buy-h">Shop {player.name} Jerseys</h2>
               {jersey && <PriceTag product={jersey} />}
+              {range && range.count > 1 && (
+                <p className="buy-range">{range.count} jersey styles{range.priced > 1 && range.min !== range.max ? `, ${money(range.min)} to ${money(range.max)}` : ""} · <a href="#shop-h">compare</a></p>
+              )}
               {primary ? (
                 <>
                   <ShopButton offer={primary} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "player_hero", page }}>
@@ -230,6 +239,7 @@ export default async function PlayerPage({ params }: Props) {
               {products.length > 0 && (
                 <p className="shop-note shop-sep">These are listings the retailer carries right now. They are separate from {player.name}&apos;s sales ranking, which comes only from the published sales reports.</p>
               )}
+              <StyleCompare products={products} playerName={player.name} league={league.id} playerId={player.id} rank={latest?.rank} page={page} />
               {products.length > 0 ? (
                 <div className="products">
                   {products.map((p) => {
@@ -335,7 +345,7 @@ export default async function PlayerPage({ params }: Props) {
                 <h2 id="nb-h">Near {player.name} on the {league.name} list</h2>
                 <ul className="linklist">
                   {neighbors.map(({ p, rank }) => (
-                    <li key={p.id}><Link href={`/players/${p.slug}/`}><span>{p.name}</span><span className="r">No. {rank}</span></Link></li>
+                    <li key={p.id}><Link className="has-thumb" href={`/players/${p.slug}/`}><JerseyThumb player={p} teamId={p.teamId} size={34} /><span>{p.name}</span><span className="r">No. {rank}</span></Link></li>
                   ))}
                 </ul>
               </section>
@@ -345,9 +355,16 @@ export default async function PlayerPage({ params }: Props) {
                 <h2 id="tm-h">Also ranked from the {team.name}</h2>
                 <ul className="linklist">
                   {teammates.map((p) => (
-                    <li key={p.id}><Link href={`/players/${p.slug}/`}><span>{p.name}</span><span className="r">{rankOf(p.id) ? `No. ${rankOf(p.id)}` : p.position}</span></Link></li>
+                    <li key={p.id}><Link className="has-thumb" href={`/players/${p.slug}/`}><JerseyThumb player={p} teamId={p.teamId} size={34} /><span>{p.name}</span><span className="r">{rankOf(p.id) ? `No. ${rankOf(p.id)}` : p.position}</span></Link></li>
                   ))}
                 </ul>
+              </section>
+            )}
+            {city && (
+              <section className="side-box" aria-labelledby="city-h">
+                <h2 id="city-h">{city.name} jerseys</h2>
+                <p className="shop-note">The {team?.name} play in {city.name}. See every ranked player from the city&apos;s {city.teams.length} pro teams.</p>
+                <Link className="btn-ghost" href={cityPath(city)}>More {city.name} jerseys →</Link>
               </section>
             )}
             {latest && (
@@ -356,7 +373,7 @@ export default async function PlayerPage({ params }: Props) {
                 <ol className="linklist all-list">
                   {latest.ranking.entries.map((e) => {
                     const p = getPlayer(e.playerId)!;
-                    return <li key={e.playerId}>{p.id === player.id ? <span className="here"><span>{p.name} Jersey</span><span className="r">No. {e.rank}</span></span> : <Link href={`/players/${p.slug}/`}><span>{p.name} Jersey</span><span className="r">No. {e.rank}</span></Link>}</li>;
+                    return <li key={e.playerId}>{p.id === player.id ? <span className="here has-thumb"><JerseyThumb player={p} teamId={e.teamIdAtReport} number={e.numberAtReport} size={30} /><span>{p.name} Jersey</span><span className="r">No. {e.rank}</span></span> : <Link className="has-thumb" href={`/players/${p.slug}/`}><JerseyThumb player={p} teamId={e.teamIdAtReport} number={e.numberAtReport} size={30} /><span>{p.name} Jersey</span><span className="r">No. {e.rank}</span></Link>}</li>;
                   })}
                 </ol>
               </section>

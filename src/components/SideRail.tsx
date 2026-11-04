@@ -6,6 +6,7 @@ import { jerseyImg } from "@/lib/img";
 import { topRisers } from "@/lib/trending";
 import { getCities, cityPath, cityRanked } from "@/lib/cities";
 import { ShopButton } from "./ShopButton";
+import { JerseyThumb } from "./HomeBits";
 import { fmtShortDate } from "@/lib/format";
 import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
@@ -88,6 +89,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
                   return (
                     <li key={p.id}>
                       <span className="rail-rank">{e.rank}</span>
+                      <JerseyThumb player={p} teamId={e.teamIdAtReport} number={e.numberAtReport} size={30} className="rail-ji" />
                       <Link href={`/players/${p.slug}/`}>{p.name}</Link>
                       <span className="rail-team">{getTeam(e.teamIdAtReport ?? p.teamId ?? p.lastTeamId)?.name.split(" ").pop() ?? ""}</span>
                     </li>
@@ -112,6 +114,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
               return (
                 <li key={r.league.id + p.id} style={{ "--lg": r.league.accent } as React.CSSProperties}>
                   <span className="rail-trend-up">▲{r.delta}</span>
+                  <JerseyThumb player={p} teamId={p.teamId} size={34} className="rail-ti" />
                   <Link href={`/players/${p.slug}/`}>{p.name}</Link>
                   <span className="rail-team">{r.league.name} · {r.previousRank} → {r.rank}</span>
                 </li>

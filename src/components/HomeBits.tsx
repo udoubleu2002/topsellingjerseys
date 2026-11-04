@@ -5,14 +5,30 @@ import { productOffer, searchOffer } from "@/lib/affiliate";
 import { jerseyImg } from "@/lib/img";
 import { fmtShortDate, fmtDate } from "@/lib/format";
 import { getFeatured, getHero } from "@/lib/featured";
+import { getLeagues as getLeaguesList, getCurrentRanking as getCurrentRankingFor } from "@/lib/data";
+import { cityOfTeam, cityPath } from "@/lib/cities";
 import { topRisers, newEntries, repeatLeaders, getTrends } from "@/lib/trending";
 import { ShopButton } from "./ShopButton";
+import { FreshBadge } from "./Freshness";
 import { HaveJersey } from "./HaveJersey";
 
 /** A jersey photo for the player, preferring one in the team the report credited (so the image matches the ranking). */
 export function rankedJersey(player: Player, teamId: string | null | undefined): Product | undefined {
   const jerseys = getProducts(player.id).filter((p) => p.productType === "jersey" && p.image);
   return jerseys.find((p) => p.teamId === teamId) ?? jerseys.find((p) => p.teamId === player.teamId) ?? jerseys[0];
+}
+
+/**
+ * Small jersey thumbnail for list rows: the retailer's photo of this player's jersey (preferring the team the report
+ * credited), or a number tile in team colors when no photo is on file. Decorative, since the row names the player.
+ */
+export function JerseyThumb({ player, teamId, number, size = 44, className = "" }: { player: Player; teamId?: string | null; number?: string | null; size?: number; className?: string }) {
+  const product = rankedJersey(player, teamId);
+  if (product?.image) {
+    return <span className={`jthumb ${className}`} aria-hidden="true" style={{ "--js": `${size}px` } as React.CSSProperties}><img {...jerseyImg(product.image.url, size * 2)} alt="" width={size} height={size} loading="lazy" decoding="async" /></span>;
+  }
+  const c = getTeam(teamId ?? player.teamId ?? player.lastTeamId)?.colors ?? { primary: "#dfe3e8", secondary: "#20252b", accent: "#9aa3ad" };
+  return <span className={`jthumb is-tile ${className}`} aria-hidden="true" style={{ "--js": `${size}px`, backgroundColor: c.primary, color: c.secondary } as React.CSSProperties}>{number ?? player.number ?? ""}</span>;
 }
 
 /** Product photo, or a number tile in team colors. Never a photo of another player. */
@@ -53,8 +69,8 @@ export function LeaderCard({ league, ranking, priority }: { league: League; rank
         <h3 className="leader-name"><Link href={`/players/${p.slug}/`}>{p.name}</Link></h3>
         <p className="leader-team">{reportTeam?.name ?? p.status}{now && <span className="leader-now">{now}</span>}</p>
         <p className="leader-date">
+          <FreshBadge ranking={ranking} />
           <span>Published {fmtShortDate(ranking.publishedDate)}</span>
-          {status.dated && <span className="leader-flag">Latest available</span>}
         </p>
         <span className="leader-more">Full top {ranking.entries.length} →</span>
       </div>
@@ -84,6 +100,7 @@ export function FeaturedPlayer() {
         </div>
         <div className="feature-copy">
           <p className="kicker">Player of the week · Week of {fmtShortDate(f.weekOf)}</p>
+          {appearance && <p className="feature-fresh"><FreshBadge ranking={appearance.ranking} long /></p>}
           <h2 id="feature-h" className="feature-h">{f.headline}</h2>
           <p className="feature-dek">{f.dek}</p>
           <p className="feature-who">
@@ -109,7 +126,7 @@ export function FeaturedPlayer() {
             <Link className="btn-light" href={`/players/${player.slug}/`}>Player profile</Link>
             {leagueSlug && appearance && <Link className="btn-line" href={`/${leagueSlug}/`}>Full {league?.name} ranking</Link>}
             {offer && (
-              <ShopButton offer={offer} variant="ghost" ctx={{ league: league?.id ?? player.leagues[0], playerId: player.id, rank: appearance?.rank, placement: "home_feature", page: "home" }}>
+              <ShopButton offer={offer} variant="small" ctx={{ league: league?.id ?? player.leagues[0], playerId: player.id, rank: appearance?.rank, placement: "home_feature", page: "home" }}>
                 Shop {player.name} jerseys
               </ShopButton>
             )}
@@ -133,7 +150,7 @@ export function LeagueTopFive({ league, ranking }: { league: League; ranking: Ra
           <p className="lt5-lg">{league.name} · {league.sport}</p>
           <h2 id={`h-${league.id}`}><Link href={`/${league.slug}/`}>Top Selling {league.name} Jerseys</Link></h2>
           <p className="lt5-meta">
-            <span className={`pill is-${status.kind}`}>{status.dated ? "Latest available report" : status.label}</span>
+            <FreshBadge ranking={ranking} long />
             <span>{ranking.publisher}</span>
             <span><a href={ranking.sourceUrl} target="_blank" rel="noopener">Published {fmtShortDate(ranking.publishedDate)}</a></span>
             <span>Sales: {ranking.periodStart && ranking.periodEnd ? `${fmtShortDate(ranking.periodStart)} – ${fmtShortDate(ranking.periodEnd)}` : ranking.periodLabel}</span>
@@ -156,6 +173,7 @@ export function LeagueTopFive({ league, ranking }: { league: League; ranking: Ra
               return (
                 <li key={p.id} data-impression="home_list" data-league={league.id} data-player={p.id} data-rank={e.rank}>
                   <span className="lt5-r">{e.rank}</span>
+                  <JerseyThumb player={p} teamId={e.teamIdAtReport} number={e.numberAtReport} size={40} className="lt5-i" />
                   <Link className="lt5-n" href={`/players/${p.slug}/`}>{p.name}</Link>
                   <span className="lt5-t">{reportTeam?.name ?? p.status}{now && <em> · {now}</em>}</span>
                   {offer && (
@@ -267,6 +285,7 @@ export function TrendingNow() {
     const p = getPlayer(playerId)!;
     return (
       <li key={key}>
+        <JerseyThumb player={p} teamId={p.teamId} size={36} />
         <span className="tr-lg" style={{ "--lg": league.accent } as React.CSSProperties}>{league.name}</span>
         <Link href={`/players/${p.slug}/`}>{p.name}</Link>
         {right}
@@ -302,6 +321,56 @@ export function TrendingNow() {
           </div>
         </div>
       </div>
+    </section>
+  );
+}
+
+/** Teams with the most players on the latest published lists, counted by the team each report credited. */
+export function topTeams(n = 6) {
+  const rows = new Map<string, { teamId: string; league: League; players: { player: Player; rank: number; number?: string | null }[] }>();
+  for (const league of getLeaguesList()) {
+    const r = getCurrentRankingFor(league.id);
+    if (!r) continue;
+    for (const e of r.entries) {
+      if (!e.teamIdAtReport) continue;
+      const row = rows.get(e.teamIdAtReport) ?? { teamId: e.teamIdAtReport, league, players: [] };
+      row.players.push({ player: getPlayer(e.playerId)!, rank: e.rank, number: e.numberAtReport });
+      rows.set(e.teamIdAtReport, row);
+    }
+  }
+  return [...rows.values()].filter((r) => r.players.length >= 2).sort((a, b) => b.players.length - a.players.length || a.players[0].rank - b.players[0].rank).slice(0, n);
+}
+
+export function TopTeams() {
+  const teams = topTeams(6);
+  if (!teams.length) return null;
+  return (
+    <section className="wrap section" aria-labelledby="tt-h">
+      <div className="sec-head">
+        <p className="sec-k">Most players on the latest lists</p>
+        <h2 id="tt-h" className="sec-h">Teams fans are buying</h2>
+      </div>
+      <ol className="tteams">
+        {teams.map((t) => {
+          const team = getTeam(t.teamId);
+          const city = cityOfTeam(t.teamId);
+          return (
+            <li key={t.teamId} style={{ "--tc": team?.colors.primary ?? t.league.accent } as React.CSSProperties}>
+              <p className="tteam-k">{t.league.name}</p>
+              <p className="tteam-n">{team?.name ?? t.teamId}</p>
+              <p className="tteam-c"><b>{t.players.length}</b> players on the {t.league.name} list</p>
+              <ul className="tteam-p">
+                {t.players.slice(0, 4).map(({ player, rank, number }) => (
+                  <li key={player.id}>
+                    <Link href={`/players/${player.slug}/`}><JerseyThumb player={player} teamId={t.teamId} number={number} size={36} /><span>{player.name}</span><em>No. {rank}</em></Link>
+                  </li>
+                ))}
+              </ul>
+              {city && <Link className="tteam-more" href={cityPath(city)}>More {city.name} jerseys →</Link>}
+            </li>
+          );
+        })}
+      </ol>
     </section>
   );
 }

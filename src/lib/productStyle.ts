@@ -22,3 +22,10 @@ export function productStyle(p: Pick<Product, "title" | "edition">): ProductStyl
 }
 
 export const styleTags = (s: ProductStyle) => [s.tier, s.edition, s.fit].filter((x): x is string => !!x);
+
+const COLORS = /\b(Midnight Green|Kelly Green|Powder Blue|Light Blue|Columbia Blue|Vegas Gold|Old Gold|Navy|White|Red|Black|Royal|Gray|Grey|Green|Gold|Purple|Orange|Teal|Blue|Cream|Silver|Pink|Charcoal|Maroon|Crimson|Yellow|Aqua|Scarlet|Cardinal|Burgundy|Brown|Camo)\b/;
+
+/** The jersey color as the retailer's title states it, or null. Read only from the title; never guessed. */
+export function productColor(title: string): string | null {
+  return title.match(COLORS)?.[1] ?? null;
+}
