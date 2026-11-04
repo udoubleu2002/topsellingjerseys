@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { CityCard, FeaturedCity } from "@/components/CityCards";
-import { getCities, featuredCities } from "@/lib/cities";
+import { getCities, featuredCities, cityLeagues } from "@/lib/cities";
 import { getLeagues } from "@/lib/data";
 import "../cities.css";
 
@@ -49,6 +49,15 @@ export default function CitiesPage() {
             <h2 id="all-cities-h">All {cities.length} cities, A to Z</h2>
             <p>The top sports cities in the US and Canada, each with its top jerseys overall and a list for every sport, taken from the latest published jersey sales lists.</p>
           </div>
+          <fieldset className="cfilter">
+            <legend>Show cities with a team in</legend>
+            <input type="radio" name="cfilter" id="cf-all" defaultChecked /><label htmlFor="cf-all">All leagues</label>
+            {getLeagues().map((l) => (
+              <span key={l.id} className="cfilter-opt">
+                <input type="radio" name="cfilter" id={`cf-${l.id}`} /><label htmlFor={`cf-${l.id}`}>{l.name} <small>{cities.filter((c) => cityLeagues(c).some((x) => x.id === l.id)).length}</small></label>
+              </span>
+            ))}
+          </fieldset>
           <div className="cgrid">
             {cities.map((c, i) => <CityCard key={c.slug} city={c} eager={i < 3 && !feat} />)}
           </div>

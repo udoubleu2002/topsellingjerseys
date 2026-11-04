@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { City } from "@/lib/cities";
-import { cityArt, cityFeatured, cityIntro, cityPath, cityRanked, cityTeams, teamNickname } from "@/lib/cities";
+import { cityArt, cityFeatured, cityIntro, cityJerseys, cityPath, cityRanked, cityTeams, teamNickname } from "@/lib/cities";
+import { getAnyTeam } from "@/lib/data";
 import { jerseyImg } from "@/lib/img";
 
 /** The city's poster illustration (a local SVG with fixed dimensions). */
@@ -28,36 +29,43 @@ function teamLine(c: City, max: number): string {
   return names.length > max ? `${names.slice(0, max).join(" · ")} +${names.length - max}` : names.join(" · ");
 }
 
-/** The city's top jersey, from the latest published sales lists only. */
-function topLine(c: City): { label: string; name: string; detail?: string } | null {
-  const r = cityRanked(c)[0];
-  if (r) return { label: "Top jersey", name: r.player.name, detail: `No. ${r.rank} ${r.ranking.league.toUpperCase()}` };
-  const f = cityFeatured(c);
-  return f ? { label: "Featured jersey", name: f.player.name } : null;
+/** A row of jersey photos for a card. Ranked players show their league rank; the rest are Lids catalog jerseys. */
+function JerseyRow({ city, n, eager, w }: { city: City; n: number; eager?: boolean; w: number }) {
+  const items = cityJerseys(city, n);
+  return (
+    <span className={`cj-row cj-${n}`}>
+      {items.map((j) => (
+        <span key={j.player.id} className="cj">
+          <span className="cj-img"><img {...jerseyImg(j.product.image!.url, w)} alt={`${j.player.name} jersey`} width={w} height={w} loading={eager ? "eager" : "lazy"} decoding="async" /></span>
+          <span className="cj-name">{j.player.name}</span>
+          <span className="cj-rank">{j.rank ? `No. ${j.rank} ${j.league!.toUpperCase()}` : teamNickname({ name: getAnyTeam(j.teamId)?.name ?? "", league: getAnyTeam(j.teamId)?.league ?? "" })}</span>
+        </span>
+      ))}
+    </span>
+  );
 }
 
-/** One illustrated directory card. The whole card is a link to the city page. */
+/** One directory card: the city, its leagues and teams, and a row of its top jerseys. The whole card links to the city page. */
 export function CityCard({ city, eager, size = "md" }: { city: City; eager?: boolean; size?: "md" | "sm" }) {
   const teams = cityTeams(city);
-  const top = topLine(city);
+  const lgs = [...new Set(teams.map((t) => t.league))];
   return (
-    <Link href={cityPath(city)} className={`ccard ccard-${size}`}>
-      <span className="ccard-art"><CityArt city={city} eager={eager} /></span>
-      <span className="ccard-shade" aria-hidden="true" />
-      <span className="ccard-go">Explore city <span aria-hidden="true">→</span></span>
-      <span className="ccard-body">
+    <Link href={cityPath(city)} className={`ccard ccard-${size} ${lgs.map((l) => `has-${l}`).join(" ")}`}>
+      <span className="ccard-head">
         <span className="ccard-place">{place(city)} · {teams.length} {teams.length === 1 ? "team" : "teams"}</span>
-        <span className="ccard-name">{city.name}</span>
-        <span className="ccard-teams">{teamLine(city, size === "sm" ? 3 : 4)}</span>
-        {size === "md" && city.blurb && <span className="ccard-blurb">{city.blurb}</span>}
-        {top && <span className="ccard-top">{top.label}: <strong>{top.name}</strong>{top.detail && <em>{top.detail}</em>}</span>}
+        <span className="ccard-lgs" aria-label={`Leagues: ${lgs.map((l) => l.toUpperCase()).join(", ")}`}>{lgs.map((l) => <span key={l}>{l.toUpperCase()}</span>)}</span>
       </span>
+      <span className="ccard-name">{city.name}</span>
+      <span className="ccard-teams">{teamLine(city, size === "sm" ? 3 : 5)}</span>
+      <JerseyRow city={city} n={size === "sm" ? 3 : 4} eager={eager} w={size === "sm" ? 110 : 130} />
+      {size === "md" && city.blurb && <span className="ccard-blurb">{city.blurb}</span>}
+      <span className="ccard-go">Explore {city.name} <span aria-hidden="true">→</span></span>
     </Link>
   );
 }
 
 /**
- * The hand-picked lead city (data/cities.json "featured"): a large illustration beside its intro, top jersey and teams.
+ * The hand-picked lead city (data/cities.json "featured"): its top jerseys beside its intro, top jersey and teams.
  * The intro is built from the site's data (teams, leagues, ranked players), never from invented figures.
  */
 export function FeaturedCity({ city }: { city: City }) {
@@ -71,7 +79,7 @@ export function FeaturedCity({ city }: { city: City }) {
   return (
     <article className="cfeat">
       <Link href={cityPath(city)} className="cfeat-art" tabIndex={-1} aria-hidden="true">
-        <CityArt city={city} eager />
+        <JerseyRow city={city} n={6} eager w={220} />
       </Link>
       <div className="cfeat-body">
         <p className="cfeat-kicker">Featured city · {place(city)}</p>

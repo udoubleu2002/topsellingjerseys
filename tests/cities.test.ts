@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import fs from "node:fs";
 import path from "node:path";
-import { getCities, cityRanked, cityStories, cityTeams, cityFeatured, cityArt, featuredCities, teamNickname } from "../src/lib/cities";
+import { getCities, cityRanked, cityStories, cityTeams, cityFeatured, cityArt, featuredCities, teamNickname, cityJerseys } from "../src/lib/cities";
 
 describe("cities", () => {
   it("has 30-40 cities, every team known and in one city only", () => {
@@ -51,5 +51,14 @@ describe("cities", () => {
     expect(teamNickname({ name: "Boston Red Sox", league: "mlb" })).toBe("Red Sox");
     expect(teamNickname({ name: "New York Yankees", league: "mlb" })).toBe("Yankees");
     expect(teamNickname({ name: "Inter Miami CF", league: "mls" })).toBe("Inter Miami CF");
+  });
+
+  it("fills every city card with four jerseys that have photos, one per player", () => {
+    for (const c of getCities()) {
+      const js = cityJerseys(c, 4);
+      expect(js.length, c.slug).toBe(4);
+      expect(new Set(js.map((j) => j.player.id)).size).toBe(4);
+      for (const j of js) expect(j.product.image, c.slug).toBeTruthy();
+    }
   });
 });
