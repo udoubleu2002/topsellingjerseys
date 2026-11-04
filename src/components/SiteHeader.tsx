@@ -20,6 +20,7 @@ export function SiteHeader({ active }: { active?: string }) {
               {l.name}
             </Link>
           ))}
+          <Link href="/cities/" className="nav-cities" aria-current={active === "cities" ? "page" : undefined}>Cities</Link>
         </nav>
         <form className="mast-search" action="/search/" role="search">
           <label htmlFor="q-desktop" className="sr-only">Search players and teams</label>
@@ -37,6 +38,7 @@ export function SiteHeader({ active }: { active?: string }) {
             {leagues.map((l) => (
               <Link key={l.id} href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link>
             ))}
+            <Link href="/cities/">Top jerseys by city</Link>
             <Link href="/news/">Jersey news</Link>
             <form action="/search/" role="search">
               <label htmlFor="q-mobile" className="sr-only">Search players and teams</label>

@@ -1,0 +1,490 @@
+{
+ "note": "Top sports cities in the US and Canada for the Cities pages, biggest sports markets first. Each team appears in one city; team ids match data/team-directory.json.",
+ "cities": [
+  {
+   "slug": "new-york",
+   "name": "New York",
+   "region": "NY",
+   "country": "US",
+   "area": "New York metro, including New Jersey and Long Island",
+   "teams": [
+    "new-york-giants",
+    "new-york-jets",
+    "new-york-knicks",
+    "brooklyn-nets",
+    "new-york-liberty",
+    "new-york-yankees",
+    "new-york-mets",
+    "new-york-rangers",
+    "new-york-islanders",
+    "new-jersey-devils",
+    "new-york-city-fc",
+    "new-york-red-bulls"
+   ]
+  },
+  {
+   "slug": "los-angeles",
+   "name": "Los Angeles",
+   "region": "CA",
+   "country": "US",
+   "area": "Los Angeles and Orange County",
+   "teams": [
+    "los-angeles-rams",
+    "los-angeles-chargers",
+    "los-angeles-lakers",
+    "la-clippers",
+    "los-angeles-sparks",
+    "los-angeles-dodgers",
+    "los-angeles-angels",
+    "los-angeles-kings",
+    "anaheim-ducks",
+    "la-galaxy",
+    "lafc"
+   ]
+  },
+  {
+   "slug": "chicago",
+   "name": "Chicago",
+   "region": "IL",
+   "country": "US",
+   "teams": [
+    "chicago-bears",
+    "chicago-bulls",
+    "chicago-sky",
+    "chicago-cubs",
+    "chicago-white-sox",
+    "chicago-blackhawks",
+    "chicago-fire-fc"
+   ]
+  },
+  {
+   "slug": "dallas",
+   "name": "Dallas-Fort Worth",
+   "region": "TX",
+   "country": "US",
+   "area": "Dallas, Fort Worth and Arlington",
+   "teams": [
+    "dallas-cowboys",
+    "dallas-mavericks",
+    "dallas-wings",
+    "texas-rangers",
+    "dallas-stars",
+    "fc-dallas"
+   ]
+  },
+  {
+   "slug": "philadelphia",
+   "name": "Philadelphia",
+   "region": "PA",
+   "country": "US",
+   "teams": [
+    "philadelphia-eagles",
+    "philadelphia-76ers",
+    "philadelphia-phillies",
+    "philadelphia-flyers",
+    "philadelphia-union"
+   ]
+  },
+  {
+   "slug": "boston",
+   "name": "Boston",
+   "region": "MA",
+   "country": "US",
+   "area": "Boston and New England",
+   "teams": [
+    "new-england-patriots",
+    "boston-celtics",
+    "boston-red-sox",
+    "boston-bruins",
+    "new-england-revolution"
+   ]
+  },
+  {
+   "slug": "bay-area",
+   "name": "San Francisco Bay Area",
+   "region": "CA",
+   "country": "US",
+   "area": "San Francisco, Oakland and San Jose",
+   "teams": [
+    "san-francisco-49ers",
+    "golden-state-warriors",
+    "golden-state-valkyries",
+    "san-francisco-giants",
+    "san-jose-sharks",
+    "san-jose-earthquakes"
+   ]
+  },
+  {
+   "slug": "washington-dc",
+   "name": "Washington, D.C.",
+   "region": "DC",
+   "country": "US",
+   "area": "Washington, D.C., Maryland suburbs and Northern Virginia",
+   "teams": [
+    "washington-commanders",
+    "washington-wizards",
+    "washington-mystics",
+    "washington-nationals",
+    "washington-capitals",
+    "d-c-united"
+   ]
+  },
+  {
+   "slug": "toronto",
+   "name": "Toronto",
+   "region": "ON",
+   "country": "CA",
+   "teams": [
+    "toronto-raptors",
+    "toronto-tempo",
+    "toronto-blue-jays",
+    "toronto-maple-leafs",
+    "toronto-fc"
+   ]
+  },
+  {
+   "slug": "houston",
+   "name": "Houston",
+   "region": "TX",
+   "country": "US",
+   "teams": [
+    "houston-texans",
+    "houston-rockets",
+    "houston-astros",
+    "houston-dynamo-fc"
+   ]
+  },
+  {
+   "slug": "atlanta",
+   "name": "Atlanta",
+   "region": "GA",
+   "country": "US",
+   "teams": [
+    "atlanta-falcons",
+    "atlanta-hawks",
+    "atlanta-dream",
+    "atlanta-braves",
+    "atlanta-united"
+   ]
+  },
+  {
+   "slug": "miami",
+   "name": "Miami",
+   "region": "FL",
+   "country": "US",
+   "area": "Miami and South Florida",
+   "teams": [
+    "miami-dolphins",
+    "miami-heat",
+    "miami-marlins",
+    "florida-panthers",
+    "inter-miami-cf"
+   ]
+  },
+  {
+   "slug": "seattle",
+   "name": "Seattle",
+   "region": "WA",
+   "country": "US",
+   "teams": [
+    "seattle-seahawks",
+    "seattle-storm",
+    "seattle-mariners",
+    "seattle-kraken",
+    "seattle-sounders-fc"
+   ]
+  },
+  {
+   "slug": "detroit",
+   "name": "Detroit",
+   "region": "MI",
+   "country": "US",
+   "teams": [
+    "detroit-lions",
+    "detroit-pistons",
+    "detroit-tigers",
+    "detroit-red-wings"
+   ]
+  },
+  {
+   "slug": "minneapolis",
+   "name": "Minneapolis-St. Paul",
+   "region": "MN",
+   "country": "US",
+   "teams": [
+    "minnesota-vikings",
+    "minnesota-timberwolves",
+    "minnesota-lynx",
+    "minnesota-twins",
+    "minnesota-wild",
+    "minnesota-united-fc"
+   ]
+  },
+  {
+   "slug": "denver",
+   "name": "Denver",
+   "region": "CO",
+   "country": "US",
+   "teams": [
+    "denver-broncos",
+    "denver-nuggets",
+    "colorado-rockies",
+    "colorado-avalanche",
+    "colorado-rapids"
+   ]
+  },
+  {
+   "slug": "phoenix",
+   "name": "Phoenix",
+   "region": "AZ",
+   "country": "US",
+   "teams": [
+    "arizona-cardinals",
+    "phoenix-suns",
+    "phoenix-mercury",
+    "arizona-diamondbacks"
+   ]
+  },
+  {
+   "slug": "tampa-bay",
+   "name": "Tampa Bay",
+   "region": "FL",
+   "country": "US",
+   "area": "Tampa and St. Petersburg",
+   "teams": [
+    "tampa-bay-buccaneers",
+    "tampa-bay-rays",
+    "tampa-bay-lightning"
+   ]
+  },
+  {
+   "slug": "pittsburgh",
+   "name": "Pittsburgh",
+   "region": "PA",
+   "country": "US",
+   "teams": [
+    "pittsburgh-steelers",
+    "pittsburgh-pirates",
+    "pittsburgh-penguins"
+   ]
+  },
+  {
+   "slug": "kansas-city",
+   "name": "Kansas City",
+   "region": "MO",
+   "country": "US",
+   "teams": [
+    "kansas-city-chiefs",
+    "kansas-city-royals",
+    "sporting-kansas-city"
+   ]
+  },
+  {
+   "slug": "montreal",
+   "name": "Montreal",
+   "region": "QC",
+   "country": "CA",
+   "teams": [
+    "montreal-canadiens",
+    "cf-montreal"
+   ]
+  },
+  {
+   "slug": "st-louis",
+   "name": "St. Louis",
+   "region": "MO",
+   "country": "US",
+   "teams": [
+    "st-louis-cardinals",
+    "st-louis-blues",
+    "st-louis-city-sc"
+   ]
+  },
+  {
+   "slug": "baltimore",
+   "name": "Baltimore",
+   "region": "MD",
+   "country": "US",
+   "teams": [
+    "baltimore-ravens",
+    "baltimore-orioles"
+   ]
+  },
+  {
+   "slug": "cleveland",
+   "name": "Cleveland",
+   "region": "OH",
+   "country": "US",
+   "teams": [
+    "cleveland-browns",
+    "cleveland-cavaliers",
+    "cleveland-guardians"
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "region": "NV",
+   "country": "US",
+   "teams": [
+    "las-vegas-raiders",
+    "las-vegas-aces",
+    "vegas-golden-knights"
+   ]
+  },
+  {
+   "slug": "san-diego",
+   "name": "San Diego",
+   "region": "CA",
+   "country": "US",
+   "teams": [
+    "san-diego-padres",
+    "san-diego-fc"
+   ]
+  },
+  {
+   "slug": "vancouver",
+   "name": "Vancouver",
+   "region": "BC",
+   "country": "CA",
+   "teams": [
+    "vancouver-canucks",
+    "vancouver-whitecaps-fc"
+   ]
+  },
+  {
+   "slug": "milwaukee",
+   "name": "Milwaukee",
+   "region": "WI",
+   "country": "US",
+   "teams": [
+    "milwaukee-bucks",
+    "milwaukee-brewers"
+   ]
+  },
+  {
+   "slug": "green-bay",
+   "name": "Green Bay",
+   "region": "WI",
+   "country": "US",
+   "teams": [
+    "green-bay-packers"
+   ]
+  },
+  {
+   "slug": "cincinnati",
+   "name": "Cincinnati",
+   "region": "OH",
+   "country": "US",
+   "teams": [
+    "cincinnati-bengals",
+    "cincinnati-reds",
+    "fc-cincinnati"
+   ]
+  },
+  {
+   "slug": "indianapolis",
+   "name": "Indianapolis",
+   "region": "IN",
+   "country": "US",
+   "teams": [
+    "indianapolis-colts",
+    "indiana-pacers",
+    "indiana-fever"
+   ]
+  },
+  {
+   "slug": "nashville",
+   "name": "Nashville",
+   "region": "TN",
+   "country": "US",
+   "teams": [
+    "tennessee-titans",
+    "nashville-predators",
+    "nashville-sc"
+   ]
+  },
+  {
+   "slug": "charlotte",
+   "name": "Charlotte",
+   "region": "NC",
+   "country": "US",
+   "teams": [
+    "carolina-panthers",
+    "charlotte-hornets",
+    "charlotte-fc"
+   ]
+  },
+  {
+   "slug": "orlando",
+   "name": "Orlando",
+   "region": "FL",
+   "country": "US",
+   "teams": [
+    "orlando-magic",
+    "orlando-city-sc"
+   ]
+  },
+  {
+   "slug": "portland",
+   "name": "Portland",
+   "region": "OR",
+   "country": "US",
+   "teams": [
+    "portland-trail-blazers",
+    "portland-fire",
+    "portland-timbers"
+   ]
+  },
+  {
+   "slug": "salt-lake-city",
+   "name": "Salt Lake City",
+   "region": "UT",
+   "country": "US",
+   "teams": [
+    "utah-jazz",
+    "utah-mammoth",
+    "real-salt-lake"
+   ]
+  },
+  {
+   "slug": "buffalo",
+   "name": "Buffalo",
+   "region": "NY",
+   "country": "US",
+   "teams": [
+    "buffalo-bills",
+    "buffalo-sabres"
+   ]
+  },
+  {
+   "slug": "new-orleans",
+   "name": "New Orleans",
+   "region": "LA",
+   "country": "US",
+   "teams": [
+    "new-orleans-saints",
+    "new-orleans-pelicans"
+   ]
+  },
+  {
+   "slug": "columbus",
+   "name": "Columbus",
+   "region": "OH",
+   "country": "US",
+   "teams": [
+    "columbus-blue-jackets",
+    "columbus-crew"
+   ]
+  },
+  {
+   "slug": "edmonton",
+   "name": "Edmonton",
+   "region": "AB",
+   "country": "CA",
+   "teams": [
+    "edmonton-oilers"
+   ]
+  }
+ ]
+}

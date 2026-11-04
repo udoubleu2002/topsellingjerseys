@@ -31,7 +31,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active }: { active?: string }) {
+export function SideRail({ active, lead, hideStories = false, hideNews = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean }) {
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
@@ -40,6 +40,8 @@ export function SideRail({ active }: { active?: string }) {
   return (
     <aside className="rail" aria-label="Browse the lists">
       {pinned && <ShowUntil until={pinned.until}><LidsAd banner={pinned.banner} at="rail_pinned" /></ShowUntil>}
+
+      {lead}
 
       <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
@@ -70,7 +72,7 @@ export function SideRail({ active }: { active?: string }) {
 
       <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>
 
-      {news.length > 0 && (
+      {!hideNews && news.length > 0 && (
         <section className="rail-box">
           <h2 className="rail-h">Jersey sales news</h2>
           <ul className="rail-news">
@@ -91,7 +93,7 @@ export function SideRail({ active }: { active?: string }) {
         </section>
       )}
 
-      {stories.length > 0 && (
+      {!hideStories && stories.length > 0 && (
         <section className="rail-box">
           <h2 className="rail-h">Latest stories</h2>
           <ul className="rail-stories">
