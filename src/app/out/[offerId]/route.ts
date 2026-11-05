@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { randomBytes } from "node:crypto";
 import { resolveOffer } from "@/lib/affiliate";
-import { BOT, fromPage, sendClick } from "@/lib/deskClick";
+import { fromPage, isAutomated, sendClick } from "@/lib/deskClick";
 
 export const dynamic = "force-dynamic";
 
@@ -45,7 +45,8 @@ export async function GET(req: Request, { params }: { params: Promise<{ offerId:
   const headers = { "X-Robots-Tag": "noindex, nofollow", "Cache-Control": "no-store", "Referrer-Policy": "no-referrer-when-downgrade" };
   if (!offer) return new NextResponse("Link not found", { status: 404, headers });
   const page = fromPage(req);
-  const bot = BOT.test(req.headers.get("user-agent") ?? "");
+  // Automated hits still get the retailer link, untagged and uncounted, so they never inflate the desk or the network's click data.
+  const bot = isAutomated(req, page);
   const out = bot ? { href: offer.href, ref: "" } : tagged(offer.href, page);
   if (!bot) {
     const at = (new URL(req.url).searchParams.get("at") ?? "").replace(/[^a-z0-9_]/gi, "").slice(0, 40);
