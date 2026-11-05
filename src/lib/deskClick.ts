@@ -19,6 +19,20 @@ export function fromPage(req: Request) {
   return "";
 }
 
+/**
+ * True when a request to /out/ or /go/ is not a person clicking a link on this site, so it is neither counted on the
+ * desk nor tagged with a click reference. That covers declared bots, HEAD requests (link checkers), browser and
+ * framework prefetches, and any request that names no page on this site (no ?from= and no same-site Referer) and is
+ * not a user-initiated browser navigation (Sec-Fetch-User: ?1). Scrapers that fetch the outbound URLs directly look
+ * like the last case: a real click from a page always carries the page.
+ */
+export function isAutomated(req: Request, page: string): boolean {
+  const h = req.headers;
+  if (req.method === "HEAD" || BOT.test(h.get("user-agent") ?? "")) return true;
+  if (/prefetch|prerender/i.test(`${h.get("purpose") ?? ""} ${h.get("sec-purpose") ?? ""}`) || h.has("next-router-prefetch")) return true;
+  return !page && h.get("sec-fetch-user") !== "?1";
+}
+
 /** Set by /me/ on the editor's own browsers, so the desk can leave their clicks out. */
 export const ME_COOKIE = "tsj_me";
 const isMe = (req: Request) => /(?:^|;\s*)tsj_me=1(?:;|$)/.test(req.headers.get("cookie") ?? "");

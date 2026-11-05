@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { houseAd } from "@/lib/houseAds";
-import { fromPage, sendClick } from "@/lib/deskClick";
+import { fromPage, isAutomated, sendClick } from "@/lib/deskClick";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +14,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ ad: stri
   to.searchParams.set("utm_source", "topsellingjerseys");
   to.searchParams.set("utm_medium", "house_ad");
   if (at) to.searchParams.set("utm_content", at);
-  sendClick(req, { kind: "ad", slot: at || "house_ad", target: ad.domain, href: to.href, label: `${ad.name}: ${ad.pitch}`, page: fromPage(req) });
+  const page = fromPage(req);
+  if (!isAutomated(req, page)) sendClick(req, { kind: "ad", slot: at || "house_ad", target: ad.domain, href: to.href, label: `${ad.name}: ${ad.pitch}`, page });
   return NextResponse.redirect(to.href, { status: 302, headers });
 }
