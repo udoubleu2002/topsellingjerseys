@@ -12,7 +12,7 @@ export function SiteHeader({ active }: { active?: string }) {
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
-          <span className="brand-name">{site.name.replace(/\s*\S+$/, "")} <em>{site.name.split(" ").pop()}</em></span>
+          <span className="brand-name brand-patch"><span className="bp-top">{site.name.replace(/\s*\S+$/, "")}</span> <em className="bp-main">{site.name.split(" ").pop()}</em></span>
         </Link>
         <nav className="league-nav" aria-label="Leagues">
           {leagues.map((l) => (
@@ -22,8 +22,6 @@ export function SiteHeader({ active }: { active?: string }) {
           ))}
           <span className="nav-sep" aria-hidden="true" />
           <Link href="/cities/" className="nav-cities" aria-current={active === "cities" ? "page" : undefined}>Cities</Link>
-          <Link href="/players/" className="nav-x" aria-current={active === "players" ? "page" : undefined}>Players</Link>
-          <Link href="/trending/" className="nav-x" aria-current={active === "trending" ? "page" : undefined}>Trending</Link>
           <Link href="/shop/" className="nav-x nav-shop" aria-current={active === "shop" ? "page" : undefined}>Shop</Link>
         </nav>
         <Link className="mast-search-icon" href="/search/" aria-label="Search players, teams, cities and leagues">
@@ -53,9 +51,7 @@ export function SiteHeader({ active }: { active?: string }) {
               ))}
             </div>
             <Link href="/cities/">Top jerseys by city</Link>
-            <Link href="/trending/">Trending: biggest risers</Link>
             <Link href="/shop/">Shop jerseys</Link>
-            <Link href="/players/">All players</Link>
             <Link href="/news/">Jersey news</Link>
             {backendEnabled && <a href="#newsletter">Newsletter</a>}
           </nav>

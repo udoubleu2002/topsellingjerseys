@@ -249,15 +249,22 @@ export function HeroStory({ leagues }: { leagues: { league: League; ranking: Ran
           <p className="gd-dek">{h.dek}</p>
           <div className="gd-ctas">
             <Link className="gd-btn" href={h.cta.href}>{h.cta.label} <span aria-hidden="true">→</span></Link>
-            <Link className="gd-btn is-line" href="/trending/">Who&apos;s trending</Link>
-            <Link className="gd-btn is-line" href="/shop/">Where to buy</Link>
+            <Link className="gd-btn is-line" href="/cities/">Jerseys by city</Link>
           </div>
-          <nav className="gd-chips" aria-label="Jump to a league">
-            {leagues.map(({ league: l }) => <Link key={l.id} href={`/${l.slug}/`} style={{ "--lg": l.accent } as React.CSSProperties}>{l.name}</Link>)}
-            <Link href="/cities/" className="is-city">Jerseys by city</Link>
-          </nav>
-          <p className="gd-updated"><span className="gd-dot" aria-hidden="true" />Updated {fmtShortDate(h.updated)}</p>
         </div>
+        <nav className="gd-ones" aria-label="The No. 1 jersey in every league">
+          {leagues.map(({ league: l, ranking }) => {
+            const e = ranking.entries[0];
+            const p = getPlayer(e.playerId)!;
+            return (
+              <Link key={l.id} href={`/${l.slug}/`} className="gd-one" style={{ "--lg": l.accent } as React.CSSProperties}>
+                <JerseyThumb player={p} teamId={e.teamIdAtReport} number={e.numberAtReport} size={46} className="gd-one-i" />
+                <span className="gd-one-lg">{l.name} <b>No. 1</b></span>
+                <span className="gd-one-n">{p.name}</span>
+              </Link>
+            );
+          })}
+        </nav>
         {player && product?.image && (
           <figure className="gd-photo">
             <span className="gd-bignum" aria-hidden="true">{appearance?.rank ?? ""}</span>

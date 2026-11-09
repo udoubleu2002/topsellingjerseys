@@ -70,12 +70,6 @@ export default function Home() {
           <SideRail hideStories hideLists />
         </div>
 
-        <DealsBar page="home" />
-        <TrendingNow />
-        <TopTeams />
-
-        <FeaturedPlayer />
-
         <section className="cities-sec is-compact" aria-labelledby="cities-h">
           <div className="wrap">
             <div className="sec-head on-dark">
@@ -89,6 +83,11 @@ export default function Home() {
           </div>
         </section>
 
+        <DealsBar page="home" />
+        <TrendingNow />
+        <TopTeams />
+
+        <FeaturedPlayer />
 
         <section className="wrap section" aria-labelledby="news-h">
           <div className="sec-head">

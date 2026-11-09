@@ -4,7 +4,6 @@ import { getLeagues, getCurrentRanking, getPlayer, getTeam, getProducts, entryTe
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { jerseyImg } from "@/lib/img";
 import { topRisers } from "@/lib/trending";
-import { getCities, cityPath, cityRanked } from "@/lib/cities";
 import { ShopButton } from "./ShopButton";
 import { JerseyThumb } from "./HomeBits";
 import { fmtShortDate } from "@/lib/format";
@@ -53,8 +52,6 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
   // "Shop the No. 1": the active league's leader, or on the homepage the leader of the newest list.
   const shopLeague = leagues.find((x) => x.league.id === active) ?? leagues.slice().sort((a, b) => b.ranking!.publishedDate.localeCompare(a.ranking!.publishedDate))[0];
   const shop = shopLeague ? { league: shopLeague.league, ranking: shopLeague.ranking!, page: active ? `league_${active}` : "home" } : null;
-  // Cities with the most ranked players, as a quick way into the city pages.
-  const cities = minimal ? [] : getCities().map((c) => ({ c, n: cityRanked(c).length })).sort((a, b) => b.n - a.n).slice(0, 10).map((x) => x.c);
   return (
     <aside className="rail" aria-label="Browse the lists">
       {pinned && <ShowUntil until={pinned.until}><LidsAd banner={pinned.banner} at="rail_pinned" /></ShowUntil>}
@@ -165,32 +162,6 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
       )}
 
       {cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
-
-      {!minimal && cities.length > 0 && (
-        <section className="rail-box">
-          <h2 className="rail-h">Jerseys by city</h2>
-          <ul className="rail-cities">
-            {cities.map((c) => <li key={c.slug}><Link href={cityPath(c)}>{c.name}</Link></li>)}
-          </ul>
-          <Link className="rail-more" href="/cities/">All {getCities().length} cities →</Link>
-        </section>
-      )}
-
-      {!minimal && <section className="rail-box">
-        <h2 className="rail-h">Latest reports</h2>
-        <ul className="rail-updates">
-          {leagues
-            .slice()
-            .sort((a, b) => b.ranking!.publishedDate.localeCompare(a.ranking!.publishedDate))
-            .map(({ league, ranking }) => (
-              <li key={league.id} style={{ "--lg": league.accent } as React.CSSProperties}>
-                <Link href={`/${league.slug}/`}>{league.name}</Link>
-                <span>{ranking!.publisher} · {fmtShortDate(ranking!.publishedDate)}</span>
-              </li>
-            ))}
-        </ul>
-        <Link className="rail-more" href="/rankings/">Report archive →</Link>
-      </section>}
 
       {minimal ? null : cityAds ? <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /> : <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>}
     </aside>
