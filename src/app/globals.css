@@ -2299,7 +2299,6 @@ a { color: inherit; }
 .gd-display { margin-top: 8px; font-size: clamp(34px, 4vw, 54px); max-width: none; }
 .gd-h1 { margin-top: 10px; }
 .gd-dek { font-size: 15.5px; max-width: 70ch; }
-.gd-updated, .gd-ctas .gd-btn.is-line { display: none; }
 .gd-ctas, .gd-chips { display: inline-flex; vertical-align: middle; margin-right: 10px; }
 .gd-ctas { margin-top: 14px; }
 .gd-chips { margin-top: 14px; }
@@ -2358,4 +2357,45 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .lg-lead, .lg-hero::after { display: none; }
   .lg-hero .lede { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
+
+/* ---------- Brand: stacked wordmark ---------- */
+.brand { gap: 10px; }
+.brand-word { display: grid; gap: 2px; line-height: 1; letter-spacing: 0; white-space: nowrap; }
+.brand-word .bw-top { font: 800 11.5px/1 var(--f-head); letter-spacing: .32em; text-transform: uppercase; color: var(--gold); }
+.brand-word .bw-main { position: relative; font: italic 800 28px/.86 var(--f-head); letter-spacing: .02em; text-transform: uppercase; color: #fff; padding-right: .12em; text-shadow: 2px 2px 0 #d62839; }
+.brand-word .bw-main::after { content: ""; position: absolute; left: 0; right: .2em; bottom: -5px; height: 3px; background: linear-gradient(90deg, #d62839 0 62%, transparent 62% 66%, var(--gold) 66%); transform: skewX(-20deg); }
+.mast-in { min-height: 66px; }
+@media (max-width: 760px) {
+  .brand-word .bw-top { font-size: 10px; }
+  .brand-word .bw-main { font-size: 23px; }
+}
+
+/* ---------- Homepage top: fabric, twill lettering, No. 1 jersey row ---------- */
+.gd-hero { border-bottom: 0; }
+.gd-hero > .wrap::before { content: ""; position: absolute; inset: 0 -100vw; z-index: -1; pointer-events: none; background-image: radial-gradient(rgba(255, 255, 255, .07) 1.2px, transparent 1.6px); background-size: 7px 7px; mask-image: linear-gradient(90deg, #000 0%, transparent 60%); -webkit-mask-image: linear-gradient(90deg, #000 0%, transparent 60%); }
+.gd-hero-in { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "copy photo" "ones ones"; padding-block: 24px 0; row-gap: 20px; }
+.gd-hero-copy { grid-area: copy; }
+.gd-photo { grid-area: photo; }
+.gd-display { color: #fff; text-shadow: 2px 0 0 var(--gold), -2px 0 0 var(--gold), 0 2px 0 var(--gold), 0 -2px 0 var(--gold), 2px 2px 0 var(--gold), -2px -2px 0 var(--gold), 2px -2px 0 var(--gold), -2px 2px 0 var(--gold), 5px 6px 0 #05080d; letter-spacing: .01em; }
+.gd-h1 { position: relative; display: inline-block; padding-bottom: 8px; }
+.gd-h1::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; border-bottom: 2px dashed rgba(215, 168, 73, .7); }
+.gd-ones { grid-area: ones; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0; border: 1px solid rgba(255, 255, 255, .12); border-bottom: 0; border-radius: 10px 10px 0 0; overflow: hidden; background: rgba(4, 8, 14, .72); backdrop-filter: blur(4px); }
+.gd-one { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "i lg" "i n"; column-gap: 10px; align-items: center; padding: 12px 14px 12px; color: #fff; text-decoration: none; border-right: 1px solid rgba(255, 255, 255, .08); border-top: 4px solid var(--lg); transition: background .15s ease; }
+.gd-one:hover { background: rgba(255, 255, 255, .07); }
+.gd-one-i { grid-area: i; }
+.gd-one-lg { grid-area: lg; font: 800 13px/1.1 var(--f-head); letter-spacing: .12em; text-transform: uppercase; color: var(--lg); filter: brightness(1.5) saturate(.9); }
+.gd-one-lg b { color: var(--gold); filter: none; }
+.gd-one-n { grid-area: n; font: 800 17px/1.1 var(--f-head); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gd-hero + .gd-trust { border-top: 4px solid var(--gold); }
+@media (max-width: 1100px) { .gd-ones { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+  .gd-hero-in { grid-template-areas: "copy" "ones"; }
+  .gd-hero > .wrap::before { mask-image: none; -webkit-mask-image: none; }
+  .gd-display { text-shadow: 1.5px 0 0 var(--gold), -1.5px 0 0 var(--gold), 0 1.5px 0 var(--gold), 0 -1.5px 0 var(--gold), 3px 4px 0 #05080d; }
+}
+@media (max-width: 560px) {
+  .gd-ones { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gd-one { padding: 10px; column-gap: 8px; }
+  .gd-one-n { font-size: 15px; }
 }
