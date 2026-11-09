@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lead = ranked.slice(0, 3).map((r) => r.player.name);
   return pageMeta({
     title: `Top Selling ${city.name} Jerseys`,
-    description: `The best-selling ${city.name} jerseys across the ${leagueList(leagues)}${lead.length ? `, led by ${leagueList(lead)}` : ""}. Lists by sport from the latest sales reports, with where to buy at Lids.`,
+    description: `The best ${city.name} sports jerseys, ranked: the most popular ${city.name} jerseys across the ${leagueList(leagues)}${lead.length ? `, led by ${leagueList(lead)}` : ""}. Lists by sport from the latest sales reports, with where to buy at Lids.`,
     path: cityPath(city),
   });
 }

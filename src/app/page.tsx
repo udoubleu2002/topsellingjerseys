@@ -2,10 +2,10 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
-import { FeaturedPlayer, LeagueBoard, HeroStory, TrendingNow, TopTeams } from "@/components/HomeBits";
+import { FeaturedPlayer, LeagueBoard, HeroStory, TrendingNow, TopTeams, JerseyThumb } from "@/components/HomeBits";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
-import { getLeagues, getCurrentRanking, getRankings, reportStatus } from "@/lib/data";
+import { getLeagues, getCurrentRanking, getRankings, reportStatus, getPlayer } from "@/lib/data";
 import { getCity, getCities } from "@/lib/cities";
 import { CityCard } from "@/components/CityCards";
 import "./cities.css";
@@ -90,13 +90,19 @@ export default function Home() {
           </div>
           <div className="newsgrid">
             <div className="news-stories">
-              {stories.map((st, i) => (
-                <article key={st.slug} className={`nstory${i === 0 ? " is-lead" : ""}`}>
-                  <p className="nstory-k">{st.league.toUpperCase()} · {fmtShortDate(st.publishedDate)}</p>
-                  <h3><Link href={storyPath(st)}>{st.headline}</Link></h3>
-                  {i === 0 && <p className="nstory-d">{st.description}</p>}
-                </article>
-              ))}
+              {stories.map((st, i) => {
+                const p = st.playerId ? getPlayer(st.playerId) : undefined;
+                return (
+                  <article key={st.slug} className={`nstory${i === 0 ? " is-lead" : ""}${p ? " has-art" : ""}`}>
+                    {p && <Link href={storyPath(st)} className="nstory-art" tabIndex={-1} aria-hidden="true"><JerseyThumb player={p} teamId={st.teamId ?? p.teamId} size={i === 0 ? 200 : 104} /></Link>}
+                    <div className="nstory-txt">
+                      <p className="nstory-k">{st.league.toUpperCase()} · {fmtShortDate(st.publishedDate)}</p>
+                      <h3><Link href={storyPath(st)}>{st.headline}</Link></h3>
+                      {i === 0 && <p className="nstory-d">{st.description}</p>}
+                    </div>
+                  </article>
+                );
+              })}
             </div>
             <div className="news-reports">
               <h3 className="news-reports-h">Report timeline</h3>

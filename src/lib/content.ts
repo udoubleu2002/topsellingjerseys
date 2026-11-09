@@ -54,7 +54,7 @@ export const leagueCopy: Record<string, { keyword: string; alt: string; title: (
     alt: "most popular MLB jerseys",
     title: (r) => `Top Selling MLB Jerseys ${pubYear(r)}: ${r.entries.length} Most Popular Players`,
     intro:
-      "Major League Baseball publishes its most popular player jerseys based on Nike MLB jersey sales through MLBShop.com and the Fanatics network. Below is the latest list of the best selling baseball jerseys in its published order, with each player's 2026 regular-season numbers.",
+      "Major League Baseball publishes its most popular player jerseys based on Nike MLB jersey sales through MLBShop.com and the Fanatics network. Below is the latest list of the most sold MLB jerseys in its published order, with each player's 2026 regular-season numbers.",
     meta: "Top selling MLB jerseys from MLB's latest player jersey sales ranking, in published order. The most popular baseball jerseys, 2026 stats and where to shop.",
     faq: [
       { q: "Does the MLB list include postseason sales?", a: "No. The 2026 list was released before the regular season ended and covers sales from Opening Day." },
@@ -66,7 +66,7 @@ export const leagueCopy: Record<string, { keyword: string; alt: string; title: (
     alt: "best selling NHL jerseys",
     title: (r) => `Top Selling NHL Jerseys ${pubYear(r)}: Best Sellers of ${seasonLabel(r)}`,
     intro:
-      "The NHL shares its top-selling player jerseys from Shop.NHL.com and the Fanatics network at the end of each regular season. Below are the most popular hockey jerseys on the latest list, in its published order, with each player's current-season numbers.",
+      "The NHL shares its jersey sales leaders from Shop.NHL.com and the Fanatics network at the end of each regular season. Below are the most popular hockey jerseys on the latest list, in its published order, with each player's current-season numbers.",
     meta: "Top selling NHL jerseys from the league's latest jersey sales list, in published order. The best selling and most popular hockey jerseys, stats and where to shop.",
     faq: [
       { q: "Why is the source a news report?", a: "The league shared this list on social media, and we could not retrieve the original post directly. We cite the published coverage of it and note that on the report page." },
@@ -78,7 +78,7 @@ export const leagueCopy: Record<string, { keyword: string; alt: string; title: (
     alt: "most popular MLS jerseys",
     title: (r) => `Top Selling MLS Jerseys ${pubYear(r)}: Top ${r.entries.length} Best Sellers`,
     intro:
-      "Major League Soccer announces its best-selling player jerseys near the end of each season. The newest list ranks jersey sales on the official MLS online store from January 1 to October 30, 2026. Below are the most popular MLS jerseys on it, in its published order, with each player's 2026 season numbers.",
+      "Major League Soccer announces its jersey sales rankings near the end of each season. The newest list ranks jersey sales on the official MLS online store from January 1 to October 30, 2026. Below are the most popular MLS jerseys on it, in its published order, with each player's 2026 season numbers.",
     meta: "Top selling MLS jerseys from the league's latest jersey sales list (2026), in published order. The most popular soccer jerseys in MLS, stats and where to shop.",
     faq: [
       { q: "What sales does the 2026 MLS list count?", a: "Player jersey sales on the official MLS online store from January 1 to October 30, 2026, as announced by MLS on November 3, 2026. Other retailers and in-stadium sales are not included." },

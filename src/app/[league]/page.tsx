@@ -74,7 +74,7 @@ export default async function LeaguePage({ params }: Props) {
       ? (() => {
           const top = [...filterTeams].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
           const best = top.filter((t) => t.count === top[0].count);
-          return [{ q: `Which team has the most players on the ${league.name} jersey sales list?`, a: `${best.map((t) => `The ${t.name}`).join(" and ")} ${best.length > 1 ? "each have" : "has"} ${top[0].count} player${top[0].count === 1 ? "" : "s"} on the latest list. ${filterTeams.length} teams are represented in all.` }];
+          return [{ q: `${league.name} jersey sales by team: which team has the most players on the list?`, a: `${best.map((t) => `The ${t.name}`).join(" and ")} ${best.length > 1 ? "each have" : "has"} ${top[0].count} player${top[0].count === 1 ? "" : "s"} on the latest list. ${filterTeams.length} teams are represented in all.` }];
         })()
       : []),
     ...(copy?.faq ?? []),
