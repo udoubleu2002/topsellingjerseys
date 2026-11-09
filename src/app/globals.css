@@ -2405,3 +2405,14 @@ a { color: inherit; }
   .gd-trust-in { flex-wrap: nowrap; white-space: nowrap; align-items: baseline; }
   .gd-trust-new { margin-left: auto; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 }
+
+/* Homepage news: a jersey photo beside each story. */
+.nstory.has-art { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 16px; align-items: start; }
+.nstory-art { display: block; line-height: 0; }
+.nstory-art .jthumb { border-radius: 10px; }
+.nstory.is-lead.has-art { gap: 24px; align-items: center; }
+@media (max-width: 640px) {
+  .nstory.is-lead.has-art { grid-template-columns: 1fr; }
+  .nstory.is-lead .nstory-art .jthumb { --js: 160px !important; width: 160px; height: 160px; }
+  .nstory:not(.is-lead) .nstory-art .jthumb { --js: 76px !important; width: 76px; height: 76px; }
+}
