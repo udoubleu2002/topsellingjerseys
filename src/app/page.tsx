@@ -25,7 +25,7 @@ export default function Home() {
   const newestLeague = getLeagues().find((l) => l.id === newest?.league);
   const ranked = new Set(leagues.flatMap(({ ranking }) => ranking!.entries.map((e) => e.playerId))).size;
   const verified = leagues.map(({ ranking }) => ranking!.lastVerified).sort().pop();
-  const cities = ["new-york", "los-angeles", "chicago", "dallas", "boston", "bay-area", "philadelphia"].map(getCity).filter((c) => !!c);
+  const cities = ["new-york", "los-angeles", "chicago", "dallas", "boston", "bay-area", "philadelphia", "washington-dc", "toronto"].map(getCity).filter((c) => !!c);
   const stories = getStories().slice(0, 5);
   const ld = {
     "@context": "https://schema.org",
