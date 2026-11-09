@@ -67,6 +67,16 @@ export default async function LeaguePage({ params }: Props) {
     ...(ranking && leader
       ? [{ q: `Who has the top-selling ${league.name} jersey?`, a: `${leader.name} ranked No. 1 in "${ranking.title}," published by ${ranking.publisher} on ${fmtDate(ranking.publishedDate)}, covering ${period(ranking.periodStart, ranking.periodEnd, ranking.periodLabel)}.` }]
       : []),
+    ...(ranking && leader
+      ? [{ q: `What is the most popular ${league.name} jersey right now?`, a: `On the latest published list, the most popular ${league.name} jersey is ${leader.name}'s. The full order is shown above, exactly as the report published it.` }]
+      : []),
+    ...(ranking && filterTeams.length
+      ? (() => {
+          const top = [...filterTeams].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+          const best = top.filter((t) => t.count === top[0].count);
+          return [{ q: `Which team has the most players on the ${league.name} jersey sales list?`, a: `${best.map((t) => `The ${t.name}`).join(" and ")} ${best.length > 1 ? "each have" : "has"} ${top[0].count} player${top[0].count === 1 ? "" : "s"} on the latest list. ${filterTeams.length} teams are represented in all.` }];
+        })()
+      : []),
     ...(copy?.faq ?? []),
     { q: "Do you earn money from the shopping links?", a: "Some links are affiliate links, so we may earn a commission when you buy. Commissions never affect the order of a ranking, which always matches the published report." },
   ];
@@ -144,7 +154,7 @@ export default async function LeaguePage({ params }: Props) {
         <div className="rail-main">
         {ranking && (
           <section className="wrap" aria-labelledby="list-h">
-            <h2 id="list-h" className="list-h">{copy ? `${copy.keyword[0].toUpperCase()}${copy.keyword.slice(1)}: the top ${ranking.entries.length}` : `${league.name} jersey sales rankings: top ${ranking.entries.length}`}</h2>
+            <h2 id="list-h" className="list-h">{copy ? `${copy.alt[0].toUpperCase()}${copy.alt.slice(1)}: the top ${ranking.entries.length}` : `${league.name} jersey sales rankings: top ${ranking.entries.length}`}</h2>
             <RankFilter listId="league-list" teams={filterTeams} />
             <ol className="ranking" id="league-list">
               {ranking.entries.map((e) => (

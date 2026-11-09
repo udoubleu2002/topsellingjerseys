@@ -105,6 +105,9 @@ export default async function PlayerPage({ params }: Props) {
         "@type": "Person",
         "@id": `${url}#person`,
         name: player.name,
+        // The unaccented spelling people type, e.g. "Nikola Jokic" for "Nikola Jokić".
+        ...(player.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "") !== player.name ? { alternateName: player.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "") } : {}),
+        ...(player.number ? { identifier: { "@type": "PropertyValue", name: "Jersey number", value: player.number } } : {}),
         url,
         image: abs(`/players/${player.slug}/opengraph-image/`),
         jobTitle: `${league.sport} player (${player.position})`,
