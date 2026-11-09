@@ -68,7 +68,7 @@ export function playerIntro({ player, league, team, latest }: Ctx): string {
 /** Questions people search for, answered only with facts the page already shows. */
 export function playerFaq({ player, league, team, latest, line }: Ctx): { q: string; a: string }[] {
   const faq: { q: string; a: string }[] = [];
-  if (player.number) faq.push({ q: `What number does ${player.name} wear?`, a: numberAnswer({ player, team }) });
+  if (player.number) faq.push({ q: `What jersey number is ${player.name}?`, a: numberAnswer({ player, team }) });
   if (team) faq.push({ q: `What team is ${player.name} on?`, a: player.teamId ? `${player.name} plays for the ${team.name} (${league.name}).` : `${player.name} is listed as ${player.status.toLowerCase()}. The last team on file is the ${team.name}.` });
   if (latest) {
     const moved = latest.reportTeam && latest.reportTeam.id !== player.teamId ? ` while with the ${latest.reportTeam.name}` : "";

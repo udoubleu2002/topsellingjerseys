@@ -139,6 +139,7 @@ export default async function PlayerPage({ params }: Props) {
             <div>
               {latest && <p className="eyebrow">No. {latest.rank} on the Top Selling {league.name} Jerseys list</p>}
               <h1 className="p-h1" style={{ marginTop: 8 }}>{player.name} <span className="h1-tag">Jersey</span></h1>
+              {player.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "") !== player.name && <p className="p-alt">Also spelled {player.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "")}</p>}
               <p className="p-meta" style={{ marginTop: 8 }}>
                 <span><strong>{teamLabel(player)}</strong></span>
                 <span>{league.name}</span>

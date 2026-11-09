@@ -2416,3 +2416,4 @@ a { color: inherit; }
   .nstory.is-lead .nstory-art .jthumb { --js: 160px !important; width: 160px; height: 160px; }
   .nstory:not(.is-lead) .nstory-art .jthumb { --js: 76px !important; width: 76px; height: 76px; }
 }
+.p-alt { margin-top: 4px; font-size: 13px; color: var(--muted); }
