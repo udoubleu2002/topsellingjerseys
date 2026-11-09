@@ -12,7 +12,14 @@ export function SiteHeader({ active }: { active?: string }) {
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
-          <span className="brand-name brand-patch"><span className="bp-top">{site.name.replace(/\s*\S+$/, "")}</span> <em className="bp-main">{site.name.split(" ").pop()}</em></span>
+          <svg className="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M16 4 L7 7.5 L1.5 17 L8 22 L11 19 L11 45 L37 45 L37 19 L40 22 L46.5 17 L41 7.5 L32 4 Q24 11 16 4 Z" fill="#d62839" stroke="#070b11" strokeWidth="1.2" strokeLinejoin="round" />
+            <path d="M16 4 Q24 11 32 4" fill="none" stroke="#d7a849" strokeWidth="2.6" strokeLinecap="round" />
+            <path d="M2.6 16 L8.4 20.6 M45.4 16 L39.6 20.6" stroke="#fff" strokeWidth="2.4" strokeLinecap="round" />
+            <path d="M14 9 L14 42 L34 42 L34 9" fill="none" stroke="rgba(255,255,255,.7)" strokeWidth=".9" strokeDasharray="2 1.8" />
+            <text x="24" y="36" textAnchor="middle" className="brand-mark-no">1</text>
+          </svg>
+          <span className="brand-name brand-word"><span className="bw-top">{site.name.replace(/\s*\S+$/, "")}</span><em className="bw-main">{site.name.split(" ").pop()}</em></span>
         </Link>
         <nav className="league-nav" aria-label="Leagues">
           {leagues.map((l) => (
