@@ -40,7 +40,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  */
 export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean }) {
   // Cities pages run no Lids display banners; their Lids ads are the player banners and jersey tiles.
-  const [adA, adB] = adsFor(active);
+  const [adA] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
@@ -163,7 +163,6 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
 
       {cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
 
-      {minimal ? null : cityAds ? <HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /> : <RotatingSlot at="rail_bottom" className="rail-sticky"><HouseAd ad={adB} at="rail_bottom" className="rail-sticky" /></RotatingSlot>}
     </aside>
   );
 }
