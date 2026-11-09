@@ -12,7 +12,6 @@ import "./cities.css";
 import { getStories, storyPath } from "@/lib/stories";
 import { fmtShortDate } from "@/lib/format";
 import { TeamShopDirectory } from "@/components/ShopBits";
-import { freshness } from "@/components/Freshness";
 import { DealsBar } from "@/components/Deals";
 import { SideRail } from "@/components/SideRail";
 import { site, abs } from "@/lib/config";
@@ -47,12 +46,6 @@ export default function Home() {
             <span><b>{ranked}</b> ranked players</span>
             <span><b>{reports.length}</b> published reports</span>
             <span>Lists verified <b>{fmtShortDate(verified)}</b></span>
-            <span className="gd-fresh" aria-label="How current each league's list is">
-              {leagues.map(({ league, ranking }) => {
-                const f = freshness(ranking!);
-                return <Link key={league.id} href={`/${league.slug}/`} className={`gd-fresh-l is-${f.kind}`} title={f.long}><span className="fresh-dot" aria-hidden="true" />{league.name}<span className="sr-only">: {f.long}</span></Link>;
-              })}
-            </span>
             {newest && newestLeague && <span className="gd-trust-new">Newest: <Link href={`/${newestLeague.slug}/`}>{newest.title}</Link>, {fmtShortDate(newest.publishedDate)}</span>}
           </div>
         </div>
