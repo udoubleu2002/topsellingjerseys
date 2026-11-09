@@ -2359,22 +2359,17 @@ a { color: inherit; }
   .lg-hero .lede { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 }
 
-/* ---------- Brand: red jersey mark + stacked wordmark ---------- */
+/* ---------- Brand: stacked wordmark ---------- */
 .brand { gap: 10px; }
-.brand-mark { width: 44px; height: 44px; flex: none; filter: drop-shadow(0 3px 0 rgba(0, 0, 0, .5)); transform: rotate(-6deg); transition: transform .15s ease; }
-.brand-mark-no { font: italic 800 21px/1 var(--f-head); fill: #fff; stroke: #070b11; stroke-width: 2.4px; paint-order: stroke fill; }
-.brand:hover .brand-mark { transform: rotate(0deg) scale(1.06); }
 .brand-word { display: grid; gap: 2px; line-height: 1; letter-spacing: 0; white-space: nowrap; }
 .brand-word .bw-top { font: 800 11.5px/1 var(--f-head); letter-spacing: .32em; text-transform: uppercase; color: var(--gold); }
 .brand-word .bw-main { position: relative; font: italic 800 28px/.86 var(--f-head); letter-spacing: .02em; text-transform: uppercase; color: #fff; padding-right: .12em; text-shadow: 2px 2px 0 #d62839; }
 .brand-word .bw-main::after { content: ""; position: absolute; left: 0; right: .2em; bottom: -5px; height: 3px; background: linear-gradient(90deg, #d62839 0 62%, transparent 62% 66%, var(--gold) 66%); transform: skewX(-20deg); }
 .mast-in { min-height: 66px; }
 @media (max-width: 760px) {
-  .brand-mark { width: 36px; height: 36px; }
   .brand-word .bw-top { font-size: 10px; }
   .brand-word .bw-main { font-size: 23px; }
 }
-@media (prefers-reduced-motion: reduce) { .brand-mark { transition: none; } .brand:hover .brand-mark { transform: rotate(-6deg); } }
 
 /* ---------- Homepage top: fabric, twill lettering, No. 1 jersey row ---------- */
 .gd-hero { border-bottom: 0; }
