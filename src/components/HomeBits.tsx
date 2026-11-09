@@ -374,3 +374,43 @@ export function TopTeams() {
     </section>
   );
 }
+
+/** Compact league list for the homepage board: the top {n} in published order, one line per player, with the source date. */
+export function LeagueBoard({ league, ranking, n = 10 }: { league: League; ranking: Ranking; n?: number }) {
+  const rows = ranking.entries.slice(0, n);
+  return (
+    <section className="lb" id={league.id} aria-labelledby={`h-${league.id}`} style={{ "--lg": league.accent } as React.CSSProperties}>
+      <header className="lb-head">
+        <h2 id={`h-${league.id}`}><Link href={`/${league.slug}/`}>Top Selling {league.name} Jerseys</Link></h2>
+        <p className="lb-meta">
+          <FreshBadge ranking={ranking} />
+          <a href={ranking.sourceUrl} target="_blank" rel="noopener">{ranking.publisher}, {fmtShortDate(ranking.publishedDate)}</a>
+        </p>
+      </header>
+      <ol className="lb-rows">
+        {rows.map((e) => {
+          const p = getPlayer(e.playerId)!;
+          const { reportTeam, now } = entryTeams(e, p);
+          const product = getProducts(p.id).find((x) => x.productType === "jersey");
+          const offer = product ? productOffer(product) : searchOffer(p, getTeam(p.teamId ?? p.lastTeamId));
+          return (
+            <li key={p.id} className={e.rank <= 3 ? "is-top" : undefined} data-impression="home_list" data-league={league.id} data-player={p.id} data-rank={e.rank}>
+              <span className="lb-r">{e.rank}</span>
+              <JerseyThumb player={p} teamId={e.teamIdAtReport} number={e.numberAtReport} size={e.rank <= 3 ? 48 : 38} className="lb-i" />
+              <span className="lb-who">
+                <Link className="lb-n" href={`/players/${p.slug}/`}>{p.name}</Link>
+                <span className="lb-t">{reportTeam?.name ?? p.status}{now && <em> · {now}</em>}</span>
+              </span>
+              {offer && (
+                <ShopButton offer={offer} variant="ghost" ctx={{ league: league.id, playerId: p.id, rank: e.rank, placement: "home_list", page: "home" }}>
+                  <span className="sr-only">Shop {p.name} jerseys</span><span aria-hidden="true">Shop</span>
+                </ShopButton>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+      <Link className="lb-more" href={`/${league.slug}/`}>See all {ranking.entries.length} {league.name} jerseys →</Link>
+    </section>
+  );
+}

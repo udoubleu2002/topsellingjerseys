@@ -134,21 +134,6 @@ export default async function LeaguePage({ params }: Props) {
             )}
           </div>
         </header>
-        <div className="wrap page-head league-head lg-facts">
-          {ranking ? (
-            <>
-              <Freshness ranking={ranking} statsThrough={commonStatsThrough(ranking)} />
-              <div className="head-meta">
-                <SourceLine ranking={ranking} />
-                <ReportNotes ranking={ranking} />
-                <AffiliateNote />
-              </div>
-            </>
-          ) : (
-            <p className="notice">No verified {league.name} report is published yet.</p>
-          )}
-        </div>
-        <DealsBar league={league.id} page={pageId} />
 
         <div className="wrap with-rail">
         <div className="rail-main">
@@ -163,6 +148,21 @@ export default async function LeaguePage({ params }: Props) {
             </ol>
           </section>
         )}
+
+        <div className="wrap page-head league-head lg-facts lg-facts-after">
+          {ranking ? (
+            <>
+              <Freshness ranking={ranking} statsThrough={commonStatsThrough(ranking)} />
+              <div className="head-meta">
+                <SourceLine ranking={ranking} />
+                <ReportNotes ranking={ranking} />
+                <AffiliateNote />
+              </div>
+            </>
+          ) : (
+            <p className="notice">No verified {league.name} report is published yet.</p>
+          )}
+        </div>
 
         {ranking && <Movement ranking={ranking} leagueName={league.name} />}
 
@@ -212,6 +212,7 @@ export default async function LeaguePage({ params }: Props) {
         </div>
         <SideRail active={league.id} />
         </div>
+        <DealsBar league={league.id} page={pageId} />
         {itemList && <JsonLd data={itemList} />}
       </main>
     </>

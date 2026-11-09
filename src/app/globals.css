@@ -2292,3 +2292,70 @@ a { color: inherit; }
 .rs-card:hover .rs-go span { transform: translate(2px, -2px); }
 @media (max-width: 980px) { .rs-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 620px) { .rs-grid { grid-template-columns: 1fr; gap: 14px; } .rs-card { padding: 18px; } .rs-name { font-size: 22px; } }
+
+/* ---------- Hybrid layout: lists up front ---------- */
+/* Homepage hero: a slim band so the league lists start near the top. */
+.gd-hero-in { grid-template-columns: minmax(0, 1fr) auto; gap: 28px; padding-block: 26px 24px; }
+.gd-display { margin-top: 8px; font-size: clamp(34px, 4vw, 54px); max-width: none; }
+.gd-h1 { margin-top: 10px; }
+.gd-dek { font-size: 15.5px; max-width: 70ch; }
+.gd-updated, .gd-ctas .gd-btn.is-line { display: none; }
+.gd-ctas, .gd-chips { display: inline-flex; vertical-align: middle; margin-right: 10px; }
+.gd-ctas { margin-top: 14px; }
+.gd-chips { margin-top: 14px; }
+.gd-chips a { min-height: 36px; padding: 0 14px; font-size: 15px; }
+.gd-updated { margin-top: 10px; }
+.gd-photo { width: 210px; }
+.gd-bignum { font-size: 170px; }
+.gd-photo figcaption { margin-top: -28px; padding: 10px 14px; }
+@media (max-width: 860px) {
+  .gd-hero-in { grid-template-columns: 1fr; gap: 0; padding-block: 20px 20px; }
+  .gd-photo, .gd-hero::after { display: none; }
+  .gd-display { font-size: 38px; }
+  .gd-dek { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .gd-chips a { min-height: 34px; padding: 0 12px; font-size: 14px; }
+}
+
+/* Homepage league board: two lists side by side, one line per player. */
+.lboard { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.lb { display: flex; flex-direction: column; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); border-top: 4px solid var(--lg); padding: 16px 16px 12px; min-width: 0; }
+.lb-head h2 { font: 700 21px/1.15 var(--f-serif); letter-spacing: -.01em; }
+.lb-head h2 a { color: var(--ink); text-decoration: none; }
+.lb-head h2 a:hover { text-decoration: underline; }
+.lb-meta { margin-top: 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 12.5px; color: var(--muted); }
+.lb-meta a { color: var(--ink-2); }
+.lb-rows { list-style: none; margin: 10px 0 0; padding: 0; }
+.lb-rows li { display: grid; grid-template-columns: 26px auto minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 4px 0; border-top: 1px solid var(--line); }
+.lb-r { font: 800 18px/1 var(--f-num); color: var(--muted); text-align: center; }
+.lb-rows li.is-top .lb-r { font-size: 24px; color: var(--lg, var(--ink)); }
+.lb-who { display: grid; min-width: 0; }
+.lb-n { font-weight: 650; color: var(--ink); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lb-rows li.is-top .lb-n { font-size: 16.5px; font-weight: 700; }
+.lb-n:hover { text-decoration: underline; }
+.lb-t { font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lb-t em { font-style: normal; }
+.lb-rows .btn-ghost { min-height: 30px; padding: 0 10px; font-size: 12.5px; }
+.lb-more { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--line); font: 700 13px/1.2 var(--f-num); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); text-decoration: none; }
+.lb-more:hover { text-decoration: underline; }
+[data-page-type="home"] .home-main { padding-top: 8px; }
+[data-page-type="home"] .home-main .lists { padding-top: 20px; gap: 20px; }
+[data-page-type="home"] .home-main .rail { padding-top: 20px; }
+@media (max-width: 1100px) { .lboard { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .lboard { grid-template-columns: 1fr; } .lb { padding: 14px 12px 10px; } }
+
+/* League pages: a shorter header, list right after it. */
+.lg-hero-in { padding-block: 22px 22px; gap: 24px; }
+.lg-hero h1 { margin-top: 6px; font-size: clamp(34px, 4.4vw, 58px); }
+.lg-hero .lede { margin-top: 10px; font-size: 15.5px; }
+.lg-hero-fresh { margin-top: 10px; }
+.lg-hero-meta { margin-top: 10px; font-size: 13px; }
+.lg-lead { grid-template-columns: 110px minmax(0, 1fr); padding: 12px; }
+.lg-lead .jart { width: 110px; }
+.lg-lead-no { font-size: 72px; }
+.lg-lead-name { font-size: 24px; }
+.lg-facts-after { padding-top: 8px; }
+[data-page-type="league"] .rail-main > section:first-child .list-h { margin-top: 20px; }
+@media (max-width: 860px) {
+  .lg-lead, .lg-hero::after { display: none; }
+  .lg-hero .lede { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
