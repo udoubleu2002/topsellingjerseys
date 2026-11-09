@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
-import { LeaderCard, FeaturedPlayer, LeagueTopFive, HeroStory, TrendingNow, TopTeams } from "@/components/HomeBits";
+import { FeaturedPlayer, LeagueBoard, HeroStory, TrendingNow, TopTeams } from "@/components/HomeBits";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getCurrentRanking, getRankings, reportStatus } from "@/lib/data";
@@ -26,7 +26,7 @@ export default function Home() {
   const newestLeague = getLeagues().find((l) => l.id === newest?.league);
   const ranked = new Set(leagues.flatMap(({ ranking }) => ranking!.entries.map((e) => e.playerId))).size;
   const verified = leagues.map(({ ranking }) => ranking!.lastVerified).sort().pop();
-  const cities = ["new-york", "los-angeles", "chicago", "dallas", "boston", "bay-area", "philadelphia", "washington-dc", "toronto"].map(getCity).filter((c) => !!c);
+  const cities = ["new-york", "los-angeles", "chicago", "dallas", "boston", "bay-area", "philadelphia"].map(getCity).filter((c) => !!c);
   const stories = getStories().slice(0, 5);
   const ld = {
     "@context": "https://schema.org",
@@ -57,7 +57,26 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="cities-sec" aria-labelledby="cities-h">
+        <div className="wrap with-rail home-main">
+          <div className="lists" id="rankings">
+            <div className="sec-head">
+              <p className="sec-k">Top ten in every league, in published order</p>
+              <h2 className="sec-h">Player rankings</h2>
+            </div>
+            <div className="lboard">
+              {leagues.map(({ league, ranking }) => <LeagueBoard key={league.id} league={league} ranking={ranking!} />)}
+            </div>
+          </div>
+          <SideRail hideStories hideLists />
+        </div>
+
+        <DealsBar page="home" />
+        <TrendingNow />
+        <TopTeams />
+
+        <FeaturedPlayer />
+
+        <section className="cities-sec is-compact" aria-labelledby="cities-h">
           <div className="wrap">
             <div className="sec-head on-dark">
               <p className="sec-k">Which cities are represented</p>
@@ -70,32 +89,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="wrap leaders-sec" aria-labelledby="leaders-h">
-          <div className="sec-head">
-            <p className="sec-k">The No. 1 jersey in each league</p>
-            <h2 id="leaders-h" className="sec-h">League leaders</h2>
-          </div>
-          <div className="leaders">
-            {leagues.map(({ league, ranking }, i) => <LeaderCard key={league.id} league={league} ranking={ranking!} priority={i < 3} />)}
-          </div>
-        </section>
-
-        <TrendingNow />
-        <TopTeams />
-
-        <FeaturedPlayer />
-
-        <DealsBar page="home" />
-        <div className="wrap with-rail home-main">
-          <div className="lists">
-            <div className="sec-head">
-              <p className="sec-k">Top five in every league, in published order</p>
-              <h2 className="sec-h">Player rankings</h2>
-            </div>
-            {leagues.map(({ league, ranking }) => <LeagueTopFive key={league.id} league={league} ranking={ranking!} />)}
-          </div>
-          <SideRail hideStories />
-        </div>
 
         <section className="wrap section" aria-labelledby="news-h">
           <div className="sec-head">

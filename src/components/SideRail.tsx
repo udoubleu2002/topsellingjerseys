@@ -39,7 +39,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean }) {
+export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean }) {
   // Cities pages run no Lids display banners; their Lids ads are the player banners and jersey tiles.
   const [adA, adB] = adsFor(active);
   const news = getLatestNews(7);
@@ -71,7 +71,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         </form>
       )}
 
-      {!minimal && <section className="rail-box">
+      {!minimal && !hideLists && <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>
         <div className="rail-lists">
           {leagues.map(({ league, ranking }) => (
