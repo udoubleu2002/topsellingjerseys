@@ -38,7 +38,7 @@ function JerseyRow({ city, n, eager, w }: { city: City; n: number; eager?: boole
         <span key={j.player.id} className="cj">
           <span className="cj-img"><img {...jerseyImg(j.product.image!.url, w)} alt={`${j.player.name} jersey`} width={w} height={w} loading={eager ? "eager" : "lazy"} decoding="async" /></span>
           <span className="cj-name">{j.player.name}</span>
-          <span className="cj-rank">{j.rank ? `No. ${j.rank} ${j.league!.toUpperCase()}` : teamNickname({ name: getAnyTeam(j.teamId)?.name ?? "", league: getAnyTeam(j.teamId)?.league ?? "" })}</span>
+          <span className="cj-rank">{j.rank ? `No. ${j.rank} ${j.league!.toUpperCase()}${j.listYear ? ` (${j.listYear} list)` : ""}` : teamNickname({ name: getAnyTeam(j.teamId)?.name ?? "", league: getAnyTeam(j.teamId)?.league ?? "" })}</span>
         </span>
       ))}
     </span>
