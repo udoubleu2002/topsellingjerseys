@@ -203,8 +203,37 @@ export function checkStories(stories: Story[], s: Store, articles: Article[]) {
       else if (promotableJerseys(s.products, player, st.teamId).length === 0)
         errors.push(`${id}: no Lids jersey with a photo for ${player.name}${st.teamId ? ` (${st.teamId})` : ""} in data/products.json; pick a player whose jersey we can promote`);
     }
+    // From Nov. 13, 2026: keyword form "<player> jersey" and a headline that doesn't reuse a recent story's pattern.
+    if (st.publishedDate >= "2026-11-13") {
+      const subj = st.subject.toLowerCase();
+      if (!st.title.toLowerCase().startsWith(`${subj} jersey`)) errors.push(`${id}: title must start with "${st.subject} Jersey"`);
+      const pk = st.primaryKeyword.toLowerCase();
+      if (!pk.startsWith(subj) || !pk.endsWith(" jersey")) errors.push(`${id}: primary keyword must be "${st.subject} jersey" (a team name may go in between)`);
+      for (const phrase of STALE_HEADLINE_PHRASES)
+        if (st.headline.toLowerCase().includes(phrase)) errors.push(`${id}: headline uses the overused phrase "${phrase}"; pick another pattern from docs/daily-stories.md`);
+      const frame = headlineFrame(st.headline, st);
+      for (const o of stories)
+        if (o !== st && o.publishedDate <= st.publishedDate && daysApart(o.publishedDate, st.publishedDate) <= 14 && headlineFrame(o.headline, o) === frame)
+          errors.push(`${id}: headline follows the same pattern as "${o.headline}" (${o.publishedDate}); make it unique`);
+    }
     if (st.status === "draft") warnings.push(`${id}: draft, not published until reviewed`);
     for (const r of st.reviewNotes) warnings.push(`${id}: review: ${r}`);
   }
   return { errors, warnings };
+}
+
+/** Stock headline phrases the story run overused in early November 2026. New stories may not use them. */
+export const STALE_HEADLINE_PHRASES = ["is on the rise", "having a moment", "the one to get", "gets a new reason", "has a new reason"];
+
+const daysApart = (a: string, b: string) => Math.abs(Date.parse(b) - Date.parse(a)) / 86400000;
+
+/** The opening words of a headline once its player, team words and numbers are taken out, so "X's Ducks Jersey Is on the Rise After..." and "Z's Kings Jersey Is on the Rise As..." compare equal. */
+export function headlineFrame(headline: string, st: { subject: string; teamId?: string | null }): string {
+  let h = headline.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const fold = (t: string) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  h = h.split(fold(st.subject)).join(" ");
+  for (const w of (st.teamId ?? "").split("-")) if (w.length > 2) h = h.replace(new RegExp(`\\b${w}\\b`, "g"), " ");
+  h = h.replace(/[’']s\b/g, " ").replace(/no\.\s*\d+/g, " ").replace(/[\d.,:;!?'’"-]+/g, " ").replace(/\s+/g, " ").trim();
+  // The opening words carry the pattern ("why jersey is the", "jersey is on the").
+  return h.split(" ").slice(0, 4).join(" ");
 }

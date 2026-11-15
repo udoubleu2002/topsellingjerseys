@@ -6,7 +6,9 @@ They are also listed in the side rail (home and league pages), on the player pag
 
 ## What to write each day
 
-**Three stories a day in total, not one per league.** This overrides any older instruction (including in the scheduled task's prompt) to write one story per league. Files dated before 2026-11-02 use the old game-recap angle; do not copy their shape.
+**Three stories a day, plus one extra story for each league that is in season.** The three are the day's biggest stories from any league. On top of them, write one more story for every league in its regular season or playoffs. Right now (November) that is the NFL, NBA and NHL, so a normal day has six stories: the three biggest, then one more NFL, one more NBA and one more NHL. The extra story for a league must be about a different player than any of today's other stories. This overrides any older instruction (including in the scheduled task's prompt) to write one story per league. Files dated before 2026-11-02 use the old game-recap angle; do not copy their shape.
+
+In-season windows to go by: NFL September to early February, NBA late October to June, NHL October to June, WNBA May to October, MLB late March to October, MLS late February to early December. Check the live schedule when a season is starting or ending.
 
 Each story is about **why one player's jersey is growing in popularity and is going to be a jersey people want**. Think of rising names like Yaxel in Golden State or Boozer in Memphis. A story is never a game recap.
 
@@ -20,7 +22,27 @@ Each story is about **why one player's jersey is growing in popularity and is go
   1. **The hook, briefly.** Open with the player and the news in one or two short paragraphs: the key line or stat only. No play-by-play, no score sequence, no box score walk-through.
   2. **Why this jersey is on the rise.** This is most of the story. Make the case from facts: the breakout or rising role, a new team or fresh start, rookie or young-star appeal, what the player means to the fan base and market, the team's momentum, the jersey's look (home, away, alternate or City Edition colorways, a new number), and where the player stands on our best-seller lists in `data/rankings/` (only if they actually appear there).
   3. **The close.** Why this is a jersey to get now and what to watch next, with a link to `/players/<slug>/`.
-- **The headline, title and description are about the jersey**, not the score. Examples: "Why [Player]'s [Team] Jersey Is the One to Get", "[Player]'s [Team] Jersey Is on the Rise". Suggested subheadings: `## Why fans are buying in`, `## The look`, `## Why this jersey will last`.
+- **The headline, title and description are about the jersey**, not the score. Suggested subheadings: `## Why fans are buying in`, `## The look`, `## Why this jersey will last`.
+
+## Headlines: every one sounds different
+
+Every headline must read as its own line, not a fill-in-the-blank. Use a different pattern for each story in a day, and do not reuse a pattern from the last 14 days. `npm run validate` rejects a new headline whose opening words (with the player, team and numbers taken out) match a story from the last 14 days, and any headline using these worn-out phrases: "is on the rise", "having a moment", "the one to get", "gets a new reason", "has a new reason".
+
+Patterns to rotate through, adapted to the news (always with the player's full name):
+
+- Why to Add [Player]'s [Team] Jersey to Your Collection
+- The Case for a [Player] [Team] Jersey [after/as the news]
+- [Player] Just Gave [Team] Fans a Reason to Wear No. [N]
+- [The moment] Makes [Player]'s No. [N] a Must-Have
+- Get Ahead of the Crowd With a [Player] [Team] Jersey
+- [Player]'s [Team] Jersey Belongs in Your Closet After [the moment]
+- Is [Player]'s [Team] Jersey Next on Your List?
+- [The moment]: Your Cue for a [Player] Jersey
+- [Player] Took Over [the game]. Here's Why His/Her [Team] Jersey Is Worth It
+- A [Award or record] Turns [Player]'s No. [N] Into a [Team] Classic
+- Why [Player]'s [Team] Jersey Deserves a Spot in Your Rotation
+
+New ones are welcome. Keep them fact-based: no claims about sales, selling out or what fans are buying.
 
 ## Writing rules
 
@@ -32,8 +54,10 @@ Each story is about **why one player's jersey is growing in popularity and is go
 ## SEO fields
 
 - `author` is always "Top Selling Jerseys" (the build rejects anything else). Never put a person's name or "Claude" in the byline.
-- `title` 50 to 60 characters, `description` 140 to 160, `headline` (H1), `subheadline`, one `primaryKeyword` and two to four `secondaryKeywords`, `searchIntent`.
-- A player who already has a page (`data/players.json`): do not make "[player] jersey" the primary keyword. Use it as anchor text to `/players/<slug>/` instead, and set `playerId`.
+- `title` 50 to 60 characters (see the keyword form below), `description` 140 to 160, `headline` (H1), `subheadline`, one `primaryKeyword` and two to four `secondaryKeywords`, `searchIntent`.
+- **Keyword form is "[Player] jersey".** The `primaryKeyword` is "[Player] jersey", the exact way people search (for example "Cutter Gauthier jersey"). If an earlier story already uses that exact keyword for the same player, put the team in the middle: "[Player] [Team] jersey". Put the news angle ("Cutter Gauthier hat trick record") in `secondaryKeywords`, with "[Team] jerseys".
+- **The `title` starts with "[Player] Jersey:"**, then a short hook, 50 to 60 characters in all (for example "Cutter Gauthier Jersey: Three Hat Tricks in Eight Days"). `npm run validate` enforces both rules for new stories.
+- Always set `playerId`, and link "[Player] jersey" as anchor text to `/players/<slug>/` in the close.
 - Jersey photo: a story page shows the Lids jersey photo, price and link automatically when the subject's jersey is in `data/products.json` (refreshed every morning). Set `playerId` for a player story, or `teamId` for a team story (it shows the team's best-ranked player's jersey). A story whose `subject` is a player's exact name also matches. Nothing else is needed.
 - Never target "best-selling/top selling [league] jerseys" as a primary keyword; link to `/top-selling-<league>-jerseys/` with that anchor instead.
 - At least one internal link in the body (`[anchor](/path/)`) and one to three `related` links. Every link must be a real page; the build fails otherwise.
