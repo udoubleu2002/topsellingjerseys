@@ -6,7 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import type { Player, Product, Ranking, Team } from "./schema";
-import { getAnyTeam, getCurrentRanking, getLeagues, getPlayer, getPlayers, getProducts, getTeam } from "./data";
+import { getAnyTeam, getCurrentRanking, getLeagues, getPlayer, getPlayers, getProducts, getTeam, reportStatus } from "./data";
 import { getStories, storyJersey, storyPath, storyPlayer } from "./stories";
 import { articlePath, getArticles } from "./articles";
 
@@ -235,7 +235,8 @@ export function cityIntro(c: City, opts: { teams?: boolean } = {}): string {
   );
 }
 
-export type CityJersey = { player: Player; product: Product; teamId: string; rank?: number; league?: string };
+/** listYear is set only when the list is old (its sales period ended long ago), so the card can say which year the rank is from. */
+export type CityJersey = { player: Player; product: Product; teamId: string; rank?: number; league?: string; listYear?: string };
 
 /**
  * Jerseys to show on a city's directory card: local players on the latest sales lists first (by rank), then Lids
@@ -248,7 +249,7 @@ export function cityJerseys(c: City, n = 4): CityJersey[] {
     if (out.length >= n) break;
     if (!r.product?.image || seen.has(r.player.id)) continue;
     seen.add(r.player.id);
-    out.push({ player: r.player, product: r.product, teamId: r.teamId, rank: r.rank, league: r.ranking.league });
+    out.push({ player: r.player, product: r.product, teamId: r.teamId, rank: r.rank, league: r.ranking.league, listYear: reportStatus(r.ranking).dated ? r.ranking.publishedDate.slice(0, 4) : undefined });
   }
   for (const p of cityPicks(c, seen, n - out.length)) out.push({ player: p.player, product: p.product, teamId: p.teamId });
   return out;

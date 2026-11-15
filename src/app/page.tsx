@@ -45,7 +45,7 @@ export default function Home() {
             <span><b>{leagues.length}</b> leagues</span>
             <span><b>{ranked}</b> ranked players</span>
             <span><b>{reports.length}</b> published reports</span>
-            <span>Lists verified <b>{fmtShortDate(verified)}</b></span>
+            <span>Rankings last checked against sources <b>{fmtShortDate(verified)}</b></span>
             {newest && newestLeague && <span className="gd-trust-new">Newest: <Link href={`/${newestLeague.slug}/`}>{newest.title}</Link>, {fmtShortDate(newest.publishedDate)}</span>}
           </div>
         </div>
@@ -53,14 +53,14 @@ export default function Home() {
         <div className="wrap with-rail home-main">
           <div className="lists" id="rankings">
             <div className="sec-head">
-              <p className="sec-k">Top ten in every league, in published order</p>
+              <p className="sec-k">The top of each league&apos;s latest list, in published order</p>
               <h2 className="sec-h">Player rankings</h2>
             </div>
             <div className="lboard">
               {leagues.map(({ league, ranking }) => <LeagueBoard key={league.id} league={league} ranking={ranking!} />)}
             </div>
           </div>
-          <SideRail hideStories hideLists />
+          <SideRail hideStories hideLists hideRisers />
         </div>
 
         <section className="cities-sec is-compact" aria-labelledby="cities-h">
@@ -105,20 +105,21 @@ export default function Home() {
               })}
             </div>
             <div className="news-reports">
-              <h3 className="news-reports-h">Report timeline</h3>
+              <h3 className="news-reports-h">Report timeline: newest {Math.min(7, reports.length)} of {reports.length}</h3>
               <ol>
                 {reports.slice(0, 7).map((r) => {
                   const st = reportStatus(r);
+                  const lg = getLeagues().find((l) => l.id === r.league)?.name ?? r.league.toUpperCase();
                   return (
                     <li key={r.id}>
                       <span className="nr-date">{fmtShortDate(r.publishedDate)}</span>
                       <Link href={`/rankings/${r.league}/${r.id}/`}>{r.title}</Link>
-                      <span className={`pill is-${st.kind}`}>{st.label}</span>
+                      <span className={`pill is-${st.kind}`}>{st.kind === "latest" ? `Latest ${lg} list` : st.label}</span>
                     </li>
                   );
                 })}
               </ol>
-              <Link className="sec-more" href="/rankings/">Full report archive →</Link>
+              <Link className="sec-more" href="/rankings/">All {reports.length} reports →</Link>
             </div>
           </div>
         </section>
@@ -153,7 +154,6 @@ export default function Home() {
               <p>Each player has a shopping link to an official retailer. Some links earn us a commission, which never changes the order of a ranking.</p>
             </div>
           </div>
-          <div style={{ marginTop: 24 }}><AffiliateNote /></div>
         </section>
         <JsonLd data={ld} />
       </main>

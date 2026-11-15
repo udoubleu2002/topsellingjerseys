@@ -372,6 +372,7 @@ export function TopTeams() {
                     <Link href={`/players/${player.slug}/`}><JerseyThumb player={player} teamId={t.teamId} number={number} size={36} /><span>{player.name}</span><em>No. {rank}</em></Link>
                   </li>
                 ))}
+                {t.players.length > 4 && <li className="tteam-x">+{t.players.length - 4} more on the list</li>}
               </ul>
               {city && <Link className="tteam-more" href={cityPath(city)}>More {city.name} jerseys →</Link>}
             </li>

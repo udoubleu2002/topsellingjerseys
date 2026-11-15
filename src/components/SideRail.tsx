@@ -38,7 +38,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean }) {
+export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false, hideRisers = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean; hideRisers?: boolean }) {
   // Cities pages run no Lids display banners; their Lids ads are the player banners and jersey tiles.
   const [adA] = adsFor(active);
   const news = getLatestNews(7);
@@ -46,7 +46,8 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   const pinned = cityAds ? null : pinnedRailBanner();
   // Risers come only from leagues with a comparable earlier report; on a league page, that league's risers first.
-  const allRisers = minimal ? [] : topRisers(20);
+  // The homepage has its own Trending section, so it hides this box rather than show a second, shorter risers list.
+  const allRisers = minimal || hideRisers ? [] : topRisers(20);
   const risers = [...allRisers.filter((r) => r.league.id === active), ...allRisers.filter((r) => r.league.id !== active)].slice(0, 4);
   const riserNote = [...new Set(risers.map((r) => `${r.league.name} list of ${fmtShortDate(r.previous.publishedDate)}`))].join(" and the ");
   // "Shop the No. 1": the active league's leader, or on the homepage the leader of the newest list.
