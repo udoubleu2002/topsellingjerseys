@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import { loadStore, getCurrentRanking, rankMovement, getStatLine, isIndexable, getPlayer, getLeagues } from "@/lib/data";
+import { loadStore, getCurrentRanking, rankMovement, getStatLine, isIndexable, getPlayer, getLeagues, getTeam } from "@/lib/data";
 import { checkStore, checkRanking } from "@/lib/validate";
 import { withAffiliate, searchOffer, resolveOffer } from "@/lib/affiliate";
 import { age, fmtDate, period } from "@/lib/format";
@@ -87,6 +87,13 @@ describe("affiliate links", () => {
     expect(resolveOffer(`search-fanatics-${p.id}`)?.href).toContain("fanatics.com");
     expect(resolveOffer("search-lids-nobody")).toBeNull();
     expect(resolveOffer("../../etc")).toBeNull();
+  });
+  it("sends a player with no jersey listing to the team's jerseys, not a player search full of other items", () => {
+    const p = getPlayer("kelsey-mitchell")!;
+    const o = searchOffer(p, getTeam(p.teamId))!;
+    expect(o.label).toBe("Shop Indiana Fever jerseys at Lids");
+    expect(o.href).toContain("Indiana+Fever+jerseys");
+    expect(o.href).not.toContain("Kelsey");
   });
 });
 

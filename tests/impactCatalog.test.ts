@@ -24,6 +24,11 @@ describe("Impact Lids catalog", () => {
     expect(isJersey("Aaron Judge New York Yankees Framed Autographed Jersey")).toBe(false);
     expect(isJersey("Aaron Judge New York Yankees Dog Jersey")).toBe(false);
     expect(isJersey("Aaron Judge New York Yankees Autographed Nike Limited Jersey")).toBe(false);
+    expect(isJersey("Sophie Cunningham Indiana Fever 10.5\" x 13\" Jersey Number Sublimated Player Plaque")).toBe(false);
+    expect(isJersey("Unisex ISlide Sophie Cunningham Navy Indiana Fever Jersey Slide Sandals")).toBe(false);
+    expect(isJersey("Youth Starter Bryce Harper Red Philadelphia Phillies Jersey Arch Crew Socks")).toBe(false);
+    expect(isJersey("Logan Webb San Francisco Giants Unsigned Pitching in Orange Jersey Photograph")).toBe(false);
+    expect(isJersey("Men's adidas Carles Gil White New England Revolution 2025 Eastern White Pine x Flag of New England Authentic Player Jersey")).toBe(true);
   });
 
   it("keeps the player's current-team Lids jerseys, best first, one per variant group", () => {
