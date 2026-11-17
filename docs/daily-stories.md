@@ -26,7 +26,7 @@ Each story is about **why one player's jersey is growing in popularity and is go
 
 ## Headlines: every one sounds different
 
-Every headline must read as its own line, not a fill-in-the-blank. Use a different pattern for each story in a day, and do not reuse a pattern from the last 14 days. `npm run validate` rejects a new headline whose opening words (with the player, team and numbers taken out) match a story from the last 14 days, and any headline using these worn-out phrases: "is on the rise", "having a moment", "the one to get", "gets a new reason", "has a new reason".
+Every headline must read as its own line, not a fill-in-the-blank. Use a different pattern for each story in a day, and do not reuse a pattern from the last 14 days. `npm run validate` rejects a new headline whose opening words (with the player, team and numbers taken out) match a story from the last 14 days, any headline that repeats a four-word phrase from another story since Nov. 2 (again with players, teams and numbers taken out, so "next on your list" or "belongs in your closet" can only be used once), and any headline using these worn-out phrases: "is on the rise", "having a moment", "the one to get", "gets a new reason", "has a new reason".
 
 Patterns to rotate through, adapted to the news (always with the player's full name):
 

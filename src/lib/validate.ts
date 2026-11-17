@@ -217,6 +217,11 @@ export function checkStories(stories: Story[], s: Store, articles: Article[]) {
       for (const o of stories)
         if (o !== st && o.publishedDate <= st.publishedDate && daysApart(o.publishedDate, st.publishedDate) <= 14 && headlineFrame(o.headline, o) === frame)
           errors.push(`${id}: headline follows the same pattern as "${o.headline}" (${o.publishedDate}); make it unique`);
+      for (const o of stories) {
+        if (o === st || o.publishedDate < "2026-11-02") continue;
+        const shared = sharedPhrases(st.headline, st, o.headline, o);
+        if (shared.length) errors.push(`${id}: headline repeats "${shared[0]}" from "${o.headline}" (${o.publishedDate}); every headline must sound different`);
+      }
     }
     if (st.status === "draft") warnings.push(`${id}: draft, not published until reviewed`);
     for (const r of st.reviewNotes) warnings.push(`${id}: review: ${r}`);
@@ -229,13 +234,24 @@ export const STALE_HEADLINE_PHRASES = ["is on the rise", "having a moment", "the
 
 const daysApart = (a: string, b: string) => Math.abs(Date.parse(b) - Date.parse(a)) / 86400000;
 
-/** The opening words of a headline once its player, team words and numbers are taken out, so "X's Ducks Jersey Is on the Rise After..." and "Z's Kings Jersey Is on the Rise As..." compare equal. */
-export function headlineFrame(headline: string, st: { subject: string; teamId?: string | null }): string {
+/** A headline with its player, team words and numbers taken out, so two stories on the same template read the same. */
+function headlineWords(headline: string, st: { subject: string; teamId?: string | null }): string {
   let h = headline.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const fold = (t: string) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   h = h.split(fold(st.subject)).join(" ");
   for (const w of (st.teamId ?? "").split("-")) if (w.length > 2) h = h.replace(new RegExp(`\\b${w}\\b`, "g"), " ");
   h = h.replace(/[’']s\b/g, " ").replace(/no\.\s*\d+/g, " ").replace(/[\d.,:;!?'’"-]+/g, " ").replace(/\s+/g, " ").trim();
-  // The opening words carry the pattern ("why jersey is the", "jersey is on the").
-  return h.split(" ").slice(0, 4).join(" ");
+  return h;
+}
+
+/** The opening four words of a headline's frame, which carry its pattern ("why jersey is the", "jersey is on the"). */
+export function headlineFrame(headline: string, st: { subject: string; teamId?: string | null }): string {
+  return headlineWords(headline, st).split(" ").slice(0, 4).join(" ");
+}
+
+/** Four-word runs a headline shares with another, once players, teams and numbers are taken out ("next on your list", "belongs in your closet"). */
+export function sharedPhrases(a: string, sa: { subject: string; teamId?: string | null }, b: string, sb: { subject: string; teamId?: string | null }): string[] {
+  const grams = (h: string) => { const w = h.split(" "); return new Set(w.slice(0, -3).map((_, i) => w.slice(i, i + 4).join(" "))); };
+  const gb = grams(headlineWords(b, sb));
+  return [...grams(headlineWords(a, sa))].filter((g) => gb.has(g));
 }
