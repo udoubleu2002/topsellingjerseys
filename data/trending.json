@@ -4,7 +4,7 @@
   "start": "2026-11-10",
   "end": "2026-11-16",
   "updated": "2026-11-17",
-  "playersChecked": 972,
+  "playersChecked": 904,
   "leagues": {
     "nfl": [
       {
@@ -72,12 +72,6 @@
     ],
     "wnba": [
       {
-        "playerId": "sophie-cunningham",
-        "wikipediaTitle": "Sophie_Cunningham",
-        "views": 37573,
-        "previousViews": 45359
-      },
-      {
         "playerId": "caitlin-clark",
         "wikipediaTitle": "Caitlin_Clark",
         "views": 20110,
@@ -100,6 +94,12 @@
         "wikipediaTitle": "Gabby_Williams",
         "views": 9619,
         "previousViews": 50170
+      },
+      {
+        "playerId": "paige-bueckers",
+        "wikipediaTitle": "Paige_Bueckers",
+        "views": 7307,
+        "previousViews": 20215
       }
     ],
     "mlb": [
