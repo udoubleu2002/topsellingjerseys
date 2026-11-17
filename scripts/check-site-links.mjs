@@ -40,8 +40,10 @@ while (queue.length) {
     pages++;
     if (!(res.headers.get("content-type") || "").includes("html")) return;
     const html = await res.text();
-    for (const m of html.matchAll(/(?:href|src)="([^"#]+)/g)) {
-      const raw = m[1].replace(/&amp;/g, "&");
+    for (const m of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+      // Decode entities first: an apostrophe is written &#x27;, and its "#" is not a fragment.
+      const raw = m[1].replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&").split("#")[0];
+      if (!raw) continue;
       if (/^(mailto|tel|sms|data|javascript):/.test(raw) || raw.startsWith("//")) continue;
       if (/^https?:/.test(raw)) {
         const u = new URL(raw);
