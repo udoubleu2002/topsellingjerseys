@@ -38,7 +38,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean }) {
+export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false, hideHouseAd = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean; hideHouseAd?: boolean }) {
   // Cities pages run no Lids display banners; their Lids ads are the player banners and jersey tiles.
   const [adA] = adsFor(active);
   const news = getLatestNews(7);
@@ -161,7 +161,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         </section>
       )}
 
-      {cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
+      {hideHouseAd ? null : cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
 
     </aside>
   );
