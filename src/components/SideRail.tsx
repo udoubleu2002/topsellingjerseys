@@ -93,7 +93,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
                   );
                 })}
               </ol>
-              <p className="rail-asof">{reportStatus(ranking!).dated ? "Latest available list" : "Latest list"} · published {fmtShortDate(ranking!.publishedDate)}</p>
+              <p className="rail-asof">{ranking!.unofficial ? <>Unofficial order · WNBA Store, {fmtShortDate(ranking!.publishedDate)}</> : <>{reportStatus(ranking!).dated ? "Latest available list" : "Latest list"} · published {fmtShortDate(ranking!.publishedDate)}</>}</p>
               <Link className="rail-more" href={`/${league.slug}/`}>All {ranking!.entries.length} {league.name} jerseys →</Link>
             </details>
           ))}

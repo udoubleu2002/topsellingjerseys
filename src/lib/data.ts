@@ -120,7 +120,7 @@ export function reportStatus(r: Ranking, today = site.lastReviewed): ReportStatu
   const latest = getCurrentRanking(r.league);
   const periodEnd = r.periodEnd ?? r.publishedDate;
   if (latest?.id === r.id) {
-    return { kind: "latest", label: "Latest Published Report", dated: daysBetween(periodEnd, today) >= STALE_AFTER_DAYS, periodEnd };
+    return { kind: "latest", label: r.unofficial ? "Unofficial Order" : "Latest Published Report", dated: r.unofficial ? false : daysBetween(periodEnd, today) >= STALE_AFTER_DAYS, periodEnd };
   }
   const successor = getRankings(r.league)
     .filter((x) => x.series === r.series && x.publishedDate > r.publishedDate)

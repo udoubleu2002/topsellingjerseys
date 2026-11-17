@@ -4,16 +4,22 @@ import { playerIntro, playerFaq } from "@/lib/playerSeo";
 import type { Ranking } from "@/lib/schema";
 
 describe("report status", () => {
-  it("labels each league's newest report Latest Published Report, never Current", () => {
+  it("labels each league's newest report Latest Published Report (or Unofficial Order), never Current", () => {
     for (const l of getLeagues()) {
       const r = getCurrentRanking(l.id)!;
       const s = reportStatus(r);
       expect(s.kind).toBe("latest");
-      expect(s.label).toBe("Latest Published Report");
+      expect(s.label).toBe(r.unofficial ? "Unofficial Order" : "Latest Published Report");
     }
   });
-  it("flags old latest reports (WNBA 2024) as dated and fresh ones (MLS 2026) as not", () => {
-    expect(reportStatus(getCurrentRanking("wnba")!).dated).toBe(true);
+  it("labels the WNBA Store list unofficial, never as a published report", () => {
+    const w = getCurrentRanking("wnba")!;
+    expect(w.unofficial).toBe(true);
+    expect(reportStatus(w).label).toBe("Unofficial Order");
+  });
+  it("flags old latest reports as dated and fresh ones (MLS 2026) as not", () => {
+    const nfl = getCurrentRanking("nfl")!;
+    expect(reportStatus(nfl, "2027-06-01").dated).toBe(true);
     expect(reportStatus(getCurrentRanking("mls")!).dated).toBe(false);
   });
   it("marks an older report in the same series as superseded and other series as historical", () => {

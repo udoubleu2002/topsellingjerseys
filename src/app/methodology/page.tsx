@@ -30,6 +30,7 @@ export default function Methodology() {
       <h2>How lists are shown</h2>
       <ul>
         <li>Players appear in the exact published order. Lists are as long as the source makes them; we never pad a list.</li>
+        <li>The one exception is the WNBA. No WNBA sales list has been published since 2024, so its page follows the official WNBA Store&apos;s &ldquo;Top Sellers&rdquo; sort and is labeled <strong>Unofficial Order</strong> wherever it appears.</li>
         <li>If we have verified only part of a list, the page says which ranks are shown.</li>
         <li>Rank movement (▲ ▼) appears only when an earlier report from the same series exists, so different periods or methods are never compared.</li>
         <li>When a report&apos;s sales period ended more than four months ago, the page says it is the latest available rather than current sales.</li>

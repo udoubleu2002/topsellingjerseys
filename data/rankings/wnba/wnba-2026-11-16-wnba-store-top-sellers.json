@@ -1,0 +1,150 @@
+{
+  "id": "wnba-2026-11-16-wnba-store-top-sellers",
+  "series": "wnba-store-top-sellers",
+  "title": "WNBA Store Top-Selling Jerseys (Unofficial Order)",
+  "publisher": "WNBA Store (Fanatics), \"Top Sellers\" sort",
+  "unofficial": true,
+  "periodStart": null,
+  "periodEnd": null,
+  "periodLabel": "The WNBA Store's jersey page sorted by \"Top Sellers\", as shown on Nov. 16, 2026",
+  "scope": "Jerseys sold on the official WNBA Store (wnbastore.nba.com), run by Fanatics.",
+  "methodology": "We sorted the WNBA Store's jersey page by \"Top Sellers\" and listed each current player in the order her first jersey appears. Team-only custom jerseys and retired-player throwback jerseys were skipped. The store does not publish sales counts.",
+  "league": "wnba",
+  "sourceUrl": "https://wnbastore.nba.com/jerseys/d-3461958594+z-918950-4284700220",
+  "publishedDate": "2026-11-16",
+  "retrievedDate": "2026-11-16",
+  "lastVerified": "2026-11-16",
+  "limitations": [
+    "This order is unofficial. It comes from the WNBA Store's \"Top Sellers\" sort, not from a published sales report. The WNBA has not published a top-selling jersey list since 2021, and the newest ranked list from a retail partner is Fanatics' first-half 2024 report.",
+    "The store's sort changes from day to day and does not show sales counts, so nearby players may swap places. Treat this as a guide to which jerseys are selling, not an exact rank.",
+    "Retired-player throwback jerseys (such as Dawn Staley, Cynthia Cooper and Lisa Leslie) and team jerseys without a player name were left out."
+  ],
+  "status": "published",
+  "entries": [
+    {
+      "rank": 1,
+      "playerId": "caitlin-clark",
+      "teamIdAtReport": "indiana-fever"
+    },
+    {
+      "rank": 2,
+      "playerId": "paige-bueckers",
+      "teamIdAtReport": "dallas-wings"
+    },
+    {
+      "rank": 3,
+      "playerId": "sophie-cunningham",
+      "teamIdAtReport": "indiana-fever"
+    },
+    {
+      "rank": 4,
+      "playerId": "angel-reese",
+      "teamIdAtReport": "atlanta-dream"
+    },
+    {
+      "rank": 5,
+      "playerId": "azzi-fudd",
+      "teamIdAtReport": "dallas-wings"
+    },
+    {
+      "rank": 6,
+      "playerId": "sonia-citron",
+      "teamIdAtReport": "washington-mystics"
+    },
+    {
+      "rank": 7,
+      "playerId": "breanna-stewart",
+      "teamIdAtReport": "new-york-liberty"
+    },
+    {
+      "rank": 8,
+      "playerId": "olivia-miles",
+      "teamIdAtReport": "minnesota-lynx"
+    },
+    {
+      "rank": 9,
+      "playerId": "kelsey-mitchell",
+      "teamIdAtReport": "indiana-fever"
+    },
+    {
+      "rank": 10,
+      "playerId": "veronica-burton",
+      "teamIdAtReport": "golden-state-valkyries"
+    },
+    {
+      "rank": 11,
+      "playerId": "kaitlyn-chen",
+      "teamIdAtReport": "golden-state-valkyries"
+    },
+    {
+      "rank": 12,
+      "playerId": "aja-wilson",
+      "teamIdAtReport": "las-vegas-aces"
+    },
+    {
+      "rank": 13,
+      "playerId": "sabrina-ionescu",
+      "teamIdAtReport": "new-york-liberty"
+    },
+    {
+      "rank": 14,
+      "playerId": "jackie-young",
+      "teamIdAtReport": "las-vegas-aces"
+    },
+    {
+      "rank": 15,
+      "playerId": "arike-ogunbowale",
+      "teamIdAtReport": "dallas-wings"
+    },
+    {
+      "rank": 16,
+      "playerId": "tiffany-hayes",
+      "teamIdAtReport": "golden-state-valkyries"
+    },
+    {
+      "rank": 17,
+      "playerId": "kiki-rice",
+      "teamIdAtReport": "toronto-tempo"
+    },
+    {
+      "rank": 18,
+      "playerId": "flaujae-johnson",
+      "teamIdAtReport": "seattle-storm"
+    },
+    {
+      "rank": 19,
+      "playerId": "lauren-betts",
+      "teamIdAtReport": "washington-mystics"
+    },
+    {
+      "rank": 20,
+      "playerId": "gabriela-jaquez",
+      "teamIdAtReport": "chicago-sky"
+    },
+    {
+      "rank": 21,
+      "playerId": "kiki-iriafen",
+      "teamIdAtReport": "washington-mystics"
+    },
+    {
+      "rank": 22,
+      "playerId": "kayla-mcbride",
+      "teamIdAtReport": "minnesota-lynx"
+    },
+    {
+      "rank": 23,
+      "playerId": "cameron-brink",
+      "teamIdAtReport": "los-angeles-sparks"
+    },
+    {
+      "rank": 24,
+      "playerId": "georgia-amoore",
+      "teamIdAtReport": "washington-mystics"
+    },
+    {
+      "rank": 25,
+      "playerId": "megan-dileo",
+      "teamIdAtReport": "portland-fire"
+    }
+  ]
+}
