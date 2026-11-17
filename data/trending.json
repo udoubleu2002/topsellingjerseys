@@ -1,0 +1,202 @@
+{
+  "note": "Weekly trending lists: English Wikipedia page views (people, not bots) per player over the last 7 full days, top 5 per league. Interest in the player, not jersey sales. Built by scripts/trending-pageviews.mjs.",
+  "source": "https://wikimedia.org/api/rest_v1/",
+  "start": "2026-11-10",
+  "end": "2026-11-16",
+  "updated": "2026-11-17",
+  "playersChecked": 972,
+  "leagues": {
+    "nfl": [
+      {
+        "playerId": "kirk-cousins",
+        "wikipediaTitle": "Kirk_Cousins",
+        "views": 581046,
+        "previousViews": 31118
+      },
+      {
+        "playerId": "amon-ra-st-brown",
+        "wikipediaTitle": "Amon-Ra_St._Brown",
+        "views": 198743,
+        "previousViews": 16988
+      },
+      {
+        "playerId": "fernando-mendoza",
+        "wikipediaTitle": "Fernando_Mendoza",
+        "views": 151199,
+        "previousViews": 18171
+      },
+      {
+        "playerId": "cam-skattebo",
+        "wikipediaTitle": "Cam_Skattebo",
+        "views": 104400,
+        "previousViews": 19901
+      },
+      {
+        "playerId": "joe-burrow",
+        "wikipediaTitle": "Joe_Burrow",
+        "views": 103708,
+        "previousViews": 45134
+      }
+    ],
+    "nba": [
+      {
+        "playerId": "lebron-james",
+        "wikipediaTitle": "LeBron_James",
+        "views": 95514,
+        "previousViews": 118865
+      },
+      {
+        "playerId": "stephen-curry",
+        "wikipediaTitle": "Stephen_Curry",
+        "views": 79091,
+        "previousViews": 71947
+      },
+      {
+        "playerId": "luka-doncic",
+        "wikipediaTitle": "Luka_Dončić",
+        "views": 52121,
+        "previousViews": 84257
+      },
+      {
+        "playerId": "victor-wembanyama",
+        "wikipediaTitle": "Victor_Wembanyama",
+        "views": 47381,
+        "previousViews": 58917
+      },
+      {
+        "playerId": "cooper-flagg",
+        "wikipediaTitle": "Cooper_Flagg",
+        "views": 43084,
+        "previousViews": 28849
+      }
+    ],
+    "wnba": [
+      {
+        "playerId": "sophie-cunningham",
+        "wikipediaTitle": "Sophie_Cunningham",
+        "views": 37573,
+        "previousViews": 45359
+      },
+      {
+        "playerId": "caitlin-clark",
+        "wikipediaTitle": "Caitlin_Clark",
+        "views": 20110,
+        "previousViews": 35631
+      },
+      {
+        "playerId": "brittney-griner",
+        "wikipediaTitle": "Brittney_Griner",
+        "views": 15739,
+        "previousViews": 13435
+      },
+      {
+        "playerId": "angel-reese",
+        "wikipediaTitle": "Angel_Reese",
+        "views": 11054,
+        "previousViews": 23945
+      },
+      {
+        "playerId": "gabby-williams",
+        "wikipediaTitle": "Gabby_Williams",
+        "views": 9619,
+        "previousViews": 50170
+      }
+    ],
+    "mlb": [
+      {
+        "playerId": "pete-crow-armstrong",
+        "wikipediaTitle": "Pete_Crow-Armstrong",
+        "views": 31202,
+        "previousViews": 6819
+      },
+      {
+        "playerId": "shohei-ohtani",
+        "wikipediaTitle": "Shohei_Ohtani",
+        "views": 18146,
+        "previousViews": 15979
+      },
+      {
+        "playerId": "yordan-alvarez",
+        "wikipediaTitle": "Yordan_Alvarez",
+        "views": 16403,
+        "previousViews": 1248
+      },
+      {
+        "playerId": "jacob-misiorowski",
+        "wikipediaTitle": "Jacob_Misiorowski",
+        "views": 15801,
+        "previousViews": 9516
+      },
+      {
+        "playerId": "cam-schlittler",
+        "wikipediaTitle": "Cam_Schlittler",
+        "views": 14407,
+        "previousViews": 1257
+      }
+    ],
+    "nhl": [
+      {
+        "playerId": "connor-hellebuyck",
+        "wikipediaTitle": "Connor_Hellebuyck",
+        "views": 24112,
+        "previousViews": 16181
+      },
+      {
+        "playerId": "connor-mcdavid",
+        "wikipediaTitle": "Connor_McDavid",
+        "views": 16511,
+        "previousViews": 15071
+      },
+      {
+        "playerId": "sidney-crosby",
+        "wikipediaTitle": "Sidney_Crosby",
+        "views": 14283,
+        "previousViews": 17569
+      },
+      {
+        "playerId": "cutter-gauthier",
+        "wikipediaTitle": "Cutter_Gauthier",
+        "views": 11972,
+        "previousViews": 10454
+      },
+      {
+        "playerId": "macklin-celebrini",
+        "wikipediaTitle": "Macklin_Celebrini",
+        "views": 11091,
+        "previousViews": 10883
+      }
+    ],
+    "mls": [
+      {
+        "playerId": "lionel-messi",
+        "wikipediaTitle": "Lionel_Messi",
+        "views": 85136,
+        "previousViews": 108415
+      },
+      {
+        "playerId": "alexis-sanchez",
+        "wikipediaTitle": "Alexis_Sánchez",
+        "views": 36520,
+        "previousViews": 10089
+      },
+      {
+        "playerId": "robert-lewandowski",
+        "wikipediaTitle": "Robert_Lewandowski",
+        "views": 28707,
+        "previousViews": 33803
+      },
+      {
+        "playerId": "julian-hall",
+        "wikipediaTitle": "Julian_Hall_(soccer)",
+        "views": 17792,
+        "previousViews": 2247
+      },
+      {
+        "playerId": "son-heung-min",
+        "wikipediaTitle": "Son_Heung-min",
+        "views": 15520,
+        "previousViews": 14614
+      }
+    ]
+  }
+}
