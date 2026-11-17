@@ -12,15 +12,15 @@ export const HOUSE_ADS: HouseAd[] = [
 export const houseAd = (id: string) => HOUSE_ADS.find((a) => a.id === id);
 
 /** Kept in HOUSE_ADS so old /go/ links still resolve, but never shown on a page. */
-const RETIRED = new Set(["insidethepark"]);
+const RETIRED = new Set(["insidethepark", "loststadiums"]);
 const SHOWN = HOUSE_ADS.filter((a) => !RETIRED.has(a.id));
 
 /** The site that fits a league best, so a hockey page shows RinkGuide first. */
-const BY_LEAGUE: Record<string, string> = { mlb: "loststadiums", nfl: "allfootballstadiums", nba: "hoopsarenas", wnba: "hoopsarenas", nhl: "rinkguide", mls: "loststadiums" };
+const BY_LEAGUE: Record<string, string> = { mlb: "allfootballstadiums", nfl: "allfootballstadiums", nba: "hoopsarenas", wnba: "hoopsarenas", nhl: "rinkguide", mls: "allfootballstadiums" };
 
 /** Two different ads for a page: the league's best fit, then another one from the shown list. */
 export function adsFor(league?: string): [HouseAd, HouseAd] {
-  const first = houseAd(BY_LEAGUE[league ?? ""] ?? "loststadiums")!;
-  const second = league ? SHOWN[(SHOWN.indexOf(first) + 2) % SHOWN.length] : houseAd("allfootballstadiums")!;
+  const first = houseAd(BY_LEAGUE[league ?? ""] ?? "allfootballstadiums")!;
+  const second = SHOWN[(SHOWN.indexOf(first) + 1) % SHOWN.length];
   return [first, second];
 }
