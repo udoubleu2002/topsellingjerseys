@@ -45,7 +45,7 @@ export const leagueCopy: Record<string, { keyword: string; alt: string; title: (
       "No WNBA sales list has been published since 2024, so this list follows the official WNBA Store. We sorted its jersey page by \"Top Sellers\" and listed the players in the order their jerseys appear. The order is unofficial, but it shows which WNBA jerseys fans are buying now, with each player's 2026 regular-season numbers.",
     meta: "Top selling WNBA jerseys, in the order of the WNBA Store's Top Sellers sort (unofficial). The most popular WNBA players, 2026 stats and where to shop.",
     faq: [
-      { q: "Where does this WNBA list come from?", a: "From the official WNBA Store, run by Fanatics. We sorted its jersey page by \"Top Sellers\" and listed each current player in the order her first jersey appears. Team-only and retired-player throwback jerseys were skipped." },
+      { q: "Where does this WNBA list come from?", a: "From the official WNBA Store, run by Fanatics. We sorted its jersey page by \"Top Sellers\" and listed each current player in the order her first jersey appears. Team-only and retired-player throwback jerseys were skipped, and so were players whose jersey Lids does not sell, so every player here has a jersey you can buy." },
       { q: "Is this an official ranking?", a: "No. The WNBA's last official jersey list came out in 2021, and the newest ranked list from a retailer is Fanatics' report on the first half of 2024. The store's sort does not show sales counts and changes day to day, so treat the order as a guide. We will switch to a published list when one comes out." },
     ],
   },
