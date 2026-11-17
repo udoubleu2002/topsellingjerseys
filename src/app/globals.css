@@ -1979,6 +1979,11 @@ a { text-underline-offset: 3px; }
 .trend-grid.is-light .tr-mv { color: var(--muted, #5b6573); }
 .nocomp { display: grid; gap: 10px; padding: 0; list-style: none; }
 .nocomp li { padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 8px; }
+.trend-grid.is-light.is-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.trend-box .tr-h { display: flex; align-items: center; gap: 8px; font-size: 20px; }
+.tr-mv .down { background: #8a2f2f; color: #fff; }
+.trend-grid.is-light .tr-mv { font-size: 15px; }
+@media (max-width: 1100px) { .trend-grid.is-light.is-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 900px) { .trend-grid, .trend-grid.is-light { grid-template-columns: 1fr; } }
 
 /* League page hero with the No. 1 jersey */
@@ -2457,3 +2462,4 @@ a { color: inherit; }
 .gd-photo-cta { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); padding: 7px 14px; border-radius: 999px; background: var(--gold); color: #1a1205; font: 700 14px/1 var(--f-body); white-space: nowrap; box-shadow: 0 4px 12px rgba(0, 0, 0, .3); opacity: .92; transition: opacity .15s ease; }
 .gd-photo-link:hover .gd-photo-cta { opacity: 1; }
 .gd-photo-link:hover img { box-shadow: 0 18px 40px rgba(0, 0, 0, .5), 0 0 0 3px var(--gold); }
+.rail-trend-up.is-pv { background: var(--lg, var(--ink)); font-size: 13px; letter-spacing: .04em; }

@@ -2,8 +2,10 @@
  * "Trending": movement between two comparable published reports (same publisher, same method, same series).
  * Nothing here is estimated. A league with no comparable earlier report is listed as having no comparison.
  */
-import type { League, Ranking } from "./schema";
-import { getCurrentRanking, getLeagues, getMovement, getPreviousInSeries } from "./data";
+import fs from "node:fs";
+import path from "node:path";
+import { TrendingSchema, type League, type Player, type Ranking, type Trending } from "./schema";
+import { getCurrentRanking, getLeagues, getMovement, getPlayer, getPreviousInSeries } from "./data";
 
 export type LeagueTrend = { league: League; ranking: Ranking; movement: NonNullable<ReturnType<typeof getMovement>> };
 
@@ -46,4 +48,26 @@ export function repeatLeaders(): { league: League; ranking: Ranking; previous: R
       return prev && prev.entries[0]?.playerId === ranking.entries[0]?.playerId;
     })
     .map(({ league, ranking, movement }) => ({ league, ranking, previous: movement.previous, playerId: ranking.entries[0].playerId }));
+}
+
+/**
+ * Weekly "trending" top 5 per league from English Wikipedia page views over the last 7 full days (data/trending.json).
+ * This is interest in the player, not sales; pages say so. Returns null until the weekly job has written the file.
+ */
+let pv: { data: Trending; leagues: { league: League; rows: PageviewRow[] }[] } | null | undefined;
+export type PageviewRow = { player: Player; views: number; previousViews: number; change: number | null; rank: number };
+export function pageviewTrending() {
+  if (pv !== undefined) return pv;
+  const file = path.join(process.cwd(), "data", "trending.json");
+  if (!fs.existsSync(file)) return (pv = null);
+  const data = TrendingSchema.parse(JSON.parse(fs.readFileSync(file, "utf8")));
+  const leagues = getLeagues()
+    .map((league) => ({
+      league,
+      rows: (data.leagues[league.id] ?? [])
+        .map((r, i) => ({ player: getPlayer(r.playerId)!, views: r.views, previousViews: r.previousViews, change: r.previousViews ? Math.round(((r.views - r.previousViews) / r.previousViews) * 100) : null, rank: i + 1 }))
+        .filter((r) => r.player),
+    }))
+    .filter((x) => x.rows.length);
+  return (pv = leagues.length ? { data, leagues } : null);
 }

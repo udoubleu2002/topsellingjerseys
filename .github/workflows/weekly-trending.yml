@@ -1,0 +1,38 @@
+# Weekly trending lists: top 5 players per league by English Wikipedia page views over the last 7 full days.
+# Writes data/trending.json (and caches matched article titles in data/wikipedia-titles.json), then commits, which
+# redeploys the site. On a pull request that changes the job, it runs and pushes the fresh data to that branch.
+name: Weekly trending
+on:
+  schedule:
+    - cron: "0 12 * * 1" # Mondays, 7am US Eastern (standard time)
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - scripts/trending-pageviews.mjs
+      - .github/workflows/weekly-trending.yml
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: node scripts/trending-pageviews.mjs
+      - run: npm run validate
+      - name: Commit if the lists changed
+        run: |
+          git add data/trending.json data/wikipedia-titles.json
+          git diff --cached --quiet && { echo "No change."; exit 0; }
+          git config user.name "trending-bot"
+          git config user.email "trending-bot@users.noreply.github.com"
+          git commit -m "Weekly trending lists $(date -u +%F)"
+          BRANCH="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"

@@ -7,7 +7,7 @@ import { fmtShortDate, fmtDate } from "@/lib/format";
 import { getFeatured, getHero } from "@/lib/featured";
 import { getLeagues as getLeaguesList, getCurrentRanking as getCurrentRankingFor } from "@/lib/data";
 import { cityOfTeam, cityPath } from "@/lib/cities";
-import { topRisers, newEntries, repeatLeaders, getTrends } from "@/lib/trending";
+import { topRisers, newEntries, repeatLeaders, getTrends, pageviewTrending } from "@/lib/trending";
 import { ShopButton } from "./ShopButton";
 import { FreshBadge } from "./Freshness";
 import { HaveJersey } from "./HaveJersey";
@@ -285,8 +285,56 @@ export function HeroStory({ leagues }: { leagues: { league: League; ranking: Ran
   );
 }
 
+const compact = (n: number) => new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(n);
+
+/** Top 5 per league by Wikipedia page views this week. Labeled as interest, not sales. */
+export function WeeklyTrending({ only, heading = "h3" }: { only?: string; heading?: "h2" | "h3" }) {
+  const t = pageviewTrending();
+  if (!t) return null;
+  const H = heading;
+  const boxes = only ? t.leagues.filter((x) => x.league.id === only) : t.leagues;
+  if (!boxes.length) return null;
+  return (
+    <>
+      <div className={`trend-grid is-light${boxes.length > 1 ? " is-3" : ""}`}>
+        {boxes.map(({ league, rows }) => (
+          <div className="trend-box" key={league.id}>
+            <H className="tr-h"><span className="tr-lg" style={{ "--lg": league.accent } as React.CSSProperties}>{league.name}</span> Trending this week</H>
+            <ol>
+              {rows.map((r) => (
+                <li key={r.player.id}>
+                  <JerseyThumb player={r.player} teamId={r.player.teamId} size={36} />
+                  <Link href={`/players/${r.player.slug}/`}>{r.player.name}</Link>
+                  <span className="tr-mv"><b>{compact(r.views)}</b> views{r.change !== null && r.change !== 0 ? <> <em className={r.change > 0 ? "up" : "down"}>{r.change > 0 ? "▲" : "▼"}{Math.abs(r.change)}%</em></> : null}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
+      </div>
+      <p className="trend-note">
+        Trending is based on English Wikipedia page views for each player we track, {fmtShortDate(t.data.start)} to {fmtShortDate(t.data.end)}, compared with the week before. It measures interest in the player, not jersey sales. Updated weekly; the sales rankings come only from published reports.
+      </p>
+    </>
+  );
+}
+
 /** Rank changes between two comparable published reports. Leagues without an earlier comparable report are named, not guessed. */
 export function TrendingNow() {
+  if (pageviewTrending()) {
+    return (
+      <section className="wrap section trend-light" id="trending" aria-labelledby="trend-h">
+        <div>
+          <div className="sec-head">
+            <p className="sec-k">Most-searched players this week</p>
+            <h2 id="trend-h" className="sec-h">Trending now</h2>
+            <Link className="sec-more" href="/trending/">All trending →</Link>
+          </div>
+          <WeeklyTrending />
+        </div>
+      </section>
+    );
+  }
   const risers = topRisers(5);
   const fresh = newEntries(5);
   const repeat = repeatLeaders();

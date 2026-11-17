@@ -11,6 +11,9 @@ import { loadStories } from "../src/lib/stories";
 import { loadFeatured } from "../src/lib/featured";
 import { site } from "../src/lib/config";
 import { daysBetween } from "../src/lib/format";
+import fs from "node:fs";
+import path from "node:path";
+import { TrendingSchema } from "../src/lib/schema";
 
 try {
   const store = loadStore();
@@ -28,6 +31,12 @@ try {
   warnings.push(...news.warnings);
   // Homepage player of the week: must name a known player; flag it once it is more than two weeks old.
   const featured = loadFeatured();
+  const trendingFile = path.join(process.cwd(), "data", "trending.json");
+  if (fs.existsSync(trendingFile)) {
+    const t = TrendingSchema.safeParse(JSON.parse(fs.readFileSync(trendingFile, "utf8")));
+    if (!t.success) errors.push(`data/trending.json: ${t.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`);
+    else for (const [lg, rows] of Object.entries(t.data.leagues)) for (const r of rows) if (!store.players.some((p) => p.id === r.playerId)) errors.push(`data/trending.json: unknown player ${r.playerId} in ${lg}`);
+  }
   if (featured && !store.players.some((p) => p.id === featured.playerId)) errors.push(`data/featured.json: unknown player ${featured.playerId}`);
   const hero = featured?.hero;
   if (hero?.photoPlayerId && !store.players.some((p) => p.id === hero.photoPlayerId)) errors.push(`data/featured.json: hero photo player ${hero.photoPlayerId} is unknown`);
