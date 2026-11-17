@@ -60,7 +60,7 @@ export default function Home() {
               {leagues.map(({ league, ranking }) => <LeagueBoard key={league.id} league={league} ranking={ranking!} />)}
             </div>
           </div>
-          <SideRail hideStories hideLists />
+          <SideRail hideStories hideLists hideHouseAd />
         </div>
 
         <section className="cities-sec is-compact" aria-labelledby="cities-h">

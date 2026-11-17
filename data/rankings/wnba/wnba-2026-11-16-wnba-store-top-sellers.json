@@ -8,7 +8,7 @@
   "periodEnd": null,
   "periodLabel": "The WNBA Store's jersey page sorted by \"Top Sellers\", as shown on Nov. 16, 2026",
   "scope": "Jerseys sold on the official WNBA Store (wnbastore.nba.com), run by Fanatics.",
-  "methodology": "We sorted the WNBA Store's jersey page by \"Top Sellers\" and listed each current player in the order her first jersey appears. Team-only custom jerseys and retired-player throwback jerseys were skipped, and so were players whose jersey our retail partner, Lids, does not sell. The store does not publish sales counts.",
+  "methodology": "We sorted the WNBA Store's jersey page by \"Top Sellers\" and listed each current player in the order her first jersey appears. Team-only custom jerseys and retired-player throwback jerseys were skipped, and so were players whose jersey our retail partner, Lids, does not sell. A'ja Wilson and Napheesa Collier were moved into the top five by our editors. The store does not publish sales counts.",
   "league": "wnba",
   "sourceUrl": "https://wnbastore.nba.com/jerseys/d-3461958594+z-918950-4284700220",
   "publishedDate": "2026-11-16",
@@ -18,7 +18,8 @@
     "This order is unofficial. It comes from the WNBA Store's \"Top Sellers\" sort, not from a published sales report. The WNBA has not published a top-selling jersey list since 2021, and the newest ranked list from a retail partner is Fanatics' first-half 2024 report.",
     "The store's sort changes from day to day and does not show sales counts, so nearby players may swap places. Treat this as a guide to which jerseys are selling, not an exact rank.",
     "Retired-player throwback jerseys (such as Dawn Staley, Cynthia Cooper and Lisa Leslie) and team jerseys without a player name were left out.",
-    "Sophie Cunningham, Kelsey Mitchell and Jackie Young appear high in the store's sort but are left out because Lids has no jersey of theirs to show or link to. Kamilla Cardoso, Aliyah Boston and Awa Fam, the next players in the store's order, fill those spots."
+    "Sophie Cunningham, Kelsey Mitchell and Jackie Young appear high in the store's sort but are left out because Lids has no jersey of theirs to show or link to. Kamilla Cardoso and Aliyah Boston, next in the store's order, fill two of those spots.",
+    "By editorial choice, A'ja Wilson and Napheesa Collier are placed at Nos. 3 and 4; the store's sort had them lower. Below them, players keep the store's order."
   ],
   "status": "published",
   "entries": [
@@ -34,118 +35,118 @@
     },
     {
       "rank": 3,
-      "playerId": "angel-reese",
-      "teamIdAtReport": "atlanta-dream"
-    },
-    {
-      "rank": 4,
-      "playerId": "azzi-fudd",
-      "teamIdAtReport": "dallas-wings"
-    },
-    {
-      "rank": 5,
-      "playerId": "sonia-citron",
-      "teamIdAtReport": "washington-mystics"
-    },
-    {
-      "rank": 6,
-      "playerId": "breanna-stewart",
-      "teamIdAtReport": "new-york-liberty"
-    },
-    {
-      "rank": 7,
-      "playerId": "olivia-miles",
-      "teamIdAtReport": "minnesota-lynx"
-    },
-    {
-      "rank": 8,
-      "playerId": "veronica-burton",
-      "teamIdAtReport": "golden-state-valkyries"
-    },
-    {
-      "rank": 9,
-      "playerId": "kaitlyn-chen",
-      "teamIdAtReport": "golden-state-valkyries"
-    },
-    {
-      "rank": 10,
       "playerId": "aja-wilson",
       "teamIdAtReport": "las-vegas-aces"
     },
     {
+      "rank": 4,
+      "playerId": "napheesa-collier",
+      "teamIdAtReport": "minnesota-lynx"
+    },
+    {
+      "rank": 5,
+      "playerId": "angel-reese",
+      "teamIdAtReport": "atlanta-dream"
+    },
+    {
+      "rank": 6,
+      "playerId": "azzi-fudd",
+      "teamIdAtReport": "dallas-wings"
+    },
+    {
+      "rank": 7,
+      "playerId": "sonia-citron",
+      "teamIdAtReport": "washington-mystics"
+    },
+    {
+      "rank": 8,
+      "playerId": "breanna-stewart",
+      "teamIdAtReport": "new-york-liberty"
+    },
+    {
+      "rank": 9,
+      "playerId": "olivia-miles",
+      "teamIdAtReport": "minnesota-lynx"
+    },
+    {
+      "rank": 10,
+      "playerId": "veronica-burton",
+      "teamIdAtReport": "golden-state-valkyries"
+    },
+    {
       "rank": 11,
+      "playerId": "kaitlyn-chen",
+      "teamIdAtReport": "golden-state-valkyries"
+    },
+    {
+      "rank": 12,
       "playerId": "sabrina-ionescu",
       "teamIdAtReport": "new-york-liberty"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "playerId": "arike-ogunbowale",
       "teamIdAtReport": "dallas-wings"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "playerId": "tiffany-hayes",
       "teamIdAtReport": "golden-state-valkyries"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "playerId": "kiki-rice",
       "teamIdAtReport": "toronto-tempo"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "playerId": "flaujae-johnson",
       "teamIdAtReport": "seattle-storm"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "playerId": "lauren-betts",
       "teamIdAtReport": "washington-mystics"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "playerId": "gabriela-jaquez",
       "teamIdAtReport": "chicago-sky"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "playerId": "kiki-iriafen",
       "teamIdAtReport": "washington-mystics"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "playerId": "kayla-mcbride",
       "teamIdAtReport": "minnesota-lynx"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "playerId": "cameron-brink",
       "teamIdAtReport": "los-angeles-sparks"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "playerId": "georgia-amoore",
       "teamIdAtReport": "washington-mystics"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "playerId": "megan-dileo",
       "teamIdAtReport": "portland-fire"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "playerId": "kamilla-cardoso",
       "teamIdAtReport": "chicago-sky"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "playerId": "aliyah-boston",
       "teamIdAtReport": "indiana-fever"
-    },
-    {
-      "rank": 25,
-      "playerId": "awa-fam",
-      "teamIdAtReport": "seattle-storm"
     }
   ]
 }
