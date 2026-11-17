@@ -3,7 +3,7 @@ import type { League, Ranking } from "@/lib/schema";
 import { getLeagues, getCurrentRanking, getPlayer, getTeam, getProducts, entryTeams, reportStatus } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { jerseyImg } from "@/lib/img";
-import { topRisers } from "@/lib/trending";
+import { topRisers, pageviewTrending } from "@/lib/trending";
 import { ShopButton } from "./ShopButton";
 import { JerseyThumb } from "./HomeBits";
 import { fmtShortDate } from "@/lib/format";
@@ -43,7 +43,11 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
   const pinned = cityAds ? null : pinnedRailBanner();
   // Risers come only from leagues with a comparable earlier report; on a league page, that league's risers first.
-  const allRisers = minimal ? [] : topRisers(20);
+  // Weekly page-view trending when the weekly job has run: this league's top 5, or each league's No. 1 elsewhere.
+  const pv = minimal ? null : pageviewTrending();
+  const pvLeague = pv?.leagues.find((x) => x.league.id === active);
+  const pvRows = pv ? (pvLeague ? pvLeague.rows.map((r) => ({ league: pvLeague.league, ...r })) : pv.leagues.map((x) => ({ league: x.league, ...x.rows[0] }))) : [];
+  const allRisers = minimal || pv ? [] : topRisers(20);
   const risers = [...allRisers.filter((r) => r.league.id === active), ...allRisers.filter((r) => r.league.id !== active)].slice(0, 4);
   const riserNote = [...new Set(risers.map((r) => `${r.league.name} list of ${fmtShortDate(r.previous.publishedDate)}`))].join(" and the ");
   // "Shop the No. 1": the active league's leader, or on the homepage the leader of the newest list.
@@ -98,6 +102,24 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
       </section>}
 
       {!cityAds && <RotatingSlot at="rail_lids"><LidsAd banner={rectFor(active)} at="rail_lids" /></RotatingSlot>}
+
+      {pv && pvRows.length > 0 && (
+        <section className="rail-box">
+          <h2 className="rail-h">{pvLeague ? `Trending in the ${pvLeague.league.name} this week` : "Trending this week"}</h2>
+          <ol className="rail-trend">
+            {pvRows.map((r) => (
+              <li key={r.league.id + r.player.id} style={{ "--lg": r.league.accent } as React.CSSProperties}>
+                <span className="rail-trend-up is-pv">{pvLeague ? r.rank : r.league.name}</span>
+                <JerseyThumb player={r.player} teamId={r.player.teamId} size={34} className="rail-ti" />
+                <Link href={`/players/${r.player.slug}/`}>{r.player.name}</Link>
+                <span className="rail-team">{new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(r.views)} Wikipedia views{r.change !== null && r.change !== 0 ? ` · ${r.change > 0 ? "▲" : "▼"}${Math.abs(r.change)}%` : ""}</span>
+              </li>
+            ))}
+          </ol>
+          <p className="rail-asof">Page views {fmtShortDate(pv.data.start)} to {fmtShortDate(pv.data.end)}. Interest, not sales.</p>
+          <Link className="rail-more" href="/trending/">All trending players →</Link>
+        </section>
+      )}
 
       {!minimal && risers.length > 0 && (
         <section className="rail-box">

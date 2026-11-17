@@ -148,3 +148,20 @@ export type Ranking = z.infer<typeof RankingSchema>;
 export type Merchant = z.infer<typeof MerchantSchema>;
 export type Product = z.infer<typeof ProductSchema>;
 export type Promotion = z.infer<typeof PromotionSchema>;
+
+/** Weekly trending lists from English Wikipedia page views (data/trending.json, written by scripts/trending-pageviews.mjs). */
+export const TrendingSchema = z.object({
+  note: z.string().optional(),
+  source: url,
+  start: z.string(),
+  end: z.string(),
+  updated: z.string(),
+  playersChecked: z.number().int().nonnegative(),
+  leagues: z.record(z.string(), z.array(z.object({
+    playerId: z.string(),
+    wikipediaTitle: z.string(),
+    views: z.number().int().nonnegative(),
+    previousViews: z.number().int().nonnegative(),
+  })).max(5)),
+});
+export type Trending = z.infer<typeof TrendingSchema>;
