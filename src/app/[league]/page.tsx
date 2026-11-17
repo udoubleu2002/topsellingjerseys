@@ -175,7 +175,10 @@ export default async function LeaguePage({ params }: Props) {
               <p><strong>Scope.</strong> {ranking.scope}</p>
               {ranking.methodology && <p><strong>Method.</strong> {ranking.methodology}</p>}
               <p>
-                Players appear in the exact order of the published report. Stats come from separate sources, each with its own date, and are
+                {ranking.unofficial
+                  ? "This order is unofficial: it follows the retailer's \"Top Sellers\" sort, because no published sales list is newer. "
+                  : "Players appear in the exact order of the published report. "}
+                Stats come from separate sources, each with its own date, and are
                 shown under every player. Read our <Link href="/methodology/">ranking methodology</Link> and{" "}
                 <Link href="/sources/">sources and data coverage</Link>.
               </p>

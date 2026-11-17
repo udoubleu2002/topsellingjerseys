@@ -6,7 +6,7 @@ import { productColor } from "@/lib/productStyle";
 describe("freshness labels", () => {
   it("labels each league's latest list from its own dates", () => {
     const kinds = Object.fromEntries(getLeagues().map((l) => [l.id, freshness(getCurrentRanking(l.id)!).kind]));
-    expect(kinds.wnba).toBe("outdated"); // July 2024 list, no newer one
+    expect(kinds.wnba).toBe("dated"); // WNBA Store order, shown amber as "Unofficial order"
     expect(kinds.mls).toBe("current"); // sales through Oct 30, 2026
     expect(kinds.nfl).toBe("dated"); // sales ended Feb 2026
   });

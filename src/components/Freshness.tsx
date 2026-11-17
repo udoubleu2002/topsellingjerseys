@@ -11,6 +11,7 @@ export function freshness(r: Ranking) {
   const months = Math.max(1, Math.round(days / 30.4));
   const ended = new Date(`${end}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
   if (s.kind !== "latest") return { kind: "old" as const, short: s.label, long: s.label };
+  if (r.unofficial) return { kind: "dated" as const, short: "Unofficial order", long: `Unofficial order · ${r.periodLabel}` };
   if (days < STALE_AFTER_DAYS) return { kind: "current" as const, short: "Current list", long: `Current list · sales through ${ended}` };
   if (days < 365) return { kind: "dated" as const, short: "Latest available", long: `Latest available · sales ended ${ended}, ${months} months ago` };
   return { kind: "outdated" as const, short: "Outdated: no newer list", long: `Outdated · sales ended ${ended}, over a year ago. No newer list has been published.` };

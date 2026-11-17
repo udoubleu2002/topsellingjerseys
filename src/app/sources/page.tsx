@@ -60,7 +60,7 @@ export default function Sources() {
       </div>
       <h2>Searched for and not used</h2>
       <ul>
-        <li><strong>WNBA:</strong> as of November 4, 2026 we found no ranked WNBA list newer than Fanatics&apos; July 2024 report from the WNBA, the WNBPA or a named retail partner. Lists that copy the WNBA Store&apos;s &quot;best selling&quot; sort order are not published sales reports, so they are not used.</li>
+        <li><strong>WNBA:</strong> as of November 16, 2026 we found no ranked WNBA list newer than Fanatics&apos; July 2024 report. The WNBA page therefore follows the official WNBA Store&apos;s &quot;Top Sellers&quot; sort, checked November 16, 2026. That order is unofficial and is labeled that way on every page that shows it.</li>
         <li><strong>NHL:</strong> the league shared its 2025-26 list on social media. We cite published coverage of it and cross-checked the order against a second outlet.</li>
         <li><strong>MLS:</strong> the 2026 list (MLS Store, January 1 to October 30, 2026) replaced the 2025 season list as the latest MLS report on November 3, 2026. The 2025 list stays online as a historical report.</li>
       </ul>

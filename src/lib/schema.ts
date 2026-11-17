@@ -79,6 +79,8 @@ export const RankingSchema = z.object({
   lastVerified: isoDate,
   limitations: z.array(z.string()),
   status: z.enum(["draft", "published", "archived"]),
+  /** True when the order is not from a published sales report (for example, a store's "Top Sellers" sort). Shown as unofficial everywhere. */
+  unofficial: z.boolean().optional(),
   entries: z.array(z.object({
     rank: z.number().int().positive(),
     playerId: z.string(),
