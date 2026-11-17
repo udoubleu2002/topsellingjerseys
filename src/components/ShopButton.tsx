@@ -20,7 +20,6 @@ export function ShopButton({ offer, ctx, children, variant = "primary" }: { offe
       data-rank={ctx.rank}
       data-placement={ctx.placement}
       data-page={ctx.page}
-      data-cta-experiment="cta_wording"
     >
       <span className="cta-text">{children}</span>
       {variant !== "ghost" && (
