@@ -12158,37 +12158,37 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "26"
+        "value": "29"
       },
       {
         "label": "MIN",
-        "value": "2,360"
+        "value": "2,664"
       },
       {
         "label": "G",
-        "value": "25"
+        "value": "26"
       },
       {
         "label": "A",
-        "value": "15"
+        "value": "16"
       },
       {
         "label": "Shots",
-        "value": "169"
+        "value": "183"
       },
       {
         "label": "SOT",
-        "value": "70"
+        "value": "74"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Assists are MLS official counts, which include secondary assists.",
-    "source": "https://www.intermiamicf.com/news/match-recap-inter-miami-cf-collects-third-straight-victory-in-3-1-road-win-over-atlanta-united-fc",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN. MLS's official count, which includes secondary assists, gives him 17 assists.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/45843",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12200,11 +12200,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "MIN",
-        "value": "2,276"
+        "value": "2,551"
       },
       {
         "label": "G",
@@ -12212,13 +12212,13 @@
       },
       {
         "label": "A",
-        "value": "15"
+        "value": "14"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Assists are MLS official counts, which include secondary assists.",
-    "source": "https://www.lafc.com/news/preview-nycfc-vs-lafc-2026-mls-season-october-17",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season, as listed by ESPN. ESPN counts primary assists only; MLS's official assist count, which adds secondary assists, is higher.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/149945",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12230,29 +12230,29 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "8"
+        "value": "10"
       },
       {
         "label": "GS",
-        "value": "6"
+        "value": "8"
       },
       {
         "label": "MIN",
-        "value": "564"
+        "value": "671"
       },
       {
         "label": "G",
-        "value": "1"
+        "value": "2"
       },
       {
         "label": "A",
         "value": "1"
       }
     ],
-    "note": "Galaxy games only; on loan from San Diego FC. Season in progress; the regular season ends Nov. 7.",
-    "source": "https://www.fotmob.com/players/521210/hirving-lozano",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/200161",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12264,21 +12264,21 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "26"
+        "value": "30"
       },
       {
         "label": "G",
-        "value": "15"
+        "value": "17"
       },
       {
         "label": "A",
-        "value": "12"
+        "value": "10"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Assists are MLS official counts, which include secondary assists.",
-    "source": "https://www.intermiamicf.com/news/luis-suarez-becomes-second-player-in-club-history-to-reach-100-goal-contributions",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season, as listed by ESPN. ESPN counts primary assists only; MLS's official assist count, which adds secondary assists, is higher.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/125088",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12290,37 +12290,37 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "23"
+        "value": "27"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "26"
       },
       {
         "label": "MIN",
-        "value": "1,946"
+        "value": "2,282"
       },
       {
         "label": "G",
-        "value": "6"
+        "value": "7"
       },
       {
         "label": "A",
-        "value": "5"
+        "value": "8"
       },
       {
         "label": "Shots",
-        "value": "61"
+        "value": "69"
       },
       {
         "label": "SOT",
-        "value": "22"
+        "value": "24"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7.",
-    "source": "https://www.fotmob.com/players/442277/miguel-almiron",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/48128",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12332,25 +12332,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "21"
+        "value": "25"
       },
       {
         "label": "GS",
-        "value": "14"
+        "value": "17"
       },
       {
         "label": "G",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "A",
         "value": "4"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7.",
-    "source": "https://www.soundersfc.com/news/match-recap-sounders-fc-draws-cf-montreal-1-1-saturday-night-at-lumen-field",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-23",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/210252",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12362,29 +12362,29 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "29"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "29"
       },
       {
         "label": "G",
-        "value": "5"
+        "value": "6"
       },
       {
         "label": "Shots",
-        "value": "33"
+        "value": "42"
       },
       {
         "label": "SOT",
-        "value": "14"
+        "value": "17"
       }
     ],
-    "note": "Assist totals differ between data providers, so they are not shown. Season in progress; the regular season ends Nov. 7.",
-    "source": "https://www.espn.com/soccer/player/_/id/174466/rodrigo-de-paul",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/174466",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -12426,15 +12426,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "24"
       },
       {
         "label": "MIN",
-        "value": "1,994"
+        "value": "2,176"
       },
       {
         "label": "G",
@@ -12442,17 +12442,17 @@
       },
       {
         "label": "Shots",
-        "value": "47"
+        "value": "57"
       },
       {
         "label": "SOT",
-        "value": "23"
+        "value": "26"
       }
     ],
-    "note": "Assist totals differ between data providers, so they are not shown. Season in progress; the regular season ends Nov. 7.",
-    "source": "https://www.espn.com/soccer/player/_/id/122356/marco-reus",
-    "throughDate": "2026-10-17",
-    "updatedAt": "2026-10-21",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/122356",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40720,21 +40720,21 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
-        "value": "6"
+        "value": "7"
       },
       {
         "label": "A",
-        "value": "6"
+        "value": "7"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/185897",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40746,21 +40746,21 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "9"
+        "value": "12"
       },
       {
         "label": "G",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "A",
         "value": "1"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/202099",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40772,7 +40772,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "G",
@@ -40783,10 +40783,10 @@
         "value": "2"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18418/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/255802",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40798,13 +40798,13 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "33"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances as listed on ESPN's club stats page.",
-    "source": "https://www.espn.com/soccer/team/stats/_/id/18418/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/109193",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40816,11 +40816,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "20"
+        "value": "22"
       },
       {
         "label": "GS",
-        "value": "12"
+        "value": "14"
       },
       {
         "label": "G",
@@ -40832,17 +40832,17 @@
       },
       {
         "label": "Shots",
-        "value": "41"
+        "value": "45"
       },
       {
         "label": "SOT",
         "value": "18"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/228620",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40854,11 +40854,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "23"
+        "value": "25"
       },
       {
         "label": "GS",
-        "value": "21"
+        "value": "22"
       },
       {
         "label": "G",
@@ -40870,17 +40870,17 @@
       },
       {
         "label": "Shots",
-        "value": "56"
+        "value": "64"
       },
       {
         "label": "SOT",
-        "value": "27"
+        "value": "32"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/275500",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40892,11 +40892,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "29"
       },
       {
         "label": "G",
@@ -40915,10 +40915,10 @@
         "value": "17"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/67518",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40930,25 +40930,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "29"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "29"
       },
       {
         "label": "Saves",
-        "value": "128"
+        "value": "130"
       },
       {
         "label": "GA",
-        "value": "52"
+        "value": "54"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/183780",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -40960,11 +40960,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "15"
+        "value": "17"
       },
       {
         "label": "G",
@@ -40976,17 +40976,17 @@
       },
       {
         "label": "Shots",
-        "value": "27"
+        "value": "35"
       },
       {
         "label": "SOT",
-        "value": "15"
+        "value": "16"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20906/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/235061",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41021,10 +41021,10 @@
         "value": "32"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/275798",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41036,11 +41036,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "12"
+        "value": "15"
       },
       {
         "label": "GS",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "G",
@@ -41052,17 +41052,17 @@
       },
       {
         "label": "Shots",
-        "value": "10"
+        "value": "12"
       },
       {
         "label": "SOT",
-        "value": "4"
+        "value": "5"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/92055",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41074,11 +41074,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "27"
       },
       {
         "label": "G",
@@ -41090,17 +41090,17 @@
       },
       {
         "label": "Shots",
-        "value": "35"
+        "value": "37"
       },
       {
         "label": "SOT",
         "value": "11"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/279758",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41112,11 +41112,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "20"
+        "value": "21"
       },
       {
         "label": "GS",
-        "value": "14"
+        "value": "15"
       },
       {
         "label": "G",
@@ -41135,10 +41135,10 @@
         "value": "1"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/87387",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41150,11 +41150,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "21"
+        "value": "24"
       },
       {
         "label": "GS",
-        "value": "13"
+        "value": "16"
       },
       {
         "label": "G",
@@ -41166,17 +41166,17 @@
       },
       {
         "label": "Shots",
-        "value": "28"
+        "value": "33"
       },
       {
         "label": "SOT",
-        "value": "9"
+        "value": "11"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9720/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/315924",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41188,11 +41188,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "G",
@@ -41200,21 +41200,21 @@
       },
       {
         "label": "A",
-        "value": "11"
+        "value": "14"
       },
       {
         "label": "Shots",
-        "value": "61"
+        "value": "67"
       },
       {
         "label": "SOT",
-        "value": "24"
+        "value": "25"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/268604",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41226,33 +41226,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "G",
-        "value": "14"
+        "value": "15"
       },
       {
         "label": "A",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "Shots",
-        "value": "48"
+        "value": "53"
       },
       {
         "label": "SOT",
-        "value": "25"
+        "value": "29"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/340698",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41264,33 +41264,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "12"
+        "value": "15"
       },
       {
         "label": "GS",
-        "value": "10"
+        "value": "13"
       },
       {
         "label": "G",
-        "value": "1"
+        "value": "2"
       },
       {
         "label": "A",
-        "value": "6"
+        "value": "7"
       },
       {
         "label": "Shots",
-        "value": "31"
+        "value": "37"
       },
       {
         "label": "SOT",
-        "value": "12"
+        "value": "15"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/193281",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41325,10 +41325,10 @@
         "value": "0"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/146290",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41340,25 +41340,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "143"
+        "value": "154"
       },
       {
         "label": "GA",
-        "value": "48"
+        "value": "51"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21300/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/221408",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41370,21 +41370,21 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "G",
-        "value": "6"
+        "value": "9"
       },
       {
         "label": "A",
-        "value": "3"
+        "value": "4"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals and assists as listed on ESPN's club stats page.",
-    "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/125824",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41396,7 +41396,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "G",
@@ -41404,13 +41404,13 @@
       },
       {
         "label": "A",
-        "value": "9"
+        "value": "11"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals and assists as listed on ESPN's club stats page.",
-    "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/186466",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41422,21 +41422,21 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "G",
-        "value": "11"
+        "value": "13"
       },
       {
         "label": "A",
         "value": "9"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals and assists as listed on ESPN's club stats page.",
-    "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/259951",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41448,13 +41448,13 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances as listed on ESPN's club stats page.",
-    "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/303693",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41466,21 +41466,21 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "G",
-        "value": "3"
+        "value": "6"
       },
       {
         "label": "A",
-        "value": "4"
+        "value": "5"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals and assists as listed on ESPN's club stats page.",
-    "source": "https://www.espn.com/soccer/team/stats/_/id/182/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/210538",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41492,33 +41492,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "G",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "A",
-        "value": "9"
+        "value": "11"
       },
       {
         "label": "Shots",
-        "value": "56"
+        "value": "60"
       },
       {
         "label": "SOT",
-        "value": "23"
+        "value": "25"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/304129",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41545,10 +41545,10 @@
         "value": "15"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/219276",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41560,11 +41560,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "30"
       },
       {
         "label": "G",
@@ -41576,17 +41576,17 @@
       },
       {
         "label": "Shots",
-        "value": "13"
+        "value": "14"
       },
       {
         "label": "SOT",
         "value": "2"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/218188",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41598,33 +41598,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "16"
+        "value": "17"
       },
       {
         "label": "G",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "A",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "Shots",
-        "value": "34"
+        "value": "37"
       },
       {
         "label": "SOT",
-        "value": "10"
+        "value": "11"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/304623",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41659,10 +41659,10 @@
         "value": "3"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/184/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/251369",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41674,25 +41674,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "95"
+        "value": "107"
       },
       {
         "label": "GA",
-        "value": "49"
+        "value": "52"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/275080",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41704,7 +41704,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "13"
+        "value": "14"
       },
       {
         "label": "GS",
@@ -41712,7 +41712,7 @@
       },
       {
         "label": "G",
-        "value": "5"
+        "value": "6"
       },
       {
         "label": "A",
@@ -41720,17 +41720,17 @@
       },
       {
         "label": "Shots",
-        "value": "38"
+        "value": "39"
       },
       {
         "label": "SOT",
-        "value": "19"
+        "value": "20"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/262729",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41765,10 +41765,10 @@
         "value": "9"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/270819",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41780,7 +41780,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "23"
+        "value": "25"
       },
       {
         "label": "GS",
@@ -41803,10 +41803,10 @@
         "value": "3"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/175108",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41818,11 +41818,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "G",
@@ -41830,21 +41830,21 @@
       },
       {
         "label": "A",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "Shots",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "SOT",
-        "value": "12"
+        "value": "13"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/183/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/362812",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41879,10 +41879,10 @@
         "value": "24"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/313068",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41917,10 +41917,10 @@
         "value": "24"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/286999",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41932,11 +41932,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "32"
       },
       {
         "label": "Saves",
@@ -41944,13 +41944,13 @@
       },
       {
         "label": "GA",
-        "value": "53"
+        "value": "55"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/141316",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -41962,11 +41962,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "G",
@@ -41978,17 +41978,17 @@
       },
       {
         "label": "Shots",
-        "value": "45"
+        "value": "52"
       },
       {
         "label": "SOT",
-        "value": "9"
+        "value": "13"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/297079",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42023,10 +42023,10 @@
         "value": "19"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/193/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/324048",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42038,11 +42038,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "26"
+        "value": "28"
       },
       {
         "label": "G",
@@ -42050,21 +42050,21 @@
       },
       {
         "label": "A",
-        "value": "14"
+        "value": "16"
       },
       {
         "label": "Shots",
-        "value": "95"
+        "value": "107"
       },
       {
         "label": "SOT",
-        "value": "40"
+        "value": "41"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/86436",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42076,11 +42076,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "G",
@@ -42092,17 +42092,17 @@
       },
       {
         "label": "Shots",
-        "value": "77"
+        "value": "78"
       },
       {
         "label": "SOT",
         "value": "33"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/251694",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42114,11 +42114,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "29"
       },
       {
         "label": "G",
@@ -42130,17 +42130,17 @@
       },
       {
         "label": "Shots",
-        "value": "28"
+        "value": "30"
       },
       {
         "label": "SOT",
-        "value": "11"
+        "value": "12"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/279180",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42152,25 +42152,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "Saves",
-        "value": "83"
+        "value": "94"
       },
       {
         "label": "GA",
-        "value": "60"
+        "value": "64"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/315972",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42182,7 +42182,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "21"
+        "value": "22"
       },
       {
         "label": "GS",
@@ -42205,10 +42205,10 @@
         "value": "3"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18267/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/249768",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42220,11 +42220,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "24"
       },
       {
         "label": "G",
@@ -42232,21 +42232,21 @@
       },
       {
         "label": "A",
-        "value": "5"
+        "value": "6"
       },
       {
         "label": "Shots",
-        "value": "88"
+        "value": "102"
       },
       {
         "label": "SOT",
-        "value": "46"
+        "value": "52"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/277128",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42258,7 +42258,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "28"
       },
       {
         "label": "GS",
@@ -42270,21 +42270,21 @@
       },
       {
         "label": "A",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "Shots",
-        "value": "47"
+        "value": "48"
       },
       {
         "label": "SOT",
         "value": "20"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/348870",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42296,11 +42296,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "G",
@@ -42312,17 +42312,17 @@
       },
       {
         "label": "Shots",
-        "value": "12"
+        "value": "14"
       },
       {
         "label": "SOT",
-        "value": "7"
+        "value": "8"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/219275",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42334,15 +42334,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "24"
       },
       {
         "label": "G",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "A",
@@ -42350,17 +42350,17 @@
       },
       {
         "label": "Shots",
-        "value": "25"
+        "value": "29"
       },
       {
         "label": "SOT",
-        "value": "5"
+        "value": "6"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/359922",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42372,33 +42372,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "27"
       },
       {
         "label": "G",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "A",
-        "value": "2"
+        "value": "3"
       },
       {
         "label": "Shots",
-        "value": "29"
+        "value": "34"
       },
       {
         "label": "SOT",
-        "value": "11"
+        "value": "13"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/185/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/380441",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42410,7 +42410,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "30"
       },
       {
         "label": "GS",
@@ -42433,10 +42433,10 @@
         "value": "9"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/146866",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42448,11 +42448,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
@@ -42460,21 +42460,21 @@
       },
       {
         "label": "A",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "Shots",
-        "value": "92"
+        "value": "97"
       },
       {
         "label": "SOT",
         "value": "34"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/287841",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42486,11 +42486,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "30"
       },
       {
         "label": "G",
@@ -42502,17 +42502,17 @@
       },
       {
         "label": "Shots",
-        "value": "86"
+        "value": "92"
       },
       {
         "label": "SOT",
-        "value": "36"
+        "value": "38"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/233578",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42524,25 +42524,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "83"
+        "value": "92"
       },
       {
         "label": "GA",
-        "value": "38"
+        "value": "42"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/65434",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42554,11 +42554,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
@@ -42570,17 +42570,17 @@
       },
       {
         "label": "Shots",
-        "value": "19"
+        "value": "22"
       },
       {
         "label": "SOT",
         "value": "6"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/6077/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/323199",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42592,11 +42592,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "15"
+        "value": "18"
       },
       {
         "label": "GS",
-        "value": "15"
+        "value": "18"
       },
       {
         "label": "G",
@@ -42604,21 +42604,21 @@
       },
       {
         "label": "A",
-        "value": "0"
+        "value": "1"
       },
       {
         "label": "Shots",
-        "value": "11"
+        "value": "12"
       },
       {
         "label": "SOT",
         "value": "4"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/173666",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42630,33 +42630,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "G",
-        "value": "9"
+        "value": "10"
       },
       {
         "label": "A",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "Shots",
-        "value": "56"
+        "value": "62"
       },
       {
         "label": "SOT",
-        "value": "22"
+        "value": "25"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/20232/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/228394",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42668,11 +42668,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "24"
+        "value": "26"
       },
       {
         "label": "GS",
-        "value": "20"
+        "value": "22"
       },
       {
         "label": "G",
@@ -42684,17 +42684,17 @@
       },
       {
         "label": "Shots",
-        "value": "43"
+        "value": "45"
       },
       {
         "label": "SOT",
-        "value": "22"
+        "value": "23"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/256843",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42706,7 +42706,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "11"
+        "value": "12"
       },
       {
         "label": "GS",
@@ -42729,10 +42729,10 @@
         "value": "7"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/276904",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42767,10 +42767,10 @@
         "value": "5"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/187/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/105803",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42782,11 +42782,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "G",
@@ -42798,17 +42798,17 @@
       },
       {
         "label": "Shots",
-        "value": "93"
+        "value": "100"
       },
       {
         "label": "SOT",
-        "value": "46"
+        "value": "49"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/213304",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42820,11 +42820,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "29"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "29"
       },
       {
         "label": "Saves",
@@ -42832,13 +42832,13 @@
       },
       {
         "label": "GA",
-        "value": "29"
+        "value": "32"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/43372",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42850,11 +42850,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "23"
+        "value": "24"
       },
       {
         "label": "G",
@@ -42866,17 +42866,17 @@
       },
       {
         "label": "Shots",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "SOT",
         "value": "5"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/193171",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42911,10 +42911,10 @@
         "value": "3"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18966/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/231192",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42926,33 +42926,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "G",
-        "value": "17"
+        "value": "18"
       },
       {
         "label": "A",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "Shots",
-        "value": "81"
+        "value": "90"
       },
       {
         "label": "SOT",
-        "value": "33"
+        "value": "35"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/289941",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -42964,33 +42964,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "27"
       },
       {
         "label": "G",
-        "value": "3"
+        "value": "5"
       },
       {
         "label": "A",
-        "value": "14"
+        "value": "16"
       },
       {
         "label": "Shots",
-        "value": "49"
+        "value": "53"
       },
       {
         "label": "SOT",
-        "value": "13"
+        "value": "16"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/233943",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43002,25 +43002,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "96"
+        "value": "105"
       },
       {
         "label": "GA",
-        "value": "53"
+        "value": "56"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/245083",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43032,15 +43032,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "A",
@@ -43048,17 +43048,17 @@
       },
       {
         "label": "Shots",
-        "value": "51"
+        "value": "56"
       },
       {
         "label": "SOT",
-        "value": "19"
+        "value": "22"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/281323",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43070,7 +43070,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "22"
+        "value": "23"
       },
       {
         "label": "GS",
@@ -43093,10 +43093,10 @@
         "value": "0"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17362/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/101934",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43108,15 +43108,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "30"
       },
       {
         "label": "G",
-        "value": "16"
+        "value": "17"
       },
       {
         "label": "A",
@@ -43124,17 +43124,17 @@
       },
       {
         "label": "Shots",
-        "value": "99"
+        "value": "108"
       },
       {
         "label": "SOT",
-        "value": "41"
+        "value": "44"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/174548",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43146,15 +43146,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "GS",
-        "value": "21"
+        "value": "23"
       },
       {
         "label": "G",
-        "value": "18"
+        "value": "21"
       },
       {
         "label": "A",
@@ -43162,17 +43162,17 @@
       },
       {
         "label": "Shots",
-        "value": "67"
+        "value": "80"
       },
       {
         "label": "SOT",
-        "value": "37"
+        "value": "45"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/227627",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43184,11 +43184,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "23"
+        "value": "26"
       },
       {
         "label": "G",
@@ -43196,21 +43196,21 @@
       },
       {
         "label": "A",
-        "value": "14"
+        "value": "15"
       },
       {
         "label": "Shots",
-        "value": "36"
+        "value": "39"
       },
       {
         "label": "SOT",
-        "value": "14"
+        "value": "15"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/73200",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43222,25 +43222,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "Saves",
-        "value": "81"
+        "value": "90"
       },
       {
         "label": "GA",
-        "value": "23"
+        "value": "25"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/296695",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43252,11 +43252,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "24"
       },
       {
         "label": "G",
@@ -43264,21 +43264,21 @@
       },
       {
         "label": "A",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "Shots",
-        "value": "15"
+        "value": "18"
       },
       {
         "label": "SOT",
         "value": "6"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/18986/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/146355",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43290,11 +43290,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "G",
@@ -43302,21 +43302,21 @@
       },
       {
         "label": "A",
-        "value": "11"
+        "value": "12"
       },
       {
         "label": "Shots",
-        "value": "61"
+        "value": "63"
       },
       {
         "label": "SOT",
-        "value": "31"
+        "value": "32"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/152168",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43328,25 +43328,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "124"
+        "value": "138"
       },
       {
         "label": "GA",
-        "value": "42"
+        "value": "47"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/303794",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43358,15 +43358,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "G",
-        "value": "10"
+        "value": "12"
       },
       {
         "label": "A",
@@ -43374,17 +43374,17 @@
       },
       {
         "label": "Shots",
-        "value": "67"
+        "value": "75"
       },
       {
         "label": "SOT",
-        "value": "28"
+        "value": "30"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/305755",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43396,11 +43396,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "23"
       },
       {
         "label": "G",
@@ -43408,21 +43408,21 @@
       },
       {
         "label": "A",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "Shots",
-        "value": "67"
+        "value": "69"
       },
       {
         "label": "SOT",
-        "value": "33"
+        "value": "34"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/376513",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43434,11 +43434,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "26"
+        "value": "29"
       },
       {
         "label": "GS",
-        "value": "24"
+        "value": "26"
       },
       {
         "label": "G",
@@ -43450,17 +43450,17 @@
       },
       {
         "label": "Shots",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "SOT",
-        "value": "3"
+        "value": "4"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/189/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/216609",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43472,33 +43472,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "G",
-        "value": "15"
+        "value": "16"
       },
       {
         "label": "A",
-        "value": "10"
+        "value": "11"
       },
       {
         "label": "Shots",
-        "value": "78"
+        "value": "85"
       },
       {
         "label": "SOT",
-        "value": "43"
+        "value": "47"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/108107",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43510,25 +43510,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "Saves",
-        "value": "98"
+        "value": "109"
       },
       {
         "label": "GA",
-        "value": "39"
+        "value": "41"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/252974",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43540,11 +43540,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "GS",
-        "value": "18"
+        "value": "20"
       },
       {
         "label": "G",
@@ -43556,17 +43556,17 @@
       },
       {
         "label": "Shots",
-        "value": "30"
+        "value": "31"
       },
       {
         "label": "SOT",
         "value": "12"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/250852",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43578,11 +43578,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "33"
       },
       {
         "label": "G",
@@ -43594,17 +43594,17 @@
       },
       {
         "label": "Shots",
-        "value": "38"
+        "value": "39"
       },
       {
         "label": "SOT",
-        "value": "15"
+        "value": "16"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/337149",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43639,10 +43639,10 @@
         "value": "5"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/17606/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/70624",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43654,7 +43654,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "GS",
@@ -43666,21 +43666,21 @@
       },
       {
         "label": "A",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "Shots",
-        "value": "49"
+        "value": "50"
       },
       {
         "label": "SOT",
         "value": "17"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/148641",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43715,10 +43715,10 @@
         "value": "12"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/102254",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43730,15 +43730,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
-        "value": "11"
+        "value": "13"
       },
       {
         "label": "A",
@@ -43746,17 +43746,17 @@
       },
       {
         "label": "Shots",
-        "value": "69"
+        "value": "81"
       },
       {
         "label": "SOT",
-        "value": "34"
+        "value": "41"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/288041",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43768,33 +43768,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "31"
       },
       {
         "label": "G",
-        "value": "2"
+        "value": "4"
       },
       {
         "label": "A",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "Shots",
-        "value": "57"
+        "value": "65"
       },
       {
         "label": "SOT",
-        "value": "26"
+        "value": "30"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/285698",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43806,25 +43806,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "103"
+        "value": "110"
       },
       {
         "label": "GA",
-        "value": "56"
+        "value": "62"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/190/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/192027",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43836,33 +43836,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "15"
+        "value": "18"
       },
       {
         "label": "GS",
-        "value": "15"
+        "value": "18"
       },
       {
         "label": "G",
-        "value": "13"
+        "value": "14"
       },
       {
         "label": "A",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "Shots",
-        "value": "44"
+        "value": "53"
       },
       {
         "label": "SOT",
-        "value": "22"
+        "value": "29"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/140416",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43874,11 +43874,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "GS",
-        "value": "23"
+        "value": "26"
       },
       {
         "label": "G",
@@ -43890,17 +43890,17 @@
       },
       {
         "label": "Shots",
-        "value": "76"
+        "value": "88"
       },
       {
         "label": "SOT",
-        "value": "37"
+        "value": "41"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/233401",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43912,15 +43912,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "G",
-        "value": "6"
+        "value": "7"
       },
       {
         "label": "A",
@@ -43928,17 +43928,17 @@
       },
       {
         "label": "Shots",
-        "value": "26"
+        "value": "29"
       },
       {
         "label": "SOT",
-        "value": "17"
+        "value": "18"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/250448",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -43950,25 +43950,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "Saves",
-        "value": "128"
+        "value": "137"
       },
       {
         "label": "GA",
-        "value": "66"
+        "value": "72"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/159382",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44003,10 +44003,10 @@
         "value": "1"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/12011/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/147256",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44041,10 +44041,10 @@
         "value": "47"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/263585",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44056,15 +44056,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "29"
       },
       {
         "label": "GS",
-        "value": "20"
+        "value": "21"
       },
       {
         "label": "G",
-        "value": "7"
+        "value": "9"
       },
       {
         "label": "A",
@@ -44072,17 +44072,17 @@
       },
       {
         "label": "Shots",
-        "value": "62"
+        "value": "68"
       },
       {
         "label": "SOT",
-        "value": "27"
+        "value": "30"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/384397",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44094,25 +44094,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "Saves",
-        "value": "66"
+        "value": "68"
       },
       {
         "label": "GA",
-        "value": "44"
+        "value": "46"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/186943",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44124,33 +44124,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "G",
-        "value": "12"
+        "value": "13"
       },
       {
         "label": "A",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "Shots",
-        "value": "69"
+        "value": "76"
       },
       {
         "label": "SOT",
-        "value": "19"
+        "value": "23"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/322680",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44162,11 +44162,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "GS",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "G",
@@ -44178,17 +44178,17 @@
       },
       {
         "label": "Shots",
-        "value": "10"
+        "value": "11"
       },
       {
         "label": "SOT",
         "value": "2"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/10739/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/261317",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44200,15 +44200,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
-        "value": "8"
+        "value": "12"
       },
       {
         "label": "A",
@@ -44216,17 +44216,17 @@
       },
       {
         "label": "Shots",
-        "value": "100"
+        "value": "107"
       },
       {
         "label": "SOT",
-        "value": "29"
+        "value": "35"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/255418",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44238,33 +44238,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "G",
-        "value": "5"
-      },
-      {
-        "label": "A",
         "value": "7"
       },
       {
+        "label": "A",
+        "value": "9"
+      },
+      {
         "label": "Shots",
-        "value": "29"
+        "value": "33"
       },
       {
         "label": "SOT",
-        "value": "14"
+        "value": "18"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/303579",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44276,11 +44276,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "GS",
-        "value": "14"
+        "value": "15"
       },
       {
         "label": "G",
@@ -44299,10 +44299,10 @@
         "value": "0"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/71042",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44314,25 +44314,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "Saves",
-        "value": "118"
+        "value": "128"
       },
       {
         "label": "GA",
-        "value": "58"
+        "value": "61"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/257619",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44344,11 +44344,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "GS",
-        "value": "23"
+        "value": "24"
       },
       {
         "label": "G",
@@ -44356,21 +44356,21 @@
       },
       {
         "label": "A",
-        "value": "6"
+        "value": "7"
       },
       {
         "label": "Shots",
-        "value": "46"
+        "value": "48"
       },
       {
         "label": "SOT",
         "value": "14"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9723/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/277392",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44405,10 +44405,10 @@
         "value": "11"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/148356",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44420,33 +44420,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "G",
-        "value": "14"
+        "value": "15"
       },
       {
         "label": "A",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "Shots",
-        "value": "63"
+        "value": "75"
       },
       {
         "label": "SOT",
-        "value": "30"
+        "value": "32"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/418187",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44488,7 +44488,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "22"
+        "value": "24"
       },
       {
         "label": "GS",
@@ -44511,10 +44511,10 @@
         "value": "0"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/183778",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44526,15 +44526,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "27"
       },
       {
         "label": "GS",
-        "value": "21"
+        "value": "23"
       },
       {
         "label": "G",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "A",
@@ -44542,17 +44542,17 @@
       },
       {
         "label": "Shots",
-        "value": "51"
+        "value": "58"
       },
       {
         "label": "SOT",
-        "value": "24"
+        "value": "28"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/4771/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/305777",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44564,15 +44564,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "G",
-        "value": "13"
+        "value": "14"
       },
       {
         "label": "A",
@@ -44580,17 +44580,17 @@
       },
       {
         "label": "Shots",
-        "value": "94"
+        "value": "99"
       },
       {
         "label": "SOT",
-        "value": "42"
+        "value": "43"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/250454",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44602,11 +44602,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "27"
+        "value": "30"
       },
       {
         "label": "GS",
-        "value": "21"
+        "value": "23"
       },
       {
         "label": "G",
@@ -44618,17 +44618,17 @@
       },
       {
         "label": "Shots",
-        "value": "62"
+        "value": "71"
       },
       {
         "label": "SOT",
-        "value": "22"
+        "value": "26"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/186324",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44640,15 +44640,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "25"
+        "value": "27"
       },
       {
         "label": "G",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "A",
@@ -44656,17 +44656,17 @@
       },
       {
         "label": "Shots",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "SOT",
-        "value": "12"
+        "value": "13"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/277212",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44678,11 +44678,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "GS",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "G",
@@ -44694,17 +44694,17 @@
       },
       {
         "label": "Shots",
-        "value": "15"
+        "value": "19"
       },
       {
         "label": "SOT",
-        "value": "10"
+        "value": "12"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/147193",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44716,11 +44716,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "28"
       },
       {
         "label": "GS",
-        "value": "21"
+        "value": "22"
       },
       {
         "label": "G",
@@ -44732,17 +44732,17 @@
       },
       {
         "label": "Shots",
-        "value": "7"
+        "value": "9"
       },
       {
         "label": "SOT",
         "value": "2"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/22529/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/214371",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44754,11 +44754,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "19"
+        "value": "21"
       },
       {
         "label": "GS",
-        "value": "13"
+        "value": "15"
       },
       {
         "label": "G",
@@ -44766,21 +44766,21 @@
       },
       {
         "label": "A",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "Shots",
-        "value": "32"
+        "value": "35"
       },
       {
         "label": "SOT",
-        "value": "17"
+        "value": "19"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/191088",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -44792,183 +44792,39 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "32"
       },
       {
         "label": "GS",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "G",
-        "value": "16"
+        "value": "17"
       },
       {
         "label": "A",
-        "value": "3"
+        "value": "4"
       },
       {
         "label": "Shots",
-        "value": "78"
+        "value": "87"
       },
       {
         "label": "SOT",
-        "value": "39"
+        "value": "41"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/295339",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
     "playerId": "niko-tsakiris",
     "league": "mls",
     "teamId": "san-jose-earthquakes",
-    "season": "2026",
-    "competition": "regular-season",
-    "statistics": [
-      {
-        "label": "GP",
-        "value": "20"
-      },
-      {
-        "label": "GS",
-        "value": "18"
-      },
-      {
-        "label": "G",
-        "value": "3"
-      },
-      {
-        "label": "A",
-        "value": "11"
-      },
-      {
-        "label": "Shots",
-        "value": "30"
-      },
-      {
-        "label": "SOT",
-        "value": "8"
-      }
-    ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
-    "isDemo": false
-  },
-  {
-    "playerId": "ousseni-bouda",
-    "league": "mls",
-    "teamId": "san-jose-earthquakes",
-    "season": "2026",
-    "competition": "regular-season",
-    "statistics": [
-      {
-        "label": "GP",
-        "value": "30"
-      },
-      {
-        "label": "GS",
-        "value": "24"
-      },
-      {
-        "label": "G",
-        "value": "6"
-      },
-      {
-        "label": "A",
-        "value": "3"
-      },
-      {
-        "label": "Shots",
-        "value": "45"
-      },
-      {
-        "label": "SOT",
-        "value": "17"
-      }
-    ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
-    "isDemo": false
-  },
-  {
-    "playerId": "angus-gunn",
-    "league": "mls",
-    "teamId": "san-jose-earthquakes",
-    "season": "2026",
-    "competition": "regular-season",
-    "statistics": [
-      {
-        "label": "GP",
-        "value": "14"
-      },
-      {
-        "label": "GS",
-        "value": "14"
-      },
-      {
-        "label": "Saves",
-        "value": "47"
-      },
-      {
-        "label": "GA",
-        "value": "28"
-      }
-    ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/191/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
-    "isDemo": false
-  },
-  {
-    "playerId": "albert-rusnak",
-    "league": "mls",
-    "teamId": "seattle-sounders-fc",
-    "season": "2026",
-    "competition": "regular-season",
-    "statistics": [
-      {
-        "label": "GP",
-        "value": "30"
-      },
-      {
-        "label": "GS",
-        "value": "25"
-      },
-      {
-        "label": "G",
-        "value": "4"
-      },
-      {
-        "label": "A",
-        "value": "13"
-      },
-      {
-        "label": "Shots",
-        "value": "58"
-      },
-      {
-        "label": "SOT",
-        "value": "19"
-      }
-    ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
-    "isDemo": false
-  },
-  {
-    "playerId": "cristian-roldan",
-    "league": "mls",
-    "teamId": "seattle-sounders-fc",
     "season": "2026",
     "competition": "regular-season",
     "statistics": [
@@ -44982,7 +44838,45 @@
       },
       {
         "label": "G",
-        "value": "5"
+        "value": "3"
+      },
+      {
+        "label": "A",
+        "value": "13"
+      },
+      {
+        "label": "Shots",
+        "value": "33"
+      },
+      {
+        "label": "SOT",
+        "value": "9"
+      }
+    ],
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/333752",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
+    "isDemo": false
+  },
+  {
+    "playerId": "ousseni-bouda",
+    "league": "mls",
+    "teamId": "san-jose-earthquakes",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "33"
+      },
+      {
+        "label": "GS",
+        "value": "27"
+      },
+      {
+        "label": "G",
+        "value": "7"
       },
       {
         "label": "A",
@@ -44990,17 +44884,123 @@
       },
       {
         "label": "Shots",
-        "value": "31"
+        "value": "51"
       },
       {
         "label": "SOT",
-        "value": "9"
+        "value": "20"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/300420",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
+    "isDemo": false
+  },
+  {
+    "playerId": "angus-gunn",
+    "league": "mls",
+    "teamId": "san-jose-earthquakes",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "16"
+      },
+      {
+        "label": "GS",
+        "value": "16"
+      },
+      {
+        "label": "Saves",
+        "value": "51"
+      },
+      {
+        "label": "GA",
+        "value": "33"
+      }
+    ],
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/181299",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
+    "isDemo": false
+  },
+  {
+    "playerId": "albert-rusnak",
+    "league": "mls",
+    "teamId": "seattle-sounders-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "33"
+      },
+      {
+        "label": "GS",
+        "value": "28"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "A",
+        "value": "15"
+      },
+      {
+        "label": "Shots",
+        "value": "63"
+      },
+      {
+        "label": "SOT",
+        "value": "21"
+      }
+    ],
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/171573",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
+    "isDemo": false
+  },
+  {
+    "playerId": "cristian-roldan",
+    "league": "mls",
+    "teamId": "seattle-sounders-fc",
+    "season": "2026",
+    "competition": "regular-season",
+    "statistics": [
+      {
+        "label": "GP",
+        "value": "26"
+      },
+      {
+        "label": "GS",
+        "value": "23"
+      },
+      {
+        "label": "G",
+        "value": "5"
+      },
+      {
+        "label": "A",
+        "value": "4"
+      },
+      {
+        "label": "Shots",
+        "value": "38"
+      },
+      {
+        "label": "SOT",
+        "value": "10"
+      }
+    ],
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/216617",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45012,11 +45012,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "22"
+        "value": "25"
       },
       {
         "label": "GS",
-        "value": "16"
+        "value": "18"
       },
       {
         "label": "G",
@@ -45028,17 +45028,17 @@
       },
       {
         "label": "Shots",
-        "value": "26"
+        "value": "27"
       },
       {
         "label": "SOT",
-        "value": "11"
+        "value": "12"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/251571",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45050,7 +45050,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "22"
+        "value": "23"
       },
       {
         "label": "GS",
@@ -45073,10 +45073,10 @@
         "value": "13"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9726/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/254382",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45088,15 +45088,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "10"
+        "value": "13"
       },
       {
         "label": "GS",
-        "value": "9"
+        "value": "12"
       },
       {
         "label": "G",
-        "value": "7"
+        "value": "8"
       },
       {
         "label": "A",
@@ -45104,17 +45104,17 @@
       },
       {
         "label": "Shots",
-        "value": "33"
+        "value": "48"
       },
       {
         "label": "SOT",
-        "value": "15"
+        "value": "21"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/324574",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45126,7 +45126,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "32"
       },
       {
         "label": "GS",
@@ -45142,17 +45142,17 @@
       },
       {
         "label": "Shots",
-        "value": "57"
+        "value": "58"
       },
       {
         "label": "SOT",
         "value": "21"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/293695",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45164,7 +45164,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "25"
+        "value": "26"
       },
       {
         "label": "GS",
@@ -45187,10 +45187,10 @@
         "value": "9"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/186/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/259070",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45217,10 +45217,10 @@
         "value": "39"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/175906",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45232,7 +45232,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "31"
+        "value": "34"
       },
       {
         "label": "GS",
@@ -45248,17 +45248,17 @@
       },
       {
         "label": "Shots",
-        "value": "70"
+        "value": "71"
       },
       {
         "label": "SOT",
-        "value": "28"
+        "value": "29"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/208341",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45270,15 +45270,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "9"
+        "value": "12"
       },
       {
         "label": "GS",
-        "value": "8"
+        "value": "11"
       },
       {
         "label": "G",
-        "value": "8"
+        "value": "9"
       },
       {
         "label": "A",
@@ -45286,17 +45286,17 @@
       },
       {
         "label": "Shots",
-        "value": "21"
+        "value": "29"
       },
       {
         "label": "SOT",
-        "value": "13"
+        "value": "14"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/288791",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45308,11 +45308,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "11"
+        "value": "13"
       },
       {
         "label": "GS",
-        "value": "6"
+        "value": "8"
       },
       {
         "label": "G",
@@ -45320,21 +45320,21 @@
       },
       {
         "label": "A",
-        "value": "1"
+        "value": "2"
       },
       {
         "label": "Shots",
-        "value": "23"
+        "value": "26"
       },
       {
         "label": "SOT",
-        "value": "12"
+        "value": "14"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/255313",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45346,15 +45346,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "26"
+        "value": "28"
       },
       {
         "label": "G",
-        "value": "4"
+        "value": "5"
       },
       {
         "label": "A",
@@ -45362,17 +45362,17 @@
       },
       {
         "label": "Shots",
-        "value": "17"
+        "value": "20"
       },
       {
         "label": "SOT",
-        "value": "5"
+        "value": "6"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/21812/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/304164",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45384,33 +45384,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "GS",
-        "value": "22"
+        "value": "25"
       },
       {
         "label": "G",
-        "value": "8"
+        "value": "10"
       },
       {
         "label": "A",
-        "value": "2"
+        "value": "4"
       },
       {
         "label": "Shots",
-        "value": "57"
+        "value": "67"
       },
       {
         "label": "SOT",
-        "value": "21"
+        "value": "23"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/256613",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45422,11 +45422,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "GS",
-        "value": "11"
+        "value": "14"
       },
       {
         "label": "G",
@@ -45434,21 +45434,21 @@
       },
       {
         "label": "A",
-        "value": "5"
+        "value": "7"
       },
       {
         "label": "Shots",
-        "value": "23"
+        "value": "25"
       },
       {
         "label": "SOT",
         "value": "12"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/252351",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45460,15 +45460,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "22"
+        "value": "25"
       },
       {
         "label": "GS",
-        "value": "21"
+        "value": "24"
       },
       {
         "label": "G",
-        "value": "0"
+        "value": "1"
       },
       {
         "label": "A",
@@ -45476,17 +45476,17 @@
       },
       {
         "label": "Shots",
-        "value": "16"
+        "value": "19"
       },
       {
         "label": "SOT",
-        "value": "3"
+        "value": "4"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/184221",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45521,10 +45521,10 @@
         "value": "4"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/183764",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45536,11 +45536,11 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "GS",
-        "value": "24"
+        "value": "27"
       },
       {
         "label": "G",
@@ -45552,17 +45552,17 @@
       },
       {
         "label": "Shots",
-        "value": "11"
+        "value": "12"
       },
       {
         "label": "SOT",
         "value": "3"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/7318/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/230626",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45574,7 +45574,7 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "23"
+        "value": "25"
       },
       {
         "label": "GS",
@@ -45597,10 +45597,10 @@
         "value": "22"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/123465",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45612,15 +45612,15 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "29"
+        "value": "31"
       },
       {
         "label": "GS",
-        "value": "28"
+        "value": "30"
       },
       {
         "label": "G",
-        "value": "17"
+        "value": "20"
       },
       {
         "label": "A",
@@ -45628,17 +45628,17 @@
       },
       {
         "label": "Shots",
-        "value": "94"
+        "value": "102"
       },
       {
         "label": "SOT",
-        "value": "43"
+        "value": "50"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/249490",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45650,33 +45650,33 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "17"
+        "value": "20"
       },
       {
         "label": "GS",
-        "value": "12"
+        "value": "15"
       },
       {
         "label": "G",
-        "value": "4"
+        "value": "6"
       },
       {
         "label": "A",
-        "value": "2"
+        "value": "5"
       },
       {
         "label": "Shots",
-        "value": "34"
+        "value": "37"
       },
       {
         "label": "SOT",
-        "value": "11"
+        "value": "13"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/173404",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45688,25 +45688,25 @@
     "statistics": [
       {
         "label": "GP",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "GS",
-        "value": "30"
+        "value": "33"
       },
       {
         "label": "Saves",
-        "value": "67"
+        "value": "79"
       },
       {
         "label": "GA",
-        "value": "29"
+        "value": "31"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, saves and goals against as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, saves and goals against as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/272338",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
@@ -45741,10 +45741,10 @@
         "value": "3"
       }
     ],
-    "note": "Season in progress; the regular season ends Nov. 7. Appearances, goals, assists and shots as listed on ESPN's club squad page.",
-    "source": "https://www.espn.com/soccer/team/squad/_/id/9727/league/USA.1",
-    "throughDate": "2026-10-26",
-    "updatedAt": "2026-10-27",
+    "note": "Final 2026 regular season. Appearances, goals, assists and shots as listed by ESPN.",
+    "source": "https://www.espn.com/soccer/player/stats/_/id/202501",
+    "throughDate": "2026-11-07",
+    "updatedAt": "2026-11-16",
     "isDemo": false
   },
   {
