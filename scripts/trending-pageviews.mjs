@@ -38,7 +38,7 @@ const pool = async (items, n, fn) => {
 };
 
 const plain = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9 ]/gi, "").toLowerCase().trim();
-const SPORT_WORDS = { nfl: /american football|football player|quarterback|linebacker|receiver|running back|cornerback|safety|tight end|defensive|offensive|kicker|punter/i, nba: /basketball/i, wnba: /basketball/i, mlb: /baseball|pitcher|outfielder|infielder|catcher/i, nhl: /hockey/i, mls: /soccer|football|footballer|association football/i };
+const SPORT_WORDS = { nfl: /american football|football player|quarterback|linebacker|receiver|running back|cornerback|safety|tight end|defensive|offensive|kicker|punter/i, nba: /basketball/i, wnba: /basketball/i, mlb: /baseball|pitcher|outfielder|infielder|catcher/i, nhl: /hockey/i, mls: /soccer|footballer|association football/i };
 const SPORT = { nfl: "American football", nba: "basketball", wnba: "basketball", mlb: "baseball", nhl: "ice hockey", mls: "soccer" };
 
 const players = read("players.json").filter((p) => p.status !== "Retired" && p.teamId);

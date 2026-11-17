@@ -36,3 +36,6 @@ jobs:
           BRANCH="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
           git pull --rebase origin "$BRANCH"
           git push origin "HEAD:$BRANCH"
+concurrency:
+  group: weekly-trending-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
