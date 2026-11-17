@@ -37,7 +37,8 @@ const https = (u: string | null | undefined) => { try { const x = new URL(u ?? "
 export function isJersey(name: string): boolean {
   const n = norm(name);
   if (!n.includes(" jersey ")) return false;
-  return !/ (t shirt|tee|shirt|hoodie|pullover|sweatshirt|tank|shorts|ornament|frame|framed|card|pin|keychain|magnet|blanket|pillow|mug|figure|plush|dog|pet|onesie|bodysuit|creeper|costume|mini|replica helmet|autographed|signed) /.test(n);
+  // Items that only borrow the word: "Jersey Number Sublimated Plaque", "Jersey Slide Sandals", "Jersey Arch Crew Socks", "Skating in Black Jersey Photograph".
+  return !/ (t shirt|tee|shirt|hoodie|pullover|sweatshirt|tank|shorts|ornament|frame|framed|card|pin|keychain|magnet|blanket|pillow|mug|figure|plush|dog|pet|onesie|bodysuit|creeper|costume|mini|replica helmet|autographed|signed|plaque|plaques|slide|slides|sandal|sandals|sock|socks|photograph|photo|canvas|poster|print|lithograph|collage|decal|sticker|bobblehead|figurine|coaster|tumbler|wristband|banner|pennant|towel|jacket|watch|necklace|bracelet|earrings|cufflinks|shadowbox|display case) /.test(n);
 }
 
 export function availability(s: string | null | undefined): Product["availability"] {
