@@ -80,11 +80,21 @@ async function views(title) {
   return { week: items.filter((x) => x.timestamp >= cut).reduce((s, x) => s + x.views, 0), prev: items.filter((x) => x.timestamp < cut).reduce((s, x) => s + x.views, 0) };
 }
 
+// A lookup that still fails after retries skips that player; too many failures stops the run so a bad network day
+// never publishes lopsided lists.
+let failed = 0;
 const rows = (await pool(players, 6, async (p) => {
-  const title = await resolveTitle(p);
-  if (!title) return null;
-  return { playerId: p.id, league: p.leagues[0], title, ...(await views(title)) };
+  try {
+    const title = await resolveTitle(p);
+    if (!title) return null;
+    return { playerId: p.id, league: p.leagues[0], title, ...(await views(title)) };
+  } catch (e) {
+    failed++;
+    console.warn(`skipped ${p.id}: ${e.cause?.code ?? e.message}`);
+    return null;
+  }
 })).filter(Boolean);
+if (failed > players.length * 0.05) { console.error(`${failed} lookups failed; not writing new lists.`); process.exit(1); }
 
 const missing = players.length - rows.length;
 const leagues = {};

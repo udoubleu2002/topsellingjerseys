@@ -25,6 +25,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: node scripts/trending-pageviews.mjs
+        env:
+          NODE_OPTIONS: --dns-result-order=ipv4first
       - run: npm run validate
       - name: Commit if the lists changed
         run: |
