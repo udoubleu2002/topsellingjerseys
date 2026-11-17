@@ -7,10 +7,8 @@ import { topRisers } from "@/lib/trending";
 import { ShopButton } from "./ShopButton";
 import { JerseyThumb } from "./HomeBits";
 import { fmtShortDate } from "@/lib/format";
-import { adsFor } from "@/lib/houseAds";
 import { getLatestNews } from "@/lib/news";
 import { getStories, storyPath } from "@/lib/stories";
-import { HouseAd } from "./HouseAd";
 import { LidsAd } from "./LidsAd";
 import { rectFor, lidsBanner, pinnedRailBanner, ROTATION_BANNER_ID, ROTATION_SHARE } from "@/lib/lidsAds";
 import { AdRotation } from "./AdRotation";
@@ -38,9 +36,8 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
  * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
-export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false, hideHouseAd = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean; hideHouseAd?: boolean }) {
+export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean }) {
   // Cities pages run no Lids display banners; their Lids ads are the player banners and jersey tiles.
-  const [adA] = adsFor(active);
   const news = getLatestNews(7);
   const stories = getStories(active).slice(0, active ? 3 : 6);
   const leagues = getLeagues().map((l) => ({ league: l, ranking: getCurrentRanking(l.id) })).filter((x) => x.ranking);
@@ -161,7 +158,6 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         </section>
       )}
 
-      {hideHouseAd ? null : cityAds ? <HouseAd ad={adA} at="rail_top" /> : <RotatingSlot at="rail_top"><HouseAd ad={adA} at="rail_top" /></RotatingSlot>}
 
     </aside>
   );

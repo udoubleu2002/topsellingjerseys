@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { League, Product, Ranking } from "@/lib/schema";
 import { getLeagues, getTeamDirectory, getPlayer, getProducts, getTeam, entryTeams, getMerchant } from "@/lib/data";
-import { teamOffer, outPath, productOffer, searchOffer } from "@/lib/affiliate";
+import { teamOffer, outPath, productOffer, searchOffer, type Offer } from "@/lib/affiliate";
 import { productStyle, styleTags, productColor } from "@/lib/productStyle";
 import { jerseyImg } from "@/lib/img";
 import { ShopButton } from "./ShopButton";
@@ -76,6 +76,20 @@ export function ShopCard({ league, ranking, rank, page, placement }: { league: L
 const money = (n: number, c: string) => new Intl.NumberFormat("en-US", { style: "currency", currency: c }).format(n);
 
 /** Price range across a player's jersey listings, counting only prices we have checked. */
+/**
+ * Shop button text: the price and the store, the way leading review sites label buy buttons ("$124.99 at Lids").
+ * The price is the one for the exact listing the button opens, so it matches the page the shopper lands on.
+ * Without a checked price it names the store instead.
+ */
+export function ctaLabel(offer: Offer, product?: Product) {
+  if (offer.kind === "product" && product && product.price !== null && product.currency === "USD") {
+    return `${new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(product.price)} at ${offer.merchantName}`;
+  }
+  // Search and team links already say what they open ("Shop Knicks jerseys at Lids"); lead with "See" instead.
+  const what = offer.label.replace(/^(Shop|Search) /, "").replace(new RegExp(` at ${offer.merchantName}$`), "");
+  return `See ${what} at ${offer.merchantName}`;
+}
+
 export function priceRange(products: Product[]) {
   const priced = products.filter((p) => p.productType === "jersey" && p.price !== null && p.currency === "USD");
   if (!priced.length) return null;

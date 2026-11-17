@@ -12,6 +12,7 @@ export const HOUSE_ADS: HouseAd[] = [
 export const houseAd = (id: string) => HOUSE_ADS.find((a) => a.id === id);
 
 /** Kept in HOUSE_ADS so old /go/ links still resolve, but never shown on a page. */
+// Network ads are off site-wide (Nov. 17, 2026); /go/ links still redirect so old clicks keep working.
 const RETIRED = new Set(["insidethepark", "loststadiums"]);
 const SHOWN = HOUSE_ADS.filter((a) => !RETIRED.has(a.id));
 

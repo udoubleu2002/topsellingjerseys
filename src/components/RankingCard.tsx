@@ -6,6 +6,7 @@ import { ProductImage } from "./ProductImage";
 import { ShopButton } from "./ShopButton";
 import { HaveJersey } from "./HaveJersey";
 import { PriceTag } from "./PriceTag";
+import { ctaLabel } from "./ShopBits";
 import { TrustNote } from "./TrustNote";
 import { TeamLink } from "./TeamLink";
 import { Highlights, StatsPanel } from "./PlayerBits";
@@ -74,7 +75,7 @@ export function RankingCard({ ranking, rank, playerId, leagueName, page }: { ran
           <div className="shop-col">
             {offer ? (
               <ShopButton offer={offer} ctx={{ league: ranking.league, playerId: player.id, rank, placement: "ranking_card", page }}>
-                Shop {player.name} Jerseys
+                {ctaLabel(offer, products[0])}
               </ShopButton>
             ) : (
               <p className="shop-note">No verified retailer listing yet.</p>

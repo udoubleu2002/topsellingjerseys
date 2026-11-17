@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { track, hasConsent, setConsent, consentRequired, assignVariant } from "@/lib/analytics";
+import { track, hasConsent, setConsent, consentRequired } from "@/lib/analytics";
 
 // The first page of a visit carries the address the visitor came from; later pages are moves within the site.
 let firstView = true;
@@ -44,13 +44,6 @@ export function Analytics({ pageType }: { pageType?: string }) {
     const main = document.querySelector("main");
     track("page_view", { path: pathname, page_type: main?.getAttribute("data-page-type") ?? pageType ?? "other", referrer: document.referrer });
 
-    // CTA wording experiment: variant B swaps the label; the server-rendered default remains for crawlers.
-    const cta = assignVariant("cta_wording", ["a", "b"]);
-    if (cta === "b") {
-      document.querySelectorAll<HTMLElement>("a[data-cta-experiment='cta_wording'] .cta-text").forEach((t) => {
-        if (t.childElementCount === 0 && /^Shop .* Jerseys$/.test(t.textContent ?? "")) t.textContent = t.textContent!.replace(/^Shop (.*) Jerseys$/, "Find $1 Jerseys");
-      });
-    }
 
     // Promotions are baked into static pages, so hide any that ended after the last build.
     const today = new Date().toISOString().slice(0, 10);
@@ -73,7 +66,7 @@ export function Analytics({ pageType }: { pageType?: string }) {
       const a = (ev.target as HTMLElement).closest<HTMLElement>("[data-track]");
       if (!a) return;
       const d = a.dataset;
-      track(d.track!, { report: d.report, offer: d.offer, offer_kind: d.offerKind, merchant: d.merchant, league: d.league, player: d.player, rank: d.rank, placement: d.placement, page: d.page, cta_variant: cta, path: pathname });
+      track(d.track!, { report: d.report, offer: d.offer, offer_kind: d.offerKind, merchant: d.merchant, league: d.league, player: d.player, rank: d.rank, placement: d.placement, page: d.page, path: pathname });
     };
     document.addEventListener("click", onClick);
 

@@ -74,7 +74,7 @@ export function playerFaq({ player, league, team, latest, line }: Ctx): { q: str
     const moved = latest.reportTeam && latest.reportTeam.id !== player.teamId ? ` while with the ${latest.reportTeam.name}` : "";
     faq.push({ q: `Is ${player.name}'s jersey a top seller?`, a: `Yes. ${player.name} ranked No. ${latest.rank} on ${latest.ranking.title}, published by ${latest.ranking.publisher} on ${fmtDate(latest.ranking.publishedDate)}${moved}.` });
   }
-  faq.push({ q: `Where can I buy ${player.name} jerseys?`, a: `Use the Shop ${player.name} Jerseys button on this page to see every ${player.name} jersey style, size and price at the retailer. ${site.name} may earn a commission on purchases.` });
+  faq.push({ q: `Where can I buy ${player.name} jerseys?`, a: `Use the shop button on this page to see every ${player.name} jersey style, size and price at the retailer. ${site.name} may earn a commission on purchases.` });
   if (line?.statistics.length) faq.push({ q: `What are ${player.name}'s ${line.season} stats?`, a: `Through ${fmtDate(line.throughDate)}, ${player.name} has ${statSummary(line, 6)}.` });
   if (player.birthday) faq.push({ q: `How old is ${player.name}?`, a: `${player.name} was born on ${fmtDate(player.birthday)} and is ${age(player.birthday, site.lastReviewed)}.` });
   return faq;

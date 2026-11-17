@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { JerseyThumb } from "@/components/HomeBits";
 import { cityOfTeam, cityPath } from "@/lib/cities";
-import { StyleCompare, priceRange } from "@/components/ShopBits";
+import { StyleCompare, priceRange, ctaLabel } from "@/components/ShopBits";
 import { getStories, storyPath } from "@/lib/stories";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -22,11 +22,9 @@ import { PriceAlert } from "@/components/PriceAlert";
 import { StickyShop } from "@/components/StickyShop";
 import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
-import { HouseAd } from "@/components/HouseAd";
 import { LidsAd } from "@/components/LidsAd";
 import { RotatingSlot } from "@/components/SideRail";
 import { rectFor } from "@/lib/lidsAds";
-import { adsFor } from "@/lib/houseAds";
 import {
   getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getLatestAppearance, getStatLine, getProducts, getPlayer,
   isIndexable, teamLabel, teamPlayers, loadStore, reportStatus,
@@ -67,7 +65,12 @@ export default async function PlayerPage({ params }: Props) {
   const line = getStatLine(player.id);
   const allLines = loadStore().stats.filter((s) => s.playerId === player.id && !s.isDemo).sort((a, b) => (b.throughDate ?? "").localeCompare(a.throughDate ?? ""));
   const products = getProducts(player.id);
-  const jersey = products.find((p) => p.productType === "jersey");
+  // Lead with the lowest-priced jersey for the player's current team (photo, price and buy button all show the same
+  // listing), so the button's price is the "from" price shoppers see in the style comparison.
+  const jerseys = products.filter((p) => p.productType === "jersey");
+  const current = jerseys.filter((p) => p.teamId === player.teamId);
+  const pool = current.length ? current : jerseys;
+  const jersey = [...pool].filter((p) => p.price !== null && p.image).sort((a, b) => a.price! - b.price!)[0] ?? pool[0];
   const primary = jersey ? productOffer(jersey) : searchOffer(player, team);
   const search = searchOffer(player, team);
   const page = `player_${player.id}`;
@@ -166,7 +169,7 @@ export default async function PlayerPage({ params }: Props) {
               {primary ? (
                 <>
                   <ShopButton offer={primary} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "player_hero", page }}>
-                    Shop {player.name} Jerseys
+                    {ctaLabel(primary, jersey)}
                   </ShopButton>
                   <TrustNote merchant={primary.merchantName} />
                   {primary.kind === "search" && <p className="shop-note">Opens {primary.merchantName} with every {player.name} jersey style, size and price.</p>}
@@ -383,7 +386,6 @@ export default async function PlayerPage({ params }: Props) {
               </section>
             )}
             <RotatingSlot at="player_side_lids"><LidsAd banner={rectFor(league.id)} at="player_side_lids" /></RotatingSlot>
-            <RotatingSlot at="player_side"><HouseAd ad={adsFor(league.id)[0]} at="player_side" /></RotatingSlot>
             <section className="side-box">
               <h2>Full ranking</h2>
               <Link className="btn-ghost" href={`/${league.slug}/#rank-${latest?.rank ?? 1}`}>Top Selling {league.name} Jerseys</Link>
@@ -392,7 +394,7 @@ export default async function PlayerPage({ params }: Props) {
           </aside>
         </div>
         <JsonLd data={ld} />
-        {primary && <StickyShop offer={primary} name={player.name} sub={`${latest ? `No. ${latest.rank} ` : ""}${league.name} · ${team?.name ?? player.status}`} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "sticky_mobile", page }} />}
+        {primary && <StickyShop offer={primary} label={ctaLabel(primary, jersey)} name={player.name} sub={`${latest ? `No. ${latest.rank} ` : ""}${league.name} · ${team?.name ?? player.status}`} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "sticky_mobile", page }} />}
       </main>
     </>
   );
