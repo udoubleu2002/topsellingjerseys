@@ -38,6 +38,7 @@ const pool = async (items, n, fn) => {
 };
 
 const plain = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9 ]/gi, "").toLowerCase().trim();
+const SPORT_WORDS = { nfl: /american football|football player|quarterback|linebacker|receiver|running back|cornerback|safety|tight end|defensive|offensive|kicker|punter/i, nba: /basketball/i, wnba: /basketball/i, mlb: /baseball|pitcher|outfielder|infielder|catcher/i, nhl: /hockey/i, mls: /soccer|football|footballer|association football/i };
 const SPORT = { nfl: "American football", nba: "basketball", wnba: "basketball", mlb: "baseball", nhl: "ice hockey", mls: "soccer" };
 
 const players = read("players.json").filter((p) => p.status !== "Retired" && p.teamId);
@@ -55,9 +56,16 @@ async function resolveTitle(p) {
   const team = teams.get(p.teamId);
   const q = `${p.name} ${team?.name ?? ""} ${SPORT[p.leagues[0]] ?? ""}`;
   const d = await getJson(`https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit=5&format=json&srsearch=${encodeURIComponent(q)}`);
-  const hit = (d?.query?.search ?? []).find((s) => own(s.title));
-  if (!hit) return null;
-  return (titles[p.id] = hit.title.replace(/ /g, "_"));
+  // Only exact-name results, then confirm with the article's short description that it is a player in this sport
+  // and not a disambiguation page or someone else with the same name.
+  for (const hit of (d?.query?.search ?? []).filter((s) => own(s.title))) {
+    const info = await getJson(`https://en.wikipedia.org/w/api.php?action=query&prop=pageprops|description&redirects=1&format=json&titles=${encodeURIComponent(hit.title)}`);
+    const page = Object.values(info?.query?.pages ?? {})[0];
+    if (!page || page.pageprops?.disambiguation !== undefined) continue;
+    if (!SPORT_WORDS[p.leagues[0]].test(page.description ?? "")) continue;
+    return (titles[p.id] = page.title.replace(/ /g, "_"));
+  }
+  return null;
 }
 
 // 2. Daily views for the last 14 full days (UTC), split into this week and the week before.
