@@ -882,6 +882,28 @@ def edmonton(a):
     a.add("fore", '<g fill="#fff" opacity=".45">' + "".join(f'<circle cx="{random.Random(i).randint(0, W)}" cy="{random.Random(i * 5).randint(0, G)}" r="{random.Random(i * 2).choice([1, 1.6, 2.2])}"/>' for i in range(120)) + "</g>")
 
 
+def oklahoma_city(a):
+    a.hills(G - 60, 18, seed=41)                            # open prairie
+    a.skyline(380, 1180, 90, 230, "back", win=0.1)
+    a.tower(780, 74, 520, "slant")                         # Devon Tower
+    a.tower(680, 58, 300, "flat")
+    a.tower(900, 60, 340, "crown")
+    a.arch_bridge(1180, 1520, G - 40, 150)                 # Skydance Bridge
+    a.light_towers([140, 280])
+
+
+def san_antonio(a):
+    a.skyline(300, 1100, 90, 220, "back", win=0.09)
+    a.needle(1180, 520, pod=80, podh=34)                   # Tower of the Americas
+    a.tower(620, 60, 300, "pyramid")
+    a.tower(760, 56, 260, "flat")
+    a.rect("front", 180, G - 120, 200, 120, a.front)        # mission facade
+    a.path("front", f"M180 {G - 120} Q280 {G - 200} 380 {G - 120} Z", a.front)
+    a.palm(470, 170, lean=-6)
+    a.palm(1420, 190, lean=8)
+    a.light_towers([1500])
+
+
 CITIES = {
     "new-york": ("dusk", new_york, "Manhattan skyline at dusk with the Empire State Building, One World Trade Center, the Brooklyn Bridge and the Statue of Liberty"),
     "los-angeles": ("sunset", los_angeles, "Downtown Los Angeles at sunset with palm trees and the Griffith Observatory in the hills"),
@@ -923,6 +945,8 @@ CITIES = {
     "new-orleans": ("dusk", new_orleans, "New Orleans at dusk with a three-spired cathedral, the Superdome and a paddle steamer"),
     "columbus": ("dawn", columbus, "Columbus at dawn with the LeVeque Tower and an arched bridge over the Scioto River"),
     "edmonton": ("winter", edmonton, "Edmonton in winter with the High Level Bridge and glass pyramids in the river valley"),
+    "oklahoma-city": ("sunset", oklahoma_city, "Oklahoma City at sunset with Devon Tower and the Skydance Bridge over the prairie"),
+    "san-antonio": ("desert", san_antonio, "San Antonio with the Tower of the Americas, a mission facade and palm trees"),
 }
 
 
@@ -940,7 +964,7 @@ OPTS = {
     "charlotte": {"sunx": 0.2, "ground": True}, "orlando": {"sunx": 0.62}, "portland": {"sunx": 0.25},
     "salt-lake-city": {"sunx": 0.85, "ground": True}, "buffalo": {"sunx": 0.3}, "new-orleans": {"sunx": 0.75},
     "columbus": {"sunx": 0.2}, "edmonton": {"sunx": 0.5}, "los-angeles": {"sunx": 0.6, "ground": True},
-    "bay-area": {"sunx": 0.55}, "cleveland": {"sunx": 0.42}, "minneapolis": {"sunx": 0.3},
+    "bay-area": {"sunx": 0.55}, "oklahoma-city": {"sunx": 0.3, "ground": True}, "san-antonio": {"sunx": 0.7, "ground": True}, "cleveland": {"sunx": 0.42}, "minneapolis": {"sunx": 0.3},
 }
 
 

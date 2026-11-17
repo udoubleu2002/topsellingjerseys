@@ -4,10 +4,10 @@ import path from "node:path";
 import { getCities, cityRanked, cityStories, cityTeams, cityFeatured, cityArt, featuredCities, teamNickname, cityJerseys } from "../src/lib/cities";
 
 describe("cities", () => {
-  it("has 30-40 cities, every team known and in one city only", () => {
+  it("has 30-45 cities, every team known and in one city only", () => {
     const cities = getCities();
     expect(cities.length).toBeGreaterThanOrEqual(30);
-    expect(cities.length).toBeLessThanOrEqual(40);
+    expect(cities.length).toBeLessThanOrEqual(45);
     for (const c of cities) expect(cityTeams(c).length).toBe(c.teams.length);
   });
 

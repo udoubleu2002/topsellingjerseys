@@ -13,7 +13,9 @@ export function ReportStatusLine({ ranking, linkLeague = true }: { ranking: Rank
   const league = getLeague(ranking.league);
   const name = league?.name ?? ranking.league.toUpperCase();
   let detail: React.ReactNode;
-  if (s.kind === "latest") {
+  if (s.kind === "latest" && ranking.unofficial) {
+    detail = <>This is not a published sales report, so the order is unofficial. It follows <a href={ranking.sourceUrl} target="_blank" rel="noopener">{ranking.periodLabel}</a>.</>;
+  } else if (s.kind === "latest") {
     detail = s.dated
       ? <>Sales period ended {fmtDate(s.periodEnd)}. No newer {name} report has been published as of {fmtDate(ranking.lastVerified)}, so this list reflects that period, not sales right now.</>
       : <>No newer {name} report has been published as of {fmtDate(ranking.lastVerified)}.</>;

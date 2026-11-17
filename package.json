@@ -14,7 +14,8 @@
     "test": "vitest run",
     "test:e2e": "node scripts/e2e.mjs",
     "export:preview": "node scripts/export-preview.mjs",
-    "seo:snapshot": "node scripts/seo-snapshot.mjs"
+    "seo:snapshot": "node scripts/seo-snapshot.mjs",
+    "check:site-links": "node scripts/check-site-links.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "2.117.2",

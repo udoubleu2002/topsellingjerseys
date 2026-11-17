@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { League, Player, Product, Ranking, Team } from "@/lib/schema";
 import { getPlayer, getTeam, getProducts, getStatLine, entryTeams, reportStatus } from "@/lib/data";
-import { productOffer, searchOffer } from "@/lib/affiliate";
+import { productOffer, searchOffer, outPath } from "@/lib/affiliate";
 import { jerseyImg } from "@/lib/img";
 import { fmtShortDate, fmtDate } from "@/lib/format";
 import { getFeatured, getHero } from "@/lib/featured";
@@ -243,9 +243,8 @@ export function HeroStory({ leagues }: { leagues: { league: League; ranking: Ran
     <section className="gd-hero" aria-labelledby="home-h1" style={{ "--tc": tc.primary, "--tc2": tc.secondary } as React.CSSProperties}>
       <div className="wrap gd-hero-in">
         <div className="gd-hero-copy">
-          <p className="gd-kicker">{h.kicker}</p>
-          <p className="gd-display">{h.headline}</p>
           <h1 id="home-h1" className="gd-h1">Top selling sports jerseys in every league</h1>
+          <p className="gd-lede">{h.headline}</p>
           <p className="gd-dek">{h.dek}</p>
           <div className="gd-ctas">
             <Link className="gd-btn" href={h.cta.href}>{h.cta.label} <span aria-hidden="true">→</span></Link>
@@ -267,8 +266,13 @@ export function HeroStory({ leagues }: { leagues: { league: League; ranking: Ran
         </nav>
         {player && product?.image && (
           <figure className="gd-photo">
-            <span className="gd-bignum" aria-hidden="true">{appearance?.rank ?? ""}</span>
-            <img {...jerseyImg(product.image.url, 560)} alt={product.image.alt} width={560} height={560} loading="eager" fetchPriority="high" decoding="async" />
+            {(() => {
+              const img = <img {...jerseyImg(product.image.url, 560)} alt={product.image.alt} width={560} height={560} loading="eager" fetchPriority="high" decoding="async" />;
+              const offer = productOffer(product);
+              return offer ? (
+                <a className="gd-photo-link" href={`${outPath(offer.id)}?at=home_hero_photo`} target="_blank" rel="sponsored nofollow noopener" aria-label={`Shop the ${player.name} ${team?.name ?? ""} jersey at ${offer.merchantName}`} data-track="affiliate_click" data-offer={offer.id} data-offer-kind={offer.kind} data-merchant={offer.merchantId} data-player={player.id} data-at="home_hero_photo">{img}<span className="gd-photo-cta">Shop this jersey <span aria-hidden="true">↗</span></span></a>
+              ) : img;
+            })()}
             <figcaption>
               {appearance && league && <span className="gd-rank">No. {appearance.rank} · {league.name}</span>}
               <Link href={`/players/${player.slug}/`} className="gd-who">{player.name}</Link>

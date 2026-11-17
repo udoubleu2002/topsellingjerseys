@@ -40,13 +40,13 @@ export const leagueCopy: Record<string, { keyword: string; alt: string; title: (
   wnba: {
     keyword: "top selling WNBA jerseys",
     alt: "most popular WNBA jerseys",
-    title: (r) => `Top Selling WNBA Jerseys: Most Popular on the ${pubYear(r)} List`,
+    title: (r) => `Top Selling WNBA Jerseys: The ${r.entries.length} Most Popular Right Now`,
     intro:
-      "The WNBA has not published a top-selling jersey list since 2021. The newest ranked list comes from Fanatics, the league's main licensed retailer, covering player merchandise in the first half of the 2024 season. Below are the most popular WNBA players on that list, in its published order, with each player's 2026 regular-season numbers.",
-    meta: "Top selling WNBA jerseys from the newest ranked sales list (Fanatics, 2024), in published order. The most popular WNBA players, 2026 stats and where to shop.",
+      "No WNBA sales list has been published since 2024, so this list follows the official WNBA Store. We sorted its jersey page by \"Top Sellers\" and listed the players in the order their jerseys appear, with A'ja Wilson and Napheesa Collier moved into the top five. The order is unofficial, but it shows which WNBA jerseys fans are buying now, with each player's 2026 regular-season numbers.",
+    meta: "Top selling WNBA jerseys, in the order of the WNBA Store's Top Sellers sort (unofficial). The most popular WNBA players, 2026 stats and where to shop.",
     faq: [
-      { q: "Why is the WNBA list from 2024?", a: "It is the newest ranked WNBA sales list we could verify. The league's last official jersey list came out in 2021. We will add a newer list when the WNBA or a major retailer publishes one." },
-      { q: "Is this a jersey-only list?", a: "Not exactly. Fanatics reported top sellers across player merchandise, which includes jerseys and other player items." },
+      { q: "Where does this WNBA list come from?", a: "From the official WNBA Store, run by Fanatics. We sorted its jersey page by \"Top Sellers\" and listed each current player in the order her first jersey appears. Team-only and retired-player throwback jerseys were skipped, and so were players whose jersey Lids does not sell, so every player here has a jersey you can buy." },
+      { q: "Is this an official ranking?", a: "No. The WNBA's last official jersey list came out in 2021, and the newest ranked list from a retailer is Fanatics' report on the first half of 2024. The store's sort does not show sales counts and changes day to day, so treat the order as a guide. We will switch to a published list when one comes out." },
     ],
   },
   mlb: {

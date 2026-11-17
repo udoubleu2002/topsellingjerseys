@@ -35,18 +35,22 @@ export function withAffiliate(rawUrl: string, merchantId: string): string {
   return u.toString();
 }
 
-/** A retailer search for the player's jerseys, used when no verified product listing exists. */
+/**
+ * Used when no verified jersey listing exists for the player. A player-name search at the retailer turns up plaques,
+ * slide sandals and socks when it has no jersey for that player, so when the team is known this opens the team's
+ * jersey search instead: shoppers land on jerseys, never on other items.
+ */
 export function searchOffer(player: Player, team: Team | undefined, merchantId = DEFAULT_MERCHANT): Offer | null {
   const merchant = getMerchant(merchantId);
   if (!merchant) return null;
-  const q = [player.name, team?.name, "jersey"].filter(Boolean).join(" ");
+  const q = team ? `${team.name} jerseys` : `${player.name} jersey`;
   const raw = merchant.searchUrlTemplate.replace("{query}", encodeURIComponent(q).replace(/%20/g, "+"));
   return {
     id: `search-${merchantId}-${player.id}`,
     kind: "search",
     merchantId,
     merchantName: merchant.name,
-    label: `Search ${player.name} jerseys at ${merchant.name}`,
+    label: team ? `Shop ${team.name} jerseys at ${merchant.name}` : `Search ${player.name} jerseys at ${merchant.name}`,
     href: withAffiliate(raw, merchantId),
   };
 }

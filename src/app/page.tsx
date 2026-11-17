@@ -53,14 +53,14 @@ export default function Home() {
         <div className="wrap with-rail home-main">
           <div className="lists" id="rankings">
             <div className="sec-head">
-              <p className="sec-k">Top ten in every league, in published order</p>
+              <p className="sec-k">Top ten in every league</p>
               <h2 className="sec-h">Player rankings</h2>
             </div>
             <div className="lboard">
               {leagues.map(({ league, ranking }) => <LeagueBoard key={league.id} league={league} ranking={ranking!} />)}
             </div>
           </div>
-          <SideRail hideStories hideLists />
+          <SideRail hideStories hideLists hideHouseAd />
         </div>
 
         <section className="cities-sec is-compact" aria-labelledby="cities-h">
@@ -142,7 +142,7 @@ export default function Home() {
           <div className="explainer">
             <div>
               <h3>Published lists only</h3>
-              <p>Each ranking comes from a report released by a league, a players association or a named retail partner. We never build our own order or fill gaps.</p>
+              <p>Each ranking comes from a report released by a league, a players association or a named retail partner. We never build our own order or fill gaps. The one exception is the WNBA, which has no list newer than 2024, so its order follows the WNBA Store&apos;s &ldquo;Top Sellers&rdquo; sort and is marked unofficial.</p>
             </div>
             <div>
               <h3>Dated and sourced</h3>
