@@ -45,7 +45,7 @@ export default function BestSellingSportsJerseys() {
           <h2>Best selling {d.league.name} jerseys: the source</h2>
           <p>{d.ranking.scope} {d.ranking.methodology}</p>
           {d.ranking.limitations.length > 0 && <p className="shop-note">{d.ranking.limitations.join(" ")}</p>}
-          <p><Link href={`/${d.league.slug}/`}>See the {d.total} best selling {d.league.name} jerseys →</Link></p>
+          <p><Link href={`/${d.league.slug}/`}>See all {d.total} top selling {d.league.name} jerseys →</Link></p>
         </section>
       ))}
       <h2>Questions</h2>

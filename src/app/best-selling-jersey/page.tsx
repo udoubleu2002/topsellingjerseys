@@ -35,7 +35,7 @@ export default function BestSellingJersey() {
               <p>{answer(d)}</p>
               <p className="bs-one-links">
                 <Link href={`/players/${first.player.slug}/`}>Shop {first.player.name} jerseys</Link>
-                <Link href={`/${d.league.slug}/`}>Full {d.league.name} list</Link>
+                <Link href={`/${d.league.slug}/`}>Top selling {d.league.name} jerseys</Link>
               </p>
               <HaveJersey name={first.player.name} league={d.league.id} className="have-sm" />
             </section>

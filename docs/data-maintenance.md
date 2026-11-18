@@ -36,3 +36,11 @@ Everything the site shows comes from JSON files in `data/`, each with one job. P
 - `npm run check:links -- --write` from a machine that can reach lids.com, then review flagged listings.
 - Re-verify each latest report against its source and update `lastVerified` (the validator warns after 45 days).
 - `npm run seo:snapshot` and diff against the baseline before merging any layout change.
+
+## Buyer-intent list
+
+`data/buyer-intent.json` ranks the players whose jersey searches carry the most buyer intent (CPC x monthly searches,
+weighted up when page 1 has weak sites). It drives the "Popular jerseys right now" box (sidebars and under stories) and
+the daily-story picks. It never touches a sales ranking. To refresh it, export keywords (with `player_id` and, if you
+have them, Search Console impressions and position) and run `python3 -I scripts/build-buyer-intent.py <export.csv>`.
+Only player ids, a tier and the main keyword are written to the repo; CPC and volume stay in the private export.

@@ -2463,3 +2463,12 @@ a { color: inherit; }
 .gd-photo-link:hover .gd-photo-cta { opacity: 1; }
 .gd-photo-link:hover img { box-shadow: 0 18px 40px rgba(0, 0, 0, .5), 0 0 0 3px var(--gold); }
 .rail-trend-up.is-pv { background: var(--lg, var(--ink)); font-size: 13px; letter-spacing: .04em; }
+
+/* Popular jerseys right now (buyer-intent box in the sidebars and under stories) */
+.pop-list { list-style: none; margin: 0; padding: 0; display: grid; }
+.pop-list li { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; align-items: center; column-gap: 10px; padding: 8px 0; border-top: 1px solid var(--line); }
+.pop-body { display: grid; min-width: 0; }
+.pop-body a { font-weight: 700; text-decoration: none; line-height: 1.25; }
+.pop-body a:hover { text-decoration: underline; }
+.pop-team { font-size: 0.8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pop-list .btn-sm { padding-inline: 12px; }

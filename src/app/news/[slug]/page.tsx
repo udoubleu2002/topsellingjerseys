@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShopButton } from "@/components/ShopButton";
 import { TrustNote } from "@/components/TrustNote";
 import { JsonLd } from "@/components/JsonLd";
+import { PopularJerseys } from "@/components/PopularJerseys";
 import { getAnyTeam, getLeague } from "@/lib/data";
 import { productOffer, storyOffer } from "@/lib/affiliate";
 import { ProductImage } from "@/components/ProductImage";
@@ -154,6 +155,7 @@ export default async function StoryPage({ params }: Props) {
                 </ul>
               </>
             )}
+            <PopularJerseys league={league.id} exclude={s.playerId ? [s.playerId] : []} page={page} boxClass="pop-foot" />
           </footer>
         </article>
         <JsonLd data={ld} />
