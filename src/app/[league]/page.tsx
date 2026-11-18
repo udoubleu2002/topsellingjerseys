@@ -20,6 +20,7 @@ import { FreshBadge } from "@/components/Freshness";
 import { productOffer, searchOffer } from "@/lib/affiliate";
 import { getCities, cityPath } from "@/lib/cities";
 import { leagueCopy } from "@/lib/content";
+import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
 import { fmtDate, fmtShortDate, period } from "@/lib/format";
 
@@ -62,6 +63,15 @@ export default async function LeaguePage({ params }: Props) {
         .map(([id, name]) => ({ id, name, count: ranking.entries.filter((e) => e.teamIdAtReport === id).length }))
         .sort((a, b) => a.name.localeCompare(b.name))
     : [];
+  // Teams on the latest list: most players first, then best rank. Built only from the published entries.
+  const salesByTeam = ranking
+    ? filterTeams
+        .map((t) => {
+          const entries = ranking.entries.filter((e) => e.teamIdAtReport === t.id);
+          return { ...t, best: entries[0].rank, top: getPlayer(entries[0].playerId)! };
+        })
+        .sort((a, b) => b.count - a.count || a.best - b.best)
+    : [];
   const cities = getCities().filter((c) => c.teams.some((t) => getAnyTeam(t)?.league === league.id));
   const faq = [
     ...(ranking && leader
@@ -76,6 +86,9 @@ export default async function LeaguePage({ params }: Props) {
           const best = top.filter((t) => t.count === top[0].count);
           return [{ q: `${league.name} jersey sales by team: which team has the most players on the list?`, a: `${best.map((t) => `The ${t.name}`).join(" and ")} ${best.length > 1 ? "each have" : "has"} ${top[0].count} player${top[0].count === 1 ? "" : "s"} on the latest list. ${filterTeams.length} teams are represented in all.` }];
         })()
+      : []),
+    ...(ranking && ranking.entries.length >= 5
+      ? [{ q: `What are the best selling ${league.name} jerseys?`, a: `The top five on ${ranking.unofficial ? "the latest available list" : `"${ranking.title}"`} (${period(ranking.periodStart, ranking.periodEnd, ranking.periodLabel)}) are ${leagueList(ranking.entries.slice(0, 5).map((e) => getPlayer(e.playerId)!.name))}. Each name links to that player's jersey page above.` }]
       : []),
     ...(copy?.faq ?? []),
     { q: "Do you earn money from the shopping links?", a: "Some links are affiliate links, so we may earn a commission when you buy. Commissions never affect the order of a ranking, which always matches the published report." },
@@ -165,6 +178,28 @@ export default async function LeaguePage({ params }: Props) {
         </div>
 
         {ranking && <Movement ranking={ranking} leagueName={league.name} />}
+
+        {ranking && salesByTeam.length > 1 && (
+          <section className="wrap section" aria-labelledby="sbt-h">
+            <div className="section-head"><h2 id="sbt-h">{league.name} jersey sales by team</h2></div>
+            <p className="lede">How many players each team has on the latest list, with its best-ranked jersey. Teams are as credited in the report.</p>
+            <div className="table-wrap">
+              <table className="table">
+                <thead><tr><th scope="col">Team</th><th scope="col">Players on the list</th><th scope="col">Best rank</th><th scope="col">Top jersey</th></tr></thead>
+                <tbody>
+                  {salesByTeam.map((t) => (
+                    <tr key={t.id}>
+                      <th scope="row">{t.name}</th>
+                      <td>{t.count}</td>
+                      <td>No. {t.best}</td>
+                      <td><Link href={`/players/${t.top.slug}/`}>{t.top.name} jersey</Link></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
 
         <TeamRosters league={league} />
 

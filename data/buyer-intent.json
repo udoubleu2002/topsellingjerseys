@@ -1,0 +1,336 @@
+{
+  "note": "Players whose jersey searches carry the most buyer intent (CPC x searches, weighted for weak page-1 competition), best first. Built by scripts/build-buyer-intent.py; never used to order a sales ranking.",
+  "updated": "2026-11-18",
+  "players": [
+    {
+      "playerId": "drake-maye",
+      "tier": "unseen",
+      "keyword": "drake maye jersey"
+    },
+    {
+      "playerId": "josh-allen",
+      "tier": "close",
+      "keyword": "josh allen jersey"
+    },
+    {
+      "playerId": "jaxson-dart",
+      "tier": "unseen",
+      "keyword": "jaxson dart jersey"
+    },
+    {
+      "playerId": "saquon-barkley",
+      "tier": "close",
+      "keyword": "saquon barkley jersey"
+    },
+    {
+      "playerId": "caleb-williams",
+      "tier": "unseen",
+      "keyword": "caleb williams jersey"
+    },
+    {
+      "playerId": "shohei-ohtani",
+      "tier": "close",
+      "keyword": "shohei ohtani jerseys"
+    },
+    {
+      "playerId": "jalen-brunson",
+      "tier": "unseen",
+      "keyword": "jalen brunson jersey"
+    },
+    {
+      "playerId": "lebron-james",
+      "tier": "unseen",
+      "keyword": "lebron james jersey"
+    },
+    {
+      "playerId": "aaron-judge",
+      "tier": "unseen",
+      "keyword": "aaron judge jersey"
+    },
+    {
+      "playerId": "bo-nix",
+      "tier": "close",
+      "keyword": "bo nix jersey"
+    },
+    {
+      "playerId": "cooper-flagg",
+      "tier": "unseen",
+      "keyword": "cooper flagg jersey"
+    },
+    {
+      "playerId": "lamelo-ball",
+      "tier": "unseen",
+      "keyword": "lamelo ball jersey"
+    },
+    {
+      "playerId": "caitlin-clark",
+      "tier": "close",
+      "keyword": "caitlin clark jersey"
+    },
+    {
+      "playerId": "anthony-edwards",
+      "tier": "close",
+      "keyword": "anthony edwards jersey"
+    },
+    {
+      "playerId": "justin-jefferson",
+      "tier": "close",
+      "keyword": "justin jefferson jersey"
+    },
+    {
+      "playerId": "jaxon-smith-njigba",
+      "tier": "unseen",
+      "keyword": "jaxon smith-njigba jersey"
+    },
+    {
+      "playerId": "cade-cunningham",
+      "tier": "unseen",
+      "keyword": "cade cunningham jersey"
+    },
+    {
+      "playerId": "jack-hughes",
+      "tier": "close",
+      "keyword": "jack hughes jersey"
+    },
+    {
+      "playerId": "micah-parsons",
+      "tier": "unseen",
+      "keyword": "micah parsons jersey"
+    },
+    {
+      "playerId": "pete-crow-armstrong",
+      "tier": "unseen",
+      "keyword": "pete crow-armstrong jersey"
+    },
+    {
+      "playerId": "jordan-love",
+      "tier": "unseen",
+      "keyword": "jordan love jersey"
+    },
+    {
+      "playerId": "lionel-messi",
+      "tier": "unseen",
+      "keyword": "lionel messi jersey"
+    },
+    {
+      "playerId": "fernando-mendoza",
+      "tier": "unseen",
+      "keyword": "fernando mendoza jersey"
+    },
+    {
+      "playerId": "jalen-hurts",
+      "tier": "far",
+      "keyword": "jalen hurts jersey"
+    },
+    {
+      "playerId": "amon-ra-st-brown",
+      "tier": "unseen",
+      "keyword": "amon-ra st. brown jersey"
+    },
+    {
+      "playerId": "freddie-freeman",
+      "tier": "close",
+      "keyword": "freddie freeman jersey"
+    },
+    {
+      "playerId": "nikola-jokic",
+      "tier": "far",
+      "keyword": "jokic jerseys"
+    },
+    {
+      "playerId": "victor-wembanyama",
+      "tier": "unseen",
+      "keyword": "victor wembanyama jersey"
+    },
+    {
+      "playerId": "stephen-curry",
+      "tier": "close",
+      "keyword": "stephen curry jersey"
+    },
+    {
+      "playerId": "angel-reese",
+      "tier": "close",
+      "keyword": "angel reese jersey"
+    },
+    {
+      "playerId": "macklin-celebrini",
+      "tier": "close",
+      "keyword": "macklin celebrini jersey"
+    },
+    {
+      "playerId": "patrick-mahomes",
+      "tier": "unseen",
+      "keyword": "patrick mahomes jersey"
+    },
+    {
+      "playerId": "jayson-tatum",
+      "tier": "close",
+      "keyword": "jayson tatum jersey"
+    },
+    {
+      "playerId": "jayden-daniels",
+      "tier": "unseen",
+      "keyword": "jayden daniels jersey"
+    },
+    {
+      "playerId": "christian-mccaffrey",
+      "tier": "unseen",
+      "keyword": "christian mccaffrey jersey"
+    },
+    {
+      "playerId": "fred-warner",
+      "tier": "close",
+      "keyword": "fred warner jersey"
+    },
+    {
+      "playerId": "joe-burrow",
+      "tier": "unseen",
+      "keyword": "joe burrow jersey"
+    },
+    {
+      "playerId": "vj-edgecombe",
+      "tier": "unseen",
+      "keyword": "vj edgecombe jersey"
+    },
+    {
+      "playerId": "alex-ovechkin",
+      "tier": "close",
+      "keyword": "ovechkin jerseys"
+    },
+    {
+      "playerId": "mookie-betts",
+      "tier": "unseen",
+      "keyword": "mookie betts jersey"
+    },
+    {
+      "playerId": "kevin-durant",
+      "tier": "far",
+      "keyword": "kevin durant jersey"
+    },
+    {
+      "playerId": "shai-gilgeous-alexander",
+      "tier": "unseen",
+      "keyword": "shai gilgeous-alexander jersey"
+    },
+    {
+      "playerId": "connor-bedard",
+      "tier": "close",
+      "keyword": "connor bedard jersey"
+    },
+    {
+      "playerId": "tyreek-hill",
+      "tier": "far",
+      "keyword": "tyreek hill jerseys"
+    },
+    {
+      "playerId": "t-j-watt",
+      "tier": "far",
+      "keyword": "t.j. watt jersey"
+    },
+    {
+      "playerId": "travis-kelce",
+      "tier": "unseen",
+      "keyword": "travis kelce jersey"
+    },
+    {
+      "playerId": "son-heung-min",
+      "tier": "unseen",
+      "keyword": "son heung-min jersey"
+    },
+    {
+      "playerId": "bryce-harper",
+      "tier": "unseen",
+      "keyword": "bryce harper jersey"
+    },
+    {
+      "playerId": "yoshinobu-yamamoto",
+      "tier": "unseen",
+      "keyword": "yoshinobu yamamoto jersey"
+    },
+    {
+      "playerId": "tyrese-maxey",
+      "tier": "unseen",
+      "keyword": "tyrese maxey jersey"
+    },
+    {
+      "playerId": "devin-booker",
+      "tier": "unseen",
+      "keyword": "devin booker jersey"
+    },
+    {
+      "playerId": "c-j-stroud",
+      "tier": "unseen",
+      "keyword": "c.j. stroud jersey"
+    },
+    {
+      "playerId": "kawhi-leonard",
+      "tier": "far",
+      "keyword": "kawhi leonard jersey"
+    },
+    {
+      "playerId": "paul-skenes",
+      "tier": "unseen",
+      "keyword": "paul skenes jersey"
+    },
+    {
+      "playerId": "josh-hart",
+      "tier": "close",
+      "keyword": "josh hart jersey"
+    },
+    {
+      "playerId": "elly-de-la-cruz",
+      "tier": "unseen",
+      "keyword": "elly de la cruz jersey"
+    },
+    {
+      "playerId": "sidney-crosby",
+      "tier": "close",
+      "keyword": "sidney crosby jersey"
+    },
+    {
+      "playerId": "jarren-duran",
+      "tier": "unseen",
+      "keyword": "jarren duran jersey"
+    },
+    {
+      "playerId": "jalen-carter",
+      "tier": "far",
+      "keyword": "jalen carter jersey"
+    },
+    {
+      "playerId": "matthew-schaefer",
+      "tier": "far",
+      "keyword": "matthew schaefer jersey"
+    },
+    {
+      "playerId": "scottie-barnes",
+      "tier": "far",
+      "keyword": "scottie barnes jersey"
+    },
+    {
+      "playerId": "aidan-hutchinson",
+      "tier": "unseen",
+      "keyword": "aidan hutchinson jersey"
+    },
+    {
+      "playerId": "clayton-kershaw",
+      "tier": "unseen",
+      "keyword": "clayton kershaw jersey"
+    },
+    {
+      "playerId": "juan-soto",
+      "tier": "unseen",
+      "keyword": "juan soto jersey"
+    },
+    {
+      "playerId": "david-pastrnak",
+      "tier": "close",
+      "keyword": "pastrnak jersey"
+    },
+    {
+      "playerId": "jahmyr-gibbs",
+      "tier": "close",
+      "keyword": "jahmyr gibbs jersey number"
+    }
+  ]
+}

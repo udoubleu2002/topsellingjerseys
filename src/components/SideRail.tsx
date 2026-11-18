@@ -14,6 +14,7 @@ import { rectFor, lidsBanner, pinnedRailBanner, ROTATION_BANNER_ID, ROTATION_SHA
 import { AdRotation } from "./AdRotation";
 import { ShowUntil } from "./ShowUntil";
 import { SportJersey } from "./SportJersey";
+import { PopularJerseys } from "./PopularJerseys";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
 export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
@@ -143,6 +144,8 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
       )}
 
       {!minimal && shop && <RailShop {...shop} />}
+
+      {!minimal && <PopularJerseys league={active} page={active ? `league_${active}` : "home"} />}
 
       {!hideNews && news.length > 0 && (
         <section className="rail-box">

@@ -23,6 +23,7 @@ import { StickyShop } from "@/components/StickyShop";
 import { DealsBar } from "@/components/Deals";
 import { JsonLd } from "@/components/JsonLd";
 import { LidsAd } from "@/components/LidsAd";
+import { PopularJerseys } from "@/components/PopularJerseys";
 import { RotatingSlot } from "@/components/SideRail";
 import { rectFor } from "@/lib/lidsAds";
 import {
@@ -291,6 +292,7 @@ export default async function PlayerPage({ params }: Props) {
 
             <section className="block" aria-labelledby="rh-h">
               <h2 id="rh-h">Ranking history</h2>
+              {latest && <p className="shop-note">See where {player.name} stands among all the <Link href={`/${league.slug}/`}>top selling {league.name} jerseys</Link>.</p>}
               {appearances.length > 0 && (() => {
                 const best = [...appearances].sort((a, b) => a.rank - b.rank || b.ranking.publishedDate.localeCompare(a.ranking.publishedDate))[0];
                 const recent = appearances[0];
@@ -385,6 +387,7 @@ export default async function PlayerPage({ params }: Props) {
                 </ol>
               </section>
             )}
+            <PopularJerseys league={league.id} exclude={[player.id]} page={page} boxClass="side-box" />
             <RotatingSlot at="player_side_lids"><LidsAd banner={rectFor(league.id)} at="player_side_lids" /></RotatingSlot>
             <section className="side-box">
               <h2>Full ranking</h2>

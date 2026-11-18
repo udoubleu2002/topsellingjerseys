@@ -9,6 +9,7 @@ import { loadProfiles } from "../src/lib/profiles";
 import { loadNews } from "../src/lib/news";
 import { loadStories } from "../src/lib/stories";
 import { loadFeatured } from "../src/lib/featured";
+import { loadBuyerIntent } from "../src/lib/buyerIntent";
 import { site } from "../src/lib/config";
 import { daysBetween } from "../src/lib/format";
 import fs from "node:fs";
@@ -36,6 +37,17 @@ try {
     const t = TrendingSchema.safeParse(JSON.parse(fs.readFileSync(trendingFile, "utf8")));
     if (!t.success) errors.push(`data/trending.json: ${t.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`);
     else for (const [lg, rows] of Object.entries(t.data.leagues)) for (const r of rows) if (!store.players.some((p) => p.id === r.playerId)) errors.push(`data/trending.json: unknown player ${r.playerId} in ${lg}`);
+  }
+  // Buyer-intent list: every player must exist. Nudge the story run when the newest day has no priority player.
+  const intent = loadBuyerIntent();
+  if (intent) {
+    for (const r of intent.players) if (!store.players.some((p) => p.id === r.playerId)) errors.push(`data/buyer-intent.json: unknown player ${r.playerId}`);
+    const all = loadStories().filter((s) => s.status === "published");
+    const day = all[0]?.publishedDate;
+    const ids = new Set(intent.players.filter((r) => r.tier !== "far").map((r) => r.playerId));
+    if (day && day >= "2026-11-19" && !all.some((s) => s.publishedDate === day && s.playerId && ids.has(s.playerId)))
+      warnings.push(`stories ${day}: no story is about a buyer-intent player (data/buyer-intent.json); pick one when there is real news about them`);
+    if (daysBetween(intent.updated, site.lastReviewed) > 60) warnings.push(`data/buyer-intent.json: built ${intent.updated}; rebuild it from a fresh keyword export`);
   }
   if (featured && !store.players.some((p) => p.id === featured.playerId)) errors.push(`data/featured.json: unknown player ${featured.playerId}`);
   const hero = featured?.hero;

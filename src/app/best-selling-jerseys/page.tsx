@@ -52,7 +52,7 @@ export default function BestSellingJerseys() {
               </li>
             ))}
           </ol>
-          <p><Link className="bs-more" href={`/${league.slug}/`}>See all {total} best selling {league.name} jerseys →</Link></p>
+          <p><Link className="bs-more" href={`/${league.slug}/`}>See all {total} top selling {league.name} jerseys →</Link></p>
         </section>
       ))}
       <h2>Questions</h2>
