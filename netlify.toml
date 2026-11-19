@@ -10,3 +10,7 @@
 # Jersey photos from the Lids feed are resized and cached by the Netlify Image CDN (see src/lib/img.ts).
 [images]
   remote_images = ["https://feeds\\.frgimages\\.com/.*"]
+
+# After each production deploy, pre-load every jersey photo through the Image CDN so first visitors don't wait on resizes.
+[[plugins]]
+  package = "/netlify/plugins/warm-images"
