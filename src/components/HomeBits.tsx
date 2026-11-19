@@ -25,7 +25,7 @@ export function rankedJersey(player: Player, teamId: string | null | undefined):
 export function JerseyThumb({ player, teamId, number, size = 44, className = "" }: { player: Player; teamId?: string | null; number?: string | null; size?: number; className?: string }) {
   const product = rankedJersey(player, teamId);
   if (product?.image) {
-    return <span className={`jthumb ${className}`} aria-hidden="true" style={{ "--js": `${size}px` } as React.CSSProperties}><img {...jerseyImg(product.image.url, size * 2)} alt="" width={size} height={size} loading="lazy" decoding="async" /></span>;
+    return <span className={`jthumb ${className}`} aria-hidden="true" style={{ "--js": `${size}px` } as React.CSSProperties}><img {...jerseyImg(product.image.url, size)} alt="" width={size} height={size} loading="lazy" decoding="async" /></span>;
   }
   const c = getTeam(teamId ?? player.teamId ?? player.lastTeamId)?.colors ?? { primary: "#dfe3e8", secondary: "#20252b", accent: "#9aa3ad" };
   return <span className={`jthumb is-tile ${className}`} aria-hidden="true" style={{ "--js": `${size}px`, backgroundColor: c.primary, color: c.secondary } as React.CSSProperties}>{number ?? player.number ?? ""}</span>;
@@ -36,7 +36,7 @@ export function JerseyArt({ player, team, product, number, w, priority = false }
   if (product?.image) {
     return (
       <span className="jart is-photo">
-        <img {...jerseyImg(product.image.url, w)} alt={product.image.alt} width={w} height={w} loading={priority ? "eager" : "lazy"} decoding="async" />
+        <img {...jerseyImg(product.image.url, w)} alt={product.image.alt} width={w} height={w} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : undefined} decoding="async" />
       </span>
     );
   }

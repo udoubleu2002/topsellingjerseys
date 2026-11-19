@@ -194,7 +194,7 @@ function RailThumb({ ranking }: { ranking: Ranking }) {
   const p = getPlayer(e.playerId)!;
   const { reportTeam, number } = entryTeams(e, p);
   const photo = getProducts(p.id).find((x) => x.productType === "jersey" && x.image && x.teamId === e.teamIdAtReport) ?? getProducts(p.id).find((x) => x.productType === "jersey" && x.image);
-  if (photo?.image) return <span className="rail-thumb"><img {...jerseyImg(photo.image.url, 80)} alt="" width={40} height={40} loading="lazy" decoding="async" /></span>;
+  if (photo?.image) return <span className="rail-thumb"><img {...jerseyImg(photo.image.url, 40)} alt="" width={40} height={40} loading="lazy" decoding="async" /></span>;
   const c = reportTeam?.colors ?? { primary: "#dfe3e8", secondary: "#20252b", accent: "#9aa3ad" };
   return <span className="rail-thumb is-tile" style={{ backgroundColor: c.primary, color: c.secondary }} aria-hidden="true">{number ?? ""}</span>;
 }
@@ -213,7 +213,7 @@ function RailShop({ league, ranking, page }: { league: League; ranking: Ranking;
     <section className="rail-box rail-shop" style={{ "--tc": team?.colors.primary ?? league.accent } as React.CSSProperties}>
       <h2 className="rail-h">Shop the No. 1 {league.name} jersey</h2>
       <div className="rail-shop-in">
-        {product?.image && <img {...jerseyImg(product.image.url, 200)} alt={product.image.alt} width={100} height={100} loading="lazy" decoding="async" />}
+        {product?.image && <img {...jerseyImg(product.image.url, 100)} alt={product.image.alt} width={100} height={100} loading="lazy" decoding="async" />}
         <div>
           <Link className="rail-shop-name" href={`/players/${p.slug}/`}>{p.name}</Link>
           <span className="rail-team">{team?.name}</span>
