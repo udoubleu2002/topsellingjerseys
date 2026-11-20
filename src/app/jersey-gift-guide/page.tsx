@@ -125,7 +125,7 @@ export default function GiftGuidePage() {
         <section id="gift-tips" className="wrap section" aria-labelledby="gg-faq">
           <div className="sec-head"><h2 id="gg-faq" className="sec-h">Jersey gift questions: sizing, styles and picks</h2></div>
           <Faq items={faq} />
-          <p style={{ marginTop: 16 }}>Want more options? <Link href="/shop/">Shop every league&apos;s top sellers</Link>, browse <Link href="/cities/">jerseys by city</Link> for a hometown gift, or see <Link href="/trending/">who&apos;s trending</Link>.</p>
+          <p style={{ marginTop: 16 }}>Want a deal? See <Link href="/black-friday-jersey-deals/">Black Friday jersey deals</Link>. Want more options? <Link href="/shop/">Shop every league&apos;s top sellers</Link>, browse <Link href="/cities/">jerseys by city</Link> for a hometown gift, or see <Link href="/trending/">who&apos;s trending</Link>.</p>
           <div style={{ marginTop: 18 }}><AffiliateNote /></div>
         </section>
         <JsonLd data={ld} />

@@ -2473,6 +2473,15 @@ a { color: inherit; }
 .pop-team { font-size: 0.8rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .pop-list .btn-sm { padding-inline: 12px; }
 
+/* Homepage Black Friday strip: one slim line under the header, through Cyber Monday. */
+.bf-strip { background: var(--navy-2, #1b2f4d); border-bottom: 1px solid var(--navy-line); }
+.bf-strip-in { display: flex; align-items: center; gap: 12px; min-height: 44px; padding-block: 8px; color: #fff; text-decoration: none; font-weight: 600; font-size: 15px; }
+.bf-strip-tag { flex: none; background: var(--gold); color: #10151d; font: 800 12px/1 var(--f-num); letter-spacing: .12em; text-transform: uppercase; padding: 6px 8px; border-radius: 3px; }
+.bf-strip-text { flex: 1; min-width: 0; }
+.bf-strip-go { flex: none; color: var(--gold); white-space: nowrap; }
+.bf-strip-in:hover .bf-strip-go, .bf-strip-in:focus-visible .bf-strip-go { text-decoration: underline; }
+@media (max-width: 480px) { .bf-strip-in { font-size: 14px; gap: 10px; } .bf-strip-go { font-size: 0; } .bf-strip-go::after { content: "→"; font-size: 18px; } }
+@media (max-width: 480px) { .bf-strip-at { display: none; } }
 /* Phone menu: fills the screen below the header, with big tiles and tap targets. */
 .mobile-menu summary { min-height: 44px; display: flex; align-items: center; font-size: 16px; }
 .mobile-panel { top: 100%; padding: 16px 20px 28px; gap: 10px; min-height: calc(100dvh - 60px); max-height: calc(100dvh - 60px); overflow-y: auto; overscroll-behavior: contain; align-content: start; }
