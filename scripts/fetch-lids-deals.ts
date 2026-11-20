@@ -30,6 +30,25 @@ async function fetchAds(): Promise<ImpactAd[]> {
   return ads;
 }
 
+const clip = (x: unknown) => String(x ?? "").replace(/\s+/g, " ").slice(0, 70);
+const day = (x: unknown) => (typeof x === "string" ? x.slice(0, 10) : "-");
+const host = (u: string | undefined) => { try { return new URL(u ?? "").hostname; } catch { return "-"; } };
+
+/** Lists what Impact's Deals or PromoCodes endpoint returns for this account, for the log only. Never fails the run. */
+async function probe(kind: "Deals" | "PromoCodes") {
+  try {
+    const auth = `Basic ${Buffer.from(`${sid}:${token}`).toString("base64")}`;
+    const res = await fetch(`https://api.impact.com/Mediapartners/${sid}/${kind}?CampaignId=${campaign}&PageSize=100`, { headers: { Authorization: auth, Accept: "application/json" } });
+    if (!res.ok) return console.log(`${kind}: HTTP ${res.status}`);
+    const body = (await res.json()) as Record<string, unknown>;
+    const list = (body[kind] as Record<string, unknown>[] | undefined) ?? [];
+    console.log(`${kind}: ${list.length} returned; keys: ${Object.keys(list[0] ?? {}).slice(0, 25).join(", ")}`);
+    for (const d of list.slice(0, 15)) console.log(`${kind === "Deals" ? "deal " : "promo"} ${clip(d.Id)} | ${clip(d.Name ?? d.Code)} | ${clip(d.State)} | code ${clip(d.DefaultPromoCode ?? d.Code ?? "-")} | ${day(d.StartDate)} to ${day(d.EndDate)} | ${clip(d.CampaignId)}`);
+  } catch (e) {
+    console.log(`${kind}: ${(e as Error).message}`);
+  }
+}
+
 async function main() {
   if (!sid || !token || !campaign) {
     console.log("Skipping: set IMPACT_ACCOUNT_SID, IMPACT_AUTH_TOKEN and IMPACT_LIDS_CAMPAIGN_ID (or AFFILIATE_DEEPLINK_LIDS).");
@@ -37,6 +56,14 @@ async function main() {
   }
   const today = new Date().toISOString().slice(0, 10);
   const ads = await fetchAds();
+  // Diagnostics: show why ads were or were not kept, so a run's log answers "why no deals?".
+  const withDeal = ads.filter((a) => a.DealId);
+  const count = (xs: (string | null | undefined)[]) => Object.entries(xs.reduce<Record<string, number>>((m, x) => ((m[x ?? "none"] = (m[x ?? "none"] ?? 0) + 1), m), {})).map(([k, v]) => `${k}=${v}`).join(", ");
+  console.log(`ad types: ${count(ads.map((a) => a.Type))}`);
+  console.log(`${withDeal.length} ads carry a deal; deal states: ${count(withDeal.map((a) => a.DealState))}; deal types: ${count(withDeal.map((a) => a.DealType))}`);
+  for (const a of withDeal.slice(0, 15)) console.log(`deal  ${a.DealId} | ${clip(a.DealName)} | code ${a.DealDefaultPromoCode ?? "-"} | ${day(a.StartDate)} to ${day(a.EndDate)} | ${host(a.LandingPageUrl)}`);
+  await probe("Deals");
+  await probe("PromoCodes");
   const fresh = adsToPromotions(ads, today);
   const existing: Promotion[] = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : [];
   const merged = mergePromotions(existing, fresh, today);
