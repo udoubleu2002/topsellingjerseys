@@ -45,6 +45,8 @@ async function main() {
 }
 
 main().catch((e) => {
-  console.error((e as Error).message);
-  process.exit(1);
+  // A refused or failed deals request must not stop the daily job: the product sync runs after this step.
+  // Current promotions are left as they are.
+  const msg = (e as Error).message;
+  console.warn(`${process.env.GITHUB_ACTIONS ? "::warning::" : ""}Lids deals not refreshed: ${msg}${/ 40[13]/.test(msg) ? " (this Impact API token may not have access to the Ads endpoint)" : ""}`);
 });
