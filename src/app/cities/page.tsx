@@ -5,7 +5,8 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { CityCard, FeaturedCity } from "@/components/CityCards";
-import { getCities, featuredCities, cityLeagues } from "@/lib/cities";
+import { getCities, featuredCities, cityLeagues, cityPath } from "@/lib/cities";
+import { CityJump } from "@/components/CityJump";
 import { getLeagues } from "@/lib/data";
 import "../cities.css";
 
@@ -29,6 +30,7 @@ export default function CitiesPage() {
               <h1 className="cx-eyebrow">Top Selling Jerseys by City</h1>
               <p className="cx-display">America&apos;s Best-Selling Jerseys, City by City</p>
               <p className="cx-lede">Explore the teams, athletes and jerseys capturing the attention of sports fans across America&apos;s biggest cities.</p>
+              <CityJump cities={[...cities].sort((a, b) => a.name.localeCompare(b.name)).map((c) => ({ name: c.name, region: c.region, href: cityPath(c) }))} />
               <AffiliateNote />
             </header>
             {feat && (
