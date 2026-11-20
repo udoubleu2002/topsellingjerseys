@@ -2482,20 +2482,54 @@ a { color: inherit; }
 .bf-strip-in:hover .bf-strip-go, .bf-strip-in:focus-visible .bf-strip-go { text-decoration: underline; }
 @media (max-width: 480px) { .bf-strip-in { font-size: 14px; gap: 10px; } .bf-strip-go { font-size: 0; } .bf-strip-go::after { content: "→"; font-size: 18px; } }
 @media (max-width: 480px) { .bf-strip-at { display: none; } }
-/* Phone menu: fills the screen below the header, with big tiles and tap targets. */
-.mobile-menu summary { min-height: 44px; display: flex; align-items: center; font-size: 16px; }
-.mobile-panel { top: 100%; padding: 16px 20px 28px; gap: 10px; min-height: calc(100dvh - 60px); max-height: calc(100dvh - 60px); overflow-y: auto; overscroll-behavior: contain; align-content: start; }
-.mobile-panel form input, .mobile-panel form button { height: 52px; font-size: 17px; }
-.mp-leagues { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 10px 0 8px; }
-.mobile-panel .mp-leagues a { padding: 20px 16px; gap: 6px; border-radius: 10px; border-top-width: 6px; }
-.mp-leagues b { font-size: 34px; }
-.mp-leagues span { font-size: 15px; }
-.mp-links { display: grid; }
-.mobile-panel .mp-links a { padding: 18px 0; font-size: 19px; }
-.mobile-panel .mp-links a:last-child { border-bottom: 0; }
+/* Phone menu: a full-height sheet with search, grouped lists and expandable leagues, like the big sports apps. */
+.mobile-menu summary { min-height: 40px; display: flex; align-items: center; gap: 8px; font-size: 15px; }
+.mm-burger { display: grid; gap: 4px; width: 18px; }
+.mm-burger i { display: block; height: 2px; border-radius: 2px; background: currentColor; transition: transform .2s, opacity .2s; }
+.mobile-menu[open] .mm-burger i:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.mobile-menu[open] .mm-burger i:nth-child(2) { opacity: 0; }
+.mobile-menu[open] .mm-burger i:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+.mobile-panel { top: 100%; display: block; padding: 14px 16px 32px; max-height: calc(100dvh - 60px); overflow-y: auto; overscroll-behavior: contain; box-shadow: 0 18px 40px rgba(0, 0, 0, .45); }
+.mobile-panel a { border-bottom: 0; padding: 0; }
+.mm-search { position: relative; display: block; margin: 0 0 14px; }
+.mm-search svg { position: absolute; left: 14px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); color: #8fa0b8; pointer-events: none; }
+.mobile-panel .mm-search input { width: 100%; height: 46px; padding: 0 14px 0 42px; border-radius: 999px; font-size: 16px; }
+.mobile-panel .mm-promo { display: flex; align-items: center; gap: 10px; padding: 12px 14px; margin-bottom: 6px; border-radius: 10px; background: linear-gradient(90deg, rgba(215, 168, 73, .2), rgba(215, 168, 73, .06)); border: 1px solid rgba(215, 168, 73, .45); font-weight: 700; font-size: 15px; }
+.mm-promo-tag { flex: none; background: var(--gold); color: #10151d; font: 800 11px/1 var(--f-num); letter-spacing: .1em; text-transform: uppercase; padding: 5px 7px; border-radius: 3px; }
+.mm-promo-text { flex: 1; }
+.mm-label { margin: 20px 0 4px; font: 800 12px/1 var(--f-num); letter-spacing: .14em; text-transform: uppercase; color: #8fa0b8; }
+.mm-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--navy-line); }
+.mm-list > li { border-bottom: 1px solid var(--navy-line); }
+.mobile-panel .mm-list > li > a, .mm-league > summary { display: flex; align-items: center; gap: 10px; min-height: 52px; color: #fff; font-weight: 600; font-size: 16px; cursor: pointer; list-style: none; }
+.mm-league > summary::-webkit-details-marker { display: none; }
+.mobile-menu .mm-league > summary { border: 0; border-radius: 0; padding: 0; font: 600 16px var(--f-body); }
+.mm-chev { width: 16px; height: 16px; margin-left: auto; flex: none; color: #8fa0b8; transition: transform .2s; }
+.mm-league[open] > summary .mm-chev { transform: rotate(90deg); }
+.mm-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--lg, var(--gold)); flex: none; }
+.mm-sub { font-size: 13px; font-weight: 500; color: #8fa0b8; }
+.mm-pill { font: 800 11px/1 var(--f-num); letter-spacing: .08em; text-transform: uppercase; background: var(--red, #d7263d); color: #fff; padding: 4px 6px; border-radius: 3px; }
+.mm-sublist { list-style: none; margin: 0 0 10px; padding: 0 0 0 20px; border-left: 2px solid var(--lg, var(--gold)); }
+.mobile-panel .mm-sublist a { display: flex; align-items: center; gap: 10px; min-height: 44px; color: #dbe3ee; font-size: 15px; font-weight: 500; }
+.mm-sublist li:first-child a { color: var(--gold); font-weight: 700; }
+.mm-rank { width: 22px; font: 800 13px/1 var(--f-num); color: #8fa0b8; }
+.mm-foot { display: flex; align-items: center; gap: 18px; margin-top: 24px; font-size: 15px; }
+.mobile-panel .mm-foot a { color: #c9d4e2; font-weight: 600; }
+.mobile-panel .mm-foot .mm-mj { color: #10151d; background: var(--gold); padding: 10px 16px; border-radius: 999px; }
 body:has(.mobile-menu[open]) .consent { display: none; }
 
 /* Player page: youth jerseys get their own heading under the main listings. */
 .youth-block { margin-top: 22px; }
 .youth-block h3 { font: 800 22px/1.1 var(--f-head); margin-bottom: 6px; }
 .youth-block .products { margin-top: 12px; }
+
+/* Phone: the six league No. 1s become a clean full-width list, so every name shows in full. */
+@media (max-width: 560px) {
+  .gd-hero-in { grid-template-columns: minmax(0, 1fr); }
+  .gd-ones { grid-template-columns: 1fr; width: 100%; border-radius: 10px; border-bottom: 1px solid rgba(255, 255, 255, .12); margin-bottom: 20px; }
+  .gd-one { grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "i lg go" "i n go"; padding: 10px 14px; column-gap: 12px; row-gap: 2px; border-right: 0; border-top: 0; border-left: 4px solid var(--lg); border-bottom: 1px solid rgba(255, 255, 255, .08); }
+  .gd-one:last-child { border-bottom: 0; }
+  .gd-one::after { content: "›"; grid-area: go; font-size: 24px; line-height: 1; color: #8fa0b8; }
+  .gd-one-i { width: 40px; height: 40px; }
+  .gd-one-lg { font-size: 12px; }
+  .gd-one-n { font-size: 16px; white-space: normal; overflow: visible; text-overflow: clip; }
+}
