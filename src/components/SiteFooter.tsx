@@ -23,6 +23,7 @@ export function SiteFooter() {
             <li><Link href="/best-selling-jersey/">Best selling jersey in every league</Link></li>
             <li><Link href="/best-selling-sports-jerseys/">Best selling sports jerseys: sources</Link></li>
             <li><Link href="/cities/">Top jerseys by city</Link></li>
+            <li><Link href="/jersey-gift-guide/">Jersey gift guide</Link></li>
             <li><Link href="/news/">Jersey news</Link></li>
             <li><Link href="/rankings/">All reports and archive</Link></li>
             <li><Link href="/players/">All player pages</Link></li>
