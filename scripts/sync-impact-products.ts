@@ -15,6 +15,7 @@ import { campaignFromLink } from "../src/lib/impactDeals";
 import { CATALOG_ID_PREFIX, itemToProduct, mergeProducts, pickJerseys, type ImpactItem } from "../src/lib/impactCatalog";
 import { DIAGNOSTIC_CATALOG_ID } from "../src/lib/impactDiagnostic";
 import { ProductSchema, type Product } from "../src/lib/schema";
+import { productStyle } from "../src/lib/productStyle";
 
 const sid = process.env.IMPACT_ACCOUNT_SID;
 const token = process.env.IMPACT_AUTH_TOKEN;
@@ -112,6 +113,19 @@ async function main() {
       }
     }
     if (tried > 1 && picks.length) console.log(`deep  ${p.name}: matched after ${tried} searches`);
+    // Also keep one youth and one women's jersey when the feed has them: shoppers search "<player> youth jersey" a lot.
+    // Ranked players get their own youth search, since the plain search rarely surfaces kids' sizes.
+    if (picks.length && ranked.has(p.id) && !items.some((i) => i.Name && productStyle({ title: i.Name, edition: null }).fit === "Youth")) {
+      try { items = items.concat(await search(`${p.name} youth jersey`)); } catch (e) { if (/ 40[13] /.test((e as Error).message)) throw e; }
+    }
+    if (picks.length) {
+      const pool = pickJerseys(items, p, team, { campaignId, catalogId, limit: 60 });
+      for (const fit of ["Youth", "Women's"]) {
+        if (picks.some((i) => productStyle({ title: i.Name!, edition: null }).fit === fit)) continue;
+        const extra = pool.find((i) => !picks.includes(i) && productStyle({ title: i.Name!, edition: null }).fit === fit);
+        if (extra) picks = [...picks, extra];
+      }
+    }
     if (!picks.length) {
       // Show what the feed does carry under this name, so a near miss (wrong team in the title, a missing word) is easy to spot.
       const last = p.name.split(" ").pop()!.toLowerCase();

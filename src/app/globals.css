@@ -2494,3 +2494,8 @@ a { color: inherit; }
 .mobile-panel .mp-links a { padding: 18px 0; font-size: 19px; }
 .mobile-panel .mp-links a:last-child { border-bottom: 0; }
 body:has(.mobile-menu[open]) .consent { display: none; }
+
+/* Player page: youth jerseys get their own heading under the main listings. */
+.youth-block { margin-top: 22px; }
+.youth-block h3 { font: 800 22px/1.1 var(--f-head); margin-bottom: 6px; }
+.youth-block .products { margin-top: 12px; }
