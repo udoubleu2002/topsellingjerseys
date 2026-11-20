@@ -34,6 +34,7 @@ export default function ShopPage() {
             <nav className="gd-chips" aria-label="Jump to a league">
               {leagues.map(({ league }) => <a key={league.id} href={`#shop-${league.id}`} style={{ "--lg": league.accent } as React.CSSProperties}>{league.name}</a>)}
               <a href="#by-team">By team</a>
+              <Link href="/jersey-gift-guide/">Gift guide</Link>
             </nav>
           </div>
         </header>

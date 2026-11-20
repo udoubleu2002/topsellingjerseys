@@ -236,6 +236,7 @@ export default async function LeaguePage({ params }: Props) {
             <Link href="/rankings/">Report archive</Link>
             <Link href="/trending/">Trending jerseys</Link>
             <Link href="/shop/">Shop the top sellers</Link>
+            <Link href="/jersey-gift-guide/">{league.name} jersey gift ideas</Link>
           </nav>
           {cities.length > 0 && (
             <>
