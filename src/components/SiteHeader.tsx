@@ -2,14 +2,12 @@ import Link from "next/link";
 import { site, backend, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
 import { JerseyIcon } from "./Brand";
-import { DealTicker } from "./DealTicker";
 import { MobileMenu } from "./MobileMenu";
 
 export function SiteHeader({ active }: { active?: string }) {
   const leagues = getLeagues();
   return (
     <>
-    <DealTicker />
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
