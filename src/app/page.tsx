@@ -13,6 +13,7 @@ import { getStories, storyPath } from "@/lib/stories";
 import { fmtShortDate } from "@/lib/format";
 import { TeamShopDirectory } from "@/components/ShopBits";
 import { DealsBar } from "@/components/Deals";
+import { BlackFridayStrip } from "@/components/BlackFridayStrip";
 import { SideRail } from "@/components/SideRail";
 import { site, abs } from "@/lib/config";
 
@@ -39,6 +40,7 @@ export default function Home() {
     <>
       <SiteHeader />
       <main id="main" data-page-type="home">
+        <BlackFridayStrip />
         <HeroStory leagues={leagues.map(({ league, ranking }) => ({ league, ranking: ranking! }))} />
         <div className="gd-trust">
           <div className="wrap gd-trust-in">

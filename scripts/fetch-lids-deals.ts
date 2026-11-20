@@ -12,7 +12,8 @@ import type { Promotion } from "../src/lib/schema";
 
 const sid = process.env.IMPACT_ACCOUNT_SID;
 const token = process.env.IMPACT_AUTH_TOKEN;
-const campaign = process.env.IMPACT_LIDS_CAMPAIGN_ID || campaignFromLink(process.env.AFFILIATE_DEEPLINK_LIDS);
+// Same default as the product sync, so deals still load when the campaign secret is not set.
+const campaign = process.env.IMPACT_LIDS_CAMPAIGN_ID || campaignFromLink(process.env.AFFILIATE_DEEPLINK_LIDS) || "9679";
 const file = path.join(process.cwd(), "data", "promotions.json");
 
 async function fetchAds(): Promise<ImpactAd[]> {
