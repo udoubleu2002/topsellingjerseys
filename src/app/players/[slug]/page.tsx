@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import type { Product } from "@/lib/schema";
 import { ProductImage } from "@/components/ProductImage";
 import { ShopButton } from "@/components/ShopButton";
 import { StatsPanel } from "@/components/PlayerBits";
@@ -27,7 +28,7 @@ import { PopularJerseys } from "@/components/PopularJerseys";
 import { RotatingSlot } from "@/components/SideRail";
 import { rectFor } from "@/lib/lidsAds";
 import {
-  getPlayers, getPlayerBySlug, getLeague, getTeam, getAppearances, getLatestAppearance, getStatLine, getProducts, getPlayer,
+  getPlayers, getPlayerBySlug, getLeague, getTeam, getMerchant, getAppearances, getLatestAppearance, getStatLine, getProducts, getPlayer,
   isIndexable, teamLabel, teamPlayers, loadStore, reportStatus,
 } from "@/lib/data";
 import { productOffer, searchOffer } from "@/lib/affiliate";
@@ -66,6 +67,11 @@ export default async function PlayerPage({ params }: Props) {
   const line = getStatLine(player.id);
   const allLines = loadStore().stats.filter((s) => s.playerId === player.id && !s.isDemo).sort((a, b) => (b.throughDate ?? "").localeCompare(a.throughDate ?? ""));
   const products = getProducts(player.id);
+  const isYouth = (p: Product) => productStyle(p).fit === "Youth";
+  const youthProducts = products.filter((p) => p.productType === "jersey" && isYouth(p));
+  // With only youth listings, show them in the main grid rather than an empty one.
+  const adultProducts = youthProducts.length === products.length ? products : products.filter((p) => !isYouth(p));
+  const youthBlock = adultProducts === products ? [] : youthProducts;
   // Lead with the lowest-priced jersey for the player's current team (photo, price and buy button all show the same
   // listing), so the button's price is the "from" price shoppers see in the style comparison.
   const jerseys = products.filter((p) => p.productType === "jersey");
@@ -89,7 +95,10 @@ export default async function PlayerPage({ params }: Props) {
   const intro = playerIntro(seo);
   // The hero shows the season stats in full just below, so its intro leaves out the one-line stat summary.
   const heroIntro = playerIntro({ ...seo, line: undefined });
-  const faq = playerFaq(seo);
+  const faq = [
+    ...playerFaq(seo),
+    ...(youthProducts.length ? [{ q: `Does ${player.name} have a youth jersey?`, a: `Yes. ${youthProducts[0].title} is listed at ${getMerchant(youthProducts[0].merchantId)?.name ?? "the retailer"}${youthProducts[0].price !== null ? ` for ${new Intl.NumberFormat("en-US", { style: "currency", currency: youthProducts[0].currency ?? "USD" }).format(youthProducts[0].price)}` : ""} (checked ${fmtShortDate(youthProducts[0].lastVerified)}). The shopping section above links to it with sizes and stock.` }] : []),
+  ];
   const url = abs(`/players/${player.slug}/`);
   const ld = {
     "@context": "https://schema.org",
@@ -130,6 +139,32 @@ export default async function PlayerPage({ params }: Props) {
   const city = player.teamId ? cityOfTeam(player.teamId) : undefined;
   const range = priceRange(products);
   const money = (n: number) => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
+  const renderProduct = (p: Product) => {
+    const o = productOffer(p);
+    const tags = styleTags(productStyle(p));
+    const pTeam = getTeam(p.teamId);
+    return (
+      <article className="product" key={p.id}>
+        <ProductImage player={player} team={team} product={p} />
+        <div className="product-body">
+          <strong>{p.title}</strong>
+          {(tags.length > 0 || pTeam) && (
+            <span className="style-tags">
+              {pTeam && <span className="style-tag">{pTeam.name}</span>}
+              {tags.map((t) => <span key={t} className="style-tag">{t}</span>)}
+            </span>
+          )}
+          {pTeam && p.teamId !== player.teamId && <span className="jersey-team-note">Jersey shows the {pTeam.name}{player.teamId ? `; ${player.name} now plays for the ${team?.name ?? "another team"}` : player.status === "Retired" ? `; ${player.name} has retired` : `; ${player.name} is a ${player.status.toLowerCase()}`}.</span>}
+          {p.price !== null && p.currency && <span>{new Intl.NumberFormat("en-US", { style: "currency", currency: p.currency }).format(p.price)}</span>}
+          <span className="shop-note">
+            {p.availability === "in-stock" ? "In stock" : p.availability === "out-of-stock" ? "Out of stock" : p.availability === "preorder" ? "Preorder" : "Availability not confirmed"}
+            {" · "}checked {fmtShortDate(p.lastVerified)}
+          </span>
+          {o && <ShopButton offer={o} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "player_products", page }}>View at {o.merchantName}</ShopButton>}
+        </div>
+      </article>
+    );
+  };
   return (
     <>
       <SiteHeader active={league.id} />
@@ -250,32 +285,7 @@ export default async function PlayerPage({ params }: Props) {
               <StyleCompare products={products} playerName={player.name} league={league.id} playerId={player.id} rank={latest?.rank} page={page} />
               {products.length > 0 ? (
                 <div className="products">
-                  {products.map((p) => {
-                    const o = productOffer(p);
-                    const tags = styleTags(productStyle(p));
-                    const pTeam = getTeam(p.teamId);
-                    return (
-                      <article className="product" key={p.id}>
-                        <ProductImage player={player} team={team} product={p} />
-                        <div className="product-body">
-                          <strong>{p.title}</strong>
-                          {(tags.length > 0 || pTeam) && (
-                            <span className="style-tags">
-                              {pTeam && <span className="style-tag">{pTeam.name}</span>}
-                              {tags.map((t) => <span key={t} className="style-tag">{t}</span>)}
-                            </span>
-                          )}
-                          {pTeam && p.teamId !== player.teamId && <span className="jersey-team-note">Jersey shows the {pTeam.name}{player.teamId ? `; ${player.name} now plays for the ${team?.name ?? "another team"}` : player.status === "Retired" ? `; ${player.name} has retired` : `; ${player.name} is a ${player.status.toLowerCase()}`}.</span>}
-                          {p.price !== null && p.currency && <span>{new Intl.NumberFormat("en-US", { style: "currency", currency: p.currency }).format(p.price)}</span>}
-                          <span className="shop-note">
-                            {p.availability === "in-stock" ? "In stock" : p.availability === "out-of-stock" ? "Out of stock" : p.availability === "preorder" ? "Preorder" : "Availability not confirmed"}
-                            {" · "}checked {fmtShortDate(p.lastVerified)}
-                          </span>
-                          {o && <ShopButton offer={o} ctx={{ league: league.id, playerId: player.id, rank: latest?.rank, placement: "player_products", page }}>View at {o.merchantName}</ShopButton>}
-                        </div>
-                      </article>
-                    );
-                  })}
+                  {adultProducts.map(renderProduct)}
                 </div>
               ) : (
                 <div className="empty">
@@ -285,6 +295,13 @@ export default async function PlayerPage({ params }: Props) {
                       {search.label}
                     </ShopButton>
                   )}
+                </div>
+              )}
+              {youthBlock.length > 0 && (
+                <div className="youth-block">
+                  <h3 id="youth-h">{player.name} youth jersey</h3>
+                  <p className="shop-note">Kids&apos; sizes of {player.name}&apos;s jersey. Youth jerseys use youth sizes (S to XL), not ages, so check the retailer&apos;s size chart.</p>
+                  <div className="products">{youthBlock.map(renderProduct)}</div>
                 </div>
               )}
               <AffiliateNote />
