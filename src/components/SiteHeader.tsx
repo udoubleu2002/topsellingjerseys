@@ -50,9 +50,15 @@ export function SiteHeader({ active }: { active?: string }) {
                 <Link key={l.id} href={`/${l.slug}/`} style={{ "--lg": l.accent } as React.CSSProperties}><b>{l.name}</b><span>Top sellers</span></Link>
               ))}
             </div>
-            <Link href="/cities/">Top jerseys by city</Link>
-            <Link href="/shop/">Shop jerseys</Link>
-            <Link href="/news/">Jersey news</Link>
+            <div className="mp-links">
+              <Link href="/best-selling-jerseys/">Best selling jerseys</Link>
+              <Link href="/trending/">Trending this week</Link>
+              <Link href="/cities/">Top jerseys by city</Link>
+              <Link href="/shop/">Shop jerseys</Link>
+              <Link href="/news/">Jersey news</Link>
+              <Link href="/rankings/">Sales report archive</Link>
+              <a href="/my-jerseys/">My Jerseys</a>
+            </div>
             {backendEnabled && <a href="#newsletter">Newsletter</a>}
           </nav>
         </details>
