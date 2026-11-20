@@ -3,6 +3,7 @@ import { site, backend, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
 import { JerseyIcon } from "./Brand";
 import { DealTicker } from "./DealTicker";
+import { MobileMenu } from "./MobileMenu";
 
 export function SiteHeader({ active }: { active?: string }) {
   const leagues = getLeagues();
@@ -37,31 +38,7 @@ export function SiteHeader({ active }: { active?: string }) {
           <span className="mj-link-text">My Jerseys</span>
           <span className="mj-badge" data-mj-count hidden suppressHydrationWarning>0</span>
         </a>
-        <details className="mobile-menu">
-          <summary>Menu</summary>
-          <nav className="mobile-panel" aria-label="Mobile">
-            <form action="/search/" role="search">
-              <label htmlFor="q-mobile" className="sr-only">Search players, teams, cities and leagues</label>
-              <input id="q-mobile" name="q" type="search" placeholder="Search players, teams or cities" />
-              <button type="submit">Search</button>
-            </form>
-            <div className="mp-leagues">
-              {leagues.map((l) => (
-                <Link key={l.id} href={`/${l.slug}/`} style={{ "--lg": l.accent } as React.CSSProperties}><b>{l.name}</b><span>Top sellers</span></Link>
-              ))}
-            </div>
-            <div className="mp-links">
-              <Link href="/best-selling-jerseys/">Best selling jerseys</Link>
-              <Link href="/trending/">Trending this week</Link>
-              <Link href="/cities/">Top jerseys by city</Link>
-              <Link href="/shop/">Shop jerseys</Link>
-              <Link href="/news/">Jersey news</Link>
-              <Link href="/rankings/">Sales report archive</Link>
-              <a href="/my-jerseys/">My Jerseys</a>
-            </div>
-            {backendEnabled && <a href="#newsletter">Newsletter</a>}
-          </nav>
-        </details>
+        <MobileMenu />
       </div>
       <script src="/my-jerseys.js" defer data-keep {...(backendEnabled ? { "data-sb-url": backend.url, "data-sb-key": backend.anonKey } : {})} />
     </header>
