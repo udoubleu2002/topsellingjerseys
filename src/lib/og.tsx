@@ -5,6 +5,10 @@ import { ImageResponse } from "next/og";
 export const ogSize = { width: 1200, height: 630 };
 const font = (f: string) => fs.readFileSync(path.join(process.cwd(), "assets/fonts", f));
 
+/** The site logo (assets/brand/logo.png, 720x309, transparent) as a data URI for share images. */
+export const ogLogo = `data:image/png;base64,${fs.readFileSync(path.join(process.cwd(), "assets/brand/logo.png")).toString("base64")}`;
+export const ogLogoRatio = 720 / 309;
+
 /** Share image in the site's broadcast style. Optional tile shows a team-color number swatch (never a jersey drawing). */
 export function renderOg({ kicker, title, sub, tile, rank }: { kicker: string; title: string; sub?: string; tile?: { bg: string; fg: string; stripe: string; num: string }; rank?: number }) {
   return new ImageResponse(
@@ -14,7 +18,7 @@ export function renderOg({ kicker, title, sub, tile, rank }: { kicker: string; t
         <div style={{ position: "absolute", right: -160, top: -160, width: 700, height: 700, display: "flex", borderRadius: 700, backgroundImage: "radial-gradient(circle, rgba(232,68,44,0.35), rgba(232,68,44,0) 65%)" }} />
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: "64px 72px", flex: 1, position: "relative" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <div style={{ fontSize: 34, fontWeight: 800, letterSpacing: 2, textTransform: "uppercase" }}>Top Selling Jerseys</div>
+            <img src={ogLogo} width={Math.round(84 * ogLogoRatio)} height={84} alt="Top Selling Jerseys" />
           </div>
           <div style={{ display: "flex", flexDirection: "column", maxWidth: tile ? 720 : 1000 }}>
             <div style={{ fontSize: 30, fontWeight: 800, letterSpacing: 4, color: "#f3b940", textTransform: "uppercase", display: "flex" }}>{kicker}</div>

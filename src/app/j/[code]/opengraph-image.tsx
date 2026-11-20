@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ImageResponse } from "next/og";
-import { ogSize } from "@/lib/og";
+import { ogSize, ogLogo, ogLogoRatio } from "@/lib/og";
 import { getLeague } from "@/lib/data";
 import { decodeCollection, grouped, COLLECTION_LEAGUES, type CollectionLeague } from "@/lib/collection";
 
@@ -74,10 +74,7 @@ export default async function Image({ params }: { params: Promise<{ code: string
         {c && (
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 18 }}>
             <div style={{ display: "flex", fontSize: 46, textTransform: "uppercase", color: "#f4f6fa" }}><span>What&apos;s</span><span style={{ color: "#e8442c", margin: "0 12px" }}>your</span><span>jersey count?</span></div>
-            <span style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 22, letterSpacing: 3, textTransform: "uppercase", color: "#8d99b0" }}>
-              <svg width="30" height="30" viewBox="0 0 64 64"><path d="M23 9 13 13 4 23l8 9 5-4v28h30V28l5 4 8-9-9-10-10-4c-1.6 4.6-4.9 7-9 7s-7.4-2.4-9-7z" fill="#e8442c" /></svg>
-              Top Selling Jerseys
-            </span>
+            <img src={ogLogo} width={Math.round(60 * ogLogoRatio)} height={60} alt="Top Selling Jerseys" />
           </div>
         )}
       </div>

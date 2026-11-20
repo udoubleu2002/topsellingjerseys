@@ -11,7 +11,8 @@ export function SiteHeader({ active }: { active?: string }) {
     <header className="masthead">
       <div className="wrap mast-in">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
-          <span className="brand-name brand-word"><span className="bw-top">{site.name.replace(/\s*\S+$/, "")}</span><em className="bw-main">{site.name.split(" ").pop()}</em></span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="brand-logo" src="/logo.png" width={480} height={206} alt={site.name} fetchPriority="high" decoding="async" />
         </Link>
         <nav className="league-nav" aria-label="Leagues">
           {leagues.map((l) => (
