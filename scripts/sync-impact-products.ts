@@ -42,8 +42,24 @@ async function api<T>(pathAndQuery: string): Promise<T> {
   }
 }
 
-const search = async (keyword: string) =>
-  (await api<{ Items?: ImpactItem[] }>(`/Mediapartners/${sid}/Catalogs/ItemSearch?Keyword=${encodeURIComponent(keyword)}&PageSize=100`)).Items ?? [];
+/** One keyword search, following the next-page link for up to `pages` pages of 100. */
+async function search(keyword: string, pages = 1): Promise<ImpactItem[]> {
+  const out: ImpactItem[] = [];
+  let next: string | undefined = `/Mediapartners/${sid}/Catalogs/ItemSearch?Keyword=${encodeURIComponent(keyword)}&PageSize=100`;
+  for (let n = 0; next && n < pages; n++) {
+    const res: { Items?: ImpactItem[]; "@nextpageuri"?: string } = await api(next);
+    out.push(...(res.Items ?? []));
+    next = res["@nextpageuri"] || undefined;
+    if (next) await sleep(300);
+  }
+  return out;
+}
+
+/**
+ * Searches that find the player's jersey when the plain "<name> jersey" search is crowded out by other items
+ * (a star's teammates, a namesake, or tees and hoodies). Tried in order, with deeper paging, only until one matches.
+ */
+const fallbackQueries = (name: string, teamName: string) => [`${name} ${teamName} jersey`, `${name} nike jersey`, `"${name}" jersey`, name];
 
 async function main() {
   if (!sid || !token) {
@@ -81,7 +97,27 @@ async function main() {
       if (failed > Math.max(20, players.length / 4)) throw new Error(`Stopped after ${failed} failed searches; last: ${msg}`);
       continue;
     }
-    const picks = pickJerseys(items, p, team, { campaignId, catalogId });
+    let picks = pickJerseys(items, p, team, { campaignId, catalogId });
+    let tried = 1;
+    for (const q of fallbackQueries(p.name, team.name)) {
+      if (picks.length) break;
+      try {
+        const more = await search(q, 3);
+        tried++;
+        items = items.concat(more);
+        picks = pickJerseys(items, p, team, { campaignId, catalogId });
+      } catch (e) {
+        if (/ 40[13] /.test((e as Error).message)) throw e;
+        break;
+      }
+    }
+    if (tried > 1 && picks.length) console.log(`deep  ${p.name}: matched after ${tried} searches`);
+    if (!picks.length) {
+      // Show what the feed does carry under this name, so a near miss (wrong team in the title, a missing word) is easy to spot.
+      const last = p.name.split(" ").pop()!.toLowerCase();
+      const near = [...new Set(items.map((i) => i.Name ?? "").filter((n) => n.toLowerCase().includes(last) && /jersey/i.test(n)))].slice(0, 3);
+      if (near.length) console.log(`near  ${p.name}: ${near.join(" | ")}`);
+    }
     if (picks.length) withPhoto++;
     for (const i of picks) {
       // Never let one odd feed item fail the whole refresh: skip anything the data validation would reject.
@@ -94,7 +130,7 @@ async function main() {
       seen.add(prod.id);
       fresh.push(prod);
     }
-    console.log(`${picks.length ? "found" : "none "} ${p.name}: ${picks.map((i) => i.Name).join(" | ") || `${items.length} search results, no matching Lids jersey`}`);
+    console.log(`${picks.length ? "found" : "none "} ${p.name}: ${picks.map((i) => i.Name).join(" | ") || `${items.length} search results over ${tried} searches, no matching Lids jersey`}`);
     await sleep(300);
   }
 

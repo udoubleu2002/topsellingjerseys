@@ -2482,3 +2482,15 @@ a { color: inherit; }
 .bf-strip-in:hover .bf-strip-go, .bf-strip-in:focus-visible .bf-strip-go { text-decoration: underline; }
 @media (max-width: 480px) { .bf-strip-in { font-size: 14px; gap: 10px; } .bf-strip-go { font-size: 0; } .bf-strip-go::after { content: "→"; font-size: 18px; } }
 @media (max-width: 480px) { .bf-strip-at { display: none; } }
+/* Phone menu: fills the screen below the header, with big tiles and tap targets. */
+.mobile-menu summary { min-height: 44px; display: flex; align-items: center; font-size: 16px; }
+.mobile-panel { top: 100%; padding: 16px 20px 28px; gap: 10px; min-height: calc(100dvh - 60px); max-height: calc(100dvh - 60px); overflow-y: auto; overscroll-behavior: contain; align-content: start; }
+.mobile-panel form input, .mobile-panel form button { height: 52px; font-size: 17px; }
+.mp-leagues { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 10px 0 8px; }
+.mobile-panel .mp-leagues a { padding: 20px 16px; gap: 6px; border-radius: 10px; border-top-width: 6px; }
+.mp-leagues b { font-size: 34px; }
+.mp-leagues span { font-size: 15px; }
+.mp-links { display: grid; }
+.mobile-panel .mp-links a { padding: 18px 0; font-size: 19px; }
+.mobile-panel .mp-links a:last-child { border-bottom: 0; }
+body:has(.mobile-menu[open]) .consent { display: none; }
