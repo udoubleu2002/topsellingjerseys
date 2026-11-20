@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "15 11 * * *" # 6:15am US Eastern (standard time)
   workflow_dispatch:
+    inputs:
+      deals_only:
+        description: "Refresh deals only (skip the long jersey sync)"
+        type: boolean
+        default: false
 permissions:
   contents: write
 jobs:
@@ -25,6 +30,7 @@ jobs:
           IMPACT_LIDS_CAMPAIGN_ID: ${{ secrets.IMPACT_LIDS_CAMPAIGN_ID }}
           AFFILIATE_DEEPLINK_LIDS: ${{ secrets.AFFILIATE_DEEPLINK_LIDS }}
       - run: npm run products:sync -- --all
+        if: ${{ !inputs.deals_only }}
         env:
           IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
           IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
