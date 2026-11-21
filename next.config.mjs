@@ -2,6 +2,15 @@ import { readFileSync } from "node:fs";
 
 // Daily stories taken down (for example game recaps); their URLs redirect to the player's page or /news/.
 const retiredStories = JSON.parse(readFileSync(new URL("./data/retired-stories.json", import.meta.url), "utf8"));
+// The old /jerseys/<player>-jersey/ articles competed with the player pages for "<player> jersey" searches, so since
+// Nov. 21, 2026 they are unpublished and each one redirects to its player page (or the players index).
+const readJson = (f) => JSON.parse(readFileSync(new URL(f, import.meta.url), "utf8"));
+const asList = (d, key) => (Array.isArray(d) ? d : d[key]);
+const playerSlugs = new Set(asList(readJson("./data/players.json"), "players").map((p) => p.slug));
+const oldArticles = asList(readJson("./data/articles/nfl.json"), "articles").map((a) => {
+  const slug = a.slug.replace(/-jersey$/, "");
+  return { slug: a.slug, to: playerSlugs.has(slug) ? `/players/${slug}/` : "/players/" };
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -42,6 +51,11 @@ const nextConfig = {
         { source: `/${l}/:player`, destination: `/players/:player/`, permanent: true },
       ]),
       ...retiredStories.map((r) => ({ source: `/news/${r.slug}`, destination: r.to, permanent: true })),
+      { source: "/jerseys", destination: "/players/", permanent: true },
+      // Merged into /best-selling-jerseys/ on Nov. 21, 2026 so one page targets "best selling jerseys".
+      { source: "/best-selling-jersey", destination: "/best-selling-jerseys/", permanent: true },
+      { source: "/best-selling-sports-jerseys", destination: "/best-selling-jerseys/", permanent: true },
+      ...oldArticles.map((a) => ({ source: `/jerseys/${a.slug}`, destination: a.to, permanent: true })),
     ];
   },
 };

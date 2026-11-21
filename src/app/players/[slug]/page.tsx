@@ -5,6 +5,7 @@ import { StyleCompare, priceRange, ctaLabel } from "@/components/ShopBits";
 import { getStories, storyPath } from "@/lib/stories";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { isSearchIndexable } from "@/lib/indexing";
 import { pageMeta } from "@/lib/seo";
 import { SiteHeader } from "@/components/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ctx = { player: p, league, team, latest: top, line: getStatLine(p.id) };
   const title = playerTitle(ctx);
   const description = playerDescription(ctx);
-  return pageMeta({ title, description, path: `/players/${p.slug}/`, noindex: !isIndexable(p), type: "profile", image: `/players/${p.slug}/opengraph-image/` });
+  return pageMeta({ title, description, path: `/players/${p.slug}/`, noindex: !isSearchIndexable(p), type: "profile", image: `/players/${p.slug}/opengraph-image/` });
 }
 
 export default async function PlayerPage({ params }: Props) {

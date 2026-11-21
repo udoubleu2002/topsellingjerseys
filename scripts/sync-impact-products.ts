@@ -12,7 +12,7 @@ import path from "node:path";
 import { loadStore, getTeam } from "../src/lib/data";
 import { checkStore } from "../src/lib/validate";
 import { campaignFromLink } from "../src/lib/impactDeals";
-import { CATALOG_ID_PREFIX, itemToProduct, mergeProducts, pickJerseys, type ImpactItem } from "../src/lib/impactCatalog";
+import { CATALOG_ID_PREFIX, itemToProduct, mergeProducts, pickJerseys, rejectReason, type ImpactItem } from "../src/lib/impactCatalog";
 import { DIAGNOSTIC_CATALOG_ID } from "../src/lib/impactDiagnostic";
 import { ProductSchema, type Product } from "../src/lib/schema";
 import { productStyle } from "../src/lib/productStyle";
@@ -131,6 +131,8 @@ async function main() {
       const last = p.name.split(" ").pop()!.toLowerCase();
       const near = [...new Set(items.map((i) => i.Name ?? "").filter((n) => n.toLowerCase().includes(last) && /jersey/i.test(n)))].slice(0, 3);
       if (near.length) console.log(`near  ${p.name}: ${near.join(" | ")}`);
+      const why = [...new Set(items.filter((i) => i.Name && /jersey/i.test(i.Name) && i.Name.toLowerCase().includes(last)).map((i) => rejectReason(i, p, team, { campaignId, catalogId })).filter(Boolean))].slice(0, 4);
+      if (why.length) console.log(`why   ${p.name}: ${why.join("; ")}`);
     }
     if (picks.length) withPhoto++;
     for (const i of picks) {

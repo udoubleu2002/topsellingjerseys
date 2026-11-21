@@ -82,7 +82,7 @@ export function checkStore(s: Store, opts: { allowDemo?: boolean; profiledIds?: 
 export function checkArticles(articles: Article[], s: Store) {
   const errors: string[] = [];
   const warnings: string[] = [];
-  const pages = new Set<string>(["/", "/jerseys/", "/rankings/", "/my-jerseys/", "/best-selling-jerseys/", "/best-selling-jersey/", "/best-selling-sports-jerseys/"]);
+  const pages = new Set<string>(["/", "/rankings/", "/my-jerseys/", "/best-selling-jerseys/"]);
   for (const l of s.leagues) pages.add(`/${l.slug}/`);
   for (const c of getCities()) pages.add(cityPath(c));
   pages.add("/cities/");
@@ -166,7 +166,7 @@ export function checkNews(news: NewsItem[], s: Store, today = new Date().toISOSt
 export function checkStories(stories: Story[], s: Store, articles: Article[]) {
   const errors: string[] = [];
   const warnings: string[] = [];
-  const pages = new Set<string>(["/", "/news/", "/jerseys/", "/rankings/", "/players/", "/my-jerseys/", "/best-selling-jerseys/", "/best-selling-jersey/", "/best-selling-sports-jerseys/"]);
+  const pages = new Set<string>(["/", "/news/", "/rankings/", "/players/", "/my-jerseys/", "/best-selling-jerseys/"]);
   for (const l of s.leagues) pages.add(`/${l.slug}/`);
   for (const c of getCities()) pages.add(cityPath(c));
   pages.add("/cities/");
@@ -205,12 +205,11 @@ export function checkStories(stories: Story[], s: Store, articles: Article[]) {
       else if (promotableJerseys(s.products, player, st.teamId).length === 0)
         errors.push(`${id}: no Lids jersey with a photo for ${player.name}${st.teamId ? ` (${st.teamId})` : ""} in data/products.json; pick a player whose jersey we can promote`);
     }
-    // From Nov. 13, 2026: keyword form "<player> jersey" and a headline that doesn't reuse a recent story's pattern.
+    // Since Nov. 21, 2026 the player page alone targets "<player> jersey", so a story's title and primary keyword lead with the
+    // news instead (no keyword cannibalization). From Nov. 13: a headline that doesn't reuse a recent story's pattern.
+    if (/^[^:]{0,60}\bjerseys?\s*:/i.test(st.title)) errors.push(`${id}: title must not start with "${st.subject} Jersey:"; lead with the news ("${st.subject}: ...") and leave "${st.subject} jersey" to the player page`);
+    if (/\bjerseys?$/i.test(st.primaryKeyword.trim())) errors.push(`${id}: primary keyword "${st.primaryKeyword}" targets the player page's search; use the news angle (for example "${st.subject} 40 points")`);
     if (st.publishedDate >= "2026-11-13") {
-      const subj = st.subject.toLowerCase();
-      if (!st.title.toLowerCase().startsWith(`${subj} jersey`)) errors.push(`${id}: title must start with "${st.subject} Jersey"`);
-      const pk = st.primaryKeyword.toLowerCase();
-      if (!pk.startsWith(subj) || !pk.endsWith(" jersey")) errors.push(`${id}: primary keyword must be "${st.subject} jersey" (a team name may go in between)`);
       for (const phrase of STALE_HEADLINE_PHRASES)
         if (st.headline.toLowerCase().includes(phrase)) errors.push(`${id}: headline uses the overused phrase "${phrase}"; pick another pattern from docs/daily-stories.md`);
       const frame = headlineFrame(st.headline, st);
