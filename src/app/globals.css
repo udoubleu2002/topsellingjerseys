@@ -2538,3 +2538,7 @@ body:has(.mobile-menu[open]) .consent { display: none; }
   .gd-one-lg { font-size: 12px; }
   .gd-one-n { font-size: 16px; white-space: normal; overflow: visible; text-overflow: clip; }
 }
+
+/* One-line notes linking to the stadium guides (player pages) */
+.venue-note { font-size: 14px; line-height: 1.5; color: var(--ink-2); max-width: 72ch; }
+.venue-note a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
