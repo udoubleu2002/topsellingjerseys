@@ -134,6 +134,22 @@ export function pickJerseys(
   return out;
 }
 
+/**
+ * Why pickJerseys skipped an item, for the sync log. A player whose jersey is plainly in the feed but never matches
+ * (Nov. 2026: Bryce Harper, Trea Turner, Tyreek Hill) shows the failing check here instead of a bare "no match".
+ */
+export function rejectReason(i: ImpactItem, player: Player, team: Team | undefined, opts: { campaignId?: string | null; catalogId?: string | null } = {}): string | null {
+  if (!i.Name || !has(i.Name, player.name)) return "name";
+  if (!isJersey(i.Name)) return "not a jersey";
+  if (opts.campaignId && i.CampaignId != null && String(i.CampaignId) !== String(opts.campaignId)) return `campaign ${i.CampaignId}`;
+  if (opts.catalogId && i.CatalogId != null && String(i.CatalogId) !== String(opts.catalogId)) return `catalog ${i.CatalogId}`;
+  if (opts.campaignId && i.Url && /\/c\/\d+\/\d+\/\d+/.test(i.Url) && !new RegExp(`/c/\\d+/\\d+/${opts.campaignId}(\\?|$)`).test(i.Url)) return "link is for another campaign";
+  if (!https(i.ImageUrl)) return "no https image";
+  if (!https(i.Url)) return "no https link";
+  if (team && player.teamId && !has(i.Name, team.name)) return `not ${team.name}`;
+  return null;
+}
+
 export function itemToProduct(item: ImpactItem, player: Player, teamId: string, today: string): Product {
   const tracking = https(item.Url)!;
   const price = num(item.CurrentPrice);

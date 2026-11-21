@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
-import { getLeagues, getPlayers, getRankings, getCurrentRanking, isIndexable } from "@/lib/data";
+import { getLeagues, getPlayers, getRankings, getCurrentRanking } from "@/lib/data";
 import { abs, site } from "@/lib/config";
+import { isSearchIndexable } from "@/lib/indexing";
 import { articlePath, getArticles } from "@/lib/articles";
 import { getStories, storyPath } from "@/lib/stories";
 import { getCities, cityPath } from "@/lib/cities";
@@ -13,8 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const r = getCurrentRanking(l.id);
     if (r) out.push({ url: abs(`/${l.slug}/`), lastModified: r.lastVerified, changeFrequency: "weekly", priority: 0.9 });
   }
-  for (const p of getPlayers().filter(isIndexable)) out.push({ url: abs(`/players/${p.slug}/`), lastModified: p.lastVerified, changeFrequency: "weekly", priority: 0.7 });
-  for (const g of ["best-selling-jerseys", "best-selling-jersey", "best-selling-sports-jerseys"]) out.push({ url: abs(`/${g}/`), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.85 });
+  for (const p of getPlayers().filter(isSearchIndexable)) out.push({ url: abs(`/players/${p.slug}/`), lastModified: p.lastVerified, changeFrequency: "weekly", priority: 0.7 });
+  out.push({ url: abs("/best-selling-jerseys/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.85 });
   const articles = getArticles();
   if (articles.length) out.push({ url: abs("/jerseys/"), lastModified: articles.map((a) => a.lastVerified).sort().at(-1), changeFrequency: "weekly", priority: 0.7 });
   for (const a of articles) out.push({ url: abs(articlePath(a)), lastModified: a.lastVerified, changeFrequency: "monthly", priority: 0.6 });

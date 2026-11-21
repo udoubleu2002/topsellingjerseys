@@ -20,8 +20,6 @@ export function SiteFooter() {
               <li key={l.id}><Link href={`/${l.slug}/`}>Top Selling {l.name} Jerseys</Link></li>
             ))}
             <li><Link href="/best-selling-jerseys/">Best selling jerseys</Link></li>
-            <li><Link href="/best-selling-jersey/">Best selling jersey in every league</Link></li>
-            <li><Link href="/best-selling-sports-jerseys/">Best selling sports jerseys: sources</Link></li>
             <li><Link href="/cities/">Top jerseys by city</Link></li>
             <li><Link href="/jersey-gift-guide/">Jersey gift guide</Link></li>
             <li><Link href="/black-friday-jersey-deals/">Black Friday jersey deals</Link></li>
