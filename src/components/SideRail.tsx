@@ -15,6 +15,7 @@ import { AdRotation } from "./AdRotation";
 import { ShowUntil } from "./ShowUntil";
 import { SportJersey } from "./SportJersey";
 import { PopularJerseys } from "./PopularJerseys";
+import { RailFit } from "./RailFit";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
 export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
@@ -183,7 +184,7 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
         </section>
       )}
 
-
+      <RailFit />
     </aside>
   );
 }
