@@ -2376,6 +2376,11 @@ a { color: inherit; }
   .brand-word .bw-main { font-size: 23px; }
 }
 
+/* ---------- Brand: image logo (public/logo.png, 480x206, drawn at ~1/4 size so it stays sharp on 3x phones) ---------- */
+.brand-logo { display: block; height: 52px; width: auto; max-width: none; }
+@media (max-width: 760px) { .brand-logo { height: 44px; } }
+@media (max-width: 380px) { .brand-logo { height: 40px; } }
+
 /* ---------- Homepage top: fabric, twill lettering, No. 1 jersey row ---------- */
 .gd-hero { border-bottom: 0; }
 .gd-hero > .wrap::before { content: ""; position: absolute; inset: 0 -100vw; z-index: -1; pointer-events: none; background-image: radial-gradient(rgba(255, 255, 255, .07) 1.2px, transparent 1.6px); background-size: 7px 7px; mask-image: linear-gradient(90deg, #000 0%, transparent 60%); -webkit-mask-image: linear-gradient(90deg, #000 0%, transparent 60%); }

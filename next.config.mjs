@@ -8,9 +8,9 @@ const nextConfig = {
   trailingSlash: true,
   poweredByHeader: false,
   images: { unoptimized: true },
-  // Request-time routes (/out/, /j/ and their share images) read data/*.json and the share-image fonts from disk,
+  // Request-time routes (/out/, /j/ and their share images) read data/*.json and the share-image fonts and logo from disk,
   // so serverless hosts such as Netlify must ship those files with the functions.
-  outputFileTracingIncludes: { "/**/*": ["./data/**/*", "./assets/fonts/**/*"] },
+  outputFileTracingIncludes: { "/**/*": ["./data/**/*", "./assets/fonts/**/*", "./assets/brand/**/*"] },
   async headers() {
     return [{
       source: "/:path*",
