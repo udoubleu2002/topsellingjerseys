@@ -31,6 +31,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   for (const f of PRELOAD_FONTS) preload(`/fonts/${f}`, { as: "font", type: "font/woff2", crossOrigin: "anonymous" });
   return (
     <html lang="en">
+      <head>
+        {/* Google AdSense (publisher ca-pub-1658868564351468). public/ads.txt authorizes the same account. */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658868564351468" crossOrigin="anonymous" />
+      </head>
       <body>
         <a className="skip" href="#main">Skip to content</a>
         {children}
