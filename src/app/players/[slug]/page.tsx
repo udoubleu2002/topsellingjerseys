@@ -16,6 +16,7 @@ import { StatsPanel } from "@/components/PlayerBits";
 import { AffiliateNote } from "@/components/RankingHeader";
 import { PriceTag } from "@/components/PriceTag";
 import { productStyle, styleTags } from "@/lib/productStyle";
+import { venueLine, lostStadiums } from "@/lib/stadiumLinks";
 import { TrustNote } from "@/components/TrustNote";
 import { TeamLink } from "@/components/TeamLink";
 import { HaveJersey } from "@/components/HaveJersey";
@@ -138,6 +139,9 @@ export default async function PlayerPage({ params }: Props) {
   };
 
   const city = player.teamId ? cityOfTeam(player.teamId) : undefined;
+  const venue = venueLine(player);
+  const throwbackTeam = player.teamId ?? player.lastTeamId;
+  const lost = products.some((p) => productStyle(p).edition === "Throwback") && throwbackTeam ? lostStadiums(cityOfTeam(throwbackTeam)?.slug) : null;
   const range = priceRange(products);
   const money = (n: number) => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
   const renderProduct = (p: Product) => {
@@ -305,6 +309,8 @@ export default async function PlayerPage({ params }: Props) {
                   <div className="products">{youthBlock.map(renderProduct)}</div>
                 </div>
               )}
+              {venue && <p className="venue-note">{venue.before}<a href={venue.url}>{venue.linkText}</a>{venue.after}</p>}
+              {lost && <p className="venue-note">Into throwbacks? See the stadiums {lost.name} has lost over the years at <a href={lost.url}>LostStadiums</a>.</p>}
               <AffiliateNote />
             </section>
 

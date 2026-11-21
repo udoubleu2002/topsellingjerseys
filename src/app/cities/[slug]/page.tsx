@@ -16,6 +16,7 @@ import { teamOffer, outPath } from "@/lib/affiliate";
 import { leagueList } from "@/lib/bestSelling";
 import { abs } from "@/lib/config";
 import { jerseyImg } from "@/lib/img";
+import { lostStadiums } from "@/lib/stadiumLinks";
 import "../../cities.css";
 
 export const dynamicParams = false;
@@ -45,6 +46,7 @@ export default async function CityPage({ params }: Props) {
   const city = getCity((await params).slug);
   if (!city) notFound();
   const page = `city_${city.slug}`;
+  const lost = lostStadiums(city.slug);
   const teams = cityTeams(city);
   const leagues = cityLeagues(city);
   const ranked = cityRanked(city);
@@ -155,6 +157,8 @@ export default async function CityPage({ params }: Props) {
               );
             })}
 
+
+            {lost && <p className="city-lost">Before today&apos;s teams, {city.name} had ballparks and arenas that are gone now. <a href={lost.url}>LostStadiums</a> tells their stories.</p>}
 
             <section className="section city-sec city-near" aria-labelledby="near-h">
               <p className="cx-kicker">Road trip</p>
