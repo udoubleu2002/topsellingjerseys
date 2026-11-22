@@ -21,7 +21,7 @@ export function DealsBar({ league, page }: { league?: string; page: string }) {
             <div className="deal-body">
               <strong>{p.headline}</strong>
               <span>
-                {p.details ? `${p.details} ` : ""}Ends {fmtShortDate(p.endDate)} at {getMerchant(p.merchantId)?.name}.
+                {p.details ?? ""}{/\bends\b/i.test(p.details ?? "") ? "" : `${p.details ? " " : ""}Ends ${fmtShortDate(p.endDate)} at ${getMerchant(p.merchantId)?.name}.`}
               </span>
             </div>
             {p.code && <CopyCode code={p.code} />}

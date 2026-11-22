@@ -9,7 +9,7 @@ export function BlackFridayStrip() {
     <aside className="bf-strip" aria-label="Black Friday jersey deals">
       <Link className="wrap bf-strip-in" href={BLACK_FRIDAY_PATH}>
         <span className="bf-strip-tag">Black Friday</span>
-        <span className="bf-strip-text">{off >= 10 ? `Top selling jerseys up to ${off}% off` : "Top selling jerseys on sale"}<span className="bf-strip-at"> at Lids</span></span>
+        <span className="bf-strip-text">{off >= 10 ? `Top selling jerseys already marked down up to ${off}%` : "Top selling jerseys on sale"}<span className="bf-strip-at"> at Lids</span></span>
         <span className="bf-strip-go">See the deals →</span>
       </Link>
     </aside>
