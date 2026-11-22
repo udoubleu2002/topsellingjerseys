@@ -12,7 +12,7 @@ import path from "node:path";
 import { loadStore, getTeam } from "../src/lib/data";
 import { checkStore } from "../src/lib/validate";
 import { campaignFromLink } from "../src/lib/impactDeals";
-import { CATALOG_ID_PREFIX, itemToProduct, mergeProducts, pickJerseys, rejectReason, type ImpactItem } from "../src/lib/impactCatalog";
+import { CATALOG_ID_PREFIX, itemToProduct, mergeProducts, nameVariants, pickJerseys, rejectReason, type ImpactItem } from "../src/lib/impactCatalog";
 import { DIAGNOSTIC_CATALOG_ID } from "../src/lib/impactDiagnostic";
 import { ProductSchema, type Product } from "../src/lib/schema";
 import { productStyle } from "../src/lib/productStyle";
@@ -60,7 +60,14 @@ async function search(keyword: string, pages = 1): Promise<ImpactItem[]> {
  * Searches that find the player's jersey when the plain "<name> jersey" search is crowded out by other items
  * (a star's teammates, a namesake, or tees and hoodies). Tried in order, with deeper paging, only until one matches.
  */
-const fallbackQueries = (name: string, teamName: string) => [`${name} ${teamName} jersey`, `${name} nike jersey`, `"${name}" jersey`, name];
+const fallbackQueries = (name: string, teamName: string) => [
+  `${name} ${teamName} jersey`,
+  // The feed's form of the name, when it differs: "Patrick Surtain II" for Pat Surtain II.
+  ...nameVariants(name).slice(1).map((v) => `${v.trim()} ${teamName} jersey`),
+  `${name} nike jersey`,
+  `"${name}" jersey`,
+  name,
+];
 
 async function main() {
   if (!sid || !token) {

@@ -67,7 +67,7 @@ export function checkStore(s: Store, opts: { allowDemo?: boolean; profiledIds?: 
     if (!playerIds.has(pr.playerId)) errors.push(`product ${pr.id}: unknown player`);
     if (!merchantIds.has(pr.merchantId)) errors.push(`product ${pr.id}: unknown merchant`);
     if (pr.price !== null && !pr.currency) errors.push(`product ${pr.id}: price without currency`);
-    if (pr.productType === "jersey" && !isJersey(pr.title)) errors.push(`product ${pr.id}: "${pr.title}" is not a jersey (plaque, sandals, socks, photo or similar); remove it or mark it "other"`);
+    if (pr.productType === "jersey" && !isJersey(pr.title, s.players.find((x) => x.id === pr.playerId)?.name)) errors.push(`product ${pr.id}: "${pr.title}" is not a jersey (plaque, sandals, socks, photo or similar); remove it or mark it "other"`);
     if (pr.flagged) warnings.push(`product ${pr.id}: flagged for review (${pr.flagged}); hidden`);
   }
   for (const pr of s.promotions) {
