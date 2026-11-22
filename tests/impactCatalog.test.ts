@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { availability, isJersey, priceFit, itemToProduct, mergeProducts, pickJerseys, CATALOG_SOURCE, type ImpactItem } from "@/lib/impactCatalog";
+import { availability, isJersey, nameVariants, priceFit, itemToProduct, mergeProducts, pickJerseys, CATALOG_SOURCE, type ImpactItem } from "@/lib/impactCatalog";
 import { getPlayer, getTeam } from "@/lib/data";
 import { ProductSchema, type Product } from "@/lib/schema";
 
@@ -117,5 +117,17 @@ describe("Impact Lids catalog", () => {
     const fresh = [{ ...base, id: "impact-lids-bad" }, { ...base, id: "impact-lids-new" }];
     const out = mergeProducts(existing, fresh);
     expect(out.map((p) => [p.id, p.flagged ?? null])).toEqual([["manual-judge", null], ["impact-lids-bad", "wrong player"], ["impact-lids-new", null]]);
+  });
+
+  it("matches a name the feed writes differently, and a player whose name holds an item word", () => {
+    expect(nameVariants("Pat Surtain II")).toEqual(expect.arrayContaining([" patrick surtain ii ", " pat surtain "]));
+    expect(nameVariants("Aaron Judge")).toEqual([" aaron judge "]);
+    const surtain = getPlayer("pat-surtain-ii")!;
+    const broncos = getTeam("denver-broncos")!;
+    const picks = pickJerseys([item({ Name: "Men's Nike Patrick Surtain II Orange Denver Broncos Game Jersey" })], surtain, broncos);
+    expect(picks).toHaveLength(1);
+    expect(isJersey("Men's Nike Tee Higgins White Cincinnati Bengals  Game Jersey")).toBe(false);
+    expect(isJersey("Men's Nike Tee Higgins White Cincinnati Bengals  Game Jersey", "Tee Higgins")).toBe(true);
+    expect(isJersey("Men's Nike Tee Higgins Black Cincinnati Bengals Name & Number T-Shirt", "Tee Higgins")).toBe(false);
   });
 });

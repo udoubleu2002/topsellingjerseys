@@ -33,9 +33,41 @@ const has = (hay: string, needle: string) => norm(hay).includes(norm(needle));
 const num = (v: unknown) => { const n = Number(v); return Number.isFinite(n) && n > 0 ? n : null; };
 const https = (u: string | null | undefined) => { try { const x = new URL(u ?? ""); return x.protocol === "https:" ? x.toString() : null; } catch { return null; } };
 
-/** Items that are a jersey (not a tee, hoodie, or a jersey-themed accessory). */
-export function isJersey(name: string): boolean {
+/**
+ * Common short and long forms of first names. The feed sometimes uses the other form ("Patrick Surtain II" for Pat
+ * Surtain II, "Gregory Rousseau" for Greg Rousseau), so a name matches under either.
+ */
+const NICKNAMES: [string, string][] = [
+  ["pat", "patrick"], ["greg", "gregory"], ["ron", "ronald"], ["mike", "michael"], ["matt", "matthew"], ["chris", "christopher"],
+  ["nick", "nicholas"], ["tony", "anthony"], ["josh", "joshua"], ["jake", "jacob"], ["will", "william"], ["dan", "daniel"],
+  ["cam", "cameron"], ["alex", "alexander"], ["zach", "zachary"], ["ben", "benjamin"], ["joe", "joseph"], ["tom", "thomas"],
+  ["jon", "jonathan"], ["sam", "samuel"], ["andy", "andrew"], ["max", "maxwell"], ["nate", "nathan"], ["jim", "james"],
+];
+const SUFFIX = / (jr|sr|ii|iii|iv) $/;
+
+/** The player's name as the feed may write it: as given, with the other form of the first name, and without a Jr./II suffix. */
+export function nameVariants(name: string): string[] {
   const n = norm(name);
+  const out = new Set([n]);
+  const [first] = n.trim().split(" ");
+  for (const [a, b] of NICKNAMES) {
+    const alt = first === a ? b : first === b ? a : null;
+    if (alt) out.add(` ${alt}${n.trim().slice(first.length)} `);
+  }
+  for (const v of [...out]) if (SUFFIX.test(v) && v.trim().split(" ").length > 2) out.add(v.replace(SUFFIX, " "));
+  return [...out];
+}
+
+/** Whether an item's title names the player, under any of the name's forms. */
+export const namesPlayer = (title: string, playerName: string) => nameVariants(playerName).some((v) => norm(title).includes(v));
+
+/**
+ * Items that are a jersey (not a tee, hoodie, or a jersey-themed accessory). Pass the player's name so a word in it
+ * ("Tee Higgins") isn't read as the item type.
+ */
+export function isJersey(name: string, playerName?: string): boolean {
+  let n = norm(name);
+  if (playerName) for (const v of nameVariants(playerName)) n = n.replace(v, " ");
   if (!n.includes(" jersey ")) return false;
   // Items that only borrow the word: "Jersey Number Sublimated Plaque", "Jersey Slide Sandals", "Jersey Arch Crew Socks", "Skating in Black Jersey Photograph".
   return !/ (t shirt|tee|shirt|hoodie|pullover|sweatshirt|tank|shorts|ornament|frame|framed|card|pin|keychain|magnet|blanket|pillow|mug|figure|plush|dog|pet|onesie|bodysuit|creeper|costume|mini|replica helmet|autographed|signed|plaque|plaques|slide|slides|sandal|sandals|sock|socks|photograph|photo|canvas|poster|print|lithograph|collage|decal|sticker|bobblehead|figurine|coaster|tumbler|wristband|banner|pennant|towel|jacket|watch|necklace|bracelet|earrings|cufflinks|shadowbox|display case) /.test(n);
@@ -115,7 +147,7 @@ export function pickJerseys(
     (!opts.campaignId || i.CampaignId == null || String(i.CampaignId) === String(opts.campaignId)) &&
     (!opts.catalogId || i.CatalogId == null || String(i.CatalogId) === String(opts.catalogId)) &&
     (!opts.campaignId || !i.Url || !/\/c\/\d+\/\d+\/\d+/.test(i.Url) || new RegExp(`/c/\\d+/\\d+/${opts.campaignId}(\\?|$)`).test(i.Url)) &&
-    i.Name && has(i.Name, player.name) && isJersey(i.Name) && https(i.ImageUrl) && https(i.Url));
+    i.Name && namesPlayer(i.Name, player.name) && isJersey(i.Name, player.name) && https(i.ImageUrl) && https(i.Url));
   // A current player shows only their current team's jersey; a retired player's last team is preferred when listed.
   if (team && (player.teamId || ok.some((i) => has(i.Name!, team.name)))) ok = ok.filter((i) => has(i.Name!, team.name));
   ok.sort((a, b) => score(b, team, !!player.teamId) - score(a, team, !!player.teamId));
@@ -139,8 +171,8 @@ export function pickJerseys(
  * (Nov. 2026: Bryce Harper, Trea Turner, Tyreek Hill) shows the failing check here instead of a bare "no match".
  */
 export function rejectReason(i: ImpactItem, player: Player, team: Team | undefined, opts: { campaignId?: string | null; catalogId?: string | null } = {}): string | null {
-  if (!i.Name || !has(i.Name, player.name)) return "name";
-  if (!isJersey(i.Name)) return "not a jersey";
+  if (!i.Name || !namesPlayer(i.Name, player.name)) return "name";
+  if (!isJersey(i.Name, player.name)) return "not a jersey";
   if (opts.campaignId && i.CampaignId != null && String(i.CampaignId) !== String(opts.campaignId)) return `campaign ${i.CampaignId}`;
   if (opts.catalogId && i.CatalogId != null && String(i.CatalogId) !== String(opts.catalogId)) return `catalog ${i.CatalogId}`;
   if (opts.campaignId && i.Url && /\/c\/\d+\/\d+\/\d+/.test(i.Url) && !new RegExp(`/c/\\d+/\\d+/${opts.campaignId}(\\?|$)`).test(i.Url)) return "link is for another campaign";
