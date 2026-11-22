@@ -336,73 +336,121 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-27915165487",
+    "id": "impact-lids-200340946",
     "playerId": "alex-ovechkin",
     "teamId": "washington-capitals",
     "league": "nhl",
-    "title": "Alex Ovechkin Men's Fanatics Red Washington Capitals Home Breakaway Custom Jersey",
+    "title": "Men's Fanatics Alexander Ovechkin Red Washington Capitals Captain Patch Home Breakaway Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[OVECHKIN]&set=key[number],value[8]&call=url[http://dmimages.ff.p10/chains/2791516.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-200340946+u-fsqwsmqxplrt4v024ait+v-j9zob740aq4duck25x33.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Alex Ovechkin Men's Fanatics Red Washington Capitals Home Breakaway Custom Jersey"
+      "alt": "Men's Fanatics Alexander Ovechkin Red Washington Capitals Captain Patch Home Breakaway Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
     "edition": "Home",
-    "price": 204.99,
-    "listPrice": null,
+    "price": 147.99,
+    "listPrice": 184.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/washington-capitals-fanatics-home-breakaway-custom-jersey-red/o-8051+t-70047586+d-7399823+f-7498385+z-8-3052710341?aid=5487",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=27915165487&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Fwashington-capitals-fanatics-home-breakaway-custom-jersey-red%2Fo-8051%2Bt-70047586%2Bd-7399823%2Bf-7498385%2Bz-8-3052710341%3Faid%3D5487&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/alexander-ovechkin-washington-capitals-fanatics-captain-patch-home-breakaway-jersey-red/o-1328+t-81606431+d-51778227+f-328903414+z-9-1082101793",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200340946&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Falexander-ovechkin-washington-capitals-fanatics-captain-patch-home-breakaway-jersey-red%2Fo-1328%2Bt-81606431%2Bd-51778227%2Bf-328903414%2Bz-9-1082101793&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
   },
   {
-    "id": "impact-lids-27933885487",
+    "id": "impact-lids-2877081",
     "playerId": "alex-ovechkin",
     "teamId": "washington-capitals",
     "league": "nhl",
-    "title": "Alex Ovechkin Women's Fanatics Red Washington Capitals Home Breakaway Custom Jersey",
+    "title": "Men's Fanatics Alexander Ovechkin White Washington Capitals  Breakaway Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[OVECHKIN]&set=key[number],value[8]&call=url[http://dmimages.ff.p10/chains/2793388.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/_pi2877000_ff_2877081_full.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Alex Ovechkin Women's Fanatics Red Washington Capitals Home Breakaway Custom Jersey"
+      "alt": "Men's Fanatics Alexander Ovechkin White Washington Capitals  Breakaway Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Home",
-    "price": 204.99,
-    "listPrice": null,
+    "edition": null,
+    "price": 138.74,
+    "listPrice": 184.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/washington-capitals-fanatics-womens-home-breakaway-custom-jersey-red/o-4606+t-58375319+d-39776005+f-6746891+z-9-3848831526?aid=5487",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=27933885487&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Fwashington-capitals-fanatics-womens-home-breakaway-custom-jersey-red%2Fo-4606%2Bt-58375319%2Bd-39776005%2Bf-6746891%2Bz-9-3848831526%3Faid%3D5487&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/alexander-ovechkin-washington-capitals-fanatics-breakaway-jersey-white/o-7917+t-70486464+d-2844932+f-3513605+z-8-4000502126",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2877081&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Falexander-ovechkin-washington-capitals-fanatics-breakaway-jersey-white%2Fo-7917%2Bt-70486464%2Bd-2844932%2Bf-3513605%2Bz-8-4000502126&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
   },
   {
-    "id": "impact-lids-2020557385487",
+    "id": "impact-lids-202461869",
     "playerId": "alex-ovechkin",
     "teamId": "washington-capitals",
     "league": "nhl",
-    "title": "Alex Ovechkin Men's Fanatics White Washington Capitals Away Premium Custom Jersey",
+    "title": "Men's Fanatics Alexander Ovechkin Red Washington Capitals Alternate Breakaway Player Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[OVECHKIN]&set=key[number],value[8]&call=url[http://dmimages.ff.p10/chains/202055738.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-202461869+u-cflyt9wavbwkvqjfywsf+v-ge9oorvifaf6qv92capq.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Alex Ovechkin Men's Fanatics White Washington Capitals Away Premium Custom Jersey"
+      "alt": "Men's Fanatics Alexander Ovechkin Red Washington Capitals Alternate Breakaway Player Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Away",
-    "price": 269.99,
+    "edition": "Alternate",
+    "price": 184.99,
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/washington-capitals-fanatics-away-premium-custom-jersey-white/o-1395+t-03154264+d-4044486+f-103419179+z-8-47293299?aid=5487",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2020557385487&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Fwashington-capitals-fanatics-away-premium-custom-jersey-white%2Fo-1395%2Bt-03154264%2Bd-4044486%2Bf-103419179%2Bz-8-47293299%3Faid%3D5487&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/alexander-ovechkin-washington-capitals-fanatics-alternate-breakaway-player-jersey-red/o-2417+t-92933120+d-95227127+f-411393786+z-9-4042612181",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202461869&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Falexander-ovechkin-washington-capitals-fanatics-alternate-breakaway-player-jersey-red%2Fo-2417%2Bt-92933120%2Bd-95227127%2Bf-411393786%2Bz-9-4042612181&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-3791526",
+    "playerId": "alex-ovechkin",
+    "teamId": "washington-capitals",
+    "league": "nhl",
+    "title": "Youth Alexander Ovechkin Red Washington Capitals Home Premier Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_pi3791000_ff_3791526-b7f259c121e71e5cf72c_full.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Youth Alexander Ovechkin Red Washington Capitals Home Premier Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 103.99,
+    "listPrice": 129.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/alexander-ovechkin-washington-capitals-youth-home-premier-player-jersey-red/o-2473+t-03933142+d-40448249+f-5490860+z-9-4049830708",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=3791526&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Falexander-ovechkin-washington-capitals-youth-home-premier-player-jersey-red%2Fo-2473%2Bt-03933142%2Bd-40448249%2Bf-5490860%2Bz-9-4049830708&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200340954",
+    "playerId": "alex-ovechkin",
+    "teamId": "washington-capitals",
+    "league": "nhl",
+    "title": "Women's Fanatics Alexander Ovechkin Red Washington Capitals Captain Patch Home Breakaway Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200340954+u-kmof34gkgw1rofunb5sl+v-p3o0o6fqygtxb8kolawu.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Women's Fanatics Alexander Ovechkin Red Washington Capitals Captain Patch Home Breakaway Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 147.99,
+    "listPrice": 184.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-washington-capitals/jerseys/alexander-ovechkin-washington-capitals-fanatics-womens-captain-patch-home-breakaway-player-jersey-red/o-9128+t-47608697+d-8477934+f-446138643+z-8-2947882964",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200340954&u=https%3A%2F%2Fwww.lids.com%2Fnhl-washington-capitals%2Fjerseys%2Falexander-ovechkin-washington-capitals-fanatics-womens-captain-patch-home-breakaway-player-jersey-red%2Fo-9128%2Bt-47608697%2Bd-8477934%2Bf-446138643%2Bz-8-2947882964&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -960,15 +1008,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-5274941",
+    "id": "impact-lids-5111143",
     "playerId": "brock-purdy",
     "teamId": "san-francisco-49ers",
     "league": "nfl",
-    "title": "Women's Nike Brock Purdy White San Francisco 49ers Game Jersey",
+    "title": "Women's Nike Brock Purdy Scarlet San Francisco 49ers Player Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_pi5274000_ff_5274941-55268df22e084045ba5d_full.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_pi5111000_ff_5111143-79a6d09b30fea978c593_full.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Women's Nike Brock Purdy White San Francisco 49ers Game Jersey"
+      "alt": "Women's Nike Brock Purdy Scarlet San Francisco 49ers Player Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -977,8 +1025,8 @@
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-san-francisco-49ers/jerseys/brock-purdy-san-francisco-49ers-nike-womens-game-jersey-white/o-2472+t-25266085+d-39663750+f-7996524+z-9-1872590649",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=5274941&u=https%3A%2F%2Fwww.lids.com%2Fnfl-san-francisco-49ers%2Fjerseys%2Fbrock-purdy-san-francisco-49ers-nike-womens-game-jersey-white%2Fo-2472%2Bt-25266085%2Bd-39663750%2Bf-7996524%2Bz-9-1872590649&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-san-francisco-49ers/jerseys/brock-purdy-san-francisco-49ers-nike-womens-player-jersey-scarlet/o-3583+t-14934852+d-28221516+f-8920595+z-9-1310582693",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=5111143&u=https%3A%2F%2Fwww.lids.com%2Fnfl-san-francisco-49ers%2Fjerseys%2Fbrock-purdy-san-francisco-49ers-nike-womens-player-jersey-scarlet%2Fo-3583%2Bt-14934852%2Bd-28221516%2Bf-8920595%2Bz-9-1310582693&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -1752,13 +1800,13 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-5207637",
+    "id": "impact-lids-5207639",
     "playerId": "christian-mccaffrey",
     "teamId": "san-francisco-49ers",
     "league": "nfl",
     "title": "Women's Nike Christian McCaffrey Scarlet San Francisco 49ers Player Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_pi5207000_ff_5207637-1a491f0d0ba217f1b581_full.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-5207639+u-vnyawo6yjhyogw9tt24k+v-djekirtcpxsqgpf4ertj.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
       "alt": "Women's Nike Christian McCaffrey Scarlet San Francisco 49ers Player Jersey"
     },
@@ -1769,8 +1817,8 @@
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-san-francisco-49ers/jerseys/christian-mccaffrey-san-francisco-49ers-nike-womens-player-jersey-scarlet/o-3505+t-92600474+d-95995905+f-8293606+z-9-296817671",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=5207637&u=https%3A%2F%2Fwww.lids.com%2Fnfl-san-francisco-49ers%2Fjerseys%2Fchristian-mccaffrey-san-francisco-49ers-nike-womens-player-jersey-scarlet%2Fo-3505%2Bt-92600474%2Bd-95995905%2Bf-8293606%2Bz-9-296817671&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-san-francisco-49ers/jerseys/christian-mccaffrey-san-francisco-49ers-nike-womens-player-jersey-scarlet/o-1383+t-81714852+d-95334827+f-6084088+z-9-296817671",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=5207639&u=https%3A%2F%2Fwww.lids.com%2Fnfl-san-francisco-49ers%2Fjerseys%2Fchristian-mccaffrey-san-francisco-49ers-nike-womens-player-jersey-scarlet%2Fo-1383%2Bt-81714852%2Bd-95334827%2Bf-6084088%2Bz-9-296817671&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -2808,30 +2856,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203195356",
-    "playerId": "elly-de-la-cruz",
-    "teamId": "cincinnati-reds",
-    "league": "mlb",
-    "title": "Men's Nike Elly De La Cruz White Cincinnati Reds Home Replica Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203195356+u-tnfbpedadc9a0fstkoii+v-akcy5wn4elqawf2nhpe7.png?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Men's Nike Elly De La Cruz White Cincinnati Reds Home Replica Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Home",
-    "price": 119.99,
-    "listPrice": 149.99,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-cincinnati-reds/jerseys/elly-de-la-cruz-cincinnati-reds-nike-home-replica-jersey-white/o-1232+t-70336424+d-95119361+f-330457265+z-9-4238706329",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203195356&u=https%3A%2F%2Fwww.lids.com%2Fmlb-cincinnati-reds%2Fjerseys%2Felly-de-la-cruz-cincinnati-reds-nike-home-replica-jersey-white%2Fo-1232%2Bt-70336424%2Bd-95119361%2Bf-330457265%2Bz-9-4238706329&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-200288331",
     "playerId": "elly-de-la-cruz",
     "teamId": "cincinnati-reds",
@@ -2851,6 +2875,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/mlb-cincinnati-reds/jerseys/elly-de-la-cruz-cincinnati-reds-nike-home-replica-jersey-white/o-4521+t-25114279+d-51441550+f-622325872+z-9-4238706329",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200288331&u=https%3A%2F%2Fwww.lids.com%2Fmlb-cincinnati-reds%2Fjerseys%2Felly-de-la-cruz-cincinnati-reds-nike-home-replica-jersey-white%2Fo-4521%2Bt-25114279%2Bd-51441550%2Bf-622325872%2Bz-9-4238706329&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-203195356",
+    "playerId": "elly-de-la-cruz",
+    "teamId": "cincinnati-reds",
+    "league": "mlb",
+    "title": "Men's Nike Elly De La Cruz White Cincinnati Reds Home Replica Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-203195356+u-tnfbpedadc9a0fstkoii+v-akcy5wn4elqawf2nhpe7.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Elly De La Cruz White Cincinnati Reds Home Replica Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/mlb-cincinnati-reds/jerseys/elly-de-la-cruz-cincinnati-reds-nike-home-replica-jersey-white/o-1232+t-70336424+d-95119361+f-330457265+z-9-4238706329",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203195356&u=https%3A%2F%2Fwww.lids.com%2Fmlb-cincinnati-reds%2Fjerseys%2Felly-de-la-cruz-cincinnati-reds-nike-home-replica-jersey-white%2Fo-1232%2Bt-70336424%2Bd-95119361%2Bf-330457265%2Bz-9-4238706329&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -3624,30 +3672,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-202120743",
-    "playerId": "jahmyr-gibbs",
-    "teamId": "detroit-lions",
-    "league": "nfl",
-    "title": "Men's Nike Jahmyr Gibbs Blue Detroit Lions Team Game Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-202120743+u-tkgtxwncf5wvbddjwg9c+v-nyiojqrn5awd9pnmocr4.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Men's Nike Jahmyr Gibbs Blue Detroit Lions Team Game Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": null,
-    "price": 149.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-detroit-lions/jerseys/jahmyr-gibbs-detroit-lions-nike-team-game-jersey-blue/o-1372+t-92936853+d-06772616+f-371085715+z-9-435518934",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202120743&u=https%3A%2F%2Fwww.lids.com%2Fnfl-detroit-lions%2Fjerseys%2Fjahmyr-gibbs-detroit-lions-nike-team-game-jersey-blue%2Fo-1372%2Bt-92936853%2Bd-06772616%2Bf-371085715%2Bz-9-435518934&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-202120747",
     "playerId": "jahmyr-gibbs",
     "teamId": "detroit-lions",
@@ -3667,6 +3691,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nfl-detroit-lions/jerseys/jahmyr-gibbs-detroit-lions-nike-game-player-jersey-white/o-2483+t-36048008+d-17448272+f-485100885+z-9-2990521291",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202120747&u=https%3A%2F%2Fwww.lids.com%2Fnfl-detroit-lions%2Fjerseys%2Fjahmyr-gibbs-detroit-lions-nike-game-player-jersey-white%2Fo-2483%2Bt-36048008%2Bd-17448272%2Bf-485100885%2Bz-9-2990521291&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-202120743",
+    "playerId": "jahmyr-gibbs",
+    "teamId": "detroit-lions",
+    "league": "nfl",
+    "title": "Men's Nike Jahmyr Gibbs Blue Detroit Lions Team Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-202120743+u-tkgtxwncf5wvbddjwg9c+v-nyiojqrn5awd9pnmocr4.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Jahmyr Gibbs Blue Detroit Lions Team Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-detroit-lions/jerseys/jahmyr-gibbs-detroit-lions-nike-team-game-jersey-blue/o-1372+t-92936853+d-06772616+f-371085715+z-9-435518934",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202120743&u=https%3A%2F%2Fwww.lids.com%2Fnfl-detroit-lions%2Fjerseys%2Fjahmyr-gibbs-detroit-lions-nike-team-game-jersey-blue%2Fo-1372%2Bt-92936853%2Bd-06772616%2Bf-371085715%2Bz-9-435518934&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -4704,25 +4752,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203195406",
+    "id": "impact-lids-203195403",
     "playerId": "juan-soto",
     "teamId": "new-york-mets",
     "league": "mlb",
-    "title": "Men's Nike Juan Soto Black New York Mets Alternate Replica Jersey",
+    "title": "Men's Nike Juan Soto White New York Mets Home Replica Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203195406+u-5hzegfympxprqeqka8qf+v-c9vb3l6th47vrmo9ehoy.png?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203195403+u-80gvxijeof8repw3ukpf+v-5zdvbw8pzashloqkddux.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Men's Nike Juan Soto Black New York Mets Alternate Replica Jersey"
+      "alt": "Men's Nike Juan Soto White New York Mets Home Replica Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Alternate",
+    "edition": "Home",
     "price": 119.99,
     "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-new-york-mets/jerseys/juan-soto-new-york-mets-nike-alternate-replica-jersey-black/o-2309+t-69556520+d-84991505+f-409657297+z-9-233423963",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203195406&u=https%3A%2F%2Fwww.lids.com%2Fmlb-new-york-mets%2Fjerseys%2Fjuan-soto-new-york-mets-nike-alternate-replica-jersey-black%2Fo-2309%2Bt-69556520%2Bd-84991505%2Bf-409657297%2Bz-9-233423963&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mlb-new-york-mets/jerseys/juan-soto-new-york-mets-nike-home-replica-jersey-white/o-3476+t-69770908+d-95661505+f-579895364+z-9-362125248",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203195403&u=https%3A%2F%2Fwww.lids.com%2Fmlb-new-york-mets%2Fjerseys%2Fjuan-soto-new-york-mets-nike-home-replica-jersey-white%2Fo-3476%2Bt-69770908%2Bd-95661505%2Bf-579895364%2Bz-9-362125248&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -4752,25 +4800,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-2001635588",
+    "id": "impact-lids-203195814",
     "playerId": "juan-soto",
     "teamId": "new-york-mets",
     "league": "mlb",
-    "title": "Women's Nike Juan Soto Royal New York Mets Alternate Replica Jersey",
+    "title": "Women's Nike Juan Soto White New York Mets Home Replica Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-2001635588+u-ujwsgqib1hmf7fxksk3n+v-5jakz5ljwtjt09lbozim.png?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203195814+u-tfkuu0t2e11iiqywpnbc+v-hpnjtw98e0dhd5lzbvzq.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Women's Nike Juan Soto Royal New York Mets Alternate Replica Jersey"
+      "alt": "Women's Nike Juan Soto White New York Mets Home Replica Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Alternate",
+    "edition": "Home",
     "price": 119.99,
     "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-new-york-mets/jerseys/juan-soto-new-york-mets-nike-womens-alternate-replica-jersey-royal/o-3487+t-58665475+d-73110427+f-5857102680+z-9-1407952020",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2001635588&u=https%3A%2F%2Fwww.lids.com%2Fmlb-new-york-mets%2Fjerseys%2Fjuan-soto-new-york-mets-nike-womens-alternate-replica-jersey-royal%2Fo-3487%2Bt-58665475%2Bd-73110427%2Bf-5857102680%2Bz-9-1407952020&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mlb-new-york-mets/jerseys/juan-soto-new-york-mets-nike-womens-home-replica-jersey-white/o-1276+t-92119886+d-73551561+f-372283565+z-9-838681901",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203195814&u=https%3A%2F%2Fwww.lids.com%2Fmlb-new-york-mets%2Fjerseys%2Fjuan-soto-new-york-mets-nike-womens-home-replica-jersey-white%2Fo-1276%2Bt-92119886%2Bd-73551561%2Bf-372283565%2Bz-9-838681901&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -5112,30 +5160,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-205042089",
-    "playerId": "lamelo-ball",
-    "teamId": "minnesota-timberwolves",
-    "league": "nba",
-    "title": "Unisex Nike LaMelo Ball Blue Minnesota Timberwolves Swingman Jersey - Icon Edition",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-205042089+u-ghaphva3kuhsjfjxzhdg+v-uik6d6zw8sp6snfkjsh5.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Unisex Nike LaMelo Ball Blue Minnesota Timberwolves Swingman Jersey - Icon Edition"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Icon Edition",
-    "price": 124.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nba-minnesota-timberwolves/jerseys/lamelo-ball-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue/o-1336+t-70141806+d-39551505+f-332152330+z-9-3918810283",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205042089&u=https%3A%2F%2Fwww.lids.com%2Fnba-minnesota-timberwolves%2Fjerseys%2Flamelo-ball-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue%2Fo-1336%2Bt-70141806%2Bd-39551505%2Bf-332152330%2Bz-9-3918810283&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-205042088",
     "playerId": "lamelo-ball",
     "teamId": "minnesota-timberwolves",
@@ -5155,6 +5179,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nba-minnesota-timberwolves/jerseys/lamelo-ball-minnesota-timberwolves-nike-unisex-swingman-jersey-association-edition-white/o-4603+t-81257417+d-17224872+f-603213102+z-9-617391831",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205042088&u=https%3A%2F%2Fwww.lids.com%2Fnba-minnesota-timberwolves%2Fjerseys%2Flamelo-ball-minnesota-timberwolves-nike-unisex-swingman-jersey-association-edition-white%2Fo-4603%2Bt-81257417%2Bd-17224872%2Bf-603213102%2Bz-9-617391831&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-205042089",
+    "playerId": "lamelo-ball",
+    "teamId": "minnesota-timberwolves",
+    "league": "nba",
+    "title": "Unisex Nike LaMelo Ball Blue Minnesota Timberwolves Swingman Jersey - Icon Edition",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-205042089+u-ghaphva3kuhsjfjxzhdg+v-uik6d6zw8sp6snfkjsh5.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Unisex Nike LaMelo Ball Blue Minnesota Timberwolves Swingman Jersey - Icon Edition"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Icon Edition",
+    "price": 124.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nba-minnesota-timberwolves/jerseys/lamelo-ball-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue/o-1336+t-70141806+d-39551505+f-332152330+z-9-3918810283",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205042089&u=https%3A%2F%2Fwww.lids.com%2Fnba-minnesota-timberwolves%2Fjerseys%2Flamelo-ball-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue%2Fo-1336%2Bt-70141806%2Bd-39551505%2Bf-332152330%2Bz-9-3918810283&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -8568,25 +8616,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-202055777315517",
+    "id": "impact-lids-202055775315517",
     "playerId": "zayne-parekh",
     "teamId": "calgary-flames",
     "league": "nhl",
-    "title": "Zayne Parekh Men's Fanatics Red Calgary Flames Home Premium Custom Jersey",
+    "title": "Zayne Parekh Men's Fanatics Black Calgary Flames Alternate Premium Custom Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[PAREKH]&set=key[number],value[19]&call=url[http://dmimages.ff.p10/chains/202055777.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[PAREKH]&set=key[number],value[19]&call=url[http://dmimages.ff.p10/chains/202055775.txt]&scale=size[900]&sink&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Zayne Parekh Men's Fanatics Red Calgary Flames Home Premium Custom Jersey"
+      "alt": "Zayne Parekh Men's Fanatics Black Calgary Flames Alternate Premium Custom Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Home",
+    "edition": "Alternate",
     "price": 269.99,
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-calgary-flames/jerseys/calgary-flames-fanatics-home-premium-custom-jersey-red/o-3595+t-36046132+d-06777116+f-595018744+z-9-222791387?aid=315517",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055777315517&u=https%3A%2F%2Fwww.lids.com%2Fnhl-calgary-flames%2Fjerseys%2Fcalgary-flames-fanatics-home-premium-custom-jersey-red%2Fo-3595%2Bt-36046132%2Bd-06777116%2Bf-595018744%2Bz-9-222791387%3Faid%3D315517&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-calgary-flames/jerseys/calgary-flames-fanatics-alternate-premium-custom-jersey-black/o-8040+t-25592776+d-7366263+f-627222393+z-8-3612275478?aid=315517",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055775315517&u=https%3A%2F%2Fwww.lids.com%2Fnhl-calgary-flames%2Fjerseys%2Fcalgary-flames-fanatics-alternate-premium-custom-jersey-black%2Fo-8040%2Bt-25592776%2Bd-7366263%2Bf-627222393%2Bz-8-3612275478%3Faid%3D315517&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -11328,30 +11376,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-201360851",
-    "playerId": "drew-doughty",
-    "teamId": "los-angeles-kings",
-    "league": "nhl",
-    "title": "Men's Fanatics Drew Doughty Black Los Angeles Kings Home Premier Breakaway Player Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-201360851+u-ebvlryftaxhkexgulph7+v-ebjptgxj3dbx7biby5sn.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Men's Fanatics Drew Doughty Black Los Angeles Kings Home Premier Breakaway Player Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Home",
-    "price": 147.99,
-    "listPrice": 184.99,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-los-angeles-kings/jerseys/drew-doughty-los-angeles-kings-fanatics-home-premier-breakaway-player-jersey-black/o-1384+t-14939586+d-0688046+f-010240652+z-8-103048363",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201360851&u=https%3A%2F%2Fwww.lids.com%2Fnhl-los-angeles-kings%2Fjerseys%2Fdrew-doughty-los-angeles-kings-fanatics-home-premier-breakaway-player-jersey-black%2Fo-1384%2Bt-14939586%2Bd-0688046%2Bf-010240652%2Bz-8-103048363&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-205141810",
     "playerId": "drew-doughty",
     "teamId": "los-angeles-kings",
@@ -11371,6 +11395,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nhl-los-angeles-kings/jerseys/drew-doughty-los-angeles-kings-fanatics-home-captain-patch-breakaway-jersey-black/o-1351+t-25488442+d-84331549+f-357525641+z-9-3790239885",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205141810&u=https%3A%2F%2Fwww.lids.com%2Fnhl-los-angeles-kings%2Fjerseys%2Fdrew-doughty-los-angeles-kings-fanatics-home-captain-patch-breakaway-jersey-black%2Fo-1351%2Bt-25488442%2Bd-84331549%2Bf-357525641%2Bz-9-3790239885&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-201360851",
+    "playerId": "drew-doughty",
+    "teamId": "los-angeles-kings",
+    "league": "nhl",
+    "title": "Men's Fanatics Drew Doughty Black Los Angeles Kings Home Premier Breakaway Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-201360851+u-ebvlryftaxhkexgulph7+v-ebjptgxj3dbx7biby5sn.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Fanatics Drew Doughty Black Los Angeles Kings Home Premier Breakaway Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 147.99,
+    "listPrice": 184.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-los-angeles-kings/jerseys/drew-doughty-los-angeles-kings-fanatics-home-premier-breakaway-player-jersey-black/o-1384+t-14939586+d-0688046+f-010240652+z-8-103048363",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201360851&u=https%3A%2F%2Fwww.lids.com%2Fnhl-los-angeles-kings%2Fjerseys%2Fdrew-doughty-los-angeles-kings-fanatics-home-premier-breakaway-player-jersey-black%2Fo-1384%2Bt-14939586%2Bd-0688046%2Bf-010240652%2Bz-8-103048363&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -11688,6 +11736,54 @@
     "flagged": null
   },
   {
+    "id": "impact-lids-5146639",
+    "playerId": "matt-boldy",
+    "teamId": "minnesota-wild",
+    "league": "nhl",
+    "title": "Men's Fanatics Matthew Boldy Green Minnesota Wild Home Breakaway Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_pi5146000_ff_5146639-189f246ae5fc85df2a3e_full.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Fanatics Matthew Boldy Green Minnesota Wild Home Breakaway Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 147.99,
+    "listPrice": 184.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-minnesota-wild/jerseys/matthew-boldy-minnesota-wild-fanatics-home-breakaway-player-jersey-green/o-3551+t-03716221+d-95337183+f-8643258+z-9-4245398485",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=5146639&u=https%3A%2F%2Fwww.lids.com%2Fnhl-minnesota-wild%2Fjerseys%2Fmatthew-boldy-minnesota-wild-fanatics-home-breakaway-player-jersey-green%2Fo-3551%2Bt-03716221%2Bd-95337183%2Bf-8643258%2Bz-9-4245398485&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-5146673",
+    "playerId": "matt-boldy",
+    "teamId": "minnesota-wild",
+    "league": "nhl",
+    "title": "Women's Fanatics Matthew Boldy Green Minnesota Wild Home Breakaway Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_pi5146000_ff_5146673-da1b1511ef4ab7abd38a_full.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Women's Fanatics Matthew Boldy Green Minnesota Wild Home Breakaway Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 147.99,
+    "listPrice": 184.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-minnesota-wild/jerseys/matthew-boldy-minnesota-wild-fanatics-womens-home-breakaway-player-jersey-green/o-1339+t-03712865+d-40885916+f-6443837+z-9-3724088062",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=5146673&u=https%3A%2F%2Fwww.lids.com%2Fnhl-minnesota-wild%2Fjerseys%2Fmatthew-boldy-minnesota-wild-fanatics-womens-home-breakaway-player-jersey-green%2Fo-1339%2Bt-03712865%2Bd-40885916%2Bf-6443837%2Bz-9-3724088062&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
     "id": "impact-lids-27915018104",
     "playerId": "matt-boldy",
     "teamId": "minnesota-wild",
@@ -11707,54 +11803,6 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nhl-minnesota-wild/jerseys/minnesota-wild-fanatics-home-breakaway-custom-jersey-green/o-9117+t-81602876+d-7344264+f-3553275+z-8-4006118213?aid=8104",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=27915018104&u=https%3A%2F%2Fwww.lids.com%2Fnhl-minnesota-wild%2Fjerseys%2Fminnesota-wild-fanatics-home-breakaway-custom-jersey-green%2Fo-9117%2Bt-81602876%2Bd-7344264%2Bf-3553275%2Bz-8-4006118213%3Faid%3D8104&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
-    "id": "impact-lids-2020557058104",
-    "playerId": "matt-boldy",
-    "teamId": "minnesota-wild",
-    "league": "nhl",
-    "title": "Matt Boldy Men's Fanatics Green Minnesota Wild Home Premium Custom Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[BOLDY]&set=key[number],value[12]&call=url[http://dmimages.ff.p10/chains/202055705.txt]&scale=size[900]&sink&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Matt Boldy Men's Fanatics Green Minnesota Wild Home Premium Custom Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Home",
-    "price": 269.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-minnesota-wild/jerseys/minnesota-wild-fanatics-home-premium-custom-jersey-green/o-2495+t-69593910+d-0699597+f-167365657+z-8-309294919?aid=8104",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2020557058104&u=https%3A%2F%2Fwww.lids.com%2Fnhl-minnesota-wild%2Fjerseys%2Fminnesota-wild-fanatics-home-premium-custom-jersey-green%2Fo-2495%2Bt-69593910%2Bd-0699597%2Bf-167365657%2Bz-8-309294919%3Faid%3D8104&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
-    "id": "impact-lids-2020557048104",
-    "playerId": "matt-boldy",
-    "teamId": "minnesota-wild",
-    "league": "nhl",
-    "title": "Matt Boldy Men's Fanatics White Minnesota Wild Away Premium Custom Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[BOLDY]&set=key[number],value[12]&call=url[http://dmimages.ff.p10/chains/202055704.txt]&scale=size[900]&sink&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Matt Boldy Men's Fanatics White Minnesota Wild Away Premium Custom Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Away",
-    "price": 269.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-minnesota-wild/jerseys/minnesota-wild-fanatics-away-premium-custom-jersey-white/o-1340+t-47596276+d-17449361+f-346512843+z-9-475530762?aid=8104",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2020557048104&u=https%3A%2F%2Fwww.lids.com%2Fnhl-minnesota-wild%2Fjerseys%2Fminnesota-wild-fanatics-away-premium-custom-jersey-white%2Fo-1340%2Bt-47596276%2Bd-17449361%2Bf-346512843%2Bz-9-475530762%3Faid%3D8104&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -14952,25 +15000,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203133906323168",
+    "id": "impact-lids-202055747323168",
     "playerId": "dylan-holloway",
     "teamId": "st-louis-blues",
     "league": "nhl",
-    "title": "Dylan Holloway Men's Fanatics White St. Louis Blues Away Premium Custom Jersey",
+    "title": "Dylan Holloway Men's Fanatics Blue St. Louis Blues Alternate Premium Custom Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[HOLLOWAY]&set=key[number],value[81]&call=url[http://dmimages.ff.p10/chains/203133906.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[HOLLOWAY]&set=key[number],value[81]&call=url[http://dmimages.ff.p10/chains/202055747.txt]&scale=size[900]&sink&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Dylan Holloway Men's Fanatics White St. Louis Blues Away Premium Custom Jersey"
+      "alt": "Dylan Holloway Men's Fanatics Blue St. Louis Blues Alternate Premium Custom Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Away",
+    "edition": "Alternate",
     "price": 269.99,
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-away-premium-custom-jersey-white/o-1395+t-70264212+d-7311156+f-175540017+z-8-4105775636?aid=323168",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203133906323168&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-away-premium-custom-jersey-white%2Fo-1395%2Bt-70264212%2Bd-7311156%2Bf-175540017%2Bz-8-4105775636%3Faid%3D323168&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-alternate-premium-custom-jersey-blue/o-1395+t-03827534+d-28999372+f-392828936+z-9-221737744?aid=323168",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055747323168&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-alternate-premium-custom-jersey-blue%2Fo-1395%2Bt-03827534%2Bd-28999372%2Bf-392828936%2Bz-9-221737744%3Faid%3D323168&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -15024,25 +15072,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-202055747378901",
+    "id": "impact-lids-203133906378901",
     "playerId": "mason-mctavish",
     "teamId": "st-louis-blues",
     "league": "nhl",
-    "title": "Mason McTavish Men's Fanatics Blue St. Louis Blues Alternate Premium Custom Jersey",
+    "title": "Mason McTavish Men's Fanatics White St. Louis Blues Away Premium Custom Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[MCTAVISH]&set=key[number],value[83]&call=url[http://dmimages.ff.p10/chains/202055747.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[MCTAVISH]&set=key[number],value[83]&call=url[http://dmimages.ff.p10/chains/203133906.txt]&scale=size[900]&sink&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Mason McTavish Men's Fanatics Blue St. Louis Blues Alternate Premium Custom Jersey"
+      "alt": "Mason McTavish Men's Fanatics White St. Louis Blues Away Premium Custom Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Alternate",
+    "edition": "Away",
     "price": 269.99,
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-alternate-premium-custom-jersey-blue/o-1395+t-03827534+d-28999372+f-392828936+z-9-221737744?aid=378901",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055747378901&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-alternate-premium-custom-jersey-blue%2Fo-1395%2Bt-03827534%2Bd-28999372%2Bf-392828936%2Bz-9-221737744%3Faid%3D378901&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-away-premium-custom-jersey-white/o-1395+t-70264212+d-7311156+f-175540017+z-8-4105775636?aid=378901",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203133906378901&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-away-premium-custom-jersey-white%2Fo-1395%2Bt-70264212%2Bd-7311156%2Bf-175540017%2Bz-8-4105775636%3Faid%3D378901&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -15072,30 +15120,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203133900164932",
-    "playerId": "colton-parayko",
-    "teamId": "st-louis-blues",
-    "league": "nhl",
-    "title": "Colton Parayko Men's Fanatics Blue St. Louis Blues Home Premium Custom Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[PARAYKO]&set=key[number],value[55]&call=url[http://dmimages.ff.p10/chains/203133900.txt]&scale=size[900]&sink&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Colton Parayko Men's Fanatics Blue St. Louis Blues Home Premium Custom Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Home",
-    "price": 269.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-home-premium-custom-jersey-blue/o-2495+t-58370812+d-51995927+f-498434495+z-9-1887488476?aid=164932",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203133900164932&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-home-premium-custom-jersey-blue%2Fo-2495%2Bt-58370812%2Bd-51995927%2Bf-498434495%2Bz-9-1887488476%3Faid%3D164932&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-203133906164932",
     "playerId": "colton-parayko",
     "teamId": "st-louis-blues",
@@ -15115,6 +15139,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-away-premium-custom-jersey-white/o-1395+t-70264212+d-7311156+f-175540017+z-8-4105775636?aid=164932",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203133906164932&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-away-premium-custom-jersey-white%2Fo-1395%2Bt-70264212%2Bd-7311156%2Bf-175540017%2Bz-8-4105775636%3Faid%3D164932&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-202055747164932",
+    "playerId": "colton-parayko",
+    "teamId": "st-louis-blues",
+    "league": "nhl",
+    "title": "Colton Parayko Men's Fanatics Blue St. Louis Blues Alternate Premium Custom Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[PARAYKO]&set=key[number],value[55]&call=url[http://dmimages.ff.p10/chains/202055747.txt]&scale=size[900]&sink&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Colton Parayko Men's Fanatics Blue St. Louis Blues Alternate Premium Custom Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Alternate",
+    "price": 269.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-st-louis-blues/jerseys/st-louis-blues-fanatics-alternate-premium-custom-jersey-blue/o-1395+t-03827534+d-28999372+f-392828936+z-9-221737744?aid=164932",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055747164932&u=https%3A%2F%2Fwww.lids.com%2Fnhl-st-louis-blues%2Fjerseys%2Fst-louis-blues-fanatics-alternate-premium-custom-jersey-blue%2Fo-1395%2Bt-03827534%2Bd-28999372%2Bf-392828936%2Bz-9-221737744%3Faid%3D164932&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -16728,25 +16776,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-202055737305745",
+    "id": "impact-lids-202055736305745",
     "playerId": "tomas-hertl",
     "teamId": "vegas-golden-knights",
     "league": "nhl",
-    "title": "Tomas Hertl Men's Fanatics Gray Vegas Golden Knights Alternate Premium Custom Jersey",
+    "title": "Tomas Hertl Men's Fanatics Gold Vegas Golden Knights Home Premium Custom Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[HERTL]&set=key[number],value[48]&call=url[http://dmimages.ff.p10/chains/202055737.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[HERTL]&set=key[number],value[48]&call=url[http://dmimages.ff.p10/chains/202055736.txt]&scale=size[900]&sink&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Tomas Hertl Men's Fanatics Gray Vegas Golden Knights Alternate Premium Custom Jersey"
+      "alt": "Tomas Hertl Men's Fanatics Gold Vegas Golden Knights Home Premium Custom Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Alternate",
+    "edition": "Home",
     "price": 269.99,
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-vegas-golden-knights/jerseys/vegas-golden-knights-fanatics-alternate-premium-custom-jersey-gray/o-7906+t-87222655+d-284415+f-024579435+z-7-1484359034?aid=305745",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055737305745&u=https%3A%2F%2Fwww.lids.com%2Fnhl-vegas-golden-knights%2Fjerseys%2Fvegas-golden-knights-fanatics-alternate-premium-custom-jersey-gray%2Fo-7906%2Bt-87222655%2Bd-284415%2Bf-024579435%2Bz-7-1484359034%3Faid%3D305745&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nhl-vegas-golden-knights/jerseys/vegas-golden-knights-fanatics-home-premium-custom-jersey-gold/o-6884+t-10880477+d-9500711+f-010024702+z-8-276285316?aid=305745",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055736305745&u=https%3A%2F%2Fwww.lids.com%2Fnhl-vegas-golden-knights%2Fjerseys%2Fvegas-golden-knights-fanatics-home-premium-custom-jersey-gold%2Fo-6884%2Bt-10880477%2Bd-9500711%2Bf-010024702%2Bz-8-276285316%3Faid%3D305745&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -18456,30 +18504,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-202055728323281",
-    "playerId": "yaroslav-askarov",
-    "teamId": "san-jose-sharks",
-    "league": "nhl",
-    "title": "Yaroslav Askarov Men's Fanatics White San Jose Sharks Away Premium Custom Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[ASKAROV]&set=key[number],value[30]&call=url[http://dmimages.ff.p10/chains/202055728.txt]&scale=size[900]&sink&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Yaroslav Askarov Men's Fanatics White San Jose Sharks Away Premium Custom Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Away",
-    "price": 269.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nhl-san-jose-sharks/jerseys/san-jose-sharks-fanatics-away-premium-custom-jersey-white/o-2440+t-69484200+d-39661572+f-448495089+z-9-4274133771?aid=323281",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055728323281&u=https%3A%2F%2Fwww.lids.com%2Fnhl-san-jose-sharks%2Fjerseys%2Fsan-jose-sharks-fanatics-away-premium-custom-jersey-white%2Fo-2440%2Bt-69484200%2Bd-39661572%2Bf-448495089%2Bz-9-4274133771%3Faid%3D323281&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-202055729323281",
     "playerId": "yaroslav-askarov",
     "teamId": "san-jose-sharks",
@@ -18499,6 +18523,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nhl-san-jose-sharks/jerseys/san-jose-sharks-fanatics-home-premium-custom-jersey-teal/o-4606+t-58938611+d-51778205+f-607936297+z-9-24145491?aid=323281",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055729323281&u=https%3A%2F%2Fwww.lids.com%2Fnhl-san-jose-sharks%2Fjerseys%2Fsan-jose-sharks-fanatics-home-premium-custom-jersey-teal%2Fo-4606%2Bt-58938611%2Bd-51778205%2Bf-607936297%2Bz-9-24145491%3Faid%3D323281&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-202055728323281",
+    "playerId": "yaroslav-askarov",
+    "teamId": "san-jose-sharks",
+    "league": "nhl",
+    "title": "Yaroslav Askarov Men's Fanatics White San Jose Sharks Away Premium Custom Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[ASKAROV]&set=key[number],value[30]&call=url[http://dmimages.ff.p10/chains/202055728.txt]&scale=size[900]&sink&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Yaroslav Askarov Men's Fanatics White San Jose Sharks Away Premium Custom Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Away",
+    "price": 269.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nhl-san-jose-sharks/jerseys/san-jose-sharks-fanatics-away-premium-custom-jersey-white/o-2440+t-69484200+d-39661572+f-448495089+z-9-4274133771?aid=323281",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055728323281&u=https%3A%2F%2Fwww.lids.com%2Fnhl-san-jose-sharks%2Fjerseys%2Fsan-jose-sharks-fanatics-away-premium-custom-jersey-white%2Fo-2440%2Bt-69484200%2Bd-39661572%2Bf-448495089%2Bz-9-4274133771%3Faid%3D323281&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -21912,25 +21960,25 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203204708",
+    "id": "impact-lids-203204669",
     "playerId": "jackson-holliday",
     "teamId": "baltimore-orioles",
     "league": "mlb",
-    "title": "Youth Nike Jackson Holliday White Baltimore Orioles Home Stadium Jersey",
+    "title": "Youth Nike Jackson Holliday Orange Baltimore Orioles Alternate Stadium Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203204708+u-zr7rrpybdiugg9zatnz6+v-hhdjoq8b8es4ur1enkji.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203204669+u-ttqy5hnxgjsnkjlqxz7y+v-vclgrdworqiwt1pjgpep.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Youth Nike Jackson Holliday White Baltimore Orioles Home Stadium Jersey"
+      "alt": "Youth Nike Jackson Holliday Orange Baltimore Orioles Alternate Stadium Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Home",
+    "edition": "Alternate",
     "price": 99.99,
     "listPrice": 124.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-baltimore-orioles/jerseys/jackson-holliday-baltimore-orioles-nike-youth-home-stadium-jersey-white/o-1210+t-58000740+d-06332672+f-318208730+z-9-535300623",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203204708&u=https%3A%2F%2Fwww.lids.com%2Fmlb-baltimore-orioles%2Fjerseys%2Fjackson-holliday-baltimore-orioles-nike-youth-home-stadium-jersey-white%2Fo-1210%2Bt-58000740%2Bd-06332672%2Bf-318208730%2Bz-9-535300623&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mlb-baltimore-orioles/jerseys/jackson-holliday-baltimore-orioles-nike-youth-alternate-stadium-jersey-orange/o-1209+t-69445295+d-17442638+f-309653701+z-9-1306504093",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203204669&u=https%3A%2F%2Fwww.lids.com%2Fmlb-baltimore-orioles%2Fjerseys%2Fjackson-holliday-baltimore-orioles-nike-youth-alternate-stadium-jersey-orange%2Fo-1209%2Bt-69445295%2Bd-17442638%2Bf-309653701%2Bz-9-1306504093&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -26808,15 +26856,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-2001542724",
+    "id": "impact-lids-2001635581",
     "playerId": "francisco-lindor",
     "teamId": "new-york-mets",
     "league": "mlb",
-    "title": "Women's Nike Francisco Lindor Black New York Mets Alternate Replica Jersey",
+    "title": "Women's Nike Francisco Lindor Royal New York Mets Alternate Replica Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-2001542724+u-k2mxpe9bqdj5kluejqz6+v-41bf1xwhvrsjr23t9b8s.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-2001635581+u-uoa4s2mkjodtieng54fe+v-jblxqvwnbxkopwclgsvm.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Women's Nike Francisco Lindor Black New York Mets Alternate Replica Jersey"
+      "alt": "Women's Nike Francisco Lindor Royal New York Mets Alternate Replica Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -26825,8 +26873,8 @@
     "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-new-york-mets/jerseys/francisco-lindor-new-york-mets-nike-womens-alternate-replica-jersey-black/o-3443+t-36441075+d-73444883+f-5435619162+z-9-1650955764",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2001542724&u=https%3A%2F%2Fwww.lids.com%2Fmlb-new-york-mets%2Fjerseys%2Ffrancisco-lindor-new-york-mets-nike-womens-alternate-replica-jersey-black%2Fo-3443%2Bt-36441075%2Bd-73444883%2Bf-5435619162%2Bz-9-1650955764&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mlb-new-york-mets/jerseys/francisco-lindor-new-york-mets-nike-womens-alternate-replica-jersey-royal/o-1243+t-58999819+d-39999316+f-3450548472+z-9-3933943996",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2001635581&u=https%3A%2F%2Fwww.lids.com%2Fmlb-new-york-mets%2Fjerseys%2Ffrancisco-lindor-new-york-mets-nike-womens-alternate-replica-jersey-royal%2Fo-1243%2Bt-58999819%2Bd-39999316%2Bf-3450548472%2Bz-9-3933943996&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -27600,15 +27648,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-201644549",
+    "id": "impact-lids-200689093",
     "playerId": "cj-abrams",
     "teamId": "washington-nationals",
     "league": "mlb",
-    "title": "Youth Nike CJ Abrams White Washington Nationals Home Game Player Jersey",
+    "title": "Youth Nike CJ Abrams White Washington Nationals Home Replica Player Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-201644549+u-ar5q1v7qixx4ddqsqext+v-lppl6beqaegjldg4fpge.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-200689093+u-1zkixobt63b6c8vrtu9n+v-ywfv4yb6iii9sxnbumvi.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Youth Nike CJ Abrams White Washington Nationals Home Game Player Jersey"
+      "alt": "Youth Nike CJ Abrams White Washington Nationals Home Replica Player Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -27617,8 +27665,8 @@
     "listPrice": 89.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-washington-nationals/jerseys/cj-abrams-washington-nationals-nike-youth-home-game-player-jersey-white/o-1210+t-25909003+d-40225949+f-313534964+z-9-2414556671",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201644549&u=https%3A%2F%2Fwww.lids.com%2Fmlb-washington-nationals%2Fjerseys%2Fcj-abrams-washington-nationals-nike-youth-home-game-player-jersey-white%2Fo-1210%2Bt-25909003%2Bd-40225949%2Bf-313534964%2Bz-9-2414556671&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mlb-washington-nationals/jerseys/cj-abrams-washington-nationals-nike-youth-home-replica-player-jersey-white/o-9043+t-70127869+d-957739+f-917276930+z-7-3148154952",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200689093&u=https%3A%2F%2Fwww.lids.com%2Fmlb-washington-nationals%2Fjerseys%2Fcj-abrams-washington-nationals-nike-youth-home-replica-player-jersey-white%2Fo-9043%2Bt-70127869%2Bd-957739%2Bf-917276930%2Bz-7-3148154952&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -30456,30 +30504,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-201941962",
-    "playerId": "ketel-marte",
-    "teamId": "arizona-diamondbacks",
-    "league": "mlb",
-    "title": "Men's Nike Ketel Marte Cream Arizona Diamondbacks Home Replica Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-201941962+u-rr9em5sb9rzrrgtycg7h+v-chc4cef5i5ayoqenv5zq.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Men's Nike Ketel Marte Cream Arizona Diamondbacks Home Replica Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Home",
-    "price": 119.99,
-    "listPrice": 149.99,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/mlb-arizona-diamondbacks/jerseys/ketel-marte-arizona-diamondbacks-nike-home-replica-jersey-cream/o-1243+t-92555204+d-40332694+f-340491394+z-9-3748064787",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201941962&u=https%3A%2F%2Fwww.lids.com%2Fmlb-arizona-diamondbacks%2Fjerseys%2Fketel-marte-arizona-diamondbacks-nike-home-replica-jersey-cream%2Fo-1243%2Bt-92555204%2Bd-40332694%2Bf-340491394%2Bz-9-3748064787&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-203195335",
     "playerId": "ketel-marte",
     "teamId": "arizona-diamondbacks",
@@ -30499,6 +30523,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/mlb-arizona-diamondbacks/jerseys/ketel-marte-arizona-diamondbacks-nike-home-replica-jersey-cream/o-3421+t-81770704+d-17114827+f-521895449+z-9-3748064787",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203195335&u=https%3A%2F%2Fwww.lids.com%2Fmlb-arizona-diamondbacks%2Fjerseys%2Fketel-marte-arizona-diamondbacks-nike-home-replica-jersey-cream%2Fo-3421%2Bt-81770704%2Bd-17114827%2Bf-521895449%2Bz-9-3748064787&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-201941962",
+    "playerId": "ketel-marte",
+    "teamId": "arizona-diamondbacks",
+    "league": "mlb",
+    "title": "Men's Nike Ketel Marte Cream Arizona Diamondbacks Home Replica Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-201941962+u-rr9em5sb9rzrrgtycg7h+v-chc4cef5i5ayoqenv5zq.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Ketel Marte Cream Arizona Diamondbacks Home Replica Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Home",
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/mlb-arizona-diamondbacks/jerseys/ketel-marte-arizona-diamondbacks-nike-home-replica-jersey-cream/o-1243+t-92555204+d-40332694+f-340491394+z-9-3748064787",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201941962&u=https%3A%2F%2Fwww.lids.com%2Fmlb-arizona-diamondbacks%2Fjerseys%2Fketel-marte-arizona-diamondbacks-nike-home-replica-jersey-cream%2Fo-1243%2Bt-92555204%2Bd-40332694%2Bf-340491394%2Bz-9-3748064787&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -32904,30 +32952,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203173368",
-    "playerId": "karl-anthony-towns",
-    "teamId": "new-york-knicks",
-    "league": "nba",
-    "title": "Unisex Nike Karl-Anthony Towns Blue New York Knicks Swingman Jersey - Icon Edition",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203173368+u-ytgaubghzevrxsagxpo8+v-tttndiz3wlcjky9t0xqi.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Unisex Nike Karl-Anthony Towns Blue New York Knicks Swingman Jersey - Icon Edition"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Icon Edition",
-    "price": 124.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nba-new-york-knicks/jerseys/karl-anthony-towns-new-york-knicks-nike-unisex-swingman-jersey-icon-edition-blue/o-7958+t-25471808+d-2811712+f-727275435+z-8-230840877",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203173368&u=https%3A%2F%2Fwww.lids.com%2Fnba-new-york-knicks%2Fjerseys%2Fkarl-anthony-towns-new-york-knicks-nike-unisex-swingman-jersey-icon-edition-blue%2Fo-7958%2Bt-25471808%2Bd-2811712%2Bf-727275435%2Bz-8-230840877&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-202683650",
     "playerId": "karl-anthony-towns",
     "teamId": "new-york-knicks",
@@ -32947,6 +32971,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nba-new-york-knicks/jerseys/karl-anthony-towns-new-york-knicks-nike-unisex-swingman-jersey-blue-icon-edition/o-4603+t-25812908+d-40665994+f-604403015+z-9-1589075183",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202683650&u=https%3A%2F%2Fwww.lids.com%2Fnba-new-york-knicks%2Fjerseys%2Fkarl-anthony-towns-new-york-knicks-nike-unisex-swingman-jersey-blue-icon-edition%2Fo-4603%2Bt-25812908%2Bd-40665994%2Bf-604403015%2Bz-9-1589075183&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-203173368",
+    "playerId": "karl-anthony-towns",
+    "teamId": "new-york-knicks",
+    "league": "nba",
+    "title": "Unisex Nike Karl-Anthony Towns Blue New York Knicks Swingman Jersey - Icon Edition",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-203173368+u-ytgaubghzevrxsagxpo8+v-tttndiz3wlcjky9t0xqi.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Unisex Nike Karl-Anthony Towns Blue New York Knicks Swingman Jersey - Icon Edition"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Icon Edition",
+    "price": 124.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nba-new-york-knicks/jerseys/karl-anthony-towns-new-york-knicks-nike-unisex-swingman-jersey-icon-edition-blue/o-7958+t-25471808+d-2811712+f-727275435+z-8-230840877",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203173368&u=https%3A%2F%2Fwww.lids.com%2Fnba-new-york-knicks%2Fjerseys%2Fkarl-anthony-towns-new-york-knicks-nike-unisex-swingman-jersey-icon-edition-blue%2Fo-7958%2Bt-25471808%2Bd-2811712%2Bf-727275435%2Bz-8-230840877&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -34176,30 +34224,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-205042094",
-    "playerId": "ayo-dosunmu",
-    "teamId": "minnesota-timberwolves",
-    "league": "nba",
-    "title": "Unisex Nike Ayo Dosunmu Blue Minnesota Timberwolves Swingman Jersey - Icon Edition",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-205042094+u-bxo9o2abvxxlz46allbt+v-hndynby5czb1cc9xrbsx.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Unisex Nike Ayo Dosunmu Blue Minnesota Timberwolves Swingman Jersey - Icon Edition"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Icon Edition",
-    "price": 124.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nba-minnesota-timberwolves/jerseys/ayo-dosunmu-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue/o-3581+t-70701839+d-39996016+f-582755380+z-9-2195471416",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205042094&u=https%3A%2F%2Fwww.lids.com%2Fnba-minnesota-timberwolves%2Fjerseys%2Fayo-dosunmu-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue%2Fo-3581%2Bt-70701839%2Bd-39996016%2Bf-582755380%2Bz-9-2195471416&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-205042095",
     "playerId": "ayo-dosunmu",
     "teamId": "minnesota-timberwolves",
@@ -34219,6 +34243,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nba-minnesota-timberwolves/jerseys/ayo-dosunmu-minnesota-timberwolves-jordan-brand-unisex-swingman-jersey-statement-edition-black/o-1381+t-36705262+d-84551527+f-388798846+z-9-738876766",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205042095&u=https%3A%2F%2Fwww.lids.com%2Fnba-minnesota-timberwolves%2Fjerseys%2Fayo-dosunmu-minnesota-timberwolves-jordan-brand-unisex-swingman-jersey-statement-edition-black%2Fo-1381%2Bt-36705262%2Bd-84551527%2Bf-388798846%2Bz-9-738876766&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-205042094",
+    "playerId": "ayo-dosunmu",
+    "teamId": "minnesota-timberwolves",
+    "league": "nba",
+    "title": "Unisex Nike Ayo Dosunmu Blue Minnesota Timberwolves Swingman Jersey - Icon Edition",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-205042094+u-bxo9o2abvxxlz46allbt+v-hndynby5czb1cc9xrbsx.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Unisex Nike Ayo Dosunmu Blue Minnesota Timberwolves Swingman Jersey - Icon Edition"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Icon Edition",
+    "price": 124.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nba-minnesota-timberwolves/jerseys/ayo-dosunmu-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue/o-3581+t-70701839+d-39996016+f-582755380+z-9-2195471416",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205042094&u=https%3A%2F%2Fwww.lids.com%2Fnba-minnesota-timberwolves%2Fjerseys%2Fayo-dosunmu-minnesota-timberwolves-nike-unisex-swingman-jersey-icon-edition-blue%2Fo-3581%2Bt-70701839%2Bd-39996016%2Bf-582755380%2Bz-9-2195471416&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -35664,6 +35712,54 @@
     "flagged": null
   },
   {
+    "id": "impact-lids-202867510",
+    "playerId": "jimmy-butler-iii",
+    "teamId": "golden-state-warriors",
+    "league": "nba",
+    "title": "Unisex Nike Jimmy Butler Navy Golden State Warriors Swingman Jersey - City Edition",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-202867510+u-wabwaurxezordggngw6b+v-bvnxdcbkgaadno3zik9r.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Unisex Nike Jimmy Butler Navy Golden State Warriors Swingman Jersey - City Edition"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "City Edition",
+    "price": 95.99,
+    "listPrice": 119.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nba-golden-state-warriors/jerseys/jimmy-butler-golden-state-warriors-nike-unisex-swingman-jersey-city-edition-navy/o-1369+t-69038485+d-17117138+f-368845627+z-9-2963535071",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202867510&u=https%3A%2F%2Fwww.lids.com%2Fnba-golden-state-warriors%2Fjerseys%2Fjimmy-butler-golden-state-warriors-nike-unisex-swingman-jersey-city-edition-navy%2Fo-1369%2Bt-69038485%2Bd-17117138%2Bf-368845627%2Bz-9-2963535071&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-202867509",
+    "playerId": "jimmy-butler-iii",
+    "teamId": "golden-state-warriors",
+    "league": "nba",
+    "title": "Unisex Nike Jimmy Butler White Golden State Warriors Swingman Jersey - Association Edition",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-202867509+u-xvmebblm3qi7hkll2b0s+v-3zjm7nh4i7co3zlumu3k.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Unisex Nike Jimmy Butler White Golden State Warriors Swingman Jersey - Association Edition"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Association Edition",
+    "price": 95.99,
+    "listPrice": 119.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nba-golden-state-warriors/jerseys/jimmy-butler-golden-state-warriors-nike-unisex-swingman-jersey-association-edition-white/o-3558+t-47691752+d-3999718+f-748910472+z-8-2925040228",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202867509&u=https%3A%2F%2Fwww.lids.com%2Fnba-golden-state-warriors%2Fjerseys%2Fjimmy-butler-golden-state-warriors-nike-unisex-swingman-jersey-association-edition-white%2Fo-3558%2Bt-47691752%2Bd-3999718%2Bf-748910472%2Bz-8-2925040228&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
     "id": "impact-lids-202886593",
     "playerId": "jimmy-butler-iii",
     "teamId": "golden-state-warriors",
@@ -35683,30 +35779,6 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nba-golden-state-warriors/jerseys/jimmy-butler-iii-golden-state-warriors-nike-youth-swingman-jersey-icon-edition-royal/o-7958+t-03701796+d-5188262+f-709971310+z-8-1459462752",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202886593&u=https%3A%2F%2Fwww.lids.com%2Fnba-golden-state-warriors%2Fjerseys%2Fjimmy-butler-iii-golden-state-warriors-nike-youth-swingman-jersey-icon-edition-royal%2Fo-7958%2Bt-03701796%2Bd-5188262%2Bf-709971310%2Bz-8-1459462752&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
-    "id": "impact-lids-203962266",
-    "playerId": "jimmy-butler-iii",
-    "teamId": "golden-state-warriors",
-    "league": "nba",
-    "title": "Preschool Nike Jimmy Butler III Royal Golden State Warriors Replica Swingman Jersey - Icon Edition",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203962266+u-absxcily4vezcyp7gqfx+v-e6a7ssh44qqcmfylxk8q.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Preschool Nike Jimmy Butler III Royal Golden State Warriors Replica Swingman Jersey - Icon Edition"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Icon Edition",
-    "price": 69.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nba-golden-state-warriors/jerseys/jimmy-butler-iii-golden-state-warriors-nike-preschool-replica-swingman-jersey-icon-edition-royal/o-3503+t-70927385+d-28115950+f-500830471+z-9-2945057605",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203962266&u=https%3A%2F%2Fwww.lids.com%2Fnba-golden-state-warriors%2Fjerseys%2Fjimmy-butler-iii-golden-state-warriors-nike-preschool-replica-swingman-jersey-icon-edition-royal%2Fo-3503%2Bt-70927385%2Bd-28115950%2Bf-500830471%2Bz-9-2945057605&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -38376,15 +38448,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203854366",
+    "id": "impact-lids-203844353",
     "playerId": "evander",
     "teamId": "fc-cincinnati",
     "league": "mls",
-    "title": "Men's adidas Evander da Silva Ferreira Blue FC Cincinnati 2025 Orange and Blue Legacy Kit On-Field Authentic Jersey",
+    "title": "Men's adidas Evander da Silva Ferreira White FC Cincinnati 2026 The Seven Hills Kit On-Field Authentic Patch Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203854366+u-eqny1xaevk7kiexfpemu+v-bjyxc6e2ugbeypjwkwvw.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203844353+u-fgftfhins8pl9hz0s6am+v-2aegfvakqqpkwl6rpus5.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Men's adidas Evander da Silva Ferreira Blue FC Cincinnati 2025 Orange and Blue Legacy Kit On-Field Authentic Jersey"
+      "alt": "Men's adidas Evander da Silva Ferreira White FC Cincinnati 2026 The Seven Hills Kit On-Field Authentic Patch Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -38393,8 +38465,8 @@
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mls-fc-cincinnati/jerseys/evander-da-silva-ferreira-fc-cincinnati-adidas-2025-orange-and-blue-legacy-kit-on-field-authentic-jersey-blue/o-4611+t-87359844+d-17885972+f-611148441+z-9-101117046",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203854366&u=https%3A%2F%2Fwww.lids.com%2Fmls-fc-cincinnati%2Fjerseys%2Fevander-da-silva-ferreira-fc-cincinnati-adidas-2025-orange-and-blue-legacy-kit-on-field-authentic-jersey-blue%2Fo-4611%2Bt-87359844%2Bd-17885972%2Bf-611148441%2Bz-9-101117046&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mls-fc-cincinnati/jerseys/evander-da-silva-ferreira-fc-cincinnati-adidas-2026-the-seven-hills-kit-on-field-authentic-patch-jersey-white/o-2477+t-21791044+d-51665950+f-475558818+z-9-529098152",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203844353&u=https%3A%2F%2Fwww.lids.com%2Fmls-fc-cincinnati%2Fjerseys%2Fevander-da-silva-ferreira-fc-cincinnati-adidas-2026-the-seven-hills-kit-on-field-authentic-patch-jersey-white%2Fo-2477%2Bt-21791044%2Bd-51665950%2Bf-475558818%2Bz-9-529098152&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -42864,15 +42936,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203846643",
+    "id": "impact-lids-203854644",
     "playerId": "milan-iloski",
     "teamId": "philadelphia-union",
     "league": "mls",
-    "title": "Men's adidas Milan Iloski Navy Philadelphia Union 2026 1776 Kit On-Field Authentic Patch Jersey",
+    "title": "Men's adidas Milan Iloski Blue Philadelphia Union 2025 The Voltage Kit On-Field Authentic Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203846643+u-xwstvqlydtvqgyvxg91u+v-9a7fgzlqo5fu5arjrhxh.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203854644+u-adlhajdn9ylneimnfuxp+v-2mqsmigp8nfirfb4h2al.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Men's adidas Milan Iloski Navy Philadelphia Union 2026 1776 Kit On-Field Authentic Patch Jersey"
+      "alt": "Men's adidas Milan Iloski Blue Philadelphia Union 2025 The Voltage Kit On-Field Authentic Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -42881,8 +42953,8 @@
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mls-philadelphia-union/jerseys/milan-iloski-philadelphia-union-adidas-2026-1776-kit-on-field-authentic-patch-jersey-navy/o-3522+t-69348135+d-84444816+f-529129487+z-9-2688473006",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203846643&u=https%3A%2F%2Fwww.lids.com%2Fmls-philadelphia-union%2Fjerseys%2Fmilan-iloski-philadelphia-union-adidas-2026-1776-kit-on-field-authentic-patch-jersey-navy%2Fo-3522%2Bt-69348135%2Bd-84444816%2Bf-529129487%2Bz-9-2688473006&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mls-philadelphia-union/jerseys/milan-iloski-philadelphia-union-adidas-2025-the-voltage-kit-on-field-authentic-jersey-blue/o-1322+t-69905835+d-06552672+f-329707696+z-9-4189539299",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203854644&u=https%3A%2F%2Fwww.lids.com%2Fmls-philadelphia-union%2Fjerseys%2Fmilan-iloski-philadelphia-union-adidas-2025-the-voltage-kit-on-field-authentic-jersey-blue%2Fo-1322%2Bt-69905835%2Bd-06552672%2Bf-329707696%2Bz-9-4189539299&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -44184,15 +44256,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203854433",
+    "id": "impact-lids-203846930",
     "playerId": "jeppe-tverskov",
     "teamId": "san-diego-fc",
     "league": "mls",
-    "title": "Youth adidas Jeppe Tverskov Navy San Diego FC 2025 State of Flow Replica Jersey",
+    "title": "Youth adidas Jeppe Tverskov White San Diego FC  2026 Unprecedented Unity Kit Replica Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203854433+u-0ftophgusxv940hdfumf+v-hkgordel0wojje6by5nb.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203846930+u-rz63npjezy8zv9rxpayh+v-wybpuxyevlci6kvsngyz.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Youth adidas Jeppe Tverskov Navy San Diego FC 2025 State of Flow Replica Jersey"
+      "alt": "Youth adidas Jeppe Tverskov White San Diego FC  2026 Unprecedented Unity Kit Replica Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -44201,8 +44273,8 @@
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/mls-san-diego-fc/jerseys/jeppe-tverskov-san-diego-fc-adidas-youth-2025-state-of-flow-replica-jersey-navy/o-8022+t-81975123+d-1711823+f-482375511+z-8-1036868260",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203854433&u=https%3A%2F%2Fwww.lids.com%2Fmls-san-diego-fc%2Fjerseys%2Fjeppe-tverskov-san-diego-fc-adidas-youth-2025-state-of-flow-replica-jersey-navy%2Fo-8022%2Bt-81975123%2Bd-1711823%2Bf-482375511%2Bz-8-1036868260&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/mls-san-diego-fc/jerseys/jeppe-tverskov-san-diego-fc-adidas-youth-2026-unprecedented-unity-kit-replica-jersey-white/o-1388+t-81194089+d-06551561+f-381984981+z-9-4131166964",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203846930&u=https%3A%2F%2Fwww.lids.com%2Fmls-san-diego-fc%2Fjerseys%2Fjeppe-tverskov-san-diego-fc-adidas-youth-2026-unprecedented-unity-kit-replica-jersey-white%2Fo-1388%2Bt-81194089%2Bd-06551561%2Bf-381984981%2Bz-9-4131166964&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -48504,15 +48576,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-200119149",
+    "id": "impact-lids-200119151",
     "playerId": "bryce-young",
     "teamId": "carolina-panthers",
     "league": "nfl",
-    "title": "Youth Nike Bryce Young Blue Carolina Panthers Game Jersey",
+    "title": "Youth Nike Bryce Young Black Carolina Panthers Game Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-200119149+u-tyefofucaqgmvsq7errj+v-e4rudkcgx0etvvj6wsk5.jpg?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-200119151+u-tmrkzxzig1jcecbjefmu+v-olxuieq4wnr98x4we5ot.jpg?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Youth Nike Bryce Young Blue Carolina Panthers Game Jersey"
+      "alt": "Youth Nike Bryce Young Black Carolina Panthers Game Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -48521,8 +48593,8 @@
     "listPrice": null,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-carolina-panthers/jerseys/bryce-young-carolina-panthers-nike-youth-game-jersey-blue/o-1349+t-25597968+d-39333794+f-342685472+z-9-653952814",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200119149&u=https%3A%2F%2Fwww.lids.com%2Fnfl-carolina-panthers%2Fjerseys%2Fbryce-young-carolina-panthers-nike-youth-game-jersey-blue%2Fo-1349%2Bt-25597968%2Bd-39333794%2Bf-342685472%2Bz-9-653952814&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-carolina-panthers/jerseys/bryce-young-carolina-panthers-nike-youth-game-jersey-black/o-3549+t-47604613+d-39220450+f-544750471+z-9-397525098",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200119151&u=https%3A%2F%2Fwww.lids.com%2Fnfl-carolina-panthers%2Fjerseys%2Fbryce-young-carolina-panthers-nike-youth-game-jersey-black%2Fo-3549%2Bt-47604613%2Bd-39220450%2Bf-544750471%2Bz-9-397525098&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -49176,6 +49248,102 @@
     "flagged": null
   },
   {
+    "id": "impact-lids-200325318",
+    "playerId": "tee-higgins",
+    "teamId": "cincinnati-bengals",
+    "league": "nfl",
+    "title": "Men's Nike Tee Higgins White Cincinnati Bengals  Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200325318+u-souqdyrttzr1gnyxzoqs+v-mexsyxw4rmn3e4eufvgd.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Tee Higgins White Cincinnati Bengals  Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-cincinnati-bengals/jerseys/tee-higgins-cincinnati-bengals-nike-game-jersey-white/o-2472+t-69825726+d-39558250+f-476177666+z-9-472105680",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200325318&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cincinnati-bengals%2Fjerseys%2Ftee-higgins-cincinnati-bengals-nike-game-jersey-white%2Fo-2472%2Bt-69825726%2Bd-39558250%2Bf-476177666%2Bz-9-472105680&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200075649",
+    "playerId": "tee-higgins",
+    "teamId": "cincinnati-bengals",
+    "league": "nfl",
+    "title": "Men's Nike Tee Higgins Black Cincinnati Bengals Team Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200075649+u-n5zd0efeyn1t9ysgpq1y+v-v3umrcshtsmsbs50osbz.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Tee Higgins Black Cincinnati Bengals Team Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-cincinnati-bengals/jerseys/tee-higgins-cincinnati-bengals-nike-team-game-jersey-black/o-1394+t-03152493+d-95339338+f-390194578+z-9-1246349263",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200075649&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cincinnati-bengals%2Fjerseys%2Ftee-higgins-cincinnati-bengals-nike-team-game-jersey-black%2Fo-1394%2Bt-03152493%2Bd-95339338%2Bf-390194578%2Bz-9-1246349263&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200075647",
+    "playerId": "tee-higgins",
+    "teamId": "cincinnati-bengals",
+    "league": "nfl",
+    "title": "Men's Nike Tee Higgins Orange Cincinnati Bengals Alternate Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200075647+u-wznutrtxhjjk7f3haxo7+v-7vfzoju3y1sb5cb3xbap.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Tee Higgins Orange Cincinnati Bengals Alternate Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Alternate",
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-cincinnati-bengals/jerseys/tee-higgins-cincinnati-bengals-nike-alternate-game-jersey-orange/o-2450+t-14712415+d-6288827+f-717281429+z-8-2637705786",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200075647&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cincinnati-bengals%2Fjerseys%2Ftee-higgins-cincinnati-bengals-nike-alternate-game-jersey-orange%2Fo-2450%2Bt-14712415%2Bd-6288827%2Bf-717281429%2Bz-8-2637705786&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200075650",
+    "playerId": "tee-higgins",
+    "teamId": "cincinnati-bengals",
+    "league": "nfl",
+    "title": "Women's Nike Tee Higgins Black Cincinnati Bengals Game Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200075650+u-vf0safp8dheny8embrsl+v-yxzwjn6kscw4wthbq4ku.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Women's Nike Tee Higgins Black Cincinnati Bengals Game Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-cincinnati-bengals/jerseys/tee-higgins-cincinnati-bengals-nike-womens-game-player-jersey-black/o-1338+t-03591348+d-06449338+f-330589699+z-9-481643436",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200075650&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cincinnati-bengals%2Fjerseys%2Ftee-higgins-cincinnati-bengals-nike-womens-game-player-jersey-black%2Fo-1338%2Bt-03591348%2Bd-06449338%2Bf-330589699%2Bz-9-481643436&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
     "id": "impact-lids-205103260",
     "playerId": "chase-brown",
     "teamId": "cincinnati-bengals",
@@ -49656,30 +49824,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-3887255349998",
-    "playerId": "mason-graham",
-    "teamId": "cleveland-browns",
-    "league": "nfl",
-    "title": "Mason Graham Men's Nike Cleveland Browns Brown Custom Game Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[GRAHAM]&set=key[number],value[94]&call=url[http://dmimages.ff.p10/chains/3887255.txt]&scale=size[900]&sink&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Mason Graham Men's Nike Cleveland Browns Brown Custom Game Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": null,
-    "price": 189.99,
-    "listPrice": null,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-cleveland-browns/jerseys/nike-cleveland-browns-custom-game-jersey-brown/o-7927+t-81151316+d-3966592+f-5698381+z-8-2560058843?aid=349998",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=3887255349998&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cleveland-browns%2Fjerseys%2Fnike-cleveland-browns-custom-game-jersey-brown%2Fo-7927%2Bt-81151316%2Bd-3966592%2Bf-5698381%2Bz-8-2560058843%3Faid%3D349998&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-3889154349998",
     "playerId": "mason-graham",
     "teamId": "cleveland-browns",
@@ -49699,6 +49843,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nfl-cleveland-browns/jerseys/cleveland-browns-nike-custom-game-jersey-white/o-2416+t-14827983+d-06110450+f-5997834+z-9-3145156336?aid=349998",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=3889154349998&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cleveland-browns%2Fjerseys%2Fcleveland-browns-nike-custom-game-jersey-white%2Fo-2416%2Bt-14827983%2Bd-06110450%2Bf-5997834%2Bz-9-3145156336%3Faid%3D349998&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-3887255349998",
+    "playerId": "mason-graham",
+    "teamId": "cleveland-browns",
+    "league": "nfl",
+    "title": "Mason Graham Men's Nike Cleveland Browns Brown Custom Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/lf?set=key[name],value[GRAHAM]&set=key[number],value[94]&call=url[http://dmimages.ff.p10/chains/3887255.txt]&scale=size[900]&sink&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Mason Graham Men's Nike Cleveland Browns Brown Custom Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 189.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-cleveland-browns/jerseys/nike-cleveland-browns-custom-game-jersey-brown/o-7927+t-81151316+d-3966592+f-5698381+z-8-2560058843?aid=349998",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=3887255349998&u=https%3A%2F%2Fwww.lids.com%2Fnfl-cleveland-browns%2Fjerseys%2Fnike-cleveland-browns-custom-game-jersey-brown%2Fo-7927%2Bt-81151316%2Bd-3966592%2Bf-5698381%2Bz-8-2560058843%3Faid%3D349998&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -52176,30 +52344,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203894973",
-    "playerId": "tyler-shough",
-    "teamId": "new-orleans-saints",
-    "league": "nfl",
-    "title": "Men's Nike Tyler Shough White New Orleans Saints Game Player Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203894973+u-pizeyuvctox6xtgf8pbr+v-cmsty38stwr122q3g5k1.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Men's Nike Tyler Shough White New Orleans Saints Game Player Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": null,
-    "price": 119.99,
-    "listPrice": 149.99,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-new-orleans-saints/jerseys/nike-tyler-shough-new-orleans-saints-white-game-player-jersey/o-3594+t-69488119+d-28778261+f-599275141+z-9-95230117",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203894973&u=https%3A%2F%2Fwww.lids.com%2Fnfl-new-orleans-saints%2Fjerseys%2Fnike-tyler-shough-new-orleans-saints-white-game-player-jersey%2Fo-3594%2Bt-69488119%2Bd-28778261%2Bf-599275141%2Bz-9-95230117&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-201359841",
     "playerId": "tyler-shough",
     "teamId": "new-orleans-saints",
@@ -52219,6 +52363,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nfl-new-orleans-saints/jerseys/tyler-shough-new-orleans-saints-nike-team-game-jersey-black/o-4605+t-36370364+d-39224883+f-604655165+z-9-729485655",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201359841&u=https%3A%2F%2Fwww.lids.com%2Fnfl-new-orleans-saints%2Fjerseys%2Ftyler-shough-new-orleans-saints-nike-team-game-jersey-black%2Fo-4605%2Bt-36370364%2Bd-39224883%2Bf-604655165%2Bz-9-729485655&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-203894973",
+    "playerId": "tyler-shough",
+    "teamId": "new-orleans-saints",
+    "league": "nfl",
+    "title": "Men's Nike Tyler Shough White New Orleans Saints Game Player Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-203894973+u-pizeyuvctox6xtgf8pbr+v-cmsty38stwr122q3g5k1.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Tyler Shough White New Orleans Saints Game Player Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-new-orleans-saints/jerseys/nike-tyler-shough-new-orleans-saints-white-game-player-jersey/o-3594+t-69488119+d-28778261+f-599275141+z-9-95230117",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203894973&u=https%3A%2F%2Fwww.lids.com%2Fnfl-new-orleans-saints%2Fjerseys%2Fnike-tyler-shough-new-orleans-saints-white-game-player-jersey%2Fo-3594%2Bt-69488119%2Bd-28778261%2Bf-599275141%2Bz-9-95230117&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -54072,73 +54240,97 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-3889183",
+    "id": "impact-lids-203376664",
     "playerId": "cam-ward",
     "teamId": "tennessee-titans",
     "league": "nfl",
-    "title": "Cam Ward Men's Nike White Tennessee Titans Custom Game Jersey",
+    "title": "Men's Nike Cameron Ward White Tennessee Titans Game Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[FLOTT]&set=key[number],value[18]&call=url[http://dmimages.ff.p10/chains/3889183.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203376664+u-apr5ch2thweekgraxtex+v-3kcaaxfzfvfhfhhrdd5i.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Cam Ward Men's Nike White Tennessee Titans Custom Game Jersey"
+      "alt": "Men's Nike Cameron Ward White Tennessee Titans Game Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
     "edition": null,
-    "price": 135.99,
-    "listPrice": 169.99,
+    "price": 119.99,
+    "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/tennessee-titans-nike-custom-game-jersey-white/o-2449+t-81609402+d-95662683+f-5265082+z-9-1087947845",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=3889183&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Ftennessee-titans-nike-custom-game-jersey-white%2Fo-2449%2Bt-81609402%2Bd-95662683%2Bf-5265082%2Bz-9-1087947845&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/cameron-ward-tennessee-titans-nike-game-jersey-white/o-2405+t-03158379+d-17885950+f-403453749+z-9-2935167397",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203376664&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Fcameron-ward-tennessee-titans-nike-game-jersey-white%2Fo-2405%2Bt-03158379%2Bd-17885950%2Bf-403453749%2Bz-9-2935167397&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
   },
   {
-    "id": "impact-lids-3888081",
+    "id": "impact-lids-203376663",
     "playerId": "cam-ward",
     "teamId": "tennessee-titans",
     "league": "nfl",
-    "title": "Cam Ward Men's Nike Light Blue Tennessee Titans Alternate Custom Game Jersey",
+    "title": "Men's Nike Cameron Ward Light Blue Tennessee Titans Team Game Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[KPASSAGNON]&set=key[number],value[58]&call=url[http://dmimages.ff.p10/chains/3888081.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203376663+u-94vpjh53cotlubdrse7d+v-riq8u76jtfbemsinqenm.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Cam Ward Men's Nike Light Blue Tennessee Titans Alternate Custom Game Jersey"
+      "alt": "Men's Nike Cameron Ward Light Blue Tennessee Titans Team Game Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
-    "edition": "Alternate",
-    "price": 135.99,
-    "listPrice": 169.99,
+    "edition": null,
+    "price": 119.99,
+    "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/tennessee-titans-nike-alternate-custom-game-jersey-light-blue/o-3583+t-14047224+d-39666005+f-6698704+z-9-2528174122",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=3888081&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Ftennessee-titans-nike-alternate-custom-game-jersey-light-blue%2Fo-3583%2Bt-14047224%2Bd-39666005%2Bf-6698704%2Bz-9-2528174122&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/cameron-ward-tennessee-titans-nike-team-game-jersey-light-blue/o-2494+t-03716179+d-06773727+f-493033636+z-9-4163717967",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203376663&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Fcameron-ward-tennessee-titans-nike-team-game-jersey-light-blue%2Fo-2494%2Bt-03716179%2Bd-06773727%2Bf-493033636%2Bz-9-4163717967&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
   },
   {
-    "id": "impact-lids-203933724",
+    "id": "impact-lids-203376712",
     "playerId": "cam-ward",
     "teamId": "tennessee-titans",
     "league": "nfl",
-    "title": "Cam Ward Women's Nike Light Blue Tennessee Titans Game Custom Jersey",
+    "title": "Women's Nike Cameron Ward White Tennessee Titans Game Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/lf?set=key[name],value[JOHNSON+II]&set=key[number],value[11]&call=url[http://dmimages.ff.p10/chains/203933724.txt]&scale=size[900]&sink&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203376712+u-rkdlpxggpjlopzx4noi5+v-psyafiauwfhkjhaqw3ef.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Cam Ward Women's Nike Light Blue Tennessee Titans Game Custom Jersey"
+      "alt": "Women's Nike Cameron Ward White Tennessee Titans Game Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
     "edition": null,
-    "price": 151.99,
-    "listPrice": 189.99,
+    "price": 119.99,
+    "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/tennessee-titans-nike-womens-game-custom-jersey-light-blue/o-3538+t-36049446+d-40553727+f-536927177+z-9-383105755",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203933724&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Ftennessee-titans-nike-womens-game-custom-jersey-light-blue%2Fo-3538%2Bt-36049446%2Bd-40553727%2Bf-536927177%2Bz-9-383105755&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/cameron-ward-tennessee-titans-nike-womens-game-jersey-white/o-3561+t-36717280+d-17116083+f-566044828+z-9-76464009",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203376712&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Fcameron-ward-tennessee-titans-nike-womens-game-jersey-white%2Fo-3561%2Bt-36717280%2Bd-17116083%2Bf-566044828%2Bz-9-76464009&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-203450029",
+    "playerId": "cam-ward",
+    "teamId": "tennessee-titans",
+    "league": "nfl",
+    "title": "Youth Nike Cameron Ward White Tennessee Titans Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-203450029+u-dhyy93qmoebebodhgxva+v-nipgyplfgv1a726vcbm5.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Youth Nike Cameron Ward White Tennessee Titans Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 87.99,
+    "listPrice": 109.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-tennessee-titans/jerseys/cameron-ward-tennessee-titans-nike-youth-game-jersey-white/o-3583+t-47822735+d-84777161+f-587273896+z-9-3196102033",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203450029&u=https%3A%2F%2Fwww.lids.com%2Fnfl-tennessee-titans%2Fjerseys%2Fcameron-ward-tennessee-titans-nike-youth-game-jersey-white%2Fo-3583%2Bt-47822735%2Bd-84777161%2Bf-587273896%2Bz-9-3196102033&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -54672,30 +54864,6 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-202120675",
-    "playerId": "kyle-hamilton",
-    "teamId": "baltimore-ravens",
-    "league": "nfl",
-    "title": "Men's Nike Kyle Hamilton Black Baltimore Ravens Alternate Game Jersey",
-    "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-202120675+u-f2ttyykta6sv7anxp7w4+v-dmvpmnutpfo3ni5ai1a7.jpg?_hv=2&w=2000",
-      "source": "Lids product feed via Impact.com",
-      "alt": "Men's Nike Kyle Hamilton Black Baltimore Ravens Alternate Game Jersey"
-    },
-    "merchantId": "lids",
-    "productType": "jersey",
-    "edition": "Alternate",
-    "price": 119.99,
-    "listPrice": 149.99,
-    "currency": "USD",
-    "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-baltimore-ravens/jerseys/kyle-hamilton-baltimore-ravens-nike-alternate-game-jersey-black/o-2405+t-81718055+d-2866047+f-289972277+z-8-701942409",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202120675&u=https%3A%2F%2Fwww.lids.com%2Fnfl-baltimore-ravens%2Fjerseys%2Fkyle-hamilton-baltimore-ravens-nike-alternate-game-jersey-black%2Fo-2405%2Bt-81718055%2Bd-2866047%2Bf-289972277%2Bz-8-701942409&intsrc=APIG_5267",
-    "numberOnProduct": null,
-    "lastVerified": "2026-11-22",
-    "flagged": null
-  },
-  {
     "id": "impact-lids-202120695",
     "playerId": "kyle-hamilton",
     "teamId": "baltimore-ravens",
@@ -54715,6 +54883,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nfl-baltimore-ravens/jerseys/kyle-hamilton-baltimore-ravens-nike-team-game-jersey-purple/o-1361+t-92593555+d-84331572+f-361655426+z-9-3658075601",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202120695&u=https%3A%2F%2Fwww.lids.com%2Fnfl-baltimore-ravens%2Fjerseys%2Fkyle-hamilton-baltimore-ravens-nike-team-game-jersey-purple%2Fo-1361%2Bt-92593555%2Bd-84331572%2Bf-361655426%2Bz-9-3658075601&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-202120675",
+    "playerId": "kyle-hamilton",
+    "teamId": "baltimore-ravens",
+    "league": "nfl",
+    "title": "Men's Nike Kyle Hamilton Black Baltimore Ravens Alternate Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-202120675+u-f2ttyykta6sv7anxp7w4+v-dmvpmnutpfo3ni5ai1a7.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Kyle Hamilton Black Baltimore Ravens Alternate Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Alternate",
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-baltimore-ravens/jerseys/kyle-hamilton-baltimore-ravens-nike-alternate-game-jersey-black/o-2405+t-81718055+d-2866047+f-289972277+z-8-701942409",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202120675&u=https%3A%2F%2Fwww.lids.com%2Fnfl-baltimore-ravens%2Fjerseys%2Fkyle-hamilton-baltimore-ravens-nike-alternate-game-jersey-black%2Fo-2405%2Bt-81718055%2Bd-2866047%2Bf-289972277%2Bz-8-701942409&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -55075,6 +55267,102 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nfl-buffalo-bills/jerseys/khalil-shakir-buffalo-bills-nike-womens-game-jersey-royal/o-4616+t-70487978+d-17221538+f-8963840+z-9-2840736340",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=4899179&u=https%3A%2F%2Fwww.lids.com%2Fnfl-buffalo-bills%2Fjerseys%2Fkhalil-shakir-buffalo-bills-nike-womens-game-jersey-royal%2Fo-4616%2Bt-70487978%2Bd-17221538%2Bf-8963840%2Bz-9-2840736340&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-205121532",
+    "playerId": "greg-rousseau",
+    "teamId": "buffalo-bills",
+    "league": "nfl",
+    "title": "Men's Nike Gregory Rousseau White Buffalo Bills Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-205121532+u-w0fhes51aagfxotwngz6+v-af2ztzlh9njnmwucao8g.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Gregory Rousseau White Buffalo Bills Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-buffalo-bills/jerseys/gregory-rousseau-buffalo-bills-nike-game-jersey-white/o-2494+t-81379112+d-51337172+f-493412069+z-9-584989386",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205121532&u=https%3A%2F%2Fwww.lids.com%2Fnfl-buffalo-bills%2Fjerseys%2Fgregory-rousseau-buffalo-bills-nike-game-jersey-white%2Fo-2494%2Bt-81379112%2Bd-51337172%2Bf-493412069%2Bz-9-584989386&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-205121534",
+    "playerId": "greg-rousseau",
+    "teamId": "buffalo-bills",
+    "league": "nfl",
+    "title": "Men's Nike Gregory Rousseau Red Buffalo Bills Alternate 2 Game Jersey Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-205121534+u-3ajrq2hbkypqjatqmsy0+v-u7tcpb1qkg1nzfhy8ogf.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Gregory Rousseau Red Buffalo Bills Alternate 2 Game Jersey Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Alternate",
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-buffalo-bills/jerseys/gregory-rousseau-buffalo-bills-nike-alternate-2-game-jersey-game-jersey-red/o-3527+t-70820223+d-62000405+f-522923134+z-9-142257431",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=205121534&u=https%3A%2F%2Fwww.lids.com%2Fnfl-buffalo-bills%2Fjerseys%2Fgregory-rousseau-buffalo-bills-nike-alternate-2-game-jersey-game-jersey-red%2Fo-3527%2Bt-70820223%2Bd-62000405%2Bf-522923134%2Bz-9-142257431&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-204753009",
+    "playerId": "greg-rousseau",
+    "teamId": "buffalo-bills",
+    "league": "nfl",
+    "title": "Men's Nike Gregory Rousseau Royal Buffalo Bills Team Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-204753009+u-sw36mkwbn0ftlizokayt+v-ooy7mpwoqy4at0eeqp9s.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Gregory Rousseau Royal Buffalo Bills Team Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 112.49,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-buffalo-bills/jerseys/gregory-rousseau-buffalo-bills-nike-team-game-jersey-royal/o-9161+t-25935789+d-2888594+f-823235858+z-8-3430652080",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=204753009&u=https%3A%2F%2Fwww.lids.com%2Fnfl-buffalo-bills%2Fjerseys%2Fgregory-rousseau-buffalo-bills-nike-team-game-jersey-royal%2Fo-9161%2Bt-25935789%2Bd-2888594%2Bf-823235858%2Bz-8-3430652080&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-204753010",
+    "playerId": "greg-rousseau",
+    "teamId": "buffalo-bills",
+    "league": "nfl",
+    "title": "Women's Nike Gregory Rousseau Royal Buffalo Bills Team Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-204753010+u-usd4hmrm9lkffmjtmjow+v-9np4amrwwpp1pk2ai9zn.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Women's Nike Gregory Rousseau Royal Buffalo Bills Team Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-buffalo-bills/jerseys/gregory-rousseau-buffalo-bills-nike-womens-team-game-jersey-royal/o-1372+t-92719123+d-17554872+f-373445164+z-9-3466716641",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=204753010&u=https%3A%2F%2Fwww.lids.com%2Fnfl-buffalo-bills%2Fjerseys%2Fgregory-rousseau-buffalo-bills-nike-womens-team-game-jersey-royal%2Fo-1372%2Bt-92719123%2Bd-17554872%2Bf-373445164%2Bz-9-3466716641&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -56227,6 +56515,126 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nfl-denver-broncos/jerseys/courtland-sutton-denver-broncos-nike-womens-team-game-jersey-orange/o-1338+t-47486863+d-40559316+f-334888845+z-9-4138067473",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200422496&u=https%3A%2F%2Fwww.lids.com%2Fnfl-denver-broncos%2Fjerseys%2Fcourtland-sutton-denver-broncos-nike-womens-team-game-jersey-orange%2Fo-1338%2Bt-47486863%2Bd-40559316%2Bf-334888845%2Bz-9-4138067473&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200422446",
+    "playerId": "pat-surtain-ii",
+    "teamId": "denver-broncos",
+    "league": "nfl",
+    "title": "Men's Nike Patrick Surtain II Navy Denver Broncos Alternate Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200422446+u-cmz6ytya2vab0pdmmncb+v-pranlrn8sndbvsgi4j8h.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Patrick Surtain II Navy Denver Broncos Alternate Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": "Alternate",
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-denver-broncos/jerseys/patrick-surtain-ii-denver-broncos-nike-alternate-game-jersey-navy/o-2405+t-14935774+d-95885905+f-401379321+z-9-1952895784",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200422446&u=https%3A%2F%2Fwww.lids.com%2Fnfl-denver-broncos%2Fjerseys%2Fpatrick-surtain-ii-denver-broncos-nike-alternate-game-jersey-navy%2Fo-2405%2Bt-14935774%2Bd-95885905%2Bf-401379321%2Bz-9-1952895784&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200422445",
+    "playerId": "pat-surtain-ii",
+    "teamId": "denver-broncos",
+    "league": "nfl",
+    "title": "Men's Nike Patrick Surtain II White Denver Broncos Mile High Collection Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200422445+u-3u2p5obh65ncyomxxs1j+v-lwvqfz5ibhl8lifxmxgh.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Patrick Surtain II White Denver Broncos Mile High Collection Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-denver-broncos/jerseys/patrick-surtain-ii-denver-broncos-nike-mile-high-collection-game-jersey-white/o-2438+t-47269118+d-5166267+f-542337067+z-8-100979197",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200422445&u=https%3A%2F%2Fwww.lids.com%2Fnfl-denver-broncos%2Fjerseys%2Fpatrick-surtain-ii-denver-broncos-nike-mile-high-collection-game-jersey-white%2Fo-2438%2Bt-47269118%2Bd-5166267%2Bf-542337067%2Bz-8-100979197&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-2001807369",
+    "playerId": "pat-surtain-ii",
+    "teamId": "denver-broncos",
+    "league": "nfl",
+    "title": "Men's Nike Patrick Surtain II White Denver Broncos Vapor F.U.S.E. Stitched Limited Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-2001807369+u-oqgprtgiw9euzuln0dpy+v-dawayf4m1xax3bo90p5h.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Patrick Surtain II White Denver Broncos Vapor F.U.S.E. Stitched Limited Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": 199.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-denver-broncos/jerseys/patrick-surtain-ii-denver-broncos-nike-vapor-fuse-stitched-limited-jersey-white/o-1361+t-70151318+d-28999350+f-3672919254+z-9-592673507",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=2001807369&u=https%3A%2F%2Fwww.lids.com%2Fnfl-denver-broncos%2Fjerseys%2Fpatrick-surtain-ii-denver-broncos-nike-vapor-fuse-stitched-limited-jersey-white%2Fo-1361%2Bt-70151318%2Bd-28999350%2Bf-3672919254%2Bz-9-592673507&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-201367197",
+    "playerId": "pat-surtain-ii",
+    "teamId": "denver-broncos",
+    "league": "nfl",
+    "title": "Youth Nike Patrick Surtain II Orange Denver Broncos Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-201367197+u-0vjzhyftnudopd1nuc1d+v-grh2qviphfqccrlldj7w.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Youth Nike Patrick Surtain II Orange Denver Broncos Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 109.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-denver-broncos/jerseys/patrick-surtain-ii-denver-broncos-nike-youth-game-jersey-orange/o-3550+t-70371396+d-06881538+f-558676178+z-9-3053516540",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=201367197&u=https%3A%2F%2Fwww.lids.com%2Fnfl-denver-broncos%2Fjerseys%2Fpatrick-surtain-ii-denver-broncos-nike-youth-game-jersey-orange%2Fo-3550%2Bt-70371396%2Bd-06881538%2Bf-558676178%2Bz-9-3053516540&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-200422448",
+    "playerId": "pat-surtain-ii",
+    "teamId": "denver-broncos",
+    "league": "nfl",
+    "title": "Women's Nike Patrick Surtain II White Denver Broncos Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-200422448+u-eydchysq7pnjcvbzpbv2+v-gebzn5j4eudype5ltr7w.jpg?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Women's Nike Patrick Surtain II White Denver Broncos Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 149.99,
+    "listPrice": null,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-denver-broncos/jerseys/patrick-surtain-ii-denver-broncos-nike-womens-game-jersey-white/o-1372+t-58481330+d-62113783+f-375835051+z-9-3625831143",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=200422448&u=https%3A%2F%2Fwww.lids.com%2Fnfl-denver-broncos%2Fjerseys%2Fpatrick-surtain-ii-denver-broncos-nike-womens-game-jersey-white%2Fo-1372%2Bt-58481330%2Bd-62113783%2Bf-375835051%2Bz-9-3625831143&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -57888,15 +58296,15 @@
     "flagged": null
   },
   {
-    "id": "impact-lids-203379763",
+    "id": "impact-lids-203379764",
     "playerId": "kyren-williams",
     "teamId": "los-angeles-rams",
     "league": "nfl",
-    "title": "Women's Nike Kyren Williams Royal Los Angeles Rams Game Jersey",
+    "title": "Women's Nike Kyren Williams White Los Angeles Rams Game Jersey",
     "image": {
-      "url": "https://feeds.frgimages.com/_ss5_p-203379763+u-ufpkj1x8axettu6uj7jj+v-8ukylbdmj7sg7wh03ahd.png?_hv=2&w=2000",
+      "url": "https://feeds.frgimages.com/_ss5_p-203379764+u-5xgruvkdfmlycd7jqq4v+v-gijjf7gt6lr2gwgeuwps.png?_hv=2&w=2000",
       "source": "Lids product feed via Impact.com",
-      "alt": "Women's Nike Kyren Williams Royal Los Angeles Rams Game Jersey"
+      "alt": "Women's Nike Kyren Williams White Los Angeles Rams Game Jersey"
     },
     "merchantId": "lids",
     "productType": "jersey",
@@ -57905,8 +58313,8 @@
     "listPrice": 149.99,
     "currency": "USD",
     "availability": "unknown",
-    "productUrl": "https://www.lids.com/nfl-los-angeles-rams/jerseys/kyren-williams-los-angeles-rams-nike-womens-game-jersey-royal/o-1349+t-03714793+d-17220472+f-343018883+z-9-3664512723",
-    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203379763&u=https%3A%2F%2Fwww.lids.com%2Fnfl-los-angeles-rams%2Fjerseys%2Fkyren-williams-los-angeles-rams-nike-womens-game-jersey-royal%2Fo-1349%2Bt-03714793%2Bd-17220472%2Bf-343018883%2Bz-9-3664512723&intsrc=APIG_5267",
+    "productUrl": "https://www.lids.com/nfl-los-angeles-rams/jerseys/kyren-williams-los-angeles-rams-nike-womens-game-jersey-white/o-2461+t-14820337+d-0644607+f-811309126+z-8-427070404",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=203379764&u=https%3A%2F%2Fwww.lids.com%2Fnfl-los-angeles-rams%2Fjerseys%2Fkyren-williams-los-angeles-rams-nike-womens-game-jersey-white%2Fo-2461%2Bt-14820337%2Bd-0644607%2Bf-811309126%2Bz-8-427070404&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
@@ -64579,6 +64987,30 @@
     "availability": "unknown",
     "productUrl": "https://www.lids.com/nhl-winnipeg-jets/jerseys/winnipeg-jets-fanatics-alternate-premium-custom-jersey-navy/o-3595+t-81043110+d-51886049+f-590086228+z-9-2560114297?aid=380219",
     "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202055742380219&u=https%3A%2F%2Fwww.lids.com%2Fnhl-winnipeg-jets%2Fjerseys%2Fwinnipeg-jets-fanatics-alternate-premium-custom-jersey-navy%2Fo-3595%2Bt-81043110%2Bd-51886049%2Bf-590086228%2Bz-9-2560114297%3Faid%3D380219&intsrc=APIG_5267",
+    "numberOnProduct": null,
+    "lastVerified": "2026-11-22",
+    "flagged": null
+  },
+  {
+    "id": "impact-lids-202982191",
+    "playerId": "walter-nolen-iii",
+    "teamId": "arizona-cardinals",
+    "league": "nfl",
+    "title": "Men's Nike Walter Nolen Cardinal Arizona Cardinals Team Game Jersey",
+    "image": {
+      "url": "https://feeds.frgimages.com/_ss5_p-202982191+u-whvyzods9tq90bxk8dhw+v-l8gcepdthmt0gtb6knbz.png?_hv=2&w=2000",
+      "source": "Lids product feed via Impact.com",
+      "alt": "Men's Nike Walter Nolen Cardinal Arizona Cardinals Team Game Jersey"
+    },
+    "merchantId": "lids",
+    "productType": "jersey",
+    "edition": null,
+    "price": 119.99,
+    "listPrice": 149.99,
+    "currency": "USD",
+    "availability": "unknown",
+    "productUrl": "https://www.lids.com/nfl-arizona-cardinals/jerseys/walter-nolen-arizona-cardinals-nike-team-game-jersey-cardinal/o-3572+t-69269053+d-95225938+f-578177016+z-9-803999150",
+    "affiliateUrl": "https://lids.7q8j.net/c/6755530/708515/9679?prodsku=202982191&u=https%3A%2F%2Fwww.lids.com%2Fnfl-arizona-cardinals%2Fjerseys%2Fwalter-nolen-arizona-cardinals-nike-team-game-jersey-cardinal%2Fo-3572%2Bt-69269053%2Bd-95225938%2Bf-578177016%2Bz-9-803999150&intsrc=APIG_5267",
     "numberOnProduct": null,
     "lastVerified": "2026-11-22",
     "flagged": null
