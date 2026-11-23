@@ -1,201 +1,201 @@
 {
   "note": "Weekly trending lists: English Wikipedia page views (people, not bots) per player over the last 7 full days, top 5 per league. Interest in the player, not jersey sales. Built by scripts/trending-pageviews.mjs.",
   "source": "https://wikimedia.org/api/rest_v1/",
-  "start": "2026-11-10",
-  "end": "2026-11-16",
-  "updated": "2026-11-17",
-  "playersChecked": 904,
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "updated": "2026-11-23",
+  "playersChecked": 1004,
   "leagues": {
     "nfl": [
       {
         "playerId": "kirk-cousins",
         "wikipediaTitle": "Kirk_Cousins",
-        "views": 581046,
-        "previousViews": 31118
+        "views": 135106,
+        "previousViews": 511321
       },
       {
-        "playerId": "amon-ra-st-brown",
-        "wikipediaTitle": "Amon-Ra_St._Brown",
-        "views": 198743,
-        "previousViews": 16988
-      },
-      {
-        "playerId": "fernando-mendoza",
-        "wikipediaTitle": "Fernando_Mendoza",
-        "views": 151199,
-        "previousViews": 18171
-      },
-      {
-        "playerId": "cam-skattebo",
-        "wikipediaTitle": "Cam_Skattebo",
-        "views": 104400,
-        "previousViews": 19901
+        "playerId": "jacoby-brissett",
+        "wikipediaTitle": "Jacoby_Brissett",
+        "views": 123250,
+        "previousViews": 26096
       },
       {
         "playerId": "joe-burrow",
         "wikipediaTitle": "Joe_Burrow",
-        "views": 103708,
-        "previousViews": 45134
+        "views": 115539,
+        "previousViews": 37173
+      },
+      {
+        "playerId": "aaron-rodgers",
+        "wikipediaTitle": "Aaron_Rodgers",
+        "views": 104421,
+        "previousViews": 41654
+      },
+      {
+        "playerId": "fernando-mendoza",
+        "wikipediaTitle": "Fernando_Mendoza",
+        "views": 104212,
+        "previousViews": 117050
       }
     ],
     "nba": [
       {
+        "playerId": "quentin-grimes",
+        "wikipediaTitle": "Quentin_Grimes",
+        "views": 90487,
+        "previousViews": 6334
+      },
+      {
         "playerId": "lebron-james",
         "wikipediaTitle": "LeBron_James",
-        "views": 95514,
-        "previousViews": 118865
+        "views": 82035,
+        "previousViews": 96016
       },
       {
         "playerId": "stephen-curry",
         "wikipediaTitle": "Stephen_Curry",
-        "views": 79091,
-        "previousViews": 71947
-      },
-      {
-        "playerId": "luka-doncic",
-        "wikipediaTitle": "Luka_Dončić",
-        "views": 52121,
-        "previousViews": 84257
+        "views": 56296,
+        "previousViews": 83371
       },
       {
         "playerId": "victor-wembanyama",
         "wikipediaTitle": "Victor_Wembanyama",
-        "views": 47381,
-        "previousViews": 58917
+        "views": 47221,
+        "previousViews": 47260
       },
       {
-        "playerId": "cooper-flagg",
-        "wikipediaTitle": "Cooper_Flagg",
-        "views": 43084,
-        "previousViews": 28849
+        "playerId": "luka-doncic",
+        "wikipediaTitle": "Luka_Dončić",
+        "views": 44861,
+        "previousViews": 51142
       }
     ],
     "wnba": [
       {
         "playerId": "caitlin-clark",
         "wikipediaTitle": "Caitlin_Clark",
-        "views": 20110,
-        "previousViews": 35631
+        "views": 19205,
+        "previousViews": 21167
       },
       {
         "playerId": "brittney-griner",
         "wikipediaTitle": "Brittney_Griner",
-        "views": 15739,
-        "previousViews": 13435
+        "views": 11190,
+        "previousViews": 14814
       },
       {
         "playerId": "angel-reese",
         "wikipediaTitle": "Angel_Reese",
-        "views": 11054,
-        "previousViews": 23945
+        "views": 8001,
+        "previousViews": 12827
       },
       {
-        "playerId": "gabby-williams",
-        "wikipediaTitle": "Gabby_Williams",
-        "views": 9619,
-        "previousViews": 50170
+        "playerId": "aja-wilson",
+        "wikipediaTitle": "A'ja_Wilson",
+        "views": 7624,
+        "previousViews": 7212
       },
       {
-        "playerId": "paige-bueckers",
-        "wikipediaTitle": "Paige_Bueckers",
-        "views": 7307,
-        "previousViews": 20215
+        "playerId": "azzi-fudd",
+        "wikipediaTitle": "Azzi_Fudd",
+        "views": 6170,
+        "previousViews": 8204
       }
     ],
     "mlb": [
       {
         "playerId": "pete-crow-armstrong",
         "wikipediaTitle": "Pete_Crow-Armstrong",
-        "views": 31202,
-        "previousViews": 6819
+        "views": 14928,
+        "previousViews": 30067
       },
       {
         "playerId": "shohei-ohtani",
         "wikipediaTitle": "Shohei_Ohtani",
-        "views": 18146,
-        "previousViews": 15979
+        "views": 14242,
+        "previousViews": 18184
       },
       {
-        "playerId": "yordan-alvarez",
-        "wikipediaTitle": "Yordan_Alvarez",
-        "views": 16403,
-        "previousViews": 1248
+        "playerId": "royce-lewis",
+        "wikipediaTitle": "Royce_Lewis",
+        "views": 10686,
+        "previousViews": 197
       },
       {
         "playerId": "jacob-misiorowski",
         "wikipediaTitle": "Jacob_Misiorowski",
-        "views": 15801,
-        "previousViews": 9516
+        "views": 4710,
+        "previousViews": 15975
       },
       {
-        "playerId": "cam-schlittler",
-        "wikipediaTitle": "Cam_Schlittler",
-        "views": 14407,
-        "previousViews": 1257
+        "playerId": "aaron-judge",
+        "wikipediaTitle": "Aaron_Judge",
+        "views": 3878,
+        "previousViews": 5666
       }
     ],
     "nhl": [
       {
-        "playerId": "connor-hellebuyck",
-        "wikipediaTitle": "Connor_Hellebuyck",
-        "views": 24112,
-        "previousViews": 16181
+        "playerId": "cutter-gauthier",
+        "wikipediaTitle": "Cutter_Gauthier",
+        "views": 28309,
+        "previousViews": 14513
       },
       {
         "playerId": "connor-mcdavid",
         "wikipediaTitle": "Connor_McDavid",
-        "views": 16511,
-        "previousViews": 15071
+        "views": 14326,
+        "previousViews": 15436
       },
       {
         "playerId": "sidney-crosby",
         "wikipediaTitle": "Sidney_Crosby",
-        "views": 14283,
-        "previousViews": 17569
+        "views": 12782,
+        "previousViews": 15142
       },
       {
-        "playerId": "cutter-gauthier",
-        "wikipediaTitle": "Cutter_Gauthier",
-        "views": 11972,
-        "previousViews": 10454
+        "playerId": "connor-bedard",
+        "wikipediaTitle": "Connor_Bedard",
+        "views": 9851,
+        "previousViews": 5472
       },
       {
-        "playerId": "macklin-celebrini",
-        "wikipediaTitle": "Macklin_Celebrini",
-        "views": 11091,
-        "previousViews": 10883
+        "playerId": "matthew-schaefer",
+        "wikipediaTitle": "Matthew_Schaefer",
+        "views": 9428,
+        "previousViews": 5329
       }
     ],
     "mls": [
       {
         "playerId": "lionel-messi",
         "wikipediaTitle": "Lionel_Messi",
-        "views": 85136,
-        "previousViews": 108415
+        "views": 74201,
+        "previousViews": 87071
       },
       {
         "playerId": "alexis-sanchez",
         "wikipediaTitle": "Alexis_Sánchez",
-        "views": 36520,
-        "previousViews": 10089
-      },
-      {
-        "playerId": "robert-lewandowski",
-        "wikipediaTitle": "Robert_Lewandowski",
-        "views": 28707,
-        "previousViews": 33803
+        "views": 41904,
+        "previousViews": 28447
       },
       {
         "playerId": "julian-hall",
         "wikipediaTitle": "Julian_Hall_(soccer)",
-        "views": 17792,
-        "previousViews": 2247
+        "views": 28229,
+        "previousViews": 15960
       },
       {
-        "playerId": "son-heung-min",
-        "wikipediaTitle": "Son_Heung-min",
-        "views": 15520,
-        "previousViews": 14614
+        "playerId": "robert-lewandowski",
+        "wikipediaTitle": "Robert_Lewandowski",
+        "views": 26574,
+        "previousViews": 27935
+      },
+      {
+        "playerId": "thomas-muller",
+        "wikipediaTitle": "Thomas_Müller",
+        "views": 14530,
+        "previousViews": 8798
       }
     ]
   }
