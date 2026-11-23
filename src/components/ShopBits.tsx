@@ -83,7 +83,10 @@ const money = (n: number, c: string) => new Intl.NumberFormat("en-US", { style: 
  */
 export function ctaLabel(offer: Offer, product?: Product) {
   if (offer.kind === "product" && product && product.price !== null && product.currency === "USD") {
-    return `${new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(product.price)} at ${offer.merchantName}`;
+    const usd = (n: number) => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(n);
+    // A verified markdown goes on the button itself: "$89.99 (was $129.99) at Lids".
+    const was = product.listPrice != null && product.listPrice > product.price ? ` (was ${usd(product.listPrice)})` : "";
+    return `${usd(product.price)}${was} at ${offer.merchantName}`;
   }
   // Search and team links already say what they open ("Shop Knicks jerseys at Lids"); lead with "See" instead.
   const what = offer.label.replace(/^(Shop|Search) /, "").replace(new RegExp(` at ${offer.merchantName}$`), "");

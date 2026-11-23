@@ -23,14 +23,18 @@ function setParam(href: string, name: string, value: string) {
 
 /**
  * Adds a click reference to Impact (Lids) and CJ links. The network reports it with any
- * sale, so the editor desk can show which page and button led to the purchase.
+ * sale, so the editor desk can show which page and button led to the purchase. On Impact links, subId1 is the
+ * button, subId2 the click reference and subId3 the page.
  */
-function tagged(href: string, page: string): { href: string; ref: string } {
+function tagged(href: string, page: string, at: string): { href: string; ref: string } {
   let host = "";
   try { host = new URL(href).hostname; } catch { return { href, ref: "" }; }
   if (IMPACT.test(host)) {
     const ref = newRef();
-    return { href: setParam(setParam(href, "subId2", ref), "subId3", page.toLowerCase().replace(/(.)\/+$/, "$1").replace(/\//g, "~").slice(0, 80)), ref };
+    let h = setParam(setParam(href, "subId2", ref), "subId3", page.toLowerCase().replace(/(.)\/+$/, "$1").replace(/\//g, "~").slice(0, 80));
+    // subId1 is the button that was clicked (player_hero, story_shop, sticky_mobile...), so Impact's reports show which placements sell.
+    if (at) h = setParam(h, "subId1", at);
+    return { href: h, ref };
   }
   if (CJ.test(host)) {
     const ref = newRef();
@@ -47,9 +51,9 @@ export async function GET(req: Request, { params }: { params: Promise<{ offerId:
   const page = fromPage(req);
   // Automated hits still get the retailer link, untagged and uncounted, so they never inflate the desk or the network's click data.
   const bot = isAutomated(req, page);
-  const out = bot ? { href: offer.href, ref: "" } : tagged(offer.href, page);
+  const at = (new URL(req.url).searchParams.get("at") ?? "").replace(/[^a-z0-9_]/gi, "").slice(0, 40);
+  const out = bot ? { href: offer.href, ref: "" } : tagged(offer.href, page, at);
   if (!bot) {
-    const at = (new URL(req.url).searchParams.get("at") ?? "").replace(/[^a-z0-9_]/gi, "").slice(0, 40);
     sendClick(req, { kind: "affiliate", slot: [offer.kind, at].filter(Boolean).join(" · "), target: offer.merchantName, href: offer.id, label: offer.label, page, ref: out.ref });
   }
   return NextResponse.redirect(out.href, { status: 302, headers });

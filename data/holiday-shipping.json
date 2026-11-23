@@ -1,0 +1,7 @@
+{
+  "note": "Lids's last order dates for Christmas delivery, copied from Lids's holiday shipping page. Leave a date null until it is confirmed; the line next to buy buttons only shows a confirmed date.",
+  "christmas": "2026-12-25",
+  "standardCutoff": null,
+  "expressCutoff": null,
+  "source": null
+}

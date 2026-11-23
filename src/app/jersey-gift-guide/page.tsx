@@ -29,9 +29,28 @@ export const metadata: Metadata = pageMeta({
 /** How each league's fan is named in the section headings: "For the football fan". */
 const FAN: Record<string, string> = { nfl: "football fan", nba: "basketball fan", wnba: "WNBA fan", mlb: "baseball fan", nhl: "hockey fan", mls: "soccer fan" };
 
+type Pick = { league: League; rank: number; product: Product };
+
+/** Adult jerseys of top-30 players in a price band (USD, verified price): one per player, at most two per league, best rank first. */
+function budgetPicks(min: number, max: number, n = 8) {
+  const out: Pick[] = [];
+  const rows = getLeagues()
+    .flatMap((league) => (getCurrentRanking(league.id)?.entries.slice(0, 30) ?? []).map((e) => ({ league, e })))
+    .sort((a, b) => a.e.rank - b.e.rank);
+  for (const { league, e } of rows) {
+    if (out.length >= n || out.filter((x) => x.league.id === league.id).length >= 2) continue;
+    const p = getPlayer(e.playerId);
+    const prod = p && getProducts(p.id)
+      .filter((x) => x.productType === "jersey" && x.image && x.currency === "USD" && x.price !== null && x.price >= min && x.price < max && productStyle(x).fit !== "Youth" && (!p.teamId || x.teamId === p.teamId))
+      .sort((a, b) => b.price! - a.price!)[0];
+    if (prod) out.push({ league, rank: e.rank, product: prod });
+  }
+  return out;
+}
+
 /** Youth jerseys of players near the top of the latest lists: one per player, at most `n`, best rank first. */
 function youthPicks(n = 8) {
-  const out: { league: League; rank: number; product: Product }[] = [];
+  const out: Pick[] = [];
   const rows = getLeagues()
     .flatMap((league) => (getCurrentRanking(league.id)?.entries.slice(0, 10) ?? []).map((e) => ({ league, e })))
     .sort((a, b) => a.e.rank - b.e.rank);
@@ -45,9 +64,40 @@ function youthPicks(n = 8) {
   return out;
 }
 
+function PickCards({ picks, placement, tag }: { picks: Pick[]; placement: string; tag?: (p: Product) => string | null }) {
+  return (
+    <ol className="shopcards">
+      {picks.map(({ league, rank, product: prod }) => {
+        const p = getPlayer(prod.playerId)!;
+        const offer = productOffer(prod);
+        const team = getTeam(prod.teamId ?? p.teamId ?? p.lastTeamId);
+        if (!offer) return null;
+        const label = tag?.(prod);
+        return (
+          <li key={prod.id} className="shopcard" style={{ "--tc": team?.colors.primary ?? league.accent } as React.CSSProperties}>
+            <span className="shopcard-rank">No. {rank} <small>{league.name}</small></span>
+            <span className="shopcard-art"><img {...jerseyImg(prod.image!.url, 280)} alt={prod.image!.alt} width={280} height={280} loading="lazy" decoding="async" /></span>
+            <span className="shopcard-body">
+              <Link className="shopcard-name" href={`/players/${p.slug}/`}>{p.name}</Link>
+              <span className="shopcard-team">{team?.name}</span>
+              {label && <span className="shopcard-tags"><span>{label}</span></span>}
+              <PriceTag product={prod} />
+            </span>
+            <ShopButton offer={offer} variant="small" ctx={{ league: league.id, playerId: p.id, rank, placement, page: "gift_guide" }}>Shop this jersey</ShopButton>
+          </li>
+        );
+      })}
+    </ol>
+  );
+}
+
 export default function GiftGuidePage() {
   const leagues = getLeagues().map((league) => ({ league, ranking: getCurrentRanking(league.id) })).filter((x) => x.ranking);
   const youth = youthPicks();
+  const bands = [
+    { id: "under-100", kicker: "On a budget", title: "Top-seller jerseys under $100", picks: budgetPicks(0, 100), placement: "gift_under_100" },
+    { id: "100-175", kicker: "Mid-range", title: "Top-seller jerseys from $100 to $175", picks: budgetPicks(100, 175), placement: "gift_100_175" },
+  ].filter((b) => b.picks.length >= 3);
   const crumbs = [{ name: "Home", href: "/" }, { name: "Shop", href: "/shop/" }, { name: "Jersey gift guide", href: PATH }];
   const nfl = leagues.find((x) => x.league.id === "nfl");
   const nflTop = nfl ? getPlayer(nfl.ranking!.entries[0].playerId) : undefined;
@@ -92,33 +142,23 @@ export default function GiftGuidePage() {
           </section>
         ))}
 
+        {bands.map((b) => (
+          <section key={b.id} id={`gift-${b.id}`} className="wrap section shop-sec" aria-labelledby={`gg-${b.id}`}>
+            <div className="sec-head">
+              <p className="sec-k">{b.kicker}</p>
+              <h2 id={`gg-${b.id}`} className="sec-h">{b.title}</h2>
+            </div>
+            <PickCards picks={b.picks} placement={b.placement} tag={(x) => productStyle(x).tier} />
+          </section>
+        ))}
+
         {youth.length > 0 && (
           <section id="gift-youth" className="wrap section shop-sec" aria-labelledby="gg-youth">
             <div className="sec-head">
               <p className="sec-k">For kids</p>
               <h2 id="gg-youth" className="sec-h">Youth jerseys of the top sellers</h2>
             </div>
-            <ol className="shopcards">
-              {youth.map(({ league, rank, product: prod }) => {
-                const p = getPlayer(prod.playerId)!;
-                const offer = productOffer(prod);
-                const team = getTeam(prod.teamId ?? p.teamId ?? p.lastTeamId);
-                if (!offer) return null;
-                return (
-                  <li key={prod.id} className="shopcard" style={{ "--tc": team?.colors.primary ?? league.accent } as React.CSSProperties}>
-                    <span className="shopcard-rank">No. {rank} <small>{league.name}</small></span>
-                    <span className="shopcard-art"><img {...jerseyImg(prod.image!.url, 280)} alt={prod.image!.alt} width={280} height={280} loading="lazy" decoding="async" /></span>
-                    <span className="shopcard-body">
-                      <Link className="shopcard-name" href={`/players/${p.slug}/`}>{p.name}</Link>
-                      <span className="shopcard-team">{team?.name}</span>
-                      <span className="shopcard-tags"><span>Youth</span></span>
-                      <PriceTag product={prod} />
-                    </span>
-                    <ShopButton offer={offer} variant="small" ctx={{ league: league.id, playerId: p.id, rank, placement: "gift_youth", page: "gift_guide" }}>Shop this jersey</ShopButton>
-                  </li>
-                );
-              })}
-            </ol>
+            <PickCards picks={youth} placement="gift_youth" tag={() => "Youth"} />
           </section>
         )}
 
