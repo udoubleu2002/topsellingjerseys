@@ -18,6 +18,7 @@ import { PriceTag } from "@/components/PriceTag";
 import { productStyle, styleTags } from "@/lib/productStyle";
 import { venueLine, lostStadiums } from "@/lib/stadiumLinks";
 import { TrustNote } from "@/components/TrustNote";
+import { GiftNote } from "@/components/GiftNote";
 import { TeamLink } from "@/components/TeamLink";
 import { HaveJersey } from "@/components/HaveJersey";
 import { FanForms } from "@/components/FanForms";
@@ -213,6 +214,7 @@ export default async function PlayerPage({ params }: Props) {
                     {ctaLabel(primary, jersey)}
                   </ShopButton>
                   <TrustNote merchant={primary.merchantName} />
+                  <GiftNote />
                   {primary.kind === "search" && <p className="shop-note">Opens {primary.merchantName} with every {player.name} jersey style, size and price.</p>}
                 </>
               ) : (

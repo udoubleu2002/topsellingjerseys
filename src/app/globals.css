@@ -2542,3 +2542,8 @@ body:has(.mobile-menu[open]) .consent { display: none; }
 /* One-line notes linking to the stadium guides (player pages) */
 .venue-note { font-size: 14px; line-height: 1.5; color: var(--ink-2); max-width: 72ch; }
 .venue-note a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+
+/* Gift buyer note in the player buy box */
+.gift-note { display: grid; gap: 6px; font-size: 13px; line-height: 1.45; color: var(--ink-2); }
+.gift-note strong { color: var(--ink); }
+.gift-ship { padding: 6px 10px; border-radius: 6px; background: color-mix(in srgb, var(--accent, #d9a441) 14%, transparent); }
