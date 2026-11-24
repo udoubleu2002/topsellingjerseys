@@ -285,7 +285,7 @@ export default async function PlayerPage({ params }: Props) {
             )}
 
             <section className="block" aria-labelledby="shop-h">
-              <h2 id="shop-h">Where to buy {player.name} jerseys</h2>
+              <h2 id="shop-h">{player.name} jerseys for sale</h2>
               {products.length > 0 && (
                 <p className="shop-note shop-sep">These are listings the retailer carries right now. They are separate from {player.name}&apos;s sales ranking, which comes only from the published sales reports.</p>
               )}

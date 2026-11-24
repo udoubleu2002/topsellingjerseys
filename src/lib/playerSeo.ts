@@ -42,7 +42,7 @@ export function playerDescription({ player, league, team, latest, line }: Ctx): 
   const lead = numberAnswer({ player, team }) || `${player.name}${team && player.teamId ? `, ${team.name}` : ""} ${player.position}.`;
   const rank = latest ? ` No. ${latest.rank} on the ${list} jersey sales list.` : "";
   const stats = line?.statistics.length ? ` ${line.season}: ${statSummary(line, 3)}.` : "";
-  const shop = ` Shop ${player.name} jerseys by style, size and price.`;
+  const shop = ` See ${player.name} jerseys for sale by style, size and price.`;
   const full = `${lead}${rank}${stats}${shop}`;
   return full.length <= 165 ? full : `${lead}${rank}${shop}`;
 }
@@ -74,7 +74,7 @@ export function playerFaq({ player, league, team, latest, line }: Ctx): { q: str
     const moved = latest.reportTeam && latest.reportTeam.id !== player.teamId ? ` while with the ${latest.reportTeam.name}` : "";
     faq.push({ q: `Is ${player.name}'s jersey a top seller?`, a: `Yes. ${player.name} ranked No. ${latest.rank} on ${latest.ranking.title}, published by ${latest.ranking.publisher} on ${fmtDate(latest.ranking.publishedDate)}${moved}.` });
   }
-  faq.push({ q: `Where can I buy ${player.name} jerseys?`, a: `Use the shop button on this page to see every ${player.name} jersey style, size and price at the retailer. ${site.name} may earn a commission on purchases.` });
+  faq.push({ q: `Where can I find ${player.name} jerseys for sale?`, a: `The shop button on this page opens every ${player.name} jersey for sale at the retailer, in men's, women's and youth sizes where they're made, with current prices. ${site.name} may earn a commission on purchases.` });
   if (line?.statistics.length) faq.push({ q: `What are ${player.name}'s ${line.season} stats?`, a: `Through ${fmtDate(line.throughDate)}, ${player.name} has ${statSummary(line, 6)}.` });
   if (player.birthday) faq.push({ q: `How old is ${player.name}?`, a: `${player.name} was born on ${fmtDate(player.birthday)} and is ${age(player.birthday, site.lastReviewed)}.` });
   return faq;
