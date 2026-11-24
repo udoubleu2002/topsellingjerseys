@@ -16,6 +16,7 @@ import { ShowUntil } from "./ShowUntil";
 import { SportJersey } from "./SportJersey";
 import { PopularJerseys } from "./PopularJerseys";
 import { RailFit } from "./RailFit";
+import { NewsletterBox } from "./NewsletterBox";
 
 /** Labeled placeholder for a display ad. Sizes follow standard IAB units so a real ad tag can drop in later. */
 export function AdSlot({ size, id, className = "" }: { size: "300x250" | "300x600" | "320x100"; id: string; className?: string }) {
@@ -35,7 +36,7 @@ export function RotatingSlot({ at, className, children }: { at: string; classNam
 }
 
 /**
- * Sidebar, alternating content and ads: a pinned Lids banner while one is running, then the top 5 of every league (the most
+ * Sidebar, alternating content and ads: a pinned Lids banner while one is running, search, the newsletter sign-up, then the top 5 of every league (the most
  * colorful box and a second way into the lists), jersey sales news, our own stories in the middle, and the report dates last.
  */
 export function SideRail({ active, lead, hideStories = false, hideNews = false, cityAds = false, minimal = false, hideLists = false }: { active?: string; lead?: React.ReactNode; hideStories?: boolean; hideNews?: boolean; cityAds?: boolean; minimal?: boolean; hideLists?: boolean }) {
@@ -70,6 +71,8 @@ export function SideRail({ active, lead, hideStories = false, hideNews = false, 
           </button>
         </form>
       )}
+
+      <NewsletterBox />
 
       {!minimal && !hideLists && <section className="rail-box">
         <h2 className="rail-h">Browse the lists</h2>

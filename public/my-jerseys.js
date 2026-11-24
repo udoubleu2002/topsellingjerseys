@@ -180,19 +180,24 @@
     var input = form.querySelector('input[type="email"]'), status = form.querySelector(".nl-status"), btn = form.querySelector("button");
     var email = input.value.trim().toLowerCase();
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || email.length > 254) { status.textContent = "Enter a valid email address."; input.focus(); return; }
-    if (!SB_URL) { status.textContent = "Sign-ups aren't open yet."; return; }
+    // Forms with data-endpoint go to the site's /api/newsletter/ (the newsletter service); older ones to Supabase.
+    var endpoint = form.dataset.endpoint || "";
+    if (!endpoint && !SB_URL) { status.textContent = "Sign-ups aren't open yet."; return; }
+    var hp = form.querySelector('input[name="website"]');
     btn.disabled = true;
     status.textContent = "Signing you up…";
-    fetch(SB_URL + "/rest/v1/newsletter_signups", {
-      method: "POST",
-      headers: { apikey: SB_KEY, "Content-Type": "application/json", Prefer: "return=minimal" },
-      body: JSON.stringify({ email: email, source: location.pathname.slice(0, 40) }),
-    }).then(function (r) {
-      if (r.ok || r.status === 409) {
-        form.querySelector(".nl-row").hidden = true;
-        status.textContent = r.status === 409 ? "You're already on the list. Thanks!" : "You're signed up. Thanks!";
-        try { if (window.gtag) window.gtag("event", "newsletter_signup", { page: location.pathname }); } catch (err) {}
-      } else throw new Error(r.status);
+    var req = endpoint
+      ? fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: email, source: location.pathname.slice(0, 120), website: hp ? hp.value : "" }) })
+          .then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { if (!r.ok) throw new Error(d.error || r.status); return d.already; }); })
+      : fetch(SB_URL + "/rest/v1/newsletter_signups", {
+          method: "POST",
+          headers: { apikey: SB_KEY, "Content-Type": "application/json", Prefer: "return=minimal" },
+          body: JSON.stringify({ email: email, source: location.pathname.slice(0, 40) }),
+        }).then(function (r) { if (r.ok || r.status === 409) return r.status === 409; throw new Error(r.status); });
+    req.then(function (already) {
+      form.querySelector(".nl-row").hidden = true;
+      status.textContent = already ? "You're already on the list. Thanks!" : "You're signed up. Watch for the next issue on Thursday.";
+      try { if (window.gtag) window.gtag("event", "newsletter_signup", { page: location.pathname, placement: form.closest(".rail") ? "rail" : "footer" }); } catch (err) {}
     }).catch(function () { status.textContent = "That didn't go through. Please try again."; }).then(function () { btn.disabled = false; });
   });
 

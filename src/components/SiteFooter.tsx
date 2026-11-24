@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { site, backendEnabled } from "@/lib/config";
 import { getLeagues } from "@/lib/data";
+import { NEWSLETTER_ENDPOINT, newsletterEnabled } from "@/lib/newsletter/provider";
 
 export function SiteFooter() {
+  // The newsletter service when one is connected; otherwise the older Supabase sign-up table.
+  const nl = newsletterEnabled();
   return (
     <footer className="footer">
       <div className="wrap foot-in">
@@ -42,14 +45,15 @@ export function SiteFooter() {
           </ul>
         </div>
       </div>
-      {backendEnabled && (
+      {(nl || backendEnabled) && (
         <div className="wrap foot-news" id="newsletter">
-          <form className="nl-form" data-newsletter="" noValidate>
-            <label htmlFor="nl-email"><strong>Get the {site.name} newsletter.</strong> New sales lists and jersey news by email. Unsubscribe anytime.</label>
+          <form className="nl-form" data-newsletter="" {...(nl ? { "data-endpoint": NEWSLETTER_ENDPOINT } : {})} noValidate>
+            <label htmlFor="nl-email"><strong>Get the {site.name} newsletter.</strong> Hot-jersey alerts, deals on top sellers and gift ideas, every Thursday. Unsubscribe anytime.</label>
             <div className="nl-row">
               <input id="nl-email" name="email" type="email" required placeholder="you@example.com" autoComplete="email" maxLength={254} />
               <button type="submit">Sign up</button>
             </div>
+            <input className="nl-hp" name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" />
             <p className="nl-status" aria-live="polite" />
           </form>
         </div>

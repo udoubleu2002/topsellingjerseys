@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { backendEnabled } from "@/lib/config";
+import { newsletterEnabled } from "@/lib/newsletter/provider";
 import { getCurrentRanking, getLeagues, getPlayer } from "@/lib/data";
 import { BLACK_FRIDAY_PATH, BLACK_FRIDAY_STRIP_ENDS } from "@/lib/blackFriday";
 
@@ -76,7 +77,7 @@ export function MobileMenu() {
         <div className="mm-foot">
           <a className="mm-mj" href="/my-jerseys/">My Jerseys</a>
           <Link href="/about/">About</Link>
-          {backendEnabled && <a href="#newsletter">Newsletter</a>}
+          {(backendEnabled || newsletterEnabled()) && <a href="#newsletter">Newsletter</a>}
         </div>
       </nav>
     </details>

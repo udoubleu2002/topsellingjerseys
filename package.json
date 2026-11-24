@@ -11,6 +11,7 @@
     "deals:fetch": "tsx scripts/fetch-lids-deals.ts",
     "products:sync": "tsx scripts/sync-impact-products.ts",
     "check:links": "tsx scripts/check-product-links.ts",
+    "newsletter:send": "tsx scripts/send-newsletter.ts",
     "test": "vitest run",
     "test:e2e": "node scripts/e2e.mjs",
     "export:preview": "node scripts/export-preview.mjs",
