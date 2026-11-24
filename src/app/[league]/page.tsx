@@ -90,6 +90,9 @@ export default async function LeaguePage({ params }: Props) {
     ...(ranking && ranking.entries.length >= 5
       ? [{ q: `What are the best selling ${league.name} jerseys?`, a: `The top five on ${ranking.unofficial ? "the latest available list" : `"${ranking.title}"`} (${period(ranking.periodStart, ranking.periodEnd, ranking.periodLabel)}) are ${leagueList(ranking.entries.slice(0, 5).map((e) => getPlayer(e.playerId)!.name))}. Each name links to that player's jersey page above.` }]
       : []),
+    ...(leader && ranking
+      ? [{ q: `What are the best ${league.name} jerseys to buy?`, a: `The safest picks are the jerseys fans are buying most: ${leagueList(ranking.entries.slice(0, 3).map((e) => getPlayer(e.playerId)!.name))} lead the latest list. Each player's page shows the styles and prices for sale now, from the cheaper fan versions to the on-field authentic jersey.` }]
+      : []),
     ...(copy?.faq ?? []),
     { q: "Do you earn money from the shopping links?", a: "Some links are affiliate links, so we may earn a commission when you buy. Commissions never affect the order of a ranking, which always matches the published report." },
   ];

@@ -1,3 +1,4 @@
+import { teamNickname } from "./cities";
 import type { League, Player, StatLine, Team } from "./schema";
 import { fmtDate, age } from "./format";
 import { site } from "./config";
@@ -22,7 +23,11 @@ export function playerTitle({ player, league, team, latest }: Ctx): string {
   }
   const base = `${player.name} Jersey: No. ${latest.rank} Top Selling ${league.name} Jersey`;
   const withNum = player.number ? `${player.name} #${player.number} Jersey: No. ${latest.rank} Top Selling ${league.name} Jersey` : base;
-  return withNum.length <= 65 ? withNum : base;
+  // The team in the title matches "<team> <player> jersey" searches, where small sites rank (LowFruits, Nov. 2026):
+  // "Josh Allen #17 Bills Jersey: No. 1 Top Selling NFL Jersey". Only a current team is used.
+  const nick = team && player.teamId ? teamNickname(team) : null;
+  const withTeam = nick ? `${player.name}${player.number ? ` #${player.number}` : ""} ${nick} Jersey: No. ${latest.rank} Top Selling ${league.name} Jersey` : null;
+  return withTeam && withTeam.length <= 65 ? withTeam : withNum.length <= 65 ? withNum : base;
 }
 
 /** The answer to "what number does X wear?", the most searched question about a player: "Angel Reese wears No. 5 for the Chicago Sky." */
