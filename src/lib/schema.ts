@@ -162,6 +162,6 @@ export const TrendingSchema = z.object({
     wikipediaTitle: z.string(),
     views: z.number().int().nonnegative(),
     previousViews: z.number().int().nonnegative(),
-  })).max(5)),
+  })).max(15)),
 });
 export type Trending = z.infer<typeof TrendingSchema>;
