@@ -5,7 +5,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { TrendingSchema, type League, type Player, type Ranking, type Trending } from "./schema";
-import { getCurrentRanking, getLeagues, getMovement, getPlayer, getPreviousInSeries } from "./data";
+import { getCurrentRanking, getLeagues, getMovement, getPlayer, getPreviousInSeries, getProducts } from "./data";
+
+/** Trending lists show only players with a Lids jersey (with a photo) on the site, so every name can be bought. */
+export const hasJersey = (playerId: string) => getProducts(playerId).some((x) => x.productType === "jersey" && !!x.image);
 
 export type LeagueTrend = { league: League; ranking: Ranking; movement: NonNullable<ReturnType<typeof getMovement>> };
 
@@ -28,6 +31,7 @@ export type TrendRow = { league: League; ranking: Ranking; previous: Ranking; pl
 export function topRisers(n = 6): TrendRow[] {
   return getTrends().compared
     .flatMap(({ league, ranking, movement }) => movement.risers.map((r) => ({ league, ranking, previous: movement.previous, ...r })))
+    .filter((r) => hasJersey(r.playerId))
     .sort((a, b) => b.delta! - a.delta! || a.rank - b.rank)
     .slice(0, n);
 }
@@ -36,6 +40,7 @@ export function topRisers(n = 6): TrendRow[] {
 export function newEntries(n = 6): TrendRow[] {
   return getTrends().compared
     .flatMap(({ league, ranking, movement }) => movement.newEntries.map((r) => ({ league, ranking, previous: movement.previous, ...r })))
+    .filter((r) => hasJersey(r.playerId))
     .sort((a, b) => a.rank - b.rank)
     .slice(0, n);
 }
@@ -65,8 +70,9 @@ export function pageviewTrending() {
     .map((league) => ({
       league,
       rows: (data.leagues[league.id] ?? [])
-        .map((r, i) => ({ player: getPlayer(r.playerId)!, views: r.views, previousViews: r.previousViews, change: r.previousViews ? Math.round(((r.views - r.previousViews) / r.previousViews) * 100) : null, rank: i + 1 }))
-        .filter((r) => r.player),
+        .filter((r) => getPlayer(r.playerId) && hasJersey(r.playerId))
+        .slice(0, 5)
+        .map((r, i) => ({ player: getPlayer(r.playerId)!, views: r.views, previousViews: r.previousViews, change: r.previousViews ? Math.round(((r.views - r.previousViews) / r.previousViews) * 100) : null, rank: i + 1 })),
     }))
     .filter((x) => x.rows.length);
   return (pv = leagues.length ? { data, leagues } : null);

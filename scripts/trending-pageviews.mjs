@@ -1,5 +1,5 @@
 /**
- * Weekly "trending" lists: the top 5 players in each league by English Wikipedia page views over the last 7 full days,
+ * Weekly "trending" lists: the top 15 players in each league (the site shows the top 5 who have a Lids jersey) by English Wikipedia page views over the last 7 full days,
  * with the 7 days before for comparison. Uses Wikimedia's public Pageviews API and the MediaWiki search API.
  *   node scripts/trending-pageviews.mjs            writes data/trending.json and data/wikipedia-titles.json
  *   node scripts/trending-pageviews.mjs --dry-run  prints the lists only
@@ -99,11 +99,11 @@ if (failed > players.length * 0.05) { console.error(`${failed} lookups failed; n
 const missing = players.length - rows.length;
 const leagues = {};
 for (const lg of ["nfl", "nba", "wnba", "mlb", "nhl", "mls"]) {
-  leagues[lg] = rows.filter((r) => r.league === lg && r.week > 0).sort((a, b) => b.week - a.week).slice(0, 5)
+  leagues[lg] = rows.filter((r) => r.league === lg && r.week > 0).sort((a, b) => b.week - a.week).slice(0, 15)
     .map(({ playerId, title, week, prev }) => ({ playerId, wikipediaTitle: title, views: week, previousViews: prev }));
 }
 const out = {
-  note: "Weekly trending lists: English Wikipedia page views (people, not bots) per player over the last 7 full days, top 5 per league. Interest in the player, not jersey sales. Built by scripts/trending-pageviews.mjs.",
+  note: "Weekly trending lists: English Wikipedia page views (people, not bots) per player over the last 7 full days, top 15 per league (the site shows the top 5 with a Lids jersey). Interest in the player, not jersey sales. Built by scripts/trending-pageviews.mjs.",
   source: "https://wikimedia.org/api/rest_v1/",
   start: weekStart.toISOString().slice(0, 10),
   end: end.toISOString().slice(0, 10),
