@@ -1,0 +1,48 @@
+# Weekly newsletter: every Thursday morning, builds the issue from the week's stories, today's Lids deals, top sellers on
+# sale and each league's No. 1 jersey (scripts/send-newsletter.ts) and sends it through the newsletter service. Subscribers
+# live there, so the site needs no database. Repository variable NEWSLETTER_PROVIDER (kit, the default, or beehiiv) and secrets
+# BEEHIIV_API_KEY and BEEHIIV_PUBLICATION_ID, or KIT_API_KEY and KIT_FORM_ID (see docs/newsletter.md).
+# Run it by hand from the Actions tab to save a draft or just build the preview. Each run attaches the preview HTML.
+name: Weekly newsletter
+on:
+  schedule:
+    - cron: "0 13 * * 4" # Thursdays, 8am US Eastern (standard time)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "send = schedule it now, draft = save in the service to review, preview = build the HTML only"
+        type: choice
+        options: [draft, send, preview]
+        default: draft
+permissions:
+  contents: read
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Build and send
+        env:
+          NEWSLETTER_PROVIDER: ${{ vars.NEWSLETTER_PROVIDER || 'kit' }}
+          BEEHIIV_API_KEY: ${{ secrets.BEEHIIV_API_KEY }}
+          BEEHIIV_PUBLICATION_ID: ${{ secrets.BEEHIIV_PUBLICATION_ID }}
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_FORM_ID: ${{ secrets.KIT_FORM_ID }}
+          MODE: ${{ inputs.mode || 'send' }}
+        run: |
+          case "$MODE" in
+            send) npm run newsletter:send ;;
+            draft) npm run newsletter:send -- --draft ;;
+            *) npm run newsletter:send -- --preview ;;
+          esac
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: newsletter-preview
+          path: newsletter-preview.html
+          if-no-files-found: ignore

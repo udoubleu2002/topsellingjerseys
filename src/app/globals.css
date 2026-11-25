@@ -2548,3 +2548,11 @@ body:has(.mobile-menu[open]) .consent { display: none; }
 .gift-note { display: grid; gap: 6px; font-size: 13px; line-height: 1.45; color: var(--ink-2); }
 .gift-note strong { color: var(--ink); }
 .gift-ship { padding: 6px 10px; border-radius: 6px; background: color-mix(in srgb, var(--accent, #d9a441) 14%, transparent); }
+
+/* Newsletter sign-up near the top of the sidebar (NewsletterBox). */
+.rail-nl { border: 2px solid var(--gold); background: linear-gradient(180deg, rgba(215, 168, 73, .14), var(--surface) 65%); }
+.rail-nl-pitch { margin: 0 0 8px; font-size: 14px; font-weight: 600; color: var(--ink); }
+.rail-nl-list { margin: 0 0 10px; padding-left: 18px; font-size: 13px; color: var(--ink-2); display: grid; gap: 3px; }
+.rail-nl .nl-row button { background: var(--gold); color: #0b1420; }
+.rail-nl-fine { margin: 0; font-size: 12px; color: var(--muted); }
+.nl-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }

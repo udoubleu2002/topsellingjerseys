@@ -1,5 +1,7 @@
 # Turn on accounts and the newsletter
 
+> The newsletter no longer needs Supabase: see [newsletter.md](newsletter.md). The steps below are only for accounts.
+
 Accounts (saved My Jerseys lists) and newsletter sign-ups both use one free Supabase project. Until it is connected, the site shows "Accounts that save your list permanently are coming soon" on My Jerseys, and the footer has no newsletter form. Nothing breaks in the meantime.
 
 Setup takes about 15 minutes. Supabase occasionally renames menu items. If a label below doesn't match, look for the closest one, or send a screenshot.
