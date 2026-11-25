@@ -8,6 +8,14 @@
     "notes": "Primary shop link. Affiliate program via Impact. Put the approved tracking link template (with {url}) in AFFILIATE_DEEPLINK_LIDS, or plain tracking parameters in AFFILIATE_PARAMS_LIDS."
   },
   {
+    "id": "lidsca",
+    "name": "Lids Canada",
+    "homepage": "https://www.lids.ca/",
+    "searchUrlTemplate": "https://www.lids.ca/?query={query}",
+    "affiliateEnv": "AFFILIATE_PARAMS_LIDSCA",
+    "notes": "Lids Canada (lids.ca), used for Canada-only promo codes. Put its Impact tracking link template (with {url}) in AFFILIATE_DEEPLINK_LIDSCA, or plain tracking parameters in AFFILIATE_PARAMS_LIDSCA. Until one is set, links go to lids.ca with no tracking."
+  },
+  {
     "id": "fanatics",
     "name": "Fanatics",
     "homepage": "https://www.fanatics.com/",

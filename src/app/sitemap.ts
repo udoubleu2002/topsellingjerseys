@@ -24,7 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const s of stories) out.push({ url: abs(storyPath(s)), lastModified: s.lastVerified, changeFrequency: "weekly", priority: 0.7 });
   out.push({ url: abs("/cities/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.8 });
   for (const c of getCities()) out.push({ url: abs(cityPath(c)), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.7 });
-  out.push({ url: abs("/my-jerseys/"), changeFrequency: "monthly", priority: 0.6 });
   out.push({ url: abs("/players/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
   out.push({ url: abs("/trending/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });
   out.push({ url: abs("/shop/"), lastModified: site.lastReviewed, changeFrequency: "weekly", priority: 0.6 });

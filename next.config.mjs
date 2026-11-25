@@ -44,7 +44,7 @@ const nextConfig = {
   },
   async redirects() {
     // Permanent redirects for URLs used by the first version of the site.
-    const leagues = ["nfl", "nba", "mlb", "nhl", "mls"];
+    const leagues = ["nfl", "nba", "wnba", "mlb", "nhl", "mls"];
     return [
       ...leagues.flatMap((l) => [
         { source: `/${l}`, destination: `/top-selling-${l}-jerseys/`, permanent: true },

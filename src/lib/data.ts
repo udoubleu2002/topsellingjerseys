@@ -12,6 +12,7 @@ import {
 import { getProfile } from "./profiles";
 import { site } from "./config";
 import { daysBetween } from "./format";
+import { addDays, promoDay } from "./promoDay";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -209,9 +210,20 @@ export function commonStatsThrough(r: Ranking): string | null {
   return dates.size === 1 ? [...dates][0] : null;
 }
 
-/** Promotions running on the given date (defaults to the build's review date), optionally for one league. */
-export function getActivePromotions(leagueId?: string, on = new Date().toISOString().slice(0, 10)) {
+/** Promotions running on the given date (defaults to today in US Eastern time, when retailer codes switch), optionally for one league. */
+export function getActivePromotions(leagueId?: string, on = promoDay()) {
   return loadStore().promotions.filter((p) => p.startDate <= on && p.endDate >= on && (!leagueId || p.leagues.length === 0 || p.leagues.includes(leagueId)));
+}
+
+/**
+ * Promotions running now or starting within `aheadDays`, so a static page built today already carries the next days'
+ * codes; the browser shows each only on its own dates (see syncDealsInPage).
+ */
+export function getScheduledPromotions(leagueId?: string, on = promoDay(), aheadDays = 7) {
+  const until = addDays(on, aheadDays);
+  return loadStore().promotions
+    .filter((p) => p.endDate >= on && p.startDate <= until && (!leagueId || p.leagues.length === 0 || p.leagues.includes(leagueId)))
+    .sort((a, b) => a.startDate.localeCompare(b.startDate));
 }
 
 export type MovementRow = { playerId: string; rank: number; previousRank: number | null; delta: number | null; teamIdAtReport: string | null };
