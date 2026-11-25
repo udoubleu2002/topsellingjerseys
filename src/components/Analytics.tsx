@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import { syncDealsInPage } from "@/lib/promoDay";
 import { track, hasConsent, setConsent, consentRequired } from "@/lib/analytics";
 
 // The first page of a visit carries the address the visitor came from; later pages are moves within the site.
@@ -45,9 +46,8 @@ export function Analytics({ pageType }: { pageType?: string }) {
     track("page_view", { path: pathname, page_type: main?.getAttribute("data-page-type") ?? pageType ?? "other", referrer: document.referrer });
 
 
-    // Promotions are baked into static pages, so hide any that ended after the last build.
-    const today = new Date().toISOString().slice(0, 10);
-    document.querySelectorAll<HTMLElement>("[data-ends]").forEach((el) => { if ((el.dataset.ends ?? "") < today) el.hidden = true; });
+    // Promotions are baked into static pages with the next few days' codes, so show only the ones running today (US Eastern).
+    syncDealsInPage();
 
     const seen = new Set<Element>();
     const io = new IntersectionObserver((entries) => {
