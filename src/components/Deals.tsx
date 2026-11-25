@@ -1,22 +1,25 @@
-import { getActivePromotions, getMerchant } from "@/lib/data";
+import { getScheduledPromotions, getMerchant } from "@/lib/data";
+import { promoDay } from "@/lib/promoDay";
 import { promoOffer } from "@/lib/affiliate";
 import { fmtShortDate } from "@/lib/format";
 import { CopyCode } from "./CopyCode";
 import { ShopButton } from "./ShopButton";
 
 /**
- * Current retailer promotions from data/promotions.json. Renders nothing when no promotion is running,
- * and each bar hides itself in the browser once its end date passes.
+ * Retailer promotions from data/promotions.json. Pages are static, so this renders today's deals plus the ones starting
+ * in the next few days (hidden), and the browser shows each only between its dates in US Eastern time.
  */
 export function DealsBar({ league, page }: { league?: string; page: string }) {
-  const promos = getActivePromotions(league);
+  const today = promoDay();
+  const promos = getScheduledPromotions(league, today);
   if (!promos.length) return null;
+  const live = (p: (typeof promos)[number]) => p.startDate <= today && p.endDate >= today;
   return (
-    <aside className="deals wrap" aria-label="Current deals">
+    <aside className="deals wrap" aria-label="Current deals" data-deals hidden={!promos.some(live)}>
       {promos.map((p) => {
         const offer = promoOffer(p);
         return (
-          <div className="deal" key={p.id} data-ends={p.endDate}>
+          <div className="deal" key={p.id} data-starts={p.startDate} data-ends={p.endDate} hidden={!live(p)}>
             <span className="deal-tag">Deal</span>
             <div className="deal-body">
               <strong>{p.headline}</strong>

@@ -498,6 +498,7 @@ body { background: radial-gradient(1100px 520px at 50% -260px, #1b2746 0%, rgba(
 .sale-badge { align-self: center; background: var(--gold); color: #1a1205; font: 800 13px/1 var(--f-num); letter-spacing: .1em; text-transform: uppercase; padding: 5px 7px; border-radius: 3px; }
 .deals { display: grid; gap: 8px; padding-top: 16px; }
 .deal { display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; align-items: center; gap: 10px 16px; padding: 12px 16px; border-radius: var(--radius); background: linear-gradient(100deg, rgba(243, 185, 64, .16), rgba(232, 68, 44, .12)); border: 1px solid rgba(243, 185, 64, .4); }
+.deals[hidden], .deal[hidden] { display: none; }
 .deal-tag { background: var(--gold); color: #1a1205; font: 800 14px/1 var(--f-num); letter-spacing: .12em; text-transform: uppercase; padding: 6px 8px; border-radius: 3px; }
 .deal-body { display: grid; gap: 2px; min-width: 0; }
 .deal-body strong { font: 800 20px/1.1 var(--f-head); text-transform: uppercase; letter-spacing: .02em; }
