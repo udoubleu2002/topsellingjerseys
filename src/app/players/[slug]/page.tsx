@@ -316,7 +316,7 @@ export default async function PlayerPage({ params }: Props) {
               <AffiliateNote />
             </section>
 
-            <section className="block" aria-labelledby="rh-h">
+            {appearances.length > 0 && <section className="block" aria-labelledby="rh-h">
               <h2 id="rh-h">Ranking history</h2>
               {latest && <p className="shop-note">See where {player.name} stands among all the <Link href={`/${league.slug}/`}>top selling {league.name} jerseys</Link>.</p>}
               {appearances.length > 0 && (() => {
@@ -349,7 +349,7 @@ export default async function PlayerPage({ params }: Props) {
                   </tbody>
                 </table>
               </div>
-            </section>
+            </section>}
 
             <section className="block" aria-labelledby="faq-h">
               <h2 id="faq-h">{player.name} jersey FAQ</h2>

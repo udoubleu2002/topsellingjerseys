@@ -1,0 +1,641 @@
+{
+  "note": "Player pages that have earned Google search impressions (from Search Console Pages exports). Kept indexable even without a sales-list rank. Built by scripts/build-search-demand.mjs.",
+  "updated": "2026-11-25",
+  "players": [
+    {
+      "slug": "angel-reese",
+      "impressions": 258,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "connor-mcdavid",
+      "impressions": 60,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "justin-jefferson",
+      "impressions": 60,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jonathan-lekkerimaki",
+      "impressions": 46,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "caitlin-clark",
+      "impressions": 45,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "david-pastrnak",
+      "impressions": 36,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "chig-okonkwo",
+      "impressions": 35,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "josh-allen",
+      "impressions": 32,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "stephen-curry",
+      "impressions": 31,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "sidney-crosby",
+      "impressions": 26,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "anthony-edwards",
+      "impressions": 21,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "macklin-celebrini",
+      "impressions": 19,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "miguel-almiron",
+      "impressions": 19,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "devon-achane",
+      "impressions": 17,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "marco-reus",
+      "impressions": 17,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "caleb-williams",
+      "impressions": 16,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cooper-flagg",
+      "impressions": 16,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "alex-ovechkin",
+      "impressions": 15,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "saquon-barkley",
+      "impressions": 13,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "kevin-durant",
+      "impressions": 11,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "matthew-schaefer",
+      "impressions": 11,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "randy-arozarena",
+      "impressions": 11,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "fred-warner",
+      "impressions": 10,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jahmyr-gibbs",
+      "impressions": 10,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jayson-tatum",
+      "impressions": 10,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "juan-soto",
+      "impressions": 10,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cooper-dejean",
+      "impressions": 9,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "drake-maye",
+      "impressions": 9,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "easton-cowan",
+      "impressions": 9,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jack-hughes",
+      "impressions": 8,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jaxon-smith-njigba",
+      "impressions": 8,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jordan-morris",
+      "impressions": 7,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "brian-schwake",
+      "impressions": 6,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "caleb-wilson",
+      "impressions": 6,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "connor-bedard",
+      "impressions": 6,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "scottie-barnes",
+      "impressions": 6,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "t-j-watt",
+      "impressions": 6,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "brock-purdy",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "desmond-bane",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "fraser-minten",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "freddie-freeman",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "nikola-jokic",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "victor-wembanyama",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "vladimir-guerrero-jr",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "zayne-parekh",
+      "impressions": 5,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "antoine-griezmann",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cal-raleigh",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cristian-roldan",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "dalibor-dvorsky",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jalen-brunson",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jalen-hurts",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "lionel-messi",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "mookie-betts",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "nathan-mackinnon",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "shohei-ohtani",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "son-heung-min",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "steven-stamkos",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "zay-flowers",
+      "impressions": 4,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "aj-dybantsa",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "bo-nix",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cameron-boozer",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "danila-yurov",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "elly-de-la-cruz",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "janelle-salaun",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "miles-robinson",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "parker-washington",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "rodrigo-de-paul",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "sabrina-ionescu",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "shai-gilgeous-alexander",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "tyreek-hill",
+      "impressions": 3,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "aidan-hutchinson",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "amon-ra-st-brown",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "bryan-rust",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "ceedee-lamb",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "filip-forsberg",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "hugo-lloris",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "idan-toklomati",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "ja-morant",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jalen-carter",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jimmy-butler-iii",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jonathan-allen",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jordan-binnington",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "jrue-holiday",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "mark-williams",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "munetaka-murakami",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "peyton-miller",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "ronald-acuna-jr",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "shakira-austin",
+      "impressions": 2,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "anthony-cirelli",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "beckett-sennecke",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "berkly-catton",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "c-j-stroud",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cade-cunningham",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "caleb-banks",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "calvin-harris",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cheyenne-parker-tyus",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "chris-jones",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "christian-gonzalez",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cristian-espinoza",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "cutter-gauthier",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "davante-adams",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "derrick-henry",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "devin-booker",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "dillon-thieneman",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "donovan-mitchell",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "drake-batherson",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "dylan-larkin",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "evan-bouchard",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "evan-mobley",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "hector-herrera",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "isiah-pacheco",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "j-j-mccarthy",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "josh-hart",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "kahleah-copper",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "kawhi-leonard",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "kent-johnson",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "kyle-schwarber",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "leonie-fiebich",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "malik-washington",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "mateusz-bogusz",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "nick-schmaltz",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "patrick-kane",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "pete-crow-armstrong",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "sam-reinhart",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "trevor-connelly",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "valeri-nichushkin",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    },
+    {
+      "slug": "zion-williamson",
+      "impressions": 1,
+      "seen": "2026-11-25"
+    }
+  ]
+}

@@ -9,6 +9,8 @@ export const metadata: Metadata = pageMeta({
   title: "My Jerseys: Count and Share Your Jersey Collection",
   description: "Add every jersey you own from the NFL, NBA, WNBA, MLB, NHL and MLS, see your jersey count by sport, and share your collection with one link.",
   path: "/my-jerseys/",
+  // A personal collection tool with little text of its own: useful to visitors, not a search landing page.
+  noindex: true,
   shareTitle: "What's your jersey count?",
   shareText: "Add every NFL, NBA, WNBA, MLB, NHL and MLS jersey you own, then share your count with friends.",
 });
