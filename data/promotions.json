@@ -1,18 +1,5 @@
 [
   {
-    "id": "lids-lids30-cyber-week-2026",
-    "merchantId": "lids",
-    "headline": "30% off at Lids with code LIDS30",
-    "details": "Use code LIDS30 at checkout. Ends Nov. 25 at midnight ET; exclusions apply.",
-    "code": "LIDS30",
-    "url": "https://www.lids.com/",
-    "startDate": "2026-11-23",
-    "endDate": "2026-11-25",
-    "leagues": [],
-    "source": "Lids promo code shared by the site owner (offer expires 11/26/26 12:00 AM EST), entered by hand. Exclusions: https://www.lids.com/promo-exclusions/x-4764",
-    "lastVerified": "2026-11-23"
-  },
-  {
     "id": "lids-savebig-black-friday-2026",
     "merchantId": "lids",
     "headline": "Up to 60% off at Lids with code SAVEBIG",
@@ -89,5 +76,18 @@
     "leagues": [],
     "source": "Lids affiliate email to the site owner (Cyber Weekend 2026 code schedule, received 2026-11-25), entered by hand.",
     "lastVerified": "2026-11-25"
+  },
+  {
+    "id": "lids-deal-311500",
+    "merchantId": "lids",
+    "headline": "Up to 60% Off",
+    "details": "Up to 60% Off",
+    "code": "SAVEBIG",
+    "url": "http://www.lids.com/",
+    "startDate": "2026-11-25",
+    "endDate": "2026-11-27",
+    "leagues": [],
+    "source": "Impact.com partner API (Lids deals)",
+    "lastVerified": "2026-11-26"
   }
 ]
