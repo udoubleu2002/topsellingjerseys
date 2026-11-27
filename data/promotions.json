@@ -39,19 +39,6 @@
     "lastVerified": "2026-11-25"
   },
   {
-    "id": "lidsca-caps25-thanksgiving-2026",
-    "merchantId": "lidsca",
-    "headline": "Lids Canada: 25% off with code CAPS25",
-    "details": "Canada only: use code CAPS25 at lids.ca; exclusions apply.",
-    "code": "CAPS25",
-    "url": "https://www.lids.ca/",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-26",
-    "leagues": [],
-    "source": "Lids affiliate email to the site owner (Cyber Weekend 2026 code schedule, received 2026-11-25), entered by hand.",
-    "lastVerified": "2026-11-25"
-  },
-  {
     "id": "lidsca-caps49-black-friday-2026",
     "merchantId": "lidsca",
     "headline": "Lids Canada: 30% off orders over $49 with code CAPS49",
@@ -88,6 +75,6 @@
     "endDate": "2026-11-27",
     "leagues": [],
     "source": "Impact.com partner API (Lids deals)",
-    "lastVerified": "2026-11-26"
+    "lastVerified": "2026-11-27"
   }
 ]
