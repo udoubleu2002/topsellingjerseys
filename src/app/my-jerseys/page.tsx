@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { site, backendEnabled } from "@/lib/config";
 import { SiteHeader } from "@/components/SiteHeader";
+import { AmazonPicks } from "@/components/AmazonPicks";
 import { getLeagues, getPlayers, isIndexable, getCurrentRanking, getPlayer } from "@/lib/data";
 import type { League } from "@/lib/schema";
 
@@ -40,6 +41,13 @@ export default function MyJerseysPage() {
         <script type="application/json" id="mj-pages" dangerouslySetInnerHTML={{ __html: pagesJson }} />
         <script type="application/json" id="mj-top" dangerouslySetInnerHTML={{ __html: topJson }} />
         <div className="wrap mj-app" id="mj-app" data-site={site.url} dangerouslySetInnerHTML={{ __html: appHtml(leagues, backendEnabled) }} />
+        <AmazonPicks
+          id="mj-care"
+          kicker="For your collection"
+          title="Display, store and care for your jerseys"
+          dek="The gear that keeps a jersey collection looking new: cases and frames to show off your favorites, hangers and bags for the rest, and the right way to wash them."
+          page="my_jerseys"
+        />
       </main>
     </>
   );

@@ -9,6 +9,7 @@ import { ShopButton } from "@/components/ShopButton";
 import { PriceTag } from "@/components/PriceTag";
 import { Faq } from "@/components/Faq";
 import { DealsBar } from "@/components/Deals";
+import { AmazonPicks } from "@/components/AmazonPicks";
 import { JsonLd } from "@/components/JsonLd";
 import { getLeagues, getCurrentRanking, getPlayer, getProducts, getTeam } from "@/lib/data";
 import { productOffer } from "@/lib/affiliate";
@@ -122,6 +123,7 @@ export default function GiftGuidePage() {
             <nav className="gd-chips" aria-label="Jump to a fan">
               {leagues.map(({ league }) => <a key={league.id} href={`#gift-${league.id}`} style={{ "--lg": league.accent } as React.CSSProperties}>{league.name}</a>)}
               {youth.length > 0 && <a href="#gift-youth">Kids &amp; youth</a>}
+              <a href="#gift-display">Already has the jersey</a>
               <a href="#gift-tips">Sizing &amp; styles</a>
             </nav>
           </div>
@@ -161,6 +163,15 @@ export default function GiftGuidePage() {
             <PickCards picks={youth} placement="gift_youth" tag={() => "Youth"} />
           </section>
         )}
+
+        <AmazonPicks
+          id="gift-display"
+          kicker="Gifts beyond the jersey"
+          title="For the fan who already has the jersey"
+          dek="If they already own their favorite player's jersey, give them a way to show it off. A display case or frame turns a jersey, especially a signed one, into the centerpiece of a fan cave."
+          page="gift_guide"
+          picks={["jersey-display-case", "jersey-frame", "memorabilia-case", "jersey-hangers"]}
+        />
 
         <section id="gift-tips" className="wrap section" aria-labelledby="gg-faq">
           <div className="sec-head"><h2 id="gg-faq" className="sec-h">Jersey gift questions: sizing, styles and picks</h2></div>
