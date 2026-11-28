@@ -2548,3 +2548,12 @@ body:has(.mobile-menu[open]) .consent { display: none; }
 .gift-note { display: grid; gap: 6px; font-size: 13px; line-height: 1.45; color: var(--ink-2); }
 .gift-note strong { color: var(--ink); }
 .gift-ship { padding: 6px 10px; border-radius: 6px; background: color-mix(in srgb, var(--accent, #d9a441) 14%, transparent); }
+
+/* Amazon picks: jersey display, storage and care gear (src/components/AmazonPicks.tsx). */
+.amz-dek { max-width: 68ch; color: var(--ink-2); margin: 0 0 14px; }
+.amz-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 14px; }
+.amz-card { display: grid; grid-template-rows: auto 1fr auto; gap: 8px; padding: 16px; border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--surface); }
+.amz-card strong { font: 800 18px/1.15 var(--f-head); text-transform: uppercase; letter-spacing: .02em; }
+.amz-card p { margin: 0; font-size: 14px; color: var(--ink-2); }
+.amz-card .btn-shop { justify-self: start; }
+.amz-picks .disclosure { margin-top: 12px; font-size: 12px; color: var(--muted); }

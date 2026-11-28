@@ -3,6 +3,7 @@ import { getAnyTeam, getMerchant, getPlayer, getTeam, loadStore } from "./data";
 import { getArticle, type Article } from "./articles";
 import { getStory, type Story } from "./stories";
 import { bannerLink, lidsBanner } from "./lidsAds";
+import { amazonOffer, getAmazonPick } from "./amazonPicks";
 
 export interface Offer {
   id: string;
@@ -110,6 +111,11 @@ export function resolveOffer(offerId: string): Offer | null {
   if (promo) {
     const p = loadStore().promotions.find((x) => x.id === promo[1]);
     return p ? promoOffer(p) : null;
+  }
+  const amz = /^amazon-([a-z0-9-]+)$/.exec(offerId);
+  if (amz) {
+    const pick = getAmazonPick(amz[1]);
+    return pick ? amazonOffer(pick, withAffiliate) : null;
   }
   const ad = /^ad-lids-(\d+)$/.exec(offerId);
   if (ad) {

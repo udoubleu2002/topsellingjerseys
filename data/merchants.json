@@ -22,5 +22,13 @@
     "searchUrlTemplate": "https://www.fanatics.com/?query={query}",
     "affiliateEnv": "AFFILIATE_PARAMS_FANATICS",
     "notes": "Kept so older /out/search-fanatics-... links still resolve. Not the default shop."
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "homepage": "https://www.amazon.com/",
+    "searchUrlTemplate": "https://www.amazon.com/s?k={query}",
+    "affiliateEnv": "AFFILIATE_PARAMS_AMAZON",
+    "notes": "Amazon Associates. Used only for jersey display, storage and care gear (src/lib/amazonPicks.ts), never for jerseys, which go to Lids. Set AFFILIATE_PARAMS_AMAZON to tag=<your store id>. Amazon prices are never shown, because Associates rules allow prices only from Amazon's own API."
   }
 ]

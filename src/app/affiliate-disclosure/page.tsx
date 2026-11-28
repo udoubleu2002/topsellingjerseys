@@ -15,6 +15,7 @@ export default function Disclosure() {
         <li>Shopping links are marked as sponsored to search engines and open the retailer&apos;s site in a new tab.</li>
         <li>Commissions never affect the order of a ranking. Every list matches its published source.</li>
         <li>Prices, discounts and availability are set by the retailer. We show a price only for a listing we have checked, with the date we checked it.</li>
+        <li>{site.name} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases. We link to Amazon only for jersey display, storage and care gear, never for jerseys.</li>
         <li>Where we have not verified a specific product, the button opens the retailer&apos;s search for that player&apos;s jerseys and says so.</li>
       </ul>
       <h2>Questions</h2>
